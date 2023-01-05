@@ -1,0 +1,517 @@
+commit,author,date,title,file
+efca930,Aliaksandr Barouski,2022-01-31 11:18:56,Fixing potential security issue (#2108),python/prophet/serialize.py
+04ffdc9,Cuong Duong,2021-12-25 23:20:24,Add Windows wheel (#2089),python/prophet/models.py
+04ffdc9,Cuong Duong,2021-12-25 23:20:24,Add Windows wheel (#2089),python/setup.py
+9cdad80,Cuong Duong,2021-10-04 10:16:55,hotfix setup.py,python/setup.py
+675ece7,Anurag Kumar,2021-10-03 13:12:38,Update setup.py (#2027),python/setup.py
+4fb577e,Cuong Duong,2021-10-03 12:03:03,(Stage 1) Python Wheels for PyPi (#2010),python/prophet/models.py
+4fb577e,Cuong Duong,2021-10-03 12:03:03,(Stage 1) Python Wheels for PyPi (#2010),python/setup.py
+17dbb86,Marco Edward Gorelli,2021-08-28 03:19:40,Speed up make_holiday_features by up to 35% (#1962),python/prophet/forecaster.py
+17dbb86,Marco Edward Gorelli,2021-08-28 03:19:40,Speed up make_holiday_features by up to 35% (#1962),python/scripts/generate_holidays_file.py
+05aa1fd,slowy07,2021-08-03 08:37:45,fix: typo grammar,python/prophet/diagnostics.py
+d8d819a,Drobin Max,2021-05-24 17:32:14,Update forecaster.py,python/prophet/forecaster.py
+4b859bc,Greg Rafferty,2021-05-10 16:04:34,added argument for point color to cv plot (#1895),python/prophet/plot.py
+0616bfb,Ben Sully,2021-04-21 02:10:06,Add model_to_dict and model_from_dict functions (#1871),python/prophet/serialize.py
+847ecee,Ben Letham,2021-04-20 17:43:10,Merge,python/fbprophet/models.py
+3a0061e,loulo1,2021-04-14 15:39:02,change init into inits for CmdStanPyBackend,python/fbprophet/models.py
+899b4fa,Vladimir Shargin,2021-04-04 01:01:41,Add include_legend flag to m.plot() (#1858),python/prophet/forecaster.py
+899b4fa,Vladimir Shargin,2021-04-04 01:01:41,Add include_legend flag to m.plot() (#1858),python/prophet/plot.py
+94e5d2e,Sean Taylor,2021-03-26 15:36:07,Bump version numbers,python/setup.py
+94e5d2e,Sean Taylor,2021-03-26 15:36:07,Bump version numbers,python_shim/setup.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/__init__.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/diagnostics.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/forecaster.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/hdays.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/make_holidays.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/models.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/plot.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/serialize.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/tests/__init__.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/tests/test_diagnostics.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/tests/test_prophet.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/tests/test_serialize.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/tests/test_utilities.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/prophet/utilities.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/scripts/generate_holidays_file.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python/setup.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/__init__.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/diagnostics.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/forecaster.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/hdays.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/make_holidays.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/models.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/plot.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/serialize.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/tests/__init__.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/fbprophet/tests/test_package.py
+6d81543,Ben Letham,2021-03-21 17:13:50,Pakage rename (#1844),python_shim/setup.py
+16472a5,Cuong Duong,2021-03-21 04:59:58,Upgrade CmdStanPy interface (#1849),python/fbprophet/forecaster.py
+16472a5,Cuong Duong,2021-03-21 04:59:58,Upgrade CmdStanPy interface (#1849),python/fbprophet/models.py
+8ffa0e0,Cuong Duong,2021-03-21 04:50:14,use builtin int and float (#1850),python/fbprophet/forecaster.py
+fc8fa49,loulo1,2021-03-08 12:36:38,Fix the issue #1814,python/fbprophet/models.py
+8882c6a,Ben Letham,2021-03-05 09:55:35,Use pathlib to load model file (#1835),python/fbprophet/models.py
+49a89d2,Ben Letham,2021-03-04 20:12:34,Bump version in unit test,python/fbprophet/tests/test_serialize.py
+6129346,Ben Letham,2021-03-04 17:16:23,Version bump,python/fbprophet/__init__.py
+6129346,Ben Letham,2021-03-04 17:16:23,Version bump,python/setup.py
+eb6b8f6,Ben Letham,2021-03-03 18:40:27,Enable cross validation on a deserialized model (#1709),python/fbprophet/diagnostics.py
+bbc44bf,Ben Letham,2021-03-03 18:14:16,Add test for backwards compatibility with v0.7.1 serialized models,python/fbprophet/tests/test_serialize.py
+a1803a8,Ben Letham,2021-03-03 18:09:59,Minor rearrange,python/fbprophet/diagnostics.py
+74b21f7,Ben Letham,2021-03-03 18:04:15,Error for unrecognized options in StanBackend.set_options,python/fbprophet/models.py
+f123a1a,Ben Letham,2021-03-03 16:06:25,Fix holidays NA handling,python/fbprophet/forecaster.py
+2e9f831,Ben Letham,2021-03-03 15:43:49,Check for NAs in holiday dataframe,python/fbprophet/forecaster.py
+29f1417,Ben Letham,2021-03-03 15:23:12,Handle numpy fit_kwargs when serializing (#1701),python/fbprophet/serialize.py
+9e4e87a,Ben Letham,2021-03-03 14:52:08,Make sure y_scale is not numpy float (#1824),python/fbprophet/forecaster.py
+ad2de1e,Nodar Okroshiashvili,2021-03-02 05:25:03,Add Georgian holidays (#1827),python/fbprophet/hdays.py
+9bc7fb7,Luke Scales,2021-01-07 10:50:18,Added optional colour to plot_cross_validation_metric (#1758),python/fbprophet/plot.py
+20f590b,Devdutt Shenoi,2020-12-09 05:05:54,[python] code quality improvements (#1745),python/fbprophet/forecaster.py
+20f590b,Devdutt Shenoi,2020-12-09 05:05:54,[python] code quality improvements (#1745),python/fbprophet/hdays.py
+20f590b,Devdutt Shenoi,2020-12-09 05:05:54,[python] code quality improvements (#1745),python/fbprophet/models.py
+20f590b,Devdutt Shenoi,2020-12-09 05:05:54,[python] code quality improvements (#1745),python/scripts/generate_holidays_file.py
+20f590b,Devdutt Shenoi,2020-12-09 05:05:54,[python] code quality improvements (#1745),python/setup.py
+ee59245,Aziz Alto,2020-11-10 14:21:23,"Fix ""UserWarning"" in model.plot_components (#1732)",python/fbprophet/plot.py
+4f34de0,Sharon Woo,2020-11-07 13:46:01,'Added checks to cutoffs and error messages if checks fail using ValueError. Fixed earlier bug' (#1718),python/fbprophet/diagnostics.py
+97bb057,Pawel Kranzberg,2020-11-07 06:29:32,Update performance_metrics() in diagnostics.py (#1710),python/fbprophet/diagnostics.py
+97bb057,Pawel Kranzberg,2020-11-07 06:29:32,Update performance_metrics() in diagnostics.py (#1710),python/fbprophet/tests/test_diagnostics.py
+0a33f38,Greg Rafferty,2020-11-06 21:20:59,X axis labels in plot_seasonality (#1707),python/fbprophet/plot.py
+3a17402,fbonaita,2020-11-07 05:02:54,Tqdm flag (#1706),python/fbprophet/diagnostics.py
+e41ed25,quant9,2020-10-08 14:13:21,add option to disable Newton fallback via set_options method (#1702),python/fbprophet/models.py
+5faacc9,Ben Letham,2020-09-03 16:51:00,Update serialize test with version change,python/fbprophet/tests/test_serialize.py
+cb966a5,Ben Letham,2020-09-03 16:47:22,Fix issue with holidays in some years,python/fbprophet/__init__.py
+cb966a5,Ben Letham,2020-09-03 16:47:22,Fix issue with holidays in some years,python/fbprophet/make_holidays.py
+cb966a5,Ben Letham,2020-09-03 16:47:22,Fix issue with holidays in some years,python/fbprophet/tests/test_prophet.py
+cb966a5,Ben Letham,2020-09-03 16:47:22,Fix issue with holidays in some years,python/setup.py
+838c72f,Sean Taylor,2020-09-02 17:38:20,Split test into fast and slow part,python/fbprophet/tests/test_prophet.py
+96848bc,Ben Letham,2020-09-02 16:34:18,Fix test for python38,python/fbprophet/tests/test_diagnostics.py
+2061f25,Ben Letham,2020-08-27 18:36:18,"Clean up script for R holidays, and regenerate",python/scripts/generate_holidays_file.py
+3d0bb6e,Greg Rafferty,2020-08-27 17:49:19,fix for comma-separated holidays (#1638),python/fbprophet/make_holidays.py
+181933b,Ben Letham,2020-08-24 09:17:29,Change dataset for flat growth test,python/fbprophet/tests/test_prophet.py
+fb82a6a,Ben Letham,2020-08-18 13:04:39,Minor docstring updates,python/fbprophet/diagnostics.py
+fb82a6a,Ben Letham,2020-08-18 13:04:39,Minor docstring updates,python/fbprophet/forecaster.py
+0d0f508,Ben Letham,2020-08-18 12:34:47,Add test for deserialize backwards compatibility,python/fbprophet/tests/test_serialize.py
+a88f645,Ben Letham,2020-08-17 18:36:29,Fix test issues,python/fbprophet/forecaster.py
+a88f645,Ben Letham,2020-08-17 18:36:29,Fix test issues,python/fbprophet/tests/test_diagnostics.py
+a88f645,Ben Letham,2020-08-17 18:36:29,Fix test issues,python/fbprophet/tests/test_serialize.py
+ccde3a4,Ben Letham,2020-08-17 17:43:55,version bump,python/fbprophet/__init__.py
+ccde3a4,Ben Letham,2020-08-17 17:43:55,version bump,python/setup.py
+9fb8f10,Ben Letham,2020-08-17 17:40:01,Minor simplification to weekly plotting logic,python/fbprophet/plot.py
+2049217,Ben Letham,2020-08-17 17:25:55,Use y_scale in coefficient utility,python/fbprophet/utilities.py
+a519043,Ben Letham,2020-08-17 16:24:34,Fix bug in changepoint handling in prophet_copy (#1529),python/fbprophet/diagnostics.py
+fb65521,Ben Letham,2020-08-17 14:51:06,Deduplicate history dates for make_future_dataframe,python/fbprophet/forecaster.py
+6ec0a90,Ben Letham,2020-08-17 14:24:47,Use holidays package for Turkey,python/fbprophet/hdays.py
+75ec9df,Ben Letham,2020-08-14 11:03:04,Fix holidays for pandas 1.1.0,python/fbprophet/forecaster.py
+ad53b42,anqus,2020-08-12 22:30:06,Plot continuous weekly seasonality with sub daily data (#1615),python/fbprophet/plot.py
+40b170b,Cuong Duong,2020-08-13 05:12:24,Add helper function to summarise coefficients of extra regressors (#1572),python/fbprophet/tests/test_utilities.py
+40b170b,Cuong Duong,2020-08-13 05:12:24,Add helper function to summarise coefficients of extra regressors (#1572),python/fbprophet/utilities.py
+1053a6e,Dani,2020-07-30 07:02:37,Update PyPi package metadata and resolve Travis CI failing build (#1602),python/setup.py
+8784482,Robin Teuwens,2020-06-11 02:33:12,Making sure 'holiday' is a Dataframe when using plot_components_ploty() (#1526),python/fbprophet/plot.py
+30bcfed,Ryan Nazareth,2020-06-06 01:51:25,Include mdape in performance metric docstring (#1512),python/fbprophet/diagnostics.py
+31841c9,Ryan Nazareth,2020-06-06 01:46:41,import tqdm.auto instead (#1509),python/fbprophet/diagnostics.py
+5669f13,Chanran Kim,2020-06-06 08:54:58,Drop Korea class from hdays.py (#1438),python/fbprophet/hdays.py
+ac59b44,Ryan Nazareth,2020-05-15 05:40:40,add implementation for constant trend in Python (#1466),python/fbprophet/forecaster.py
+ac59b44,Ryan Nazareth,2020-05-15 05:40:40,add implementation for constant trend in Python (#1466),python/fbprophet/tests/test_diagnostics.py
+ac59b44,Ryan Nazareth,2020-05-15 05:40:40,add implementation for constant trend in Python (#1466),python/fbprophet/tests/test_prophet.py
+cb4f1dc,Ryan Nazareth,2020-05-14 20:16:34,Remove Python 2 from setup.py (#1485),python/setup.py
+9168dcf,above-c-level,2020-05-06 14:00:03,Removed redundant line in Prophet docstring (#1474),python/fbprophet/forecaster.py
+98f2a7b,Chris Benson,2020-04-28 12:30:31,Fix Issue with Pickling Models in Python3.6 because of Logger Attribute (#1452),python/fbprophet/forecaster.py
+98f2a7b,Chris Benson,2020-04-28 12:30:31,Fix Issue with Pickling Models in Python3.6 because of Logger Attribute (#1452),python/fbprophet/models.py
+5fe3be8,Tom Augspurger,2020-04-28 14:25:41,Parallel Cross Validation (#1434),python/fbprophet/diagnostics.py
+5fe3be8,Tom Augspurger,2020-04-28 14:25:41,Parallel Cross Validation (#1434),python/fbprophet/tests/test_diagnostics.py
+6cd1443,Ben Letham,2020-04-04 08:43:28,Update version in serialize test,python/fbprophet/tests/test_serialize.py
+231200f,Ben Letham,2020-04-04 08:28:22,mark dev version,python/fbprophet/__init__.py
+231200f,Ben Letham,2020-04-04 08:28:22,mark dev version,python/setup.py
+c943d96,Ben Letham,2020-04-04 08:23:27,Add functions for serializing to/from JSON (#1414),python/fbprophet/forecaster.py
+c943d96,Ben Letham,2020-04-04 08:23:27,Add functions for serializing to/from JSON (#1414),python/fbprophet/serialize.py
+c943d96,Ben Letham,2020-04-04 08:23:27,Add functions for serializing to/from JSON (#1414),python/fbprophet/tests/test_diagnostics.py
+c943d96,Ben Letham,2020-04-04 08:23:27,Add functions for serializing to/from JSON (#1414),python/fbprophet/tests/test_serialize.py
+3c69ce3,Marco Fusi,2020-03-27 00:36:02,modified cross_validation to allow custom cutoffs (#1402),python/fbprophet/diagnostics.py
+3c69ce3,Marco Fusi,2020-03-27 00:36:02,modified cross_validation to allow custom cutoffs (#1402),python/fbprophet/tests/test_diagnostics.py
+d22922d,Mitzi Morris,2020-03-24 17:33:52,"sampling iters arg name, logic changes (#1389)",python/fbprophet/models.py
+e9771c8,sheikheddy,2020-03-24 03:25:12,Holidays in United Arab Emirates (#1390),python/fbprophet/hdays.py
+d9bea61,Ben Letham,2020-03-09 15:20:25,Remvoe no longer necessary test,python/fbprophet/tests/test_diagnostics.py
+44ceaa8,Ben Letham,2020-03-09 12:48:14,Don't use tqdm with multiprocessing starmap,python/fbprophet/diagnostics.py
+39c619d,Ryan Nazareth,2020-03-09 19:25:01,Running Cross-Validation with Multiprocessing Option (#1356),python/fbprophet/diagnostics.py
+39c619d,Ryan Nazareth,2020-03-09 19:25:01,Running Cross-Validation with Multiprocessing Option (#1356),python/fbprophet/tests/test_diagnostics.py
+fd61fcb,Dmitry,2020-03-07 05:40:58,Holidays in Belarus + codestyle (#1380),python/fbprophet/hdays.py
+0ca50cf,Ryan Nazareth,2020-03-07 02:11:04,Extract stanfit from model object in Py following cmdstanpy refactoring (#1353),python/fbprophet/models.py
+d8dd2f5,Ben Letham,2020-03-04 16:01:02,Add progress bar to cross_validation (#1338),python/fbprophet/diagnostics.py
+952b544,Ram Rachum,2020-03-04 03:34:06,Fix exception causes in 2 modules (#1370),python/fbprophet/make_holidays.py
+952b544,Ram Rachum,2020-03-04 03:34:06,Fix exception causes in 2 modules (#1370),python/fbprophet/models.py
+560077c,JayCarraway,2020-03-04 01:24:48,Add possibility of selecting province of country for creation of holiday (#1340),python/fbprophet/make_holidays.py
+101dd50,Sean Taylor,2020-02-17 17:20:20,Delay some imports to allow installation w/o deps,python/fbprophet/models.py
+101dd50,Sean Taylor,2020-02-17 17:20:20,Delay some imports to allow installation w/o deps,python/setup.py
+59f34eb,Ryan Nazareth,2020-02-17 23:00:14,suppress plotly error logging  (#1332),python/fbprophet/plot.py
+8c48f5b,Christoph Deil,2020-02-17 23:11:23,Remove logging.root basicConfig on fbprophet import (#1336),python/fbprophet/forecaster.py
+57990e6,Ben Letham,2020-02-11 03:38:18,Change backend logging from info to debug,python/fbprophet/forecaster.py
+9413c11,Ben Letham,2020-02-09 19:16:05,version bump,python/fbprophet/__init__.py
+9413c11,Ben Letham,2020-02-09 19:16:05,version bump,python/setup.py
+1d18adc,Christopher Suchanek,2020-02-07 14:34:08,Replaced pystan with cmdstanpy (#1083),python/fbprophet/diagnostics.py
+1d18adc,Christopher Suchanek,2020-02-07 14:34:08,Replaced pystan with cmdstanpy (#1083),python/fbprophet/forecaster.py
+1d18adc,Christopher Suchanek,2020-02-07 14:34:08,Replaced pystan with cmdstanpy (#1083),python/fbprophet/models.py
+1d18adc,Christopher Suchanek,2020-02-07 14:34:08,Replaced pystan with cmdstanpy (#1083),python/fbprophet/tests/test_prophet.py
+1d18adc,Christopher Suchanek,2020-02-07 14:34:08,Replaced pystan with cmdstanpy (#1083),python/setup.py
+496facb,Jack Dent,2020-02-05 13:10:01,Use np.percentile if array does not contain NaNs (#1311),python/fbprophet/forecaster.py
+69bd5a2,Ben Letham,2020-02-04 16:00:37,Avoid pandas deprecation warning,python/fbprophet/forecaster.py
+30e68fd,Ben Letham,2020-02-04 15:55:12,Fix deprecation warning from plotly,python/fbprophet/plot.py
+71ca505,Ben Letham,2020-02-04 15:40:04,Add test for cross validation with invalid metrics,python/fbprophet/tests/test_diagnostics.py
+64d54e7,Ben Letham,2020-02-04 15:23:11,Fixing some holiday parsing for R csv file,python/scripts/generate_holidays_file.py
+f640308,Ben Letham,2020-02-04 15:12:28,"Update holidays csv for R, and fix bad utf-8 parsing",python/fbprophet/hdays.py
+f640308,Ben Letham,2020-02-04 15:12:28,"Update holidays csv for R, and fix bad utf-8 parsing",python/scripts/generate_holidays_file.py
+be25372,Ben Letham,2020-02-04 13:22:08,improvements in docstrings and testing for disabling uncertainty,python/fbprophet/tests/test_diagnostics.py
+6e51130,Ben Letham,2020-02-03 17:02:23,Use fit kwargs in cross validation (#1040),python/fbprophet/diagnostics.py
+6e51130,Ben Letham,2020-02-03 17:02:23,Use fit kwargs in cross validation (#1040),python/fbprophet/forecaster.py
+6e51130,Ben Letham,2020-02-03 17:02:23,Use fit kwargs in cross validation (#1040),python/fbprophet/tests/test_diagnostics.py
+6e51130,Ben Letham,2020-02-03 17:02:23,Use fit kwargs in cross validation (#1040),python/fbprophet/tests/test_prophet.py
+ffb0ea8,Rômulo Madureira Rodrigues,2020-02-03 17:40:20,Correction for issue #1304\n\nChange use of weekday_name to day_name to add consistency with pandas 1.0. (#1308),python/fbprophet/plot.py
+d4c460e,Ben Letham,2020-01-31 08:03:33,"Add dateutil requirement, get backwards compatability with holidays 0.9.5",python/fbprophet/hdays.py
+6070b5a,Mert Sarikaya,2020-01-31 02:24:11,update holidays dependency according to the new structure (#1295),python/fbprophet/hdays.py
+0a270b4,Benjamin Ogorek,2020-01-28 18:24:40,Minor modification in handling strings (#1301),python/fbprophet/forecaster.py
+5dd6bb0,Mert Sarikaya,2020-01-09 16:14:21,remove repeated sentence in docstring,python/fbprophet/forecaster.py
+8bca432,raajtilaksarma,2019-12-04 10:45:48,update hdays.py,python/fbprophet/hdays.py
+0d4a639,Raaj Tilak Sarma,2019-11-26 17:38:31,update holi and diwali holidays till 2030,python/fbprophet/hdays.py
+af5bb2a,Ben Letham,2020-01-27 13:28:04,Minor fixes,python/fbprophet/forecaster.py
+aee1454,baogorek,2019-11-26 10:06:25,fixing syntax errors,python/fbprophet/forecaster.py
+d98afa0,baogorek,2019-11-26 09:43:57,changed f-strings to named formatted strings due to Python2 build,python/fbprophet/forecaster.py
+b1c6f5d,baogorek,2019-11-19 13:23:22,minor style changes,python/fbprophet/forecaster.py
+b1c6f5d,baogorek,2019-11-19 13:23:22,minor style changes,python/fbprophet/tests/test_prophet.py
+0b6c2dc,baogorek,2019-11-19 12:35:49,fixing cases where tests were broken,python/fbprophet/forecaster.py
+3a6a338,baogorek,2019-11-19 11:26:12,Style modifications to fbprophet,python/fbprophet/forecaster.py
+3a6a338,baogorek,2019-11-19 11:26:12,Style modifications to fbprophet,python/fbprophet/tests/test_diagnostics.py
+3a6a338,baogorek,2019-11-19 11:26:12,Style modifications to fbprophet,python/fbprophet/tests/test_prophet.py
+31c54d5,Ryan Nazareth,2019-11-05 00:25:49,Modify assertion statement for ignoring ordering of columns to pass on travis,python/fbprophet/tests/test_diagnostics.py
+31c54d5,Ryan Nazareth,2019-11-05 00:25:49,Modify assertion statement for ignoring ordering of columns to pass on travis,python/fbprophet/tests/test_prophet.py
+da05c03,Ryan Nazareth,2019-11-03 20:32:51,Add second check for uncertainty=False,python/fbprophet/tests/test_diagnostics.py
+da05c03,Ryan Nazareth,2019-11-03 20:32:51,Add second check for uncertainty=False,python/fbprophet/tests/test_prophet.py
+3134c7f,Ryan Nazareth,2019-11-02 23:43:09,Add test for cv in diagnostics,python/fbprophet/tests/test_diagnostics.py
+3134c7f,Ryan Nazareth,2019-11-02 23:43:09,Add test for cv in diagnostics,python/fbprophet/tests/test_prophet.py
+c9e3a83,Ryan Nazareth,2019-11-02 20:45:19,Add test for disabling uncertainty,python/fbprophet/tests/test_prophet.py
+ca9a49d,Maxim Grishin,2019-10-26 00:01:28,Add test for MCMC with 0 changepoints,python/fbprophet/tests/test_prophet.py
+a664667,Maxim Grishin,2019-10-25 23:42:58,Fix plotting with 0 changepoints,python/fbprophet/plot.py
+9425b89,Maxim Grishin,2019-10-25 23:39:10,Fix #1189,python/fbprophet/forecaster.py
+5ad4e8a,Marcos Alves de Almeida,2019-10-24 16:05:06,Update hdays.py,python/fbprophet/hdays.py
+a3ae471,Maxim Grishin,2019-09-29 23:24:38,Make Python version consistent with R,python/fbprophet/forecaster.py
+05effe5,Maxim Grishin,2019-09-29 23:14:40,Make StanFit4Model object accessible from Prophet,python/fbprophet/forecaster.py
+e1a2b9c,Florian Roessler,2019-08-29 15:05:43,updated the change a bit to prevent unnessary copy operations,python/fbprophet/forecaster.py
+5bc6565,Florian Roessler,2019-08-29 14:58:31,Add test and fix for issue #891,python/fbprophet/forecaster.py
+5bc6565,Florian Roessler,2019-08-29 14:58:31,Add test and fix for issue #891,python/fbprophet/tests/test_prophet.py
+f4cb9fc,Timothy Salmon,2019-07-28 17:10:51,Unpack Solar to date,python/fbprophet/hdays.py
+c02bb3b,Timothy Salmon,2019-07-28 15:04:38,Replace lunardate lunar2solar calls with LunarCalendar,python/fbprophet/hdays.py
+ded98c4,Francis T. O'Donovan,2019-07-25 19:20:21,Add python 2/3 trove classifiers,python/setup.py
+c179a28,Alexander Gawrilow,2019-07-31 15:31:26,fix bug in performance metrics,python/fbprophet/diagnostics.py
+7f214f2,Alexander Gawrilow,2019-07-31 15:05:36,adapt cross validation to a model with 0 uncertainty samples,python/fbprophet/diagnostics.py
+a6a1381,Alexander Gawrilow,2019-07-23 12:41:45,disable plotting uncertainties if m.uncertainty_samples is 0 or False,python/fbprophet/plot.py
+0679e69,Alexander Gawrilow,2019-07-23 10:59:28,implemented disabling calculation of uncertainties if uncertainty_samples is 0,python/fbprophet/forecaster.py
+aa26be5,Chanran Kim,2019-07-02 15:51:46,Update hdays.py,python/fbprophet/hdays.py
+beb133f,Chanran Kim,2019-07-02 15:45:42,Update hdays.py,python/fbprophet/hdays.py
+995a531,Chanran Kim,2019-07-02 15:37:07,Update hdays.py,python/fbprophet/hdays.py
+0d37a46,Olof-Hojvall,2019-07-01 14:04:16,Fixed Plotly Holiday Hover Text,python/fbprophet/plot.py
+3ac99e1,Olof-Hojvall,2019-06-24 20:18:42,Creation of new Plotly plot for all components,python/fbprophet/plot.py
+df8e39a,Kishan Manani,2019-06-28 11:14:26,Replace functools.reduce() with pd.concat() to concat dataframes in cross_validation,python/fbprophet/diagnostics.py
+4225bb5,Louis Potok,2019-05-28 17:53:22,"Add mdape to all diagnostics, and fix rolling median behavior.",python/fbprophet/diagnostics.py
+4225bb5,Louis Potok,2019-05-28 17:53:22,"Add mdape to all diagnostics, and fix rolling median behavior.",python/fbprophet/tests/test_diagnostics.py
+1b01ab9,Louis Potok,2019-05-15 16:33:25,add function and test for rolling median,python/fbprophet/diagnostics.py
+1b01ab9,Louis Potok,2019-05-15 16:33:25,add function and test for rolling median,python/fbprophet/tests/test_diagnostics.py
+0e0f1a6,Daniel Scally,2019-05-28 21:51:01,Adding validation to Prophet.add_seasonality to prevent user setting fourier_order <= 0,python/fbprophet/forecaster.py
+0e0f1a6,Daniel Scally,2019-05-28 21:51:01,Adding validation to Prophet.add_seasonality to prevent user setting fourier_order <= 0,python/fbprophet/tests/test_prophet.py
+b77f85f,Alessandro Romano,2019-05-15 14:36:53,Add figsize parameter to plot methods,python/fbprophet/forecaster.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/diagnostics.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/forecaster.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/hdays.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/make_holidays.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/models.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/plot.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/tests/test_diagnostics.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/fbprophet/tests/test_prophet.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/scripts/generate_holidays_file.py
+7ff3313,Ben Letham,2019-05-21 11:40:04,Change to MIT license,python/setup.py
+a087eae,Ben Letham,2019-05-14 15:26:55,Fix FutureWarning in plotting by deregistering matplotlib converters (the future behavior). Also fix bad date formatting in non-daily plot that started came with change in matplotlib default in 3.0.2,python/fbprophet/plot.py
+73c8faf,Ben Letham,2019-05-14 09:11:21,py version bump,python/fbprophet/__init__.py
+39e356d,Sean J. Taylor,2019-05-13 23:00:12,Readying for 0.5 release,python/setup.py
+526468b,Ben Letham,2019-05-13 15:28:58,"Fix FutureWarning in test, for sorting because non-concatenation axis is not aligned",python/fbprophet/tests/test_prophet.py
+fdac46a,Ben Letham,2019-05-13 15:21:54,Fix DeprecationWarning for float64 casting,python/fbprophet/forecaster.py
+f660264,Ben Letham,2019-05-13 15:00:45,Don't allow timezones in pandas datetime,python/fbprophet/forecaster.py
+df6bef8,Ben Letham,2019-05-13 13:51:27,Replace to_numpy() with values to maintain pd 0.23.4 support,python/fbprophet/forecaster.py
+28cd552,Ben Letham,2019-05-13 13:11:07,Verify that cap > floor (#807),python/fbprophet/forecaster.py
+269133c,Ben Letham,2019-05-08 10:47:26,"Change cross validation performance metrics to first aggregate over horizon before computing rolling average (#839, #863)",python/fbprophet/diagnostics.py
+269133c,Ben Letham,2019-05-08 10:47:26,"Change cross validation performance metrics to first aggregate over horizon before computing rolling average (#839, #863)",python/fbprophet/plot.py
+269133c,Ben Letham,2019-05-08 10:47:26,"Change cross validation performance metrics to first aggregate over horizon before computing rolling average (#839, #863)",python/fbprophet/tests/test_diagnostics.py
+e9c017b,Ben Letham,2019-05-07 11:47:36,"Default to Newton optimizer if less than 100 datapoints (#842, #870, #888)",python/fbprophet/forecaster.py
+26f60c0,Ben Letham,2019-05-06 16:38:13,"If ds column is int, convert to str before pd.to_datetime to avoid nanosecond casting (#675)",python/fbprophet/forecaster.py
+4e5e223,Ben Letham,2019-05-06 16:15:23,Add plotly plot to quickstart example,python/fbprophet/plot.py
+ee14933,Olof Höjvall,2019-05-06 22:55:25,"Changed returned object of plot_plotly, addressing #937 (#954)",python/fbprophet/plot.py
+ec7689f,Ben Letham,2019-05-06 09:49:29,"R fallback to Newton if non-zero return code from optimization, to match existing Py behavior (#654)",python/fbprophet/forecaster.py
+7297d98,Ben Letham,2019-05-03 10:44:23,Use OrderedDict for seasonalities (#643),python/fbprophet/forecaster.py
+c8f2e8f,Ben Letham,2019-05-03 08:40:20,"Warn in cross validation if initial period is less than seasonality (#557), and fix bug that can produce error if period > initial",python/fbprophet/diagnostics.py
+35d470c,Ben Letham,2019-05-02 14:53:57,Meaningful error message if predict is called before fit (for #462),python/fbprophet/forecaster.py
+c11e668,Jerry Prawiharjo,2019-05-02 14:34:24,Add logger.warning when falling back to Newton method (#950),python/fbprophet/forecaster.py
+f9adb96,Ray Bell,2019-05-02 14:51:35,WIP: remove python Series.nonzero warning (#931),python/fbprophet/forecaster.py
+c756d20,Olof Höjvall,2019-04-18 01:47:16,Added a interactive Plotly plot of the forecast (#915),python/fbprophet/plot.py
+8eea5a1,Olof Höjvall,2019-03-18 18:04:35,Feature Proposal with Python Draft: Masked seasonality (#873),python/fbprophet/diagnostics.py
+8eea5a1,Olof Höjvall,2019-03-18 18:04:35,Feature Proposal with Python Draft: Masked seasonality (#873),python/fbprophet/forecaster.py
+8eea5a1,Olof Höjvall,2019-03-18 18:04:35,Feature Proposal with Python Draft: Masked seasonality (#873),python/fbprophet/plot.py
+8eea5a1,Olof Höjvall,2019-03-18 18:04:35,Feature Proposal with Python Draft: Masked seasonality (#873),python/fbprophet/tests/test_diagnostics.py
+8eea5a1,Olof Höjvall,2019-03-18 18:04:35,Feature Proposal with Python Draft: Masked seasonality (#873),python/fbprophet/tests/test_prophet.py
+eec2f46,MT,2019-03-18 09:41:45,if optimization fails fallback to Newton even if algorithm is specified (#890),python/fbprophet/forecaster.py
+bd09792,Gabriel Linder,2019-02-15 19:28:51,Fix FutureWarning from Pandas 0.24.0. (#830),python/fbprophet/forecaster.py
+ef670ea,Sean J. Taylor,2019-01-15 17:24:43,Bump version number for new release,python/setup.py
+de5b749,Ben Letham,2019-01-15 12:47:54,Remove pd.Series from np.matmul,python/fbprophet/forecaster.py
+34af9ef,Sean J. Taylor,2019-01-08 11:00:54,Post1 release + remove pyproject.toml file,python/setup.py
+aebe8da,Gordon Inggs,2019-01-08 02:22:31,Rather using Monday const from built-in calendar.py (#791),python/fbprophet/hdays.py
+3e31d5d,Ben Letham,2018-12-20 18:15:07,Fix absolute paths in setup.py,python/setup.py
+1f24d05,Ben Letham,2018-12-20 16:11:53,Setup update,python/setup.py
+9557e57,Ben Letham,2018-12-20 15:46:55,Build fix,python/setup.py
+9676019,Ben Letham,2018-12-20 15:36:02,Update manifest and include package data,python/setup.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/diagnostics.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/forecaster.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/hdays.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/make_holidays.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/models.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/fbprophet/plot.py
+f16e227,Mpho Mphego,2018-12-21 01:33:23,Update and rename README to README.md and Unicode strings (#766),python/setup.py
+a5da086,Sean J. Taylor,2018-12-04 14:49:44,Clean non-ASCII characters out of generated_holidays,python/scripts/generate_holidays_file.py
+c9f1cca,Ben Letham,2018-12-03 22:21:37,Version bump; test fixes; R build,python/fbprophet/__init__.py
+c9f1cca,Ben Letham,2018-12-03 22:21:37,Version bump; test fixes; R build,python/fbprophet/diagnostics.py
+c9f1cca,Ben Letham,2018-12-03 22:21:37,Version bump; test fixes; R build,python/fbprophet/tests/test_diagnostics.py
+c9f1cca,Ben Letham,2018-12-03 22:21:37,Version bump; test fixes; R build,python/setup.py
+635ae5a,Ben Letham,2018-12-03 20:14:24,Have fixed ordering for components plots,python/fbprophet/plot.py
+1d398c6,Ben Letham,2018-12-03 19:05:47,Allow overriding any of the arguments to stan functions,python/fbprophet/forecaster.py
+0f5f05d,Baran Buluttekin,2018-12-04 00:54:39,Fix url for docstring in Turkey class (#751),python/fbprophet/hdays.py
+f442850,Ben Letham,2018-12-03 16:29:07,Allow setting other handlers in the logging,python/fbprophet/diagnostics.py
+f442850,Ben Letham,2018-12-03 16:29:07,Allow setting other handlers in the logging,python/fbprophet/forecaster.py
+f442850,Ben Letham,2018-12-03 16:29:07,Allow setting other handlers in the logging,python/fbprophet/plot.py
+b76ace9,Ben Letham,2018-12-03 15:43:13,Test type casting of extra regressors,python/fbprophet/tests/test_prophet.py
+13d96cf,Ben Letham,2018-12-03 15:22:19,"Fix type casting for extra regressors, and a shape issue",python/fbprophet/forecaster.py
+91917df,Ben Letham,2018-12-03 14:25:28,Handle parameter shaping with MCMC and one changepoint (#608),python/fbprophet/forecaster.py
+e3ad97b,Ben Letham,2018-12-03 13:25:26,Documentation fixes,python/fbprophet/plot.py
+536fe93,Ben Letham,2018-12-03 11:54:55,Add documentation for country holidays,python/fbprophet/forecaster.py
+536fe93,Ben Letham,2018-12-03 11:54:55,Add documentation for country holidays,python/fbprophet/plot.py
+287fb2f,Ben Letham,2018-11-30 23:12:19,Move built-in country holidays to a function (R),python/fbprophet/forecaster.py
+92f955d,Ben Letham,2018-11-30 17:20:22,Move built-in country holidays to a method,python/fbprophet/forecaster.py
+92f955d,Ben Letham,2018-11-30 17:20:22,Move built-in country holidays to a method,python/fbprophet/tests/test_prophet.py
+9928dc3,Ben Letham,2018-11-02 17:27:45,Fix missing kwarg,python/fbprophet/plot.py
+d432ff4,jope35,2018-11-02 21:08:40,add symmetric mean absolute percentage error (#721),python/fbprophet/diagnostics.py
+ff65d14,MT,2018-10-23 12:02:43,Fix duplicate kwarg algorithm when newton fallback is selected (#708),python/fbprophet/forecaster.py
+e63f8cd,S-Katagiri,2018-10-19 10:07:42,change extra_regressors to OrderedDict (#688),python/fbprophet/forecaster.py
+55ca338,Florian Schäfer,2018-10-19 03:04:53,Figsize argument (#706),python/fbprophet/plot.py
+95fa446,ziye666,2018-10-18 17:40:17, Fix bug about holiday year different from input year and others (#670),python/fbprophet/hdays.py
+95fa446,ziye666,2018-10-18 17:40:17, Fix bug about holiday year different from input year and others (#670),python/fbprophet/make_holidays.py
+95fa446,ziye666,2018-10-18 17:40:17, Fix bug about holiday year different from input year and others (#670),python/fbprophet/tests/test_diagnostics.py
+95fa446,ziye666,2018-10-18 17:40:17, Fix bug about holiday year different from input year and others (#670),python/scripts/generate_holidays_file.py
+c1a3839,Ben Letham,2018-08-27 14:06:10,Remove deprecated methods,python/fbprophet/forecaster.py
+9f86b9e,Ben Letham,2018-08-27 14:02:57,now a dev version,python/fbprophet/__init__.py
+817f030,ziye666,2018-08-27 13:52:34,Modification of holiday features  (#644),python/fbprophet/diagnostics.py
+817f030,ziye666,2018-08-27 13:52:34,Modification of holiday features  (#644),python/fbprophet/forecaster.py
+817f030,ziye666,2018-08-27 13:52:34,Modification of holiday features  (#644),python/fbprophet/hdays.py
+817f030,ziye666,2018-08-27 13:52:34,Modification of holiday features  (#644),python/fbprophet/make_holidays.py
+817f030,ziye666,2018-08-27 13:52:34,Modification of holiday features  (#644),python/fbprophet/tests/test_prophet.py
+8d804fc,Kevin Wilson,2018-06-18 17:15:16,Explicitly use 64-bit integers in plot functions (#577),python/fbprophet/plot.py
+9beb1cb,Sean J. Taylor,2018-06-13 16:03:44,Version bumps before submitting new packages,python/setup.py
+a586950,Ben Letham,2018-06-11 15:18:40,Fix unittest for Py3.6 ordered dicts,python/fbprophet/tests/test_prophet.py
+bd2542e,Sean J. Taylor,2018-06-02 09:31:15,Post-release version due to bad package upload,python/setup.py
+107f74f,Ben Letham,2018-06-01 14:53:45,Allow constant extra regressors,python/fbprophet/forecaster.py
+107f74f,Ben Letham,2018-06-01 14:53:45,Allow constant extra regressors,python/fbprophet/tests/test_prophet.py
+371e8a3,bl,2018-05-30 17:02:47,Version bump,python/fbprophet/__init__.py
+371e8a3,bl,2018-05-30 17:02:47,Version bump,python/setup.py
+f877543,bl,2018-05-30 16:35:17,"Remove vestigial comments, structure imports",python/fbprophet/diagnostics.py
+f877543,bl,2018-05-30 16:35:17,"Remove vestigial comments, structure imports",python/fbprophet/forecaster.py
+f877543,bl,2018-05-30 16:35:17,"Remove vestigial comments, structure imports",python/fbprophet/models.py
+f877543,bl,2018-05-30 16:35:17,"Remove vestigial comments, structure imports",python/fbprophet/tests/test_diagnostics.py
+f877543,bl,2018-05-30 16:35:17,"Remove vestigial comments, structure imports",python/fbprophet/tests/test_prophet.py
+b96800e,bl,2018-05-30 14:36:36,Replace assertions with error messages,python/fbprophet/forecaster.py
+1b91fa3,bl,2018-05-30 14:33:04,Fit if constant history and logistic growth,python/fbprophet/forecaster.py
+218283f,Ben Letham,2018-05-30 12:09:54,"Simplify logic/interfaces for cross_validation, to better handle irregularly spaced data and actually respect initial window",python/fbprophet/diagnostics.py
+218283f,Ben Letham,2018-05-30 12:09:54,"Simplify logic/interfaces for cross_validation, to better handle irregularly spaced data and actually respect initial window",python/fbprophet/tests/test_diagnostics.py
+cdc3135,Ben Letham,2018-05-29 21:47:11,Switch future changepoint generation to fully continuous model,python/fbprophet/forecaster.py
+7277e6c,Ben Letham,2018-05-29 16:17:59,Better error messaging for required columns ds and y,python/fbprophet/forecaster.py
+cbe1f5e,Ben Letham,2018-05-28 12:37:23,Documentation and plot fix for multiplicative seasonality,python/fbprophet/plot.py
+68ff9e5,Ben Letham,2018-05-25 17:00:27,Fix issue in Python when changepoint_range=1,python/fbprophet/forecaster.py
+68ff9e5,Ben Letham,2018-05-25 17:00:27,Fix issue in Python when changepoint_range=1,python/fbprophet/tests/test_prophet.py
+cb0b479,Ben Letham,2018-05-25 16:45:24,Validation and tests for setting range for automatic changepoints,python/fbprophet/diagnostics.py
+cb0b479,Ben Letham,2018-05-25 16:45:24,Validation and tests for setting range for automatic changepoints,python/fbprophet/forecaster.py
+cb0b479,Ben Letham,2018-05-25 16:45:24,Validation and tests for setting range for automatic changepoints,python/fbprophet/tests/test_diagnostics.py
+cb0b479,Ben Letham,2018-05-25 16:45:24,Validation and tests for setting range for automatic changepoints,python/fbprophet/tests/test_prophet.py
+ba1bac8,Marc Ferradou,2018-05-25 18:53:19,Adding changepoint threshold (#299),python/fbprophet/forecaster.py
+6d2e93c,Ben Letham,2018-05-25 15:44:05,Fix pandas deprecation warning for as_matrix,python/fbprophet/forecaster.py
+7c010aa,Ben Letham,2018-05-15 10:07:38,Multiplicative seasonality (R),python/fbprophet/forecaster.py
+7c010aa,Ben Letham,2018-05-15 10:07:38,Multiplicative seasonality (R),python/fbprophet/plot.py
+f1e24d3,Ben Letham,2018-05-11 17:54:29,Show multiplicative seasonality as percent in plots (Py),python/fbprophet/forecaster.py
+f1e24d3,Ben Letham,2018-05-11 17:54:29,Show multiplicative seasonality as percent in plots (Py),python/fbprophet/plot.py
+f1e24d3,Ben Letham,2018-05-11 17:54:29,Show multiplicative seasonality as percent in plots (Py),python/fbprophet/tests/test_prophet.py
+8d8c5b4,Ben Letham,2018-05-09 12:25:29,Multiplicative seasonality (Py),python/fbprophet/diagnostics.py
+8d8c5b4,Ben Letham,2018-05-09 12:25:29,Multiplicative seasonality (Py),python/fbprophet/forecaster.py
+8d8c5b4,Ben Letham,2018-05-09 12:25:29,Multiplicative seasonality (Py),python/fbprophet/plot.py
+8d8c5b4,Ben Letham,2018-05-09 12:25:29,Multiplicative seasonality (Py),python/fbprophet/tests/test_diagnostics.py
+8d8c5b4,Ben Letham,2018-05-09 12:25:29,Multiplicative seasonality (Py),python/fbprophet/tests/test_prophet.py
+b9923fd,Ben Letham,2018-05-07 17:09:02,Compute and store binary matrix of which seasonalities/regressors correspond to which columns in the feature matrix (Py),python/fbprophet/forecaster.py
+b9923fd,Ben Letham,2018-05-07 17:09:02,Compute and store binary matrix of which seasonalities/regressors correspond to which columns in the feature matrix (Py),python/fbprophet/tests/test_prophet.py
+8e8e048,Ben Letham,2018-05-04 16:15:43,Move copy test to test_diagnostics,python/fbprophet/tests/test_diagnostics.py
+8e8e048,Ben Letham,2018-05-04 16:15:43,Move copy test to test_diagnostics,python/fbprophet/tests/test_prophet.py
+55d7d1e,Ben Letham,2018-05-04 16:04:29,Single stan model with both trends (Py),python/fbprophet/forecaster.py
+55d7d1e,Ben Letham,2018-05-04 16:04:29,Single stan model with both trends (Py),python/fbprophet/models.py
+55d7d1e,Ben Letham,2018-05-04 16:04:29,Single stan model with both trends (Py),python/fbprophet/tests/test_prophet.py
+55d7d1e,Ben Letham,2018-05-04 16:04:29,Single stan model with both trends (Py),python/setup.py
+b052b56,Ben Letham,2018-05-04 15:07:35,"Refactor cross validation metrics for rolling window, add visualization, put example in notebook (R)",python/fbprophet/diagnostics.py
+8198afe,Ben Letham,2018-05-04 11:21:40,Add a visualiztion of cross validation prediction performance vs. horizon,python/fbprophet/diagnostics.py
+8198afe,Ben Letham,2018-05-04 11:21:40,Add a visualiztion of cross validation prediction performance vs. horizon,python/fbprophet/plot.py
+7179ae3,Ben Letham,2018-05-04 10:24:15,Add RMSE as cross validation metric,python/fbprophet/diagnostics.py
+7179ae3,Ben Letham,2018-05-04 10:24:15,Add RMSE as cross validation metric,python/fbprophet/tests/test_diagnostics.py
+3e59bbd,Ben Letham,2018-05-03 19:48:41,Compute cross validation performance metrics on a rolling window,python/fbprophet/diagnostics.py
+3e59bbd,Ben Letham,2018-05-03 19:48:41,Compute cross validation performance metrics on a rolling window,python/fbprophet/tests/test_diagnostics.py
+994db64,Ben Letham,2018-05-03 17:39:31,Refactor diagnostic metrics to allow/include grouping by horizon (Py),python/fbprophet/diagnostics.py
+994db64,Ben Letham,2018-05-03 17:39:31,Refactor diagnostic metrics to allow/include grouping by horizon (Py),python/fbprophet/tests/test_diagnostics.py
+3afdaaf,Ben Letham,2018-05-03 11:42:10,Move copy from method to function in diagnostics file,python/fbprophet/diagnostics.py
+3afdaaf,Ben Letham,2018-05-03 11:42:10,Move copy from method to function in diagnostics file,python/fbprophet/forecaster.py
+3da4650,Ben Letham,2018-05-03 11:10:11,"Add utility for plotting changepoints (Py), and put in plotting file (R and Py)",python/fbprophet/plot.py
+7c95c62,Ben Letham,2018-05-03 10:23:56,Move plotting into a separate file (Py),python/fbprophet/forecaster.py
+7c95c62,Ben Letham,2018-05-03 10:23:56,Move plotting into a separate file (Py),python/fbprophet/plot.py
+0c30f6e,Ben Letham,2018-04-20 18:48:21,Merge in some minor fixes from master,python/fbprophet/forecaster.py
+7f9e4b8,Ben Letham,2018-02-02 17:10:44,"Read install_requires from requirements.txt, and make things work without matplotlib installed",python/fbprophet/forecaster.py
+7f9e4b8,Ben Letham,2018-02-02 17:10:44,"Read install_requires from requirements.txt, and make things work without matplotlib installed",python/setup.py
+130eb7f,Todd Farrell,2018-02-02 15:52:09,Error metrics python v2 (#414),python/fbprophet/diagnostics.py
+998c90f,Amit Kumar,2018-02-02 23:45:48,Document name argument of plot_seasonality method in Python API (#405),python/fbprophet/forecaster.py
+967a17b,Ben Letham,2018-02-01 16:47:54,Fix holiday window validation when NaNs are present,python/fbprophet/forecaster.py
+7b9acd9,Ben Letham,2018-02-01 16:21:57,Add error message if make_future_dataframe before fit,python/fbprophet/forecaster.py
+4628bcd,Ben Letham,2018-02-01 15:40:38,"Fix error in component plotting with only one component, Py",python/fbprophet/forecaster.py
+014b3b5,Ben Letham,2017-12-22 16:30:18,Merge bugfixes from master into v0.3 (#393),python/fbprophet/__init__.py
+014b3b5,Ben Letham,2017-12-22 16:30:18,Merge bugfixes from master into v0.3 (#393),python/fbprophet/diagnostics.py
+014b3b5,Ben Letham,2017-12-22 16:30:18,Merge bugfixes from master into v0.3 (#393),python/fbprophet/tests/test_diagnostics.py
+014b3b5,Ben Letham,2017-12-22 16:30:18,Merge bugfixes from master into v0.3 (#393),python/setup.py
+5d453c1,bletham,2017-11-09 21:19:51,Fix missing columns in SHF with extra regressor,python/fbprophet/__init__.py
+5d453c1,bletham,2017-11-09 21:19:51,Fix missing columns in SHF with extra regressor,python/fbprophet/diagnostics.py
+5d453c1,bletham,2017-11-09 21:19:51,Fix missing columns in SHF with extra regressor,python/fbprophet/tests/test_diagnostics.py
+0c3f30f,Ben Letham,2017-11-08 10:43:51,Version bump,python/fbprophet/__init__.py
+0c3f30f,Ben Letham,2017-11-08 10:43:51,Version bump,python/setup.py
+e78f583,Ben Letham,2017-11-08 10:09:08,Merge in bugfixes from master (#349),python/fbprophet/forecaster.py
+e78f583,Ben Letham,2017-11-08 10:09:08,Merge in bugfixes from master (#349),python/fbprophet/tests/test_diagnostics.py
+e78f583,Ben Letham,2017-11-08 10:09:08,Merge in bugfixes from master (#349),python/fbprophet/tests/test_prophet.py
+d3d1fcd,bl,2017-11-05 17:06:28,Fix plotting in pandas 0.21 by using pydatetime instead of numpy,python/fbprophet/forecaster.py
+5dbffba,bl,2017-11-04 18:07:24,Fix copy with extra seasonalities / regressors Py,python/fbprophet/forecaster.py
+5dbffba,bl,2017-11-04 18:07:24,Fix copy with extra seasonalities / regressors Py,python/fbprophet/tests/test_prophet.py
+9ffa0d8,bl,2017-11-04 17:03:44,Fix diagnostics unit tests for new pandas,python/fbprophet/tests/test_diagnostics.py
+4ee5a97,bl,2017-11-04 16:55:21,Fix unit test broken in new pandas,python/fbprophet/tests/test_prophet.py
+feb7be3,bl,2017-11-04 16:40:20,Fix R warning with extra regressor; disallow constant extra regressors.,python/fbprophet/forecaster.py
+feb7be3,bl,2017-11-04 16:40:20,Fix R warning with extra regressor; disallow constant extra regressors.,python/fbprophet/tests/test_prophet.py
+a43cfe8,bletham,2017-10-10 21:24:23,Fix component plot with logistic floor,python/fbprophet/forecaster.py
+a44b209,Sean J. Taylor,2017-09-27 09:54:40,Github organization change,python/setup.py
+5817386,Ben Letham,2017-09-25 17:40:36,Fix scale<=0 error in old numpy versions for constant histories,python/fbprophet/__init__.py
+5817386,Ben Letham,2017-09-25 17:40:36,Fix scale<=0 error in old numpy versions for constant histories,python/fbprophet/forecaster.py
+230b2ca,Ben Letham,2017-09-25 17:34:27,Lint fixes,python/fbprophet/models.py
+230b2ca,Ben Letham,2017-09-25 17:34:27,Lint fixes,python/fbprophet/tests/test_diagnostics.py
+230b2ca,Ben Letham,2017-09-25 17:34:27,Lint fixes,python/fbprophet/tests/test_prophet.py
+12aa324,Sean J. Taylor,2017-09-08 08:53:31,Fixes to get tests to run on Python 3,python/setup.py
+2ab01c5,Ben Letham,2017-09-08 07:59:52,Fix flaky unit test,python/fbprophet/tests/test_prophet.py
+2e97683,bl,2017-09-02 13:28:30,Version bump,python/fbprophet/__init__.py
+2e97683,bl,2017-09-02 13:28:30,Version bump,python/fbprophet/tests/test_prophet.py
+2e97683,bl,2017-09-02 13:28:30,Version bump,python/setup.py
+2f9b20b,bl,2017-09-02 10:53:38,Documentation for cross validation,python/fbprophet/diagnostics.py
+439efb7,Ben Letham,2017-09-01 15:50:19,Graceful error on empty input dataframes,python/fbprophet/forecaster.py
+8066634,Ben Letham,2017-09-01 12:27:23,Refactor setup_dataframe R,python/fbprophet/forecaster.py
+8066634,Ben Letham,2017-09-01 12:27:23,Refactor setup_dataframe R,python/fbprophet/tests/test_prophet.py
+2ddcf54,Ben Letham,2017-09-01 11:16:59,Saturating minimum R,python/fbprophet/forecaster.py
+66ea944,Ben Letham,2017-09-01 10:04:20,"Custom seasonality prior scales R, handle NAs in holiday priors",python/fbprophet/forecaster.py
+66ea944,Ben Letham,2017-09-01 10:04:20,"Custom seasonality prior scales R, handle NAs in holiday priors",python/fbprophet/tests/test_prophet.py
+ddbb353,Ben Letham,2017-08-31 10:56:06,Custom prior scales R,python/fbprophet/tests/test_prophet.py
+4523315,Ben Letham,2017-08-28 11:38:02,Lint fixes,python/fbprophet/forecaster.py
+4523315,Ben Letham,2017-08-28 11:38:02,Lint fixes,python/fbprophet/tests/test_prophet.py
+cc3238a,bletham,2017-08-28 09:06:00,Saturating minimum for logistic growth Py,python/fbprophet/diagnostics.py
+cc3238a,bletham,2017-08-28 09:06:00,Saturating minimum for logistic growth Py,python/fbprophet/forecaster.py
+cc3238a,bletham,2017-08-28 09:06:00,Saturating minimum for logistic growth Py,python/fbprophet/tests/test_prophet.py
+8d27643,bl,2017-08-27 14:32:39,Custom seasonality priors Py,python/fbprophet/forecaster.py
+8d27643,bl,2017-08-27 14:32:39,Custom seasonality priors Py,python/fbprophet/tests/test_prophet.py
+a620a6c,bletham,2017-08-26 23:29:10,Custom prior scales for holidays Py,python/fbprophet/forecaster.py
+a620a6c,bletham,2017-08-26 23:29:10,Custom prior scales for holidays Py,python/fbprophet/tests/test_prophet.py
+3c09448,bletham,2017-08-26 14:31:33,Add cross-validation functions in R,python/fbprophet/diagnostics.py
+3c09448,bletham,2017-08-26 14:31:33,Add cross-validation functions in R,python/fbprophet/forecaster.py
+3c09448,bletham,2017-08-26 14:31:33,Add cross-validation functions in R,python/fbprophet/tests/test_diagnostics.py
+3c09448,bletham,2017-08-26 14:31:33,Add cross-validation functions in R,python/fbprophet/tests/test_prophet.py
+509666d,bletham,2017-08-22 14:14:46,Speed up diagnostics unit tests,python/fbprophet/tests/test_diagnostics.py
+047a0c3,bletham,2017-08-19 21:26:59,Replace deprecated pandas .ix,python/fbprophet/forecaster.py
+e4ec600,bletham,2017-08-19 14:03:00,Handle constant y in history,python/fbprophet/forecaster.py
+e4ec600,bletham,2017-08-19 14:03:00,Handle constant y in history,python/fbprophet/tests/test_prophet.py
+0b4ec4a,bletham,2017-08-19 11:20:53,Limit n_changepoints to number of observations.,python/fbprophet/forecaster.py
+0b4ec4a,bletham,2017-08-19 11:20:53,Limit n_changepoints to number of observations.,python/fbprophet/tests/test_prophet.py
+79d0793,Nagi Teramo,2017-08-11 03:14:23,Implement cross-validation of time series(a rolling forecast origin) (#261),python/fbprophet/diagnostics.py
+79d0793,Nagi Teramo,2017-08-11 03:14:23,Implement cross-validation of time series(a rolling forecast origin) (#261),python/fbprophet/forecaster.py
+79d0793,Nagi Teramo,2017-08-11 03:14:23,Implement cross-validation of time series(a rolling forecast origin) (#261),python/fbprophet/tests/test_diagnostics.py
+79d0793,Nagi Teramo,2017-08-11 03:14:23,Implement cross-validation of time series(a rolling forecast origin) (#261),python/fbprophet/tests/test_prophet.py
+79d0793,Nagi Teramo,2017-08-11 03:14:23,Implement cross-validation of time series(a rolling forecast origin) (#261),python/setup.py
+b76ebf1,bl,2017-07-29 17:36:03,documentation update,python/fbprophet/forecaster.py
+8f1607c,bl,2017-07-21 07:05:16,Extra regressors Py,python/fbprophet/forecaster.py
+8f1607c,bl,2017-07-21 07:05:16,Extra regressors Py,python/fbprophet/tests/test_prophet.py
+ff1dbcf,Ben Letham,2017-07-17 11:13:22,Alternative formulation for logistic growth initialization,python/fbprophet/forecaster.py
+796b0f8,Ben Letham,2017-07-11 16:56:28,Consolidate dataframe validation logic,python/fbprophet/forecaster.py
+fb517b5,Ben Letham,2017-07-11 16:51:29,lint fixes,python/fbprophet/forecaster.py
+fb517b5,Ben Letham,2017-07-11 16:51:29,lint fixes,python/fbprophet/tests/test_prophet.py
+093b4b7,bl,2017-07-10 22:57:13,"R sub-daily data documentation, bugfixes, and unit tests",python/fbprophet/tests/test_prophet.py
+b07d345,bl,2017-07-05 20:15:00,Bugfix for add_seasonality,python/fbprophet/forecaster.py
+b07d345,bl,2017-07-05 20:15:00,Bugfix for add_seasonality,python/fbprophet/tests/test_prophet.py
+707c885,bl,2017-07-04 22:39:57,Add custom seasonalities (Py),python/fbprophet/forecaster.py
+707c885,bl,2017-07-04 22:39:57,Add custom seasonalities (Py),python/fbprophet/tests/test_prophet.py
+ec497ff,bl,2017-07-04 20:32:42,Handle holidays with subdaily data,python/fbprophet/forecaster.py
+ec497ff,bl,2017-07-04 20:32:42,Handle holidays with subdaily data,python/fbprophet/tests/test_prophet.py
+4677dd4,bl,2017-07-04 19:21:34,Unit tests for daily seasonality (Py),python/fbprophet/tests/test_prophet.py
+995fda0,bl,2017-07-04 18:27:57,Posterior samples function Py,python/fbprophet/forecaster.py
+b3017c0,bl,2017-07-04 11:06:03,Generalize seasonality representation (Python),python/fbprophet/forecaster.py
+b3017c0,bl,2017-07-04 11:06:03,Generalize seasonality representation (Python),python/fbprophet/tests/test_prophet.py
+03d3ec9,bl,2017-07-04 08:39:49,Fix notebook Makefile and various typos,python/fbprophet/forecaster.py
+825108b,Ben Letham,2017-07-04 08:24:54,Functional daily seasonality (#239),python/fbprophet/forecaster.py
+f1ef4cc,Arturo Filastò,2017-07-04 17:12:08,Add support for fitting seasonality daily (#135),python/fbprophet/forecaster.py
+1339aad,bl,2017-07-04 01:12:22,Check for Inf values in history; roxygen version bump.,python/fbprophet/forecaster.py
+efe8299,Randle Taylor,2017-07-04 03:51:14,Modify setup.py so pip install completes succesfully (#231),python/setup.py
+8383d3b,bl,2017-07-04 00:26:22,Check for NULL in ds column,python/fbprophet/forecaster.py
+f7becb0,bl,2017-07-04 00:06:53,Fall back to Newton optimizer if LBFGS fails,python/fbprophet/forecaster.py
+3ebedb1,bl,2017-07-03 21:29:38,Use abs for scaling y,python/fbprophet/forecaster.py
+4f9e0af,Ben Letham,2017-06-21 14:40:18,Fix whitespace issue,python/fbprophet/forecaster.py
+283e9be,Hasil Sharma,2017-06-22 03:07:07,Set verbosity for Printing Meta Information (#197),python/fbprophet/forecaster.py
+7c30a4d,Ben Letham,2017-05-15 15:31:13,Typo fix,python/fbprophet/forecaster.py
+6a62a0e,Ben Letham,2017-05-15 15:29:11,"Revert ""Fix typo in comment (#180)"" (#189)",python/fbprophet/forecaster.py
+0892b4b,Ran,2017-05-15 23:28:31,Fix typo in comment (#180),python/fbprophet/forecaster.py
+5474fe3,Ben Letham,2017-05-03 17:06:20,style/comment fixes,python/fbprophet/forecaster.py
+5474fe3,Ben Letham,2017-05-03 17:06:20,style/comment fixes,python/fbprophet/models.py
+40f6ad6,Ben Letham,2017-04-17 17:24:37,"Message for disabling seasonality, Python",python/fbprophet/forecaster.py
+b98ec17,Ben Letham,2017-04-17 15:20:49,Add version dunder,python/fbprophet/__init__.py
+26ca2f7,Ben Letham,2017-04-17 12:45:44,Make plotting interfaces consistent (return figs),python/fbprophet/forecaster.py
+813966f,Sean J. Taylor,2017-04-17 11:29:38,0.1.1 version bumps,python/setup.py
+541dc9a,Ben Letham,2017-04-15 17:56:43,Update docstring for plot_components,python/fbprophet/forecaster.py
+5971a23,Ben Letham,2017-04-13 23:23:44,Loop debug (#168),python/fbprophet/forecaster.py
+5971a23,Ben Letham,2017-04-13 23:23:44,Loop debug (#168),python/fbprophet/models.py
+5971a23,Ben Letham,2017-04-13 23:23:44,Loop debug (#168),python/fbprophet/tests/test_prophet.py
+df4b615,Ben Letham,2017-04-13 02:08:34,Allow shifting the start date of the yearly seasonality plot,python/fbprophet/forecaster.py
+cacfdc6,Ben Letham,2017-04-13 01:51:17,Allow shifting the start date of the weekly seasonality plot,python/fbprophet/forecaster.py
+d937f47,Ben Letham,2017-04-13 01:25:03,Enable seasonalities automatically depending on history length / frequency,python/fbprophet/forecaster.py
+d937f47,Ben Letham,2017-04-13 01:25:03,Enable seasonalities automatically depending on history length / frequency,python/fbprophet/tests/test_prophet.py
+8155143,Ben Letham,2017-04-10 22:48:43,Allow not showing capacity on plots,python/fbprophet/forecaster.py
+2083996,Ben Letham,2017-04-10 18:20:06,Make component plots work if forecast range is less than seasonality period,python/fbprophet/forecaster.py
+50ddd5b,Ben Letham,2017-04-07 19:11:37,Docstring fix,python/fbprophet/forecaster.py
+1a71122,Ben Letham,2017-04-06 11:47:03,style fixes,python/fbprophet/forecaster.py
+1a71122,Ben Letham,2017-04-06 11:47:03,style fixes,python/fbprophet/tests/test_prophet.py
+34c0f80,Ben Letham,2017-04-05 10:44:21,Only allow a Prophet object to be fit once,python/fbprophet/forecaster.py
+459e0fe,Ben Letham,2017-04-03 18:24:54,Document the parameters stored during fitting.,python/fbprophet/forecaster.py
+b999dd4,Ben Letham,2017-03-23 17:27:44,"Add docstring to Python methods, and minor fixes to R documentation.",python/fbprophet/forecaster.py
+5677d8c,Ben Letham,2017-03-23 15:47:29,Store dates from history with y NaN for make_future_dataframe,python/fbprophet/forecaster.py
+1a57d19,Rolando (Max) Espinoza,2017-03-16 12:49:02,Allow to build models in-place. (#100),python/setup.py
+1a6b736,Ben Letham,2017-03-16 16:25:07,No longer use %-d for strftime since it is not supported in Windows,python/fbprophet/forecaster.py
+2c8419e,Ben Letham,2017-03-16 15:43:16,"Fix missing m/d on trend component plot. Previously we used MaxNLocator to limit the number of tick marks on the trend and holiday component plots. This was putting the ticks at various points throughout the year, however the tick label showed only the year, which one would incorrectly assume to be Jan 1. This commit removes MaxNLocator and allows matplotlib to set xticks as it pleases, and updates the effected documentation.",python/fbprophet/forecaster.py
+218455c,Ben Letham,2017-03-14 09:43:31,Update pandas requirement for dt.weekday_name,python/setup.py
+f89faf2,Ben Letham,2017-03-12 16:01:02,Check for valid holiday lower/upper windows,python/fbprophet/forecaster.py
+1d37f7f,Ben Letham,2017-03-12 14:29:20,make_future_dataframe return correct number of periods,python/fbprophet/forecaster.py
+1d37f7f,Ben Letham,2017-03-12 14:29:20,make_future_dataframe return correct number of periods,python/fbprophet/tests/test_prophet.py
+e33e7c4,Rolando (Max) Espinoza,2017-03-09 13:47:59,Make stan code windows-compatible. (#96),python/setup.py
+d446bb1,Rolando Espinoza,2017-03-08 16:34:08,Fix pickling protocol to use highest available.,python/setup.py
+20aca85,Ben Letham,2017-03-05 17:09:18,Require stan 2.14 or later,python/setup.py
+2d2e48b,Ben Letham,2017-03-05 16:56:25,Allow plotting components separately,python/fbprophet/forecaster.py
+597fce1,Isaac Laughlin,2017-03-03 14:21:10,Adding docstrings to new plotting methods.,python/fbprophet/forecaster.py
+13fc5c8,Isaac Laughlin,2017-03-03 11:49:10,Changing my mind about forecast_color as a static class attr.,python/fbprophet/forecaster.py
+9c82c8e,Isaac Laughlin,2017-03-03 11:42:44,pep8 tweaks.,python/fbprophet/forecaster.py
+e081db5,Isaac Laughlin,2017-03-03 11:29:12,"Refactoring mpl code to address #62, #63",python/fbprophet/forecaster.py
+806eaa1,abuccts,2017-03-02 22:06:21,update pandas minimum version,python/fbprophet/forecaster.py
+806eaa1,abuccts,2017-03-02 22:06:21,update pandas minimum version,python/setup.py
+4b7a418,Ben Letham,2017-03-02 16:36:00,"Allow _ in holiday name, fix #50",python/fbprophet/forecaster.py
+5cec062,Ben Letham,2017-03-01 18:38:58,Fix weekly seasonality plot in non-en locales,python/fbprophet/forecaster.py
+443d475,Ben Letham,2017-02-28 10:08:37,"Allow changepoints on dates that aren't in history, and allow for repeated observations on days. Previously we worked with changepoints via their index in the history. Now we work with them using just their value in scaled time.",python/fbprophet/forecaster.py
+443d475,Ben Letham,2017-02-28 10:08:37,"Allow changepoints on dates that aren't in history, and allow for repeated observations on days. Previously we worked with changepoints via their index in the history. Now we work with them using just their value in scaled time.",python/fbprophet/tests/test_prophet.py
+143e544,Christian Stade-Schuldt,2017-02-27 09:20:59,Fix missing x-axis tick in weekly forecast component plot (#28),python/fbprophet/forecaster.py
+8dd857d,Arne Sund,2017-02-26 14:38:10,Make plot axis label names configurable,python/fbprophet/forecaster.py
+e08cfd2,Ben Letham,2017-02-26 13:24:22,Additional kwargs to Stan in Python,python/fbprophet/forecaster.py
+3162d6c,Rolando Espinoza,2017-02-24 02:40:39,Declare matplotlib/numpy as explicit dependencies.,python/setup.py
+c8b79e8,Rolando Espinoza,2017-02-24 02:36:57,MNT Include tests in the package,python/fbprophet/tests/__init__.py
+c8b79e8,Rolando Espinoza,2017-02-24 02:36:57,MNT Include tests in the package,python/setup.py

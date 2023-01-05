@@ -1,0 +1,186 @@
+poetry,file,method,params,startlineno,endlineno,type,lineno
+poetry,get-poetry.py,_make_lib,"self, version",499,564,assignment,561
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,assignment,302
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,269
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,269
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,272
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,273
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,275
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,276
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,278
+poetry,poetry\semver\version_range.py,difference,"self, other",221,309,reference,278
+poetry,poetry\utils\setup_reader.py,_find_install_requires,"self, call, body",211,251,argument,236
+poetry,poetry\utils\setup_reader.py,_find_extras_require,"self, call, body",253,303,argument,278
+poetry,poetry\utils\setup_reader.py,_find_single_string,"self, call, body, name",305,340,argument,329
+poetry,poetry\semver\__init__.py,parse_single_constraint,constraint,48,164,assignment,131
+poetry,poetry\semver\__init__.py,parse_single_constraint,constraint,48,164,assignment,139
+poetry,poetry\semver\__init__.py,parse_single_constraint,constraint,48,164,assignment,142
+poetry,poetry\semver\__init__.py,parse_single_constraint,constraint,48,164,argument,145
+poetry,poetry\semver\__init__.py,parse_single_constraint,constraint,48,164,reference,133
+poetry,get-poetry.py,display_pre_uninstall_message,self,778,790,reference,780
+poetry,get-poetry.py,remove_from_path,self,683,687,reference,684
+poetry,get-poetry.py,display_pre_message,self,751,776,reference,752
+poetry,get-poetry.py,display_pre_message,self,751,776,reference,765
+poetry,get-poetry.py,make_bin,self,566,588,reference,570
+poetry,get-poetry.py,make_bin,self,566,588,reference,585
+poetry,get-poetry.py,make_env,self,590,595,reference,591
+poetry,get-poetry.py,update_path,self,597,622,reference,601
+poetry,get-poetry.py,display_post_message,"self, version",792,820,reference,800
+poetry,poetry\config\config.py,get,"self, setting_name, default=None",70,93,reference,80
+poetry,poetry\config\config.py,get,"self, setting_name, default=None",70,93,reference,80
+poetry,poetry\config\config.py,get,"self, setting_name, default=None",70,93,reference,88
+poetry,poetry\config\config.py,get,"self, setting_name, default=None",70,93,reference,91
+poetry,poetry\console\commands\config.py,handle,self,65,226,reference,121
+poetry,poetry\console\commands\version.py,increment_version,"self, version, rule",67,104,reference,104
+poetry,poetry\console\commands\version.py,handle,self,41,63,reference,51
+poetry,poetry\console\commands\version.py,handle,self,41,63,reference,57
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,211
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,212
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,214
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,217
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,218
+poetry,poetry\installation\pip_installer.py,install_git,"self, package",206,226,reference,223
+poetry,poetry\installation\pip_installer.py,requirement,"self, package, formatted=False",111,141,reference,134
+poetry,poetry\installation\pip_installer.py,install,"self, package, update=False",30,88,reference,83
+poetry,poetry\installation\pip_installer.py,install,"self, package, update=False",30,88,reference,84
+poetry,poetry\installation\pip_installer.py,install,"self, package, update=False",30,88,reference,86
+poetry,poetry\installation\pip_installer.py,install,"self, package, update=False",30,88,reference,88
+poetry,poetry\masonry\builders\wheel.py,_write_to_zip,"self, wheel, rel_path",282,298,reference,291
+poetry,poetry\masonry\builders\wheel.py,_write_to_zip,"self, wheel, rel_path",282,298,reference,298
+poetry,poetry\masonry\builders\wheel.py,build,self,64,91,reference,86
+poetry,poetry\masonry\builders\wheel.py,build,self,64,91,reference,87
+poetry,poetry\masonry\builders\wheel.py,build,self,64,91,reference,88
+poetry,poetry\mixology\failure.py,write,self,31,81,reference,79
+poetry,poetry\packages\dependency.py,to_pep_508,"self, with_extras=True",188,224,reference,224
+poetry,poetry\packages\dependency.py,base_pep_508_name,self,139,155,reference,147
+poetry,poetry\packages\dependency.py,base_pep_508_name,self,139,155,reference,151
+poetry,poetry\packages\dependency.py,base_pep_508_name,self,139,155,reference,153
+poetry,poetry\packages\dependency.py,base_pep_508_name,self,139,155,reference,155
+poetry,poetry\packages\package.py,all_classifiers,self,209,236,reference,225
+poetry,poetry\packages\url_dependency.py,base_pep_508_name,self,28,37,reference,35
+poetry,poetry\packages\url_dependency.py,base_pep_508_name,self,28,37,reference,37
+poetry,poetry\packages\vcs_dependency.py,base_pep_508_name,self,65,74,reference,72
+poetry,poetry\packages\vcs_dependency.py,base_pep_508_name,self,65,74,reference,74
+poetry,poetry\packages\__init__.py,dependency_from_pep_508,name,27,157,reference,89
+poetry,poetry\packages\constraints\union_constraint.py,allows_any,"self, other",22,39,reference,35
+poetry,poetry\puzzle\provider.py,debug,"self, message, depth='0'",696,782,reference,776
+poetry,poetry\puzzle\provider.py,debug,"self, message, depth='0'",696,782,reference,775
+poetry,poetry\puzzle\solver.py,_get_tags_for_package,"self, package, graph, depth='0'",295,336,reference,302
+poetry,poetry\repositories\installed_repository.py,load,"cls, env",10,44,reference,37
+poetry,poetry\repositories\installed_repository.py,load,"cls, env",10,44,reference,40
+poetry,poetry\repositories\legacy_repository.py,package,"self, name, version, extras=None",264,343,reference,299
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,217
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,219
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,220
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,221
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,222
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,227
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,228
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,242
+poetry,poetry\repositories\legacy_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",206,262,reference,258
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,105
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,107
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,108
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,109
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,110
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,118
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,150
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,150
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,150
+poetry,poetry\repositories\pypi_repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",89,161,reference,157
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,56
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,58
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,59
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,60
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,61
+poetry,poetry\repositories\repository.py,find_packages,"self, name, constraint=None, extras=None, allow_prereleases=False",42,86,reference,70
+poetry,poetry\semver\version_range.py,union,"self, other",169,219,reference,195
+poetry,poetry\utils\appdirs.py,user_cache_dir,appname,23,63,reference,44
+poetry,poetry\utils\appdirs.py,user_config_dir,"appname, roaming=True",106,134,reference,126
+poetry,poetry\utils\appdirs.py,user_data_dir,"appname, roaming=False",66,103,reference,93
+poetry,poetry\utils\appdirs.py,site_config_dirs,appname,139,174,reference,155
+poetry,poetry\utils\appdirs.py,site_config_dirs,appname,139,174,reference,166
+poetry,poetry\utils\appdirs.py,site_config_dirs,appname,139,174,reference,165
+poetry,poetry\utils\env.py,run,"self, bin, *args, **kwargs",675,710,reference,694
+poetry,poetry\utils\env.py,run,"self, bin, *args, **kwargs",675,710,reference,702
+poetry,poetry\utils\env.py,run,"self, bin, *args, **kwargs",675,710,reference,705
+poetry,poetry\utils\exporter.py,_export_requirements_txt,"self, cwd, output, with_hashes=True, dev=False, extras=None, with_credentials=False",47,164,reference,107
+poetry,poetry\utils\exporter.py,_export_requirements_txt,"self, cwd, output, with_hashes=True, dev=False, extras=None, with_credentials=False",47,164,reference,108
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,56
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,71
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,72
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,73
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,73
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,75
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,77
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,78
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,82
+poetry,poetry\utils\helpers.py,parse_requires,requires,49,87,reference,83
+poetry,poetry\version\specifiers.py,_compare_equal,"self, prospective, spec",445,478,reference,478
+poetry,poetry\version\specifiers.py,_compare_equal,"self, prospective, spec",445,478,reference,478
+poetry,poetry\version\specifiers.py,__init__,"self, specifiers='', prereleases=None",613,632,reference,616
+poetry,poetry\version\specifiers.py,__init__,"self, specifiers='', prereleases=None",613,632,reference,616
+poetry,poetry\version\specifiers.py,__init__,"self, specifiers='', prereleases=None",613,632,reference,616
+poetry,poetry\version\version.py,_cmpkey,"epoch, release, pre, post, dev, local",188,229,reference,229
+poetry,tests\installation\test_pip_installer.py,test_requirement,,9,26,reference,26
+poetry,tests\packages\test_dependency.py,test_to_pep_508_wilcard,,75,79,reference,79
+poetry,tests\packages\test_dependency.py,test_to_pep_508,,58,69,reference,62
+poetry,tests\packages\test_dependency.py,test_to_pep_508,,58,69,reference,69
+poetry,tests\packages\test_dependency.py,test_to_pep_508_in_extras,,82,98,reference,87
+poetry,tests\packages\test_dependency.py,test_to_pep_508_in_extras,,82,98,reference,92
+poetry,tests\packages\test_dependency.py,test_to_pep_508_in_extras,,82,98,reference,97
+poetry,tests\repositories\test_legacy_repository.py,_get,"self, endpoint",26,35,reference,30
+poetry,tests\repositories\test_legacy_repository.py,_get,"self, endpoint",26,35,reference,31
+poetry,tests\repositories\test_legacy_repository.py,_get,"self, endpoint",26,35,reference,34
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,29
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,30
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,32
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,32
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,33
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,34
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,36
+poetry,tests\repositories\test_pypi_repository.py,_get,"self, url",21,40,reference,39
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,reference,360
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,reference,360
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,reference,366
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,reference,366
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,reference,367
+poetry,tests\utils\test_env.py,test_deactivate_activated,"tmp_dir, config, mocker",348,387,delsubscript,350
+poetry,poetry\config\config_source.py,remove_property,"self, key",39,53,delsubscript,49
+poetry,poetry\console\commands\remove.py,handle,self,30,91,delsubscript,57
+poetry,poetry\console\commands\shell.py,handle,self,19,40,getattr,23
+poetry,poetry\installation\installer.py,_do_install,"self, local_repo",135,286,delsubscript,198
+poetry,poetry\installation\installer.py,_execute,"self, operation",296,302,getattr,302
+poetry,poetry\mixology\partial_solution.py,backtrack,"self, decision_level",115,139,delsubscript,127
+poetry,poetry\mixology\partial_solution.py,backtrack,"self, decision_level",115,139,delsubscript,132
+poetry,poetry\mixology\partial_solution.py,backtrack,"self, decision_level",115,139,delsubscript,135
+poetry,poetry\mixology\partial_solution.py,_register,"self, assignment",141,169,delsubscript,162
+poetry,poetry\packages\dependency_package.py,__getattr__,"self, name",17,18,getattr,18
+poetry,poetry\packages\locker.py,set_lock_data,"self, root, packages",137,168,delsubscript,146
+poetry,poetry\repositories\pool.py,remove_repository,"self, repository_name",85,90,delsubscript,88
+poetry,poetry\repositories\pypi_repository.py,_log,"self, msg, level='info'",490,491,getattr,491
+poetry,poetry\repositories\repository.py,remove_package,"self, package",100,110,delsubscript,110
+poetry,poetry\utils\env.py,deactivate,"self, cwd, io",222,244,delsubscript,242
+poetry,poetry\utils\env.py,remove,"self, python, cwd",323,413,delsubscript,354
+poetry,poetry\utils\env.py,remove,"self, python, cwd",323,413,delsubscript,408
+poetry,poetry\utils\env.py,unset_env,"self, key",896,898,delsubscript,898
+poetry,poetry\utils\exporter.py,export,"self, fmt, cwd, output, with_hashes=True, dev=False, extras=None, with_credentials=False",25,44,getattr,38
+poetry,poetry\utils\setup_reader.py,read_from_directory,"cls, directory",36,57,getattr,49
+poetry,poetry\utils\toml_file.py,__getattr__,"self, item",21,22,getattr,22
+poetry,poetry\utils\_compat.py,to_str,string,246,263,getattr,259
+poetry,poetry\utils\_compat.py,to_str,string,246,263,getattr,263
+poetry,poetry\version\markers.py,_compact_markers,markers,616,653,delsubscript,641
+poetry,poetry\version\specifiers.py,_get_operator,"self, op",172,173,getattr,173
+poetry,tests\console\commands\env\test_use.py,test_activate_activates_non_existing_virtualenv_no_envs_file,"app, tmp_dir, mocker",39,82,delsubscript,41
+poetry,tests\utils\test_env.py,test_env_get_in_project_venv,"tmp_dir, config",38,48,delsubscript,40
+poetry,tests\utils\test_env.py,test_activate_activates_non_existing_virtualenv_no_envs_file,"tmp_dir, config, mocker",74,106,delsubscript,78
+poetry,tests\utils\test_env.py,test_activate_activates_existing_virtualenv_no_envs_file,"tmp_dir, config, mocker",109,140,delsubscript,111
+poetry,tests\utils\test_env.py,test_activate_activates_same_virtualenv_with_envs_file,"tmp_dir, config, mocker",143,178,delsubscript,145
+poetry,tests\utils\test_env.py,test_activate_activates_different_virtualenv_with_envs_file,"tmp_dir, config, mocker",181,219,delsubscript,185
+poetry,tests\utils\test_env.py,test_activate_activates_recreates_for_different_patch,"tmp_dir, config, mocker",222,273,delsubscript,224
+poetry,tests\utils\test_env.py,test_activate_does_not_recreate_when_switching_minor,"tmp_dir, config, mocker",276,318,delsubscript,278
+poetry,tests\utils\test_env.py,test_deactivate_non_activated_but_existing,"tmp_dir, config, mocker",321,345,delsubscript,323
+poetry,tests\utils\test_helpers_keyring.py,delete_password,"self, servicename, username",31,36,delsubscript,34
+poetry,tests\utils\test_helpers_keyring.py,delete_password,"self, servicename, username",31,36,delsubscript,36
+poetry,tests\utils\fixtures\setups\pyyaml\setup.py,ext_status,"self, ext",124,132,getattr,129
+poetry,tests\utils\fixtures\setups\pyyaml\setup.py,_make_spec_file,self,278,294,getattr,284

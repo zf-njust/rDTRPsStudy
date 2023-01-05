@@ -1,0 +1,436 @@
+5c97f7e16f; (tag: refs/tags/v2.12.4rc1);jamesmarshall24;2022-03-21 13:19:17 -0700;New release v2.12.4rc1 (#77329)
+f78bc40e6f; (tag: refs/tags/v2.11.10rc1);jamesmarshall24;2022-03-21 13:19:08 -0700;New release v2.11.10rc1 (#77328)
+0ee3815c55; (tag: refs/tags/v2.12.3);Christian Adams;2022-02-28 10:13:48 -0500;New release v2.12.3 (#77158)
+73e6d023b8; (tag: refs/tags/v2.11.9);Christian Adams;2022-02-28 10:13:40 -0500;New release v2.11.9 (#77157)
+bcdde7ebe3; (tag: refs/tags/v2.12.3rc1);Christian Adams;2022-02-23 15:58:50 -0500;New release v2.12.3rc1 (#77124)
+715fa4fdde; (tag: refs/tags/v2.11.9rc1);Christian Adams;2022-02-23 15:54:48 -0500;New release v2.11.9rc1 (#77123)
+e40051f7c0; (tag: refs/tags/v2.11.8);Dimitri Savineau;2022-01-31 15:43:56 -0500;New release v2.11.8 (#76891)
+e630d81716; (tag: refs/tags/v2.10.17);Dimitri Savineau;2022-01-31 15:20:01 -0500;New release v2.10.17 (#76890)
+6c75cf5c83; (tag: refs/tags/v2.12.2);Dimitri Savineau;2022-01-31 15:19:57 -0500;New release v2.12.2 (#76892)
+f81225c3e5; (tag: refs/tags/v2.12.2rc1);Dimitri Savineau;2022-01-24 11:02:08 -0500;New release v2.12.2rc1 (#76831)
+f0bcb858a9; (tag: refs/tags/v2.11.8rc1);Dimitri Savineau;2022-01-24 10:57:47 -0500;New release v2.11.8rc1 (#76830)
+98418031a4; (tag: refs/tags/v2.10.17rc1);Dimitri Savineau;2022-01-24 10:57:39 -0500;New release v2.10.17rc1 (#76829)
+f00f12393b; (tag: refs/tags/v2.12.1);jamesmarshall24;2021-12-06 10:47:53 -0800;New release v2.12.1 (#76477)
+0e828b45a7; (tag: refs/tags/v2.11.7);jamesmarshall24;2021-12-06 10:47:35 -0800;New release v2.11.7 (#76476)
+406d51ba4f; (tag: refs/tags/v2.10.16);jamesmarshall24;2021-12-06 10:47:25 -0800;New release v2.10.16 (#76475)
+9086a4b61a; (tag: refs/tags/v2.10.16rc1);Dimitri Savineau;2021-11-29 15:40:26 -0500;New release v2.10.16rc1 (#76390)
+9efa8c81d6; (tag: refs/tags/v2.11.7rc1);Dimitri Savineau;2021-11-29 15:14:17 -0500;New release v2.11.7rc1 (#76391)
+3740f03b0a; (tag: refs/tags/v2.12.1rc1);Dimitri Savineau;2021-11-29 15:05:56 -0500;New release v2.12.1rc1 (#76392)
+cb779ee9bb; (tag: refs/tags/v2.12.0);Dimitri Savineau;2021-11-08 09:55:20 -0500;New release v2.12.0 (#76241)
+634916b9cb; (tag: refs/tags/v2.12.0rc1);Dimitri Savineau;2021-10-18 10:42:52 -0400;New release v2.12.0rc1 (#76072)
+217c0c29e5; (tag: refs/tags/v2.12.0b2);Christian Adams;2021-10-11 10:47:53 -0400;New release v2.12.0b2 (#76000)
+5394eae49a; (tag: refs/tags/v2.11.6);Christian Adams;2021-10-11 10:40:27 -0400;New release v2.11.6 (#75999)
+ff603897d2; (tag: refs/tags/v2.10.15);Christian Adams;2021-10-11 10:40:04 -0400;New release v2.10.15 (#75998)
+2685efe544; (tag: refs/tags/v2.9.27);Christian M. Adams;2021-10-11 09:09:02 -0400;New release v2.9.27
+d4e1017614; (tag: refs/tags/v2.11.6rc1);Christian M. Adams;2021-10-04 12:19:02 -0400;New release v2.11.6rc1
+5d92c7212f; (tag: refs/tags/v2.10.15rc1);Christian M. Adams;2021-10-04 11:58:04 -0400;New release v2.10.15rc1
+e53aec675c; (tag: refs/tags/v2.9.27rc1);Christian M. Adams;2021-10-04 11:29:57 -0400;New release v2.9.27rc1
+b03f06ba4f; (tag: refs/tags/v2.12.0b1);Dimitri Savineau;2021-09-27 09:30:07 -0400;New release v2.12.0b1
+2fdb9767e9; (tag: refs/tags/v2.11.5);Christian M. Adams;2021-09-13 10:43:17 -0400;New release v2.11.5
+2421b476c5; (tag: refs/tags/v2.10.14);Christian M. Adams;2021-09-13 10:38:20 -0400;New release v2.10.14
+8c37018a68; (tag: refs/tags/v2.9.26);Christian M. Adams;2021-09-13 10:01:24 -0400;New release v2.9.26
+766fcdb493; (tag: refs/tags/v2.11.5rc1);Christian M. Adams;2021-09-08 10:00:52 -0400;New release v2.11.5rc1
+7b414d094c; (tag: refs/tags/v2.10.14rc1);Christian M. Adams;2021-09-08 09:57:24 -0400;New release v2.10.14rc1
+2c40d52535; (tag: refs/tags/v2.9.26rc1);Christian M. Adams;2021-09-08 09:45:32 -0400;New release v2.9.26rc1
+2344b18382; (tag: refs/tags/v2.11.4);Christian M. Adams;2021-08-16 13:25:51 -0400;New release v2.11.4
+6890692d3f; (tag: refs/tags/v2.10.13);Christian M. Adams;2021-08-16 13:23:25 -0400;New release v2.10.13
+7db0dbee51; (tag: refs/tags/v2.9.25);Christian M. Adams;2021-08-16 13:17:06 -0400;New release v2.9.25
+08db988f7b; (tag: refs/tags/v2.11.4rc1);Rick Elrod;2021-08-10 09:42:59 -0500;New release v2.11.4rc1
+e025d9c6d0; (tag: refs/tags/v2.10.13rc1);Rick Elrod;2021-08-10 09:39:56 -0500;New release v2.10.13rc1
+8e84e8dcb2; (tag: refs/tags/v2.9.25rc1);Rick Elrod;2021-08-10 09:35:22 -0500;New release v2.9.25rc1
+d4c25c0f5b; (tag: refs/tags/v2.9.24);Rick Elrod;2021-07-19 16:49:55 -0500;New release v2.9.24
+add2dca4b1; (tag: refs/tags/v2.10.12);Rick Elrod;2021-07-19 16:42:20 -0500;New release v2.10.12
+4cafc937f0; (tag: refs/tags/v2.11.3);Rick Elrod;2021-07-19 16:40:41 -0500;New release v2.11.3
+6d40655255; (tag: refs/tags/v2.9.24rc1);Rick Elrod;2021-07-13 00:30:47 -0500;New release v2.9.24rc1
+2e93c12ac5; (tag: refs/tags/v2.10.12rc1);Rick Elrod;2021-07-13 00:22:51 -0500;New release v2.10.12rc1
+90c8ab0c8c; (tag: refs/tags/v2.11.3rc1);Rick Elrod;2021-07-13 00:19:09 -0500;New release v2.11.3rc1
+8016c034da; (tag: refs/tags/v2.9.23);Rick Elrod;2021-06-22 00:19:11 -0500;New release v2.9.23
+4d849f9a4f; (tag: refs/tags/v2.10.11);Rick Elrod;2021-06-22 00:17:41 -0500;New release v2.10.11
+ae9001ee18; (tag: refs/tags/v2.11.2);Rick Elrod;2021-06-22 00:04:37 -0500;New release v2.11.2
+e26c8e3134; (tag: refs/tags/v2.9.23rc1);Rick Elrod;2021-06-14 17:45:33 -0500;New release v2.9.23rc1
+96681819e8; (tag: refs/tags/v2.10.11rc1);Rick Elrod;2021-06-14 17:41:42 -0500;New release v2.10.11rc1
+c207402507; (tag: refs/tags/v2.11.2rc1);Rick Elrod;2021-06-14 17:38:00 -0500;New release v2.11.2rc1
+f468ec7087; (tag: refs/tags/v2.11.1);Rick Elrod;2021-05-24 14:50:49 -0500;New release v2.11.1
+2c75abf14d; (tag: refs/tags/v2.10.10);Rick Elrod;2021-05-24 14:49:48 -0500;New release v2.10.10
+dc9726fe6c; (tag: refs/tags/v2.9.22);Rick Elrod;2021-05-24 14:38:26 -0500;New release v2.9.22
+a9518f8809; (tag: refs/tags/v2.9.22rc1);Rick Elrod;2021-05-17 17:00:51 -0500;New release v2.9.22rc1
+85dd907d0f; (tag: refs/tags/v2.10.10rc1);Rick Elrod;2021-05-17 16:56:55 -0500;New release v2.10.10rc1
+d24f793ab1; (tag: refs/tags/v2.11.1rc1);Rick Elrod;2021-05-17 16:54:21 -0500;New release v2.11.1rc1
+fb177b3878; (tag: refs/tags/v2.9.21);Rick Elrod;2021-05-03 20:20:03 -0500;shift a few CI groups [2.9] (#74553)
+d1c49f2e1c; (tag: refs/tags/v2.10.9);Rick Elrod;2021-05-03 14:34:37 -0500;New release v2.10.9
+2ce8dc65f3; (tag: refs/tags/v2.9.21rc1);Rick Elrod;2021-04-27 09:18:33 -0500;New release v2.9.21rc1
+a5d4122076; (tag: refs/tags/v2.10.9rc1);Rick Elrod;2021-04-27 09:09:06 -0500;New release v2.10.9rc1
+2c16395054; (tag: refs/tags/v2.11.0);Rick Elrod;2021-04-26 12:19:06 -0500;New release v2.11.0
+8c16b47d11; (tag: refs/tags/v2.8.20);Rick Elrod;2021-04-12 17:26:44 -0500;New release v2.8.20
+d5f2ef4489; (tag: refs/tags/v2.9.20);Rick Elrod;2021-04-12 17:20:59 -0500;New release v2.9.20
+675691ce52; (tag: refs/tags/v2.10.8);Rick Elrod;2021-04-12 17:13:49 -0500;New release v2.10.8
+228c2782ad; (tag: refs/tags/v2.11.0rc2);Rick Elrod;2021-04-06 13:43:31 -0500;New release v2.11.0rc2
+2b584b6f3d; (tag: refs/tags/v2.8.20rc1);Rick Elrod;2021-04-05 21:43:54 -0500;New release v2.8.20rc1
+470b3f59d2; (tag: refs/tags/v2.9.20rc1);Rick Elrod;2021-04-05 19:58:31 -0500;New release v2.9.20rc1
+6011ef5f55; (tag: refs/tags/v2.10.8rc1);Rick Elrod;2021-04-05 19:34:12 -0500;New release v2.10.8rc1
+8f85594ff9; (tag: refs/tags/v2.11.0rc1);Rick Elrod;2021-04-05 17:28:27 -0500;New release v2.11.0rc1
+1c1734d32c; (tag: refs/tags/stable-2.11-branchpoint);Rick Elrod;2021-04-05 11:37:57 -0500;Fix 2.11 changelog ancestor, missed at 2.10 branching (#74123)
+ae90774f2b; (tag: refs/tags/v2.11.0b4);Rick Elrod;2021-03-29 19:31:47 -0500;New release v2.11.0b4 (#74063)
+88a1a85ff8; (tag: refs/tags/v2.11.0b3);Rick Elrod;2021-03-19 22:08:27 -0500;New release v2.11.0b3 (#73977)
+aff69b6b4c; (tag: refs/tags/v2.11.0b2);Rick Elrod;2021-03-15 17:54:49 -0500;New release v2.11.0b2 (#73915)
+98cb6fe4eb; (tag: refs/tags/v2.9.19);Rick Elrod;2021-03-15 17:37:20 -0500;New release v2.9.19
+4226af2718; (tag: refs/tags/v2.10.7);Rick Elrod;2021-03-15 17:35:04 -0500;New release v2.10.7
+49384aecdd; (tag: refs/tags/v2.9.19rc1);Rick Elrod;2021-03-08 21:48:30 -0600;New release v2.9.19rc1
+573d767dcb; (tag: refs/tags/v2.10.7rc1);Rick Elrod;2021-03-08 21:44:34 -0600;New release v2.10.7rc1
+24d41180ea; (tag: refs/tags/v2.11.0b1);Rick Elrod;2021-03-02 15:16:50 -0600;New release v2.11.0b1 (#73761)
+4455e60166; (tag: refs/tags/v2.9.18);Rick Elrod;2021-02-18 15:02:47 -0600;New release v2.9.18
+1205ad6a1a; (tag: refs/tags/v2.8.19);Rick Elrod;2021-02-17 16:28:00 -0600;New release v2.8.19
+9ea56ff292; (tag: refs/tags/v2.10.6);Rick Elrod;2021-02-17 16:10:38 -0600;New release v2.10.6
+d1e7984c82; (tag: refs/tags/v2.8.19rc1);Rick Elrod;2021-02-08 19:07:27 -0600;New release v2.8.19rc1
+16ba79b5ac; (tag: refs/tags/v2.9.18rc1);Rick Elrod;2021-02-08 19:05:25 -0600;New release v2.9.18rc1
+244fdf324c; (tag: refs/tags/v2.10.6rc1);Rick Elrod;2021-02-08 19:01:35 -0600;New release v2.10.6rc1
+890601dcef; (tag: refs/tags/v2.10.5);Rick Elrod;2021-01-18 14:34:40 -0600;New release v2.10.5
+5a34349348; (tag: refs/tags/v2.9.17);Rick Elrod;2021-01-18 14:26:14 -0600;New release v2.9.17
+4f15b61c83; (tag: refs/tags/v2.9.17rc1);Rick Elrod;2021-01-11 17:37:31 -0600;New release v2.9.17rc1
+422b9c09ee; (tag: refs/tags/v2.10.5rc1);Rick Elrod;2021-01-11 17:33:09 -0600;New release v2.10.5rc1
+9c83cbccf3; (tag: refs/tags/v2.8.18);Rick Elrod;2020-12-14 15:11:01 -0600;New release v2.8.18
+10cb8d8788; (tag: refs/tags/v2.9.16);Rick Elrod;2020-12-14 14:59:38 -0600;New release v2.9.16
+436d8a13b4; (tag: refs/tags/v2.10.4);Rick Elrod;2020-12-14 14:44:44 -0600;New release v2.10.4
+77ad6c4574; (tag: refs/tags/v2.8.18rc1);Rick Elrod;2020-12-07 19:32:50 -0600;New release v2.8.18rc1
+f9b89d9627; (tag: refs/tags/v2.9.16rc1);Rick Elrod;2020-12-07 19:20:56 -0600;New release v2.9.16rc1
+dc7faeaf6e; (tag: refs/tags/v2.10.4rc1);Rick Elrod;2020-12-07 19:05:36 -0600;New release v2.10.4rc1
+3e9afdae2e; (tag: refs/tags/v2.10.3);Rick Elrod;2020-11-02 15:34:41 -0600;New release v2.10.3
+a6da75b908; (tag: refs/tags/v2.8.17);Rick Elrod;2020-11-02 15:28:55 -0600;New release v2.8.17
+9e58793835; (tag: refs/tags/v2.9.15);Rick Elrod;2020-11-02 15:23:54 -0600;New release v2.9.15
+10922d58f0; (tag: refs/tags/v2.10.3rc1);Rick Elrod;2020-10-26 14:32:55 -0500;New release v2.10.3rc1
+f9bc656642; (tag: refs/tags/v2.9.15rc1);Rick Elrod;2020-10-26 14:22:29 -0500;New release v2.9.15rc1
+a345add182; (tag: refs/tags/v2.8.17rc1);Rick Elrod;2020-10-26 14:19:14 -0500;New release v2.8.17rc1
+4b9308bd29; (tag: refs/tags/v2.8.16);Rick Elrod;2020-10-05 16:01:30 -0500;New release v2.8.16
+13c4090f97; (tag: refs/tags/v2.9.14);Rick Elrod;2020-10-05 15:56:02 -0500;New release v2.9.14
+656c228abe; (tag: refs/tags/v2.10.2);Rick Elrod;2020-10-05 15:50:46 -0500;New release v2.10.2
+d2f85078b1; (tag: refs/tags/v2.8.16rc1);Rick Elrod;2020-09-28 12:17:31 -0500;New release v2.8.16rc1
+12ec871877; (tag: refs/tags/v2.9.14rc1);Rick Elrod;2020-09-28 12:15:15 -0500;New release v2.9.14rc1
+68f0fcfbd5; (tag: refs/tags/v2.10.2rc1);Rick Elrod;2020-09-28 11:54:17 -0500;New release v2.10.2rc1
+355a69f416; (tag: refs/tags/v2.10.1);Rick Elrod;2020-09-14 16:02:23 -0500;Revert "[deb packaging] Change maintainer email for now"
+387a7199fc; (tag: refs/tags/v2.10.1rc3);Rick Elrod;2020-09-07 13:52:06 -0500;New release v2.10.1rc3
+0e68601002; (tag: refs/tags/v2.10.1rc2);Rick Elrod;2020-09-01 01:01:32 -0500;New release v2.10.1rc2
+acf1a7ba40; (tag: refs/tags/v2.9.13);Rick Elrod;2020-08-31 21:17:06 -0500;New release v2.9.13
+01d9ef008b; (tag: refs/tags/v2.8.15);Rick Elrod;2020-08-31 20:13:44 -0500;New release v2.8.15
+a6ed955132; (tag: refs/tags/v2.10.0);Rick Elrod;2020-08-13 12:30:50 -0500;New release v2.10.0
+c404bd75ff; (tag: refs/tags/v2.8.14);Rick Elrod;2020-08-10 20:30:00 -0500;New release v2.8.14
+40091190b2; (tag: refs/tags/v2.9.12);Rick Elrod;2020-08-10 20:20:38 -0500;New release v2.9.12
+3900f82d00; (tag: refs/tags/v2.10.0rc4);Rick Elrod;2020-07-30 16:17:16 -0500;New release v2.10.0rc4
+f28fa88448; (tag: refs/tags/v2.10.0rc3);Rick Elrod;2020-07-24 15:59:04 -0500;New release v2.10.0rc3
+c528e648a6; (tag: refs/tags/v2.10.0rc2);Rick Elrod;2020-07-23 21:38:44 -0500;New release v2.10.0rc2
+3ee5b46ba7; (tag: refs/tags/v2.10.0rc1);Rick Elrod;2020-07-23 14:44:50 -0500;New release v2.10.0rc1
+34d1fac39b; (tag: refs/tags/v2.9.11);Rick Elrod;2020-07-20 18:21:45 -0500;New release v2.9.11
+0c89598b8a; (tag: refs/tags/v2.8.13);Rick Elrod;2020-07-14 16:43:19 -0500;New release v2.8.13
+60275fd9b4; (tag: refs/tags/v2.9.10);Rick Elrod;2020-06-18 13:59:26 -0500;New release v2.9.10
+cbfe2e642f; (tag: refs/tags/v2.10.0b1);Rick Elrod;2020-06-17 14:38:15 -0500;New release v2.10.0b1
+8152d8bc1a; (tag: refs/tags/stable-2.10-branchpoint);Matt Clay;2020-06-17 09:22:41 -0700;Disabled inconsistent pylint checks.
+6f83b9aff4; (tag: refs/tags/v2.9.9);Rick Elrod;2020-05-12 13:25:40 -0500;New release v2.9.9
+b378a44ab3; (tag: refs/tags/v2.7.18);Matt Clay;2020-05-11 16:33:55 -0700;New release v2.7.18
+f2c259b152; (tag: refs/tags/v2.8.12);Matt Clay;2020-05-11 16:31:14 -0700;New release v2.8.12
+ed2a39d68e; (tag: refs/tags/v2.9.8);Matt Clay;2020-05-11 16:28:48 -0700;New release v2.9.8
+f78a5b184c; (tag: refs/tags/v2.7.17);Matt Clay;2020-04-16 16:36:14 -0700;New release v2.7.17
+b9ebc0ceef; (tag: refs/tags/v2.8.11);Matt Clay;2020-04-16 16:33:11 -0700;New release v2.8.11
+ff7bbbcaf1; (tag: refs/tags/v2.9.7);Matt Clay;2020-04-16 16:26:06 -0700;New release v2.9.7
+4e8b240b8b; (tag: refs/tags/pre-ansible-base);Alicia Cozine;2020-03-06 16:16:35 -0600;Intersphinx (#68090)
+27d32fb88c; (tag: refs/tags/v2.8.10);Matt Clay;2020-03-05 11:08:39 -0800;New release v2.8.10
+668cdc3ce8; (tag: refs/tags/v2.8.9);Matt Clay;2020-03-04 18:26:07 -0800;New release v2.8.9
+9e3ccd64b6; (tag: refs/tags/v2.9.6);Matt Clay;2020-03-04 18:23:12 -0800;New release v2.9.6
+9388be4269; (tag: refs/tags/v2.9.5);Matt Clay;2020-02-13 08:30:05 -0800;New release v2.9.5
+818c66163e; (tag: refs/tags/v2.9.4);Matt Davis;2020-01-20 12:55:02 -0800;New release v2.9.4
+6832d8bf6a; (tag: refs/tags/v2.9.3);Matt Davis;2020-01-15 15:25:23 -0800;New release v2.9.3
+d28e4b63c7; (tag: refs/tags/v2.8.8);Matt Davis;2020-01-15 15:04:55 -0800;New release v2.8.8
+8fd406ee8e; (tag: refs/tags/v2.7.16);Matt Davis;2020-01-15 14:34:18 -0800;New release v2.7.16
+f2285203dc; (tag: refs/tags/v2.9.2);Matt Davis;2019-12-04 14:54:51 -0800;New release v2.9.2
+6c051b0241; (tag: refs/tags/v2.9.1);Matt Davis;2019-11-13 12:50:24 -0800;New release v2.9.1
+24220a618a; (tag: refs/tags/v2.8.7);Matt Davis;2019-11-13 12:46:45 -0800;New release v2.8.7
+0623dedf2d; (tag: refs/tags/v2.7.15);Matt Davis;2019-11-13 12:40:08 -0800;New release v2.7.15
+24325a05df; (tag: refs/tags/v2.9.0);Toshio Kuratomi;2019-10-31 09:06:47 -0700;New release v2.9.0
+149ff0d3ad; (tag: refs/tags/v2.9.0rc5);Matt Davis;2019-10-23 11:18:01 -0700;New release v2.9.0rc5
+d778c59c43; (tag: refs/tags/v2.8.6);Toshio Kuratomi;2019-10-17 09:57:00 -0700;New release v2.8.6
+289cdb6ea0; (tag: refs/tags/v2.9.0rc4);Toshio Kuratomi;2019-10-17 09:56:06 -0700;New release v2.9.0rc4
+71affa9d7c; (tag: refs/tags/v2.7.14);Toshio Kuratomi;2019-10-17 09:46:03 -0700;New release v2.7.14
+9bdb89f740; (tag: refs/tags/v2.6.20);Matt Davis;2019-10-17 09:28:29 -0700;New release v2.6.20
+40f415ba35; (tag: refs/tags/v2.9.0rc3);Toshio Kuratomi;2019-10-10 15:17:53 -0700;New release v2.9.0rc3
+eac0319e7a; (tag: refs/tags/v2.9.0rc2);Toshio Kuratomi;2019-10-03 11:35:02 -0700;New release v2.9.0rc2
+6c3726f3e1; (tag: refs/tags/v2.9.0rc1);Toshio Kuratomi;2019-09-20 09:21:38 -0700;New release v2.9.0rc1
+eb1995d41d; (tag: refs/tags/v2.8.5);Toshio Kuratomi;2019-09-12 12:54:03 -0700;New release v2.8.5
+b108c59b89; (tag: refs/tags/v2.9.0b1);Toshio Kuratomi;2019-09-05 11:46:29 -0700;New release v2.9.0b1
+02572cb9ec; (tag: refs/tags/stable-2.9-branchpoint);Mike Wiebe;2019-08-29 15:57:39 -0400;Rewrite nxos_file_copy as an action plugin (#60643)
+38036f07d8; (tag: refs/tags/v2.6.19);Toshio Kuratomi;2019-08-15 14:07:58 -0700;New release v2.6.19
+c4902421d9; (tag: refs/tags/v2.8.4);Toshio Kuratomi;2019-08-15 14:07:35 -0700;New release v2.8.4
+24007b5d4b; (tag: refs/tags/v2.7.13);Toshio Kuratomi;2019-08-15 14:07:21 -0700;New release v2.7.13
+be6918689a; (tag: refs/tags/v2.8.3);Toshio Kuratomi;2019-07-25 10:03:46 -0700;New release v2.8.3
+3affc30abe; (tag: refs/tags/v2.8.2);Toshio Kuratomi;2019-07-03 10:36:36 -0700;New release v2.8.2
+1fb35cd857; (tag: refs/tags/v2.7.12);Toshio Kuratomi;2019-07-03 09:44:13 -0700;New release v2.7.12
+a5f3791a91; (tag: refs/tags/v2.6.18);Toshio Kuratomi;2019-07-03 09:43:54 -0700;New release v2.6.18
+a31a8c2a53; (tag: refs/tags/v2.8.1);Toshio Kuratomi;2019-06-06 14:41:25 -0700;[stable-2.8] Disable the rabbitmq tests for now
+a25e32f247; (tag: refs/tags/v2.7.11);Toshio Kuratomi;2019-05-23 10:44:05 -0700;New release v2.7.11
+1b7828561e; (tag: refs/tags/v2.6.17);Toshio Kuratomi;2019-05-23 10:43:59 -0700;New release v2.6.17
+2611867fd1; (tag: refs/tags/v2.8.0);Matt Martz;2019-05-16 10:15:59 -0500;[stable-2.8] Bump erlang ping to 1:20.3.8.18-1 (cherry picked from commit 4b00141)
+cd9d6f0958; (tag: refs/tags/v2.8.0rc3);Matt Clay;2019-05-10 10:28:29 -0700;New release v2.8.0rc3
+22d7b7e5f2; (tag: refs/tags/v2.8.0rc2);Toshio Kuratomi;2019-05-01 05:55:38 -0700;New release v2.8.0rc2
+104f39a41d; (tag: refs/tags/v2.8.0rc1);Toshio Kuratomi;2019-04-25 09:22:32 -0700;[stable-2.8] Use LooseVersion instead of StrictVersion as StrictVersion doesn't understand "rc1" (cherry picked from commit b71133e)
+89c3ebf053; (tag: refs/tags/v2.8.0b1);Toshio Kuratomi;2019-04-15 12:21:54 -0700;New release v2.8.0b1
+ae667d3d86; (tag: refs/tags/v2.8.0a1);Toshio Kuratomi;2019-04-04 16:37:20 -0700;New release v2.8.0a1
+e75f58f305; (tag: refs/tags/v2.7.10);Toshio Kuratomi;2019-04-03 15:38:53 -0700;New release v2.7.10
+da048ae80d; (tag: refs/tags/v2.6.16);Toshio Kuratomi;2019-04-03 15:38:52 -0700;New release v2.6.16
+dd6a174ff0; (tag: refs/tags/v2.6.15);Toshio Kuratomi;2019-03-14 20:21:57 -0700;New release v2.6.15
+b4cba61b67; (tag: refs/tags/v2.7.9);Toshio Kuratomi;2019-03-14 11:10:27 -0700;New release v2.7.9
+446012263a; (tag: refs/tags/v2.6.14);Toshio Kuratomi;2019-02-21 09:18:18 -0800;New release v2.6.14
+cf6c765871; (tag: refs/tags/v2.7.8);Toshio Kuratomi;2019-02-21 09:17:52 -0800;New release v2.7.8
+4ad6924081; (tag: refs/tags/v2.5.15);Matt Davis;2019-02-21 08:17:19 -0800;New release v2.5.15
+11a2bafa21; (tag: refs/tags/v2.7.7);Toshio Kuratomi;2019-02-07 14:08:13 -0800;New release v2.7.7
+97a37b9ebc; (tag: refs/tags/v2.6.13);Toshio Kuratomi;2019-02-07 14:08:03 -0800;New release v2.6.13
+3996d84173; (tag: refs/tags/v2.6.12);Toshio Kuratomi;2019-01-17 09:19:17 -0800;New release v2.6.12
+1594ccf533; (tag: refs/tags/v2.7.6);Toshio Kuratomi;2019-01-17 09:16:01 -0800;New release v2.7.6
+208ef77365; (tag: refs/tags/v2.5.14);Matt Davis;2018-12-13 09:30:45 -0800;New release v2.5.14
+5e03754e8f; (tag: refs/tags/v2.6.11);Matt Clay;2018-12-13 09:26:54 -0800;New release v2.6.11
+a771ed93ab; (tag: refs/tags/v2.7.5);Toshio Kuratomi;2018-12-13 09:26:14 -0800;New release v2.7.5
+81879e9792; (tag: refs/tags/v2.7.4);Toshio Kuratomi;2018-11-30 09:30:22 -0800;New release v2.7.4
+e459665d3b; (tag: refs/tags/v2.6.10);Matt Clay;2018-11-30 09:28:53 -0800;New release v2.6.10
+ceae26e5e9; (tag: refs/tags/v2.5.13);Matt Davis;2018-11-30 09:09:30 -0800;New release v2.5.13
+322ebb9feb; (tag: refs/tags/v2.5.12);Matt Davis;2018-11-29 12:54:30 -0800;New release v2.5.12
+619c4173ea; (tag: refs/tags/v2.6.9);Matt Clay;2018-11-29 12:56:42 -0800;New release v2.6.9
+c3c4bd2cfb; (tag: refs/tags/v2.7.3);Toshio Kuratomi;2018-11-29 09:02:47 -0800;New release v2.7.3
+af5ef7c802; (tag: refs/tags/v2.6.8);Matt Clay;2018-11-15 14:23:45 -0800;New release v2.6.8
+fa0af52765; (tag: refs/tags/v2.7.2);Toshio Kuratomi;2018-11-15 13:48:34 -0800;New release v2.7.2
+37968a70a4; (tag: refs/tags/v2.6.7);Matt Martz;2018-10-25 12:25:02 -0500;[stable-2.6] Detect the socket path after starting the service. Fixes #47582 (cherry picked from commit 10e129e)
+f21dfd85cd; (tag: refs/tags/v2.5.11);Matt Davis;2018-10-31 10:00:14 -0700;New release v2.5.11
+c963ef1dfb; (tag: refs/tags/v2.7.1);Toshio Kuratomi;2018-10-25 13:12:52 -0700;New release v2.7.1
+0f8a689f95; (tag: refs/tags/v2.6.6);Matt Clay;2018-10-19 09:33:33 -0700;New release v2.6.6
+0a07068054; (tag: refs/tags/v2.7.0);Toshio Kuratomi;2018-10-03 20:26:57 -0700;New release v2.7.0
+2042830bab; (tag: refs/tags/v2.6.5);Matt Clay;2018-09-28 14:05:03 -0700;New release v2.6.5
+35b290f0c9; (tag: refs/tags/v2.7.0rc4);Toshio Kuratomi;2018-09-27 16:38:00 -0700;New release 2.7.0rc4
+37ca38bf67; (tag: refs/tags/v2.5.10);Matt Davis;2018-09-27 14:08:51 -0700;New release v2.5.10
+2a33276385; (tag: refs/tags/v2.7.0rc3);Toshio Kuratomi;2018-09-20 18:07:04 -0700;New release 2.7.0rc3
+6fe6d04489; (tag: refs/tags/v2.7.0rc2);Toshio Kuratomi;2018-09-13 11:41:10 -0700;New release v2.7.0rc2
+7fc2fbb55c; (tag: refs/tags/v2.5.9);Matt Davis;2018-09-10 04:34:45 -0700;New release v2.5.9
+0202339461; (tag: refs/tags/v2.7.0rc1);Toshio Kuratomi;2018-09-06 18:44:59 -0700;New release 2.7.0rc1
+04353f3a98; (tag: refs/tags/v2.6.4);Matt Clay;2018-09-06 14:50:53 -0700;New release v2.6.4
+097aaeb733; (tag: refs/tags/v2.7.0b1);Toshio Kuratomi;2018-08-31 14:40:47 -0700;Update changelogs for 2.7.0b1
+f1c31cd592; (tag: refs/tags/v2.7.0.a1);Toshio Kuratomi;2018-08-27 21:57:30 -0700;Fix release to be correct
+8a6ebd1e8d; (tag: refs/tags/v2.6.3);Matt Clay;2018-08-16 17:47:36 -0700;New release v2.6.3
+b23b1c2ee0; (tag: refs/tags/v2.5.8);Matt Davis;2018-08-16 14:42:42 -0700;New release v2.5.8
+c997811f45; (tag: refs/tags/v2.6.2);Matt Clay;2018-07-27 16:18:51 -0700;New release v2.6.2
+41a0bcf2fc; (tag: refs/tags/v2.5.7);Matt Davis;2018-07-26 16:03:27 -0700;New release 2.5.7
+0c985fee8a; (tag: refs/tags/v2.5.6);Matt Davis;2018-07-05 11:19:47 -0700;New release v2.5.6
+1a6fe6cc05; (tag: refs/tags/v2.6.1);Matt Clay;2018-07-05 11:48:35 -0700;New release v2.6.1
+1fde4e49df; (tag: refs/tags/v2.4.6.0-1);Toshio Kuratomi;2018-07-05 11:18:41 -0700;New release v2.4.6.0-1
+8ce3bd6dea; (tag: refs/tags/v2.6.0);Matt Clay;2018-06-28 14:38:38 -0700;New release v2.6.0
+478ab3f8b1; (tag: refs/tags/v2.6.0rc5);Matt Clay;2018-06-26 18:33:36 -0700;New release v2.6.0rc5
+9917d648e5; (tag: refs/tags/v2.6.0rc4);Matt Clay;2018-06-25 16:22:04 -0700;New release v2.6.0rc4
+2a18883cb2; (tag: refs/tags/v2.4.5.0-1);Toshio Kuratomi;2018-06-21 15:29:42 -0700;New release v2.4.5.0-1
+f5a9e007ce; (tag: refs/tags/v2.6.0rc3);Matt Clay;2018-06-18 22:43:49 -0700;New release v2.6.0rc3
+5f6e1a70a6; (tag: refs/tags/v2.5.5);Matt Davis;2018-06-14 13:38:55 -0700;New release v2.5.5
+05fd86c82f; (tag: refs/tags/v2.4.5.0-0.1.rc1);Toshio Kuratomi;2018-06-13 11:35:50 -0700;New release v2.4.5.0-0.1.rc1
+e458807129; (tag: refs/tags/v2.6.0rc2);Matt Clay;2018-06-08 22:03:08 -0700;New release v2.6.0rc2
+0a6c643e8e; (tag: refs/tags/v2.6.0rc1);Matt Clay;2018-06-05 19:46:23 -0700;New release v2.6.0rc1
+048690fdc4; (tag: refs/tags/v2.5.4);Matt Davis;2018-05-31 14:40:12 -0700;New release v2.5.4
+707f069fe8; (tag: refs/tags/v2.6.0a2);Matt Clay;2018-05-30 17:19:07 -0700;New release v2.6.0a2
+c98043a4c0; (tag: refs/tags/v2.6.0a1);Matt Clay;2018-05-21 17:18:42 -0700;New release v2.6.0a1
+778cb5bd8b; (tag: refs/tags/v2.5.3);Matt Davis;2018-05-17 15:47:38 -0700;New release v2.5.3
+48b75cad8e; (tag: refs/tags/v2.5.2);Matt Davis;2018-04-26 10:37:39 -0700;New release v2.5.2
+ed473d792b; (tag: refs/tags/v2.5.1);Matt Davis;2018-04-18 16:15:42 -0700;New release v2.5.1
+0adcd7bd1a; (tag: refs/tags/v2.4.4.0-1);Toshio Kuratomi;2018-04-04 15:18:14 -0700;New release v2.4.4.0-1
+2a07da2255; (tag: refs/tags/v2.4.4.0-0.3.rc2);Toshio Kuratomi;2018-03-29 19:26:08 -0700;New release v2.4.4.0-0.3.rc2
+2c2dd1a1b3; (tag: refs/tags/v2.5.0);Matt Davis;2018-03-22 17:09:19 -0700;New release v2.5.0
+144e5ae65a; (tag: refs/tags/v2.5.0rc3);Matt Davis;2018-03-15 18:11:45 -0700;New release v2.5.0rc3
+2ee6a85463; (tag: refs/tags/v2.5.0rc2);Matt Davis;2018-03-08 23:37:33 -0800;New release v2.5.0rc2
+5328bfd99b; (tag: refs/tags/v2.4.4-0.2.rc1);Toshio Kuratomi;2018-03-01 13:50:04 -0800;New release v2.4.4-0.2.rc1
+aea7abcb15; (tag: refs/tags/v2.3.4.0-0.1.rc1);James Cammarata;2018-02-28 12:51:06 -0600;New release v2.3.4.0-0.1.rc1
+e77c1b9e42; (tag: refs/tags/v2.5.0rc1);Matt Davis;2018-02-22 17:40:29 -0800;New release v2.5.0rc1
+52c85f6c66; (tag: refs/tags/v2.4.4-0.1.beta1);Toshio Kuratomi;2018-02-21 20:29:49 -0800;New release v2.4.4-0.1.beta1
+62139bb828; (tag: refs/tags/v2.5.0b2);Matt Davis;2018-02-16 01:13:00 -0800;v2.5.0b2 release cut
+a48cf0cb0d; (tag: refs/tags/v2.5.0b1);Matt Davis;2018-02-08 18:44:30 -0800;New release 2.5.0b1
+6cffa4959f; (tag: refs/tags/v2.5.0a1);Matt Davis;2018-02-01 16:14:18 -0800;New release v2.5.0a1
+8a7f9beab7; (tag: refs/tags/v2.4.3.0-1);Toshio Kuratomi;2018-01-31 13:28:08 -0800;New release v2.4.3.0-1
+10eba9494c; (tag: refs/tags/v2.4.3.0-0.6.rc3);Toshio Kuratomi;2018-01-24 11:24:58 -0800;New release v2.4.3.0-0.6.rc3
+64e6eb5086; (tag: refs/tags/v2.4.3.0-0.5.rc2);Toshio Kuratomi;2018-01-17 16:45:47 -0800;New release v2.4.3.0-0.5.rc2
+e2e64ed49c; (tag: refs/tags/v2.4.3.0-0.4.rc1);Toshio Kuratomi;2018-01-10 20:35:01 -0800;New release v2.4.3.0-0.4.rc1
+ccf10e95fc; (tag: refs/tags/v2.4.3-0.3.beta3);Toshio Kuratomi;2018-01-03 10:46:56 -0800;New release v2.4.3-0.3.beta3
+9dc4e0cec7; (tag: refs/tags/v2.4.3.0-0.2.beta2);Toshio Kuratomi;2017-12-20 11:53:43 -0800;New release v2.4.3.0-0.2.beta2
+0255ab2e27; (tag: refs/tags/v2.3.3.0-1);James Cammarata;2017-12-20 11:49:41 -0600;New release v2.3.3.0-1
+07021a36fe; (tag: refs/tags/v2.4.3.0-0.1.beta1);Toshio Kuratomi;2017-12-06 13:06:08 -0800;New release v2.4.3.0-0.1.beta1
+e3a8bf02ac; (tag: refs/tags/v2.4.2.0-1);Toshio Kuratomi;2017-11-29 12:18:56 -0800;New release v2.4.2.0-1
+880cb223b7; (tag: refs/tags/v2.4.2.0-0.5.rc1);Toshio Kuratomi;2017-11-22 18:52:54 -0800;New release v2.4.2.0-0.5.rc1
+6d24fe3d72; (tag: refs/tags/v2.4.2.0-0.4.beta4);Toshio Kuratomi;2017-11-15 14:18:40 -0800;New release v2.4.2.0-0.4.beta4
+54cfb022c2; (tag: refs/tags/v2.3.3.0-0.3.rc3);James Cammarata;2017-11-10 16:00:14 -0600;New release v2.3.3.0-0.3.rc3
+db54b0fb25; (tag: refs/tags/v2.4.2.0-0.3.beta3);Toshio Kuratomi;2017-11-08 16:41:38 -0800;New release v2.4.2.0-0.3.beta3
+6f2876f49c; (tag: refs/tags/v2.4.2.0-0.2.beta2);Toshio Kuratomi;2017-11-01 13:51:37 -0700;New release v2.4.2.0-0.2.beta2
+c495103996; (tag: refs/tags/v2.4.2.0-0.1.beta1);Toshio Kuratomi;2017-10-26 17:00:44 -0700;New release v2.4.2.0-0.1.beta1
+e946c4b3b7; (tag: refs/tags/v2.4.1.0-1);Toshio Kuratomi;2017-10-25 13:33:18 -0700;New release v2.4.1.0-1
+4a4590a2c6; (tag: refs/tags/v2.4.1.0-0.4.rc2);Toshio Kuratomi;2017-10-18 14:47:16 -0700;New release v2.4.1.0-0.4.rc2
+9e116c1b65; (tag: refs/tags/v2.3.3.0-0.2.rc2);James Cammarata;2017-10-17 11:39:33 -0500;New release v2.3.3.0-0.2.rc2
+de458be1eb; (tag: refs/tags/v2.4.1.0-0.3.rc1);Toshio Kuratomi;2017-10-11 20:19:43 -0700;New release v2.4.1.0-0.3.rc1
+6dab8b7bfa; (tag: refs/tags/v2.4.1.0-0.2.beta2);Toshio Kuratomi;2017-10-04 20:12:09 -0700;New release v2.4.1.0-0.2.beta2
+60d9513efb; (tag: refs/tags/v2.3.3.0-0.1.rc1);James Cammarata;2017-09-29 16:00:00 -0500;New release v2.3.3.0-0.1.rc1
+085297259f; (tag: refs/tags/v2.4.1.0-0.1.beta1);Toshio Kuratomi;2017-09-27 21:29:22 -0700;New release v2.4.1.0-0.1.beta1
+d14467b029; (tag: refs/tags/v2.4.0.0-1);Toshio Kuratomi;2017-09-18 19:23:06 -0700;Fix release date of 2.4.0.0
+3c805f85bc; (tag: refs/tags/v2.4.0.0-0.5.rc5);Toshio Kuratomi;2017-09-17 19:30:07 -0700;New release v2.4.0.0-0.5.rc5
+d25106e387; (tag: refs/tags/v2.4.0.0-0.4.rc4);Toshio Kuratomi;2017-09-16 11:28:34 -0700;New release v2.4.0.0-0.4.rc4
+6771ade86a; (tag: refs/tags/v2.4.0.0-0.3.rc3);Toshio Kuratomi;2017-09-13 14:16:03 -0700;New release v2.4.0.0-0.3.rc3
+8fd3ce0fec; (tag: refs/tags/v2.4.0.0-0.2.rc2);Toshio Kuratomi;2017-09-11 20:01:16 -0700;New release v2.4.0.0-0.2.rc2
+78cae22938; (tag: refs/tags/v2.4.0.0-0.1.rc1);Dylan Silva;2017-09-06 16:48:26 -0700;updated modules support page with new information (#29071)
+c7052b42c7; (tag: refs/tags/v2.3.2.0-1);James Cammarata;2017-08-04 15:24:09 -0500;New release v2.3.2.0-1
+76b5b35458; (tag: refs/tags/v2.3.2.0-0.5.rc5);James Cammarata;2017-08-01 18:51:23 -0500;New release v2.3.2.0-0.5.rc5
+532b4338f4; (tag: refs/tags/v2.3.2.0-0.4.rc4);James Cammarata;2017-07-26 09:54:02 -0500;New release v2.3.2.0-0.4.rc4
+a1c15a9277; (tag: refs/tags/v2.3.2.0-0.3.rc3);James Cammarata;2017-07-20 09:23:52 -0500;New release v2.3.2.0-0.3.rc3
+022ba4fbea; (tag: refs/tags/v2.3.2.0-0.2.rc2);James Cammarata;2017-07-07 11:46:40 -0500;New release v2.3.2.0-0.2.rc2
+7424e1c417; (tag: refs/tags/v2.3.2.0-0.1.rc1);James Cammarata;2017-06-27 11:33:22 -0500;New release v2.3.2.0-0.1.rc1
+7baf994f2c; (tag: refs/tags/v2.1.6.0-1, refs/remotes/origin/stable-2.1);James Cammarata;2017-06-01 13:24:23 -0500;New release v2.1.6.0-1
+ecb38fdf73; (tag: refs/tags/v2.3.1.0-1);James Cammarata;2017-06-01 10:57:37 -0500;New release v2.3.1.0-1
+fb636cb6f0; (tag: refs/tags/v2.3.1.0-0.2.rc2);James Cammarata;2017-05-23 13:55:45 -0500;New release v2.3.1.0-0.2.rc2
+f5be18f409; (tag: refs/tags/v2.2.3.0-1);James Cammarata;2017-05-09 09:50:19 -0500;New release v2.2.3.0-1
+a54a4fb78a; (tag: refs/tags/v2.1.6.0-0.1.rc1);James Cammarata;2017-05-09 08:54:21 -0500;New release v2.1.6.0-0.1.rc1
+5a3f52d988; (tag: refs/tags/v2.3.1.0-0.1.rc1);James Cammarata;2017-05-09 08:47:02 -0500;New release v2.3.1.0-0.1.rc1
+d56ba0945d; (tag: refs/tags/v2.3.0.0-1);James Cammarata;2017-04-12 08:56:33 -0500;New release v2.3.0.0-1
+9818ca366d; (tag: refs/tags/v2.3.0.0-0.6.rc6);James Cammarata;2017-04-10 10:13:54 -0500;New release v2.3.0.0-0.6.rc6
+d72dbffa23; (tag: refs/tags/v2.3.0.0-0.5.rc5);James Cammarata;2017-04-07 16:13:18 -0500;New release v2.3.0.0-0.5.rc5
+0fe53eda86; (tag: refs/tags/v2.3.0.0-0.4.rc4);James Cammarata;2017-04-06 14:10:42 -0500;New release v2.3.0.0-0.4.rc4
+df3e71a83f; (tag: refs/tags/v2.2.3.0-0.1.rc1);James Cammarata;2017-04-03 11:53:09 -0500;New release v2.2.3.0-0.1.rc1
+f15e1f25ae; (tag: refs/tags/v2.3.0.0-0.3.rc3);James Cammarata;2017-03-31 13:50:42 -0500;New release v2.3.0.0-0.3.rc3
+f001646f2c; (tag: refs/tags/v2.3.0.0-0.2.rc2);James Cammarata;2017-03-27 16:25:02 -0500;New release v2.3.0.0-0.2.rc2
+31300bd36b; (tag: refs/tags/v2.2.2.0-1);James Cammarata;2017-03-27 14:04:34 -0500;New release v2.2.2.0-1
+39ce8c6610; (tag: refs/tags/v2.1.5.0-1);James Cammarata;2017-03-27 13:46:04 -0500;New release v2.1.5.0-1
+e4494f85b6; (tag: refs/tags/v2.3.0.0-0.1.rc1);James Cammarata;2017-03-15 14:13:52 -0500;New release v2.3.0.0-0.1.rc1
+1805f6b6c0; (tag: refs/tags/v2.1.5.0-0.2.rc2);James Cammarata;2017-03-03 16:39:52 -0600;New release v2.1.5.0-0.2.rc2
+6ca528aea4; (tag: refs/tags/v2.2.2.0-0.2.rc2);James Cammarata;2017-03-03 16:34:42 -0600;New release v2.2.2.0-0.2.rc2
+b25f0f4e00; (tag: refs/tags/v2.1.5.0-0.1.rc1);James Cammarata;2017-02-21 18:08:12 -0600;New release v2.1.5.0-0.1.rc1
+6791061395; (tag: refs/tags/v2.2.2.0-0.1.rc1);James Cammarata;2017-02-21 18:03:37 -0600;New release v2.2.2.0-0.1.rc1
+2c832c736f; (tag: refs/tags/v2.1.4.0-1);James Cammarata;2017-01-16 10:20:00 -0600;New release v2.1.4.0-1
+5362910000; (tag: refs/tags/v2.2.1.0-1);James Cammarata;2017-01-16 10:13:31 -0600;New release v2.2.1.0-1
+8bbb2b3691; (tag: refs/tags/v2.1.4.0-0.3.rc3);James Cammarata;2017-01-13 16:48:24 -0600;New release v2.1.4.0-0.3.rc3
+0c153146e3; (tag: refs/tags/v2.2.1.0-0.5.rc5);James Cammarata;2017-01-13 16:44:45 -0600;New release v2.2.1.0-0.5.rc5
+b5daf2286c; (tag: refs/tags/v2.1.4.0-0.2.rc2);James Cammarata;2017-01-11 16:28:32 -0600;New release v2.1.4.0-0.2.rc2
+b3daa9dd64; (tag: refs/tags/v2.2.1.0-0.4.rc4);James Cammarata;2017-01-11 16:25:28 -0600;New release v2.2.1.0-0.4.rc4
+d69f096f3e; (tag: refs/tags/v2.1.4.0-0.1.rc1);James Cammarata;2017-01-09 10:52:21 -0600;New release v2.1.4.0-0.1.rc1
+d8c9b8d347; (tag: refs/tags/v2.2.1.0-0.3.rc3);James Cammarata;2017-01-09 10:49:01 -0600;New release v2.2.1.0-0.3.rc3
+fe33c937c4; (tag: refs/tags/v2.2.1.0-0.2.rc2);James Cammarata;2016-12-14 09:09:02 -0600;New release v2.2.1.0-0.2.rc2
+d4e8cdc84f; (tag: refs/tags/v2.2.1.0-0.1.rc1);James Cammarata;2016-11-18 23:56:46 -0600;New release v2.2.1.0-0.1.rc1
+4cadc98049; (tag: refs/tags/v2.1.3.0-1);James Cammarata;2016-11-04 11:51:44 -0500;New release v2.1.3.0-1
+cdec853e37; (tag: refs/tags/v2.2.0.0-1);James Cammarata;2016-10-31 22:20:38 -0500;New release v2.2.0.0-1
+9d4ce0a94e; (tag: refs/tags/v2.2.0.0-0.4.rc4);James Cammarata;2016-10-27 13:41:06 -0500;New release v2.2.0.0-0.4.rc4
+b056a5823f; (tag: refs/tags/v2.1.3.0-0.3.rc3);James Cammarata;2016-10-25 10:30:52 -0500;New release v2.1.3.0-0.3.rc3
+e2926bd398; (tag: refs/tags/v2.1.3.0-0.2.rc2);James Cammarata;2016-10-24 18:46:43 -0500;New release v2.1.3.0-0.2.rc2
+eafb4043c9; (tag: refs/tags/v2.2.0.0-0.3.rc3);James Cammarata;2016-10-24 18:39:31 -0500;New release v2.2.0.0-0.3.rc3
+e00dc01803; (tag: refs/tags/v2.1.3.0-0.1.rc1);James Cammarata;2016-10-18 15:44:28 -0500;New release v2.1.3.0-0.1.rc1
+bce9bfce51; (tag: refs/tags/v2.2.0.0-0.2.rc2);James Cammarata;2016-10-18 15:35:11 -0500;New release v2.2.0.0-0.2.rc2
+44faad0593; (tag: refs/tags/v2.2.0.0-0.1.rc1);James Cammarata;2016-10-03 10:00:08 -0500;New release v2.2.0.0-0.1.rc1
+29f2f26278; (tag: refs/tags/v2.1.2.0-1);James Cammarata;2016-09-29 10:01:35 -0500;New release v2.1.2.0-1
+c3257027b9; (tag: refs/tags/v2.1.2.0-0.5.rc5);James Cammarata;2016-09-27 10:41:46 -0500;New release v2.1.2.0-0.5.rc5
+3d8dac2084; (tag: refs/tags/v2.1.2.0-0.4.rc4);James Cammarata;2016-09-26 14:45:29 -0500;New release v2.1.2.0-0.4.rc4
+fb71a9dfd9; (tag: refs/tags/v2.1.2.0-0.3.rc3);James Cammarata;2016-09-14 16:51:18 -0500;New release v2.1.2.0-0.3.rc3
+e83840c3fd; (tag: refs/tags/v2.1.2.0-0.2.rc2);James Cammarata;2016-08-31 12:57:52 -0500;New release v2.1.2.0-0.2.rc2
+b2fe1b39df; (tag: refs/tags/v2.1.2.0-0.1.rc1);James Cammarata;2016-08-22 16:15:56 -0500;New release v2.1.2.0-0.1.rc1
+780c363482; (tag: refs/tags/v2.1.1.0-1);James Cammarata;2016-07-28 10:32:34 -0700;New release v2.1.1.0-1
+02389d6c51; (tag: refs/tags/v2.1.1.0-0.5.rc5);James Cammarata;2016-07-24 18:06:49 -0500;New release v2.1.1.0-0.5.rc5
+6ca9b406ec; (tag: refs/tags/v2.1.1.0-0.4.rc4);James Cammarata;2016-07-23 16:59:25 -0400;New release v2.1.1.0-0.4.rc4
+35da6ba9d1; (tag: refs/tags/v2.1.1.0-0.3.rc3);James Cammarata;2016-07-18 16:12:07 -0400;New release v2.1.1.0-0.3.rc3
+eff49c968a; (tag: refs/tags/v2.1.1.0-0.2.rc2);James Cammarata;2016-07-07 15:25:28 -0500;New release v2.1.1.0-0.2.rc2
+4d4bbcbb33; (tag: refs/tags/v2.1.1.0-0.1.rc1);James Cammarata;2016-06-17 14:33:25 -0500;New release v2.1.1.0-0.1.rc1
+b599477242; (tag: refs/tags/v2.1.0.0-1);James Cammarata;2016-05-25 08:54:48 -0400;New release v2.1.0.0-1
+9e622dcf31; (tag: refs/tags/v2.1.0.0-0.4.rc4);James Cammarata;2016-05-22 16:44:41 -0400;New release v2.1.0.0-0.4.rc4
+036547b4dd; (tag: refs/tags/v2.1.0.0-0.3.rc3);James Cammarata;2016-05-18 15:48:24 -0400;New release v2.1.0.0-0.3.rc3
+0ad0b3d83b; (tag: refs/tags/v2.1.0.0-0.2.rc2);James Cammarata;2016-05-13 17:07:03 -0400;New release v2.1.0.0-0.2.rc2
+5954a82dd6; (tag: refs/tags/v2.1.0.0-0.1.rc1);James Cammarata;2016-04-26 16:23:34 -0400;New release v2.1.0.0-0.1.rc1
+24d9e5e0b4; (tag: refs/tags/v2.0.2.0-1);James Cammarata;2016-04-19 17:24:24 -0400;New release v2.0.2.0-1
+7644312b20; (tag: refs/tags/v1.9.6-1);James Cammarata;2016-04-15 14:50:08 -0400;New release v1.9.6-1
+26209342a2; (tag: refs/tags/v2.0.2.0-0.4.rc4);James Cammarata;2016-04-12 10:42:39 -0400;New release v2.0.2.0-0.4.rc4
+388ee24311; (tag: refs/tags/v2.0.2.0-0.3.rc3);James Cammarata;2016-04-06 15:34:53 -0400;New release v2.0.2.0-0.3.rc3
+e7c4ea4d1c; (tag: refs/tags/v1.9.6-0.1.rc1);James Cammarata;2016-04-06 15:20:52 -0400;New release v1.9.6-0.1.rc1
+2d6a0d24b8; (tag: refs/tags/v2.0.2.0-0.2.rc2);James Cammarata;2016-04-01 10:09:32 -0400;New release v2.0.2.0-0.2.rc2
+7e05cc4e74; (tag: refs/tags/v2.0.2.0-0.1.rc1);James Cammarata;2016-03-23 14:09:10 -0400;New release v2.0.2.0-0.1.rc1
+cdfbc4243a; (tag: refs/tags/v1.9.5-1);James Cammarata;2016-03-21 18:55:51 -0400;New release v1.9.5-1
+ee2c442486; (tag: refs/tags/v1.9.5-0.1.rc1);James Cammarata;2016-03-10 15:06:20 -0500;New release v1.9.5-0.1.rc1
+bb6cadefa2; (tag: refs/tags/v2.0.1.0-1);James Cammarata;2016-02-24 18:29:00 -0500;New release v2.0.1.0-1
+bec698052f; (tag: refs/tags/v2.0.1.0-0.2.rc2);James Cammarata;2016-02-15 16:02:44 -0500;New release v2.0.1.0-0.2.rc2
+870a4b8dc1; (tag: refs/tags/v2.0.1.0-0.1.rc1);James Cammarata;2016-01-28 16:37:59 -0500;New release v2.0.1.0-0.1.rc1
+7de237c5a1; (tag: refs/tags/v2.0.0.2-1);James Cammarata;2016-01-14 17:17:42 -0500;New release v2.0.0.2-1
+a50d1ea756; (tag: refs/tags/v2.0.0.1-1);James Cammarata;2016-01-12 17:53:30 -0500;New release v2.0.0.1-1
+06ec219982; (tag: refs/tags/v2.0.0.0-1);James Cammarata;2016-01-12 08:34:00 -0500;New release v2.0.0.0-1
+502ad88506; (tag: refs/tags/v2.0.0-0.9.rc4);James Cammarata;2016-01-07 13:41:47 -0500;New release v2.0.0-0.9.rc4
+a2120a3d63; (tag: refs/tags/v2.0.0-0.8.rc3);James Cammarata;2015-12-21 17:59:27 -0500;Version bump for 2.0.0-0.8.rc3
+cc98528ecb; (tag: refs/tags/v2.0.0-0.7.rc2);James Cammarata;2015-12-07 13:13:37 -0500;Version bump for 2.0.0-0.7.rc2
+f2225395f9; (tag: refs/tags/v2.0.0-0.6.rc1);nitzmahone;2015-11-18 23:09:16 -0800;winrm error handling tweaks
+07b588f6c0; (tag: refs/tags/v2.0.0-0.5.beta3);James Cammarata;2015-11-13 16:48:25 -0500;Version bump for new beta 2.0.0-0.5.beta3
+de54f26376; (tag: refs/tags/v2.0.0-0.4.beta2);Toshio Kuratomi;2015-10-26 13:13:11 -0700;Update submodule refs
+5af1cda7c9; (tag: refs/tags/v1.9.4-1);James Cammarata;2015-10-09 15:45:45 -0400;Version bump for release 1.9.4-1
+5ae74f7d38; (tag: refs/tags/v2.0.0-0.3.beta1);James Cammarata;2015-10-06 08:19:20 -0400;Version bump for 2.0.0-0.3.beta1
+e40f0fd66a; (tag: refs/tags/v1.9.4-0.3.rc3);James Cammarata;2015-10-02 10:42:33 -0400;Version bump for release candidate 1.9.4 rc3
+d2d3162a8b; (tag: refs/tags/v1.9.4-0.2.rc2);James Cammarata;2015-09-11 18:15:20 -0400;Also updating submodules for stable-1.9 branch
+e5d6d1be44; (tag: refs/tags/v1.9.4-0.1.rc1);James Cammarata;2015-09-04 17:07:35 -0400;Version bump for new release candidate 1.9.4-rc1
+70677b030b; (tag: refs/tags/v2.0.0-0.2.alpha2);James Cammarata;2015-09-04 16:50:37 -0400;Version bump for 2.0.0-0.2.alpha2
+d444ab507e; (tag: refs/tags/v1.9.3-1);James Cammarata;2015-09-03 18:26:11 -0400;Version bump for release 1.9.3-1
+2df6513f8d; (tag: refs/tags/v2.0.0-0.1.alpha1);James Cammarata;2015-08-27 13:32:46 -0400;Version bump for v2.0.0-0.1.alpha1 and submodule updates
+f006a743b6; (tag: refs/tags/v1.9.3-0.3.rc3);James Cammarata;2015-08-24 10:48:49 -0400;Version bump for release candidate 1.9.3 rc3
+176b5bc502; (tag: refs/tags/v1.9.3-0.2.rc2);James Cammarata;2015-08-20 16:35:03 -0400;Version bump for 1.9.3-rc2
+bf5353767e; (tag: refs/tags/v1.9.3-0.1.rc1);James Cammarata;2015-08-11 13:28:41 -0400;Version bump for 1.9.3-rc1
+f974ff6972; (tag: refs/tags/v1.9.2-1);Toshio Kuratomi;2015-06-25 11:39:15 -0700;Merge pull request #11390 from j2sol/pin-to-stable
+9bf06bfe84; (tag: refs/tags/v1.9.2-0.2.rc2);Toshio Kuratomi;2015-06-19 09:17:42 -0700;Update the submodule refs for stable-1.9
+e36b7130ff; (tag: refs/tags/v1_last);Brian Coca;2015-06-01 11:01:59 -0400;Merge pull request #11106 from cchurch/test_winrm_tweaks
+982bad7886; (tag: refs/tags/v1.9.2-0.1.rc1);James Cammarata;2015-05-15 21:02:17 -0500;Version bump for release candidate 1.9.2-0.1.rc1
+b47d1d7e69; (tag: refs/tags/v1.9.1-1);James Cammarata;2015-04-27 16:13:52 -0500;Version bump for release 1.9.1-1
+99af3a8dc1; (tag: refs/tags/v1.9.1-0.4.rc4);James Cammarata;2015-04-09 13:45:21 -0400;version update for release candidate 1.9.1-0.4.rc4
+9a07855151; (tag: refs/tags/v1.9.1-0.3.rc3);James Cammarata;2015-04-17 14:47:21 -0500;Version bump for release candidate 1.9.1-0.3.rc3
+e16e2b171c; (tag: refs/tags/v1.9.1-0.2.rc2);James Cammarata;2015-04-15 10:30:45 -0500;Version bump for 1.9.1-0.2.rc2 release candidate
+b186f7b85e; (tag: refs/tags/v1.9.1-0.1.rc1);James Cammarata;2015-04-06 13:38:33 -0500;Version bump for 1.9.1-0.1.rc1
+29809bb83d; (tag: refs/tags/v1.9.0.1-1);James Cammarata;2015-03-25 18:39:45 -0500;Version bump for 1.9.0.1-1
+717ffe2bea; (tag: refs/tags/v1.9.0-2);James Cammarata;2015-03-25 17:07:21 -0500;Version bump for 1.9.0-2
+d76f8deed5; (tag: refs/tags/v1.9.0-1);James Cammarata;2015-03-25 14:57:16 -0500;Submodule updates for 1.9
+5d28d46b16; (tag: refs/tags/v1.9.0-0.2.rc2);James Cammarata;2015-03-20 14:48:21 -0500;VERSION bump and submodule update for 1.9.0-0.2.rc2
+bce4bb2ce2; (tag: refs/tags/v1.9.0-0.1.rc1);Brian Coca;2014-11-24 16:36:31 -0500;preliminary privlege escalation unification  + pbrun - become constants inherit existing sudo/su ones - become command line options, marked sudo/su as deprecated and moved sudo/su passwords to runas group - changed method signatures as privlege escalation is collapsed to become - added tests for su and become, diabled su for lack of support in local.py - updated playbook,play and task objects to become - added become to runner - added whoami test for become/sudo/su - added home override dir for plugins - removed useless method from ask pass - forced become pass to always be string also uses to_bytes - fixed fakerunner for tests - corrected reference in synchronize action plugin - added pfexec (needs testing) - removed unused sudo/su in runner init - removed deprecated info - updated pe tests to allow to run under sudo and not need root - normalized become options into a funciton to avoid duplication and inconsistencies - pushed suppored list to connection classs property - updated all connection plugins to latest 'become' pe
+ebc8d48d34; (tag: refs/tags/v1.8.4, refs/remotes/origin/release1.8.4);James Cammarata;2015-02-19 10:29:56 -0600;Version bump for release 1.8.4
+64d1249598; (tag: refs/tags/v1.8.3, refs/remotes/origin/release1.8.3);James Cammarata;2015-02-17 16:19:56 -0600;Removing delegate_to integration tests, since it's not enabled in devel either
+6f568bd649; (tag: refs/tags/v1.8.2);James Cammarata;2014-12-04 16:17:10 -0600;Version bump for release 1.8.2
+6598c83b02; (tag: refs/tags/v1.8.1);James Cammarata;2014-11-26 21:35:53 -0600;Version bump for release 1.8.1
+dece0c3f08; (tag: refs/tags/v1.8.0, refs/remotes/origin/release1.8.0);James Cammarata;2014-11-25 15:58:28 -0600;Version bump for 1.8.0
+d3c28fee87; (tag: refs/tags/v1.7.2, refs/remotes/origin/release1.7.2);James Laska;2014-09-10 17:56:28 -0400;Correct mysql integration indentation
+268e72318f; (tag: refs/tags/v1.7.1, refs/remotes/origin/release1.7.1);James Cammarata;2014-08-14 15:50:38 -0500;Version bump for 1.7.1
+2912793087; (tag: refs/tags/v1.7.0, refs/remotes/origin/release1.7.0);James Cammarata;2014-08-06 15:37:24 -0500;Removing leftover import of atomic_move
+8959338284; (tag: refs/tags/v1.6.10, refs/remotes/origin/release1.6.10);James Cammarata;2014-07-25 15:23:32 -0500;Adding unittest for space preservation within quotes when splitting args
+663ecd0d04; (tag: refs/tags/v1.6.9, refs/remotes/origin/release1.6.9);James Cammarata;2014-07-24 22:20:37 -0500;Version bump for release 1.6.9
+f88bf57463; (tag: refs/tags/v1.6.8);James Cammarata;2014-07-22 16:32:42 -0500;Version bump for release 1.6.8
+907c98ed7b; (tag: refs/tags/v1.6.7, refs/remotes/origin/release1.6.7);James Cammarata;2014-07-21 11:33:35 -0500;Fix ec2_setup task param quoting
+69d85c22c7; (tag: refs/tags/v1.6.6, refs/remotes/origin/release1.6.6);James Cammarata;2014-07-01 14:36:36 -0500;Version bump for release 1.6.6
+cb4b196288; (tag: refs/tags/v1.6.5, refs/remotes/origin/release1.6.5);James Cammarata;2014-06-25 21:10:25 -0500;Version bump for 1.6.5
+cc4129f6a1; (tag: refs/tags/v1.6.4, refs/remotes/origin/release1.6.4);James Cammarata;2014-06-25 14:20:46 -0500;Version bump for 1.6.4
+dffea7f877; (tag: refs/tags/v1.6.3, refs/remotes/origin/release1.6.3);James Cammarata;2014-06-09 14:30:07 -0500;Version bump and CHANGELOG/RELEASES update for 1.6.3
+ce4883bcc5; (tag: refs/tags/v1.6.2);James Cammarata;2014-05-23 15:37:57 -0500;Version bump for 1.6.2
+d4e11c5c69; (tag: refs/tags/v1.6.1, refs/remotes/origin/release1.6.1);James Cammarata;2014-05-07 12:33:07 -0500;Version bump for 1.6.1 release
+ab5500072b; (tag: refs/tags/v1.6.0);James Cammarata;2014-05-05 16:35:36 -0500;Update packaging dates for the 1.6.0 release
+7b319d8606; (tag: refs/tags/v1.5.5, refs/remotes/origin/release1.5.5);James Cammarata;2014-04-18 13:45:36 -0500;Version bump for 1.5.5
+f1f63829ef; (tag: refs/tags/v1.5.4, refs/remotes/origin/release1.5.4);James Cammarata;2014-04-01 16:22:23 -0500;Version bump for 1.5.4 release
+157b783521; (tag: refs/tags/v1.5.3, refs/remotes/origin/release1.5.3);Michael DeHaan;2014-03-14 10:21:31 -0500;Merge pull request #6491 from jlaska/apt_repository_signing_fix
+8588ac5f60; (tag: refs/tags/v1.5.2);Michael DeHaan;2014-03-11 10:47:53 -0400;Fix other reference to APT_ENV_VARS.
+16c05cbc88; (tag: refs/tags/v1.5.1);Richard C Isaacson;2014-03-10 17:40:36 -0500;Update files for 1.5.1 release.
+6221a2740f; (tag: refs/tags/v1.5.0, refs/remotes/origin/release1.5.0);James Cammarata;2014-02-28 14:17:07 -0600;Updating files for new upstream release 1.5.0
+c4db9badcc; (tag: refs/tags/v1.4.5);James Cammarata;2014-02-12 15:23:11 -0600;Update files for 1.4.5 release.
+45dde5b3e2; (tag: refs/tags/v1.4.4);James Tanner;2014-01-06 10:30:35 -0500;Update files for 1.4.4 release.
+5f8a906eed; (tag: refs/tags/v1.4.3);James Tanner;2013-12-20 13:19:01 -0500;Update files for 1.4.3 release.
+42d9936b8b; (tag: refs/tags/v1.4.2);James Tanner;2013-12-18 20:30:44 -0500;Add ansible-galaxy python dependencies
+7bf799af65; (tag: refs/tags/v1.4.1);Michael DeHaan;2013-11-27 18:13:21 -0500;Update files for 1.4.1 release.
+2a58c2bbe3; (tag: refs/tags/v1.4.0);James Tanner;2013-11-21 15:11:16 -0500;Update files for 1.4 release
+8e3ba1f3c3; (tag: refs/tags/v1.3.4);James Cammarata;2013-10-29 16:23:52 -0500;Version bump for 1.3.4
+298d8d78ca; (tag: refs/tags/v1.3.3);James Cammarata;2013-10-07 14:00:49 -0500;Version bump for 1.3.3
+9d5d88b59f; (tag: refs/tags/v1.3.2);James Cammarata;2013-09-19 11:08:45 -0500;CHANGELOG update for the PTY patch inclusion
+cac9e02aea; (tag: refs/tags/v1.3.1);James Cammarata;2013-09-16 05:27:23 -0500;Version bump for 1.3.1 release
+507b78f379; (tag: refs/tags/v1.3.0);Michael DeHaan;2013-09-13 17:31:34 -0400;Update specfile -- no need for node fireball package, release dates
+5d370bff94; (tag: refs/tags/v1.2.3);James Cammarata;2013-08-21 12:06:26 -0500;Release bump to v1.2.3
+90c8dcc4b8; (tag: refs/tags/v1.2.2);Michael DeHaan;2013-07-05 22:05:05 -0400;Slight revisement to configuration file comment.
+bc03a294ae; (tag: refs/tags/v1.2.1);Michael DeHaan;2013-07-04 21:47:47 -0400;Update release versions for 1.2.1
+f67c13f8f1; (tag: refs/tags/v1.2);Michael DeHaan;2013-06-10 15:23:51 -0400;Update packaging dates in preparation for release.
+2f944d87f6; (tag: refs/tags/v1.1);Michael DeHaan;2013-04-01 14:01:51 -0700;Merge pull request #2547 from jsmartin/cloudformation
+6a64e9f024; (tag: refs/tags/v1.0);Michael DeHaan;2013-02-01 21:27:00 -0500;Update changelog
+0115d4b442; (tag: refs/tags/v0.9);Michael DeHaan;2012-11-30 22:21:16 -0500;release process
+e07227194b; (tag: refs/tags/0.8);Michael DeHaan;2012-10-19 20:46:59 -0400;Update packaging and CHANGELOG for release
+6bb9814b9f; (tag: refs/tags/0.7.2);Michael DeHaan;2012-10-10 08:09:18 -0400;update branch so 0.7.2 is buildable
+e63f401ec6; (tag: refs/tags/0.7.1);Michael DeHaan;2012-09-11 17:47:24 -0400;Bump version
+2bf9a92bb6; (tag: refs/tags/0.7);Michael DeHaan;2012-09-06 18:46:15 -0400;Don't load plugins starting with "_".
+53c927ff26; (tag: refs/tags/0.6);Michael DeHaan;2012-08-06 21:17:58 -0400;changelog dates
+22f3967f2c; (tag: refs/tags/0.5);Michael DeHaan;2012-07-04 13:37:46 -0400;Bump dates in packaging files for release.
+f42b6308d3; (tag: refs/tags/0.4.1);Michael DeHaan;2012-06-13 12:14:31 -0700;Merge pull request #470 from tbielawa/fixAuthor
+9551afc061; (tag: refs/tags/0.4);Michael DeHaan;2012-05-23 19:38:59 -0400;Update changelog for release.
+5a156d6817; (tag: refs/tags/0.3.1);Michael DeHaan;2012-05-01 15:40:39 -0700;Merge pull request #286 from tbielawa/PkgReviewRetagFixes
+4d62510997; (tag: refs/tags/0.3);Michael DeHaan;2012-04-23 21:11:43 -0400;Version bump for 0.3 release
+09e690fd7c; (tag: refs/tags/0.0.2);Michael DeHaan;2012-04-03 20:20:55 -0400;Indentation error causing forks to not be parallel.  Ahem :)
+2e1b59a9d2; (tag: refs/tags/0.0.1);Michael DeHaan;2012-03-13 19:27:13 -0400;restructure the examples directory
+56de2e112a; (tag: refs/tags/0.01);Michael DeHaan;2012-03-08 13:59:12 -0500;Update README.md

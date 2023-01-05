@@ -1,0 +1,408 @@
+ansible,file,method,params,startlineno,endlineno,type,lineno
+ansible,contrib\inventory\abiquo.py,get_cache,"cache_item, config",81,92,assignment,87
+ansible,contrib\inventory\collins.py,find_assets,"self, attributes={}, operation='AND'",171,217,assignment,195
+ansible,contrib\inventory\vbox.py,get_hosts,host=None,35,101,argument,61
+ansible,contrib\inventory\vbox.py,get_hosts,host=None,35,101,argument,87
+ansible,contrib\inventory\vmware.py,main,,436,466,argument,466
+ansible,contrib\inventory\vmware_inventory.py,read_settings,self,176,251,assignment,234
+ansible,contrib\inventory\vmware_inventory.py,read_settings,self,176,251,assignment,236
+ansible,contrib\inventory\vmware_inventory.py,get_instances,self,272,289,assignment,286
+ansible,contrib\inventory\vmware_inventory.py,get_instances,self,272,289,reference,289
+ansible,lib\ansible\module_utils\basic.py,heuristic_log_sanitize,"data, no_log_values=None",403,465,assignment,462
+ansible,lib\ansible\module_utils\basic.py,heuristic_log_sanitize,"data, no_log_values=None",403,465,reference,465
+ansible,lib\ansible\module_utils\basic.py,_check_type_dict,"self, value",1444,1487,assignment,1469
+ansible,lib\ansible\module_utils\basic.py,_log_invocation,self,1663,1700,assignment,1696
+ansible,lib\ansible\module_utils\basic.py,_log_invocation,self,1663,1700,assignment,1698
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,assignment,2184
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2158
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2160
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2161
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2163
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2164
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2165
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2166
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2170
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2183
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,reference,2220
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,delsubscript,2153
+ansible,lib\ansible\module_utils\basic.py,run_command,"self, args, check_rc=False, close_fds=True, executable=None, data=None, binary_data=False, path_prefix=None, cwd=None, use_unsafe_shell=False, prompt_regex=None, environ_update=None, umask=None, encoding='utf-8', errors='surrogate_or_strict'",2042,2302,delsubscript,2285
+ansible,lib\ansible\inventory\ini.py,__init__,"self, loader, groups, filename=C.DEFAULT_HOST_LIST",42,67,assignment,61
+ansible,lib\ansible\inventory\ini.py,__init__,"self, loader, groups, filename=C.DEFAULT_HOST_LIST",42,67,argument,61
+ansible,lib\ansible\inventory\ini.py,__init__,"self, loader, groups, filename=C.DEFAULT_HOST_LIST",42,67,assignment,65
+ansible,lib\ansible\parsing\vault\__init__.py,_format_output,"self, b_ciphertext",268,286,assignment,284
+ansible,lib\ansible\module_utils\facts.py,get_local_facts,self,235,283,assignment,272
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2287
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2319
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2344
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2350
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2361
+ansible,lib\ansible\module_utils\facts.py,get_interfaces_info,"self, ip_path, default_ipv4, default_ipv6",2255,2425,assignment,2389
+ansible,lib\ansible\module_utils\facts.py,get_all_facts,module,3464,3532,assignment,3530
+ansible,lib\ansible\executor\module_common.py,modify_module,"module_name, module_path, module_args, task_vars=dict(), module_compression='ZIP_STORED'",743,798,argument,788
+ansible,lib\ansible\module_utils\cloudstack.py,get_result,"self, resource",509,530,assignment,520
+ansible,lib\ansible\module_utils\cloudstack.py,get_result,"self, resource",509,530,assignment,524
+ansible,lib\ansible\module_utils\junos.py,rpc_args,args,327,339,assignment,336
+ansible,lib\ansible\module_utils\junos.py,rpc_args,args,327,339,assignment,338
+ansible,lib\ansible\module_utils\nxos.py,_get_body,"self, commands, output, version='1.0', chunk='0', sid=None",99,121,assignment,112
+ansible,lib\ansible\plugins\connection\winrm.py,set_host_overrides,"self, host, hostvars=None",84,133,assignment,110
+ansible,lib\ansible\plugins\filter\ipaddr.py,_6to4_query,"v, vtype, value",49,77,assignment,58
+ansible,lib\ansible\plugins\filter\mathstuff.py,unique,a,28,36,assignment,32
+ansible,lib\ansible\plugins\lookup\dig.py,run,"self, terms, variables=None, **kwargs",101,212,assignment,158
+ansible,lib\ansible\plugins\lookup\dnstxt.py,run,"self, terms, variables=None, **kwargs",40,64,assignment,56
+ansible,lib\ansible\plugins\lookup\dnstxt.py,run,"self, terms, variables=None, **kwargs",40,64,assignment,58
+ansible,lib\ansible\plugins\lookup\password.py,_gen_candidate_chars,characters,106,136,assignment,135
+ansible,lib\ansible\plugins\lookup\password.py,_gen_candidate_chars,characters,106,136,getattr,133
+ansible,lib\ansible\plugins\test\core.py,version_compare,"value, version, operator='eq', strict=False",90,115,assignment,104
+ansible,lib\ansible\plugins\test\core.py,version_compare,"value, version, operator='eq', strict=False",90,115,getattr,112
+ansible,test\units\contrib\inventory\test_vmware_inventory.py,test_show_host_returns_serializable_data,self,88,102,assignment,92
+ansible,test\units\contrib\inventory\test_vmware_inventory.py,test_show_host_returns_just_host,self,105,116,assignment,110
+ansible,test\units\inventory\test_inventory.py,test_split_patterns,self,91,98,assignment,97
+ansible,test\units\module_utils\basic\test_exit_json.py,test_exit_json_removes_values,self,118,136,assignment,122
+ansible,test\units\module_utils\basic\test_exit_json.py,test_fail_json_removes_values,self,138,158,assignment,145
+ansible,test\units\module_utils\basic\test_exit_json.py,test_fail_json_removes_values,self,138,158,delsubscript,142
+ansible,contrib\inventory\abiquo.py,get_inventory,"enterprise, config",188,199,reference,199
+ansible,contrib\inventory\abiquo.py,save_cache,"data, config",70,78,reference,76
+ansible,contrib\inventory\vmware_inventory.py,do_api_calls_update_cache,self,148,155,reference,153
+ansible,contrib\inventory\vmware_inventory.py,do_api_calls_update_cache,self,148,155,reference,154
+ansible,contrib\inventory\vmware_inventory.py,instances_to_inventory,"self, instances",328,412,reference,336
+ansible,contrib\inventory\vmware_inventory.py,instances_to_inventory,"self, instances",328,412,reference,337
+ansible,hacking\module_formatter.py,process_category,"category, categories, options, env, template, outputname",342,429,reference,403
+ansible,lib\ansible\constants.py,get_config,"p, section, key, env_var, default, boolean=False, integer=False, floating=False, islist=False, isnone=False, ispath=False, ispathlist=False, istmppath=False, expand_relative_paths=False",60,90,reference,90
+ansible,lib\ansible\cli\doc.py,get_snippet_text,"self, doc",215,239,reference,236
+ansible,lib\ansible\cli\galaxy.py,execute_search,self,498,539,reference,531
+ansible,lib\ansible\cli\galaxy.py,execute_search,self,498,539,reference,532
+ansible,lib\ansible\cli\galaxy.py,execute_search,self,498,539,reference,534
+ansible,lib\ansible\cli\__init__.py,_git_repo_info,repo_path,449,492,reference,465
+ansible,lib\ansible\cli\__init__.py,_git_repo_info,repo_path,449,492,reference,468
+ansible,lib\ansible\cli\__init__.py,_git_repo_info,repo_path,449,492,reference,481
+ansible,lib\ansible\errors\__init__.py,_get_extended_error,self,87,150,reference,112
+ansible,lib\ansible\module_utils\basic.py,fail_json,"self, **kwargs",1804,1814,reference,1813
+ansible,lib\ansible\module_utils\basic.py,jsonify,"self, data",1766,1779,reference,1773
+ansible,lib\ansible\module_utils\basic.py,jsonify,"self, data",1766,1779,reference,1776
+ansible,lib\ansible\module_utils\basic.py,jsonify,"self, data",1766,1779,reference,1769
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,323
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,325
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,326
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,327
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,328
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,329
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,330
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,331
+ansible,lib\ansible\module_utils\basic.py,json_dict_bytes_to_unicode,"d, encoding='utf-8', errors='surrogate_or_strict'",316,333,reference,333
+ansible,lib\ansible\module_utils\basic.py,log,"self, msg, log_args=None",1623,1661,reference,1647
+ansible,lib\ansible\module_utils\basic.py,log,"self, msg, log_args=None",1623,1661,reference,1649
+ansible,lib\ansible\module_utils\basic.py,log,"self, msg, log_args=None",1623,1661,reference,1659
+ansible,lib\ansible\module_utils\basic.py,log,"self, msg, log_args=None",1623,1661,reference,1656
+ansible,lib\ansible\module_utils\basic.py,log,"self, msg, log_args=None",1623,1661,reference,1661
+ansible,lib\ansible\module_utils\basic.py,digest_from_file,"self, filename, algorithm",1829,1853,reference,1850
+ansible,lib\ansible\module_utils\basic.py,digest_from_file,"self, filename, algorithm",1829,1853,reference,1853
+ansible,lib\ansible\module_utils\basic.py,exit_json,"self, **kwargs",1792,1802,reference,1801
+ansible,lib\ansible\module_utils\basic.py,atomic_move,"self, src, dest, unsafe_writes=False",1903,2018,reference,1978
+ansible,lib\ansible\module_utils\basic.py,atomic_move,"self, src, dest, unsafe_writes=False",1903,2018,reference,2013
+ansible,lib\ansible\module_utils\basic.py,_load_params,,546,598,reference,593
+ansible,lib\ansible\module_utils\eos.py,load_config_session,"self, config, commit=False, replace=False",69,100,reference,73
+ansible,lib\ansible\module_utils\eos.py,load_config_session,"self, config, commit=False, replace=False",69,100,reference,96
+ansible,lib\ansible\module_utils\eos.py,load_config_session,"self, config, commit=False, replace=False",69,100,reference,85
+ansible,lib\ansible\module_utils\eos.py,load_config_session,"self, config, commit=False, replace=False",69,100,reference,87
+ansible,lib\ansible\module_utils\eos.py,load_config_session,"self, config, commit=False, replace=False",69,100,reference,89
+ansible,lib\ansible\module_utils\eos.py,commit_config,"self, session",118,120,reference,119
+ansible,lib\ansible\module_utils\facts.py,get_dns_facts,self,528,560,reference,560
+ansible,lib\ansible\module_utils\nxos.py,load_config,"self, config",44,60,reference,49
+ansible,lib\ansible\module_utils\nxos.py,load_config,"self, config",44,60,reference,47
+ansible,lib\ansible\module_utils\nxos.py,load_config,"self, config",44,60,reference,54
+ansible,lib\ansible\module_utils\nxos.py,load_config,"self, config",44,60,reference,60
+ansible,lib\ansible\module_utils\nxos.py,load_config,"self, config",44,60,reference,58
+ansible,lib\ansible\module_utils\nxos.py,load_checkpoint,"self, checkpoint",68,74,reference,73
+ansible,lib\ansible\module_utils\nxos.py,load_checkpoint,"self, checkpoint",68,74,reference,74
+ansible,lib\ansible\module_utils\nxos.py,load_checkpoint,"self, checkpoint",68,74,reference,70
+ansible,lib\ansible\module_utils\nxos.py,load_checkpoint,"self, checkpoint",68,74,reference,71
+ansible,lib\ansible\parsing\vault\__init__.py,decrypt,"self, b_vaulttext, b_password, key_length='32'",595,651,reference,631
+ansible,lib\ansible\parsing\vault\__init__.py,decrypt,"self, b_vaulttext, b_password",737,763,reference,741
+ansible,lib\ansible\parsing\vault\__init__.py,decrypt,"self, b_vaulttext, b_password",737,763,reference,742
+ansible,lib\ansible\parsing\vault\__init__.py,decrypt,"self, b_vaulttext, b_password",737,763,reference,747
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,reference,438
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,getattr,350
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,getattr,364
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,getattr,366
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,getattr,368
+ansible,lib\ansible\playbook\base.py,post_validate,"self, templar",338,448,getattr,371
+ansible,lib\ansible\playbook\play_context.py,make_become_cmd,"self, cmd, executable=None",462,584,reference,580
+ansible,lib\ansible\playbook\play_context.py,make_become_cmd,"self, cmd, executable=None",462,584,getattr,486
+ansible,lib\ansible\playbook\play_context.py,make_become_cmd,"self, cmd, executable=None",462,584,getattr,488
+ansible,lib\ansible\playbook\play_context.py,make_become_cmd,"self, cmd, executable=None",462,584,getattr,493
+ansible,lib\ansible\playbook\play_context.py,make_become_cmd,"self, cmd, executable=None",462,584,getattr,495
+ansible,lib\ansible\playbook\role\requirement.py,role_spec_parse,role_spec,75,120,reference,120
+ansible,lib\ansible\playbook\role\requirement.py,role_yaml_parse,role,122,176,reference,172
+ansible,lib\ansible\playbook\role\requirement.py,role_yaml_parse,role,122,176,reference,174
+ansible,lib\ansible\playbook\role\requirement.py,role_yaml_parse,role,122,176,reference,176
+ansible,lib\ansible\plugins\callback\profile_tasks.py,filled,"msg, fchar='*'",41,50,reference,50
+ansible,lib\ansible\plugins\connection\lxc.py,_set_nonblocking,"self, fd",98,101,reference,100
+ansible,lib\ansible\plugins\connection\winrm.py,exec_command,"self, cmd, in_data=None, sudoable=True",250,289,reference,257
+ansible,lib\ansible\plugins\connection\winrm.py,exec_command,"self, cmd, in_data=None, sudoable=True",250,289,reference,260
+ansible,lib\ansible\plugins\connection\winrm.py,fetch_file,"self, in_path, out_path",373,433,reference,407
+ansible,lib\ansible\plugins\filter\core.py,comment,"text, style='plain', **kw",296,376,reference,373
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipwrap,"value, query=''",466,485,reference,479
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipwrap,"value, query=''",466,485,reference,480
+ansible,lib\ansible\plugins\filter\ipaddr.py,nthhost,"value, query=''",571,595,reference,575
+ansible,lib\ansible\plugins\filter\ipaddr.py,nthhost,"value, query=''",571,595,reference,577
+ansible,lib\ansible\plugins\filter\ipaddr.py,nthhost,"value, query=''",571,595,reference,580
+ansible,lib\ansible\plugins\filter\ipaddr.py,slaac,"value, query=''",601,627,reference,605
+ansible,lib\ansible\plugins\filter\ipaddr.py,slaac,"value, query=''",601,627,reference,607
+ansible,lib\ansible\plugins\filter\ipaddr.py,slaac,"value, query=''",601,627,reference,613
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,519
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,521
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,524
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,532
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,552
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,558
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,539
+ansible,lib\ansible\plugins\filter\ipaddr.py,ipsubnet,"value, query='', index='x'",514,564,reference,545
+ansible,lib\ansible\plugins\lookup\ini.py,run,"self, terms, variables=None, **kwargs",85,124,reference,118
+ansible,lib\ansible\plugins\lookup\ini.py,run,"self, terms, variables=None, **kwargs",85,124,reference,119
+ansible,lib\ansible\plugins\lookup\ini.py,run,"self, terms, variables=None, **kwargs",85,124,reference,120
+ansible,lib\ansible\plugins\lookup\ini.py,run,"self, terms, variables=None, **kwargs",85,124,reference,123
+ansible,lib\ansible\plugins\shell\fish.py,checksum,"self, path, python_interp",57,94,reference,93
+ansible,lib\ansible\plugins\shell\powershell.py,checksum,"self, path, *args, **kwargs",145,164,reference,164
+ansible,lib\ansible\plugins\shell\sh.py,checksum,"self, path, python_interp",45,83,reference,82
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,474
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,486
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,496
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,489
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,510
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,514
+ansible,lib\ansible\template\__init__.py,_do_template,"self, data, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None",454,539,reference,533
+ansible,lib\ansible\template\__init__.py,_escape_backslashes,"data, jinja_env",69,109,reference,89
+ansible,lib\ansible\template\__init__.py,_escape_backslashes,"data, jinja_env",69,109,reference,89
+ansible,lib\ansible\template\__init__.py,_escape_backslashes,"data, jinja_env",69,109,reference,91
+ansible,lib\ansible\template\__init__.py,_escape_backslashes,"data, jinja_env",69,109,reference,109
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,334
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,334
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,335
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,335
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,336
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,347
+ansible,lib\ansible\template\__init__.py,template,"self, variable, convert_bare=False, preserve_trailing_newlines=True, escape_backslashes=True, fail_on_undefined=None, overrides=None, convert_data=True, static_vars=[''], cache=True, bare_deprecated=True",282,370,reference,349
+ansible,lib\ansible\utils\display.py,banner,"self, msg, color=None",225,242,reference,242
+ansible,test\units\parsing\vault\test_vault.py,test_create_key_known,self,169,182,reference,174
+ansible,test\units\parsing\vault\test_vault.py,test_create_key_known,self,169,182,reference,180
+ansible,contrib\inventory\apache-libcloud.py,read_settings,self,99,147,getattr,138
+ansible,contrib\inventory\apache-libcloud.py,get_host_info,self,238,290,getattr,259
+ansible,contrib\inventory\azure_rm.py,_get_credentials,"self, params",324,356,getattr,332
+ansible,contrib\inventory\brook.py,hostvars,"self, project, instance, template, api",207,255,delsubscript,222
+ansible,contrib\inventory\brook.py,hostvars,"self, project, instance, template, api",207,255,delsubscript,223
+ansible,contrib\inventory\brook.py,hostvars,"self, project, instance, template, api",207,255,delsubscript,224
+ansible,contrib\inventory\brook.py,hostvars,"self, project, instance, template, api",207,255,delsubscript,225
+ansible,contrib\inventory\cloudforms.py,update_cache,self,272,383,delsubscript,291
+ansible,contrib\inventory\consul_io.py,has_config,"self, name",416,420,getattr,418
+ansible,contrib\inventory\consul_io.py,read_cli_args,self,437,455,getattr,454
+ansible,contrib\inventory\consul_io.py,read_cli_args,self,437,455,getattr,455
+ansible,contrib\inventory\ec2.py,include_rds_clusters_by_region,"self, region",595,652,delsubscript,614
+ansible,contrib\inventory\ec2.py,include_rds_clusters_by_region,"self, region",595,652,delsubscript,616
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,767
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,769
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,771
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,773
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,775
+ansible,contrib\inventory\ec2.py,add_instance,"self, instance, region",757,903,getattr,787
+ansible,contrib\inventory\ec2.py,add_rds_instance,"self, instance, region",906,1002,getattr,927
+ansible,contrib\inventory\ec2.py,get_instance_route53_names,"self, instance",1268,1287,getattr,1280
+ansible,contrib\inventory\ec2.py,get_host_info_dict_from_instance,"self, instance",1289,1338,getattr,1292
+ansible,contrib\inventory\gce.py,get_gce_driver,self,187,234,getattr,197
+ansible,contrib\inventory\gce.py,get_gce_driver,self,187,234,getattr,198
+ansible,contrib\inventory\gce.py,get_gce_driver,self,187,234,getattr,211
+ansible,contrib\inventory\gce.py,get_gce_driver,self,187,234,getattr,212
+ansible,contrib\inventory\linode.py,get_host_info,self,241,298,getattr,283
+ansible,contrib\inventory\nova.py,get_ips,"server, access_ip=True",97,130,getattr,106
+ansible,contrib\inventory\nova.py,get_metadata,server,133,148,getattr,139
+ansible,contrib\inventory\ovirt.py,get_ovirt_driver,,113,180,getattr,148
+ansible,contrib\inventory\ovirt.py,get_ovirt_driver,,113,180,getattr,163
+ansible,contrib\inventory\rax.py,to_dict,obj,194,202,getattr,197
+ansible,contrib\inventory\ssh_config.py,get_config,,63,83,delsubscript,78
+ansible,contrib\inventory\vmware.py,_get_obj_info,"self, obj, depth='99', seen=None",169,214,getattr,177
+ansible,contrib\inventory\vmware.py,_get_obj_info,"self, obj, depth='99', seen=None",169,214,getattr,190
+ansible,contrib\inventory\vmware.py,_get_host_info,"self, host, prefix='vmware'",216,242,getattr,225
+ansible,contrib\inventory\vmware.py,_get_vm_info,"self, vm, prefix='vmware'",244,276,getattr,253
+ansible,contrib\inventory\vmware_inventory.py,facts_from_vobj,"self, vobj, level='0'",443,481,getattr,471
+ansible,contrib\inventory\vmware_inventory.py,_process_object_types,"self, vobj, level='0'",484,540,getattr,526
+ansible,hacking\module_formatter.py,list_modules,"module_dir, depth='0'",130,171,delsubscript,169
+ansible,hacking\module_formatter.py,process_module,"module, options, env, template, outputname, module_map, aliases",230,326,delsubscript,278
+ansible,hacking\module_formatter.py,process_module,"module, options, env, template, outputname, module_map, aliases",230,326,delsubscript,284
+ansible,hacking\module_formatter.py,process_module,"module, options, env, template, outputname, module_map, aliases",230,326,delsubscript,290
+ansible,hacking\module_formatter.py,main,,450,494,delsubscript,486
+ansible,lib\ansible\cli\galaxy.py,execute_info,self,266,313,delsubscript,289
+ansible,lib\ansible\cli\__init__.py,set_action,self,118,138,delsubscript,126
+ansible,lib\ansible\cli\__init__.py,execute,self,140,145,getattr,144
+ansible,lib\ansible\cli\__init__.py,get_opt,"self, k, defval=''",587,600,getattr,592
+ansible,lib\ansible\compat\six\_six.py,__getattr__,"self, attr",117,121,getattr,119
+ansible,lib\ansible\compat\six\_six.py,_resolve,self,159,161,getattr,161
+ansible,lib\ansible\compat\six\_six.py,remove_move,name,491,499,delsubscript,497
+ansible,lib\ansible\compat\six\_six.py,assertCountEqual,"self, *args, **kwargs",666,667,getattr,667
+ansible,lib\ansible\compat\six\_six.py,assertRaisesRegex,"self, *args, **kwargs",670,671,getattr,671
+ansible,lib\ansible\compat\six\_six.py,assertRegex,"self, *args, **kwargs",674,675,getattr,675
+ansible,lib\ansible\compat\six\_six.py,print_,"*args, **kwargs",723,775,getattr,736
+ansible,lib\ansible\executor\module_common.py,recursive_finder,"name, data, py_module_names, py_module_cache, zf",435,537,delsubscript,537
+ansible,lib\ansible\executor\module_common.py,_find_snippet_imports,"module_name, module_data, module_path, module_args, task_vars, module_compression",546,740,getattr,594
+ansible,lib\ansible\executor\play_iterator.py,__eq__,"self, other",99,111,getattr,108
+ansible,lib\ansible\executor\play_iterator.py,__eq__,"self, other",99,111,getattr,108
+ansible,lib\ansible\executor\stats.py,increment,"self, what, host",34,39,getattr,38
+ansible,lib\ansible\executor\stats.py,increment,"self, what, host",34,39,getattr,39
+ansible,lib\ansible\executor\task_queue_manager.py,load_callbacks,self,152,197,getattr,182
+ansible,lib\ansible\executor\task_queue_manager.py,load_callbacks,self,152,197,getattr,183
+ansible,lib\ansible\executor\task_queue_manager.py,run,"self, play",199,290,getattr,278
+ansible,lib\ansible\executor\task_queue_manager.py,send_callback,"self, method_name, *args, **kwargs",338,374,getattr,342
+ansible,lib\ansible\executor\task_queue_manager.py,send_callback,"self, method_name, *args, **kwargs",338,374,getattr,348
+ansible,lib\ansible\executor\task_queue_manager.py,send_callback,"self, method_name, *args, **kwargs",338,374,getattr,350
+ansible,lib\ansible\galaxy\role.py,install,self,191,320,getattr,274
+ansible,lib\ansible\galaxy\__init__.py,__init__,"self, options",39,56,getattr,43
+ansible,lib\ansible\galaxy\__init__.py,remove_role,"self, role_name",85,86,delsubscript,86
+ansible,lib\ansible\inventory\ini.py,_parse,"self, lines",72,194,delsubscript,129
+ansible,lib\ansible\inventory\__init__.py,_match_list,"self, items, item_attr, pattern_str",181,194,getattr,192
+ansible,lib\ansible\module_utils\basic.py,_check_arguments,"self, check_invalid_arguments",1264,1303,delsubscript,1300
+ansible,lib\ansible\module_utils\basic.py,_log_to_syslog,"self, msg",1612,1617,getattr,1615
+ansible,lib\ansible\module_utils\ec2.py,paging,"pause='0', marker_property='marker'",291,315,getattr,303
+ansible,lib\ansible\module_utils\facts.py,get_distribution_facts,self,652,727,getattr,665
+ansible,lib\ansible\module_utils\facts.py,get_distribution_facts,self,652,727,getattr,703
+ansible,lib\ansible\module_utils\gcp.py,gcp_connect,"module, provider, get_driver, user_agent_product, user_agent_version",41,113,getattr,75
+ansible,lib\ansible\module_utils\junos.py,run_commands,"self, commands",130,146,getattr,134
+ansible,lib\ansible\module_utils\junos.py,rpc,"self, command, output='xml'",156,160,getattr,158
+ansible,lib\ansible\module_utils\netcfg.py,difference,"self, other, path=None, match='line', replace='line'",306,337,getattr,315
+ansible,lib\ansible\module_utils\netcli.py,_func,"self, oper",232,236,getattr,235
+ansible,lib\ansible\module_utils\ovirt.py,search_by_attributes,"service, **kwargs",185,204,getattr,199
+ansible,lib\ansible\module_utils\ovirt.py,search_by_name,"service, name, **kwargs",207,233,getattr,228
+ansible,lib\ansible\module_utils\ovirt.py,action,"self, action, entity=None, action_condition=(lambda e: e), wait_condition=(lambda e: e), fail_condition=(lambda e: False), pre_action=(lambda e: e), post_action=(lambda e: None), search_params=None, **kwargs",480,547,getattr,531
+ansible,lib\ansible\module_utils\rax.py,rax_to_dict,"obj, obj_type='standard'",68,103,getattr,79
+ansible,lib\ansible\module_utils\six.py,_resolve,self,128,130,getattr,130
+ansible,lib\ansible\module_utils\six.py,remove_move,name,343,351,delsubscript,349
+ansible,lib\ansible\module_utils\six.py,iterkeys,"d, **kw",429,431,getattr,431
+ansible,lib\ansible\module_utils\six.py,itervalues,"d, **kw",433,435,getattr,435
+ansible,lib\ansible\module_utils\six.py,iteritems,"d, **kw",437,439,getattr,439
+ansible,lib\ansible\module_utils\six.py,iterlists,"d, **kw",441,443,getattr,443
+ansible,lib\ansible\module_utils\urls.py,fetch_url,"module, url, data=None, headers=None, method=None, use_proxy=True, force=False, last_mod_time=None, timeout='10'",910,994,getattr,985
+ansible,lib\ansible\module_utils\vca.py,login,self,131,149,getattr,144
+ansible,lib\ansible\parsing\mod_args.py,_normalize_new_style_args,"self, thing",207,245,delsubscript,233
+ansible,lib\ansible\playbook\base.py,_generic_g_method,"prop_name, self",53,60,getattr,58
+ansible,lib\ansible\playbook\base.py,_generic_d,"prop_name, self",81,82,delsubscript,82
+ansible,lib\ansible\playbook\base.py,preprocess_data,"self, ds",209,216,getattr,213
+ansible,lib\ansible\playbook\base.py,load_data,"self, ds, variable_manager=None, loader=None",218,257,getattr,247
+ansible,lib\ansible\playbook\base.py,get_ds,self,259,263,getattr,261
+ansible,lib\ansible\playbook\base.py,validate,"self, all_vars=dict()",282,303,getattr,290
+ansible,lib\ansible\playbook\base.py,validate,"self, all_vars=dict()",282,303,getattr,292
+ansible,lib\ansible\playbook\base.py,validate,"self, all_vars=dict()",282,303,getattr,295
+ansible,lib\ansible\playbook\base.py,squash,self,305,314,getattr,313
+ansible,lib\ansible\playbook\base.py,serialize,self,497,516,getattr,509
+ansible,lib\ansible\playbook\become.py,_preprocess_data_become,"self, ds",59,94,delsubscript,74
+ansible,lib\ansible\playbook\become.py,_preprocess_data_become,"self, ds",59,94,delsubscript,78
+ansible,lib\ansible\playbook\become.py,_preprocess_data_become,"self, ds",59,94,delsubscript,86
+ansible,lib\ansible\playbook\become.py,_preprocess_data_become,"self, ds",59,94,delsubscript,90
+ansible,lib\ansible\playbook\block.py,serialize,self,198,217,getattr,207
+ansible,lib\ansible\playbook\block.py,_get_parent_attribute,"self, attr, extend=False",284,336,getattr,295
+ansible,lib\ansible\playbook\block.py,_get_parent_attribute,"self, attr, extend=False",284,336,getattr,304
+ansible,lib\ansible\playbook\block.py,_get_parent_attribute,"self, attr, extend=False",284,336,getattr,314
+ansible,lib\ansible\playbook\block.py,_get_parent_attribute,"self, attr, extend=False",284,336,getattr,326
+ansible,lib\ansible\playbook\conditional.py,evaluate_conditional,"self, templar, all_vars",54,78,getattr,65
+ansible,lib\ansible\playbook\play.py,preprocess_data,"self, ds",118,138,delsubscript,136
+ansible,lib\ansible\playbook\play.py,deserialize,"self, data",312,325,delsubscript,325
+ansible,lib\ansible\playbook\play_context.py,set_options,"self, options",262,305,getattr,278
+ansible,lib\ansible\playbook\play_context.py,set_options,"self, options",262,305,getattr,282
+ansible,lib\ansible\playbook\play_context.py,set_task_and_variable_override,"self, task, variables, templar",307,460,getattr,319
+ansible,lib\ansible\playbook\play_context.py,set_task_and_variable_override,"self, task, variables, templar",307,460,getattr,433
+ansible,lib\ansible\playbook\play_context.py,update_vars,"self, variables",586,602,getattr,597
+ansible,lib\ansible\playbook\task.py,get_vars,self,303,315,delsubscript,311
+ansible,lib\ansible\playbook\task.py,get_vars,self,303,315,delsubscript,313
+ansible,lib\ansible\playbook\task.py,deserialize,"self, data",351,377,delsubscript,368
+ansible,lib\ansible\playbook\task.py,deserialize,"self, data",351,377,delsubscript,375
+ansible,lib\ansible\playbook\task.py,_get_parent_attribute,"self, attr, extend=False",397,414,getattr,406
+ansible,lib\ansible\playbook\task_include.py,get_vars,self,60,78,delsubscript,74
+ansible,lib\ansible\playbook\task_include.py,get_vars,self,60,78,delsubscript,76
+ansible,lib\ansible\playbook\role\__init__.py,_load_role_data,"self, role_include, parent_role=None",138,202,getattr,152
+ansible,lib\ansible\playbook\role\__init__.py,_load_role_data,"self, role_include, parent_role=None",138,202,getattr,154
+ansible,lib\ansible\playbook\role\__init__.py,_load_role_data,"self, role_include, parent_role=None",138,202,getattr,158
+ansible,lib\ansible\plugins\__init__.py,_get_package_paths,self,151,162,getattr,160
+ansible,lib\ansible\plugins\__init__.py,get,"self, name, *args, **kwargs",327,360,getattr,342
+ansible,lib\ansible\plugins\__init__.py,get,"self, name, *args, **kwargs",327,360,getattr,349
+ansible,lib\ansible\plugins\__init__.py,all,"self, *args, **kwargs",373,422,getattr,398
+ansible,lib\ansible\plugins\__init__.py,all,"self, *args, **kwargs",373,422,getattr,409
+ansible,lib\ansible\plugins\action\assemble.py,run,"self, tmp=None, task_vars=None",81,177,delsubscript,146
+ansible,lib\ansible\plugins\action\copy.py,run,"self, tmp=None, task_vars=None",35,310,delsubscript,249
+ansible,lib\ansible\plugins\action\net_config.py,run,"self, tmp=None, task_vars=None",39,67,delsubscript,65
+ansible,lib\ansible\plugins\action\net_template.py,run,"self, tmp=None, task_vars=None",38,58,delsubscript,56
+ansible,lib\ansible\plugins\action\normal.py,run,"self, tmp=None, task_vars=None",26,44,delsubscript,32
+ansible,lib\ansible\plugins\action\ops_template.py,run,"self, tmp=None, task_vars=None",30,49,delsubscript,47
+ansible,lib\ansible\plugins\action\package.py,run,"self, tmp=None, task_vars=None",33,75,getattr,55
+ansible,lib\ansible\plugins\action\package.py,run,"self, tmp=None, task_vars=None",33,75,delsubscript,67
+ansible,lib\ansible\plugins\action\service.py,run,"self, tmp=None, task_vars=None",32,81,delsubscript,63
+ansible,lib\ansible\plugins\action\service.py,run,"self, tmp=None, task_vars=None",32,81,delsubscript,72
+ansible,lib\ansible\plugins\action\synchronize.py,_override_module_replaced_vars,"self, task_vars",108,130,delsubscript,116
+ansible,lib\ansible\plugins\action\synchronize.py,_override_module_replaced_vars,"self, task_vars",108,130,delsubscript,119
+ansible,lib\ansible\plugins\action\synchronize.py,run,"self, tmp=None, task_vars=None",132,352,getattr,338
+ansible,lib\ansible\plugins\action\synchronize.py,run,"self, tmp=None, task_vars=None",132,352,getattr,339
+ansible,lib\ansible\plugins\action\synchronize.py,run,"self, tmp=None, task_vars=None",132,352,getattr,340
+ansible,lib\ansible\plugins\cache\jsonfile.py,has_expired,"self, key",114,134,delsubscript,133
+ansible,lib\ansible\plugins\cache\jsonfile.py,delete,"self, key",161,169,delsubscript,163
+ansible,lib\ansible\plugins\cache\memcached.py,_proxy_client,"self, name, *args, **kwargs",96,102,getattr,100
+ansible,lib\ansible\plugins\cache\memcached.py,discard,"self, key",129,131,delsubscript,130
+ansible,lib\ansible\plugins\cache\memcached.py,remove_by_timerange,"self, s_min, s_max",133,138,delsubscript,137
+ansible,lib\ansible\plugins\cache\memory.py,delete,"self, key",39,40,delsubscript,40
+ansible,lib\ansible\plugins\callback\context_demo.py,v2_on_any,"self, *args, **kwargs",39,48,getattr,40
+ansible,lib\ansible\plugins\callback\default.py,v2_playbook_on_start,"self, playbook",271,283,getattr,281
+ansible,lib\ansible\plugins\callback\logentries.py,open_connection,self,170,184,getattr,178
+ansible,lib\ansible\plugins\callback\__init__.py,__init__,"self, display=None",55,70,getattr,67
+ansible,lib\ansible\plugins\callback\__init__.py,__init__,"self, display=None",55,70,getattr,68
+ansible,lib\ansible\plugins\callback\__init__.py,__init__,"self, display=None",55,70,getattr,69
+ansible,lib\ansible\plugins\callback\__init__.py,_copy_result_exclude,"self, result, exclude",75,85,getattr,78
+ansible,lib\ansible\plugins\callback\__init__.py,_dump_results,"self, result, indent=None, sort_keys=True, keep_invocation=False",87,109,delsubscript,99
+ansible,lib\ansible\plugins\callback\__init__.py,_dump_results,"self, result, indent=None, sort_keys=True, keep_invocation=False",87,109,delsubscript,103
+ansible,lib\ansible\plugins\callback\__init__.py,_dump_results,"self, result, indent=None, sort_keys=True, keep_invocation=False",87,109,delsubscript,107
+ansible,lib\ansible\plugins\callback\__init__.py,_process_items,"self, result",183,185,delsubscript,185
+ansible,lib\ansible\plugins\callback\__init__.py,_clean_results,"self, result, task_name",187,191,delsubscript,189
+ansible,lib\ansible\plugins\callback\__init__.py,_clean_results,"self, result, task_name",187,191,delsubscript,191
+ansible,lib\ansible\plugins\callback\__init__.py,v2_runner_on_skipped,"self, result",271,274,getattr,274
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_parse_proxy_command,"self, port='22'",144,187,getattr,148
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_parse_proxy_command,"self, port='22'",144,187,getattr,149
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_parse_proxy_command,"self, port='22'",144,187,getattr,150
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_any_keys_added,self,373,380,getattr,377
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_save_ssh_host_keys,"self, filename",382,412,getattr,401
+ansible,lib\ansible\plugins\connection\paramiko_ssh.py,_save_ssh_host_keys,"self, filename",382,412,getattr,408
+ansible,lib\ansible\plugins\connection\ssh.py,_build_command,"self, binary, *other_args",124,246,getattr,217
+ansible,lib\ansible\plugins\connection\__init__.py,__init__,"self, play_context, new_stdin, *args, **kwargs",70,101,getattr,90
+ansible,lib\ansible\plugins\filter\core.py,get_encrypted_password,"password, hashtype='sha512', salt=None",235,269,getattr,263
+ansible,lib\ansible\plugins\lookup\first_found.py,run,"self, terms, variables, **kwargs",132,191,getattr,182
+ansible,lib\ansible\plugins\lookup\password.py,_parse_parameters,term,40,87,delsubscript,57
+ansible,lib\ansible\plugins\lookup\sequence.py,sanity_check,self,144,163,delattribute,157
+ansible,lib\ansible\plugins\strategy\free.py,run,"self, iterator, play_context",42,213,getattr,121
+ansible,lib\ansible\plugins\strategy\free.py,run,"self, iterator, play_context",42,213,getattr,123
+ansible,lib\ansible\plugins\strategy\free.py,run,"self, iterator, play_context",42,213,delsubscript,137
+ansible,lib\ansible\plugins\strategy\linear.py,run,"self, iterator, play_context",156,433,getattr,239
+ansible,lib\ansible\plugins\strategy\__init__.py,__init__,"self, tqm",96,125,getattr,105
+ansible,lib\ansible\plugins\strategy\__init__.py,__init__,"self, tqm",96,125,getattr,106
+ansible,lib\ansible\plugins\strategy\__init__.py,_process_pending_results,"self, iterator, one_pass=False, max_passes=None",226,518,delsubscript,324
+ansible,lib\ansible\plugins\strategy\__init__.py,_process_pending_results,"self, iterator, one_pass=False, max_passes=None",226,518,delsubscript,500
+ansible,lib\ansible\plugins\strategy\__init__.py,_do_handler_run,"self, handler, handler_name, iterator, play_context, notified_hosts=None",708,786,getattr,726
+ansible,lib\ansible\plugins\test\core.py,regex,"value='', pattern='', ignorecase=False, multiline=False, match_type='search'",68,80,getattr,80
+ansible,lib\ansible\template\__init__.py,__init__,"self, loader, shared_loader_obj=None, variables=dict()",135,178,getattr,148
+ansible,lib\ansible\template\__init__.py,__init__,"self, loader, shared_loader_obj=None, variables=dict()",135,178,getattr,149
+ansible,lib\ansible\template\__init__.py,__init__,"self, loader, shared_loader_obj=None, variables=dict()",135,178,getattr,150
+ansible,lib\ansible\utils\encrypt.py,do_encrypt,"result, encrypt, salt_size=None, salt=None",77,101,getattr,80
+ansible,lib\ansible\utils\module_docs.py,get_docstring,"filename, verbose=False",48,133,getattr,97
+ansible,lib\ansible\vars\__init__.py,strip_internal_keys,dirty,80,91,delsubscript,88
+ansible,lib\ansible\vars\__init__.py,invalidate_hostvars_cache,"self, play",379,382,delsubscript,382
+ansible,lib\ansible\vars\__init__.py,clear_facts,"self, hostname",635,640,delsubscript,640
+ansible,test\integration\cleanup_ec2.py,delete_aws_resources,"get_func, attr, opts",17,21,getattr,19
+ansible,test\integration\cleanup_ec2.py,delete_autoscaling_group,"get_func, attr, opts",23,52,getattr,27
+ansible,test\integration\cleanup_ec2.py,delete_aws_eips,"get_func, attr, opts",54,66,getattr,64
+ansible,test\integration\cleanup_ec2.py,parse_args,,85,134,getattr,130
+ansible,test\integration\cleanup_gce.py,delete_gce_resources,"get_func, attr, opts",27,31,getattr,29
+ansible,test\integration\cleanup_rax.py,rax_list_iterator,"svc, *args, **kwargs",15,25,getattr,17
+ansible,test\integration\cleanup_rax.py,rax_list_iterator,"svc, *args, **kwargs",15,25,getattr,19
+ansible,test\integration\cleanup_rax.py,rax_list_iterator,"svc, *args, **kwargs",15,25,delsubscript,21
+ansible,test\integration\gce_credentials.py,check_required,"opts, parser",43,46,getattr,45
+ansible,test\sanity\validate-modules\module_args.py,remove_mocks,"mocks, sys_mocks",80,88,delsubscript,86
+ansible,test\units\mock\loader.py,pop,"self, path",86,89,delsubscript,88
+ansible,test\units\module_utils\test_basic.py,clear_modules,"self, mods",44,47,delsubscript,47
+ansible,test\units\plugins\strategies\test_strategy_base.py,test_strategy_base_run,self,72,123,getattr,97
+ansible,test\units\plugins\strategies\test_strategy_base.py,test_strategy_base_process_pending_results,self,215,398,delsubscript,335
+ansible,test\units\plugins\strategies\test_strategy_base.py,test_strategy_base_process_pending_results,self,215,398,delsubscript,348
+ansible,test\units\vars\test_variable_manager.py,test_basic_manager,self,45,59,delsubscript,51
+ansible,test\units\vars\test_variable_manager.py,test_basic_manager,self,45,59,delsubscript,53
+ansible,test\units\vars\test_variable_manager.py,test_basic_manager,self,45,59,delsubscript,55
+ansible,test\units\vars\test_variable_manager.py,test_basic_manager,self,45,59,delsubscript,57

@@ -1,0 +1,131 @@
+file,method,params,startlineno,endlineno
+python\setup.py,build_stan_model,"target_dir, model_dir=MODEL_DIR",26,34
+python\setup.py,run,self,40,46
+python\setup.py,run,self,52,58
+python\setup.py,with_project_on_sys_path,"self, func",64,93
+python\fbprophet\diagnostics.py,generate_cutoffs,"df, horizon, initial, period",21,59
+python\fbprophet\diagnostics.py,cross_validation,"model, horizon, period=None, initial=None",62,141
+python\fbprophet\diagnostics.py,prophet_copy,"m, cutoff=None",143,190
+python\fbprophet\diagnostics.py,performance_metrics,"df, metrics=None, rolling_window='0.1'",193,266
+python\fbprophet\diagnostics.py,rolling_mean_by_h,"x, h, w, name",269,319
+python\fbprophet\diagnostics.py,mse,"df, w",328,344
+python\fbprophet\diagnostics.py,rmse,"df, w",348,363
+python\fbprophet\diagnostics.py,mae,"df, w",366,382
+python\fbprophet\diagnostics.py,mape,"df, w",386,402
+python\fbprophet\diagnostics.py,smape,"df, w",406,422
+python\fbprophet\diagnostics.py,coverage,"df, w",426,442
+python\fbprophet\forecaster.py,__init__,"self, growth='linear', changepoints=None, n_changepoints='25', changepoint_range='0.8', yearly_seasonality='auto', weekly_seasonality='auto', daily_seasonality='auto', holidays=None, seasonality_mode='additive', seasonality_prior_scale='10.0', holidays_prior_scale='10.0', changepoint_prior_scale='0.05', mcmc_samples='0', interval_width='0.8', uncertainty_samples='1000'",83,142
+python\fbprophet\forecaster.py,validate_inputs,self,144,174
+python\fbprophet\forecaster.py,validate_column_name,"self, name, check_holidays=True, check_seasonalities=True, check_regressors=True",177,216
+python\fbprophet\forecaster.py,setup_dataframe,"self, df, initialize_scales=False",218,294
+python\fbprophet\forecaster.py,initialize_scales,"self, initialize_scales, df",296,333
+python\fbprophet\forecaster.py,set_changepoints,self,335,381
+python\fbprophet\forecaster.py,fourier_series,"dates, period, series_order",383,407
+python\fbprophet\forecaster.py,make_seasonality_features,"cls, dates, period, series_order, prefix",410,431
+python\fbprophet\forecaster.py,construct_holiday_dataframe,"self, dates",433,476
+python\fbprophet\forecaster.py,make_holiday_features,"self, dates, holidays",478,549
+python\fbprophet\forecaster.py,add_regressor,"self, name, prior_scale=None, standardize='auto', mode=None",551,601
+python\fbprophet\forecaster.py,add_seasonality,"self, name, period, fourier_order, prior_scale=None, mode=None, condition_name=None",603,665
+python\fbprophet\forecaster.py,add_country_holidays,"self, country_name",667,703
+python\fbprophet\forecaster.py,make_all_seasonality_features,"self, df",705,769
+python\fbprophet\forecaster.py,regressor_column_matrix,"self, seasonal_features, modes",771,838
+python\fbprophet\forecaster.py,add_group_component,"self, components, name, group",840,859
+python\fbprophet\forecaster.py,parse_seasonality_args,"self, name, arg, auto_disable, default_order",861,896
+python\fbprophet\forecaster.py,set_auto_seasonalities,self,898,950
+python\fbprophet\forecaster.py,linear_growth_init,df,953,975
+python\fbprophet\forecaster.py,logistic_growth_init,df,977,1017
+python\fbprophet\forecaster.py,fit,"self, df, **kwargs",1019,1149
+python\fbprophet\forecaster.py,stan_init,,1091,1097
+python\fbprophet\forecaster.py,predict,"self, df=None",1151,1190
+python\fbprophet\forecaster.py,piecewise_linear,"t, deltas, k, m, changepoint_ts",1192,1217
+python\fbprophet\forecaster.py,piecewise_logistic,"t, cap, deltas, k, m, changepoint_ts",1219,1251
+python\fbprophet\forecaster.py,predict_trend,"self, df",1253,1276
+python\fbprophet\forecaster.py,predict_seasonal_components,"self, df",1278,1310
+python\fbprophet\forecaster.py,sample_posterior_predictive,"self, df",1312,1348
+python\fbprophet\forecaster.py,predictive_samples,"self, df",1350,1365
+python\fbprophet\forecaster.py,predict_uncertainty,"self, df",1367,1390
+python\fbprophet\forecaster.py,sample_model,"self, df, seasonal_features, iteration, s_a, s_m",1392,1418
+python\fbprophet\forecaster.py,sample_predictive_trend,"self, df, iteration",1421,1470
+python\fbprophet\forecaster.py,make_future_dataframe,"self, periods, freq='D', include_history=True",1472,1500
+python\fbprophet\forecaster.py,plot,"self, fcst, ax=None, uncertainty=True, plot_cap=True, xlabel='ds', ylabel='y'",1502,1522
+python\fbprophet\forecaster.py,plot_components,"self, fcst, uncertainty=True, plot_cap=True, weekly_start='0', yearly_start='0'",1525,1551
+python\fbprophet\hdays.py,__init__,"self, **kwargs",30,32
+python\fbprophet\hdays.py,_populate,"self, year",34,60
+python\fbprophet\hdays.py,__init__,"self, **kwargs",79,81
+python\fbprophet\hdays.py,_populate,"self, year",83,202
+python\fbprophet\hdays.py,__init__,"self, **kwargs",223,225
+python\fbprophet\hdays.py,_populate,"self, year",227,435
+python\fbprophet\hdays.py,__init__,"self, **kwargs",451,453
+python\fbprophet\hdays.py,_populate,"self, year",455,560
+python\fbprophet\hdays.py,__init__,"self, **kwargs",576,578
+python\fbprophet\hdays.py,_populate,"self, year",580,627
+python\fbprophet\hdays.py,__init__,"self, **kwargs",643,645
+python\fbprophet\hdays.py,_populate,"self, year",647,813
+python\fbprophet\hdays.py,__init__,"self, **kwargs",829,831
+python\fbprophet\hdays.py,_populate,"self, year",833,895
+python\fbprophet\hdays.py,__init__,"self, **kwargs",911,913
+python\fbprophet\hdays.py,_populate,"self, year",915,959
+python\fbprophet\hdays.py,__init__,"self, **kwargs",975,977
+python\fbprophet\hdays.py,_populate,"self, year",979,1069
+python\fbprophet\hdays.py,__init__,"self, **kwargs",1085,1087
+python\fbprophet\hdays.py,_populate,"self, year",1089,1117
+python\fbprophet\hdays.py,__init__,"self, **kwargs",1133,1135
+python\fbprophet\hdays.py,_populate,"self, year",1137,1222
+python\fbprophet\hdays.py,__init__,"self, **kwargs",1238,1240
+python\fbprophet\hdays.py,_populate,"self, year",1242,1279
+python\fbprophet\hdays.py,__init__,"self, **kwargs",1298,1300
+python\fbprophet\hdays.py,_populate,"self, year",1302,1341
+python\fbprophet\make_holidays.py,get_holiday_names,country,20,42
+python\fbprophet\make_holidays.py,make_holidays_df,"year_list, country",45,69
+python\fbprophet\models.py,get_prophet_stan_model,,16,23
+python\fbprophet\plot.py,plot,"m, fcst, ax=None, uncertainty=True, plot_cap=True, xlabel='ds', ylabel='y', figsize=('10', '6')",42,88
+python\fbprophet\plot.py,plot_components,"m, fcst, uncertainty=True, plot_cap=True, weekly_start='0', yearly_start='0', figsize=None",91,186
+python\fbprophet\plot.py,plot_forecast_component,"m, fcst, name, ax=None, uncertainty=True, plot_cap=False, figsize=('10', '6')",189,233
+python\fbprophet\plot.py,seasonality_plot_df,"m, ds",236,257
+python\fbprophet\plot.py,plot_weekly,"m, ax=None, uncertainty=True, weekly_start='0', figsize=('10', '6'), name='weekly'",260,302
+python\fbprophet\plot.py,plot_yearly,"m, ax=None, uncertainty=True, yearly_start='0', figsize=('10', '6'), name='yearly'",305,348
+python\fbprophet\plot.py,plot_seasonality,"m, name, ax=None, uncertainty=True, figsize=('10', '6')",351,401
+python\fbprophet\plot.py,set_y_as_percent,ax,404,408
+python\fbprophet\plot.py,add_changepoints_to_plot,"ax, m, fcst, threshold='0.01', cp_color='r', cp_linestyle='--', trend=True",411,442
+python\fbprophet\plot.py,plot_cross_validation_metric,"df_cv, metric, rolling_window='0.1', ax=None, figsize=('10', '6')",445,520
+python\fbprophet\plot.py,plot_plotly,"m, fcst, uncertainty=True, plot_cap=True, trend=False, changepoints=False, changepoints_threshold='0.01', xlabel='ds', ylabel='y', figsize=('900', '600')",523,676
+python\fbprophet\tests\test_diagnostics.py,__init__,"self, *args, **kwargs",31,34
+python\fbprophet\tests\test_diagnostics.py,test_cross_validation,self,36,61
+python\fbprophet\tests\test_diagnostics.py,test_cross_validation_logistic,self,63,73
+python\fbprophet\tests\test_diagnostics.py,test_cross_validation_extra_regressors,self,75,95
+python\fbprophet\tests\test_diagnostics.py,test_cross_validation_default_value_check,self,97,108
+python\fbprophet\tests\test_diagnostics.py,test_performance_metrics,self,110,155
+python\fbprophet\tests\test_diagnostics.py,test_rolling_mean,self,157,177
+python\fbprophet\tests\test_diagnostics.py,test_copy,self,179,248
+python\fbprophet\tests\test_prophet.py,test_fit_predict,self,33,40
+python\fbprophet\tests\test_prophet.py,test_fit_predict_no_seasons,self,42,49
+python\fbprophet\tests\test_prophet.py,test_fit_predict_no_changepoints,self,51,58
+python\fbprophet\tests\test_prophet.py,test_fit_changepoint_not_in_history,self,60,65
+python\fbprophet\tests\test_prophet.py,test_fit_predict_duplicates,self,67,76
+python\fbprophet\tests\test_prophet.py,test_fit_predict_constant_history,self,78,92
+python\fbprophet\tests\test_prophet.py,test_setup_dataframe,self,94,106
+python\fbprophet\tests\test_prophet.py,test_logistic_floor,self,108,135
+python\fbprophet\tests\test_prophet.py,test_get_changepoints,self,137,152
+python\fbprophet\tests\test_prophet.py,test_set_changepoint_range,self,154,173
+python\fbprophet\tests\test_prophet.py,test_get_zero_changepoints,self,175,186
+python\fbprophet\tests\test_prophet.py,test_override_n_changepoints,self,188,198
+python\fbprophet\tests\test_prophet.py,test_fourier_series_weekly,self,200,206
+python\fbprophet\tests\test_prophet.py,test_fourier_series_yearly,self,208,214
+python\fbprophet\tests\test_prophet.py,test_growth_init,self,216,230
+python\fbprophet\tests\test_prophet.py,test_piecewise_linear,self,232,249
+python\fbprophet\tests\test_prophet.py,test_piecewise_logistic,self,251,271
+python\fbprophet\tests\test_prophet.py,test_holidays,self,273,349
+python\fbprophet\tests\test_prophet.py,test_fit_with_holidays,self,351,359
+python\fbprophet\tests\test_prophet.py,test_fit_predict_with_country_holidays,self,361,383
+python\fbprophet\tests\test_prophet.py,test_make_future_dataframe,self,385,402
+python\fbprophet\tests\test_prophet.py,test_auto_weekly_seasonality,self,404,445
+python\fbprophet\tests\test_prophet.py,test_auto_yearly_seasonality,self,449,483
+python\fbprophet\tests\test_prophet.py,test_auto_daily_seasonality,self,487,526
+python\fbprophet\tests\test_prophet.py,test_subdaily_holidays,self,528,536
+python\fbprophet\tests\test_prophet.py,test_custom_seasonality,self,538,588
+python\fbprophet\tests\test_prophet.py,test_conditional_custom_seasonality,self,590,624
+python\fbprophet\tests\test_prophet.py,test_added_regressors,self,627,728
+python\fbprophet\tests\test_prophet.py,test_set_seasonality_mode,self,730,737
+python\fbprophet\tests\test_prophet.py,test_seasonality_modes,self,739,771
+python\scripts\generate_holidays_file.py,generate_holidays_file,,24,73
+python\scripts\generate_holidays_file.py,utf8_to_ascii,text,65,69

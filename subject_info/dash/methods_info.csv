@@ -1,0 +1,564 @@
+file,method,params,startlineno,endlineno
+setup.py,read_req_file,req_type,8,11
+dash\dash.py,__init__,"self, name=None, server=True, assets_folder='assets', assets_url_path='assets', assets_ignore='', assets_external_path=None, include_assets_files=True, url_base_pathname=None, requests_pathname_prefix=None, routes_pathname_prefix=None, serve_locally=True, compress=True, meta_tags=None, index_string=_default_index, external_scripts=None, external_stylesheets=None, suppress_callback_exceptions=None, show_undo_redo=False, plugins=None, **obsolete",207,338
+dash\dash.py,init_app,"self, app=None",340,411
+dash\dash.py,_handle_error,_,370,373
+dash\dash.py,_add_url,"self, name, view_func, methods=('GET', )",413,422
+dash\dash.py,layout,self,424,426
+dash\dash.py,_layout_value,self,428,433
+dash\dash.py,layout,"self, value",435,445
+dash\dash.py,index_string,self,447,449
+dash\dash.py,index_string,"self, value",451,465
+dash\dash.py,serve_layout,self,467,473
+dash\dash.py,_config,self,476,491
+dash\dash.py,serve_reload_hash,self,493,506
+dash\dash.py,serve_routes,self,509,512
+dash\dash.py,_collect_and_register_resources,"self, resources",515,567
+dash\dash.py,_relative_url_path,"relative_package_path='', namespace=''",520,533
+dash\dash.py,_generate_css_dist_html,self,569,577
+dash\dash.py,_generate_scripts_html,self,580,619
+dash\dash.py,_generate_config_html,self,622,627
+dash\dash.py,_generate_renderer,self,629,634
+dash\dash.py,_generate_meta_html,self,636,653
+dash\dash.py,serve_component_suites,"self, package_name, path_in_package_dist",656,682
+dash\dash.py,index,"self, *args, **kwargs",685,732
+dash\dash.py,interpolate_index,"self, metas='', title='', css='', config='', scripts='', app_entry='', favicon='', renderer=''",734,792
+dash\dash.py,dependencies,self,795,802
+dash\dash.py,_validate_callback,"self, output, inputs, state",805,972
+dash\dash.py,duplicate_check,,946,950
+dash\dash.py,duplicate_check,,952,953
+dash\dash.py,_validate_callback_output,"output_value, output",974,1076
+dash\dash.py,_raise_invalid,"bad_val, outer_val, path, index=None, toplevel=False",978,1013
+dash\dash.py,_value_is_valid,val,1016,1020
+dash\dash.py,_validate_value,"val, index=None",1023,1069
+dash\dash.py,clientside_callback,"self, clientside_function, output, inputs=[], state=[]",1079,1136
+dash\dash.py,callback,"self, output, inputs=[], state=[]",1152,1248
+dash\dash.py,wrap_func,func,1169,1246
+dash\dash.py,add_context,"*args, **kwargs",1170,1242
+dash\dash.py,dispatch,self,1250,1290
+dash\dash.py,_validate_layout,self,1292,1312
+dash\dash.py,_setup_server,self,1314,1321
+dash\dash.py,_add_assets_resource,"self, url_path, file_path",1323,1329
+dash\dash.py,_walk_assets_directory,self,1331,1364
+dash\dash.py,_invalid_resources_handler,err,1366,1368
+dash\dash.py,_serve_default_favicon,,1370,1374
+dash\dash.py,get_asset_url,"self, path",1377,1384
+dash\dash.py,_setup_dev_tools,"self, **kwargs",1386,1413
+dash\dash.py,enable_dev_tools,"self, debug=None, dev_tools_ui=None, dev_tools_props_check=None, dev_tools_serve_dev_bundles=None, dev_tools_hot_reload=None, dev_tools_hot_reload_interval=None, dev_tools_hot_reload_watch_interval=None, dev_tools_hot_reload_max_retry=None, dev_tools_silence_routes_logging=None, dev_tools_prune_errors=None",1415,1564
+dash\dash.py,_wrap_errors,_,1543,1555
+dash\dash.py,_on_assets_change,"self, filename, modified, deleted",1567,1610
+dash\dash.py,delete_resource,resources,1596,1603
+dash\dash.py,run_server,"self, port='8050', debug=False, dev_tools_ui=None, dev_tools_props_check=None, dev_tools_serve_dev_bundles=None, dev_tools_hot_reload=None, dev_tools_hot_reload_interval=None, dev_tools_hot_reload_watch_interval=None, dev_tools_hot_reload_max_retry=None, dev_tools_silence_routes_logging=None, dev_tools_prune_errors=None, **flask_run_options",1612,1725
+dash\dependencies.py,__init__,"self, component_id, component_property",3,5
+dash\dependencies.py,__str__,self,7,10
+dash\dependencies.py,__repr__,self,13,14
+dash\dependencies.py,__eq__,"self, other",16,17
+dash\dependencies.py,__hash__,self,19,20
+dash\dependencies.py,__init__,"self, namespace=None, function_name=None",37,39
+dash\dependencies.py,__repr__,self,41,44
+dash\resources.py,__init__,"self, resource_name",10,12
+dash\resources.py,append_resource,"self, resource",14,15
+dash\resources.py,_filter_resources,"self, all_resources, dev_bundles=False",17,63
+dash\resources.py,get_all_resources,"self, dev_bundles=False",65,69
+dash\resources.py,__init__,"self, serve_locally",74,75
+dash\resources.py,__init__,"self, serve_locally",79,81
+dash\resources.py,append_css,"self, stylesheet",83,84
+dash\resources.py,get_all_css,self,86,87
+dash\resources.py,__init__,"self, serve_locally",91,93
+dash\resources.py,append_script,"self, script",95,96
+dash\resources.py,get_all_scripts,"self, dev_bundles=False",98,99
+dash\_callback_context.py,has_context,func,7,18
+dash\_callback_context.py,assert_context,"*args, **kwargs",8,17
+dash\_callback_context.py,inputs,self,23,26
+dash\_callback_context.py,states,self,28,31
+dash\_callback_context.py,triggered,self,33,36
+dash\_callback_context.py,response,self,38,41
+dash\_configs.py,load_dash_env_vars,,8,31
+dash\_configs.py,get_combined_config,"name, val, default=None",40,52
+dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124
+dash\_utils.py,interpolate_str,"template, **data",17,22
+dash\_utils.py,format_tag,"tag_name, attributes, inner='', closed=False, opened=False",25,36
+dash\_utils.py,generate_hash,,41,42
+dash\_utils.py,get_asset_path,"requests_pathname, asset_path, asset_url_path",45,52
+dash\_utils.py,patch_collections_abc,member,58,59
+dash\_utils.py,__setattr__,"self, key, value",81,82
+dash\_utils.py,__getattr__,"self, key",84,91
+dash\_utils.py,set_read_only,"self, names, msg='Attribute is read-only'",93,95
+dash\_utils.py,finalize,"self, msg='Object is final: No new keys may be added.'",97,99
+dash\_utils.py,__setitem__,"self, key, val",101,109
+dash\_utils.py,first,"self, *names",112,116
+dash\_utils.py,create_callback_id,output,119,128
+dash\_utils.py,run_command_with_process,cmd,131,141
+dash\_utils.py,compute_md5,path,144,146
+dash\_utils.py,job,msg='',149,160
+dash\_utils.py,wrapper,func,150,158
+dash\_utils.py,_wrapper,"*args, **kwargs",151,156
+dash\_watch.py,watch,"folders, on_change, pattern=None, sleep_time='0.1'",7,36
+dash\_watch.py,walk,,11,32
+dash\development\base_component.py,get_resources,"cls, resource_name",17,25
+dash\development\base_component.py,__new__,"mcs, name, bases, attributes",31,42
+dash\development\base_component.py,is_number,s,45,50
+dash\development\base_component.py,_check_if_has_indexable_children,item,53,59
+dash\development\base_component.py,__repr__,self,64,65
+dash\development\base_component.py,__str__,self,67,68
+dash\development\base_component.py,__repr__,self,73,74
+dash\development\base_component.py,__str__,self,76,77
+dash\development\base_component.py,__init__,"self, **kwargs",81,97
+dash\development\base_component.py,to_plotly_json,self,99,123
+dash\development\base_component.py,_get_set_or_delete,"self, id, operation, new_item=None",127,189
+dash\development\base_component.py,__getitem__,"self, id",198,205
+dash\development\base_component.py,__setitem__,"self, id, item",207,209
+dash\development\base_component.py,__delitem__,"self, id",211,213
+dash\development\base_component.py,_traverse,self,215,218
+dash\development\base_component.py,_traverse_with_paths,self,220,253
+dash\development\base_component.py,__iter__,self,255,260
+dash\development\base_component.py,__len__,self,262,282
+dash\development\base_component.py,__repr__,self,284,304
+dash\development\base_component.py,_explicitize_args,func,308,333
+dash\development\base_component.py,wrapper,"*args, **kwargs",316,324
+dash\development\build_process.py,__init__,"self, main, deps_info",22,30
+dash\development\build_process.py,_parse_package,"self, path",32,40
+dash\development\build_process.py,_concat,*paths,42,45
+dash\development\build_process.py,_clean_path,path,48,60
+dash\development\build_process.py,clean,self,62,65
+dash\development\build_process.py,npm,self,67,72
+dash\development\build_process.py,watch,self,74,77
+dash\development\build_process.py,build,"self, build=None",79,84
+dash\development\build_process.py,digest,self,86,107
+dash\development\build_process.py,bundles,"self, build=None",110,155
+dash\development\build_process.py,__init__,self,159,174
+dash\development\build_process.py,renderer,,179,180
+dash\development\component_generator.py,generate_components,"components_source, project_shortname, package_info_filename='package.json', ignore='^_', rprefix=None, rdepends='', rimports='', rsuggests=''",41,132
+dash\development\component_generator.py,safe_json_loads,s,136,140
+dash\development\component_generator.py,cli,,143,203
+dash\development\component_generator.py,byteify,input_object,208,220
+dash\development\component_loader.py,_get_metadata,metadata_path,14,21
+dash\development\component_loader.py,load_components,"metadata_path, namespace='default_namespace'",24,63
+dash\development\component_loader.py,generate_classes,"namespace, metadata_path='lib/metadata.json'",66,91
+dash\development\_py_components_generation.py,generate_class_string,"typename, props, description, namespace",12,109
+dash\development\_py_components_generation.py,generate_class_file,"typename, props, description, namespace",113,145
+dash\development\_py_components_generation.py,generate_imports,"project_shortname, components",148,157
+dash\development\_py_components_generation.py,generate_classes_files,"project_shortname, metadata, *component_generators",160,174
+dash\development\_py_components_generation.py,generate_class,"typename, props, description, namespace",177,197
+dash\development\_py_components_generation.py,required_props,props,200,214
+dash\development\_py_components_generation.py,create_docstring,"component_name, props, description",217,257
+dash\development\_py_components_generation.py,prohibit_events,props,260,275
+dash\development\_py_components_generation.py,parse_wildcards,props,279,297
+dash\development\_py_components_generation.py,reorder_props,props,300,321
+dash\development\_py_components_generation.py,filter_props,props,324,394
+dash\development\_py_components_generation.py,create_prop_docstring,"prop_name, type_object, required, description, default, indent_num, is_flow_type=False",398,468
+dash\development\_py_components_generation.py,map_js_to_py_types_prop_types,type_object,471,538
+dash\development\_py_components_generation.py,shape_or_exact,,474,489
+dash\development\_py_components_generation.py,map_js_to_py_types_flow_types,type_object,542,585
+dash\development\_py_components_generation.py,js_to_py_type,"type_object, is_flow_type=False, indent_num='0'",589,620
+dash\development\_r_components_generation.py,generate_class_string,"name, props, project_shortname, prefix",180,239
+dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324
+dash\development\_r_components_generation.py,wrap,"tag, code",329,332
+dash\development\_r_components_generation.py,write_help_file,"name, props, description, prefix, rpkg_data",335,404
+dash\development\_r_components_generation.py,write_class_file,"name, props, description, project_shortname, prefix=None, rpkg_data=None",407,435
+dash\development\_r_components_generation.py,write_js_metadata,"pkg_data, project_shortname, has_wildcards",438,482
+dash\development\_r_components_generation.py,generate_rpkg,"pkg_data, rpkg_data, project_shortname, export_string, package_depends, package_imports, package_suggests, has_wildcards",486,618
+dash\development\_r_components_generation.py,snake_case_to_camel_case,namestring,624,626
+dash\development\_r_components_generation.py,format_fn_name,"prefix, name",633,636
+dash\development\_r_components_generation.py,generate_exports,"project_shortname, components, metadata, pkg_data, rpkg_data, prefix, package_depends, package_imports, package_suggests, **kwargs",640,672
+dash\development\_r_components_generation.py,make_namespace_exports,"components, prefix",676,736
+dash\development\_r_components_generation.py,get_r_prop_types,type_object,739,800
+dash\development\_r_components_generation.py,shape_or_exact,,742,756
+dash\development\_r_components_generation.py,get_r_type,"type_object, is_flow_type=False, indent_num='0'",804,830
+dash\development\_r_components_generation.py,print_r_type,typedata,833,837
+dash\development\_r_components_generation.py,create_prop_docstring_r,"prop_name, type_object, required, description, indent_num, is_flow_type=False",841,887
+dash\development\_r_components_generation.py,get_wildcards_r,prop_keys,890,897
+dash\testing\application_runners.py,import_app,"app_file, application_name='app'",27,54
+dash\testing\application_runners.py,__init__,"self, keep_open, stop_timeout",60,64
+dash\testing\application_runners.py,start,"self, *args, **kwargs",66,67
+dash\testing\application_runners.py,stop,self,69,70
+dash\testing\application_runners.py,accessible,url,72,78
+dash\testing\application_runners.py,__call__,"self, *args, **kwargs",80,81
+dash\testing\application_runners.py,__enter__,self,83,84
+dash\testing\application_runners.py,__exit__,"self, exc_type, exc_val, traceback",86,94
+dash\testing\application_runners.py,url,self,98,101
+dash\testing\application_runners.py,is_windows,self,103,105
+dash\testing\application_runners.py,__init__,"self, keep_open=False, stop_timeout='3'",114,119
+dash\testing\application_runners.py,_stop_server,,121,128
+dash\testing\application_runners.py,start,"self, app, **kwargs",131,162
+dash\testing\application_runners.py,_handle_error,,137,138
+dash\testing\application_runners.py,run,,142,149
+dash\testing\application_runners.py,stop,self,164,166
+dash\testing\application_runners.py,__init__,"self, keep_open=False, stop_timeout='3'",175,179
+dash\testing\application_runners.py,start,"self, app_module=None, application_name='app', raw_command=None, port='8050', start_timeout='3'",182,222
+dash\testing\application_runners.py,stop,self,224,242
+dash\testing\application_runners.py,__init__,"self, keep_open=False, stop_timeout='3'",246,250
+dash\testing\application_runners.py,start,"self, app, start_timeout='2'",253,294
+dash\testing\browser.py,__init__,"self, browser, remote=False, remote_url=None, headless=False, options=None, download_path='', percy_finalize=True, percy_assets_root='', wait_timeout='10'",33,80
+dash\testing\browser.py,__enter__,self,83,84
+dash\testing\browser.py,__exit__,"self, exc_type, exc_val, traceback",86,97
+dash\testing\browser.py,percy_snapshot,"self, name=''",99,107
+dash\testing\browser.py,take_snapshot,"self, name",109,129
+dash\testing\browser.py,find_element,"self, selector",132,136
+dash\testing\browser.py,find_elements,"self, selector",138,142
+dash\testing\browser.py,_wait_for,"self, method, args, timeout, msg",144,158
+dash\testing\browser.py,wait_for_element,"self, selector, timeout=None",160,164
+dash\testing\browser.py,wait_for_element_by_css_selector,"self, selector, timeout=None",166,176
+dash\testing\browser.py,wait_for_element_by_id,"self, element_id, timeout=None",180,190
+dash\testing\browser.py,wait_for_style_to_equal,"self, selector, style, val, timeout=None",194,204
+dash\testing\browser.py,wait_for_text_to_equal,"self, selector, text, timeout=None",208,218
+dash\testing\browser.py,wait_for_contains_text,"self, selector, text, timeout=None",222,232
+dash\testing\browser.py,wait_for_page,"self, url=None, timeout='10'",236,257
+dash\testing\browser.py,select_dcc_dropdown,"self, selector, value=None, index=None",261,286
+dash\testing\browser.py,toggle_window,self,289,293
+dash\testing\browser.py,switch_window,"self, idx='0'",295,302
+dash\testing\browser.py,open_new_tab,"self, url=None",304,310
+dash\testing\browser.py,get_webdriver,self,314,318
+dash\testing\browser.py,_get_wd_options,self,320,330
+dash\testing\browser.py,_get_chrome,self,332,382
+dash\testing\browser.py,_get_firefox,self,384,407
+dash\testing\browser.py,_is_windows,,411,413
+dash\testing\browser.py,multiple_click,"self, selector, clicks",415,418
+dash\testing\browser.py,clear_input,"self, elem",420,430
+dash\testing\browser.py,get_logs,self,432,445
+dash\testing\browser.py,reset_log_timestamp,self,447,452
+dash\testing\browser.py,visit_and_snapshot,"self, resource_path, hook_id, assert_check=True",454,469
+dash\testing\browser.py,driver,self,471,474
+dash\testing\browser.py,session_id,self,476,478
+dash\testing\browser.py,server_url,self,480,482
+dash\testing\browser.py,server_url,"self, value",484,490
+dash\testing\browser.py,download_path,self,492,494
+dash\testing\composite.py,__init__,"self, server, **kwargs",5,7
+dash\testing\composite.py,start_server,"self, app, **kwargs",9,16
+dash\testing\composite.py,__init__,"self, server, **kwargs",20,22
+dash\testing\composite.py,start_server,"self, app",24,30
+dash\testing\dash_page.py,_get_dash_dom_by_attribute,"self, attr",5,8
+dash\testing\dash_page.py,devtools_error_count_locator,self,11,13
+dash\testing\dash_page.py,dash_entry_locator,self,15,17
+dash\testing\dash_page.py,dash_outerhtml_dom,self,19,21
+dash\testing\dash_page.py,dash_innerhtml_dom,self,23,25
+dash\testing\dash_page.py,redux_state_paths,self,27,30
+dash\testing\dash_page.py,redux_state_rqs,self,33,36
+dash\testing\dash_page.py,get_local_storage,"self, store_id='local'",39,42
+dash\testing\dash_page.py,get_session_storage,"self, session_id='session'",46,49
+dash\testing\newhooks.py,pytest_setup_options,,1,2
+dash\testing\plugin.py,pytest_addoption,parser,22,61
+dash\testing\plugin.py,pytest_addhooks,pluginmanager,65,74
+dash\testing\plugin.py,pytest_runtest_makereport,"item, call",77,90
+dash\testing\plugin.py,dash_thread_server,,98,102
+dash\testing\plugin.py,dash_process_server,,105,109
+dash\testing\plugin.py,dashr_server,,112,115
+dash\testing\plugin.py,dash_br,"request, tmpdir",118,130
+dash\testing\plugin.py,dash_duo,"request, dash_thread_server, tmpdir",133,146
+dash\testing\plugin.py,dashr,"request, dashr_server, tmpdir",149,162
+dash\testing\wait.py,until,"wait_cond, timeout, poll='0.1', msg='expected condition not met within timeout'",12,33
+dash\testing\wait.py,until_not,"wait_cond, timeout, poll='0.1', msg='expected condition met within timeout'",36,54
+dash\testing\wait.py,__init__,"self, selector, text",58,60
+dash\testing\wait.py,__call__,"self, driver",62,73
+dash\testing\wait.py,__init__,"self, selector, text",77,79
+dash\testing\wait.py,__call__,"self, driver",81,93
+dash\testing\wait.py,__init__,"self, selector, style, val",97,100
+dash\testing\wait.py,__call__,"self, driver",102,110
+tests\assets\simple_app.py,on_value,value,21,26
+tests\assets\simple_app.py,on_style,value,29,34
+tests\integration\IntegrationTests.py,setUpClass,cls,26,49
+tests\integration\IntegrationTests.py,tearDownClass,cls,51,55
+tests\integration\IntegrationTests.py,setUp,self,57,58
+tests\integration\IntegrationTests.py,tearDown,self,60,69
+tests\integration\IntegrationTests.py,startServer,"self, dash, **kwargs",71,91
+tests\integration\IntegrationTests.py,run,,72,82
+tests\integration\IntegrationTests.py,percy_snapshot,"self, name=''",93,98
+tests\integration\IntegrationTests.py,wait_for_element_by_css_selector,"self, selector, timeout=TIMEOUT",101,104
+tests\integration\IntegrationTests.py,wait_for_text_to_equal,"self, selector, assertion_text, timeout=TIMEOUT",107,116
+tests\integration\IntegrationTests.py,clear_log,self,120,123
+tests\integration\IntegrationTests.py,get_log,self,125,130
+tests\integration\IntegrationTests.py,wait_until_get_log,"self, timeout='10'",133,145
+tests\integration\IntegrationTests.py,is_console_clean,self,147,148
+tests\integration\test_integration.py,test_inin001_simple_callback,dash_duo,30,62
+tests\integration\test_integration.py,update_output,value,41,44
+tests\integration\test_integration.py,test_inin002_wildcard_callback,dash_duo,65,117
+tests\integration\test_integration.py,update_data,value,91,94
+tests\integration\test_integration.py,update_text,data,96,100
+tests\integration\test_integration.py,test_inin003_aborted_callback,dash_duo,120,178
+tests\integration\test_integration.py,callback1,value,141,147
+tests\integration\test_integration.py,callback2,value,149,154
+tests\integration\test_integration.py,test_inin004_wildcard_data_attributes,dash_duo,181,212
+tests\integration\test_integration.py,test_inin005_no_props_component,dash_duo,215,230
+tests\integration\test_integration.py,test_inin006_flow_component,dash_duo,233,269
+tests\integration\test_integration.py,display_output,"react_value, flow_value",249,263
+tests\integration\test_integration.py,test_inin007_meta_tags,dash_duo,272,293
+tests\integration\test_integration.py,test_inin008_index_customization,dash_duo,296,341
+tests\integration\test_integration.py,test_inin009_invalid_index_string,dash_duo,344,377
+tests\integration\test_integration.py,will_raise,,347,364
+tests\integration\test_integration.py,test_inin010_func_layout_accepted,dash_duo,380,389
+tests\integration\test_integration.py,create_layout,,383,384
+tests\integration\test_integration.py,test_inin011_multi_output,dash_duo,392,508
+tests\integration\test_integration.py,on_click,"n_clicks, n_clicks_timestamp",418,427
+tests\integration\test_integration.py,dummy_callback,n_clicks,430,437
+tests\integration\test_integration.py,on_click_duplicate,n_clicks,441,447
+tests\integration\test_integration.py,on_click_duplicate_multi,n_clicks,455,462
+tests\integration\test_integration.py,on_click_same_output,n_clicks,470,475
+tests\integration\test_integration.py,overlapping_multi_output,n_clicks,483,488
+tests\integration\test_integration.py,test_inin012_multi_output_no_update,dash_duo,511,545
+tests\integration\test_integration.py,show_clicks,n,523,536
+tests\integration\test_integration.py,test_inin013_no_update_chains,dash_duo,548,609
+tests\integration\test_integration.py,a_out,a,562,567
+tests\integration\test_integration.py,b_out,b,569,571
+tests\integration\test_integration.py,ab_out,"a, b",573,579
+tests\integration\test_integration.py,test_inin014_with_custom_renderer,dash_duo,612,683
+tests\integration\test_integration.py,update_output,value,668,670
+tests\integration\test_integration.py,test_inin015_with_custom_renderer_interpolated,dash_duo,686,765
+tests\integration\test_integration.py,interpolate_index,"self, **kwargs",709,730
+tests\integration\test_integration.py,update_output,value,750,752
+tests\integration\test_integration.py,test_inin016_modified_response,dash_duo,768,792
+tests\integration\test_integration.py,update_output,value,774,779
+tests\integration\test_integration.py,test_inin017_late_component_register,dash_duo,795,819
+tests\integration\test_integration.py,update_output,value,805,812
+tests\integration\test_integration.py,test_inin018_output_input_invalid_callback,,822,851
+tests\integration\test_integration.py,failure,children,830,835
+tests\integration\test_integration.py,failure2,children,843,848
+tests\integration\test_integration.py,test_inin019_callback_dep_types,,854,899
+tests\integration\test_integration.py,f,i,866,868
+tests\integration\test_integration.py,f2,i,874,876
+tests\integration\test_integration.py,f3,i,882,888
+tests\integration\test_integration.py,f4,i,893,899
+tests\integration\test_integration.py,test_inin020_callback_return_validation,,902,943
+tests\integration\test_integration.py,single,a,915,917
+tests\integration\test_integration.py,multi,a,923,928
+tests\integration\test_integration.py,multi2,a,934,939
+tests\integration\test_integration.py,test_inin021_callback_context,dash_duo,946,975
+tests\integration\test_integration.py,on_click,*args,958,966
+tests\integration\test_integration.py,test_inin022_no_callback_context,,979,982
+tests\integration\test_integration.py,test_inin023_wrong_callback_id,,985,1031
+tests\integration\test_integration.py,f,a,1001,1003
+tests\integration\test_integration.py,g,a,1011,1013
+tests\integration\test_integration.py,g2,a,1021,1026
+tests\integration\test_integration.py,h,a,1029,1031
+tests\integration\test_race_conditions.py,setUp,self,15,16
+tests\integration\test_race_conditions.py,create_race_conditions_test,endpoints,22,66
+tests\integration\test_race_conditions.py,test,self,23,64
+tests\integration\test_race_conditions.py,update,value,31,35
+tests\integration\test_race_conditions.py,delay,,37,40
+tests\integration\test_race_conditions.py,element_text,id,42,46
+tests\integration\test_render.py,setUp,self,32,33
+tests\integration\test_render.py,wait_for_element_by_css_selector,"self, selector, timeout=TIMEOUT",35,38
+tests\integration\test_render.py,wait_for_text_to_equal,"self, selector, assertion_text, timeout=TIMEOUT",41,52
+tests\integration\test_render.py,request_queue_assertions,"self, check_rejected=True, expected_length=None",56,77
+tests\integration\test_render.py,click_undo,self,79,83
+tests\integration\test_render.py,click_redo,self,85,89
+tests\integration\test_render.py,check_undo_redo_exist,"self, has_undo, has_redo",91,98
+tests\integration\test_render.py,test_undo_redo,self,100,133
+tests\integration\test_render.py,set_b,a,104,106
+tests\integration\test_render.py,test_no_undo_redo,self,135,150
+tests\integration\test_render.py,set_b,a,139,141
+tests\integration\test_render.py,test_array_of_falsy_child,self,152,160
+tests\integration\test_render.py,test_of_falsy_child,self,162,170
+tests\integration\test_render.py,test_event_properties,self,172,197
+tests\integration\test_render.py,update_output,n_clicks,181,187
+tests\integration\test_render.py,test_chained_dependencies_direct_lineage,self,199,248
+tests\integration\test_render.py,update_input,input1,215,218
+tests\integration\test_render.py,update_output,"input1, input2",220,226
+tests\integration\test_render.py,test_chained_dependencies_branched_lineage,self,250,315
+tests\integration\test_render.py,update_parenta,value,272,276
+tests\integration\test_render.py,update_parentb,value,278,283
+tests\integration\test_render.py,update_childa,"parenta_value, parentb_value",285,291
+tests\integration\test_render.py,update_childb,"parenta_value, parentb_value, grandparent_value",293,302
+tests\integration\test_render.py,test_removing_component_while_its_getting_updated,self,317,401
+tests\integration\test_render.py,update_body,chapter,336,351
+tests\integration\test_render.py,this_callback_takes_forever,n_clicks,353,363
+tests\integration\test_render.py,chapter2_assertions,,374,390
+tests\integration\test_render.py,test_rendering_layout_calls_callback_once_per_output,self,403,435
+tests\integration\test_render.py,dynamic_output,*args,420,425
+tests\integration\test_render.py,test_rendering_new_content_calls_callback_once_per_output,self,437,486
+tests\integration\test_render.py,display_output,n_clicks,452,466
+tests\integration\test_render.py,dynamic_output,*args,469,474
+tests\integration\test_render.py,test_callbacks_called_multiple_times_and_out_of_order_multi_output,self,488,525
+tests\integration\test_render.py,update_output,n_clicks,498,507
+tests\integration\test_render.py,test_callbacks_with_shared_grandparent,self,527,566
+tests\integration\test_render.py,dropdown_1,"value, session_id",543,549
+tests\integration\test_render.py,dropdown_2,"value, session_id",551,557
+tests\integration\test_render.py,test_callbacks_triggered_on_generated_output,self,568,632
+tests\integration\test_render.py,display_content,value,594,598
+tests\integration\test_render.py,display_tab1_output,value,601,605
+tests\integration\test_render.py,display_tab2_output,value,607,611
+tests\integration\test_render.py,test_initialization_with_overlapping_outputs,self,634,683
+tests\integration\test_render.py,generate_callback,outputid,657,661
+tests\integration\test_render.py,callback,*args,658,660
+tests\integration\test_render.py,test_generate_overlapping_outputs,self,686,749
+tests\integration\test_render.py,display_output,*args,716,720
+tests\integration\test_render.py,generate_callback,outputid,722,726
+tests\integration\test_render.py,callback,*args,723,725
+tests\integration\test_render.py,test_multiple_properties_update_at_same_time_on_same_component,self,751,816
+tests\integration\test_render.py,update_output,*args,763,773
+tests\integration\test_render.py,test_request_hooks,self,818,908
+tests\integration\test_render.py,update_output,value,887,889
+tests\integration\test_render.py,test_graphs_in_tabs_do_not_share_state,self,910,1003
+tests\integration\test_render.py,display_hover_data,hover_data,954,958
+tests\integration\test_render.py,display_hover_data_2,hover_data,960,964
+tests\integration\test_render.py,render_content,tab,966,973
+tests\integration\test_render.py,test_single_input_multi_outputs_on_multiple_components,self,1005,1036
+tests\integration\test_render.py,update_output,n_clicks,1016,1023
+tests\integration\test_render.py,test_multi_outputs_on_single_component,self,1038,1088
+tests\integration\test_render.py,update_output,value,1047,1058
+tests\integration\test_render.py,html_equal,"selector, inner_html",1063,1065
+tests\integration\test_render.py,test_single_output_as_multi,self,1090,1108
+tests\integration\test_render.py,update_output,value,1098,1102
+tests\integration\test_render.py,test_multi_output_circular_dependencies,self,1110,1141
+tests\integration\test_render.py,set_a,b,1118,1120
+tests\integration\test_render.py,set_bc,a,1122,1126
+tests\integration\test_render.py,test_set_props_behavior,self,1144,1171
+tests\integration\utils.py,invincible,func,7,13
+tests\integration\utils.py,wrap,,8,12
+tests\integration\utils.py,wait_for,"condition_function, get_message=(lambda : ''), *args, **kwargs",20,60
+tests\integration\utils.py,wrapped_condition_function,,38,46
+tests\integration\callbacks\test_basic_callback.py,test_cbsc001_simple_callback,dash_duo,11,46
+tests\integration\callbacks\test_basic_callback.py,update_output,value,21,24
+tests\integration\callbacks\test_basic_callback.py,test_cbsc002_callbacks_generating_children,dash_duo,49,142
+tests\integration\callbacks\test_basic_callback.py,pad_output,input,58,63
+tests\integration\callbacks\test_basic_callback.py,update_input,value,69,74
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,test_cblp001_radio_buttons_callbacks_generating_children,dash_duo,11,236
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,display_chapter,toc_value,107,110
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,generate_graph_callback,counterId,114,128
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,callback,value,115,125
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,generate_label_callback,id_,130,135
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,update_label,value,131,133
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,check_chapter,chapter,150,177
+tests\integration\callbacks\test_layout_paths_with_callbacks.py,check_call_counts,"chapters, count",179,182
+tests\integration\callbacks\test_multiple_callbacks.py,test_cbmt001_called_multiple_times_and_out_of_order,dash_duo,9,38
+tests\integration\callbacks\test_multiple_callbacks.py,update_output,n_clicks,17,22
+tests\integration\clientside\test_clientside.py,test_clsd001_simple_clientside_serverside_callback,dash_duo,10,45
+tests\integration\clientside\test_clientside.py,update_output,value,21,25
+tests\integration\clientside\test_clientside.py,test_clsd002_chained_serverside_clientside_callbacks,dash_duo,49,147
+tests\integration\clientside\test_clientside.py,divide_by_two,value,85,90
+tests\integration\clientside\test_clientside.py,display_all,*args,92,103
+tests\integration\clientside\test_clientside.py,test_clsd003_clientside_exceptions_halt_subsequent_updates,dash_duo,150,192
+tests\integration\clientside\test_clientside.py,test_clsd004_clientside_multiple_outputs,dash_duo,195,239
+tests\integration\clientside\test_clientside.py,test_clsd005_clientside_fails_when_returning_a_promise,dash_duo,242,263
+tests\integration\dash_assets\test_dash_assets.py,test_dada001_assets,dash_duo,11,62
+tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135
+tests\integration\devtools\test_devtools_error_handling.py,app_with_errors,,9,29
+tests\integration\devtools\test_devtools_error_handling.py,update_output,n_clicks,19,24
+tests\integration\devtools\test_devtools_error_handling.py,bad_sub,,26,27
+tests\integration\devtools\test_devtools_error_handling.py,get_error_html,"dash_duo, index",32,35
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh001_python_errors,dash_duo,39,83
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh006_long_python_errors,dash_duo,86,118
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh002_prevent_update_not_in_error_msg,dash_duo,121,160
+tests\integration\devtools\test_devtools_error_handling.py,update_output,n_clicks,132,139
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh003_validation_errors_in_place,dash_duo,164,193
+tests\integration\devtools\test_devtools_error_handling.py,update_output,n_clicks,175,178
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh004_validation_errors_creation,dash_duo,196,227
+tests\integration\devtools\test_devtools_error_handling.py,update_output,n_clicks,207,211
+tests\integration\devtools\test_devtools_error_handling.py,test_dveh005_multiple_outputs,dash_duo,230,270
+tests\integration\devtools\test_devtools_error_handling.py,update_outputs,n_clicks,244,255
+tests\integration\devtools\test_devtools_ui.py,test_dvui001_disable_props_check_config,dash_duo,7,35
+tests\integration\devtools\test_devtools_ui.py,test_dvui002_disable_ui_config,dash_duo,39,66
+tests\integration\devtools\test_hot_reload.py,test_dvhr001_hot_reload,dash_duo,7,47
+tests\integration\devtools\test_props_check.py,test_dvpc001_prop_check_errors_with_path,dash_duo,185,225
+tests\integration\devtools\test_props_check.py,display_content,pathname,190,199
+tests\integration\renderer\test_dependencies.py,test_rddp001_dependencies_on_components_that_dont_exist,dash_duo,9,47
+tests\integration\renderer\test_dependencies.py,update_output,value,17,20
+tests\integration\renderer\test_dependencies.py,update_output_2,value,27,30
+tests\integration\renderer\test_due_diligence.py,test_rddd001_initial_state,dash_duo,13,109
+tests\integration\renderer\test_persistence.py,table_columns,"names, **extra_props",10,17
+tests\integration\renderer\test_persistence.py,simple_table,"names=('a', 'b'), **props_override",20,28
+tests\integration\renderer\test_persistence.py,reloadable_app,**props_override,31,52
+tests\integration\renderer\test_persistence.py,layout,,35,38
+tests\integration\renderer\test_persistence.py,report_props,"columns, hidden_columns",42,49
+tests\integration\renderer\test_persistence.py,rename_and_hide,"dash_duo, rename='0', new_name=NEW_NAME, hide='1'",57,66
+tests\integration\renderer\test_persistence.py,check_table_names,"dash_duo, names, table_id='table'",69,81
+tests\integration\renderer\test_persistence.py,test_rdps001_local_reload,dash_duo,84,127
+tests\integration\renderer\test_persistence.py,test_rdps002_session_reload,dash_duo,130,140
+tests\integration\renderer\test_persistence.py,test_rdps003_memory_reload,dash_duo,143,152
+tests\integration\renderer\test_persistence.py,test_rdps004_show_hide,dash_duo,155,194
+tests\integration\renderer\test_persistence.py,toggle_table,n,162,171
+tests\integration\renderer\test_persistence.py,test_rdps005_persisted_props,dash_duo,197,225
+tests\integration\renderer\test_persistence.py,toggle_table,n,204,211
+tests\integration\renderer\test_persistence.py,test_rdps006_move_on_page,dash_duo,228,262
+tests\integration\renderer\test_persistence.py,move_table,n,235,246
+tests\integration\renderer\test_persistence.py,find_last_div,n,248,250
+tests\integration\renderer\test_persistence.py,test_rdps007_one_prop_changed,dash_duo,265,291
+tests\integration\renderer\test_persistence.py,hide_cols,n,272,277
+tests\integration\renderer\test_persistence.py,test_rdps008_unsaved_part_changed,dash_duo,294,327
+tests\integration\renderer\test_persistence.py,toggle_deletable,n,301,310
+tests\integration\renderer\test_persistence.py,test_rdps009_clear_prop_callback,dash_duo,330,356
+tests\integration\renderer\test_persistence.py,reset_names,n,337,346
+tests\integration\renderer\test_state_and_input.py,test_rdsi001_state_and_inputs,dash_duo,10,57
+tests\integration\renderer\test_state_and_input.py,update_output,"input, state",22,29
+tests\integration\renderer\test_state_and_input.py,test_rdsi002_event_properties_state_and_inputs,dash_duo,60,113
+tests\integration\renderer\test_state_and_input.py,update_output,"input, n_clicks, state",73,80
+tests\unit\test_app_runners.py,test_threaded_server_smoke,dash_thread_server,9,21
+tests\unit\test_app_runners.py,test_process_server_smoke,dash_process_server,24,31
+tests\unit\test_browser.py,test_browser_smoke,"browser_type, tmpdir",6,18
+tests\unit\test_browser.py,test_browser_use_remote_webdriver,tmpdir,21,43
+tests\unit\test_configs.py,empty_environ,,18,22
+tests\unit\test_configs.py,test_dash_env_vars,empty_environ,25,28
+tests\unit\test_configs.py,test_valid_pathname_prefix_init,"empty_environ, route_prefix, req_prefix, expected_route, expected_req",31,49
+tests\unit\test_configs.py,test_invalid_pathname_prefix,empty_environ,52,72
+tests\unit\test_configs.py,test_pathname_prefix_from_environ_app_name,empty_environ,75,79
+tests\unit\test_configs.py,test_pathname_prefix_environ_routes,empty_environ,82,85
+tests\unit\test_configs.py,test_pathname_prefix_environ_requests,empty_environ,88,91
+tests\unit\test_configs.py,test_pathname_prefix_assets,"empty_environ, req, expected",94,104
+tests\unit\test_configs.py,test_get_combined_config_dev_tools_ui,empty_environ,107,118
+tests\unit\test_configs.py,test_get_combined_config_props_check,empty_environ,121,132
+tests\unit\test_configs.py,test_load_dash_env_vars_refects_to_os_environ,empty_environ,135,143
+tests\unit\test_configs.py,test_app_name_server,"empty_environ, name, server, expected",146,158
+tests\unit\test_import.py,test_dash_import_is_correct,,5,14
+tests\unit\test_resources.py,test_external,mocker,36,55
+tests\unit\test_resources.py,test_external_kwarg,,59,62
+tests\unit\test_resources.py,test_internal,mocker,65,95
+tests\unit\dash\test_dash_import.py,test_dddi001_dash_import_is_correct,,5,14
+tests\unit\dash\test_utils.py,test_ddut001_attribute_dict,,6,63
+tests\unit\development\conftest.py,load_test_metadata_json,,10,16
+tests\unit\development\metadata_test.py,__init__,"self, children=None, optionalArray=Component.UNDEFINED, optionalBool=Component.UNDEFINED, optionalFunc=Component.UNDEFINED, optionalNumber=Component.UNDEFINED, optionalObject=Component.UNDEFINED, optionalString=Component.UNDEFINED, optionalSymbol=Component.UNDEFINED, optionalNode=Component.UNDEFINED, optionalElement=Component.UNDEFINED, optionalMessage=Component.UNDEFINED, optionalEnum=Component.UNDEFINED, optionalUnion=Component.UNDEFINED, optionalArrayOf=Component.UNDEFINED, optionalObjectOf=Component.UNDEFINED, optionalObjectWithExactAndNestedDescription=Component.UNDEFINED, optionalObjectWithShapeAndNestedDescription=Component.UNDEFINED, optionalAny=Component.UNDEFINED, customProp=Component.UNDEFINED, customArrayProp=Component.UNDEFINED, id=Component.UNDEFINED, **kwargs",47,65
+tests\unit\development\test_base_component.py,nested_tree,,14,35
+tests\unit\development\test_base_component.py,test_init,,38,39
+tests\unit\development\test_base_component.py,test_get_item_with_children,,42,45
+tests\unit\development\test_base_component.py,test_get_item_with_children_as_component_instead_of_list,,48,51
+tests\unit\development\test_base_component.py,test_get_item_with_nested_children_one_branch,,54,60
+tests\unit\development\test_base_component.py,test_get_item_with_nested_children_two_branches,,63,74
+tests\unit\development\test_base_component.py,test_get_item_with_nested_children_with_mixed_strings_and_without_lists,,77,89
+tests\unit\development\test_base_component.py,test_len_with_nested_children_with_mixed_strings_and_without_lists,,92,97
+tests\unit\development\test_base_component.py,test_set_item_with_nested_children_with_mixed_strings_and_without_lists,,100,109
+tests\unit\development\test_base_component.py,test_del_item_with_nested_children_with_mixed_strings_and_without_lists,,112,119
+tests\unit\development\test_base_component.py,test_traverse_with_nested_children_with_mixed_strings_and_without_lists,,122,125
+tests\unit\development\test_base_component.py,test_traverse_with_tuples,,128,133
+tests\unit\development\test_base_component.py,test_to_plotly_json_with_nested_children_with_mixed_strings_and_without_lists,,136,193
+tests\unit\development\test_base_component.py,test_get_item_raises_key_if_id_doesnt_exist,,196,211
+tests\unit\development\test_base_component.py,test_set_item,,214,221
+tests\unit\development\test_base_component.py,test_set_item_with_children_as_list,,224,230
+tests\unit\development\test_base_component.py,test_set_item_with_nested_children,,233,255
+tests\unit\development\test_base_component.py,test_set_item_raises_key_error,,258,262
+tests\unit\development\test_base_component.py,test_del_item_from_list,,265,279
+tests\unit\development\test_base_component.py,test_del_item_from_class,,282,290
+tests\unit\development\test_base_component.py,test_to_plotly_json_without_children,,293,301
+tests\unit\development\test_base_component.py,test_to_plotly_json_with_null_arguments,,305,323
+tests\unit\development\test_base_component.py,test_to_plotly_json_with_children,,327,339
+tests\unit\development\test_base_component.py,test_to_plotly_json_with_wildcards,,343,358
+tests\unit\development\test_base_component.py,test_len,,362,367
+tests\unit\development\test_base_component.py,test_iter,,370,419
+tests\unit\development\test_component_loader.py,write_metada_file,,105,110
+tests\unit\development\test_component_loader.py,make_namespace,,113,120
+tests\unit\development\test_component_loader.py,test_loadcomponents,write_metada_file,123,156
+tests\unit\development\test_component_loader.py,test_loadcomponents_from_generated_class,"write_metada_file, make_namespace",159,194
+tests\unit\development\test_flow_metadata_conversions.py,load_test_flow_metadata_json,,117,123
+tests\unit\development\test_flow_metadata_conversions.py,test_docstring,load_test_flow_metadata_json,126,133
+tests\unit\development\test_flow_metadata_conversions.py,test_docgen_to_python_args,load_test_flow_metadata_json,136,142
+tests\unit\development\test_generate_class.py,component_class,load_test_metadata_json,13,19
+tests\unit\development\test_generate_class.py,component_written_class,,23,36
+tests\unit\development\test_generate_class.py,test_to_plotly_json,component_class,40,59
+tests\unit\development\test_generate_class.py,test_arguments_become_attributes,component_class,63,67
+tests\unit\development\test_generate_class.py,test_repr_single_default_argument,component_class,70,74
+tests\unit\development\test_generate_class.py,test_repr_single_non_default_argument,component_class,77,79
+tests\unit\development\test_generate_class.py,test_repr_multiple_arguments,component_class,82,86
+tests\unit\development\test_generate_class.py,test_repr_nested_arguments,component_class,89,93
+tests\unit\development\test_generate_class.py,test_repr_with_wildcards,component_class,96,102
+tests\unit\development\test_generate_class.py,test_docstring,component_class,105,107
+tests\unit\development\test_generate_class.py,test_no_events,component_class,111,112
+tests\unit\development\test_generate_class.py,test_required_props,component_written_class,115,122
+tests\unit\development\test_generate_class.py,test_attrs_match_forbidden_props,component_class,125,147
+tests\unit\development\test_generate_class_file.py,make_component_dir,load_test_metadata_json,22,29
+tests\unit\development\test_generate_class_file.py,expected_class_string,,32,37
+tests\unit\development\test_generate_class_file.py,component_class_string,make_component_dir,40,46
+tests\unit\development\test_generate_class_file.py,written_class_string,make_component_dir,50,61
+tests\unit\development\test_generate_class_file.py,test_class_string,"expected_class_string, component_class_string",64,71
+tests\unit\development\test_generate_class_file.py,test_class_file,"expected_class_string, written_class_string",74,80
+tests\unit\development\test_metadata_conversions.py,test_docstring,load_test_metadata_json,71,78
+tests\unit\development\test_metadata_conversions.py,test_docgen_to_python_args,load_test_metadata_json,81,85
+tests\unit\development\test_r_component_gen.py,make_r_dir,,13,19
+tests\unit\development\test_r_component_gen.py,test_r_exports,make_r_dir,22,85
+tests\unit\development\__init__.py,has_trailing_space,s,6,7

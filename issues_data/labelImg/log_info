@@ -1,0 +1,3132 @@
+==================
+0bc7a46;PTA00;2022-03-09 13:53:45 +0800;[tested]Fixed open file dialog cancel error. (#856)
+* Fix
+
+Error "IndexError: list index out of range"  occurs when there is no "predefined_classes.txt".
+
+* Fix an error when default label is null.
+
+Error "IndexError: list index out of range"  occurs when there is no "/data/predefined_classes.txt".
+
+* Update README.rst
+
+ADD: Package as a separate exe file method.
+
+* Fixed an error after opening a file to cancel
+
+The cause of the error:
+QFileDialog.getOpenFileName(...) second parameter required cannot be empty.
+==
+
+labelImg.py
+==================
+9e4a4b7;PTA00;2022-03-08 14:56:10 +0800;Problems found while packaging as binaries.Has been tested. (#855)
+* Fix
+
+Error "IndexError: list index out of range"  occurs when there is no "predefined_classes.txt".
+
+* Fix an error when default label is null.
+
+Error "IndexError: list index out of range"  occurs when there is no "/data/predefined_classes.txt".
+
+* Update README.rst
+
+ADD: Package as a separate exe file method.
+==
+
+README.rst
+labelImg.py
+==================
+0f111e6;tzutalin;2022-03-07 17:54:53 -0800;Change locale.getlocale() to locale.getdefaultlocale()
+
+==
+
+libs/stringBundle.py
+==================
+dd67816;tzutalin;2022-03-07 16:55:26 -0800;update translations for zh-CN
+
+==
+
+resources/strings/strings-zh-CN.properties
+==================
+d685e50;tzutalin;2022-02-22 22:23:10 -0800;fix missing imports
+
+==
+
+labelImg.py
+==================
+ca3a3ac;Paul Anton Letnes;2022-02-17 20:18:21 +0100;remove unused import statements (#845)
+To reduce clutter, all unused imports were removed. On the affected
+files, imports were also reordered to be PEP8 sorted.
+==
+
+labelImg.py
+libs/labelFile.py
+libs/settings.py
+libs/yolo_io.py
+==================
+276f40f;Aditya Kumar;2022-01-26 21:48:13 +0530;Modified the default label text box into a drop down (#824)
+* Modified the default label text box into a drop down
+
+* Unchecked the box at startup
+
+* Removed commented code
+
+* Removed unnecessary update method for the combobox
+
+* Changed naming style for class
+==
+
+data/predefined_classes.txt
+labelImg.py
+libs/default_label_combobox.py
+==================
+c35efbd;Paul Anton Letnes;2022-01-26 17:17:27 +0100;convert floating point values of zoom level to int (#840)
+In some cases, arithmetic results (in particular from division) on zoom
+levels return floats; however, the PyQt API requires int values to
+function correctly. Therefore, explicit conversion to int or integer
+division has been added for these cases.
+
+A behavior bug causing sudden crashes was fixed. When a rectangular box
+is dragged with the right mouse button, but the left mouse button is
+touched prior to release of the right mouse button, the  program
+crashed. The root cause seems to be that this deselects the dragged
+object so it is no longer available (i.e. `self.canvas.selected_shape is
+None`). The new behavior does nothing / cancels the operation if this
+occurs.
+
+Added a shortcut for switching file format (CTRL+Y) since I often use
+this functionality.
+==
+
+labelImg.py
+==================
+98e8837;Sam.An;2021-12-29 02:10:38 +0900;Fix opening next image error (#835)
+* Fix draw annotations error
+
+* Fix opening next image
+==
+
+labelImg.py
+==================
+5c38b6b;Sam.An;2021-12-28 12:05:21 +0900;Fix draw annotations error (#833)
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/shape.py
+==================
+b1e1334;dependabot[bot];2021-12-26 21:04:23 -0800;Bump lxml from 4.6.3 to 4.6.5 in /requirements (#830)
+Bumps [lxml](https://github.com/lxml/lxml) from 4.6.3 to 4.6.5.
+- [Release notes](https://github.com/lxml/lxml/releases)
+- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)
+- [Commits](https://github.com/lxml/lxml/compare/lxml-4.6.3...lxml-4.6.5)
+
+---
+updated-dependencies:
+- dependency-name: lxml
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+==
+
+requirements/requirements-linux-python3.txt
+==================
+9f2765e;Stefan Breunig;2021-12-27 05:48:39 +0100;fix h_vertex being kept after deleting shape, causing a crash if used (#832)
+Steps to reproduce this particular issue:
+
+1. draw a box
+2. select the box
+3. hover over one of the corners as if you want to resize the box (no click needed)
+4. press DEL to delete the box
+5. left click on the canvas
+
+Note there are two more destructive operations on the canvas' `shape` in
+`undo_last_line` and `reset_all_lines`, but former is dead code and latter
+I don't know how to trigger. Thus I can't be sure un-highlighting will not
+lead to visual glitches.
+
+There are other potential fixes, e.g. checking in `selected_vertex`. I can
+rework the patch, but then again, the fix is so straight forward that telling
+me is probably more effort than just rewriting it.
+
+See #750
+See #605
+==
+
+libs/canvas.py
+==================
+39ecb78;HLiang;2021-11-19 23:43:57 -0600;correct initial img_count (#817)
+fixes issue https://github.com/tzutalin/labelImg/issues/816
+==
+
+labelImg.py
+==================
+d4030a7;Thinh Phan;2021-11-19 04:53:18 +0900;Update README.rst (#813)
+Add "Annotation visualization"
+==
+
+README.rst
+==================
+aa529c3;Thinh Phan;2021-11-19 02:04:44 +0900;Update requirements-linux-python3.txt (#812)
+Update version of pyqt5
+==
+
+requirements/requirements-linux-python3.txt
+==================
+e9dbbd8;Naelson Douglas C. Oliveira;2021-10-31 12:21:18 -0300;removed a default mutable argument pitfall (#809)
+
+==
+
+labelImg.py
+==================
+1ab8241;tzutalin;2021-10-11 13:15:19 -0700;bump version to 1.8.6
+
+==
+
+HISTORY.rst
+libs/__init__.py
+==================
+3f53dce;Tiger Nie;2021-10-11 15:04:40 -0500;display bbox width and height while resizing, moving and hovering over (#798)
+shape.
+==
+
+libs/canvas.py
+==================
+7457d58;tzutalin;2021-10-11 13:04:03 -0700;update instruction to install with pipenv
+
+==
+
+README.rst
+readme/README.jp.rst
+readme/README.zh.rst
+==================
+cc8fd5a;Enzo Di Tizio;2021-10-03 15:25:56 -0300;Changing installation methods order (#796)
+Just to put the easiest one first.
+==
+
+README.rst
+==================
+58406b5;ngc92;2021-07-25 19:09:01 +0300;adds a utility function to hide a QT5/QT4 discrepancy (#765)
+Co-authored-by: erik <ersre>
+==
+
+libs/labelDialog.py
+libs/utils.py
+==================
+c5971bf;Keito Tobichi;2021-07-18 12:45:26 +0900;Japanese Translation Fix. (#760)
+* fix.
+
+* small fix.
+
+* translation fix.
+
+* shortcut fix.
+==
+
+resources/strings/strings-ja-JP.properties
+==================
+250de4b;Keito Tobichi;2021-06-28 06:42:27 +0900;Add Locale: Japanese (#756)
+* [wip]japanese translation file.
+
+* [wip]fixed japanese translation.
+
+* create README.jp.rst
+
+* add locale ja-JP.
+
+* Removed Locale Data.
+==
+
+labelImg.py
+readme/README.jp.rst
+resources.qrc
+resources/strings/strings-ja-JP.properties
+resources/strings/strings.properties
+==================
+d3e5024;darrenl;2021-06-06 07:50:01 -0700;Update no-response.yml
+
+==
+
+.github/no-response.yml
+==================
+ff681f7;tzutalin;2021-05-11 09:39:28 -0700;Remove unused code and add short cut link
+
+==
+
+labelImg.py
+resources/strings/strings-zh-CN.properties
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+==================
+91c23d0;WEN Hao;2021-05-12 00:20:54 +0800;Use webbrowser instead of get_available_screencast_viewer (#745)
+* improve opening tutorial
+
+* improve show_tutorial_dialog
+
+* improve show_tutorial_dialog
+
+* remove not implemented
+
+* remove unncessary package QtWebEngineWidgets
+
+* remove commented import of QtWebEngineWidgets
+==
+
+labelImg.py
+libs/stringBundle.py
+resources/strings/strings-zh-CN.properties
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+==================
+c4e8cd8;tzutalin;2021-05-01 08:13:52 -0700;Add .github/no-response.yml
+
+==
+
+.github/no-response.yml
+README.rst
+==================
+4bf5c45;Denis;2021-04-28 17:22:14 +0300;Fix deletion of image caused selection of the first image (#742)
+Also removed the call to self.import_dir_images method that reloaded all
+of the images in directory.
+==
+
+labelImg.py
+==================
+6b5c3c6;Denis;2021-04-27 08:18:56 +0300;Implement image counter. (#734)
+* Introduced two new attributes of MainWindow:
+  cur_img_idx - Index of current image in m_img_list.
+  img_count   - Length of m_img_list.
+
+* Implement counter_str method to get string representation of counter.
+
+* Appended counter to window title.
+
+* Based image switching logic on counter instead of local variables.
+
+* Removed useless condition.
+  current_index = self.m_img_list.index(ustr(item.text()))
+  if current_index < len(self.m_img_list):
+  list.index will raise ValueError if item doesn't exist.
+==
+
+labelImg.py
+==================
+0c09c7c;tzutalin;2021-04-11 22:36:08 -0700;Bump to 1.8.5
+
+==
+
+HISTORY.rst
+README.rst
+libs/__init__.py
+==================
+bf1da53;tzutalin;2021-04-11 22:17:05 -0700;Update zh readme
+
+==
+
+readme/README.zh.rst
+==================
+61d19bd;tzutalin;2021-04-11 22:13:07 -0700;add zh readme
+
+==
+
+README.rst
+readme/README.zh.rst
+==================
+ec23bb4;tzutalin;2021-04-10 08:23:28 -0700;Update unit test to fix error and fix icon issue
+
+==
+
+labelImg.py
+tests/test_io.py
+==================
+6258553;Denis;2021-04-08 08:01:55 +0300;Fix incorrect path handling (#731)
+* Fix incorrect save dir path handling for ML format.
+
+Save dir path was split by incorrect os.dependent separator '/'
+which was the cause of labels being saved to parent folder.
+
+* Implement path normalization for command arguments.
+
+Renamed 'predefined_classes_file' parameter to 'class_file'.
+==
+
+labelImg.py
+libs/create_ml_io.py
+libs/labelFile.py
+==================
+0573a39;Denis;2021-04-07 02:38:48 +0300;Fix rounding issue that caused 1px box shift for YOLO format. (#730)
+
+==
+
+libs/yolo_io.py
+==================
+3425fef;dependabot[bot];2021-04-01 07:51:40 -0700;Bump lxml from 4.6.2 to 4.6.3 in /requirements (#728)
+Bumps [lxml](https://github.com/lxml/lxml) from 4.6.2 to 4.6.3.
+- [Release notes](https://github.com/lxml/lxml/releases)
+- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)
+- [Commits](https://github.com/lxml/lxml/compare/lxml-4.6.2...lxml-4.6.3)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+==
+
+requirements/requirements-linux-python3.txt
+==================
+34ed6a3;Thijs van den Berg;2021-04-01 16:50:00 +0200;Change encoding. Fix for #676 (#722)
+First read the file in binary mode. Then, convert to utf-8. Fix for https://github.com/tzutalin/labelImg/issues/676
+==
+
+setup.py
+==================
+c35f097;Cerno_b;2021-03-15 00:56:14 +0100;Pep 8 (#720)
+* rename local variables in main file
+
+* additional renaming of functions and variables
+
+* Rename main file functions
+
+* Rename functions and variables in canvas.py
+
+* Rename functions and locals for remaining files
+
+* Rename non-Qt derived class' members
+
+* Rename members of Qt-derived classes
+
+* Fix paint label issue
+==
+
+labelImg.py
+libs/canvas.py
+libs/colorDialog.py
+libs/combobox.py
+libs/create_ml_io.py
+libs/labelDialog.py
+libs/labelFile.py
+libs/pascal_voc_io.py
+libs/shape.py
+libs/stringBundle.py
+libs/ustr.py
+libs/utils.py
+libs/yolo_io.py
+tests/test_io.py
+tests/test_stringBundle.py
+tests/test_utils.py
+==================
+ef05452;Christian Clauss;2021-03-09 01:28:31 +0100;Travis CI: Trusty, Python 3.5, and sudo on Travis are all end of life (#719)
+* Travis CI: Trusty, Python 3.5, and sudo on Travis are all end of life
+
+* Matrix —> jobs
+
+* python: does no work on macOS
+==
+
+.travis.yml
+==================
+4993dcb;tzutalin;2021-02-28 11:13:14 -0800;Update README
+
+==
+
+README.rst
+==================
+d8fdd47;tzutalin;2021-02-28 11:06:13 -0800;move convert dir to tools dir
+
+==
+
+tools/README.md
+tools/label_to_csv.py
+==================
+bfda006;Tomas SP;2021-02-28 19:00:08 +0000;Mac os pipenv installation documentation bug fix (#711)
+Fix mac os pipenv installation documentation
+
+Co-authored-by: Tomás Sousa Pereira <up201507414@fe.up.pt>
+==
+
+README.rst
+==================
+144afe6;Justin Ruan;2021-03-01 02:59:44 +0800;Add label_to_csv.py to convert txt or xml files to csv. Also, add the (#704)
+README.md to tell how to do the transformation
+==
+
+convert/README.md
+convert/label_to_csv.py
+==================
+ebb2b83;dependabot[bot];2021-01-09 09:30:33 -0800;Bump lxml from 4.2.4 to 4.6.2 in /requirements (#694)
+Bumps [lxml](https://github.com/lxml/lxml) from 4.2.4 to 4.6.2.
+- [Release notes](https://github.com/lxml/lxml/releases)
+- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)
+- [Commits](https://github.com/lxml/lxml/compare/lxml-4.2.4...lxml-4.6.2)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+==
+
+requirements/requirements-linux-python3.txt
+==================
+eb4857f;LiXiaolin;2021-01-10 01:30:04 +0800;Translate texts on menu bar (#695)
+
+==
+
+labelImg.py
+resources/strings/strings-zh-CN.properties
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+==================
+5d6557f;chenghsiung;2021-01-02 03:54:27 +0800;Adaptively adjust label size (#678)
+* Adjust label font size based on image size
+
+* Adjust the upper boundary of the painted label
+
+* Set font size based on both image width & height
+==
+
+labelImg.py
+libs/canvas.py
+libs/shape.py
+==================
+0a581ef;darrenl;2021-01-01 11:24:08 -0800;Update README.rst
+
+==
+
+README.rst
+==================
+a64cbca;tzutalin;2020-11-14 23:25:29 -0800;Updated history
+
+==
+
+HISTORY.rst
+==================
+e1c67fc;tzutalin;2020-11-14 23:17:25 -0800;Bump to 1.8.4
+
+==
+
+labelImg.py
+libs/__init__.py
+libs/combobox.py
+==================
+a86093c;tzutalin;2020-11-14 22:51:44 -0800;Updated README
+
+==
+
+README.rst
+labelImg.py
+==================
+e13d154;tzutalin;2020-11-14 09:05:33 -0800;Fixed Autosave did not work as it does not use a proper file path separator
+
+==
+
+labelImg.py
+==================
+3146349;enicck;2020-10-02 15:56:07 +0200;Adds create-ml format support (#651)
+* adds createMl reader & writer class
+
+* adds getFormatMeta function to support more than two save_format
+
+* adds CreateML read & write support
+
+* adds format CreateML icon
+
+* fixes negative height/width
+
+* removes type hints
+
+* fixes coordinate calculation
+
+* adds unit test
+
+* removes typehint
+==
+
+labelImg.py
+libs/constants.py
+libs/create_ml_io.py
+libs/labelFile.py
+resources.qrc
+resources/icons/format_createml.png
+tests/test_io.py
+==================
+d348686;tzutalin;2020-09-26 11:22:20 -0700;update hotkey in readme
+
+==
+
+README.rst
+==================
+949e46c;tzutalin;2020-09-26 11:15:30 -0700;change delete image hotkey
+
+==
+
+labelImg.py
+==================
+058d7a7;EuihyunLee;2020-09-27 03:03:04 +0900;Read via QImageReader (#650)
+* Now read via QImageReader
+
+* Remove comment-out unused lines
+==
+
+labelImg.py
+libs/labelFile.py
+==================
+08db03a;tzutalin;2020-09-12 10:59:57 -0700;rename functions
+
+==
+
+labelImg.py
+==================
+12dadc6;Crystal Silva Campos;2020-09-12 14:49:21 -0300;Add ctrl+v hotkey to be able copy the bounding boxes from the previous image to the current (#627)
+* Add previous bounding boxes code
+
+* Create method to avoid repeated code
+
+* Fix text in the action copyprevbounding
+
+* Add description for different languages
+
+==
+
+labelImg.py
+resources/strings/strings-zh-CN.properties
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+==================
+39b0d68;Chris Rapson (AT);2020-08-24 14:13:16 +1200;Improve MessageBox when clicking Next/Prev without saving image
+
+==
+
+labelImg.py
+==================
+544cfb9;Chris Rapson (AT);2020-08-24 14:12:44 +1200;adjust position of popup labelDialog to make sure it is within edge of main window
+
+==
+
+libs/labelDialog.py
+==================
+5a7e3f8;Chris Rapson (AT);2020-08-24 14:11:54 +1200;allow panning by clicking  and dragginng outside existing boxes
+
+==
+
+libs/canvas.py
+==================
+0e90516;tzutalin;2020-08-02 00:18:34 -0700;Changing format enables save button
+
+==
+
+labelImg.py
+==================
+f387c59;tzutalin;2020-08-02 00:14:18 -0700;use enum for label file formats
+
+==
+
+labelImg.py
+libs/constants.py
+libs/labelFile.py
+==================
+196bd46;Laszlo Treszkai;2020-07-16 15:48:14 +0200;Save used labeling format in settings
+
+==
+
+labelImg.py
+libs/constants.py
+==================
+b21b48e;Laszlo Treszkai;2020-07-16 15:29:52 +0200;Parse command-line arguments using argparse
+
+==
+
+labelImg.py
+==================
+1a9b489;Rohit Lal;2020-07-17 00:36:33 +0530;updated anaconda installation instructions
+
+==
+
+README.rst
+==================
+bd5c2a4;Keechin G;2020-07-17 19:45:06 +0800;Update GitIgnore / .DS_Store Removal
+
+==
+
+.DS_Store
+.gitignore
+==================
+03ef7c7;tzutalin;2020-07-12 19:37:43 -0700;Add Stargazers over time in README.md
+
+==
+
+README.rst
+==================
+60ae606;tzutalin;2020-07-01 18:18:19 -0700;Update zh translation and format code a little bit
+
+==
+
+labelImg.py
+resources/strings/strings-zh-CN.properties
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+==================
+80e9722;heis2201;2020-06-26 09:18:05 +0200;Added hint on install method on Linux
+In the list of install options, in my opinion, it is not so clear which install method an end-user should choose (at least for Linux users). Python3 is now standard on basically any Linux distro, so the install from PyPI using pip3 install should work out the box in a vast majority of distros. I tested it for Fedora32.
+==
+
+README.rst
+==================
+9fca0b5;Kirill Kalashnikov;2020-06-12 17:15:03 +0300;added delete image button
+
+==
+
+.DS_Store
+labelImg.py
+resources/strings/strings.properties
+==================
+7cc5241;stephi;2020-06-08 19:13:54 +0200;strip string of detection values
+
+==
+
+libs/yolo_io.py
+==================
+7532f1e;tzutalin;2020-05-23 11:37:06 -0700;removed python2 build from travis.yml and upgraded Anaconda3 for travis
+
+==
+
+.travis.yml
+==================
+500367c;tzutalin;2020-05-18 08:52:42 -0700;update strings and removed intersectingEdges
+
+==
+
+libs/canvas.py
+resources/strings/strings.properties
+==================
+9bebf84;Adwait Bhope;2020-05-05 22:44:50 +0530;Change mouse event behaviour for point outside canvas
+
+==
+
+libs/canvas.py
+==================
+5816f71;Mehrad Mahmoudian;2020-05-01 13:53:08 +0300;[add] adding instruction on how to force reset the class settings to the README
+
+==
+
+README.rst
+==================
+49334ed;Alice_space;2020-04-24 22:11:24 +0800;fix typo
+
+==
+
+README.rst
+==================
+45078ac;BIASUTTI Pierre;2020-01-30 12:43:14 +0100;Added annotation width and height in toolbar while drawing.
+
+==
+
+libs/canvas.py
+==================
+a74b00c;Hakan Karaoguz;2019-09-12 09:42:02 +0200;Fixed import error for PyQt4
+
+==
+
+combobox.py
+==================
+c4f4fb3;Hakan Karaoguz;2019-09-11 23:49:12 +0200;Added missing import
+
+==
+
+combobox.py
+==================
+6c34a6c;Hakan Karaoguz;2019-09-11 23:36:20 +0200;Update imports and added PyQt4 support
+
+==
+
+combobox.py
+==================
+e51bfce;Hakan Karaoguz;2019-07-16 13:52:57 +0200;Added combobox to the main view for displaying unique labels individually
+
+==
+
+combobox.py
+labelImg.py
+==================
+bf8cc1d;tzutalin;2019-12-22 21:34:56 -0800;Fixed a pyqt5 version to avoid build error for pipenv
+
+==
+
+.travis.yml
+README.rst
+==================
+731735f;Eetu Silvennoinen;2019-10-28 12:58:57 +0200;Update labelImg.py
+Fixed a comment typo.
+==
+
+labelImg.py
+==================
+a124c75;Michal Skreczko;2019-10-05 06:38:05 +0200;Fixed typo
+
+==
+
+resources/strings/strings.properties
+==================
+157a417;Eduard Tamsa;2019-10-03 22:26:09 +0300;    Add Silent option for openDirDialog
+    Add Silent option for openDirDialog to facilitate opening a directory at start up
+    if the filePath provided is a directory without opening the file selector UI.
+
+==
+
+labelImg.py
+==================
+53a78e2;Gary Yang;2019-08-27 18:49:23 -0700;Update README.rst to fix bug in instruction
+Fix bug in pyqt5 compilation for windows
+Changed "For pyqt5, pyrcc5 -o libs/resources.py resources qrc" to "For pyqt5, pyrcc5 -o libs/resources.py resources.qrc"
+==
+
+README.rst
+==================
+22f1d7b;blueharen;2019-08-02 09:17:23 -0400;typo
+
+==
+
+HISTORY.rst
+==================
+883174f;darrenl;2019-07-30 19:50:55 -0700;Update README.rst
+
+==
+
+README.rst
+==================
+c1c1dbe;GGDRriedel;2019-06-04 16:38:23 +0200;Fixed Windows+ Anaconda pyrcc5 compile command
+added changes from https://github.com/tzutalin/labelImg/issues/475
+==
+
+README.rst
+==================
+87c110a;darrenl;2019-06-02 16:29:39 -0700;Update README.rst
+
+==
+
+README.rst
+==================
+a1a32f6;tzutalin;2019-05-25 20:58:20 -0700;Update README.md and setup.py
+
+==
+
+HISTORY.rst
+Makefile
+README.rst
+libs/__init__.py
+setup.py
+==================
+3ecc860;tzutalin;2019-05-25 14:56:25 -0700;Fix build error
+
+==
+
+.travis.yml
+setup.py
+==================
+add1d99;tzutalin;2019-05-25 14:38:32 -0700;Fix typo
+
+==
+
+README.rst
+build-tools/build-for-macos.sh
+==================
+fd79454;tzutalin;2019-05-25 14:33:09 -0700;UPdate readme
+
+==
+
+Makefile
+==================
+5b9d2bf;tzutalin;2019-05-25 14:29:16 -0700;Update setup.py
+
+==
+
+Makefile
+labelImg.py
+libs/__init__.py
+libs/version.py
+setup.py
+==================
+8689a16;tzutalin;2019-05-25 14:14:49 -0700;By default, use py3 qt5 to build
+
+==
+
+Makefile
+libs/stringBundle.py
+tests/test_stringBundle.py
+==================
+551fc7e;xdzhou;2019-03-13 16:50:53 +0800;Fix bug: An  index error after select a directory when open a new file.
+
+==
+
+labelImg.py
+==================
+6afd15a;tzutalin;2019-04-21 12:53:57 -0700;Update icons, README. Add zh-CN locale
+
+==
+
+README.rst
+logo/horizontal.png
+logo/logomark.png
+logo/vertical.png
+resources.qrc
+resources/icons/app.icns
+resources/icons/app.png
+resources/icons/app.svg
+resources/strings/strings-zh-CN.properties
+==================
+cf5c3d5;Jorlogicus;2019-04-21 12:50:21 -0400;Update README.rst
+
+==
+
+README.rst
+==================
+a38aef2;Jorlogicus;2019-04-21 12:49:01 -0400;Update README.rst
+
+==
+
+README.rst
+==================
+30ab4a3;Jorlogicus;2019-04-16 13:50:22 -0400;Update README.rst
+
+==
+
+README.rst
+==================
+90f81c6;Jorlogicus;2019-04-16 13:19:00 -0400;Delete resource_Vertical.png
+
+==
+
+logo/resource_Vertical.png
+==================
+cf6da18;Jorlogicus;2019-04-15 20:44:35 -0400;Delete resource_.png
+
+==
+
+logo/resource_.png
+==================
+a18f330;Jorlogicus;2019-04-15 20:44:17 -0400;Add files via upload
+
+==
+
+logo/horizontal.png
+logo/logomark.png
+logo/vertical.png
+==================
+d980e6b;Jorlogicus;2019-04-15 20:43:39 -0400;Delete resource_Horizontal.png
+
+==
+
+logo/resource_Horizontal.png
+==================
+9041c04;Jorlogicus;2019-04-15 20:42:47 -0400;Delete test
+
+==
+
+logo/test
+==================
+1469da8;Jorlogicus;2019-04-15 20:33:23 -0400;Add files via upload
+
+==
+
+logo/resource_.png
+logo/resource_Horizontal.png
+logo/resource_Vertical.png
+==================
+6fe1d8b;Jorlogicus;2019-04-15 20:28:33 -0400;Create test
+
+==
+
+logo/test
+==================
+6d93726;Karan Maheshwari;2019-03-28 10:45:11 +0530;Update README.rst
+I have given the simplest  steps for Mac OS which runs the program from command line.
+ Mac OS easiest way to install and run 
+STEPS
+
+git clone https://github.com/tzutalin/labelImg
+pip install PyQt5 lxml
+cd labelImg    ##(enter the labelImg directory)
+make qt5py3
+python3 labelImg.py
+==
+
+README.rst
+==================
+d1d3526;Saber Derouiche;2019-02-08 10:30:11 +0100;readme.md for "difficult" and "Verify Image"
+Added documentation to the readme.md for what "difficult" and "Verify Image"
+==
+
+README.rst
+==================
+ca28dad;tzutalin;2019-01-26 23:16:21 -0800;Rename lib.py to utils.py and add test cases for natural sort
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/labelDialog.py
+libs/shape.py
+libs/stringBundle.py
+libs/utils.py
+tests/test_lib.py
+tests/test_utils.py
+==================
+054f63f;Lieven Govaerts;2019-01-18 22:51:11 +0100;Show the file list in natural sorted order ( f1->f8->f9->f10 instead of f1->f10->f8->f9 ).
+* labelImg.py
+  (natural_sort): New function, copied from S.O.:
+  https://stackoverflow.com/questions/4836710/does-python-have-a-built-in-function-for-string-natural-sort?answertab=votes#tab-top
+  (scanAllImages): Return the image file list in natural sorted order.
+
+==
+
+labelImg.py
+==================
+ba12d85;Lieven Govaerts;2019-01-18 22:19:02 +0100;Avoid crash on "Edit Label" when there's no bounding boxes left.
+The scenario is:
+1. Open an image
+2. Delete all bounding boxes
+3. Select "Edit Label".
+
+* labelImg.py
+  (editLabel): Avoid crash zhen there's no currently selected item.
+
+==
+
+labelImg.py
+==================
+c2aca6e;Joakim Eriksson;2019-01-03 11:49:39 +0100;added float parsing before int conversion to enable support of VOC files that specify coordinates in float
+
+==
+
+libs/pascal_voc_io.py
+==================
+4bb6be6;Lieven Govaerts;2018-12-29 13:57:13 +0100;Ensure a vertex always stays within the boundaries of the canvas.
+
+==
+
+labelImg.py
+libs/canvas.py
+==================
+a0fa187;yangjiangjie;2019-01-04 12:02:26 +0800;Update ustr.py
+
+==
+
+libs/ustr.py
+==================
+d27e6a5;tzutalin;2018-12-28 10:07:59 -0800;fix the crash when providing invalid locale in env
+
+==
+
+libs/stringBundle.py
+tests/test_stringBundle.py
+==================
+40b30f1;Lieven Govaerts;2018-12-27 13:42:20 +0100;labelImg.py/loadLabels: correct shapes that are out of image bounds.
+
+==
+
+labelImg.py
+==================
+e18ccf3;Saksham Dhull;2018-12-19 04:38:11 +0530;Minor correction in spelling.
+Changed "labtel" to "label"
+==
+
+resources/strings/strings.properties
+==================
+3f14cbf;tzutalin;2018-12-02 21:21:00 -0800;Update the version to v1.8.1
+
+==
+
+HISTORY.rst
+libs/version.py
+==================
+255afca;tzutalin;2018-12-02 21:10:15 -0800;Fix empty locale on windows platform
+
+==
+
+libs/stringBundle.py
+==================
+6db1dd5;tzutalin;2018-12-02 20:25:16 -0800;FIx issue#403
+
+==
+
+README.rst
+labelImg.py
+tests/test.512.512.bmp
+tests/test_io.py
+==================
+eaac031;tzutalin;2018-12-01 00:20:46 -0800;Move icons to resource folder, fix the unicode issue, support zh-tw lang
+
+==
+
+.gitignore
+labelImg.py
+libs/hashableQListWidgetItem.py
+libs/lib.py
+libs/stringBundle.py
+libs/ustr.py
+resources.qrc
+resources/icons/app.icns
+resources/icons/app.png
+resources/icons/app.svg
+resources/icons/cancel.png
+resources/icons/close.png
+resources/icons/color.png
+resources/icons/color_line.png
+resources/icons/copy.png
+resources/icons/delete.png
+resources/icons/done.png
+resources/icons/done.svg
+resources/icons/edit.png
+resources/icons/expert1.png
+resources/icons/expert2.png
+resources/icons/eye.png
+resources/icons/feBlend-icon.png
+resources/icons/file.png
+resources/icons/fit-width.png
+resources/icons/fit-window.png
+resources/icons/fit.png
+resources/icons/format_voc.png
+resources/icons/format_yolo.png
+resources/icons/help.png
+resources/icons/labels.png
+resources/icons/labels.svg
+resources/icons/new.png
+resources/icons/next.png
+resources/icons/objects.png
+resources/icons/open.png
+resources/icons/open.svg
+resources/icons/prev.png
+resources/icons/quit.png
+resources/icons/resetall.png
+resources/icons/save-as.png
+resources/icons/save-as.svg
+resources/icons/save.png
+resources/icons/save.svg
+resources/icons/undo-cross.png
+resources/icons/undo.png
+resources/icons/verify.png
+resources/icons/zoom-in.png
+resources/icons/zoom-out.png
+resources/icons/zoom.png
+resources/strings/strings-zh-TW.properties
+resources/strings/strings.properties
+setup.py
+tests/test_lib.py
+tests/test_stringBundle.py
+==================
+13a700a;Maxim Smirnov;2018-11-26 00:26:16 +0300;Fix program start when re-started without the second monitor.
+When labelImg was closed on the second monitor, and later opened when it is disabled, it is impossible to see the app window.
+==
+
+labelImg.py
+==================
+699125a;tzutalin;2018-11-18 09:42:33 -0800;workaroud for failure of loading setting
+
+==
+
+libs/settings.py
+tests/test_settings.py
+==================
+2df7b6e;tzutalin;2018-11-18 09:28:38 -0800;Fix issue serializing qstring in pscal_voc_io.py
+
+==
+
+libs/pascal_voc_io.py
+==================
+f563c16;tzutalin;2018-11-04 20:13:34 -0800;Create a const for encoding and fix an issue in yolo format according to pr#387
+
+==
+
+README.rst
+libs/constants.py
+libs/pascal_voc_io.py
+libs/ustr.py
+libs/yolo_io.py
+==================
+40ea8e7;tzutalin;2018-10-28 11:40:54 -0700;Fix travis build error
+
+==
+
+.travis.yml
+==================
+c881f2e;tzutalin;2018-10-22 09:35:45 -0700;Fix build error due to travis
+
+==
+
+.travis.yml
+build-tools/README.md
+==================
+d14d3b0;tzutalin;2018-10-21 21:09:58 -0700;Update v1.8.0
+
+==
+
+HISTORY.rst
+build-tools/build-for-macos.sh
+libs/version.py
+setup.py
+==================
+4e278bb;Antoine Broyelle;2018-10-02 22:01:36 +0200;feature: draw square bounding boxes
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/constants.py
+==================
+5abf660;tzutalin;2018-09-30 22:24:53 -0700;Update README.md and create a folder for dependency requirements
+
+==
+
+README.rst
+requirements/requirements-linux-python3.txt
+==================
+ea30bf9;Robert-Jan Bruintjes;2018-09-06 12:51:11 +0200;Add requirements file for Python3-Qt5 installation.
+Update README with new instructions.
+
+==
+
+README.rst
+requirements-python3.txt
+==================
+c88eb28;ap193uee;2018-07-10 08:18:57 +0530;Added offset to label's y-pos so that the label does not overflow the image (#324)
+
+==
+
+libs/shape.py
+==================
+4f84f68;vdalv;2018-06-23 01:14:30 -0700;Fix issue #287 and a typo
+
+==
+
+labelImg.py
+libs/constants.py
+==================
+5f9f17f;wenliwyan;2018-06-14 12:13:28 +0800;Add item single click slot in labelDialog.py (#312)
+* Add item single click slot in labelDialog.py
+
+In the original code, double clicking a list item will set the text property and automatically validate afterwards, with the label dialog window disappearing.
+
+In this revised version, double click behavior is unchanged, while single click is added. When single clicking a list item, it will only set text in the QLineEdit. Users can change the text by clicking other items before validating themselves by clicking yes.
+
+==
+
+libs/labelDialog.py
+==================
+8b0f76f;tzutalin;2018-05-18 23:33:08 -0700;Fix unicode string issues
+
+==
+
+HISTORY.rst
+labelImg.py
+libs/constants.py
+libs/version.py
+==================
+e7a7b64;vdalv;2018-05-17 22:57:47 -0700;Add option to enable/disable label painting
+
+==
+
+labelImg.py
+libs/shape.py
+==================
+219e50d;vdalv;2018-05-16 23:28:46 -0700;Fix verify image issue 248
+
+==
+
+labelImg.py
+==================
+508a4c8;vdalv;2018-05-15 23:12:35 -0700;Fix save dialog issue - #300
+
+==
+
+labelImg.py
+==================
+fef4e6b;vdalv;2018-05-15 22:25:46 -0700;Fix file save issue - #293
+
+==
+
+labelImg.py
+==================
+542b87f;sebasrivera96;2018-05-18 09:20:51 +0200;Update saveLevels function to add an extension just when needed
+
+==
+
+labelImg.py
+==================
+96c723c;Sebastian Rivera;2018-05-16 17:20:05 +0200;Remove lines on saveLabels function to save correctly XML files
+
+==
+
+labelImg.py
+==================
+515a3f6;Sebastian Rivera;2018-05-15 12:07:11 +0200;Modify labelImg.py to solve an error when naming the .xml file
+A line was commented out because there was an error. When a box was drawn
+around an object and then saved, the file had a termination
+".xml.xml" instead of just ".xml".
+
+==
+
+labelImg.py
+==================
+5d59f6c;vdalv;2018-05-14 01:23:55 -0700;Update the Windows + Anaconda install instructions
+
+==
+
+README.rst
+==================
+7a8e6a0;Nhan Cao;2018-05-10 09:29:41 +0700;Update README.rst
+
+==
+
+README.rst
+==================
+689ce8e;Nhan Cao;2018-05-10 09:19:07 +0700;update readme for build on macOS
+
+==
+
+build-tools/README.md
+==================
+1a77b78;Nhan Cao;2018-05-10 09:17:00 +0700;update build macOS
+
+==
+
+build-tools/build-for-macos.sh
+==================
+a7fc852;Garry Lam;2018-04-25 21:23:04 +0800;fix issue #267 (YOLO output becomes all zero)
+
+==
+
+libs/yolo_io.py
+==================
+9fd505c;tzutalin;2018-04-17 20:03:31 -0700;Update version to 1.6.1
+
+==
+
+libs/version.py
+==================
+90bd8fd;jeffrey;2018-04-08 18:51:43 +0800;support saveDir argument
+
+==
+
+labelImg.py
+==================
+bc71e12;Haozhe Xie;2018-04-08 08:34:52 +0800;Fix a bug that the application crashes when the browser opens.
+
+==
+
+labelImg.py
+==================
+ee31cad;cclauss;2018-04-03 21:39:29 +0200;import unittest for line 26
+
+==
+
+tests/test_settings.py
+==================
+baa032d;cclauss;2018-04-03 21:37:36 +0200;import unittest for line 32
+
+==
+
+tests/test_io.py
+==================
+9e81850;蔡俊杰;2018-03-30 13:24:41 +0800;fix missing command line arguments
+
+==
+
+labelImg.py
+==================
+ca10b0d;Golovanov;2018-03-28 17:50:11 +0300;add completer for label
+
+==
+
+libs/labelDialog.py
+==================
+357018b;Madhava Jay;2018-03-24 16:27:18 -0300;Change xvfb-run to open app file
+
+==
+
+.travis.yml
+==================
+c8932cc;Madhava Jay;2018-03-24 16:17:25 -0300;Swap pipenv shell for pipenv run
+
+==
+
+.travis.yml
+==================
+5ef1966;Madhava Jay;2018-03-24 16:08:29 -0300;Changed pip to pip3 for Travis OS X Images
+
+==
+
+.travis.yml
+==================
+5db0d3a;Madhava Jay;2018-03-24 15:56:59 -0300;Fixing pipenv issues on Travis CI - Updated README.md
+
+==
+
+.travis.yml
+README.rst
+==================
+335114d;Madhava Jay;2018-03-24 15:44:46 -0300;Fixing travis python issues
+
+==
+
+.travis.yml
+==================
+98188d2;Madhava Jay;2018-03-24 15:33:24 -0300;Add osx to .travis file
+
+==
+
+.travis.yml
+==================
+f48e13a;Madhava Jay;2018-03-24 15:23:25 -0300;Added instructions on building stand-alone Mac OS X binary - Build occurs inside a virtualenv - Added new icon - Updated README.md and Icon GPL Attribution
+
+==
+
+README.rst
+icons/app.icns
+icons/app.png
+icons/app.svg
+resources.qrc
+setup.py
+==================
+8d1bd68;Jérôme Wax;2018-03-15 11:30:31 +0100;update easier installation with anaconda and change code to be compliant with python 3.5
+
+==
+
+README.rst
+==================
+6c77426;darrenl;2018-03-10 10:02:01 -0800;Merge pull request #249 from cjermain/supported_extensions
+Allowing all supported extensions (TIFF in Qt 4.8, along with PPM, PBM, and PGM)
+==
+==================
+3a34152;darrenl;2018-03-10 10:01:16 -0800;Merge pull request #247 from isVoid/yolosupport
+Yolo support
+==
+==================
+8e892c4;Colin Jermain;2018-03-08 14:47:19 -0500;Allowing all supported extensions to be read in the directory
+
+==
+
+labelImg.py
+==================
+ebe7803;Wang Yinghao;2018-03-02 14:59:54 -0600;README
+
+==
+
+README.rst
+==================
+e5ef7f4;Wang Yinghao;2018-03-02 14:50:20 -0600;README
+
+==
+
+README.rst
+==================
+dda0295;Wang Yinghao;2018-03-02 14:48:06 -0600;README
+
+==
+
+README.rst
+==================
+852c63d;Wang Yinghao;2018-03-02 09:44:42 -0600;Change Label Text
+
+==
+
+labelImg.py
+==================
+180d25a;Wang Yinghao;2018-03-01 23:05:57 -0600;bugfix, toggle button
+
+==
+
+icons/format_voc.png
+icons/format_yolo.png
+labelImg.py
+resources.qrc
+==================
+201a54d;Wang Yinghao;2018-03-01 22:34:57 -0600;YOLO READ
+
+==
+
+labelImg.py
+libs/yolo_io.py
+==================
+2783071;Wang Yinghao;2018-03-01 21:38:22 -0600;YOLO Write
+
+==
+
+labelImg.py
+libs/labelFile.py
+libs/lib.py
+libs/yolo_io.py
+==================
+dec4885;darrenl;2018-02-16 08:28:57 +0800;Merge pull request #236 from jgars/master
+Fixed bug in shape.py
+==
+==================
+82ace1a;Javier Garcia;2018-02-15 13:35:46 +0100;Fixed bug in shape.py
+
+==
+
+libs/shape.py
+==================
+deb8b84;tzutalin;2018-01-30 18:50:30 +0800;Show label text at the top-left of the rect
+
+==
+
+libs/shape.py
+==================
+c1954b3;tzutalin;2018-01-29 15:56:02 +0800;Update version
+
+==
+
+HISTORY.rst
+libs/version.py
+==================
+d43613d;tzutalin;2018-01-29 15:45:40 +0800;allow opening of directory on launch
+
+==
+
+data/predefined_classes.txt
+labelImg.py
+==================
+1270b2c;darrenl;2018-01-26 10:54:15 +0800;Merge pull request #227 from tomasra/master
+Show cursor coordinates in status bar + filepath bugfix
+==
+==================
+0b20e5c;Tomas Raila;2018-01-25 12:04:47 +0200;Show cursor coordinates in status bar
+
+==
+
+labelImg.py
+libs/canvas.py
+==================
+eda381e;Tomas Raila;2018-01-25 11:35:09 +0200;Cast filepath to python string
+
+==
+
+labelImg.py
+==================
+3391ab6;tzutalin;2017-12-25 11:10:55 +0800;Do not allow to hide file list
+
+==
+
+labelImg.py
+==================
+8b13c25;darrenl;2017-12-22 13:45:13 +0800;Merge pull request #215 from RodolfoFerro/master
+Instructions for macOS High Sierra (qt5 + python3) added. (Updated README)
+==
+==================
+43d911c;Rodolfo Ferro;2017-12-21 15:49:43 -0600;Screenshot of macOS High Sierra usage added.
+
+==
+
+demo/demo5.png
+==================
+ae0bacf;Rodolfo Ferro;2017-12-21 15:42:15 -0600;Updated README. Instructions for macOS High Sierra (qt5 + python3) added.
+
+==
+
+README.rst
+==================
+5fdcbcc;darrenl;2017-12-20 16:52:00 +0800;Merge pull request #214 from deniswernert/master
+Fixes the call to changeSavedDirDialog
+==
+==================
+5301609;Denis Wernert;2017-12-20 09:29:24 +0100;Fixes the call to changeSavedDirDialog
+
+==
+
+labelImg.py
+==================
+aa447d6;darrenl;2017-11-30 16:58:09 +0800;Merge pull request #207 from luoyetx/color
+change color when label has changed
+==
+==================
+7be0a01;zhangjie;2017-11-29 21:20:14 +0800;change color when label has changed
+
+==
+
+labelImg.py
+==================
+821ffae;tzutalin;2017-11-06 17:30:51 +0800;Assign specific bg colors to widget item by different labels
+
+==
+
+labelImg.py
+==================
+7c145ef;tzutalin;2017-10-31 12:08:28 +0800;Add an icon for 'verify images'
+
+==
+
+icons/verify.png
+resources.qrc
+==================
+5adaa66;tzutalin;2017-10-27 10:28:47 +0800;Support showing version info
+
+==
+
+labelImg.py
+libs/version.py
+setup.cfg
+setup.py
+==================
+a77184a;tzutalin;2017-10-24 11:49:46 +0800;Update version to 1.5.2
+
+==
+
+HISTORY.rst
+libs/lib.py
+setup.cfg
+setup.py
+==================
+2e525f8;tzutalin;2017-10-24 11:26:42 +0800;Fix issue and disable choosing box color
+
+==
+
+Makefile
+labelImg.py
+libs/lib.py
+==================
+6cf04ad;tzutalin;2017-10-23 16:27:40 +0800;Assign different labels with different colors
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/labelFile.py
+libs/lib.py
+==================
+713cf45;tzutalin;2017-10-14 00:01:13 +0800;Save autosave/single class mode to setting file
+
+==
+
+labelImg.py
+libs/constants.py
+==================
+1c5298f;tzutalin;2017-10-13 23:44:47 +0800;Add a button in menu to reset all
+
+==
+
+icons/resetall.png
+labelImg.py
+libs/settings.py
+resources.qrc
+==================
+32d5954;darrenl;2017-10-13 09:28:35 +0800;Merge pull request #175 from alanyee/master
+Update README.rst
+==
+==================
+1368578;Alan Yee;2017-10-12 13:50:45 -0700;Update README.rst
+-Made explicit HTTPS calls
+-Fix missing links
+==
+
+README.rst
+==================
+b8c06f0;Alan Yee;2017-10-12 13:46:48 -0700;Update README.rst
+Replace "OS X" with "macOS"
+==
+
+README.rst
+==================
+2d2cde2;tzutalin;2017-10-06 17:17:53 +0800;Update README
+
+==
+
+README.rst
+demo/demo.jpg
+demo/demo.png
+demo/demo2.png
+demo/demo4.png
+==================
+f4d87a9;darrenl;2017-09-30 07:06:40 +0800;Merge pull request #169 from jiyeqian/master
+Load classes before creating label dialog
+==
+==================
+c0176f2;Jiye Qian;2017-09-29 22:35:43 +0800;Load classes before creating label dialog
+The "editLabel()" may not pop predefined classes without preloaded "labelHist".
+
+==
+
+labelImg.py
+==================
+aca53bd;darren_lin;2017-09-27 19:07:06 +0800;Revise setup.py
+
+==
+
+setup.py
+==================
+cbc1761;tzutalin;2017-09-27 18:43:24 +0800;If there no default saved dir, show a dialog for autosaving
+
+==
+
+labelImg.py
+libs/settings.py
+setup.cfg
+setup.py
+==================
+d8e9611;tzutalin;2017-09-27 17:57:09 +0800;Fix the issue that is unable to import libs if installing by pip
+
+==
+
+libs/settings.py
+setup.py
+==================
+5dab21b;tzutalin;2017-09-14 13:48:17 +0800;v1.5.0
+
+==
+
+HISTORY.rst
+setup.cfg
+setup.py
+==================
+429290c;darrenl;2017-09-05 21:09:59 +0800;Merge pull request #157 from jaewchoi/fix
+fix a minor cursor restore bug
+==
+==================
+91a830e;Jaewoo Choi;2017-09-05 20:36:26 +0900;fix a minor cursor restore bug
+
+==
+
+libs/canvas.py
+==================
+374aabc;darrenl;2017-08-30 11:30:54 +0800;Merge pull request #156 from jaewchoi/roundbox
+Add a feature to draw a box easier
+==
+==================
+dd09ffb;Jaewoo Choi;2017-08-30 02:10:11 +0900;Added a feature to draw a box easier
+
+==
+
+libs/canvas.py
+==================
+b40edc3;darrenl;2017-08-29 12:20:39 +0800;Merge pull request #152 from BOTFritz/master
+Fixed scroll zoom on nonprimary monitor or in small window
+==
+==================
+511e4a6;BOTFritz;2017-08-29 03:34:49 +0000;Fixed scroll zoom on nonprimary monitor or in small window
+
+==
+
+labelImg.py
+==================
+79f7361;darrenl;2017-08-25 13:47:46 +0800;Merge pull request #151 from jaewchoi/create
+Fix a bug: creating a box with one point
+==
+==================
+295e0e9;darrenl;2017-08-25 13:46:16 +0800;Merge pull request #149 from jaewchoi/selection
+fix a bug to select a small bounding box
+==
+==================
+835af44;Jaewoo Choi;2017-08-22 21:10:36 +0900;Prevent from creating a zero sized box
+
+==
+
+libs/canvas.py
+==================
+95ff506;Jaewoo Choi;2017-08-22 20:12:17 +0900;fix a bug: creating a box with one point
+
+==
+
+libs/canvas.py
+libs/shape.py
+==================
+7b8519f;Jaewoo Choi;2017-08-22 14:59:40 +0900;fix a bug to select a small bounding box
+
+==
+
+libs/canvas.py
+==================
+fcffa12;darrenl;2017-08-22 08:30:09 +0800;Merge pull request #148 from jaewchoi/selection
+fix a bug of disabled edit and delete menu in the label list menu
+==
+==================
+f1ee71b;Jaewoo Choi;2017-08-22 02:05:58 +0900;fix a bug of disabled edit and delete menu in the label list menu
+
+==
+
+labelImg.py
+==================
+e62ce15;darrenl;2017-08-17 20:02:20 +0800;Update README.rst
+
+==
+
+README.rst
+==================
+10102c9;darrenl;2017-08-14 09:40:12 +0800;Merge pull request #144 from jiyeqian/master
+Prevent the crash
+==
+==================
+a1decb8;Jiye Qian;2017-08-14 02:29:03 +0800;Enhance compatibility
+Adding the path to '.settings.pkl' file, this is especailly useful for MacOS. Then we can put '.settings.pkl' into 'MacOS' folder within 'labelImg.app'. The App will crash without path setting, as soon as we close the App in MacOS.
+
+==
+
+libs/settings.py
+==================
+6222214;Jiye Qian;2017-08-13 19:41:43 +0800;Prevent the crash caused by illegal XML
+
+==
+
+libs/pascal_voc_io.py
+==================
+6186acd;tzutalin;2017-08-09 14:02:30 +0800;Update version to v1.4.3
+
+==
+
+HISTORY.rst
+build-tools/build-for-pypi.sh
+setup.cfg
+setup.py
+==================
+c64a5ea;tzutalin;2017-08-08 05:10:34 +0800;Refactor settings class
+
+==
+
+.gitignore
+Makefile
+labelImg.py
+libs/settings.py
+tests/test_settings.py
+==================
+3c63864;darrenl;2017-08-05 06:05:41 -0500;Merge pull request #139 from jiyeqian/master
+Enhance compatibility
+==
+==================
+6859657;Jiye Qian;2017-08-05 15:35:07 +0800;Enhance compatibility
+Adding the path to 'data' folder, this is especailly useful for Mac OSX.
+Then we can put the 'data' folder into 'MacOS' folder within 'labelImg.app'.
+
+==
+
+labelImg.py
+==================
+6958e69;tzutalin;2017-08-04 14:45:42 +0800;Fix the issue # 136 and add constants.py
+
+==
+
+labelImg.py
+libs/constants.py
+tests/test_io.py
+==================
+f6c27b0;darrenl;2017-08-04 00:20:21 -0500;Merge pull request #138 from jiyeqian/master
+Enhance compatibility
+==
+==================
+67de467;Jiye Qian;2017-08-03 23:34:55 +0800;Enhance compatibility
+With Anaconda3-4.4.0-Windows-x86_64 in Win 8 & 10, encoding name "utf8" will lead to error.  We change the encoding name to "utf-8", it's OK. Very strange, we do not know why.
+==
+
+labelImg.py
+==================
+e86472a;tzutalin;2017-08-01 09:30:27 +0800;Upload missing files
+
+==
+
+build-tools/build-for-pypi.sh
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+==================
+7cef42c;darrenl;2017-07-27 18:31:53 +0800;Update .travis.yml
+
+==
+
+.travis.yml
+==================
+dbda497;darrenl;2017-07-27 10:15:38 +0800;Merge pull request #129 from KevinGay/patch-1
+Made spelling corrections to variables
+==
+==================
+5506da5;Kevin Gay;2017-07-26 21:59:59 -0400;Made spelling corrections to variables
+
+==
+
+labelImg.py
+==================
+3aa1c59;darrenl;2017-07-26 14:16:46 +0800;Merge pull request #126 from jiyeqian/master
+Fix filename bug
+==
+==================
+a878ab8;Jiye Qian;2017-07-26 01:53:49 +0800;Fix filename bug
+If the file name contains ".", it will go wrong.  e.g. hello.world.jpg --> hello.xml
+==
+
+labelImg.py
+==================
+14edc88;tzutalin;2017-07-25 16:30:04 +0800;Fix runtime errors for py3qt5
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/labelDialog.py
+libs/labelFile.py
+libs/shape.py
+==================
+1889d8c;tzutalin;2017-07-21 22:26:21 +0800;Add README for build-tools
+
+==
+
+build-tools/README.md
+build-tools/build-for-pypi.sh
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+build-tools/run-in-container.sh
+==================
+d11fbb5;tzutalin;2017-07-21 18:01:53 +0800;Update version to 1.4.0
+
+==
+
+HISTORY.rst
+setup.cfg
+setup.py
+==================
+398da39;tzutalin;2017-07-21 17:55:26 +0800;Don't save verified by default
+
+==
+
+libs/pascal_voc_io.py
+==================
+a09ecbb;tzutalin;2017-07-21 17:32:30 +0800;Add single mode features and fix minor issues
+
+==
+
+labelImg.py
+==================
+4015a0e;darrenl;2017-07-11 11:36:19 +0800;Merge pull request #112 from proste/qt5-deprecated-fix
+Fixed usage of deprecated function
+==
+==================
+bfd502e;Stepan Prochazka;2017-07-10 16:56:36 +0200;Fixed usage of deprecated function
+
+==
+
+labelImg.py
+==================
+7baa5a1;darrenl;2017-07-10 14:19:49 +0800;Merge pull request #110 from Langhalsdino/patch-1
+Fixed possible typo in makefile
+==
+==================
+f987cbc;Frederic Tausch;2017-07-10 14:44:48 +0900;Fixed possible typo
+"make qt5" will now actually use qt5: "pyrcc5 -o resources.py resources.qrc"
+
+Bug: "make qt5" installed qt4py2. That is kind of miss leading, since "qt5" should actually use qt5 and not use qt4.
+==
+
+Makefile
+==================
+2d92e10;tzutalin;2017-07-07 23:14:41 +0800;Fix build error for qt5+py3
+
+==
+
+README.rst
+libs/pascal_voc_io.py
+==================
+9899c13;tzutalin;2017-07-07 14:23:28 +0800;Update build-windows-binary.sh
+
+==
+
+build-tools/build-windows-binary.sh
+build-tools/run-in-container.sh
+==================
+7f288a0;tzutalin;2017-07-07 13:48:25 +0800;fix crash for py3
+
+==
+
+libs/labelFile.py
+==================
+b0e7706;tzutalin;2017-07-07 13:19:18 +0800;Update build-for-pypi.sh
+
+==
+
+README.rst
+build-tools/build-for-pypi.sh
+==================
+d9e1695;tzutalin;2017-07-07 11:13:46 +0800;Update veriosn to v1.3.4
+
+==
+
+HISTORY.rst
+setup.cfg
+setup.py
+==================
+27cf04a;tzutalin;2017-07-07 11:09:00 +0800;Fix issue #96
+
+==
+
+.gitignore
+libs/labelFile.py
+libs/pascal_voc_io.py
+==================
+0efb50a;darrenl;2017-06-27 10:39:52 +0800;Merge pull request #104 from lhk/master
+Zooming in on cursor
+==
+==================
+9f6fdbd;Lars Klein;2017-06-23 19:33:00 +0200;cleaning up the code
+
+==
+
+labelImg.py
+==================
+708e1a2;Lars Klein;2017-06-23 19:28:52 +0200;reworking the zoom behaviour
+
+==
+
+labelImg.py
+==================
+cde8aee;tzutalin;2017-06-06 20:37:04 +0800;Update a demo video to README.md
+
+==
+
+README.rst
+==================
+8c2191d;tzutalin;2017-06-06 18:25:12 +0800; Add the usage of Docker to README
+
+==
+
+README.rst
+build-tools/build-windows-binary.sh
+build-tools/envsetup.sh
+==================
+b7a614d;tzutalin;2017-05-31 09:34:51 +0800;Update version to v1.3.3
+
+==
+
+libs/labelFile.py
+setup.cfg
+setup.py
+==================
+550c458;darrenl;2017-05-31 09:29:11 +0800;Merge pull request #100 from ConlonNovak/patch-1
+Changed .lif to .xml, allowing annotation I/O
+==
+==================
+f5106a2;Conlon Novak;2017-05-30 15:36:43 -0400;Changed .lif to .xml, allowing annotation I/O
+LabelImg cannot read .lif files, but saving the annotations as .xml allows the annotations to be read when switching between images or reopening previously annotated images.
+==
+
+libs/labelFile.py
+==================
+26a50c3;tzutalin;2017-05-25 09:51:47 +0800;Update README
+
+==
+
+README.rst
+libs/canvas.py
+==================
+d17d26f;darrenl;2017-05-25 09:40:51 +0800;Merge pull request #98 from RegisWang/master
+Add using arrow keys to move the box.
+==
+==================
+2560085;RegisWANG;2017-05-24 23:50:32 +0800;Add using arrow key to move the box.
+
+==
+
+libs/canvas.py
+==================
+2120d4f;RegisWang;2017-05-24 07:44:36 -0500;Merge pull request #1 from tzutalin/master
+Sync from upstream
+==
+==================
+9cb05eb;tzutalin;2017-05-24 10:25:23 +0800;Refactor some of widgets
+
+==
+
+labelImg.py
+==================
+1513300;darrenl;2017-05-24 09:40:37 +0800;Merge pull request #97 from RegisWang/master
+Add use default label checkbox
+==
+==================
+4a25352;RegisWANG;2017-05-23 23:27:31 +0800;Add use default label checkbox
+
+==
+
+labelImg.py
+==================
+8edbfb6;darrenl;2017-05-22 10:34:12 +0800;Merge pull request #94 from JNKielmann/fixMoveRect
+Fix moving RectBox with right click
+==
+==================
+965f358;JNKielmann;2017-05-19 16:21:36 +0200;Fix moving RectBox with right click
+
+==
+
+libs/canvas.py
+==================
+14b0b82;tzutalin;2017-05-18 10:52:48 +0800;Update history
+
+==
+
+HISTORY.rst
+==================
+7cf546b;tzutalin;2017-05-18 10:43:53 +0800;Fix issues and update version to 1.3.2
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+setup.cfg
+setup.py
+==================
+f55ef8e;darrenl;2017-05-18 10:32:44 +0800;Merge pull request #91 from aaronshan/ruifeng.shan
+fix bugs:some pictures become invalid after repeat labeled and save it.
+==
+==================
+777d03e;aaronshan;2017-05-17 16:09:53 +0800;fix bugs:some pictures become invalid after repeat labeled and save it.
+
+==
+
+labelImg.py
+==================
+01bf8de;tzutalin;2017-05-11 09:23:41 +0800;Update patch version
+
+==
+
+HISTORY.rst
+setup.cfg
+setup.py
+==================
+132492d;tzutalin;2017-05-10 21:58:39 +0800;Provide an extra argument to change predefined classes path
+
+==
+
+README.rst
+labelImg.py
+==================
+a7e3a32;tzutalin;2017-05-10 21:26:51 +0800;Replace Difficult with difficult
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+8df94a4;tzutalin;2017-05-04 10:01:05 +0800;Add pip method to README
+
+==
+
+README.rst
+==================
+db3a6ba;tzutalin;2017-05-04 09:53:54 +0800;Change README to rst format
+
+==
+
+README.rst
+==================
+c5dd714;tzutalin;2017-05-03 22:01:31 +0800;Modify build-os.binary.sh
+
+==
+
+build-tools/.gitignore
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+==================
+fffc990;tzutalin;2017-05-03 20:03:14 +0800;Change version to v1.3.0
+
+==
+
+HISTORY.rst
+labelImg.py
+libs/__init__.py
+setup.cfg
+setup.py
+tests/test_io.py
+==================
+b365c10;tzutalin;2017-05-03 19:22:55 +0800;Increase version name to 1.2.4
+
+==
+
+setup.cfg
+setup.py
+==================
+a8de414;tzutalin;2017-05-03 19:18:56 +0800;Add missing files
+
+==
+
+MANIFEST.in
+build-tools/build-for-pypi.sh
+==================
+d56ab8c;tzutalin;2017-05-03 18:31:18 +0800;Create new files for pypackage
+
+==
+
+.gitignore
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+__init__.py
+_init_path.py
+labelImg.py
+libs/pascal_voc_io.py
+setup.cfg
+setup.py
+==================
+c6ad6e3;tzutalin;2017-05-03 16:53:55 +0800;Fix build error for qt3
+
+==
+
+labelImg.py
+==================
+1787670;tzutalin;2017-05-03 16:27:58 +0800;rename test files
+
+==
+
+tests/.gitignore
+tests/test_io.py
+tests/test_qt.py
+==================
+9a7ecb4;tzutalin;2017-05-03 16:13:08 +0800;Add ustr.py, add more test, and fix build error for py3
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+libs/ustr.py
+tests/test.py
+==================
+4ee8287;darrenl;2017-05-03 02:07:52 -0500;Merge pull request #80 from ChrisDal/master
+Add Difficult checkbox
+==
+==================
+4810e6f;tzutalin;2017-04-26 11:19:23 +0800;Update README
+
+==
+
+README.md
+==================
+04a5e8e;ChrisDal;2017-04-25 10:24:06 +0200;Add difficult in writer
+
+==
+
+libs/labelFile.py
+==================
+0bace8f;ChrisDal;2017-04-25 10:22:26 +0200;refined Layout
+
+==
+
+labelImg.py
+==================
+73c3434;ChrisDal;2017-04-25 10:19:15 +0200;Update labelImg.py
+
+==
+
+labelImg.py
+==================
+0dae300;ChrisDal;2017-04-25 09:48:32 +0200;Add difficult in Shape
+Add in shape 
+Add in copy shape
+==
+
+libs/shape.py
+==================
+f0f1bb2;ChrisDal;2017-04-25 09:44:01 +0200;Select and set as current item last item
+
+==
+
+labelImg.py
+==================
+2708b4b;ChrisDal;2017-04-25 09:39:15 +0200;Add Truncated - difficult
+
+==
+
+libs/pascal_voc_io.py
+==================
+2899d4d;ChrisDal;2017-04-25 09:24:34 +0200;Add Diificult Checkbox and link to items
+Difficult Checkbox 
+Link to Items
+==
+
+labelImg.py
+==================
+2198c34;tzutalin;2017-04-21 22:17:53 +0800;Disable building on osx for CI
+
+==
+
+.travis.yml
+==================
+23a9d2d;darrenl;2017-04-21 21:42:39 +0800;Merge pull request #79 from aaronshan/ruifeng.shan
+Resolve some inconvenient use issue.
+==
+==================
+6dae9fd;ruifeng.shan;2017-04-21 15:20:26 +0800;resolve save utf-8 characters but xml file content is like "&#x54C8;", not person readable
+
+==
+
+libs/pascal_voc_io.py
+==================
+c3d1baa;ruifeng.shan;2017-04-21 15:17:46 +0800;resolve if don't select default save dir, can't load xml file(saved dir same with image) issue. resolve cannot open annotation xml file issue.
+
+==
+
+labelImg.py
+==================
+7f1ed5e;darrenl;2017-04-03 10:27:34 +0800;Create issue_template.md
+
+==
+
+issue_template.md
+==================
+ef13a1e;tzutalin;2017-03-09 13:18:55 +0800;Use u() functions to convert string for python2/3
+
+==
+
+labelImg.py
+==================
+634fc0c;darrenl;2017-03-09 13:07:45 +0800;Merge pull request #65 from yjmade/master
+fix some bugs when running on Mac with PyQT5
+==
+==================
+910cd73;tzutalin;2017-03-09 11:55:56 +0800;Fix unicode issue for showing window title
+
+==
+
+labelImg.py
+==================
+29f62ad;darrenl;2017-03-09 11:52:40 +0800;Merge pull request #64 from des0ps/feature/verified_flag
+Implement verification feature
+==
+==================
+3778c43;Jay Young;2017-03-08 12:35:33 +0800;[IMP] For PyQt5, make scroll can happen on vertical and horizontal at the same time
+
+==
+
+libs/canvas.py
+==================
+f631ce9;Jay Young;2017-03-08 12:30:12 +0800;[FIX]in PyQT5, scroll does not work, because PyQT5 deprecated the orientation and delte method under QWheelEvent and replaced by angleDelta, so I add some code to detect what version of qt and use the correspond method to get delta
+
+==
+
+libs/canvas.py
+==================
+4d1ed6f;Jay Young;2017-03-08 11:41:06 +0800;[FIX]move hot key for open annotation from ctrl+q to Ctrl+Shift+O to avoid colision with Mac universial application quit key Command+Q
+
+==
+
+labelImg.py
+==================
+7460e43;Jay Young;2017-03-08 11:29:43 +0800;[FIX]when startup with out specify image, self.filePath will be None, but when loadFile get it, the filePath is 'None', so if there real is a img name as None, it will open it unexceptly [FIX]when open file, QImageReader.supportedImageFormats() gives items in QbyteArray type, so if do str(fmt) will gives bbmp so that open prompt will not be able to open any thing [FIX]in PyQT5, QFileDialog.getOpenFileName returns a tuple with (filename,filters)
+
+==
+
+labelImg.py
+==================
+1055c3c;Thibaut Mattio;2017-03-08 11:28:03 +0800;Add documentation for the verification feature
+
+==
+
+README.md
+==================
+6151e9c;Thibaut Mattio;2017-03-08 11:26:51 +0800;Fix crash when verified key does not exist
+
+==
+
+libs/pascal_voc_io.py
+==================
+3abd685;Thibaut Mattio;2017-03-08 11:01:36 +0800;Implement verified feature
+When pressing space, the user can flag the image as verified, a green background will appear.
+This is used when creating a dataset automatically, the user can then through all the pictures and flag them instead of annotate them.
+
+==
+
+labelImg.py
+libs/canvas.py
+libs/labelFile.py
+libs/pascal_voc_io.py
+==================
+ce85336;tzutalin;2017-03-01 20:33:14 +0800;Update README and copying the rect won't add prefix string
+
+==
+
+README.md
+labelImg.py
+libs/shape.py
+==================
+5a9439b;tzutalin;2017-03-01 20:13:02 +0800;Fix the issue about undefined pos variable
+
+==
+
+libs/canvas.py
+==================
+a81bc38;darrenl;2017-03-01 19:21:26 +0800;Merge pull request #60 from des0ps/master
+Fasten user labelling
+==
+==================
+6600f9f;Thibaut Mattio;2017-02-28 13:29:56 +0800;Annotate on release mouse
+
+==
+
+libs/canvas.py
+==================
+1f01cf9;Thibaut Mattio;2017-02-28 13:29:38 +0800;Remove confirmation when deleting a ROI
+
+==
+
+labelImg.py
+==================
+77d5fae;Thibaut Mattio;2017-02-28 13:18:26 +0800;Save an annotation file when there is no ROI
+
+==
+
+labelImg.py
+libs/labelFile.py
+libs/pascal_voc_io.py
+==================
+c5c2a34;Thibaut Mattio;2017-02-28 11:50:15 +0800;Apply PEP recommendation on formatting
+Running pylint to make the code complient with PEP recommendations on lintage.
+
+==
+
+_init_path.py
+labelImg.py
+libs/canvas.py
+libs/colorDialog.py
+libs/labelDialog.py
+libs/labelFile.py
+libs/lib.py
+libs/pascal_voc_io.py
+libs/shape.py
+libs/toolBar.py
+libs/zoomWidget.py
+tests/test.py
+==================
+eb87c3d;darrenl;2017-02-27 10:07:21 +0800;Merge pull request #58 from s-alexey/focus
+Set focus on image canvas after image is loaded
+==
+==================
+4b9c530;tzutalin;2017-02-24 22:14:36 +0800;Show the prev label text when creating a new label
+
+==
+
+labelImg.py
+==================
+34420d4;tzutalin;2017-02-24 22:11:38 +0800;Fix the wrong path/width/height in annotation files
+
+==
+
+labelImg.py
+==================
+36ab149;Alexey;2017-02-23 15:53:44 +0300;Set focus on canvas after image is loaded
+
+==
+
+labelImg.py
+==================
+700bba3;darrenl;2017-02-20 17:06:51 +0800;Merge pull request #55 from tzutalin/py2-qt4
+Update lxml-2.3 to lxml-3.7.3 for windows
+==
+==================
+43e6270;tzutalin;2017-02-20 17:04:07 +0800;Update lxml-2.3 to lxml-3.7.3 for windows
+
+==
+
+build-tools/envsetup.sh
+==================
+c5ceaa6;tzutalin;2017-02-16 14:49:41 +0800;Fix the issue when failing to open unicode dir and rename filename to filePath
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+70721ad;tzutalin;2017-02-16 11:00:49 +0800;Fix qstring/asic code convert for python 2
+
+==
+
+labelImg.py
+==================
+8239d18;tzutalin;2017-02-15 20:35:57 +0800;Revert "Fix encode filename issues python2"
+This reverts commit 62507a195829e3f0eb93a390997e91033cb52e47.
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+62507a1;tzutalin;2017-02-15 17:33:55 +0800;Fix encode filename issues python2
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+afee5a4;tzutalin;2017-02-15 15:54:31 +0800;Remove setting bg features and uncomment some print message
+
+==
+
+labelImg.py
+==================
+effc3c0;tzutalin;2017-02-13 11:33:35 +0800;Update README
+
+==
+
+README.md
+==================
+318710c;tzutalin;2017-02-08 16:56:24 +0800;Draft version for supporting change background color
+
+==
+
+labelImg.py
+==================
+1fb28d8;tzutalin;2017-01-29 22:51:44 +0800;Fix ascii codec issue when outputing pascal file
+
+==
+
+libs/pascal_voc_io.py
+==================
+b7913f4;tzutalin;2017-01-16 10:34:25 +0800;Add Ryan Flynn as one of the contributors
+
+==
+
+contributors.txt
+==================
+f7b6887;darrenl;2017-01-16 10:28:06 +0800;Merge pull request #47 from rflynn/refactor-README
+refactor README for simplicity and clarity
+==
+==================
+a6ad229;Ryan Flynn;2017-01-07 16:36:19 -0500;refactor README for simplicity and clarity
+
+==
+
+README.md
+demo/demo3.jpg
+==================
+633f266;darrenl;2017-01-09 14:31:41 +0800;Merge pull request #46 from tzutalin/py2-qt4
+Change hotkeys
+==
+==================
+d9ba7b1;tzutalin;2017-01-09 14:30:17 +0800;Change hotkeys
+
+==
+
+README.md
+labelImg.py
+==================
+43b730b;darrenl;2017-01-09 14:18:29 +0800;Merge pull request #45 from rflynn/py3qt5
+Py3qt5
+==
+==================
+87bba51;Ryan Flynn;2017-01-03 22:26:46 -0500;automate anaconda
+
+==
+
+.travis.yml
+==================
+a0a375e;Ryan Flynn;2017-01-03 22:13:33 -0500;fix OSX+qt4
+
+==
+
+.travis.yml
+==================
+54d7b3a;Ryan Flynn;2017-01-03 22:09:33 -0500;test linux + conda
+
+==
+
+.travis.yml
+==================
+226b955;Ryan Flynn;2017-01-03 21:41:19 -0500;test QT4 combos on OS X
+
+==
+
+.travis.yml
+==================
+b846c32;Ryan Flynn;2017-01-02 23:07:12 -0500;try OSX10.10/11 to see if the OpenGL issue is there too...
+
+==
+
+.travis.yml
+==================
+b6d1929;Ryan Flynn;2017-01-02 21:54:08 -0500;add unit testing via 'make test'
+
+==
+
+.travis.yml
+Makefile
+labelImg.py
+tests/test.py
+==================
+2beed27;Ryan Flynn;2017-01-02 20:50:02 -0500;add support for QT5, fallback to QT4
+
+==
+
+.travis.yml
+Makefile
+labelImg.py
+libs/canvas.py
+libs/colorDialog.py
+libs/labelDialog.py
+libs/labelFile.py
+libs/lib.py
+libs/shape.py
+libs/toolBar.py
+libs/zoomWidget.py
+==================
+c7ddf4a;Ryan Flynn;2016-12-31 14:53:09 -0500;make py2 unicode-handling py3-compatibe
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+67a8583;Ryan Flynn;2016-12-31 14:18:59 -0500;conservative conversion of some python2-isms to py3-compatible code
+
+==
+
+labelImg.py
+libs/canvas.py
+==================
+9afb00d;Ryan Flynn;2016-12-30 00:48:52 -0500;add travis osx
+
+==
+
+.travis.yml
+==================
+f21c538;Ryan Flynn;2016-12-29 22:55:12 -0500;set up travis matrix: py2+qt4, py3+qt5
+
+==
+
+.travis.yml
+==================
+d6b3ec8;darrenl;2016-12-30 11:29:45 +0800;Merge pull request #42 from rflynn/py3-friendlier-maxint
+py3 removes sys.maxint, float(inf) works in py2/py3
+==
+==================
+e7eddf0;Ryan Flynn;2016-12-29 21:25:23 -0500;py3 removes sys.maxint, float(inf) works in py2/py3
+
+==
+
+libs/labelFile.py
+==================
+37d968d;darrenl;2016-12-29 10:20:42 +0800;Merge pull request #41 from tzutalin/revert-40-build-osx-travis
+Revert "include osx in travis build"
+==
+==================
+cd4e440;darrenl;2016-12-29 10:20:32 +0800;Revert "include osx in travis build"
+
+==
+
+.travis.yml
+==================
+445d940;darrenl;2016-12-29 09:30:57 +0800;Merge pull request #38 from rflynn/readme-build-section-canonical
+refactor/simplify README build instructions so subsections are linkab…
+==
+==================
+831d5f3;darrenl;2016-12-29 09:29:51 +0800;Merge pull request #40 from rflynn/build-osx-travis
+include osx in travis build
+==
+==================
+d8c8016;Ryan Flynn;2016-12-28 19:45:01 -0500;include osx in travis build
+
+==
+
+.travis.yml
+==================
+13a0887;Ryan Flynn;2016-12-28 18:46:56 -0500;refactor/simplify README build instructions so subsections are linkable and commands are copy-pasteable
+
+==
+
+README.md
+==================
+27bc319;tzutalin;2016-12-22 21:26:43 +0800;UPdate README.md
+
+==
+
+README.md
+==================
+89bc590;tzutalin;2016-12-22 15:43:51 +0800;Use pyinstall v3.2 to build linux binary
+
+==
+
+build-tools/build-ubuntu-binary.sh
+==================
+af76ae2;darrenl;2016-12-22 13:17:55 +0800;Merge pull request #36 from rflynn/unicode-labels
+https://github.com/tzutalin/labelImg/issues/31 add support for displa…
+==
+==================
+0323639;Ryan Flynn;2016-12-21 23:49:40 -0500;https://github.com/tzutalin/labelImg/issues/31 add support for displaying and saving unicode labels
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+==================
+9a4c922;darrenl;2016-12-21 10:01:48 +0800;Merge pull request #35 from WillieMaddox/master
+Fix bbox bug.
+==
+==================
+b55f6e1;WillieMaddox;2016-12-20 08:30:11 -0600;Fix bbox bug.
+
+==
+
+libs/pascal_voc_io.py
+==================
+d9eaef0;darrenl;2016-12-17 00:16:44 +0800;Merge pull request #32 from Google1234/master
+Fix a bug
+==
+==================
+7b5a43f;Number1Tao;2016-12-16 22:34:40 +0800;Fix a bug
+when run :./labelImg.py
+Error: 
+  File "./labelImg.py", line 815
+    extensions = {'.jpeg','.jpg', '.png', '.bmp'}
+Fix:
+ change {'.jpeg','.jpg', '.png', '.bmp'} to ['.jpeg','.jpg', '.png', '.bmp']
+Environment：python=2.6.9   qt=4.11.3 OX=mac os
+==
+
+labelImg.py
+==================
+c73e65e;Tzutalin;2016-12-10 16:24:33 +0800;remove clean
+
+==
+
+Makefile
+==================
+dbbd6fc;tzutalin;2016-12-08 10:09:42 +0800;Update scripts for releasing
+
+==
+
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+==================
+51bd7b1;tzutalin;2016-12-07 15:05:53 +0800;Update README
+
+==
+
+README.md
+==================
+9792a61;tzutalin;2016-12-07 14:52:30 +0800;Update envsetup.sh to download lxml.exe for building windows
+
+==
+
+build-tools/.gitignore
+build-tools/envsetup.sh
+==================
+3bbf5e2;tzutalin;2016-12-07 14:39:45 +0800;remove numpy and jsos dependencies, and download pytqt for windows
+
+==
+
+build-tools/.gitignore
+build-tools/envsetup.sh
+libs/labelFile.py
+==================
+16e6742;tzutalin;2016-12-07 11:34:58 +0800;Update script to build window/linux binary
+
+==
+
+build-tools/.gitignore
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+build-tools/envsetup.sh
+==================
+7ff5f77;tzutalin;2016-12-07 10:51:50 +0800;Add envsetup.sh build-window-binary.sh for building windows 32 binary
+
+==
+
+build-tools/.gitignore
+build-tools/build-ubuntu-binary.sh
+build-tools/build-windows-binary.sh
+build-tools/envsetup.sh
+==================
+c111544;tzutalin;2016-12-06 18:03:15 +0800;Upload build-ubuntu-binary.sh
+
+==
+
+build-tools/.gitignore
+build-tools/build-ubuntu-binary.sh
+==================
+50a079e;tzutalin;2016-12-02 11:23:40 +0800;Support Unicode for saving and loading Pascal XML format
+Use lxml to pretty the xml instead of minidom because minido does not support unicode
+Save xml with unicode
+Add tests dir to collect more images for unit tests in the future
+
+==
+
+labelImg.py
+libs/pascal_voc_io.py
+tests/test.bmp
+"tests/\350\207\211\346\233\270.jpg"
+==================
+930d111;darrenl;2016-11-08 18:11:41 +0800;Merge pull request #25 from Faraadid/pull-request-fixes-issue#18
+This fixes #18 where openning previous annotation files causes a bug …
+==
+==================
+43f9166;nkh;2016-11-08 13:06:13 +0330;This fixes #18 where openning previous annotation files causes a bug in resizing bounding boxes, they were not rectangle anymore and could become deformed.
+
+==
+
+libs/pascal_voc_io.py
+==================
+de98e88;darrenl;2016-10-24 09:18:42 +0800;Merge pull request #23 from rflynn/ensure-filename-defined
+ensure filename variable exists for all code paths
+==
+==================
+5ae63c0;Ryan Flynn;2016-10-22 23:37:33 -0400;ensure filename variable exists for all code paths
+
+==
+
+labelImg.py
+==================
+a550ee4;tzutalin;2016-10-22 10:27:50 +0800;Update README and add clean in Makefile
+
+==
+
+Makefile
+README.md
+==================
+616435d;tzutalin;2016-09-06 20:44:19 +0800;resize demo image
+
+==
+
+demo/demo2.png
+==================
+031c6e9;tzutalin;2016-09-06 20:42:13 +0800;Add gitignore, README, and demo icon
+
+==
+
+.gitignore
+README.md
+demo/demo.png
+demo/demo2.png
+==================
+f2712d4;tzutalin;2016-09-06 20:39:42 +0800;Add file list and dock to move faster
+
+==
+
+labelImg.py
+==================
+4a3a47a;tzutalin;2016-09-06 17:24:47 +0800;rm opencv module
+
+==
+
+libs/labelFile.py
+==================
+ab5e4db;tzutalin;2016-06-21 14:14:46 +0800;update gif link
+
+==
+
+README.md
+==================
+110934c;tzutalin;2016-05-10 22:42:13 +0800;remove unused file and update README
+
+==
+
+README.md
+freeze_build.py
+==================
+9bbfce2;tzutalin;2016-04-19 14:58:44 +0800;remove requirements.txt
+
+==
+
+.travis.yml
+requirements.txt
+==================
+6bd9e31;tzutalin;2016-04-19 14:51:28 +0800;Upload build status
+
+==
+
+.travis.yml
+README.md
+requirements.txt
+==================
+3079b30;tzutalin;2016-04-19 14:36:03 +0800;Add travis-ci
+
+==
+
+.travis.yml
+==================
+64ce0b2;tzutalin;2016-04-11 17:18:33 +0800;Add LICENSE
+
+==
+
+LICENSE.md
+README.md
+==================
+b502624;tzutalin;2016-04-05 12:28:37 +0800;Update demo gif and png
+
+==
+
+README.md
+icons/demo.png
+==================
+c70fc5e;tzutalin;2016-04-01 09:45:35 +0800;Fix typo in README
+
+==
+
+README.md
+==================
+a3557f2;darrenl;2016-03-26 11:37:14 +0800;Merge pull request #9 from XunChangqing/master
+bugfix: can not load xml with multiple dots file name such as xxx.xxx.ext
+==
+==================
+6e4e576;xunchangqing;2016-03-25 09:52:55 +0800;remove codes for debug
+
+==
+
+labelImg.py
+==================
+83048ce;xunchangqing;2016-03-25 09:48:53 +0800;bugfix: can not load xml with multiple dots file name such as xxx.xxx.xxx
+
+==
+
+labelImg.py
+==================
+f6663a6;darrenl;2016-02-15 19:24:26 +0800;Merge pull request #8 from markd666/master
+Set a default file name when saving label data.
+==
+==================
+28062ba;Mark Shilton;2016-02-12 13:23:12 +0000;Filename of current image is used as default name when saving label data
+
+==
+
+labelImg.py
+==================
+1981da9;Mark Shilton;2016-02-12 13:16:29 +0000;Filename of current image is used as default name when saving label data
+
+==
+
+labelImg.py
+==================
+dd56234;tzutalin;2016-01-05 13:51:12 +0800;sort by name while importing all images
+
+==
+
+labelImg.py
+==================
+4da87bd;tzutalin;2015-12-17 13:33:13 +0800;Avoid to be deformed while resizing it
+
+==
+
+libs/canvas.py
+==================
+3b01871;tzutalin;2015-12-10 17:19:09 +0800;Load Pascal xml for each image if setting saved annotation folder
+
+==
+
+labelImg.py
+==================
+38c9cab;tzutalin;2015-12-09 21:51:26 +0800;If no image, cannot load annotion xml
+
+==
+
+labelImg.py
+==================
+ed787d4;tzutalin;2015-12-09 21:29:26 +0800;Add a function which can load xml file
+
+==
+
+labelImg.py
+libs/labelFile.py
+libs/pascal_voc_io.py
+==================
+e85c456;tzutalin;2015-12-04 22:51:44 +0800;Update README
+
+==
+
+README.md
+==================
+16de4a1;TzuTa Lin;2015-11-24 13:08:43 +0800;Replace Image with cv2 and upload freeze_build for pyinstaller
+
+==
+
+.gitignore
+freeze_build.py
+libs/labelFile.py
+==================
+30cce26;TzuTa Lin;2015-11-23 14:21:55 +0800;Update README
+
+==
+
+README.md
+==================
+1187b96;Darren Lin(林子達);2015-11-22 16:57:50 +0800;Add setep steps for windows
+
+==
+
+README.md
+==================
+f6842b3;tzutalin;2015-11-21 21:42:16 +0800;Fix unreferenced variable in openPrevImg
+
+==
+
+labelImg.py
+==================
+76b610a;tzutalin;2015-11-21 17:39:40 +0800;Support openPrevious function
+
+==
+
+README.md
+labelImg.py
+resources.qrc
+==================
+db2a223;tzutalin;2015-11-21 00:32:05 +0800;Update README
+
+==
+
+README.md
+icons/demo.png
+==================
+ccdc3ae;tzutalin;2015-11-21 00:26:00 +0800;Update README and demo.png
+
+==
+
+README.md
+icons/demo.png
+==================
+aa1860b;tzutalin;2015-11-21 00:15:21 +0800;add predefined class text file
+
+==
+
+data/predefined_classes.txt
+labelImg.py
+==================
+6664510;tzutalin;2015-11-20 23:43:03 +0800;Merge features: 1.autoSaving while nexting 2.Add predefined classes 3. avoid using 0-valued coordinates, from https://github.com/tzutalin/labelImg/pull/1
+
+==
+
+icons/prev.png
+labelImg.py
+libs/labelDialog.py
+libs/labelFile.py
+==================
+ef61f0d;TzuTa Lin;2015-11-17 13:00:37 +0800;Save the last open dir and target dir
+
+==
+
+labelImg.py
+==================
+87dab57;TzuTa Lin;2015-11-17 10:50:28 +0800;Labels will be added to history and re-use it while showing pop window
+
+==
+
+labelImg.py
+libs/labelDialog.py
+==================
+06c9adf;TzuTa Lin;2015-11-16 20:34:55 +0800;show message when saving
+
+==
+
+labelImg.py
+==================
+9f35536;TzuTa Lin;2015-11-16 20:30:13 +0800;Show message when changing saved folder
+
+==
+
+labelImg.py
+==================
+f3cf1ba;TzuTa Lin;2015-11-16 20:19:44 +0800;Fix default saved folder issue
+
+==
+
+labelImg.py
+==================
+17fbb5e;tzutalin;2015-11-16 13:40:19 +0800;Update README
+
+==
+
+README.md
+==================
+a87ef4c;tzutalin;2015-09-18 22:49:00 +0800;Fix typo
+
+==
+
+README.md
+==================
+26e1056;TzuTa Lin;2015-09-18 19:29:51 +0800;Add demo.png
+
+==
+
+README.md
+icons/demo.png
+==================
+8d81647;TzuTa Lin;2015-09-17 15:22:29 +0800;mv some of python files to libs
+
+==
+
+_init_path.py
+labelImg.py
+libs/canvas.py
+libs/colorDialog.py
+libs/labelDialog.py
+libs/labelFile.py
+libs/lib.py
+libs/pascal_voc_writer.py
+libs/shape.py
+libs/toolBar.py
+libs/zoomWidget.py
+==================
+7b8a3bf;TzuTa Lin;2015-09-17 15:00:52 +0800;rename pascal voc writer
+
+==
+
+pascal_voc_writer.py
+==================
+c40b0db;TzuTa Lin;2015-09-17 14:50:58 +0800;Typo
+
+==
+
+README.md
+labelFile.py
+labelImg.py
+piscal_voc_writer.py
+==================
+0f9cae6;TzuTa Lin;2015-09-17 10:42:52 +0800;Add video demo link
+
+==
+
+README.md
+labelImg.py
+==================
+c4413d6;TzuTa Lin;2015-09-17 10:37:20 +0800;First commit
+
+==
+
+.gitignore
+Makefile
+README.md
+canvas.py
+colorDialog.py
+contributors.txt
+icons/cancel.png
+icons/close.png
+icons/color.png
+icons/color_line.png
+icons/copy.png
+icons/delete.png
+icons/done.png
+icons/done.svg
+icons/edit.png
+icons/expert1.png
+icons/expert2.png
+icons/eye.png
+icons/feBlend-icon.png
+icons/file.png
+icons/fit-width.png
+icons/fit-window.png
+icons/fit.png
+icons/help.png
+icons/labels.png
+icons/labels.svg
+icons/new.png
+icons/next.png
+icons/objects.png
+icons/open.png
+icons/open.svg
+icons/quit.png
+icons/save-as.png
+icons/save-as.svg
+icons/save.png
+icons/save.svg
+icons/undo-cross.png
+icons/undo.png
+icons/zoom-in.png
+icons/zoom-out.png
+icons/zoom.png
+labelDialog.py
+labelFile.py
+labelImg.py
+lib.py
+piscal_voc_writer.py
+resources.qrc
+shape.py
+toolBar.py
+zoomWidget.py

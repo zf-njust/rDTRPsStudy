@@ -1,0 +1,3 @@
+labelImg,file,method,params,startlineno,endlineno,type,lineno
+labelImg,labelImg.py,remLabel,"self, shape",737,744,delsubscript,743
+labelImg,labelImg.py,remLabel,"self, shape",737,744,delsubscript,744

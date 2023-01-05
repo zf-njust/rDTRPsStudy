@@ -1,0 +1,151 @@
+ray,file,method,params,startlineno,endlineno,type,lineno
+ray,python\ray\signature.py,extend_args,"function_signature, args, kwargs",160,222,assignment,201
+ray,python\ray\rllib\models\model.py,_unpack_obs,"obs, space",171,199,assignment,191
+ray,python\ray\tune\automlboard\common\utils.py,parse_json,json_file,33,55,assignment,50
+ray,test\runtest.py,test_put_get,shutdown_only,321,346,assignment,343
+ray,test\runtest.py,test_put_get,shutdown_only,321,346,reference,338
+ray,test\runtest.py,test_put_get,shutdown_only,321,346,reference,340
+ray,test\runtest.py,test_put_get,shutdown_only,321,346,reference,344
+ray,test\runtest.py,test_put_get,shutdown_only,321,346,reference,346
+ray,test\runtest.py,test_register_class,shutdown_only,381,517,assignment,396
+ray,test\runtest.py,test_register_class,shutdown_only,381,517,assignment,400
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1368
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1453
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1457
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1490
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1491
+ray,python\ray\services.py,start_ray_processes,"address_info=None, object_manager_ports=None, node_manager_ports=None, node_ip_address='127.0.0.1', redis_port=None, redis_shard_ports=None, num_workers=None, num_local_schedulers='1', object_store_memory=None, num_redis_shards='1', redis_max_clients=None, redis_password=None, worker_path=None, cleanup=True, redirect_worker_output=False, redirect_output=False, include_log_monitor=False, include_webui=False, start_workers_from_local_scheduler=True, resources=None, plasma_directory=None, huge_pages=False, autoscaling_config=None, plasma_store_socket_name=None, raylet_socket_name=None, temp_dir=None, _internal_config=None",1252,1511,reference,1492
+ray,python\ray\services.py,start_redis,"node_ip_address, port=None, redis_shard_ports=None, num_redis_shards='1', redis_max_clients=None, redirect_output=False, redirect_worker_output=False, cleanup=True, password=None, use_credis=None",410,561,reference,521
+ray,python\ray\services.py,start_redis,"node_ip_address, port=None, redis_shard_ports=None, num_redis_shards='1', redis_max_clients=None, redirect_output=False, redirect_worker_output=False, cleanup=True, password=None, use_credis=None",410,561,reference,533
+ray,python\ray\services.py,start_redis,"node_ip_address, port=None, redis_shard_ports=None, num_redis_shards='1', redis_max_clients=None, redirect_output=False, redirect_worker_output=False, cleanup=True, password=None, use_credis=None",410,561,reference,545
+ray,python\ray\services.py,start_redis,"node_ip_address, port=None, redis_shard_ports=None, num_redis_shards='1', redis_max_clients=None, redirect_output=False, redirect_worker_output=False, cleanup=True, password=None, use_credis=None",410,561,reference,546
+ray,python\ray\worker.py,get_object,"self, object_ids",474,557,reference,508
+ray,python\ray\worker.py,get_object,"self, object_ids",474,557,reference,545
+ray,python\ray\worker.py,get_object,"self, object_ids",474,557,reference,549
+ray,python\ray\worker.py,get_object,"self, object_ids",474,557,reference,556
+ray,python\ray\worker.py,get_object,"self, object_ids",474,557,reference,557
+ray,python\ray\worker.py,_normalize_resource_arguments,"num_cpus, num_gpus, resources, num_local_schedulers",1294,1329,reference,1319
+ray,python\ray\experimental\sgd\modified_allreduce.py,sum_grad_and_var_all_reduce,"grad_and_vars, num_workers, alg, gpu_indices, aux_devices=None, num_shards='1'",300,346,reference,344
+ray,python\ray\experimental\sgd\sgd_worker.py,__init__,"self, worker_index, model_creator, all_reduce_alg='simple', num_devices='1', gpu=False, max_bytes='10000000', plasma_op=False",22,184,reference,54
+ray,python\ray\rllib\agents\dqn\dqn_policy_graph.py,noisy_layer,"self, prefix, action_in, out_size, sigma0, non_linear=True",127,179,reference,147
+ray,python\ray\rllib\agents\dqn\dqn_policy_graph.py,noisy_layer,"self, prefix, action_in, out_size, sigma0, non_linear=True",127,179,reference,157
+ray,python\ray\rllib\agents\dqn\dqn_policy_graph.py,noisy_layer,"self, prefix, action_in, out_size, sigma0, non_linear=True",127,179,reference,164
+ray,python\ray\rllib\agents\dqn\dqn_policy_graph.py,noisy_layer,"self, prefix, action_in, out_size, sigma0, non_linear=True",127,179,reference,169
+ray,python\ray\rllib\env\atari_wrappers.py,wrap_deepmind,"env, dim='84', framestack=True",270,291,reference,291
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,329
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,329
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,331
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,334
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,336
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,337
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,338
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,357
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,358
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,360
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,369
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,370
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,371
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,376
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,388
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,396
+ray,python\ray\rllib\examples\carla\env.py,_step,"self, action",326,397,reference,396
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,538
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,538
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,541
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,541
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,547
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,553
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,557
+ray,python\ray\rllib\examples\carla\env.py,compute_reward_corl2017,"env, prev, current",530,560,reference,560
+ray,python\ray\rllib\models\catalog.py,get_torch_model,"input_shape, num_outputs, options=None",237,270,reference,258
+ray,python\ray\rllib\models\catalog.py,get_torch_model,"input_shape, num_outputs, options=None",237,270,reference,259
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,284
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,289
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,290
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,291
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,292
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,293
+ray,python\ray\rllib\models\catalog.py,get_preprocessor,"env, options=None",272,300,reference,296
+ray,python\ray\rllib\models\preprocessors.py,_init_shape,"self, obs_space, options",130,140,reference,140
+ray,python\ray\rllib\models\preprocessors.py,_init_shape,"self, obs_space, options",156,165,reference,165
+ray,python\ray\rllib\models\visionnet.py,_build_layers_v2,"self, input_dict, num_outputs, options",15,47,reference,35
+ray,python\ray\rllib\models\visionnet.py,_build_layers_v2,"self, input_dict, num_outputs, options",15,47,reference,36
+ray,python\ray\rllib\models\visionnet.py,_build_layers_v2,"self, input_dict, num_outputs, options",15,47,reference,37
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,30
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,31
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,31
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,33
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,33
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,33
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,34
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,39
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,39
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,39
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,39
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,43
+ray,python\ray\rllib\models\pytorch\visionnet.py,_build_layers,"self, inputs, num_outputs, options",14,45,reference,45
+ray,python\ray\rllib\test\test_nested_spaces.py,one_hot,"i, n",53,56,reference,55
+ray,python\ray\rllib\test\test_nested_spaces.py,one_hot,"i, n",53,56,reference,56
+ray,python\ray\rllib\test\test_nested_spaces.py,doTestNestedTuple,"self, make_env",205,229,reference,229
+ray,python\ray\rllib\test\test_nested_spaces.py,doTestNestedDict,"self, make_env, test_lstm=False",177,203,reference,203
+ray,python\ray\tune\automl\search_policy.py,next_trials,self,75,117,reference,86
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,188
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,191
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,175
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,176
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,177
+ray,python\ray\tune\suggest\variant_generator.py,_grid_search_generator,"unresolved_spec, grid_vars",171,196,reference,178
+ray,test\failure_test.py,test_warning_monitor_died,shutdown_only,493,508,reference,506
+ray,test\runtest.py,assert_equal,"obj1, obj2",25,74,reference,31
+ray,test\runtest.py,test_ray_recursive_objects,ray_start,227,252,reference,252
+ray,test\xray_test.py,test_put_api,ray_start,53,61,reference,56
+ray,test\xray_test.py,test_put_api,ray_start,53,61,reference,56
+ray,test\xray_test.py,test_put_api,ray_start,53,61,reference,61
+ray,test\xray_test.py,test_put_api,ray_start,53,61,reference,61
+ray,test\xray_test.py,test_basic_task_api,ray_start,20,46,reference,46
+ray,test\xray_test.py,test_basic_task_api,ray_start,20,46,reference,46
+ray,python\ray\actor.py,_actor_method_call,"self, method_name, args=None, kwargs=None, num_return_vals=None, dependency=None",531,631,getattr,572
+ray,python\ray\function_manager.py,_do_export,"self, remote_function",100,139,delsubscript,122
+ray,python\ray\serialization.py,is_named_tuple,cls,58,66,getattr,63
+ray,python\ray\signature.py,get_signature_params,func,39,75,getattr,70
+ray,python\ray\utils.py,__getattr__,"self, attr",390,408,getattr,391
+ray,python\ray\worker.py,shutdown,worker=global_worker,1743,1773,delattribute,1758
+ray,python\ray\autoscaler\autoscaler.py,prune_active_ips,"self, active_ips",150,167,delsubscript,159
+ray,python\ray\autoscaler\autoscaler.py,_update,self,364,444,delsubscript,431
+ray,python\ray\autoscaler\node_provider.py,load_class,path,73,86,getattr,86
+ray,python\ray\autoscaler\aws\node_provider.py,to_aws_format,tags,15,21,delsubscript,20
+ray,python\ray\autoscaler\aws\node_provider.py,from_aws_format,tags,24,30,delsubscript,29
+ray,python\ray\cloudpickle\cloudpickle.py,islambda,func,175,176,getattr,176
+ray,python\ray\cloudpickle\cloudpickle.py,_builtin_type,name,185,186,getattr,186
+ray,python\ray\cloudpickle\cloudpickle.py,_walk_global_ops,code,216,238,getattr,221
+ray,python\ray\cloudpickle\cloudpickle.py,save_function,"self, obj, name=None",334,422,getattr,373
+ray,python\ray\cloudpickle\cloudpickle.py,save_function,"self, obj, name=None",334,422,getattr,403
+ray,python\ray\experimental\state.py,available_resources,self,770,833,delsubscript,825
+ray,python\ray\rllib\agents\ars\utils.py,itergroups,"items, group_size",39,48,delsubscript,46
+ray,python\ray\rllib\agents\dqn\dqn.py,_init,self,121,166,getattr,157
+ray,python\ray\rllib\agents\es\utils.py,itergroups,"items, group_size",39,48,delsubscript,46
+ray,python\ray\rllib\agents\impala\vtrace_policy_graph.py,postprocess_trajectory,"self, sample_batch, other_agent_batches=None, episode=None",265,270,delsubscript,269
+ray,python\ray\rllib\env\async_vector_env.py,_poll,self,175,196,delsubscript,181
+ray,python\ray\rllib\evaluation\sampler.py,__init__,"self, env, policies, policy_mapping_fn, obs_filters, clip_rewards, unroll_length, callbacks, horizon=None, pack=False, tf_sess=None",97,125,getattr,109
+ray,python\ray\rllib\evaluation\sampler.py,_process_observations,"async_vector_env, policies, batch_builder_pool, active_episodes, unfiltered_obs, rewards, dones, infos, off_policy_actions, horizon, obs_filters, unroll_length, pack, callbacks",287,413,delsubscript,388
+ray,python\ray\rllib\evaluation\sample_batch.py,postprocess_batch_so_far,"self, episode",102,141,delsubscript,126
+ray,python\ray\rllib\models\misc.py,get_activation_fn,name,18,19,getattr,19
+ray,python\ray\rllib\test\test_external_env.py,run,self,89,107,delsubscript,107
+ray,python\ray\tune\experiment.py,from_json,"cls, name, spec",110,142,delsubscript,126
+ray,python\ray\tune\experiment.py,from_json,"cls, name, spec",110,142,delsubscript,133
+ray,python\ray\tune\function_runner.py,_setup,"self, config",97,108,delsubscript,103
+ray,python\ray\tune\logger.py,on_result,"self, result",138,153,delsubscript,143
+ray,python\ray\tune\visual_utils.py,_flatten_dict,dt,16,28,delsubscript,27
+ray,python\ray\tune\examples\tune_mnist_async_hyperband.py,train,"config={'activation': 'relu'}, reporter=None",200,211,getattr,203
+ray,python\ray\tune\examples\tune_mnist_ray.py,train,"config={'activation': 'relu'}, reporter=None",201,212,getattr,204
+ray,python\ray\tune\examples\tune_mnist_ray_hyperband.py,_setup,"self, config",131,176,getattr,151
+ray,python\ray\tune\schedulers\async_hyperband.py,on_trial_complete,"self, trial_runner, trial, result",88,92,delsubscript,92
+ray,python\ray\tune\schedulers\async_hyperband.py,on_trial_remove,"self, trial_runner, trial",94,95,delsubscript,95
+ray,python\ray\tune\schedulers\hyperband.py,cleanup_trial,"self, trial",356,364,delsubscript,364
+ray,python\ray\tune\suggest\hyperopt.py,on_trial_complete,"self, trial_id, result=None, error=False, early_terminated=False",108,133,delsubscript,133
+ray,python\ray\tune\suggest\suggestion.py,on_trial_complete,"self, trial_id, **kwargs",149,151,delsubscript,151
+ray,test\autoscaler_test.py,tearDown,self,179,182,delsubscript,180
+ray,test\autoscaler_test.py,testValidation,self,221,241,delsubscript,232
+ray,test\autoscaler_test.py,testValidation,self,221,241,delsubscript,237
+ray,test\autoscaler_test.py,testValidation,self,221,241,delsubscript,239
+ray,test\runtest.py,save_gpu_ids_shutdown_only,,1991,2005,delsubscript,2005

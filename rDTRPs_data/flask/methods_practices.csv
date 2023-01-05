@@ -1,0 +1,37 @@
+flask,file,method,params,startlineno,endlineno,type,lineno
+flask,src\flask\app.py,update_template_context,"self, context",819,842,assignment,835
+flask,src\flask\app.py,do_teardown_request,"self, exc=_sentinel",2271,2300,assignment,2297
+flask,tests\test_basic.py,test_inject_blueprint_url_defaults,app,1587,1608,assignment,1607
+flask,tests\test_instance_config.py,test_meta_path_loader_without_is_package,"request, modules_tmpdir",130,143,argument,139
+flask,src\flask\blueprints.py,add_url_rule,"self, rule, endpoint=None, view_func=None, **options",65,86,reference,71
+flask,src\flask\blueprints.py,add_url_rule,"self, rule, endpoint=None, view_func=None, **options",65,86,reference,72
+flask,src\flask\blueprints.py,add_url_rule,"self, rule, endpoint=None, view_func=None, **options",65,86,reference,82
+flask,src\flask\helpers.py,send_file,"filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False, last_modified=None",469,693,reference,640
+flask,src\flask\helpers.py,send_file,"filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False, last_modified=None",469,693,reference,686
+flask,src\flask\helpers.py,send_file,"filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False, last_modified=None",469,693,reference,687
+flask,src\flask\app.py,name,self,612,627,getattr,623
+flask,src\flask\app.py,add_url_rule,"self, rule, endpoint=None, view_func=None, provide_automatic_options=None, **options",1176,1285,getattr,1246
+flask,src\flask\app.py,add_url_rule,"self, rule, endpoint=None, view_func=None, provide_automatic_options=None, **options",1176,1285,getattr,1255
+flask,src\flask\app.py,add_url_rule,"self, rule, endpoint=None, view_func=None, provide_automatic_options=None, **options",1176,1285,getattr,1260
+flask,src\flask\app.py,dispatch_request,self,1913,1935,getattr,1930
+flask,src\flask\cli.py,find_best_app,"script_info, module",52,99,getattr,60
+flask,src\flask\cli.py,find_best_app,"script_info, module",52,99,getattr,79
+flask,src\flask\cli.py,find_app_by_string,"script_info, module, app_name",148,203,getattr,167
+flask,src\flask\config.py,from_object,"self, obj",141,177,getattr,177
+flask,src\flask\ctx.py,pop,"self, exc=_sentinel",398,442,getattr,424
+flask,src\flask\globals.py,_lookup_req_object,name,35,39,getattr,39
+flask,src\flask\globals.py,_lookup_app_object,name,42,46,getattr,46
+flask,src\flask\helpers.py,get_template_attribute,"template_name, attribute",377,396,getattr,396
+flask,src\flask\helpers.py,get_root_path,import_name,774,819,getattr,802
+flask,src\flask\views.py,__init__,"cls, name, bases, d",116,135,getattr,123
+flask,src\flask\views.py,dispatch_request,"self, *args, **kwargs",154,163,getattr,155
+flask,src\flask\views.py,dispatch_request,"self, *args, **kwargs",154,163,getattr,160
+flask,src\flask\json\tag.py,check,"self, value",180,181,getattr,181
+flask,tests\conftest.py,limit_loader,"request, monkeypatch",101,130,getattr,123
+flask,tests\test_helpers.py,test_send_file_object,"self, app, req_ctx",491,543,getattr,521
+flask,tests\test_helpers.py,test_send_file_range_request,"self, app, client",554,617,getattr,555
+flask,tests\test_helpers.py,test_send_file_range_request_xsendfile_invalid,"self, app, client",632,646,getattr,633
+flask,tests\test_instance_config.py,test_egg_installed_paths,"install_egg, modules_tmpdir, modules_tmpdir_prefix",114,127,delsubscript,127
+flask,tests\test_testing.py,test_test_client_calls_teardown_handlers,"app, client",280,300,delsubscript,293
+flask,tests\test_user_error_handler.py,test_error_handler_no_match,"app, client",18,52,getattr,30
+flask,tests\test_user_error_handler.py,report_error,"self, e",238,244,getattr,239

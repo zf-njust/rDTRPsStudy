@@ -1,0 +1,178 @@
+kivy,file,method,params,startlineno,endlineno,type,lineno
+kivy,kivy\tools\packaging\factory.py,run,self,31,103,assignment,53
+kivy,kivy\tools\packaging\factory.py,run,self,31,103,argument,54
+kivy,kivy\tools\packaging\factory.py,run,self,31,103,getattr,78
+kivy,kivy\tools\packaging\factory.py,run,self,31,103,getattr,81
+kivy,setup.py,build_extensions,self,312,362,assignment,333
+kivy,kivy\lib\ddsfile.py,load,"self, filename",192,294,assignment,210
+kivy,examples\3Drendering\objloader.py,__init__,"self, filename, swapyz=False",75,129,assignment,117
+kivy,kivy\lang\parser.py,__init__,"self, context, line, message, cause=None",113,133,assignment,126
+kivy,kivy\base.py,runTouchApp,"widget=None, slave=False",416,506,assignment,457
+kivy,kivy\input\postproc\calibration.py,__init__,self,92,115,assignment,109
+kivy,kivy\uix\filechooser.py,_apply_filters,"self, files",651,663,argument,656
+kivy,kivy\multistroke.py,export_gesture,"self, filename=None, **kwargs",385,417,assignment,407
+kivy,kivy\multistroke.py,export_gesture,"self, filename=None, **kwargs",385,417,getattr,406
+kivy,kivy\modules\monitor.py,start,"win, ctx",61,84,assignment,64
+kivy,kivy\tests\common.py,on_window_flip,"self, window",148,274,assignment,252
+kivy,kivy\tests\common.py,on_window_flip,"self, window",148,274,getattr,169
+kivy,kivy\tools\pep8checker\pep8.py,continued_indentation,"logical_line, tokens, indent_level, hang_closing, indent_char, noqa, verbose",430,626,assignment,573
+kivy,kivy\tools\pep8checker\pep8.py,continued_indentation,"logical_line, tokens, indent_level, hang_closing, indent_char, noqa, verbose",430,626,delsubscript,602
+kivy,kivy\tools\pep8checker\pep8.py,continued_indentation,"logical_line, tokens, indent_level, hang_closing, indent_char, noqa, verbose",430,626,delsubscript,603
+kivy,kivy\tools\pep8checker\pep8.py,readlines,filename,1297,1307,assignment,1302
+kivy,kivy\tools\pep8checker\pep8.py,build_tokens_line,self,1576,1607,assignment,1606
+kivy,kivy\tools\pep8checker\pep8.py,generate_tokens,self,1655,1668,assignment,1664
+kivy,setup.py,get_version,filename='kivy/version.py',54,82,getattr,64
+kivy,examples\tutorials\notes\final\main.py,del_note,"self, note_index",107,111,delsubscript,108
+kivy,kivy\animation.py,__init__,"self, **kw",130,140,getattr,138
+kivy,kivy\animation.py,_initialize,"self, widget",281,298,getattr,290
+kivy,kivy\atlas.py,create,"outname, filenames, size, padding='2', use_path=False",228,405,delsubscript,326
+kivy,kivy\cache.py,append,"category, key, obj, timeout=None",63,98,getattr,79
+kivy,kivy\cache.py,remove,"category, key=None",152,173,delsubscript,165
+kivy,kivy\context.py,__getattribute__,"self, name",35,36,getattr,36
+kivy,kivy\factory.py,unregister_from_filename,"self, filename",113,122,delsubscript,122
+kivy,kivy\factory.py,__getattr__,"self, name",124,159,getattr,148
+kivy,kivy\gesture.py,dot_product,"self, comparison_gesture",347,361,getattr,351
+kivy,kivy\gesture.py,dot_product,"self, comparison_gesture",347,361,getattr,352
+kivy,kivy\interactive.py,__getattribute__,"self, attr, oga=object.__getattribute__",232,238,getattr,237
+kivy,kivy\interactive.py,__getattr__,"self, attr, oga=object.__getattribute__",240,242,getattr,241
+kivy,kivy\interactive.py,__delitem__,"self, arg",271,274,delsubscript,273
+kivy,kivy\interactive.py,__delslice__,"self, i, j",285,288,delsubscript,287
+kivy,kivy\logger.py,_write_message,"self, record",196,219,getattr,207
+kivy,kivy\multistroke.py,permute,self,991,1031,delattribute,1022
+kivy,kivy\multistroke.py,permute,self,991,1031,delattribute,1031
+kivy,kivy\support.py,uninstall_twisted_reactor,,247,267,delattribute,267
+kivy,kivy\utils.py,clear,self,364,365,delsubscript,365
+kivy,kivy\weakmethod.py,__call__,self,39,50,getattr,47
+kivy,kivy\core\camera\camera_android.py,_release_camera,self,98,108,delattribute,108
+kivy,kivy\core\camera\camera_android.py,_release_camera,self,98,108,delattribute,108
+kivy,kivy\core\camera\camera_android.py,_release_camera,self,98,108,delattribute,108
+kivy,kivy\core\camera\camera_opencv.py,__getattr__,"self, attr",37,41,getattr,40
+kivy,kivy\core\clipboard\clipboard_pygame.py,get_types,self,57,67,delsubscript,63
+kivy,kivy\core\text\markup.py,_pre_render,self,147,453,delsubscript,322
+kivy,kivy\core\text\markup.py,_pre_render,self,147,453,delsubscript,329
+kivy,kivy\core\text\markup.py,_pre_render,self,147,453,delsubscript,334
+kivy,kivy\core\text\text_pango.py,_render_end,self,114,117,delattribute,116
+kivy,kivy\core\text\text_pil.py,_render_end,self,53,60,delattribute,57
+kivy,kivy\core\text\text_pil.py,_render_end,self,53,60,delattribute,58
+kivy,kivy\core\text\text_pygame.py,_get_font,self,51,87,delsubscript,82
+kivy,kivy\core\text\text_pygame.py,_render_end,self,117,124,delattribute,122
+kivy,kivy\core\video\video_ffpyplayer.py,_next_frame_run,self,214,317,delsubscript,259
+kivy,kivy\core\window\window_sdl2.py,update,"self, dispatch_fn",120,142,delsubscript,140
+kivy,kivy\core\window\window_sdl2.py,_mainloop,self,478,699,getattr,664
+kivy,kivy\core\window\window_sdl2.py,unmap_key,"self, key",817,819,delsubscript,819
+kivy,kivy\core\window\__init__.py,release_keyboard,"self, target=None",2010,2034,delsubscript,2028
+kivy,kivy\input\motionevent.py,push,"self, attrs=None",399,405,getattr,404
+kivy,kivy\input\motionevent.py,__repr__,self,467,478,getattr,470
+kivy,kivy\input\recorder.py,on_motion,"self, window, etype, motionevent",192,203,getattr,196
+kivy,kivy\input\postproc\calibration.py,_get_provider_map,self,117,133,getattr,127
+kivy,kivy\input\postproc\calibration.py,_get_provider_map,self,117,133,getattr,129
+kivy,kivy\input\postproc\dejitter.py,process,"self, events",48,74,delsubscript,62
+kivy,kivy\input\postproc\doubletap.py,process,"self, events",68,101,delsubscript,99
+kivy,kivy\input\postproc\retaintouch.py,process,"self, events",36,93,delsubscript,51
+kivy,kivy\input\postproc\tripletap.py,process,"self, events",72,106,delsubscript,104
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,471
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,513
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,534
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,570
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,573
+kivy,kivy\input\providers\hidinput.py,_thread_run,"self, **kwargs",403,748,delsubscript,650
+kivy,kivy\input\providers\hidinput.py,update,"self, dispatch_fn",750,769,delsubscript,762
+kivy,kivy\input\providers\leapfinger.py,process_frame,"self, frame",82,105,delsubscript,104
+kivy,kivy\input\providers\linuxwacom.py,_thread_run,"self, **kwargs",207,381,delsubscript,253
+kivy,kivy\input\providers\linuxwacom.py,_thread_run,"self, **kwargs",207,381,delsubscript,345
+kivy,kivy\input\providers\mactouch.py,_mts_callback,"device, data_ptr, n_fingers, timestamp, frame",157,213,delsubscript,211
+kivy,kivy\input\providers\mouse.py,remove_touch,"self, cur",222,228,delsubscript,225
+kivy,kivy\input\providers\mtdev.py,_thread_run,"self, **kwargs",175,362,delsubscript,217
+kivy,kivy\input\providers\mtdev.py,_thread_run,"self, **kwargs",175,362,delsubscript,218
+kivy,kivy\input\providers\tuio.py,unregister,"oscpath, classname",120,124,delsubscript,124
+kivy,kivy\input\providers\tuio.py,_update,"self, dispatch_fn, value",168,203,delsubscript,203
+kivy,kivy\input\providers\wm_touch.py,update,"self, dispatch_fn",70,104,delsubscript,104
+kivy,kivy\lang\builder.py,update_intermediates,"base, keys, bound, s, fn, args, instance, value",93,181,delsubscript,138
+kivy,kivy\lang\builder.py,update_intermediates,"base, keys, bound, s, fn, args, instance, value",93,181,getattr,141
+kivy,kivy\lang\builder.py,update_intermediates,"base, keys, bound, s, fn, args, instance, value",93,181,getattr,154
+kivy,kivy\lang\builder.py,update_intermediates,"base, keys, bound, s, fn, args, instance, value",93,181,getattr,164
+kivy,kivy\lang\builder.py,update_intermediates,"base, keys, bound, s, fn, args, instance, value",93,181,getattr,166
+kivy,kivy\lang\builder.py,create_handler,"iself, element, key, value, rule, idmap, delayed=False",184,254,getattr,206
+kivy,kivy\lang\builder.py,create_handler,"iself, element, key, value, rule, idmap, delayed=False",184,254,getattr,218
+kivy,kivy\lang\builder.py,create_handler,"iself, element, key, value, rule, idmap, delayed=False",184,254,getattr,230
+kivy,kivy\lang\builder.py,create_handler,"iself, element, key, value, rule, idmap, delayed=False",184,254,getattr,233
+kivy,kivy\lang\builder.py,_apply_rule,"self, widget, rule, rootrule, template_ctx=None, ignored_consts=set(), rule_children=None",547,738,delsubscript,678
+kivy,kivy\lang\builder.py,_apply_rule,"self, widget, rule, rootrule, template_ctx=None, ignored_consts=set(), rule_children=None",547,738,delsubscript,738
+kivy,kivy\lang\builder.py,match,"self, widget",740,754,delsubscript,751
+kivy,kivy\lang\builder.py,match_rule_name,"self, rule_name",756,771,delsubscript,768
+kivy,kivy\lang\builder.py,unbind_widget,"self, uid",796,841,delsubscript,841
+kivy,kivy\lang\builder.py,unbind_property,"self, widget, name",843,896,delsubscript,894
+kivy,kivy\lang\builder.py,unbind_property,"self, widget, name",843,896,delsubscript,896
+kivy,kivy\lang\parser.py,__getattribute__,"self, name",74,76,getattr,76
+kivy,kivy\lang\parser.py,execute_directives,self,403,486,getattr,476
+kivy,kivy\modules\console.py,show_property,"self, instance, value, key=None, index=(- '1'), *l",504,594,getattr,518
+kivy,kivy\modules\console.py,save_property_numeric,"self, widget, key, index, instance, value",596,601,getattr,599
+kivy,kivy\modules\console.py,save_property_text,"self, widget, key, index, instance, value",603,608,getattr,606
+kivy,kivy\modules\console.py,save_property_boolean,"self, widget, key, index, instance",610,616,getattr,614
+kivy,kivy\modules\console.py,stop,"win, ctx",1053,1059,delattribute,1059
+kivy,kivy\modules\inspector.py,show_property,"self, instance, value, key=None, index=(- '1'), *l",571,654,getattr,584
+kivy,kivy\modules\inspector.py,save_property_numeric,"self, widget, key, index, instance, value",656,663,getattr,659
+kivy,kivy\modules\inspector.py,save_property_text,"self, widget, key, index, instance, value",665,672,getattr,668
+kivy,kivy\modules\inspector.py,save_property_boolean,"self, widget, key, index, instance",674,682,getattr,678
+kivy,kivy\modules\inspector.py,stop,"win, ctx",753,762,delattribute,757
+kivy,kivy\modules\inspector.py,stop,"win, ctx",753,762,delattribute,762
+kivy,kivy\modules\joycursor.py,stop,"win, ctx",290,299,delattribute,299
+kivy,kivy\storage\dictstore.py,store_delete,"self, key",76,79,delsubscript,77
+kivy,kivy\storage\jsonstore.py,store_delete,"self, key",70,73,delsubscript,71
+kivy,kivy\tests\conftest.py,pytest_runtest_setup,item,12,17,getattr,15
+kivy,kivy\tests\test_imageloader.py,test_missing_tests,self,399,404,getattr,404
+kivy,kivy\tests\test_lang.py,test_references,self,99,111,getattr,111
+kivy,kivy\tests\test_lang.py,test_references_with_template,self,113,129,getattr,129
+kivy,kivy\tests\test_lang.py,test_references_with_template_case_2,self,131,147,getattr,147
+kivy,kivy\tests\test_lang.py,test_references_with_template_case_3,self,149,167,getattr,167
+kivy,kivy\tests\test_lang_pre_process_and_post_process.py,add,"self, name, event",99,104,getattr,103
+kivy,kivy\tests\test_lang_pre_process_and_post_process.py,check_event,"widget, event_name, testcase",145,166,getattr,149
+kivy,kivy\tests\test_lang_pre_process_and_post_process.py,check_event,"widget, event_name, testcase",145,166,getattr,150
+kivy,kivy\tests\test_lang_pre_process_and_post_process.py,get_base_class,,168,208,getattr,196
+kivy,kivy\tests\test_module_inspector.py,test_widget_button,"self, *args",155,213,getattr,195
+kivy,kivy\tests\test_module_inspector.py,test_widget_popup,"self, *args",215,296,getattr,271
+kivy,kivy\tests\test_properties.py,test_dict,self,194,229,delsubscript,224
+kivy,kivy\tests\test_screen.py,test_switching_does_not_affect_a_list_of_screens,transition_cls_name,25,38,getattr,28
+kivy,kivy\tests\test_uix_actionbar.py,test_3_openpress,"self, *args",251,313,getattr,298
+kivy,kivy\tools\kviewer.py,update,"self, *args",66,75,getattr,75
+kivy,kivy\tools\packaging\pyinstaller_hooks\__init__.py,get_deps_minimal,"exclude_ignored=True, **kwargs",141,250,getattr,231
+kivy,kivy\tools\packaging\pyinstaller_hooks\__init__.py,get_deps_minimal,"exclude_ignored=True, **kwargs",141,250,getattr,233
+kivy,kivy\tools\pep8checker\pep8.py,run_check,"self, check, argument_names",1552,1557,getattr,1556
+kivy,kivy\tools\pep8checker\pep8.py,check_all,"self, expected=None, line_offset='0'",1700,1775,delsubscript,1757
+kivy,kivy\uix\gesturesurface.py,_complete_dispatcher,"self, dt",546,589,delsubscript,559
+kivy,kivy\uix\gesturesurface.py,_cleanup,"self, dt",591,603,delsubscript,602
+kivy,kivy\uix\label.py,_create_label,self,334,349,getattr,345
+kivy,kivy\uix\layout.py,layout_hint_with_bounds,"self, sh_sum, available_space, min_bounded_size, sh_min_vals, sh_max_vals, hint",107,322,delsubscript,305
+kivy,kivy\uix\recyclegridlayout.py,_update_rows_cols_sizes,"self, changed",83,122,delsubscript,110
+kivy,kivy\uix\recyclegridlayout.py,_update_rows_cols_sizes,"self, changed",83,122,delsubscript,120
+kivy,kivy\uix\recyclelayout.py,compute_sizes_from_data,"self, data, flags",104,190,delsubscript,116
+kivy,kivy\uix\recyclelayout.py,compute_sizes_from_data,"self, data, flags",104,190,getattr,181
+kivy,kivy\uix\recyclelayout.py,set_visible_views,"self, indices, data, viewport",233,279,delsubscript,242
+kivy,kivy\uix\recyclelayout.py,set_visible_views,"self, indices, data, viewport",233,279,delsubscript,251
+kivy,kivy\uix\recyclelayout.py,set_visible_views,"self, indices, data, viewport",233,279,delsubscript,252
+kivy,kivy\uix\recyclelayout.py,remove_view,"self, view, index",302,305,delsubscript,305
+kivy,kivy\uix\scatter.py,on_touch_up,"self, touch",603,622,delsubscript,617
+kivy,kivy\uix\settings.py,create_json_panel,"self, title, config, filename=None, data=None",980,1020,delsubscript,1010
+kivy,kivy\uix\widget.py,_widget_destructor,"uid, r",260,265,delsubscript,264
+kivy,kivy\uix\widget.py,__init__,"self, **kwargs",332,369,delsubscript,343
+kivy,kivy\uix\widget.py,__init__,"self, **kwargs",332,369,delsubscript,346
+kivy,kivy\uix\behaviors\focus.py,_set_keyboard,"self, value",128,139,delsubscript,135
+kivy,kivy\uix\behaviors\focus.py,_unbind_keyboard,self,415,427,delsubscript,425
+kivy,kivy\uix\behaviors\focus.py,_get_focus_next,"self, focus_dir",461,488,getattr,467
+kivy,kivy\uix\behaviors\focus.py,_get_focus_next,"self, focus_dir",461,488,getattr,468
+kivy,kivy\uix\behaviors\focus.py,_get_focus_next,"self, focus_dir",461,488,getattr,475
+kivy,kivy\uix\behaviors\knspace.py,__setattr__,"self, name, value",316,340,getattr,328
+kivy,kivy\uix\behaviors\knspace.py,__setattr__,"self, name, value",316,340,getattr,335
+kivy,kivy\uix\behaviors\knspace.py,__setattr__,"self, name, value",316,340,getattr,339
+kivy,kivy\uix\behaviors\knspace.py,__getattribute__,"self, name",342,364,getattr,352
+kivy,kivy\uix\behaviors\knspace.py,__getattribute__,"self, name",342,364,getattr,362
+kivy,kivy\uix\behaviors\knspace.py,__knspace_clear_callbacks,"self, *largs",415,440,getattr,433
+kivy,kivy\uix\behaviors\knspace.py,__set_parent_knspace,self,442,471,getattr,455
+kivy,kivy\uix\behaviors\knspace.py,__set_parent_knspace,self,442,471,getattr,459
+kivy,kivy\uix\behaviors\knspace.py,__set_parent_knspace,self,442,471,getattr,466
+kivy,kivy\uix\behaviors\knspace.py,_set_knspace,"self, value",484,521,getattr,490
+kivy,kivy\uix\behaviors\knspace.py,_set_knsname,"self, value",565,577,getattr,568
+kivy,kivy\uix\recycleview\layout.py,on_viewclass,"self, instance, value",250,253,getattr,253
+kivy,kivy\uix\recycleview\views.py,_clean_cache,,40,48,delsubscript,48
+kivy,kivy\uix\recycleview\views.py,make_view_dirty,"self, view, index",285,290,delsubscript,289
+kivy,kivy\uix\recycleview\__init__.py,_dispatch_prop_on_source,"self, prop_name, *largs",292,295,getattr,295

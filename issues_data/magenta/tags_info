@@ -1,0 +1,48 @@
+4b6c50d; (tag: refs/tags/v2.1.2);Adam Roberts;2020-09-02 09:34:32 -0700;Bump version for gansynth fix.
+d907ece; (tag: refs/tags/v2.1.1);Ian Simon;2020-08-17 12:50:58 -0700;bump magenta version to 2.1.1
+eed016a; (tag: refs/tags/2.1.0);Adam Roberts;2020-06-17 06:24:27 -0700;Switch references from magenta.music to note_seq library.
+caf088f; (tag: refs/tags/2.0.1);Adam Roberts;2020-06-02 13:42:00 -0700;Replace use of tf.Dimension.value, which has been deprecated in TF2.
+20cbc69; (tag: refs/tags/2.0.0);Adam Roberts;2020-06-02 10:25:49 -0700;Unpin TF1. Fixes #1594.
+c007ca3; (tag: refs/tags/v1.3.2);Adam Roberts;2020-05-27 11:42:32 -0700;Bump version to release fix for Multitrack colab. #1728.
+1568965; (tag: refs/tags/v1.3.0);Curtis Hawthorne;2020-03-31 10:03:18 -0700;bump version
+34e0036; (tag: refs/tags/v1.2.2);Curtis Hawthorne;2019-12-11 11:52:00 -0800;bump version
+ec389eb; (tag: refs/tags/v1.2.1);Adam Roberts;2019-12-10 10:32:10 -0800;Bump version.
+cb8f0e6; (tag: refs/tags/v1.2.0);Curtis Hawthorne;2019-11-25 10:55:32 -0800;bump version for various package path changes
+0826954; (tag: refs/tags/v1.1.8);Ian Simon;2019-11-14 12:49:04 -0800;update version to 1.1.8
+8043cac; (tag: refs/tags/v1.1.7);Curtis Hawthorne;2019-10-02 11:29:01 -0700;bump version number for TFv1 pinning, fix presubmit tests.
+77f867b; (tag: refs/tags/v1.1.6);Curtis Hawthorne;2019-09-25 11:35:04 -0700;version bump so pip package includes fix for #1589
+e6d3b27; (tag: refs/tags/v1.1.5, tag: refs/tags/v1.1.15);Curtis Hawthorne;2019-09-16 11:10:50 -0700;require TF 1.14 because it's needed by the tf probability package.
+014ebd7; (tag: refs/tags/v1.1.4);Curtis Hawthorne;2019-09-16 10:28:15 -0700;bump version to 1.1.4
+a5124e8; (tag: refs/tags/v1.1.3);Ian Simon;2019-08-28 10:18:42 -0700;update version to 1.1.3
+e248aa5; (tag: refs/tags/v1.1.2);Curtis Hawthorne;2019-06-06 15:53:12 -0700;Bump version to avoid duplicate release.
+2288a69; (tag: refs/tags/v1.1.1);Curtis Hawthorne;2019-06-06 15:21:13 -0700;Bump Magenta version, update TF dependency to latest stable version.
+2844937; (tag: refs/tags/v1.1.0);Adam Roberts;2019-05-01 19:53:06 -0700;Bump version for GrooVAE release.
+21bb647; (tag: refs/tags/v1.0.5);Jesse Engel;2019-03-26 15:43:57 -0700;Fix Version Number
+aab914d; (tag: refs/tags/v1.0.4);Jesse Engel;2019-03-26 11:34:27 -0700;Update magenta to version 1.0.3
+7f2e060; (tag: refs/tags/v1.0.3);Magenta Team;2019-03-25 09:53:04 -0700;Internal change
+14e7035; (tag: refs/tags/v1.0.2);Curtis Hawthorne;2019-02-04 10:44:43 -0800;Update numpy dependency. Switch to using the highest version that works with pylint. Fixes issues with colab environment. (Fixes #1426) Also increase protobuf version since old versions of that cause problems too. Also bump the version number for an immediate new release.
+24ff824; (tag: refs/tags/v1.0.1);Jesse Engel;2019-01-31 16:25:31 -0800;Update version number. (creating new pip package).
+a694f70; (tag: refs/tags/v0.3.13);Curtis "Fjord" Hawthorne;2018-11-01 11:49:18 -0700;bump version (#1331)
+252b58f; (tag: refs/tags/v0.3.11);Curtis "Fjord" Hawthorne;2018-08-14 13:33:13 -0700;bump version (#1254)
+ed3e6c3; (tag: refs/tags/v0.3.9);Curtis "Fjord" Hawthorne;2018-06-29 16:41:59 -0700;bump version (#1220)
+75a3d48; (tag: refs/tags/v0.3.8);Curtis "Fjord" Hawthorne;2018-06-01 15:08:50 -0700;Bump version, clarifications, lint (#1191)
+73928ed; (tag: refs/tags/v0.3.6);Curtis "Fjord" Hawthorne;2018-02-28 15:22:04 -0800;bump version (#1079)
+f10c6a5; (tag: refs/tags/v0.3.2);Curtis "Fjord" Hawthorne;2017-11-02 17:21:52 -0700;Bump version for new pip package (#940)
+93f7c72; (tag: refs/tags/v0.3.1);Curtis "Fjord" Hawthorne;2017-08-25 12:09:32 -0700;Fix linter errors (#848)
+5ebe90d; (tag: refs/tags/v0.3.0);Curtis "Fjord" Hawthorne;2017-08-21 17:33:45 -0700;bump version for py3 release (#834)
+f52a6f3; (tag: refs/tags/v0.2.3);Ian Simon;2017-06-28 21:28:12 -0700;update version to 0.2.3 (#762)
+a6af921; (tag: refs/tags/v0.2.0);Adam Roberts;2017-06-13 15:24:00 +0000;Bump to 0.2 (#729)
+e12acee; (tag: refs/tags/v0.1.15);Adam Roberts;2017-06-08 17:18:22 -0700;Add missing rtmidi pip dep and bump version. (#720)
+0c9da4d; (tag: refs/tags/v0.1.14);Adam Roberts;2017-06-08 16:49:23 -0700;Minor updates to AI Jam instructions. (#718)
+152fb78; (tag: refs/tags/v0.1.13);Curtis "Fjord" Hawthorne;2017-06-05 16:49:13 -0700;Bump version to 0.1.13 (#706)
+1c53e5c; (tag: refs/tags/v0.1.12);Curtis "Fjord" Hawthorne;2017-05-19 10:54:25 -0700;Bump version to 0.1.12 (#657)
+8a84f7d; (tag: refs/tags/v0.1.11);Adam Roberts;2017-05-16 16:33:57 -0700;Add pianoroll_rnn_nade model. (#640)
+2a3381d; (tag: refs/tags/v0.1.10);Curtis "Fjord" Hawthorne;2017-03-16 13:43:35 -0700;Prepare for 0.1.10 release (#560)
+803db08; (tag: refs/tags/v0.1.9);Curtis "Fjord" Hawthorne;2017-01-27 14:29:33 -0800;bump version to 0.1.9 (#504)
+f6b0d1d; (tag: refs/tags/v0.1.8);Curtis "Fjord" Hawthorne;2016-12-16 11:30:42 -0800;bump to 0.1.8 (#469)
+16b510c; (tag: refs/tags/v0.1.7);Curtis "Fjord" Hawthorne;2016-12-16 09:48:57 -0800;Bump version to 0.1.7. (#465)
+54b7132; (tag: refs/tags/v0.1.6);Curtis "Fjord" Hawthorne;2016-11-09 15:29:24 -0800;Bump version to 0.1.6 (#370)
+526de56; (tag: refs/tags/v0.1.5);Ian Simon;2016-11-01 15:27:35 -0700;increment magenta version to 0.1.5 (#333)
+448d7bf; (tag: refs/tags/v0.1.4);Adam Roberts;2016-10-18 13:07:34 -0700;Merge RNN models. (#272)
+bdbda7a; (tag: refs/tags/v0.1.3);Curtis "Fjord" Hawthorne;2016-10-12 10:59:54 -0700;Bump version to 0.1.3 (#270)
+4d85c70; (tag: refs/tags/v0.1.2);Curtis "Fjord" Hawthorne;2016-10-06 17:22:02 -0700;bump version to 0.1.2 (#262)

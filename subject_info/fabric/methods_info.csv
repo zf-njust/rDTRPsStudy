@@ -1,0 +1,538 @@
+file,method,params,startlineno,endlineno
+tasks.py,publish,"c, sdist=True, wheel=False, index=None, sign=False, dry_run=False, directory=None, check_desc=False",25,58
+tasks.py,sanity_test_from_v1,c,61,97
+tasks.py,integration,"c, opts=None, pty=True, x=False, k=None, verbose=True, color=True, capture='no', module=None",102,114
+fabric\config.py,from_v1,"cls, env, **kwargs",41,102
+fabric\config.py,__init__,"self, *args, **kwargs",104,163
+fabric\config.py,set_runtime_ssh_path,"self, path",165,174
+fabric\config.py,load_ssh_config,self,176,193
+fabric\config.py,clone,"self, *args, **kwargs",195,219
+fabric\config.py,_clone_init_kwargs,"self, *args, **kw",221,232
+fabric\config.py,_load_ssh_files,self,234,255
+fabric\config.py,_load_ssh_file,"self, path",257,273
+fabric\config.py,global_defaults,,275,321
+fabric\connection.py,opens,"method, self, *args, **kwargs",27,30
+fabric\connection.py,derive_shorthand,host_string,33,53
+fabric\connection.py,from_v1,"cls, env, **kwargs",151,207
+fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465
+fabric\connection.py,resolve_connect_kwargs,"self, connect_kwargs",467,494
+fabric\connection.py,get_gateway,self,496,524
+fabric\connection.py,__repr__,self,526,548
+fabric\connection.py,_identity,self,551,555
+fabric\connection.py,__eq__,"self, other",557,560
+fabric\connection.py,__lt__,"self, other",562,563
+fabric\connection.py,__hash__,self,565,568
+fabric\connection.py,derive_shorthand,"self, host_string",570,574
+fabric\connection.py,is_connected,self,576,583
+fabric\connection.py,open,self,585,635
+fabric\connection.py,open_gateway,self,637,674
+fabric\connection.py,close,self,677,688
+fabric\connection.py,__enter__,self,690,691
+fabric\connection.py,__exit__,"self, *exc",693,694
+fabric\connection.py,create_session,self,696,701
+fabric\connection.py,_remote_runner,self,703,704
+fabric\connection.py,run,"self, command, **kwargs",706,721
+fabric\connection.py,sudo,"self, command, **kwargs",723,735
+fabric\connection.py,local,"self, *args, **kwargs",737,748
+fabric\connection.py,sftp,self,750,764
+fabric\connection.py,get,"self, *args, **kwargs",766,775
+fabric\connection.py,put,"self, *args, **kwargs",777,786
+fabric\connection.py,forward_local,"self, local_port, remote_port=None, remote_host='localhost', local_host='localhost'",791,883
+fabric\connection.py,forward_remote,"self, remote_port, local_port=None, remote_host='127.0.0.1', local_host='localhost'",890,992
+fabric\connection.py,callback,"channel, src_addr_tup, dst_addr_tup",962,972
+fabric\exceptions.py,__init__,"self, result",14,18
+fabric\executor.py,normalize_hosts,"self, hosts",24,48
+fabric\executor.py,expand_calls,"self, calls, apply_hosts=True",50,99
+fabric\executor.py,anonymous,c,90,91
+fabric\executor.py,parameterize,"self, call, connection_init_kwargs",101,120
+fabric\executor.py,dedupe,"self, tasks",122,127
+fabric\group.py,__init__,"self, *hosts, **kwargs",66,87
+fabric\group.py,from_connections,"cls, connections",89,100
+fabric\group.py,run,"self, *args, **kwargs",102,125
+fabric\group.py,get,"self, *args, **kwargs",138,148
+fabric\group.py,close,self,150,157
+fabric\group.py,__enter__,self,159,160
+fabric\group.py,__exit__,"self, *exc",162,163
+fabric\group.py,run,"self, *args, **kwargs",173,184
+fabric\group.py,thread_worker,"cxn, queue, args, kwargs",187,190
+fabric\group.py,run,"self, *args, **kwargs",200,241
+fabric\group.py,__init__,"self, *args, **kwargs",265,268
+fabric\group.py,_bifurcate,self,270,280
+fabric\group.py,succeeded,self,282,290
+fabric\group.py,failed,self,292,300
+fabric\main.py,print_version,self,18,21
+fabric\main.py,core_args,self,23,58
+fabric\main.py,_remainder_only,self,60,70
+fabric\main.py,load_collection,self,73,87
+fabric\main.py,no_tasks_given,self,89,93
+fabric\main.py,create_config,self,95,109
+fabric\main.py,update_config,self,111,146
+fabric\main.py,make_program,,150,155
+fabric\runners.py,__init__,"self, *args, **kwargs",18,33
+fabric\runners.py,start,"self, command, shell, env, timeout=None",35,58
+fabric\runners.py,read_proc_stdout,"self, num_bytes",60,61
+fabric\runners.py,read_proc_stderr,"self, num_bytes",63,64
+fabric\runners.py,_write_proc_stdin,"self, data",66,67
+fabric\runners.py,close_proc_stdin,self,69,70
+fabric\runners.py,process_is_finished,self,72,74
+fabric\runners.py,send_interrupt,"self, interrupt",76,90
+fabric\runners.py,returncode,self,92,93
+fabric\runners.py,generate_result,"self, **kwargs",95,97
+fabric\runners.py,stop,self,99,101
+fabric\runners.py,kill,self,103,109
+fabric\runners.py,__init__,"self, **kwargs",142,145
+fabric\tasks.py,__init__,"self, *args, **kwargs",17,21
+fabric\tasks.py,task,"*args, **kwargs",24,71
+fabric\tasks.py,__init__,"self, *args, **kwargs",79,92
+fabric\tasks.py,clone_kwargs,self,94,102
+fabric\tasks.py,make_context,"self, config",104,110
+fabric\tasks.py,__repr__,self,112,116
+fabric\transfer.py,__init__,"self, connection",28,29
+fabric\transfer.py,sftp,self,31,33
+fabric\transfer.py,is_remote_dir,"self, path",35,39
+fabric\transfer.py,get,"self, remote, local=None, preserve_mode=True",41,144
+fabric\transfer.py,put,"self, local, remote=None, preserve_mode=True",147,282
+fabric\transfer.py,__init__,"self, local, orig_local, remote, orig_remote, connection",304,321
+fabric\tunnels.py,__init__,"self, local_host, local_port, remote_host, remote_port, transport, finished",33,46
+fabric\tunnels.py,_run,self,48,109
+fabric\tunnels.py,__init__,"self, channel, sock, finished",119,125
+fabric\tunnels.py,_run,self,127,144
+fabric\tunnels.py,read_and_write,"self, reader, writer, chunk_size",146,157
+fabric\util.py,get_local_user,,16,45
+fabric\testing\base.py,__init__,"self, cmd=None, out=b'', err=b'', in_=None, exit='0', waits='0'",57,63
+fabric\testing\base.py,__repr__,self,65,68
+fabric\testing\base.py,__init__,"self, *args, **kwargs",81,88
+fabric\testing\base.py,_get_child_mock,"self, **kwargs",90,92
+fabric\testing\base.py,recv,"self, count",94,95
+fabric\testing\base.py,recv_stderr,"self, count",97,98
+fabric\testing\base.py,sendall,"self, data",100,101
+fabric\testing\base.py,__init__,"self, host=None, user=None, port=None, commands=None, cmd=None, out=None, in_=None, err=None, exit=None, waits=None",136,179
+fabric\testing\base.py,generate_mocks,self,181,236
+fabric\testing\base.py,sanity_check,self,238,265
+fabric\testing\base.py,__init__,self,284,285
+fabric\testing\base.py,expect,"self, *args, **kwargs",289,297
+fabric\testing\base.py,expect_sessions,"self, *sessions",299,313
+fabric\testing\base.py,start,self,315,334
+fabric\testing\base.py,stop,self,336,346
+fabric\testing\base.py,sanity,self,348,356
+fabric\testing\base.py,__init__,"self, autostart=True",371,373
+fabric\testing\base.py,start,self,375,398
+fabric\testing\base.py,fake_abspath,path,384,385
+fabric\testing\base.py,stop,self,400,402
+fabric\testing\fixtures.py,connection,,41,65
+fabric\testing\fixtures.py,remote,,74,89
+fabric\testing\fixtures.py,sftp,,92,108
+fabric\testing\fixtures.py,sftp_objs,sftp,112,119
+fabric\testing\fixtures.py,transfer,sftp,122,129
+fabric\testing\fixtures.py,client,,132,175
+integration\concurrency.py,_worker,"queue, cxn, start, num_words, count, expected",15,20
+integration\concurrency.py,setup,self,30,34
+integration\concurrency.py,connections_objects_do_not_share_connection_state,self,36,47
+integration\concurrency.py,manual_threading_works_okay,self,49,91
+integration\connection.py,skip_outside_travis,,11,13
+integration\connection.py,open_method_generates_real_connection,self,18,23
+integration\connection.py,close_method_closes_connection,self,25,31
+integration\connection.py,simple_command_on_host,self,34,41
+integration\connection.py,simple_command_with_pty,self,43,57
+integration\connection.py,wraps_invoke_run,self,60,66
+integration\connection.py,mixed_use_of_local_and_run,self,68,78
+integration\connection.py,setup,self,81,88
+integration\connection.py,sudo_command,self,90,95
+integration\connection.py,mixed_sudo_and_normal_commands,self,97,104
+integration\connection.py,large_remote_commands_finish_cleanly,self,106,119
+integration\connection.py,setup,self,122,123
+integration\connection.py,does_not_raise_exception_when_under_timeout,self,125,126
+integration\connection.py,raises_exception_when_over_timeout,self,128,136
+integration\group.py,simple_command,self,8,12
+integration\group.py,failed_command,self,14,25
+integration\group.py,excepted_command,self,27,35
+integration\transfer.py,_support,*parts,10,11
+integration\transfer.py,setup,self,16,18
+integration\transfer.py,base_case,"self, tmpdir",20,33
+integration\transfer.py,file_like_objects,self,35,40
+integration\transfer.py,mode_preservation,"self, tmpdir",42,50
+integration\transfer.py,setup,self,53,55
+integration\transfer.py,base_case,self,57,72
+integration\transfer.py,file_like_objects,self,74,81
+integration\transfer.py,mode_preservation,"self, tmpdir",83,91
+tests\config.py,defaults_to_merger_of_global_defaults,self,16,22
+tests\config.py,our_global_defaults_can_override_invokes,self,24,39
+tests\config.py,has_various_Fabric_specific_default_keys,self,41,49
+tests\config.py,overrides_some_Invoke_defaults,self,51,55
+tests\config.py,uses_Fabric_prefix,self,57,60
+tests\config.py,setup,self,63,64
+tests\config.py,_conf,"self, **kwargs",66,68
+tests\config.py,must_be_given_explicit_env_arg,self,70,74
+tests\config.py,forwards_arbitrary_kwargs_to_init,self,77,86
+tests\config.py,subservient_to_runtime_overrides,self,88,94
+tests\config.py,connect_kwargs_also_merged_with_imported_values,self,96,102
+tests\config.py,always_use_pty,self,105,110
+tests\config.py,forward_agent,self,112,114
+tests\config.py,gateway,self,116,118
+tests\config.py,base,self,121,124
+tests\config.py,is_not_set_if_None,self,127,129
+tests\config.py,no_agent,self,131,135
+tests\config.py,set_just_to_connect_kwargs_if_sudo_password_set,self,138,142
+tests\config.py,set_to_both_password_fields_if_necessary,self,144,147
+tests\config.py,ssh_config_path,self,149,152
+tests\config.py,sudo_password,self,154,156
+tests\config.py,sudo_prompt,self,158,160
+tests\config.py,timeout,self,162,164
+tests\config.py,use_ssh_config,self,166,171
+tests\config.py,warn_only,self,173,178
+tests\config.py,defaults_to_empty_sshconfig_obj_if_no_files_found,self,195,202
+tests\config.py,object_can_be_given_explicitly_via_ssh_config_kwarg,self,204,206
+tests\config.py,when_config_obj_given_default_paths_are_not_sought,"self, method",208,212
+tests\config.py,config_obj_prevents_loading_runtime_path_too,"self, method",214,218
+tests\config.py,when_runtime_path_given_other_paths_are_not_sought,"self, method",220,223
+tests\config.py,runtime_path_can_be_given_via_config_itself,"self, method",225,228
+tests\config.py,runtime_path_does_not_die_silently,self,230,237
+tests\config.py,default_file_paths_match_openssh,"self, method",240,244
+tests\config.py,system_path_loads_ok,self,247,252
+tests\config.py,user_path_loads_ok,self,254,257
+tests\config.py,both_paths_loaded_if_both_exist_with_user_winning,self,259,267
+tests\config.py,runtime_path_subject_to_user_expansion,"self, method",269,275
+tests\config.py,user_path_subject_to_user_expansion,"self, method",277,282
+tests\config.py,skips_default_paths,"self, method",285,288
+tests\config.py,does_not_affect_explicit_object,"self, method",290,297
+tests\config.py,does_not_skip_loading_runtime_path,"self, method",299,307
+tests\config.py,may_use_lazy_plus_explicit_methods_to_control_flow,"self, method",310,316
+tests\connection.py,_select_result,obj,34,52
+tests\connection.py,is_connected_defaults_to_False,self,57,58
+tests\connection.py,client_defaults_to_a_new_SSHClient,self,60,63
+tests\connection.py,defaults_to_auto_add,self,66,69
+tests\connection.py,is_required,self,75,77
+tests\connection.py,is_exposed_as_attribute,self,79,80
+tests\connection.py,may_contain_user_shorthand,self,82,85
+tests\connection.py,may_contain_port_shorthand,self,87,90
+tests\connection.py,may_contain_user_and_port_shorthand,self,92,96
+tests\connection.py,ipv6_addresses_work_ok_but_avoid_port_shorthand,self,98,107
+tests\connection.py,defaults_to_local_user_with_no_config,self,110,112
+tests\connection.py,accepts_config_user_option,self,114,116
+tests\connection.py,may_be_given_as_kwarg,self,118,119
+tests\connection.py,errors_when_given_as_both_kwarg_and_shorthand,self,121,123
+tests\connection.py,kwarg_wins_over_config,self,125,128
+tests\connection.py,shorthand_wins_over_config,self,130,133
+tests\connection.py,defaults_to_22_because_yup,self,136,137
+tests\connection.py,accepts_configuration_port,self,139,141
+tests\connection.py,may_be_given_as_kwarg,self,143,144
+tests\connection.py,errors_when_given_as_both_kwarg_and_shorthand,self,146,148
+tests\connection.py,kwarg_wins_over_config,self,150,153
+tests\connection.py,shorthand_wins_over_config,self,155,158
+tests\connection.py,defaults_to_False,self,161,162
+tests\connection.py,accepts_configuration_value,self,164,166
+tests\connection.py,may_be_given_as_kwarg,self,168,170
+tests\connection.py,kwarg_wins_over_config,self,172,175
+tests\connection.py,defaults_to_None,self,178,179
+tests\connection.py,accepts_configuration_value,self,181,183
+tests\connection.py,may_be_given_as_kwarg,self,185,187
+tests\connection.py,kwarg_wins_over_config,self,189,192
+tests\connection.py,is_not_required,self,199,200
+tests\connection.py,can_be_specified,self,202,207
+tests\connection.py,if_given_an_invoke_Config_we_upgrade_to_our_own_Config,self,209,219
+tests\connection.py,is_optional_and_defaults_to_None,self,222,224
+tests\connection.py,takes_a_Connection,self,226,229
+tests\connection.py,takes_a_string,self,231,233
+tests\connection.py,accepts_configuration_value,self,235,241
+tests\connection.py,instantiates_empty_SSHClient,"self, Client",244,247
+tests\connection.py,sets_missing_host_key_policy,"self, Policy, client",249,256
+tests\connection.py,is_made_available_as_client_attr,"self, client",258,260
+tests\connection.py,_runtime_config,"self, overrides=None, basename='runtime'",263,269
+tests\connection.py,_runtime_cxn,"self, **kwargs",272,274
+tests\connection.py,effectively_blank_when_no_loaded_config,self,276,281
+tests\connection.py,shows_result_of_lookup_when_loaded_config,self,283,294
+tests\connection.py,original_host_always_set,self,297,300
+tests\connection.py,hostname_directive_overrides_host_attr,self,302,313
+tests\connection.py,wins_over_default,self,316,317
+tests\connection.py,wins_over_configuration,self,319,321
+tests\connection.py,loses_to_explicit,self,323,327
+tests\connection.py,wins_over_default,self,330,331
+tests\connection.py,wins_over_configuration,self,333,335
+tests\connection.py,loses_to_explicit,self,337,340
+tests\connection.py,wins_over_default,self,343,344
+tests\connection.py,wins_over_configuration,self,346,350
+tests\connection.py,loses_to_explicit,self,352,358
+tests\connection.py,wins_over_default,self,361,362
+tests\connection.py,wins_over_configuration,self,364,366
+tests\connection.py,loses_to_explicit,self,368,374
+tests\connection.py,explicit_False_turns_off_feature,self,376,381
+tests\connection.py,setup,self,384,385
+tests\connection.py,wins_over_default,self,387,389
+tests\connection.py,wins_over_configuration,self,391,395
+tests\connection.py,loses_to_explicit,self,397,404
+tests\connection.py,explicit_False_turns_off_feature,self,406,409
+tests\connection.py,wins_over_proxycommand,self,411,413
+tests\connection.py,multi_hop_works_ok,self,415,422
+tests\connection.py,wildcards_do_not_trigger_recursion,self,424,429
+tests\connection.py,multihop_plus_wildcards_still_no_recursion,self,431,440
+tests\connection.py,gateway_Connections_get_parent_connection_configs,self,442,455
+tests\connection.py,wins_over_default,self,458,459
+tests\connection.py,wins_over_configuration,self,461,465
+tests\connection.py,loses_to_explicit,self,467,472
+tests\connection.py,basic_loading_of_value,self,478,482
+tests\connection.py,defaults_to_empty_dict,self,485,486
+tests\connection.py,may_be_given_explicitly,self,488,490
+tests\connection.py,may_be_configured,self,492,495
+tests\connection.py,kwarg_wins_over_config,self,497,503
+tests\connection.py,defaults_to_config_value,self,506,509
+tests\connection.py,may_be_given,self,511,514
+tests\connection.py,setup,self,517,518
+tests\connection.py,_cxn,"self, **kwargs",520,522
+tests\connection.py,must_be_given_explicit_env_arg,self,524,526
+tests\connection.py,defaults_to_calling_Config_from_v1,"self, Config_from_v1",529,532
+tests\connection.py,may_be_given_config_explicitly,"self, Config_from_v1",534,539
+tests\connection.py,forwards_arbitrary_kwargs_to_init,self,543,552
+tests\connection.py,conflicting_kwargs_win_over_v1_env_values,self,554,561
+tests\connection.py,host_string,self,564,566
+tests\connection.py,None_host_string_errors_usefully,self,568,570
+tests\connection.py,user,self,572,574
+tests\connection.py,basic,self,577,579
+tests\connection.py,casted_to_int,self,581,583
+tests\connection.py,not_supplied_if_given_in_host_string,self,585,587
+tests\connection.py,str_displays_repr,self,592,594
+tests\connection.py,displays_core_params,self,596,599
+tests\connection.py,omits_default_param_values,self,601,603
+tests\connection.py,param_comparison_uses_config,self,605,611
+tests\connection.py,proxyjump_gateway_shows_type,self,613,616
+tests\connection.py,proxycommand_gateway_shows_type,self,618,621
+tests\connection.py,comparison_uses_host_user_and_port,self,624,634
+tests\connection.py,comparison_to_non_Connections_is_False,self,636,637
+tests\connection.py,hashing_works,self,639,640
+tests\connection.py,sorting_works,self,642,650
+tests\connection.py,has_no_required_args_and_returns_None,"self, client",653,654
+tests\connection.py,calls_SSHClient_connect,"self, client",656,660
+tests\connection.py,passes_through_connect_kwargs,"self, client",663,669
+tests\connection.py,refuses_to_overwrite_connect_kwargs_with_others,"self, client",672,692
+tests\connection.py,connect_kwargs_protection_not_tripped_by_defaults,"self, client",694,700
+tests\connection.py,submits_connect_timeout,"self, client",703,706
+tests\connection.py,is_connected_True_when_successful,"self, client",709,712
+tests\connection.py,short_circuits_if_already_connected,"self, client",714,721
+tests\connection.py,is_connected_still_False_when_connect_fails,"self, client",723,730
+tests\connection.py,uses_configured_user_host_and_port,"self, client",732,735
+tests\connection.py,uses_gateway_channel_as_sock_for_SSHClient_connect,"self, Client",739,759
+tests\connection.py,uses_proxycommand_as_sock_for_Client_connect,"self, moxy, client",761,771
+tests\connection.py,merges_sources,"self, client, ssh, invoke, kwarg, expected",787,878
+tests\connection.py,has_no_required_args_and_returns_None,"self, client",881,884
+tests\connection.py,calls_SSHClient_close,"self, client",886,891
+tests\connection.py,calls_agent_handler_close_if_enabled,"self, Handler, client",893,900
+tests\connection.py,short_circuits_if_not_connected,"self, client",902,907
+tests\connection.py,class_works_as_a_closing_contextmanager,"self, client",909,912
+tests\connection.py,calls_open_for_you,"self, client",915,920
+tests\connection.py,activates_paramiko_agent_forwarding_if_configured,"self, Handler, client",922,928
+tests\connection.py,calls_open_for_you,"self, Remote, client",934,939
+tests\connection.py,passes_inline_env_to_Remote,"self, Remote, client",941,946
+tests\connection.py,calls_Remote_run_with_command_and_kwargs_and_returns_its_result,"self, Remote, client",948,967
+tests\connection.py,calls_invoke_Local_run,"self, Local",972,976
+tests\connection.py,calls_open_for_you,"self, Remote, client",979,984
+tests\connection.py,passes_inline_env_to_Remote,"self, Remote, client",986,991
+tests\connection.py,basic_invocation,"self, Remote, client",993,1008
+tests\connection.py,per_host_password_works_as_expected,self,1013,1022
+tests\connection.py,returns_result_of_client_open_sftp,"self, client",1025,1030
+tests\connection.py,lazily_caches_result,"self, client",1032,1041
+tests\connection.py,calls_Transfer_get,"self, Transfer",1044,1050
+tests\connection.py,calls_Transfer_put,"self, Transfer",1053,1059
+tests\connection.py,_forward_local,"self, kwargs, Client, mocket, select",1062,1128
+tests\connection.py,forwards_local_port_to_remote_end,self,1130,1131
+tests\connection.py,distinct_remote_port,self,1133,1134
+tests\connection.py,non_localhost_listener,self,1136,1138
+tests\connection.py,non_remote_localhost_connection,self,1141,1143
+tests\connection.py,_thread_error,"self, which",1146,1168
+tests\connection.py,tunnel_errors_bubble_up,self,1170,1171
+tests\connection.py,tunnel_manager_errors_bubble_up,self,1173,1174
+tests\connection.py,multiple_tunnels_can_be_open_at_once,self,1178,1179
+tests\connection.py,_forward_remote,"self, kwargs, Client, select, mocket",1182,1232
+tests\connection.py,forwards_remote_port_to_local_end,self,1234,1235
+tests\connection.py,distinct_local_port,self,1237,1238
+tests\connection.py,non_localhost_connections,self,1240,1242
+tests\connection.py,remote_non_localhost_listener,self,1245,1247
+tests\connection.py,multiple_tunnels_can_be_open_at_once,self,1252,1253
+tests\connection.py,tunnel_errors_bubble_up,self,1255,1256
+tests\connection.py,listener_errors_bubble_up,self,1258,1259
+tests\executor.py,_get_executor,"hosts_flag=None, hosts_kwarg=None, post=None, remainder=''",11,23
+tests\executor.py,_execute,**kwargs,26,30
+tests\executor.py,no_parameterization_is_done,self,36,39
+tests\executor.py,parameterization_per_host,self,42,45
+tests\executor.py,post_tasks_happen_once_only,self,47,53
+tests\executor.py,parameterization_per_host,self,56,59
+tests\executor.py,post_tasks_happen_once_only,self,61,67
+tests\executor.py,may_give_Connection_kwargs_as_values,self,69,81
+tests\executor.py,execution_happens_normally_without_parameterization,self,84,91
+tests\executor.py,hosts_flag_still_triggers_parameterization,self,93,100
+tests\executor.py,flag_wins,self,103,108
+tests\executor.py,raises_NothingToDo_when_no_hosts,self,111,113
+tests\executor.py,creates_anonymous_call_per_host,self,115,119
+tests\executor.py,deduplication_not_performed,self,122,124
+tests\executor.py,always_generates_ConnectionCall_with_host_attr,self,127,135
+tests\group.py,may_be_empty,self,13,14
+tests\group.py,takes_splat_arg_of_host_strings,self,16,19
+tests\group.py,takes_splat_kwargs_and_passes_them_to_Connections,self,21,28
+tests\group.py,inits_from_iterable_of_Connections,self,31,34
+tests\group.py,acts_like_an_iterable_of_Connections,self,36,42
+tests\group.py,not_implemented_in_base_class,self,45,47
+tests\group.py,close_closes_all_member_connections,self,50,55
+tests\group.py,contextmanager_behavior_works_like_Connection,self,57,63
+tests\group.py,_make_serial_tester,"cxns, index, args, kwargs",66,79
+tests\group.py,tester,"*a, **k",70,77
+tests\group.py,executes_arguments_on_contents_run_serially,self,84,96
+tests\group.py,errors_in_execution_capture_and_continue_til_end,self,98,122
+tests\group.py,returns_results_mapping,self,124,132
+tests\group.py,setup,self,136,139
+tests\group.py,executes_arguments_on_contents_run_via_threading,"self, Thread, Queue",142,181
+tests\group.py,queue_used_to_return_results,"self, Queue",183,204
+tests\group.py,bubbles_up_errors_within_threads,self,206,236
+tests\group.py,returns_results_mapping,self,238,247
+tests\init.py,version_and_version_info,self,8,10
+tests\init.py,Connection,self,12,13
+tests\init.py,Remote,self,15,16
+tests\init.py,Result,self,18,19
+tests\init.py,Config,self,21,22
+tests\init.py,Group,self,24,25
+tests\init.py,SerialGroup,self,27,28
+tests\init.py,ThreadingGroup,self,30,31
+tests\init.py,GroupResult,self,33,34
+tests\init.py,task,self,36,37
+tests\init.py,Task,self,39,40
+tests\init.py,Executor,self,42,43
+tests\main.py,version_output_contains_our_name_plus_deps,self,36,44
+tests\main.py,help_output_says_fab,self,47,48
+tests\main.py,exposes_hosts_flag_in_help,self,50,51
+tests\main.py,executes_remainder_as_anonymous_task,"self, remote",53,55
+tests\main.py,uses_FABRIC_env_prefix,"self, environ",57,60
+tests\main.py,basic_pre_and_post_tasks_still_work,self,62,68
+tests\main.py,loads_fabfile_not_tasks,self,71,100
+tests\main.py,loads_fabric_config_files_not_invoke_ones,self,103,108
+tests\main.py,_run,"self, flag='-S', file_='ssh_config/runtime.conf', tasks='runtime-ssh-config'",111,121
+tests\main.py,capital_F_flag_specifies_runtime_ssh_config_file,self,123,124
+tests\main.py,long_form_flag_also_works,self,126,127
+tests\main.py,IOErrors_if_given_missing_file,self,129,131
+tests\main.py,config_only_loaded_once_per_session,"self, method",133,143
+tests\main.py,single_string_is_single_host_and_single_exec,"self, remote",149,155
+tests\main.py,comma_separated_string_is_multiple_hosts,"self, remote",157,162
+tests\main.py,multiple_hosts_works_with_remainder_too,"self, remote",164,168
+tests\main.py,host_string_shorthand_is_passed_through,"self, remote",170,172
+tests\main.py,config_mutation_not_preserved,self,181,185
+tests\main.py,pre_post_tasks_are_not_parameterized_across_hosts,self,188,204
+tests\main.py,single_string_is_single_exec,"self, remote",210,213
+tests\main.py,multiple_strings_is_multiple_host_args,"self, remote",215,220
+tests\main.py,host_string_shorthand_works_ok,"self, remote",222,225
+tests\main.py,may_give_Connection_init_kwarg_dicts,"self, remote",227,233
+tests\main.py,may_give_mixed_value_types,"self, remote",235,241
+tests\main.py,calls_task_once_with_invoke_context,self,244,246
+tests\main.py,vanilla_Invoke_task_works_too,self,248,250
+tests\main.py,generates_exception_if_combined_with_remainder,self,252,254
+tests\main.py,invokelike_multitask_invocation_preserves_config_mutation,self,256,260
+tests\main.py,dash_t_supplies_default_connect_timeout,self,263,265
+tests\main.py,double_dash_connect_timeout_also_works,self,267,270
+tests\main.py,dash_i_supplies_default_connect_kwarg_key_filename,self,274,280
+tests\main.py,double_dash_identity_also_works,self,282,285
+tests\main.py,may_be_given_multiple_times,self,288,291
+tests\main.py,_expect_prompt,"self, getpass, flag, key, value, prompt",295,303
+tests\main.py,password_prompt_updates_connect_kwargs,self,305,310
+tests\main.py,passphrase_prompt_updates_connect_kwargs,self,313,318
+tests\main.py,key_filename_can_be_set_via_non_override_config_levels,self,322,328
+tests\main.py,cli_identity_still_overrides_when_non_empty,self,330,332
+tests\main.py,complete_flag_does_not_trigger_remainder_only_behavior,self,337,348
+tests\main.py,python_dash_m_acts_like_fab,"self, capsys",354,362
+tests\runners.py,_Connection,"*args, **kwargs",19,21
+tests\runners.py,_runner,,24,25
+tests\runners.py,needs_handle_on_a_Connection,self,29,31
+tests\runners.py,calls_expected_paramiko_bits,"self, remote",34,39
+tests\runners.py,writes_remote_streams_to_local_streams,"self, remote",41,45
+tests\runners.py,pty_True_uses_paramiko_get_pty,"self, remote",47,51
+tests\runners.py,return_value_is_Result_subclass_exposing_cxn_used,"self, remote",53,61
+tests\runners.py,channel_is_closed_normally,"self, remote",63,67
+tests\runners.py,channel_is_closed_on_body_exceptions,"self, remote",69,87
+tests\runners.py,wait,self,78,79
+tests\runners.py,channel_close_skipped_when_channel_not_even_made,self,89,108
+tests\runners.py,oops,,96,97
+tests\runners.py,sends_env_to_paramiko_update_environment_by_default,"self, remote",123,126
+tests\runners.py,uses_export_prefixing_when_inline_env_is_True,"self, remote",128,134
+tests\runners.py,kill_closes_the_channel,self,136,140
+tests\task.py,accepts_Invoke_level_init_kwargs,self,11,31
+tests\task.py,body,"c, parts",13,15
+tests\task.py,allows_hosts_kwarg,self,33,35
+tests\task.py,accepts_Invoke_level_kwargs,self,39,59
+tests\task.py,body,"c, parts",41,43
+tests\task.py,returns_Fabric_level_Task_instance,self,61,62
+tests\task.py,does_not_touch_klass_kwarg_if_explicitly_given,self,64,69
+tests\task.py,_run,"self, hosts",75,80
+tests\task.py,mytask,c,76,78
+tests\task.py,values_may_be_connection_first_posarg_strings,self,82,83
+tests\task.py,values_may_be_Connection_constructor_kwarg_dicts,self,85,90
+tests\task.py,values_may_be_mixed,self,94,95
+tests\task.py,_dummy,c,98,99
+tests\task.py,inherits_regular_kwargs,self,106,118
+tests\task.py,extends_with_init_kwargs_kwarg,self,120,125
+tests\task.py,includes_init_kwargs_host_value,self,130,140
+tests\transfer.py,requires_connection,self,22,32
+tests\transfer.py,returns_bool_of_stat_ISDIR_flag,"self, sftp_objs",35,41
+tests\transfer.py,returns_False_if_stat_raises_IOError,"self, sftp_objs",43,46
+tests\transfer.py,accepts_single_remote_path_posarg,"self, sftp_objs",50,54
+tests\transfer.py,accepts_local_and_remote_kwargs,"self, sftp_objs",57,61
+tests\transfer.py,returns_rich_Result_object,"self, sftp_objs",64,72
+tests\transfer.py,local_None_uses_remote_filename,"self, transfer",77,78
+tests\transfer.py,local_empty_string_uses_remote_filename,"self, transfer",80,81
+tests\transfer.py,remote_arg_is_required,"self, transfer",83,85
+tests\transfer.py,remote_arg_cannot_be_None,"self, transfer",87,89
+tests\transfer.py,remote_arg_cannot_be_empty_string,"self, transfer",91,93
+tests\transfer.py,_get_to_stringio,"self, sftp_objs",98,106
+tests\transfer.py,remote_path_to_local_StringIO,"self, sftp_objs",108,109
+tests\transfer.py,result_contains_fd_for_local_path,"self, sftp_objs",111,114
+tests\transfer.py,setup,self,117,119
+tests\transfer.py,preserves_remote_mode_by_default,"self, sftp",121,128
+tests\transfer.py,allows_disabling_remote_mode_preservation,"self, sftp",130,134
+tests\transfer.py,accepts_single_local_path_posarg,"self, sftp_objs",138,142
+tests\transfer.py,accepts_local_and_remote_kwargs,"self, sftp_objs",145,150
+tests\transfer.py,returns_rich_Result_object,"self, transfer",153,160
+tests\transfer.py,appends_local_file_basename,"self, sftp_objs",165,172
+tests\transfer.py,name_attribute_present_appends_like_basename,"self, sftp_objs",176,185
+tests\transfer.py,no_name_attribute_raises_ValueError,"self, sftp_objs",188,193
+tests\transfer.py,remote_None_uses_local_filename,"self, transfer",196,197
+tests\transfer.py,remote_empty_string_uses_local_filename,"self, transfer",199,200
+tests\transfer.py,remote_cant_be_empty_if_local_file_like,"self, transfer",202,204
+tests\transfer.py,local_arg_is_required,"self, transfer",206,208
+tests\transfer.py,local_arg_cannot_be_None,"self, transfer",210,212
+tests\transfer.py,local_arg_cannot_be_empty_string,"self, transfer",214,216
+tests\transfer.py,_put_from_stringio,"self, sftp_objs",221,229
+tests\transfer.py,remote_path_from_local_StringIO,"self, sftp_objs",231,232
+tests\transfer.py,local_FLOs_are_rewound_before_putting,"self, transfer",234,239
+tests\transfer.py,result_contains_fd_for_local_path,"self, sftp_objs",241,244
+tests\transfer.py,preserves_local_mode_by_default,"self, sftp",247,252
+tests\transfer.py,allows_disabling_local_mode_preservation,"self, sftp_objs",254,257
+tests\util.py,defaults_to_getpass_getuser,"self, getuser",13,17
+tests\util.py,KeyError_means_SaaS_and_thus_None,"self, getuser",19,21
+tests\_util.py,support_path,,20,26
+tests\_util.py,load,name,29,32
+tests\_util.py,expect,"invocation, out, program=None, test='equals'",37,51
+tests\_util.py,__init__,"self, *args, **kwargs",60,65
+tests\_util.py,__init__,"self, *args, **kwargs",69,72
+tests\_util.py,faux_v1_env,,75,95
+tests\_support\fabfile.py,build,c,5,7
+tests\_support\fabfile.py,deploy,c,10,12
+tests\_support\fabfile.py,basic_run,c,15,17
+tests\_support\fabfile.py,expect_vanilla_Context,c,20,23
+tests\_support\fabfile.py,expect_from_env,c,26,28
+tests\_support\fabfile.py,expect_mutation_to_fail,c,31,37
+tests\_support\fabfile.py,mutate,c,40,42
+tests\_support\fabfile.py,expect_mutation,c,45,47
+tests\_support\fabfile.py,expect_identity,c,50,52
+tests\_support\fabfile.py,expect_identities,c,55,59
+tests\_support\fabfile.py,expect_connect_timeout,c,63,65
+tests\_support\fabfile.py,first,c,68,70
+tests\_support\fabfile.py,third,c,73,75
+tests\_support\fabfile.py,second,"c, show_host=False",78,83
+tests\_support\fabfile.py,hosts_are_myhost,c,86,88
+tests\_support\fabfile.py,two_hosts,c,91,93
+tests\_support\fabfile.py,hosts_are_host_stringlike,c,96,98
+tests\_support\fabfile.py,hosts_are_mixed_values,c,101,103
+tests\_support\fabfile.py,hosts_are_init_kwargs,c,106,108
+tests\_support\fabfile.py,vanilla_Task_works_ok,c,111,114
+tests\_support\prompting.py,expect_connect_kwarg,"c, key, val",4,6
+tests\_support\runtime_fabfile.py,runtime_ssh_config,c,4,10
+tests\_support\runtime_fabfile.py,dummy,c,13,15
+tests\_support\json_conf\fabfile.py,expect_conf_value,c,4,6
+tests\_support\py_conf\fabfile.py,expect_conf_value,c,4,6
+tests\_support\yaml_conf\fabfile.py,expect_conf_value,c,4,6
+tests\_support\yml_conf\fabfile.py,expect_conf_value,c,4,6
+tests\_support\yml_conf\fabfile.py,expect_conf_key_filename,c,9,13
+tests\_support\yml_conf\fabfile.py,expect_cli_key_filename,c,16,20

@@ -1,0 +1,44 @@
+2a157d4; (tag: refs/tags/0.6.16);Daniel Carvallo;2022-01-18 21:59:36 -0600;PR - Fix `extract_text_from_element()`and `find_element*()` to `find_element()` (#6438)
+e62704a; (tag: refs/tags/0.6.15);Tristan;2021-12-02 23:30:16 -0500;Fixed #6417 (#6418)
+ee747fa; (tag: refs/tags/0.6.14);Felix Breuer;2021-10-19 14:48:47 +0200;fix pypi build (#6362)
+8c74ab2; (tag: refs/tags/0.6.13);Tim Großmann;2021-01-07 17:00:08 +0100;Merge pull request #5990 from elulcao/pr_liked_comment
+9e8c170; (tag: refs/tags/0.6.12);Tim Großmann;2020-10-29 15:46:12 +0100;Merge pull request #5848 from timgrossmann/version-0-6-12
+902dcc1; (tag: refs/tags/0.6.11);Tim Großmann;2020-09-25 21:35:15 +0200;Merge pull request #5802 from timgrossmann/release/6_11
+b3d283b; (tag: refs/tags/0.6.10);Tim Großmann;2020-07-30 09:56:06 +0200;Merge pull request #5674 from timgrossmann/release_0_6_10
+aaf33bd; (tag: refs/tags/0.6.9);Tim Großmann;2020-06-12 20:19:58 +0200;Merge pull request #5562 from timgrossmann/timgrossmann-patch-1
+95fc624; (tag: refs/tags/0.6.8);Tim Großmann;2020-01-28 10:32:38 +0100;Merge pull request #5296 from eneasz/bugfix/fixing-like-comment_html_change
+b0619df; (tag: refs/tags/0.6.7);Tim Großmann;2020-01-05 11:08:02 +0100;update version
+4220e9d; (tag: refs/tags/0.6.6);Tim Großmann;2019-11-11 09:35:25 +0100;Merge pull request #5208 from wsbuck/master
+c3ad0c8; (tag: refs/tags/0.6.5);Tim Großmann;2019-10-20 15:24:23 +0200;Merge pull request #5146 from timgrossmann/dev
+f371d0d; (tag: refs/tags/0.6.4);Felix Breuer;2019-09-17 11:33:21 +0200;Merge pull request #5064 from timgrossmann/dev
+e7fa635; (tag: refs/tags/0.6.3);Felix Breuer;2019-09-08 12:49:23 +0200;Merge pull request #4978 from timgrossmann/dev
+79a90a1; (tag: refs/tags/0.6.2);Felix Breuer;2019-08-30 13:31:19 +0200;Merge pull request #4849 from timgrossmann/dev
+0c8d70b; (tag: refs/tags/0.6.1);João Vanzuita;2019-08-12 12:38:26 -0300;Merge branch 'master' of https://github.com/timgrossmann/InstaPy
+36e0589; (tag: refs/tags/0.6.0);João Paulo Vanzuita;2019-08-12 07:36:57 -0300;Merge pull request #4759 from timgrossmann/dev
+f4c6dd2; (tag: refs/tags/0.5.8);Felix Breuer;2019-08-01 21:57:50 +0200;Merge pull request #4737 from timgrossmann/dev
+f0f3aef; (tag: refs/tags/0.5.7);Felix Breuer;2019-07-29 17:19:46 +0200;Merge pull request #4706 from timgrossmann/dev
+465d3dc; (tag: refs/tags/0.5.6);Felix Breuer;2019-07-22 23:16:20 +0200;Merge pull request #4659 from timgrossmann/dev
+1ae48ec; (tag: refs/tags/0.5.5);Felix Breuer;2019-07-10 15:13:14 +0200;Merge pull request #4640 from timgrossmann/dev
+44482c7; (tag: refs/tags/0.5.4);Tim Großmann;2019-07-03 13:48:48 +0800;Merge pull request #4608 from filo87/master
+20061fc; (tag: refs/tags/0.5.3);Tim Großmann;2019-07-02 11:29:09 +0800;Merge pull request #4603 from jeromecaisip/patch-1
+c64ad2d; (tag: refs/tags/0.5.2);Tim Großmann;2019-06-28 09:46:26 +0800;Merge pull request #4569 from sergiopalacio/master
+ebd1673; (tag: refs/tags/0.5.1);Tim Großmann;2019-06-18 10:21:15 +0800;Merge pull request #4538 from InfraRedApple/patch-2
+d4d57a7; (tag: refs/tags/0.5.0);Tim Großmann;2019-06-03 19:01:55 +0800;InstaPy v0.5.0
+f5b9be2; (tag: refs/tags/0.4.3);Tim Großmann;2019-05-15 22:53:48 +0800;Merge pull request #4425 from ishandutta2007/bug_not_able_to_comment_4409
+1e687e3; (tag: refs/tags/0.4.2);Tim Großmann;2019-04-15 23:33:18 +0800;Merge pull request #4308 from ishandutta2007/fix_pods
+ecba309; (tag: refs/tags/0.4.1);Tim Großmann;2019-04-06 10:01:16 +0700;Merge pull request #4270 from CharlesCCC/2019-4-5-Split-SQLite-DB
+138bd15; (tag: refs/tags/0.4.0);Tim Großmann;2019-04-03 00:56:23 +0700;Merge pull request #4249 from timgrossmann/dev
+5945aa8; (tag: refs/tags/0.3.4);Tim Großmann;2019-03-17 23:56:49 +0800;update version for release (#4180)
+6daa533; (tag: refs/tags/0.3.3);Tim Großmann;2019-03-15 00:07:41 +0800;Update to new release (#4162)
+1b0cafb; (tag: refs/tags/0.3.2);Tim Großmann;2019-03-12 13:10:53 +0800;Hot fix problems with browser abstraction class (#4144)
+73b257e; (tag: refs/tags/0.3.1);Tim Großmann;2019-03-11 23:08:19 +0700;removed retry decorator (#4139)
+69fddc9; (tag: refs/tags/0.3.0);Tim Großmann;2019-03-11 21:24:31 +0700;Merge pull request #4136 from timgrossmann/dev
+b4db803; (tag: refs/tags/0.2.3);Joan;2019-03-01 16:50:51 +0100;Solution for the 'Log in' text error due an A/B test (#4066)
+90ca1c0; (tag: refs/tags/0.2.2);Tim Großmann;2019-02-21 21:48:32 +0100;update requirement for instapy-chromedriver (#4046)
+29c1553; (tag: refs/tags/0.2.1);Tim Großmann;2019-02-21 09:35:43 +0100;Update version (#4038)
+5c8d8c4; (tag: refs/tags/0.2.0);Tim Großmann;2019-02-18 21:17:21 +0100;Merge pull request #4010 from timgrossmann/fix/update_version
+39d74a4; (tag: refs/tags/0.1.3);Tim Grossmann;2019-02-05 20:23:13 +0100;Merge branch 'master' of github.com:timgrossmann/instapy
+376aac5; (tag: refs/tags/0.1.2);Tim Großmann;2019-02-05 00:12:31 +0100;Merge pull request #3893 from badviibesforever/patch-1
+c510f86; (tag: refs/tags/0.1.1);Tim Großmann;2019-02-04 16:01:26 +0100;Merge pull request #3887 from timgrossmann/dev
+1fcc2fd; (tag: refs/tags/legacy);Tim Großmann;2019-02-03 23:24:34 +0100;Merge pull request #3884 from bugre/bug/bugre-issue3874
+a548fda; (tag: refs/tags/v0.1.0);timgrossmann;2016-10-12 08:29:50 +0200;finalized setup

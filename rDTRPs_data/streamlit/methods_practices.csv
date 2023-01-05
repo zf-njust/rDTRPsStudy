@@ -1,0 +1,76 @@
+streamlit,file,method,params,startlineno,endlineno,type,lineno
+streamlit,lib\streamlit\__init__.py,echo,,431,467,assignment,463
+streamlit,scripts\update_version.py,update_files,"data, python=True",77,101,argument,94
+streamlit,lib\streamlit\config.py,_set_option,"key, value, where_defined",645,659,reference,658
+streamlit,lib\streamlit\config.py,_set_option,"key, value, where_defined",645,659,reference,659
+streamlit,lib\streamlit\config.py,_update_config_with_toml,"raw_toml, where_defined",662,680,reference,662
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,reference,1299
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,reference,1349
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,reference,1349
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,reference,1353
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,reference,1353
+streamlit,lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353,getattr,1342
+streamlit,lib\streamlit\DeltaGenerator.py,code,"self, element, body, language='python'",285,314,reference,313
+streamlit,lib\streamlit\Server.py,_is_url_from_allowed_origins,url,386,439,reference,431
+streamlit,lib\streamlit\Server.py,_is_url_from_allowed_origins,url,386,439,reference,434
+streamlit,lib\streamlit\Server.py,_is_url_from_allowed_origins,url,386,439,reference,436
+streamlit,lib\streamlit\Server.py,_is_url_from_allowed_origins,url,386,439,reference,439
+streamlit,lib\streamlit\elements\image_proto.py,marshall_images,"image, caption, width, proto_imgs, clamp",89,169,reference,115
+streamlit,lib\streamlit\elements\image_proto.py,marshall_images,"image, caption, width, proto_imgs, clamp",89,169,reference,116
+streamlit,lib\streamlit\elements\image_proto.py,marshall_images,"image, caption, width, proto_imgs, clamp",89,169,reference,117
+streamlit,lib\streamlit\elements\image_proto.py,marshall_images,"image, caption, width, proto_imgs, clamp",89,169,reference,121
+streamlit,lib\streamlit\elements\lib\dict_builder.py,_handle_list_spec,"df, user_params, spec_value, curr_out_value, curr_col_index",147,166,reference,160
+streamlit,lib\streamlit\elements\lib\dict_builder.py,build,"self, df, spec_override=None, user_params=None, curr_col_index='0'",26,69,reference,64
+streamlit,lib\streamlit\elements\lib\dict_builder.py,build,"self, df, spec_override=None, user_params=None, curr_col_index='0'",26,69,reference,65
+streamlit,examples\mnist-cnn.py,_create_chart,"self, type='line', height='0'",87,105,getattr,96
+streamlit,examples\mnist-cnn.py,_create_chart,"self, type='line', height='0'",87,105,getattr,99
+streamlit,lib\streamlit\config.py,_delete_option,key,146,154,delsubscript,152
+streamlit,lib\streamlit\credentials.py,load,"self, auto_resolve=False",55,78,getattr,65
+streamlit,lib\streamlit\DeltaGenerator.py,_widget,f,127,154,delsubscript,136
+streamlit,lib\streamlit\DeltaGenerator.py,_widget,f,127,154,getattr,146
+streamlit,lib\streamlit\magic.py,_modify_ast_subtree,"tree, body_attr='body', is_root=False",31,65,getattr,34
+streamlit,lib\streamlit\metrics.py,toggle_metrics,self,59,82,getattr,77
+streamlit,lib\streamlit\ReportThread.py,get_report_ctx,,42,54,getattr,51
+streamlit,lib\streamlit\Server.py,_add_browser_connection,"self, ws",209,242,delsubscript,229
+streamlit,lib\streamlit\Server.py,_remove_browser_connection,"self, ws",244,251,delsubscript,247
+streamlit,lib\streamlit\widgets.py,get_widget_value,"self, id",82,105,getattr,105
+streamlit,lib\streamlit\elements\data_frame_proto.py,_concat_any_array,"any_array_1, any_array_2",394,408,getattr,408
+streamlit,lib\streamlit\elements\data_frame_proto.py,_concat_any_array,"any_array_1, any_array_2",394,408,getattr,408
+streamlit,lib\streamlit\elements\data_frame_proto.py,_any_array_len,any_array,494,498,getattr,497
+streamlit,lib\streamlit\elements\deck_gl.py,marshall,"proto, data=None, spec=None, **kwargs",20,66,delsubscript,62
+streamlit,lib\streamlit\elements\doc_string.py,marshall,"proto, obj",33,64,getattr,43
+streamlit,lib\streamlit\elements\doc_string.py,_unwrap_decorated_func,f,113,142,getattr,117
+streamlit,lib\streamlit\elements\doc_string.py,_unwrap_decorated_func,f,113,142,getattr,129
+streamlit,lib\streamlit\elements\vega_lite.py,marshall,"proto, data=None, spec=None, width='0', **kwargs",19,85,delsubscript,64
+streamlit,lib\streamlit\elements\vega_lite.py,marshall,"proto, data=None, spec=None, width='0', **kwargs",19,85,delsubscript,77
+streamlit,lib\streamlit\elements\vega_lite.py,marshall,"proto, data=None, spec=None, width='0', **kwargs",19,85,delsubscript,80
+streamlit,lib\streamlit\watcher\EventBasedFileWatcher.py,stop_watching_file,"self, file_path, callback",146,173,delsubscript,173
+streamlit,lib\streamlit\watcher\EventBasedFileWatcher.py,remove_file_change_listener,"self, file_path, callback",236,252,delsubscript,252
+streamlit,lib\streamlit\watcher\LocalSourcesWatcher.py,on_file_changed,"self, filepath",49,59,delsubscript,57
+streamlit,lib\streamlit\watcher\LocalSourcesWatcher.py,_deregister_watcher,"self, filepath",74,83,delsubscript,83
+streamlit,lib\streamlit\watcher\LocalSourcesWatcher.py,update_watched_modules,self,85,154,getattr,97
+streamlit,lib\streamlit\watcher\LocalSourcesWatcher.py,update_watched_modules,self,85,154,getattr,100
+streamlit,lib\tests\streamlit\config_test.py,tearDown,self,30,37,delsubscript,34
+streamlit,lib\tests\streamlit\config_test.py,test_server_headless_via_atom_plugin,self,429,435,delsubscript,435
+streamlit,lib\tests\streamlit\config_test.py,test_server_headless,self,437,448,delsubscript,441
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_unstyled_has_no_style,"self, element, proto",35,55,getattr,46
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_unstyled_has_no_style,"self, element, proto",35,55,getattr,47
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_format,"self, element, proto",57,72,getattr,68
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_format,"self, element, proto",57,72,getattr,71
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_css_styling,"self, element, proto",74,95,getattr,89
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_css_styling,"self, element, proto",74,95,getattr,94
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows,"self, element, proto",97,119,getattr,113
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows,"self, element, proto",97,119,getattr,118
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows_to_unstyled_rows,"self, element, proto",121,141,getattr,137
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows_to_unstyled_rows,"self, element, proto",121,141,getattr,140
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_unstyled_rows_to_styled_rows,"self, element, proto",143,165,getattr,159
+streamlit,lib\tests\streamlit\dataframe_styling_test.py,test_add_unstyled_rows_to_styled_rows,"self, element, proto",143,165,getattr,164
+streamlit,lib\tests\streamlit\data_frame_proto_test.py,test_any_array_len,self,676,692,getattr,690
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,236
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,240
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,241
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,247
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,251
+streamlit,lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252,getattr,252
+streamlit,lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,setUp,self,49,65,delsubscript,58
+streamlit,lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,setUp,self,49,65,delsubscript,63

@@ -1,0 +1,378 @@
+ipython,file,method,params,startlineno,endlineno,type,lineno
+ipython,IPython\utils\text.py,strip_email_quotes,text,432,477,argument,475
+ipython,IPython\utils\dir2.py,dir2,obj,23,48,assignment,47
+ipython,IPython\external\qt_loaders.py,has_binding,api,90,131,assignment,111
+ipython,IPython\external\qt_loaders.py,has_binding,api,90,131,argument,116
+ipython,IPython\utils\shimmodule.py,__init__,"self, *args, **kwargs",53,62,argument,62
+ipython,tools\git-mpr.py,main,*args,67,125,assignment,93
+ipython,tools\test_pr.py,run_tests,"venv, extra_args",210,252,argument,235
+ipython,setupbase.py,make_man_update_target,manpage,220,242,reference,242
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,272
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,273
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,277
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,281
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,283
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,286
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,290
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,294
+ipython,docs\sphinxext\apigen.py,generate_api_doc,"self, uri",239,295,reference,295
+ipython,docs\sphinxext\apigen.py,write_modules_api,"self, modules, outdir",384,398,reference,389
+ipython,docs\sphinxext\apigen.py,write_modules_api,"self, modules, outdir",384,398,reference,395
+ipython,IPython\core\completerlib.py,try_import,"mod, only_modules=False",156,177,reference,168
+ipython,IPython\core\completerlib.py,try_import,"mod, only_modules=False",156,177,reference,173
+ipython,IPython\core\completerlib.py,try_import,"mod, only_modules=False",156,177,getattr,163
+ipython,IPython\core\completerlib.py,try_import,"mod, only_modules=False",156,177,getattr,172
+ipython,IPython\core\crashhandler.py,make_report,"self, traceback",182,201,reference,185
+ipython,IPython\core\crashhandler.py,make_report,"self, traceback",182,201,reference,193
+ipython,IPython\core\crashhandler.py,make_report,"self, traceback",182,201,reference,199
+ipython,IPython\core\debugger.py,format_stack_entry,"self, frame_lineno, lprefix=': ', context=None",372,444,reference,441
+ipython,IPython\core\debugger.py,__format_line,"self, tpl_line, filename, lineno, line, arrow=False",446,474,reference,474
+ipython,IPython\core\display.py,_repr_javascript_,self,601,609,reference,609
+ipython,IPython\core\formatters.py,_float_precision_changed,"self, change",591,636,reference,636
+ipython,IPython\core\history.py,catch_corrupt_db,"f, self, *a, **kw",79,121,reference,115
+ipython,IPython\core\history.py,catch_corrupt_db,"f, self, *a, **kw",79,121,reference,116
+ipython,IPython\core\hooks.py,editor,"self, filename, linenum=None, wait=True",58,83,reference,80
+ipython,IPython\core\inputsplitter.py,push,"self, lines",603,642,reference,628
+ipython,IPython\core\inputsplitter.py,push,"self, lines",603,642,reference,630
+ipython,IPython\core\inputsplitter.py,push,"self, lines",603,642,reference,637
+ipython,IPython\core\inputsplitter.py,_store,"self, lines, buffer=None, store='source'",436,449,reference,445
+ipython,IPython\core\inputsplitter.py,_store,"self, lines, buffer=None, store='source'",436,449,reference,446
+ipython,IPython\core\inputsplitter.py,_store,"self, lines, buffer=None, store='source'",436,449,reference,448
+ipython,IPython\core\inputsplitter.py,push,"self, lines",275,329,reference,297
+ipython,IPython\core\inputsplitter.py,push,"self, lines",275,329,reference,310
+ipython,IPython\core\inputsplitter.py,_update_indent,"self, lines",431,434,reference,432
+ipython,IPython\core\inputsplitter.py,remove_comments,src,132,147,reference,147
+ipython,IPython\core\interactiveshell.py,init_traceback_handlers,"self, custom_exceptions",1586,1608,reference,1602
+ipython,IPython\core\interactiveshell.py,getoutput,"self, cmd, split=True, depth='0'",2265,2292,reference,2292
+ipython,IPython\core\interactiveshell.py,banner,self,767,774,reference,773
+ipython,IPython\core\interactiveshell.py,banner,self,767,774,reference,774
+ipython,IPython\core\magic.py,parse_options,"self, arg_str, opt_str, *long_opts, **kw",557,636,reference,636
+ipython,IPython\core\oinspect.py,format_mime,"self, bundle",597,611,reference,602
+ipython,IPython\core\oinspect.py,format_mime,"self, bundle",597,611,reference,610
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, value, elist, tb_offset=None, context='5'",608,659,reference,639
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, value, elist, tb_offset=None, context='5'",608,659,reference,639
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, value, elist, tb_offset=None, context='5'",608,659,reference,640
+ipython,IPython\core\ultratb.py,format_record,"self, frame, file, lnum, func, lines, index",850,1025,reference,856
+ipython,IPython\core\ultratb.py,format_record,"self, frame, file, lnum, func, lines, index",850,1025,reference,1014
+ipython,IPython\core\ultratb.py,format_exception,"self, etype, evalue",1059,1091,reference,1089
+ipython,IPython\core\ultratb.py,format_exception,"self, etype, evalue",1059,1091,getattr,1088
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1173
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1176
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1182
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1188
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1195
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1198
+ipython,IPython\core\ultratb.py,structured_traceback,"self, etype, evalue, etb, tb_offset=None, number_of_lines_of_context='5'",1159,1200,reference,1200
+ipython,IPython\core\magics\auto.py,autocall,"self, parameter_s=''",64,130,reference,114
+ipython,IPython\core\magics\auto.py,autocall,"self, parameter_s=''",64,130,reference,118
+ipython,IPython\core\magics\auto.py,autocall,"self, parameter_s=''",64,130,reference,119
+ipython,IPython\core\magics\basic.py,page,"self, parameter_s=''",262,286,reference,280
+ipython,IPython\core\magics\basic.py,page,"self, parameter_s=''",262,286,reference,280
+ipython,IPython\core\magics\basic.py,page,"self, parameter_s=''",262,286,reference,281
+ipython,IPython\core\magics\basic.py,page,"self, parameter_s=''",262,286,reference,286
+ipython,IPython\core\magics\basic.py,gui,"self, parameter_s=''",467,500,reference,494
+ipython,IPython\core\magics\basic.py,gui,"self, parameter_s=''",467,500,reference,496
+ipython,IPython\core\magics\code.py,pastebin,"self, parameter_s=''",251,292,reference,269
+ipython,IPython\core\magics\code.py,load,"self, arg_s",304,394,reference,344
+ipython,IPython\core\magics\code.py,load,"self, arg_s",304,394,reference,350
+ipython,IPython\core\magics\code.py,save,"self, parameter_s=''",186,249,reference,215
+ipython,IPython\core\magics\code.py,save,"self, parameter_s=''",186,249,reference,222
+ipython,IPython\core\magics\code.py,save,"self, parameter_s=''",186,249,reference,222
+ipython,IPython\core\magics\code.py,edit,"self, parameter_s='', last_call=['', '']",536,746,reference,687
+ipython,IPython\core\magics\execution.py,macro,"self, parameter_s=''",1200,1283,reference,1264
+ipython,IPython\core\magics\execution.py,macro,"self, parameter_s=''",1200,1283,reference,1267
+ipython,IPython\core\magics\execution.py,macro,"self, parameter_s=''",1200,1283,reference,1270
+ipython,IPython\core\magics\execution.py,macro,"self, parameter_s=''",1200,1283,reference,1270
+ipython,IPython\core\magics\execution.py,prun,"self, parameter_s='', cell=None",165,281,reference,279
+ipython,IPython\core\magics\execution.py,prun,"self, parameter_s='', cell=None",165,281,reference,280
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,reference,979
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,reference,1002
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,reference,1004
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,getattr,983
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,getattr,984
+ipython,IPython\core\magics\execution.py,timeit,"self, line='', cell=None",903,1075,getattr,985
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,610
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,612
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,639
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,642
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,644
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,647
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,reference,647
+ipython,IPython\core\magics\execution.py,run,"self, parameter_s='', runner=None, file_finder=get_py_filename",453,777,delsubscript,775
+ipython,IPython\core\magics\history.py,rerun,"self, parameter_s=''",281,320,reference,308
+ipython,IPython\core\magics\history.py,rerun,"self, parameter_s=''",281,320,reference,309
+ipython,IPython\core\magics\logging.py,logstart,"self, parameter_s=''",32,151,reference,97
+ipython,IPython\core\magics\logging.py,logstart,"self, parameter_s=''",32,151,reference,101
+ipython,IPython\core\magics\logging.py,logstart,"self, parameter_s=''",32,151,reference,99
+ipython,IPython\core\magics\namespace.py,reset,"self, parameter_s=''",474,598,reference,550
+ipython,IPython\core\magics\namespace.py,reset,"self, parameter_s=''",474,598,reference,557
+ipython,IPython\core\magics\namespace.py,reset,"self, parameter_s=''",474,598,delsubscript,549
+ipython,IPython\core\magics\namespace.py,reset,"self, parameter_s=''",474,598,delsubscript,586
+ipython,IPython\core\magics\namespace.py,reset,"self, parameter_s=''",474,598,delsubscript,592
+ipython,IPython\core\magics\namespace.py,psearch,"self, parameter_s=''",126,239,reference,236
+ipython,IPython\core\magics\namespace.py,xdel,"self, parameter_s=''",688,704,reference,702
+ipython,IPython\core\magics\namespace.py,reset_selective,"self, parameter_s=''",600,686,reference,676
+ipython,IPython\core\magics\namespace.py,reset_selective,"self, parameter_s=''",600,686,reference,681
+ipython,IPython\core\magics\namespace.py,reset_selective,"self, parameter_s=''",600,686,delsubscript,686
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,328
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,335
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,338
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,339
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,340
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,348
+ipython,IPython\core\magics\osm.py,cd,"self, parameter_s=''",246,373,reference,350
+ipython,IPython\core\magics\osm.py,sc,"self, parameter_s=''",501,615,reference,599
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,695
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,702
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,726
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,728
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,729
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,730
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,731
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,reference,731
+ipython,IPython\core\magics\osm.py,bookmark,"self, parameter_s=''",674,732,delsubscript,708
+ipython,IPython\core\tests\test_debugger.py,test_longer_repr,,51,66,reference,60
+ipython,IPython\core\tests\test_debugger.py,test_longer_repr,,51,66,reference,66
+ipython,IPython\core\tests\test_events.py,test_unregister_during_callback,self,34,54,reference,53
+ipython,IPython\core\tests\test_events.py,test_unregister_during_callback,self,34,54,reference,47
+ipython,IPython\core\tests\test_events.py,test_unregister_during_callback,self,34,54,reference,38
+ipython,IPython\core\tests\test_events.py,test_unregister_during_callback,self,34,54,reference,43
+ipython,IPython\core\tests\test_inputsplitter.py,mini_interactive_loop,input_func,28,50,reference,42
+ipython,IPython\core\tests\test_inputsplitter.py,mini_interactive_loop,input_func,28,50,reference,43
+ipython,IPython\core\tests\test_inputsplitter.py,mini_interactive_loop,input_func,28,50,reference,43
+ipython,IPython\core\tests\test_inputsplitter.py,mini_interactive_loop,input_func,28,50,reference,44
+ipython,IPython\core\tests\test_inputsplitter.py,setUp,self,398,399,reference,399
+ipython,IPython\core\tests\test_inputsplitter.py,setUp,self,128,129,reference,129
+ipython,IPython\core\tests\test_inputsplitter.py,test,self,117,121,reference,120
+ipython,IPython\core\tests\test_inputsplitter.py,test_spaces,,74,87,reference,87
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,548
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,549
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,550
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,551
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,552
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,553
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,555
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,556
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,557
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,558
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,559
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,560
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,561
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,562
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,563
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_two_blanks,,547,564,reference,564
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,533
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,534
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,535
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,536
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,538
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,539
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,540
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,541
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,542
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,543
+ipython,IPython\core\tests\test_inputsplitter.py,test_last_blank,,532,544,reference,544
+ipython,IPython\core\tests\test_inputsplitter.py,test_remove_comments,,90,99,reference,99
+ipython,IPython\core\tests\test_inputsplitter.py,test_get_input_encoding,,102,107,reference,103
+ipython,IPython\extensions\storemagic.py,store,"self, parameter_s=''",76,222,reference,120
+ipython,IPython\extensions\storemagic.py,store,"self, parameter_s=''",76,222,delsubscript,131
+ipython,IPython\extensions\storemagic.py,store,"self, parameter_s=''",76,222,delsubscript,137
+ipython,IPython\extensions\storemagic.py,store,"self, parameter_s=''",76,222,getattr,211
+ipython,IPython\lib\display.py,_get_display_formatter,"self, dirname_output_format, fname_output_format, fp_format, fp_cleaner=None",443,497,reference,484
+ipython,IPython\lib\tests\test_editorhooks.py,test_install_editor,,14,37,reference,37
+ipython,IPython\sphinxext\custom_doctests.py,float_doctest,"sphinx_shell, args, input_lines, found, submitted",85,149,reference,137
+ipython,IPython\sphinxext\custom_doctests.py,float_doctest,"sphinx_shell, args, input_lines, found, submitted",85,149,reference,148
+ipython,IPython\sphinxext\ipython_directive.py,process_block,"self, block",639,707,reference,674
+ipython,IPython\sphinxext\ipython_directive.py,process_block,"self, block",639,707,reference,681
+ipython,IPython\sphinxext\ipython_directive.py,process_block,"self, block",639,707,delsubscript,698
+ipython,IPython\sphinxext\ipython_directive.py,process_output,"self, data, output_prompt, input_lines, output, is_doctest, decorator, image_file",540,618,reference,564
+ipython,IPython\sphinxext\ipython_directive.py,process_output,"self, data, output_prompt, input_lines, output, is_doctest, decorator, image_file",540,618,reference,575
+ipython,IPython\sphinxext\ipython_directive.py,process_output,"self, data, output_prompt, input_lines, output, is_doctest, decorator, image_file",540,618,reference,590
+ipython,IPython\terminal\ipapp.py,make_report,"self, traceback",74,91,reference,78
+ipython,IPython\terminal\ipapp.py,make_report,"self, traceback",74,91,reference,83
+ipython,IPython\terminal\magics.py,paste,"self, parameter_s=''",144,199,reference,199
+ipython,IPython\terminal\magics.py,paste,"self, parameter_s=''",144,199,getattr,182
+ipython,IPython\terminal\magics.py,store_or_execute,"self, block, name",46,60,reference,49
+ipython,IPython\terminal\magics.py,store_or_execute,"self, block, name",46,60,reference,51
+ipython,IPython\terminal\magics.py,store_or_execute,"self, block, name",46,60,reference,52
+ipython,IPython\terminal\magics.py,cpaste,"self, parameter_s=''",90,142,reference,142
+ipython,IPython\testing\decorators.py,skipif,"skip_condition, msg=None",160,230,reference,209
+ipython,IPython\testing\decorators.py,skipif,"skip_condition, msg=None",160,230,reference,216
+ipython,IPython\testing\iptestcontroller.py,run_iptestall,options,325,475,reference,418
+ipython,IPython\testing\iptestcontroller.py,run_iptestall,options,325,475,reference,424
+ipython,IPython\testing\tools.py,get_ipython_cmd,as_string=False,162,178,reference,178
+ipython,IPython\testing\tools.py,help_all_output_test,subcommand='',459,467,reference,462
+ipython,IPython\testing\tools.py,ipexec,"fname, options=None, commands=()",180,230,reference,212
+ipython,IPython\testing\tools.py,ipexec,"fname, options=None, commands=()",180,230,reference,223
+ipython,IPython\testing\tools.py,help_output_test,subcommand='',448,456,reference,451
+ipython,IPython\utils\py3compat.py,input,prompt='',151,152,reference,152
+ipython,IPython\utils\terminal.py,set_term_title,title,106,110,reference,110
+ipython,IPython\utils\terminal.py,_set_term_title_xterm,title,71,73,reference,73
+ipython,IPython\utils\text.py,indent,"instr, nspaces='4', ntabs='0', flatten=False",255,291,reference,287
+ipython,IPython\utils\text.py,indent,"instr, nspaces='4', ntabs='0', flatten=False",255,291,reference,288
+ipython,IPython\utils\text.py,indent,"instr, nspaces='4', ntabs='0', flatten=False",255,291,reference,289
+ipython,IPython\utils\text.py,_col_chunks,"l, max_rows, row_first=False",622,630,reference,626
+ipython,IPython\utils\text.py,_col_chunks,"l, max_rows, row_first=False",622,630,reference,627
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,716
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,716
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,716
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,718
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,718
+ipython,IPython\utils\text.py,compute_item_matrix,"items, row_first=False, empty=None, *args, **kwargs",656,718,reference,718
+ipython,IPython\utils\text.py,marquee,"txt='', width='78', mark='*'",316,338,reference,338
+ipython,IPython\utils\text.py,marquee,"txt='', width='78', mark='*'",316,338,reference,338
+ipython,IPython\utils\_process_common.py,get_output_error_code,cmd,153,175,reference,171
+ipython,IPython\utils\_process_win32.py,getoutput,cmd,134,156,reference,152
+ipython,IPython\utils\tests\test_process.py,test_arg_split_win32,,80,90,reference,90
+ipython,IPython\utils\tests\test_process.py,test_arg_split_win32,,80,90,reference,90
+ipython,IPython\utils\tests\test_process.py,test_arg_split,,65,78,reference,78
+ipython,IPython\utils\tests\test_process.py,test_arg_split,,65,78,reference,78
+ipython,IPython\utils\tests\test_tokenutil.py,test_nested_call,,75,88,reference,79
+ipython,IPython\utils\tests\test_tokenutil.py,test_nested_call,,75,88,reference,79
+ipython,IPython\utils\tests\test_tokenutil.py,test_nested_call,,75,88,reference,87
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline,,42,54,reference,49
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline,,42,54,reference,49
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline,,42,54,reference,53
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline,,42,54,reference,53
+ipython,IPython\utils\tests\test_tokenutil.py,test_function,,29,40,reference,37
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline_token,,56,73,reference,68
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline_token,,56,73,reference,68
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline_token,,56,73,reference,72
+ipython,IPython\utils\tests\test_tokenutil.py,test_multiline_token,,56,73,reference,72
+ipython,IPython\core\alias.py,undefine_alias,"self, name",241,245,delsubscript,243
+ipython,IPython\core\builtin_trap.py,add_builtin,"self, key, value",81,91,delsubscript,88
+ipython,IPython\core\builtin_trap.py,remove_builtin,"self, key, orig",93,98,delsubscript,96
+ipython,IPython\core\completer.py,get__all__entries,obj,418,425,getattr,421
+ipython,IPython\core\completer.py,_safe_isinstance,"obj, module, class_name",479,483,getattr,483
+ipython,IPython\core\completer.py,_default_arguments,"self, obj",831,870,getattr,843
+ipython,IPython\core\completer.py,_default_arguments,"self, obj",831,870,getattr,845
+ipython,IPython\core\completer.py,_default_arguments,"self, obj",831,870,getattr,846
+ipython,IPython\core\completer.py,_default_arguments,"self, obj",831,870,getattr,851
+ipython,IPython\core\completerlib.py,is_importable,"module, attr, only_modules",150,154,getattr,152
+ipython,IPython\core\displayhook.py,check_for_underscore,self,72,81,delsubscript,79
+ipython,IPython\core\displayhook.py,flush,self,269,295,delsubscript,278
+ipython,IPython\core\displaypub.py,clear_output,"self, wait=False",113,117,delsubscript,117
+ipython,IPython\core\excolors.py,__getattr__,"self, name",166,170,getattr,167
+ipython,IPython\core\formatters.py,_mod_name_key,typ,230,237,getattr,235
+ipython,IPython\core\formatters.py,_mod_name_key,typ,230,237,getattr,236
+ipython,IPython\core\formatters.py,_get_type,obj,240,242,getattr,242
+ipython,IPython\core\formatters.py,_in_deferred_types,"self, cls",516,530,getattr,522
+ipython,IPython\core\formatters.py,_in_deferred_types,"self, cls",516,530,getattr,523
+ipython,IPython\core\inputsplitter.py,get_input_encoding,,150,159,getattr,156
+ipython,IPython\core\interactiveshell.py,init_hooks,self,785,799,getattr,796
+ipython,IPython\core\interactiveshell.py,set_hook,"self, name, hook, priority='50', str_key=None, re_key=None, _warn_deprecated=True",801,845,getattr,827
+ipython,IPython\core\interactiveshell.py,_clear_warning_registry,self,865,870,delsubscript,870
+ipython,IPython\core\interactiveshell.py,reset,"self, new_session=True",1203,1243,delsubscript,1230
+ipython,IPython\core\interactiveshell.py,del_var,"self, varname, by_name=False",1245,1284,delsubscript,1266
+ipython,IPython\core\interactiveshell.py,del_var,"self, varname, by_name=False",1245,1284,delsubscript,1279
+ipython,IPython\core\interactiveshell.py,del_var,"self, varname, by_name=False",1245,1284,getattr,1283
+ipython,IPython\core\interactiveshell.py,reset_selective,"self, regex=None",1286,1306,delsubscript,1306
+ipython,IPython\core\interactiveshell.py,drop_by_id,"self, variables",1356,1372,delsubscript,1371
+ipython,IPython\core\interactiveshell.py,_ofind,"self, oname, namespaces=None",1378,1473,getattr,1434
+ipython,IPython\core\interactiveshell.py,_getattr_property,"obj, attrname",1475,1512,getattr,1492
+ipython,IPython\core\interactiveshell.py,_getattr_property,"obj, attrname",1475,1512,getattr,1512
+ipython,IPython\core\interactiveshell.py,_inspect,"self, meth, oname, namespaces=None, **kw",1518,1539,getattr,1526
+ipython,IPython\core\interactiveshell.py,run_line_magic,"self, magic_name, line",2048,2080,getattr,2076
+ipython,IPython\core\magic.py,_function_magic_marker,magic_kind,213,266,getattr,226
+ipython,IPython\core\magic.py,__init__,"self, shell=None, **kwargs",491,523,getattr,517
+ipython,IPython\core\magic_arguments.py,construct_parser,magic_func,139,158,getattr,142
+ipython,IPython\core\magic_arguments.py,construct_parser,magic_func,139,158,getattr,144
+ipython,IPython\core\magic_arguments.py,real_name,magic_func,167,173,getattr,173
+ipython,IPython\core\magic_arguments.py,__call__,"self, func",180,185,getattr,181
+ipython,IPython\core\magic_arguments.py,__call__,"self, func",201,210,getattr,202
+ipython,IPython\core\magic_arguments.py,add_to_parser,"self, parser, group",228,234,getattr,233
+ipython,IPython\core\oinspect.py,getsource,"obj, oname=''",145,205,getattr,167
+ipython,IPython\core\oinspect.py,pinfo,"self, obj, oname='', formatter=None, info=None, detail_level='0', enable_html_pager=True",693,718,delsubscript,717
+ipython,IPython\core\oinspect.py,_info,"self, obj, oname='', info=None, detail_level='0'",729,952,getattr,889
+ipython,IPython\core\oinspect.py,_info,"self, obj, oname='', info=None, detail_level='0'",729,952,getattr,931
+ipython,IPython\core\page.py,_detect_screen_size,screen_lines_def,79,140,delsubscript,133
+ipython,IPython\core\prefilter.py,unregister_handler,"self, name, handler, esc_strings",223,232,delsubscript,226
+ipython,IPython\core\prefilter.py,unregister_handler,"self, name, handler, esc_strings",223,232,delsubscript,232
+ipython,IPython\core\pylabtools.py,configure_inline_support,"shell, backend",340,396,delattribute,386
+ipython,IPython\core\pylabtools.py,configure_inline_support,"shell, backend",340,396,getattr,392
+ipython,IPython\core\ultratb.py,get_parts_of_chained_exception,"self, evalue",1145,1157,getattr,1147
+ipython,IPython\core\ultratb.py,get_parts_of_chained_exception,"self, evalue",1145,1157,getattr,1150
+ipython,IPython\core\ultratb.py,get_parts_of_chained_exception,"self, evalue",1145,1157,getattr,1152
+ipython,IPython\core\ultratb.py,debugger,"self, force=False",1202,1244,delattribute,1244
+ipython,IPython\core\ultratb.py,text_repr,value,1460,1486,getattr,1476
+ipython,IPython\core\ultratb.py,text_repr,value,1460,1486,getattr,1480
+ipython,IPython\core\magics\code.py,extract_symbols,"code, symbols",86,139,getattr,110
+ipython,IPython\core\magics\code.py,_find_edit_target,"shell, args, opts, last_call",396,524,getattr,473
+ipython,IPython\core\magics\config.py,config,"self, s",37,159,getattr,136
+ipython,IPython\core\magics\execution.py,visit_For,"self, node",111,115,getattr,113
+ipython,IPython\core\magics\execution.py,visit_For,"self, node",111,115,getattr,113
+ipython,IPython\core\magics\osm.py,unalias,"self, parameter_s=''",129,144,delsubscript,143
+ipython,IPython\core\magics\osm.py,rehashx,"self, parameter_s=''",146,230,delsubscript,163
+ipython,IPython\core\tests\test_completer.py,test_omit__names,,297,324,delattribute,324
+ipython,IPython\core\tests\test_interactiveshell.py,test_exit_code_signal_csh,self,563,573,delsubscript,573
+ipython,IPython\core\tests\test_interactiveshell.py,tearDown,self,707,709,delsubscript,709
+ipython,IPython\core\tests\test_iplib.py,test_db,,249,254,delsubscript,253
+ipython,IPython\core\tests\test_magic.py,test_rehashx,,92,107,delsubscript,95
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,78
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,84
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,90
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,97
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,103
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,109
+ipython,IPython\core\tests\test_magic_arguments.py,test_magic_arguments,,76,118,getattr,115
+ipython,IPython\core\tests\test_prefilter.py,test_prefilter_shadowed,,26,49,delsubscript,39
+ipython,IPython\core\tests\test_prefilter.py,test_prefilter_shadowed,,26,49,delsubscript,46
+ipython,IPython\core\tests\test_prefilter.py,test_autocall_binops,,51,77,delsubscript,77
+ipython,IPython\core\tests\test_prefilter.py,test_prefilter_attribute_errors,,98,119,delsubscript,118
+ipython,IPython\extensions\autoreload.py,mark_module_skipped,"self, module_name",151,157,delsubscript,154
+ipython,IPython\extensions\autoreload.py,mark_module_reloadable,"self, module_name",159,165,delsubscript,162
+ipython,IPython\extensions\autoreload.py,filename_and_mtime,"self, module",185,209,getattr,189
+ipython,IPython\extensions\autoreload.py,check,"self, check_all=False, do_reload=True",211,253,delsubscript,249
+ipython,IPython\extensions\autoreload.py,update_function,"old, new",267,273,getattr,271
+ipython,IPython\extensions\autoreload.py,update_class,"old, new",276,297,getattr,280
+ipython,IPython\extensions\autoreload.py,update_class,"old, new",276,297,getattr,283
+ipython,IPython\extensions\autoreload.py,update_class,"old, new",276,297,getattr,295
+ipython,IPython\extensions\autoreload.py,superreload,"module, reload=reload, old_objects={}",348,407,delsubscript,405
+ipython,IPython\extensions\tests\test_autoreload.py,get_module,self,87,92,delsubscript,90
+ipython,IPython\extensions\tests\test_storemagic.py,test_autorestore,,35,50,delsubscript,38
+ipython,IPython\external\decorators\_numpy_testing_noseclasses.py,configure,"self, options, conf",33,39,getattr,37
+ipython,IPython\lib\backgroundjobs.py,flush,self,312,330,delsubscript,324
+ipython,IPython\lib\deepreload.py,deep_reload_hook,m,272,321,getattr,299
+ipython,IPython\lib\inputhook.py,clear_app_refs,"self, gui=None",188,210,delsubscript,210
+ipython,IPython\lib\pretty.py,_safe_getattr,"obj, attr, default=None",101,110,getattr,108
+ipython,IPython\lib\pretty.py,deq,self,472,481,delsubscript,476
+ipython,IPython\lib\pretty.py,deq,self,472,481,delsubscript,481
+ipython,IPython\lib\pretty.py,_default_pprint,"obj, p, cycle",495,530,getattr,515
+ipython,IPython\lib\pretty.py,_re_pattern_pprint,"obj, p, cycle",643,665,getattr,660
+ipython,IPython\lib\pretty.py,_exception_pprint,"obj, p, cycle",717,729,getattr,719
+ipython,IPython\lib\pretty.py,_exception_pprint,"obj, p, cycle",717,729,getattr,724
+ipython,IPython\terminal\debugger.py,pt_init,self,17,38,getattr,31
+ipython,IPython\terminal\interactiveshell.py,init_prompt_toolkit_cli,self,209,250,getattr,235
+ipython,IPython\testing\globalipapp.py,stream,self,42,44,getattr,44
+ipython,IPython\testing\tools.py,check_pairs,"func, pairs",314,333,getattr,330
+ipython,IPython\testing\tools.py,check_pairs,"func, pairs",314,333,getattr,330
+ipython,IPython\testing\tools.py,__enter__,self,373,377,getattr,374
+ipython,IPython\testing\plugin\ipdoctest.py,__getattribute__,"self, key",83,87,getattr,87
+ipython,IPython\testing\plugin\ipdoctest.py,_find,"self, tests, obj, name, module, source_lines, globs, seen",125,172,getattr,161
+ipython,IPython\testing\plugin\ipdoctest.py,_find,"self, tests, obj, name, module, source_lines, globs, seen",125,172,getattr,163
+ipython,IPython\testing\plugin\ipdoctest.py,_parse_example,"self, m, name, lineno, ip2py=False",484,547,delsubscript,528
+ipython,IPython\utils\dir2.py,safe_hasattr,"obj, attr",12,20,getattr,17
+ipython,IPython\utils\dir2.py,get_real_method,"obj, name",51,81,getattr,65
+ipython,IPython\utils\dir2.py,get_real_method,"obj, name",51,81,getattr,74
+ipython,IPython\utils\importstring.py,import_item,name,10,39,getattr,33
+ipython,IPython\utils\io.py,__init__,"self, stream, fallback=None",27,42,getattr,42
+ipython,IPython\utils\io.py,__init__,"self, file_or_name, mode='w', channel='stdout'",107,130,getattr,128
+ipython,IPython\utils\ipstruct.py,__isub__,"self, other",200,215,delsubscript,214
+ipython,IPython\utils\ipstruct.py,merge,"self, __loc_data__=None, __conflict_solve=None, **kw",273,390,delsubscript,384
+ipython,IPython\utils\wildcard.py,create_typestr2type_dicts,dont_include_in_type2typestr=['lambda'],23,35,getattr,31
+ipython,IPython\utils\wildcard.py,dict_dir,obj,59,74,getattr,71
+ipython,IPython\utils\_signatures.py,_get_user_defined_method,"cls, method_name, *nested",52,65,getattr,56
+ipython,IPython\utils\_signatures.py,_get_user_defined_method,"cls, method_name, *nested",52,65,getattr,58
+ipython,IPython\utils\_signatures.py,from_function,"cls, func",510,581,getattr,524
+ipython,IPython\utils\_signatures.py,from_function,"cls, func",510,581,getattr,526
+ipython,IPython\utils\_signatures.py,from_function,"cls, func",510,581,getattr,528
+ipython,IPython\utils\tests\test_capture.py,test_rich_output_empty,,71,75,getattr,75
+ipython,IPython\utils\tests\test_capture.py,test_rich_output_no_metadata,,88,93,getattr,93
+ipython,IPython\utils\tests\test_capture.py,test_rich_output_metadata,,95,101,getattr,101
+ipython,IPython\utils\tests\test_io.py,tchan,"self, channel, check='close'",42,58,getattr,47
+ipython,IPython\utils\tests\test_path.py,teardown_environment,,101,113,delsubscript,110
+ipython,IPython\utils\tests\test_path.py,teardown_environment,,101,113,delattribute,113
+ipython,IPython\utils\tests\test_path.py,test_get_home_dir_4,,156,162,delsubscript,160
+ipython,IPython\utils\tests\test_path.py,test_no_link,self,471,481,delattribute,475
+ipython,setupext\install_data_ext.py,run,self,45,80,getattr,55
+ipython,setupext\install_data_ext.py,run,self,45,80,getattr,57

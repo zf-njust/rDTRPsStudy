@@ -1,0 +1,143 @@
+31a89d9c; (tag: refs/tags/v2.27.1);Nate Prewitt;2022-01-05 08:35:04 -0700;v2.27.1
+0192aac2; (tag: refs/tags/v2.27.0);Nate Prewitt;2021-12-28 21:51:40 -0700;v2.27.0
+a1a6a549; (tag: refs/tags/v2.26.0);Nate Prewitt;2021-07-09 12:12:59 -0700;v2.26.0
+c2b307db; (tag: refs/tags/v2.25.1);Nate Prewitt;2020-12-16 09:55:17 -0800;v2.25.1
+03957eb1; (tag: refs/tags/v2.25.0);Nate Prewitt;2020-11-10 12:34:35 -0800;v2.25.0
+0797c61f; (tag: refs/tags/v2.24.0);Nate Prewitt;2020-06-16 13:55:11 -0700;v2.24.0
+c7e0fc08; (tag: refs/tags/v2.23.0);Nate Prewitt;2020-02-19 10:27:54 -0800;v2.23.0
+aeda65bb; (tag: refs/tags/v2.22.0);Nate Prewitt;2019-05-15 08:20:29 -0700;v2.22.0
+5a1e738e; (tag: refs/tags/v2.21.0);Nate Prewitt;2018-12-09 22:13:32 -0800;v2.21.0
+6cfbe1ae; (tag: refs/tags/v2.20.1);Nate Prewitt;2018-11-08 09:14:10 -0800;v2.20.1
+bd840450; (tag: refs/tags/v2.20.0);Nate Prewitt;2018-10-16 13:06:29 -0700;v2.20.0
+883caaf1; (tag: refs/tags/v2.19.1);Nate Prewitt;2018-06-14 06:26:27 -0700;v2.19.1
+991e8b76; (tag: refs/tags/v2.19.0);Nate Prewitt;2018-06-12 06:38:26 -0700;v2.19.0
+a3d7cf3f; (tag: refs/tags/v2.18.4);Cory Benfield;2017-08-15 14:22:52 +0100;v2.18.4
+7c67c4ad; (tag: refs/tags/v2.18.3);Cory Benfield;2017-08-02 14:22:44 +0100;v2.18.3
+6cc891fd; (tag: refs/tags/v2.18.2);Cory Benfield;2017-07-25 16:21:48 +0100;v2.18.2
+51de61f9; (tag: refs/tags/v2.18.1);Cory Benfield;2017-06-14 18:50:53 +0100;v2.18.1
+d93b37ce; (tag: refs/tags/v2.18.0);Cory Benfield;2017-06-14 16:43:40 +0100;Prepare v2.18.0
+5091c15b; (tag: refs/tags/v2.17.3);Kenneth Reitz;2017-05-29 17:54:15 -0400;v2.17.3
+850c0bed; (tag: refs/tags/v2.17.2);Kenneth Reitz;2017-05-29 17:33:16 -0400;v2.17.2
+2d763c90; (tag: refs/tags/v2.17.1);Kenneth Reitz;2017-05-29 15:59:00 -0400;v2.17.1
+916d171f; (tag: refs/tags/v2.17.0);Kenneth Reitz;2017-05-29 13:17:57 -0400;Merge branch 'master' of github.com:kennethreitz/requests
+16c8241a; (tag: refs/tags/v2.16.5);Kenneth Reitz;2017-05-28 00:35:36 -0400;v2.16.5
+f0fb5034; (tag: refs/tags/v2.16.4);Kenneth Reitz;2017-05-27 17:14:10 -0400;better headings
+d42556a9; (tag: refs/tags/v2.16.2);Kenneth Reitz;2017-05-27 10:53:02 -0400;2.16.2
+f687e9f3; (tag: refs/tags/v2.16.1);Kenneth Reitz;2017-05-27 09:58:37 -0400;history
+bcd0e170; (tag: refs/tags/v2.16.0);Kenneth Reitz;2017-05-26 23:36:19 -0400;requirements
+282b01a7; (tag: refs/tags/v2.15.1);Kenneth Reitz;2017-05-26 22:13:29 -0400;new release
+0aee4834; (tag: refs/tags/v2.16.3, tag: refs/tags/v2.15.0);Kenneth Reitz;2017-05-26 21:43:03 -0400;fix setup.py
+e4693eba; (tag: refs/tags/v2.14.2);Cory Benfield;2017-05-10 15:04:22 +0100;v2.14.2
+3618f3f6; (tag: refs/tags/v2.14.1);Cory Benfield;2017-05-09 19:58:39 +0100;v2.14.1
+508d47dc; (tag: refs/tags/v2.14.0);Cory Benfield;2017-05-09 16:44:27 +0100;v2.14.0
+b2289cd2; (tag: refs/tags/v2.13.0);Ian Cordasco;2017-01-24 06:32:12 -0600;Bump version for 2.13.0
+5dcc0394; (tag: refs/tags/v2.12.5);Cory Benfield;2017-01-18 12:41:46 +0000;v2.12.5
+1285f576; (tag: refs/tags/v2.12.4);Cory Benfield;2016-12-14 11:37:52 +0000;v2.12.4
+c398ab0e; (tag: refs/tags/v2.12.3);Cory Benfield;2016-12-01 10:48:35 +0000;v2.12.3
+ca15d480; (tag: refs/tags/v2.12.2);Cory Benfield;2016-11-30 12:38:26 +0000;v2.12.2
+eb39a557; (tag: refs/tags/v2.12.1);Cory Benfield;2016-11-16 10:44:29 +0000;v2.12.1
+362da46e; (tag: refs/tags/v2.12.0);Cory Benfield;2016-11-15 10:30:17 +0000;v2.12.0
+53275680; (tag: refs/tags/v2.11.1);Kenneth Reitz;2016-08-17 16:03:38 -0400;v2.11.1
+a2e41ba1; (tag: refs/tags/v2.11.0);Kenneth Reitz;2016-08-08 11:06:58 -0400;v2.11.0
+efb4af01; (tag: refs/tags/v2.10.0);Kenneth Reitz;2016-04-29 18:11:49 -0400;v2.10.0
+c9ef5653; (tag: refs/tags/v2.9.2);Kenneth Reitz;2016-04-29 17:56:42 -0400;v2.9.2
+11080586; (tag: refs/tags/v2.9.1);Cory Benfield;2015-12-21 14:53:36 +0000;v2.9.1
+5f7a3a74; (tag: refs/tags/v2.9.0);Cory Benfield;2015-12-15 15:29:27 +0000;v2.9.0
+18a6b601; (tag: refs/tags/v2.8.1);Cory Benfield;2015-10-13 13:55:09 +0100;v2.8.1
+e499b354; (tag: refs/tags/v2.8.0);Ian Cordasco;2015-10-05 11:21:40 -0500;Merge pull request #2804 from Lukasa/final-2.8.0
+b7bd2973; (tag: refs/tags/v2.7.0);Cory Benfield;2015-05-03 15:45:47 +0100;v2.7.0
+ca66267d; (tag: refs/tags/v2.6.2);Ian Cordasco;2015-04-23 11:29:10 -0500;Add release notes for 2.6.2
+3880cf12; (tag: refs/tags/v2.6.1);Ian Cordasco;2015-04-22 17:12:26 -0500;Merge pull request #2556 from sigmavirus24/release/2.6.1
+fa338da7; (tag: refs/tags/v2.6.0);Ian Cordasco;2015-03-14 11:43:32 -0500;Merge pull request #2492 from sigmavirus24/release/v2.6.0
+628474d6; (tag: refs/tags/v2.5.3);Ian Cordasco;2015-02-24 10:30:17 -0600;Update HISTORY and release version for 2.5.3
+d8be2473; (tag: refs/tags/v2.5.2);Ian Cordasco;2015-02-23 16:26:40 -0600;Update HISTORY and version for v2.5.2
+b8313177; (tag: refs/tags/v2.5.1);Ian Cordasco;2014-12-23 11:54:01 -0600;Bump version to 2.5.1
+f172b303; (tag: refs/tags/v2.5.0);Ian Cordasco;2014-12-01 17:22:17 -0600;Merge pull request #2365 from sigmavirus24/release/2.5
+46d64606; (tag: refs/tags/v2.4.3);Kenneth Reitz;2014-10-06 05:44:25 -0400;v2.4.3
+779c001e; (tag: refs/tags/v2.4.2);Kenneth Reitz;2014-10-05 13:15:33 -0400;requests v2.4.2
+dff383ce; (tag: refs/tags/v2.4.1);Kenneth Reitz;2014-09-09 12:34:34 -0400;requests v2.4.1
+95161ed3; (tag: refs/tags/v2.4.0);Kenneth Reitz;2014-08-29 10:32:18 -0400;v2.4.0 changelog
+6366d3dd; (tag: refs/tags/v2.3.0);Kenneth Reitz;2014-05-16 13:55:47 -0400;v2.3.0
+33735480; (tag: refs/tags/v2.2.1);Kenneth Reitz;2014-01-23 13:25:40 -0500;v2.2.1
+0db1d3d6; (tag: refs/tags/v2.2.0);Kenneth Reitz;2014-01-09 14:33:17 -0500;v2.2.0
+3235766d; (tag: refs/tags/v2.1.0);Kenneth Reitz;2013-12-05 17:51:10 -0500;updated CA Bundle!
+dd777b3d; (tag: refs/tags/v2.0.1);Kenneth Reitz;2013-10-24 10:32:05 -0400;urllib3/chardet note in release for v2.0.1
+44016201; (tag: refs/tags/v2.0.0);Kenneth Reitz;2013-09-24 15:08:12 -0400;add history to the docs
+4f463e89; (tag: refs/tags/v2.0);Kenneth Reitz;2013-09-24 14:31:25 -0400;Merge remote-tracking branch 'origin/master'
+22701d14; (tag: refs/tags/2.0);Kenneth Reitz;2013-07-31 18:23:43 -0700;Merge pull request #1500 from gavrie/master
+3bb13f8f; (tag: refs/tags/v1.2.3);Kenneth Reitz;2013-05-25 12:48:10 -0400;v1.2.3
+00ab8fbf; (tag: refs/tags/v1.2.2);Kenneth Reitz;2013-05-21 17:43:53 -0400;Merge remote-tracking branch 'origin/master'
+569b59f4; (tag: refs/tags/v1.2.1);Kenneth Reitz;2013-05-20 16:10:23 -0400;v1.2.1
+d06908d6; (tag: refs/tags/v1.2.0);Kenneth Reitz;2013-03-31 08:28:22 +0300;v1.2.0
+1a7c91f6; (tag: refs/tags/v1.1.0);Kenneth Reitz;2013-01-10 02:13:06 -0500;Merge remote-tracking branch 'origin/master'
+5b5ff692; (tag: refs/tags/v1.0.4);Kenneth Reitz;2012-12-23 02:42:14 -0500;update docs
+c60b72e2; (tag: refs/tags/v1.0.3);Kenneth Reitz;2012-12-18 04:50:41 -0500;v1.0.3
+f549efd4; (tag: refs/tags/v1.0.2);Kenneth Reitz;2012-12-17 13:58:33 -0500;v1.0.2
+b30b09e8; (tag: refs/tags/v1.0.1);Kenneth Reitz;2012-12-17 13:53:24 -0500;v1.0.1
+0d8d99de; (tag: refs/tags/v1.0.0);Kenneth Reitz;2012-12-17 10:07:13 -0500;travis on 3.3 is broken
+63243b1e; (tag: refs/tags/v0.14.2);Kenneth Reitz;2012-10-27 10:08:40 -0500;v0.14.2
+9dce7861; (tag: refs/tags/v0.14.1);Kenneth Reitz;2012-10-01 13:29:38 -0400;v0.14.1
+a69cf7e7; (tag: refs/tags/v0.14.0);Kenneth Reitz;2012-09-02 04:50:05 -0400;v0.14.0
+1be2a55a; (tag: refs/tags/v0.13.9);Kenneth Reitz;2012-08-25 11:07:13 -0400;Remove exception eating from dispatch_hook.
+b130b980; (tag: refs/tags/v0.13.7);Kenneth Reitz;2012-08-19 10:46:55 +1000;v0.13.7
+fc6ddfd7; (tag: refs/tags/v0.13.6);Kenneth Reitz;2012-08-06 02:45:52 -0400;v0.13.6
+9abc9ad1; (tag: refs/tags/v0.13.5);Kenneth Reitz;2012-07-27 03:23:33 -0400;v0.13.5
+76775159; (tag: refs/tags/v0.13.4);Kenneth Reitz;2012-07-27 02:21:56 -0400;v0.13.4
+884fc333; (tag: refs/tags/v0.13.3);Kenneth Reitz;2012-07-12 13:18:35 -0700;makin' history
+d983cfab; (tag: refs/tags/v0.13.2);Kenneth Reitz;2012-06-28 17:35:07 -0700;syntax error
+10d23981; (tag: refs/tags/v0.13.1);Kenneth Reitz;2012-06-07 22:21:06 -0400;fix test for python3
+77a57c0e; (tag: refs/tags/v0.13.0);Kenneth Reitz;2012-05-29 20:53:51 -0400;v0.13.0
+bca920c1; (tag: refs/tags/v0.12.1);Kenneth Reitz;2012-05-08 01:18:05 -0400;v0.12.1
+373a34a1; (tag: refs/tags/v0.12.0);Kenneth Reitz;2012-05-02 19:17:14 -0400;date fix
+775b6f6f; (tag: refs/tags/v0.11.1);Kenneth Reitz;2012-03-30 23:42:56 -0400;v0.11.1
+65621377; (tag: refs/tags/v0.10.8);Kenneth Reitz;2012-03-09 08:59:12 -0800;cookie history
+946f7ec5; (tag: refs/tags/v0.10.7);Kenneth Reitz;2012-03-07 16:50:02 -0800;percent encoded
+0eb5b633; (tag: refs/tags/v0.10.6);Kenneth Reitz;2012-02-25 23:17:45 -0500;v0.10.6
+cfeb4854; (tag: refs/tags/v0.10.5);Kenneth Reitz;2012-02-25 23:05:39 -0500;v0.10.5
+c9b49202; (tag: refs/tags/v0.10.4);Kenneth Reitz;2012-02-20 16:21:25 -0500;v0.10.4
+6f573527; (tag: refs/tags/v0.10.3);Kenneth Reitz;2012-02-20 14:02:13 -0500;history for HEAD 3xx
+8e2696b3; (tag: refs/tags/v0.10.2);Kenneth Reitz;2012-02-15 03:14:48 -0500;history
+8493d832; (tag: refs/tags/v0.10.1);Kenneth Reitz;2012-01-23 02:28:01 -0500;PYTHON 3
+b0555b68; (tag: refs/tags/v0.10.0);Kenneth Reitz;2012-01-21 23:06:34 -0500;history!
+c18e6459; (tag: refs/tags/v0.9.3);Kenneth Reitz;2012-01-18 21:56:33 -0500;v0.9.3
+8754bdde; (tag: refs/tags/v0.9.2);Kenneth Reitz;2012-01-18 21:39:43 -0500;authors update
+638532dd; (tag: refs/tags/v0.9.1);Kenneth Reitz;2012-01-06 01:10:53 -0500;v0.9.1
+9c0a0fbd; (tag: refs/tags/v0.9.0);Kenneth Reitz;2011-12-28 04:49:51 -0500;ch ch changes
+082f4d89; (tag: refs/tags/v0.8.9);Kenneth Reitz;2011-12-28 04:38:38 -0500;packaging
+5f768b19; (tag: refs/tags/v0.8.8);Kenneth Reitz;2011-12-28 03:51:41 -0500;certifi v0.0.4
+0bfc029b; (tag: refs/tags/v0.8.7);Kenneth Reitz;2011-12-24 03:16:40 -0500;v0.8.7
+c910b958; (tag: refs/tags/v0.8.6);Kenneth Reitz;2011-12-18 19:18:16 -0500;quotes
+0e711f2f; (tag: refs/tags/v0.8.5);Kenneth Reitz;2011-12-14 10:43:08 -0500;v0.8.5
+10eed634; (tag: refs/tags/v0.8.4);Kenneth Reitz;2011-12-11 11:39:57 -0500;v0.8.4
+ee36baf4; (tag: refs/tags/v0.8.3);Kenneth Reitz;2011-11-27 10:41:06 -0500;test tuple'd auth
+ab23536b; (tag: refs/tags/v0.8.2);Kenneth Reitz;2011-11-19 16:15:48 -0500;quickstart for encoding
+b79dea97; (tag: refs/tags/v0.8.1);Kenneth Reitz;2011-11-15 09:56:21 -0500;v0.8.1
+9aa62d56; (tag: refs/tags/v0.8.0);Kenneth Reitz;2011-11-13 00:48:54 -0500;13th
+8c90c610; (tag: refs/tags/v0.7.6);Kenneth Reitz;2011-11-07 14:20:32 -0500;v0.7.6
+cf36d8c7; (tag: refs/tags/v0.7.5);Kenneth Reitz;2011-11-04 23:32:15 -0400;changes!
+3a4f6ba8; (tag: refs/tags/v0.7.4);Kenneth Reitz;2011-10-26 18:36:14 -0400;v0.7.4
+0008b035; (tag: refs/tags/v0.7.3);Kenneth Reitz;2011-10-23 16:56:47 -0400;v0.7.3
+e15834da; (tag: refs/tags/v0.7.2);Kenneth Reitz;2011-10-23 15:40:10 -0400;v0.7.2
+02cf3dce; (tag: refs/tags/v0.7.1);Kenneth Reitz;2011-10-23 15:18:27 -0400;v0.7.1
+1a4dfad5; (tag: refs/tags/v0.7.0);Kenneth Reitz;2011-10-22 21:33:00 -0400;mod string formatting for 2.5
+d938f320; (tag: refs/tags/v0.6.6);Kenneth Reitz;2011-10-19 03:39:36 -0400;v0.6.6
+b37b977d; (tag: refs/tags/v0.6.5);Kenneth Reitz;2011-10-19 01:30:45 -0400;v0.6.5
+4f6fc985; (tag: refs/tags/v0.6.4);Kenneth Reitz;2011-10-13 22:23:04 -0400;Merge branch 'release/0.6.4'
+15511584; (tag: refs/tags/v0.6.3);Kenneth Reitz;2011-10-13 21:33:55 -0400;Merge branch 'release/0.6.3'
+a8695ecd; (tag: refs/tags/v0.6.2);Kenneth Reitz;2011-10-09 07:11:48 -0400;v0.6.2
+8b640979; (tag: refs/tags/v0.6.1);Kenneth Reitz;2011-08-20 18:25:32 -0400;v0.6.1
+9471b0ab; (tag: refs/tags/v0.6.0);Kenneth Reitz;2011-08-17 04:32:46 -0400;let's do this
+95ba6fca; (tag: refs/tags/v0.5.1);Kenneth Reitz;2011-07-23 22:59:15 -0400;Merge branch 'release/0.5.1'
+2d98ca74; (tag: refs/tags/v0.5.0);Kenneth Reitz;2011-06-21 22:44:02 -0400;Merge branch 'release/0.5.0'
+add6feab; (tag: refs/tags/v0.4.1);Kenneth Reitz;2011-05-22 14:16:48 -0400;Merge branch 'release/0.4.1'
+aa331946; (tag: refs/tags/v0.4.0);Kenneth Reitz;2011-05-14 23:58:00 -0400;Merge branch 'release/0.4.0'
+0c00a173; (tag: refs/tags/v0.3.4);Kenneth Reitz;2011-05-14 14:31:24 -0400;Merge branch 'release/0.3.4'
+7215452d; (tag: refs/tags/v0.3.3);Kenneth Reitz;2011-05-12 04:02:16 -0400;Merge branch 'release/0.3.3'
+fec0d1a9; (tag: refs/tags/v0.3.2);Kenneth Reitz;2011-04-15 17:29:26 -0400;history changes
+ed8ff630; (tag: refs/tags/v0.3.1);Kenneth Reitz;2011-04-01 14:53:53 -0400;Version bump to 0.3.1
+044252ea; (tag: refs/tags/v0.3.0);Kenneth Reitz;2011-02-25 09:00:23 -0500;Merge branch 'release/0.3.0'
+d2cdefa7; (tag: refs/tags/v0.2.4);Kenneth Reitz;2011-02-19 01:03:39 -0500;Merge branch 'release/0.2.4'
+53e785f6; (tag: refs/tags/v0.2.3);Kenneth Reitz;2011-02-15 09:46:55 -0500;Merge branch 'release/0.2.3'
+ed909eaa; (tag: refs/tags/v0.2.2);Kenneth Reitz;2011-02-14 12:59:06 -0500;Merge branch 'release/0.2.2'
+e09efc49; (tag: refs/tags/v0.2.1);Kenneth Reitz;2011-02-14 10:46:40 -0500;Merge branch 'release/0.2.1'
+d2427eca; (tag: refs/tags/v0.2.0);Kenneth Reitz;2011-02-14 02:15:30 -0500;Roadmap update

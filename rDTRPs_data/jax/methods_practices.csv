@@ -1,0 +1,342 @@
+jax,file,method,params,startlineno,endlineno,type,lineno
+jax,jax\lax\lax.py,conv_general_permutations,dimension_numbers,4458,4484,assignment,4480
+jax,jax\numpy\lax_numpy.py,_logical_op,"np_op, bitwise_op",413,420,assignment,417
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,115
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,114
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,105
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,116
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,114
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,114
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,121
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,106
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,123
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,127
+jax,examples\gaussian_process_regression.py,main,unused_argv,36,132,reference,129
+jax,examples\kernel_lsq.py,train,"kernel, xs, ys, regularization='0.01'",58,74,reference,68
+jax,examples\kernel_lsq.py,train,"kernel, xs, ys, regularization='0.01'",58,74,reference,72
+jax,jax\api.py,pmap,"fun, axis_name=None, devices=None, backend=None",636,798,reference,782
+jax,jax\api.py,pmap,"fun, axis_name=None, devices=None, backend=None",636,798,reference,797
+jax,jax\api.py,pmap,"fun, axis_name=None, devices=None, backend=None",636,798,reference,791
+jax,jax\api.py,lift_linearized,"jaxpr, primal_avals, consts, io_tree, out_pvals, *py_args",1081,1096,reference,1091
+jax,jax\api.py,lift_linearized,"jaxpr, primal_avals, consts, io_tree, out_pvals, *py_args",1081,1096,reference,1092
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,555
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,563
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,556
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,558
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,564
+jax,jax\lax_linalg.py,_lu_jvp_rule,"primals, tangents",530,575,reference,565
+jax,jax\lax_linalg.py,_qr_cpu_gpu_translation_rule,"geqrf_impl, orgqr_impl, c, operand, full_matrices",690,716,reference,704
+jax,jax\lax_linalg.py,_qr_cpu_gpu_translation_rule,"geqrf_impl, orgqr_impl, c, operand, full_matrices",690,716,reference,705
+jax,jax\lax_linalg.py,_qr_cpu_gpu_translation_rule,"geqrf_impl, orgqr_impl, c, operand, full_matrices",690,716,reference,707
+jax,jax\lax_reference.py,_pad,"arr, pads, pad_value",312,317,reference,312
+jax,jax\lax_reference.py,_pad,"arr, pads, pad_value",312,317,reference,313
+jax,jax\lax_reference.py,_pad,"arr, pads, pad_value",312,317,reference,316
+jax,jax\lax_reference.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation, rhs_dilation, dimension_numbers",137,148,reference,141
+jax,jax\lax_reference.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation, rhs_dilation, dimension_numbers",137,148,reference,146
+jax,jax\lax_reference.py,conv,"lhs, rhs, window_strides, padding",128,130,reference,129
+jax,jax\lax_reference.py,conv,"lhs, rhs, window_strides, padding",128,130,reference,130
+jax,jax\lax_reference.py,reduce_window,"operand, init_value, computation, window_dimensions, window_strides, padding",242,250,reference,245
+jax,jax\lax_reference.py,reduce_window,"operand, init_value, computation, window_dimensions, window_strides, padding",242,250,reference,246
+jax,jax\lax_reference.py,_reducer_from_pyfunc,"py_binop, init_val",382,391,reference,384
+jax,jax\lax_reference.py,_reducer_from_pyfunc,"py_binop, init_val",382,391,reference,385
+jax,jax\lax_reference.py,_reducer_from_pyfunc,"py_binop, init_val",382,391,reference,388
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,761
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,762
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,763
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,764
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,766
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,768
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,786
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,787
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,762
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,763
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,764
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,766
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,766
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,768
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,770
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,787
+jax,jax\random.py,_gamma_grad_one,"z, alpha",736,829,reference,789
+jax,jax\test_util.py,assertArraysAllClose,"self, x, y, check_dtypes, atol=None, rtol=None",515,534,reference,527
+jax,jax\test_util.py,assertArraysAllClose,"self, x, y, check_dtypes, atol=None, rtol=None",515,534,reference,527
+jax,jax\test_util.py,assertArraysAllClose,"self, x, y, check_dtypes, atol=None, rtol=None",515,534,reference,530
+jax,jax\test_util.py,assertArraysAllClose,"self, x, y, check_dtypes, atol=None, rtol=None",515,534,reference,530
+jax,jax\test_util.py,numpy_close,"a, b, atol=ATOL, rtol=RTOL, equal_nan=False",78,86,reference,85
+jax,jax\test_util.py,numpy_close,"a, b, atol=ATOL, rtol=RTOL, equal_nan=False",78,86,reference,85
+jax,jax\tree_util.py,tree_multimap,"f, tree, *rest",63,81,reference,63
+jax,jax\tree_util.py,tree_multimap,"f, tree, *rest",63,81,reference,79
+jax,jax\tree_util.py,treedef_tuple,trees,119,120,reference,119
+jax,jax\tree_util.py,treedef_tuple,trees,119,120,reference,120
+jax,jax\experimental\ode.py,initial_step_size,"fun, t0, y0, order, rtol, atol, f0",77,114,reference,100
+jax,jax\experimental\ode.py,initial_step_size,"fun, t0, y0, order, rtol, atol, f0",77,114,reference,112
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,214
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,220
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,221
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,221
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,221
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,222
+jax,jax\experimental\optimizers.py,momentum,"step_size, mass",202,226,reference,222
+jax,jax\experimental\optimizers.py,sgd,step_size,182,200,reference,193
+jax,jax\experimental\optimizers.py,sgd,step_size,182,200,reference,197
+jax,jax\experimental\optimizers.py,polynomial_decay,"step_size, decay_steps, final_step_size, power='1.0'",458,464,reference,461
+jax,jax\experimental\optimizers.py,polynomial_decay,"step_size, decay_steps, final_step_size, power='1.0'",458,464,reference,462
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,379
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,380
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,381
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,382
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,383
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,381
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,382
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,383
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,383
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,384
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,384
+jax,jax\experimental\optimizers.py,adam,"step_size, b1='0.9', b2='0.999', eps='1e-08'",355,388,reference,384
+jax,jax\experimental\optimizers.py,rmsprop_momentum,"step_size, gamma='0.9', eps='1e-08', momentum='0.9'",321,352,reference,345
+jax,jax\experimental\optimizers.py,rmsprop_momentum,"step_size, gamma='0.9', eps='1e-08', momentum='0.9'",321,352,reference,346
+jax,jax\experimental\optimizers.py,rmsprop_momentum,"step_size, gamma='0.9', eps='1e-08', momentum='0.9'",321,352,reference,348
+jax,jax\experimental\optimizers.py,rmsprop,"step_size, gamma='0.9', eps='1e-08'",293,318,reference,312
+jax,jax\experimental\optimizers.py,rmsprop,"step_size, gamma='0.9', eps='1e-08'",293,318,reference,313
+jax,jax\experimental\optimizers.py,rmsprop,"step_size, gamma='0.9', eps='1e-08'",293,318,reference,314
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,172
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,175
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,173
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,175
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,177
+jax,jax\experimental\stax.py,_pooling_layer,"reducer, init_val, rescaler=None",169,183,reference,180
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,72
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,73
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,73
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,81
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,89
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,89
+jax,jax\experimental\stax.py,GeneralConv,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",67,91,reference,89
+jax,jax\experimental\stax.py,_normalize_by_window_size,"dims, strides, padding",188,193,reference,188
+jax,jax\experimental\stax.py,_normalize_by_window_size,"dims, strides, padding",188,193,reference,191
+jax,jax\experimental\stax.py,serial,*layers,266,291,reference,287
+jax,jax\experimental\stax.py,serial,*layers,266,291,reference,288
+jax,jax\experimental\stax.py,GeneralConvTranspose,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",95,119,reference,100
+jax,jax\experimental\stax.py,GeneralConvTranspose,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",95,119,reference,101
+jax,jax\experimental\stax.py,GeneralConvTranspose,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",95,119,reference,101
+jax,jax\experimental\stax.py,GeneralConvTranspose,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",95,119,reference,109
+jax,jax\experimental\stax.py,GeneralConvTranspose,"dimension_numbers, out_chan, filter_shape, strides=None, padding='VALID', W_init=None, b_init=normal('1e-06')",95,119,reference,117
+jax,jax\experimental\stax.py,parallel,*layers,294,319,reference,317
+jax,jax\experimental\stax.py,parallel,*layers,294,319,reference,318
+jax,jax\interpreters\ad.py,jvpfun,"instantiate, primals, tangents",47,56,reference,53
+jax,jax\interpreters\ad.py,jvpfun,"instantiate, primals, tangents",47,56,reference,55
+jax,jax\interpreters\ad.py,vjp,"traceable, primals, has_aux=False",105,121,reference,112
+jax,jax\interpreters\ad.py,vjp,"traceable, primals, has_aux=False",105,121,reference,113
+jax,jax\interpreters\ad.py,vjp,"traceable, primals, has_aux=False",105,121,reference,114
+jax,jax\interpreters\ad.py,vjp,"traceable, primals, has_aux=False",105,121,reference,114
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,141
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,141
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,182
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,163
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,166
+jax,jax\interpreters\ad.py,backward_pass,"jaxpr, consts, freevar_vals, args, cotangents_in",141,187,reference,183
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,492
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,493
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,492
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,492
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,493
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,493
+jax,jax\interpreters\ad.py,f_jvp_traceable,"nonzeros, *primals_and_nztangents",485,494,reference,493
+jax,jax\interpreters\batching.py,batch_jaxpr,"jaxpr, size, batched, instantiate",297,306,reference,297
+jax,jax\interpreters\batching.py,batch_jaxpr,"jaxpr, size, batched, instantiate",297,306,reference,299
+jax,jax\interpreters\batching.py,batched_traceable,"size, batched, instantiate, *vals",308,324,reference,318
+jax,jax\interpreters\batching.py,batched_traceable,"size, batched, instantiate, *vals",308,324,reference,321
+jax,jax\interpreters\batching.py,batched_traceable,"size, batched, instantiate, *vals",308,324,reference,323
+jax,jax\interpreters\partial_eval.py,trace_to_subjaxpr,"master, instantiate, pvals",349,361,reference,355
+jax,jax\interpreters\partial_eval.py,trace_to_subjaxpr,"master, instantiate, pvals",349,361,reference,357
+jax,jax\lax\lax.py,_dilate_shape,"shape, dilation",4203,4209,reference,4208
+jax,jax\lax\lax.py,_dilate_shape,"shape, dilation",4203,4209,reference,4209
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,482
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,486
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,488
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,490
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,491
+jax,jax\lax\lax.py,conv_general_dilated,"lhs, rhs, window_strides, padding, lhs_dilation=None, rhs_dilation=None, dimension_numbers=None, feature_group_count='1', precision=None",420,495,reference,491
+jax,jax\lax\lax.py,reduce_window_shape_tuple,"operand_shape, window_dimensions, window_strides, padding",3594,3600,reference,3596
+jax,jax\lax\lax.py,reduce_window_shape_tuple,"operand_shape, window_dimensions, window_strides, padding",3594,3600,reference,3597
+jax,jax\lax\lax.py,reduce,"operand, init_value, computation, dimensions",868,879,reference,873
+jax,jax\lax\lax.py,reduce,"operand, init_value, computation, dimensions",868,879,reference,874
+jax,jax\lax\lax.py,reduce,"operand, init_value, computation, dimensions",868,879,reference,875
+jax,jax\lax\lax.py,conv_shape_tuple,"lhs_shape, rhs_shape, strides, pads",4278,4291,reference,4281
+jax,jax\lax\lax.py,conv_shape_tuple,"lhs_shape, rhs_shape, strides, pads",4278,4291,reference,4282
+jax,jax\lax\lax.py,conv_shape_tuple,"lhs_shape, rhs_shape, strides, pads",4278,4291,reference,4286
+jax,jax\lax\lax.py,reduce_window,"operand, init_value, computation, window_dimensions, window_strides, padding",940,954,reference,946
+jax,jax\lax\lax.py,reduce_window,"operand, init_value, computation, window_dimensions, window_strides, padding",940,954,reference,947
+jax,jax\lax\lax.py,reduce_window,"operand, init_value, computation, window_dimensions, window_strides, padding",940,954,reference,948
+jax,jax\lax\lax.py,conv_general_shape_tuple,"lhs_shape, rhs_shape, window_strides, padding, dimension_numbers",4294,4300,reference,4294
+jax,jax\lax\lax.py,conv_general_shape_tuple,"lhs_shape, rhs_shape, window_strides, padding, dimension_numbers",4294,4300,reference,4299
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3390
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3391
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3395
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3396
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3397
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3398
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3398
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3400
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3401
+jax,jax\lax\lax.py,_reduce_prod_jvp_rule,"tangent, operand, axes",3377,3405,reference,3401
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3525
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3527
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3529
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3530
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3530
+jax,jax\lax\lax.py,_reduce_window_sum_transpose_rule,"cotangent, window_dimensions, window_strides, padding, input_shape",3523,3537,reference,3534
+jax,jax\lax\lax.py,conv,"lhs, rhs, window_strides, padding, precision=None",1125,1142,reference,1140
+jax,jax\lax\lax.py,conv_transpose,"lhs, rhs, strides, padding, dimension_numbers=None, transpose_kernel=False, precision=None",1206,1261,reference,1236
+jax,jax\lax\lax.py,conv_transpose,"lhs, rhs, strides, padding, dimension_numbers=None, transpose_kernel=False, precision=None",1206,1261,reference,1260
+jax,jax\lax\lax.py,conv_transpose,"lhs, rhs, strides, padding, dimension_numbers=None, transpose_kernel=False, precision=None",1206,1261,reference,1260
+jax,jax\lax\lax.py,_sort_batch_rule,"batched_args, batch_dims, dimension",3883,3888,reference,3887
+jax,jax\lax\lax.py,_sort_batch_rule,"batched_args, batch_dims, dimension",3883,3888,reference,3888
+jax,jax\lax\lax_control_flow.py,_tangent_linear_map,"func, params, params_dot, *x",1153,1163,reference,1160
+jax,jax\lax\lax_control_flow.py,_tangent_linear_map,"func, params, params_dot, *x",1153,1163,reference,1162
+jax,jax\lax\lax_control_flow.py,_scan_transpose,"cts, *args, **kwargs",638,669,reference,661
+jax,jax\lax\lax_control_flow.py,_scan_transpose,"cts, *args, **kwargs",638,669,reference,667
+jax,jax\lax\lax_control_flow.py,_scan_partial_eval,"trace, *tracers, **kwargs",583,630,reference,623
+jax,jax\lax\lax_control_flow.py,_scan_partial_eval,"trace, *tracers, **kwargs",583,630,reference,628
+jax,jax\lax\lax_control_flow.py,_scan_jvp,"primals, tangents, forward, length, jaxpr, num_consts, num_carry, linear",532,578,reference,564
+jax,jax\lax\lax_control_flow.py,_scan_jvp,"primals, tangents, forward, length, jaxpr, num_consts, num_carry, linear",532,578,reference,572
+jax,jax\lax\lax_control_flow.py,_transpose_jaxpr,"num_c, num_res, jaxpr",672,689,reference,681
+jax,jax\lax\lax_control_flow.py,_transpose_jaxpr,"num_c, num_res, jaxpr",672,689,reference,682
+jax,jax\numpy\lax_numpy.py,zeros,"shape, dtype=None",1602,1609,reference,1608
+jax,jax\numpy\lax_numpy.py,zeros,"shape, dtype=None",1602,1609,reference,1609
+jax,jax\numpy\lax_numpy.py,_einsum,"operands, contractions",2080,2196,reference,2180
+jax,jax\numpy\lax_numpy.py,_einsum,"operands, contractions",2080,2196,reference,2181
+jax,jax\numpy\lax_numpy.py,_einsum,"operands, contractions",2080,2196,reference,2182
+jax,jax\numpy\lax_numpy.py,_einsum,"operands, contractions",2080,2196,reference,2182
+jax,jax\numpy\lax_numpy.py,ix_,*args,1741,1760,reference,1753
+jax,jax\numpy\lax_numpy.py,ix_,*args,1741,1760,reference,1754
+jax,jax\numpy\lax_numpy.py,ix_,*args,1741,1760,reference,1757
+jax,jax\numpy\lax_numpy.py,ix_,*args,1741,1760,reference,1759
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1340
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1343
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1344
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1341
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1342
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1345
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1347
+jax,jax\numpy\lax_numpy.py,_make_cumulative_reduction,"onp_reduction, window_reduce, init_val, squash_nan=False",1309,1354,reference,1347
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2878
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2879
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2881
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2882
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2879
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2882
+jax,jax\numpy\lax_numpy.py,_canonicalize_tuple_index,"arr_ndim, idx",2866,2883,reference,2883
+jax,jax\numpy\lax_numpy.py,_index_to_gather,"x_shape, idx",2625,2796,reference,2627
+jax,jax\numpy\lax_numpy.py,_index_to_gather,"x_shape, idx",2625,2796,reference,2645
+jax,jax\numpy\lax_numpy.py,_index_to_gather,"x_shape, idx",2625,2796,reference,2646
+jax,jax\numpy\lax_numpy.py,_index_to_gather,"x_shape, idx",2625,2796,reference,2680
+jax,jax\numpy\lax_numpy.py,_is_advanced_int_indexer,idx,2850,2857,reference,2850
+jax,jax\numpy\lax_numpy.py,_is_advanced_int_indexer,idx,2850,2857,reference,2853
+jax,jax\numpy\lax_numpy.py,_is_advanced_int_indexer,idx,2850,2857,reference,2854
+jax,jax\numpy\lax_numpy.py,_is_advanced_int_indexer,idx,2850,2857,reference,2857
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2598
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2599
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2602
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2605
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2607
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2608
+jax,jax\numpy\lax_numpy.py,_split_index_for_jit,idx,2585,2608,reference,2608
+jax,jax\numpy\lax_numpy.py,tile,"a, reps",1446,1454,reference,1451
+jax,jax\numpy\lax_numpy.py,tile,"a, reps",1446,1454,reference,1450
+jax,jax\numpy\lax_numpy.py,tile,"a, reps",1446,1454,reference,1451
+jax,jax\numpy\lax_numpy.py,tile,"a, reps",1446,1454,reference,1451
+jax,jax\numpy\lax_numpy.py,tile,"a, reps",1446,1454,reference,1452
+jax,jax\numpy\lax_numpy.py,_rewriting_take,"arr, idx",2537,2543,reference,2542
+jax,jax\numpy\lax_numpy.py,_rewriting_take,"arr, idx",2537,2543,reference,2543
+jax,jax\numpy\lax_numpy.py,moveaxis,"a, source, destination",847,861,reference,853
+jax,jax\numpy\lax_numpy.py,moveaxis,"a, source, destination",847,861,reference,854
+jax,tests\lax_control_flow_test.py,testIssue1379,self,445,462,reference,460
+jax,tests\lax_control_flow_test.py,testIssue1379,self,445,462,reference,462
+jax,tests\lax_control_flow_test.py,testIssue711,self,803,832,reference,816
+jax,tests\lax_control_flow_test.py,testIssue711,self,803,832,reference,817
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,849
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,837
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,855
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,858
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,850
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,838
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,839
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,856
+jax,tests\lax_numpy_test.py,testIssue1233,self,831,859,reference,859
+jax,tests\lax_test.py,_conv_transpose_via_grad,"data, kernel, strides, padding, dimension_numbers=None",488,514,reference,494
+jax,tests\lax_test.py,_conv_transpose_via_grad,"data, kernel, strides, padding, dimension_numbers=None",488,514,reference,512
+jax,tests\lax_test.py,_conv_transpose_via_grad,"data, kernel, strides, padding, dimension_numbers=None",488,514,reference,512
+jax,tests\masking_test.py,test_add,self,108,120,reference,115
+jax,tests\masking_test.py,test_add,self,108,120,reference,117
+jax,tests\masking_test.py,test_arange,self,327,336,reference,334
+jax,tests\masking_test.py,test_arange,self,327,336,reference,336
+jax,tests\optimizers_test.py,_CheckFuns,"self, optimizer, loss, x0, *args",43,49,reference,47
+jax,tests\optimizers_test.py,_CheckFuns,"self, optimizer, loss, x0, *args",43,49,reference,49
+jax,tests\optimizers_test.py,_CheckRun,"self, optimizer, loss, x0, num_steps, *args, **kwargs",51,70,reference,59
+jax,tests\optimizers_test.py,_CheckRun,"self, optimizer, loss, x0, num_steps, *args, **kwargs",51,70,reference,60
+jax,tests\optimizers_test.py,_CheckRun,"self, optimizer, loss, x0, num_steps, *args, **kwargs",51,70,reference,60
+jax,tests\optimizers_test.py,_CheckRun,"self, optimizer, loss, x0, num_steps, *args, **kwargs",51,70,reference,61
+jax,tests\optimizers_test.py,testSgdScalar,self,72,77,reference,73
+jax,tests\optimizers_test.py,testSgdScalar,self,72,77,reference,73
+jax,tests\random_test.py,testGammaGrad,"self, alpha",274,289,reference,284
+jax,tests\random_test.py,testGammaGrad,"self, alpha",274,289,reference,287
+jax,tests\random_test.py,testGammaGrad,"self, alpha",274,289,reference,287
+jax,tests\random_test.py,testGammaGrad,"self, alpha",274,289,reference,289
+jax,jax\abstract_arrays.py,concretization_err_msg,fun,28,34,getattr,29
+jax,jax\api.py,custom_transforms,fun,1308,1375,getattr,1350
+jax,jax\api_util.py,get_name,fun,37,37,getattr,37
+jax,jax\api_util.py,get_module,fun,38,38,getattr,38
+jax,jax\api_util.py,get_doc,fun,39,39,getattr,39
+jax,jax\config.py,read,"self, name",34,39,getattr,36
+jax,jax\config.py,complete_absl_config,"self, absl_flags",81,83,getattr,83
+jax,jax\core.py,__getattr__,"self, name",352,371,getattr,357
+jax,jax\lax_reference.py,_make_reducer,"py_binop, init_val",346,357,getattr,352
+jax,jax\linear_util.py,__name__,self,144,146,getattr,146
+jax,jax\test_util.py,skip_on_devices,*disabled_devices,197,209,getattr,204
+jax,jax\test_util.py,skip_on_flag,"flag_name, skip_value",212,224,getattr,217
+jax,jax\test_util.py,skip_on_flag,"flag_name, skip_value",212,224,getattr,219
+jax,jax\util.py,get_module_functions,module,208,221,getattr,217
+jax,jax\interpreters\xla.py,_forward_method,"attrname, self, fun, *args",591,592,getattr,592
+jax,jax\lax\lax.py,standard_translate,"name, c, *args, **kwargs",1493,1495,getattr,1495
+jax,jax\numpy\lax_numpy.py,take_along_axis,"arr, indices, axis",2531,2533,getattr,2531
+jax,jax\numpy\lax_numpy.py,_is_int_arraylike,x,2859,2863,getattr,2862
+jax,jax\numpy\lax_numpy.py,gcd,"x1, x2",2917,2925,getattr,2917
+jax,jax\numpy\lax_numpy.py,lcm,"x1, x2",2928,2932,getattr,2928
+jax,jax\numpy\lax_numpy.py,quantile,"a, q, axis=None, out=None, overwrite_input=False, interpolation='linear', keepdims=False",3004,3070,getattr,3004
+jax,jax\tools\jax_to_hlo.py,main,argv,140,180,getattr,150
+jax,tests\api_test.py,test_std_basis,self,327,341,getattr,329
+jax,tests\api_test.py,test_std_basis,self,327,341,getattr,333
+jax,tests\api_test.py,test_std_basis,self,327,341,getattr,338
+jax,tests\api_test.py,test_std_basis,self,327,341,getattr,340
+jax,tests\api_test.py,test_std_basis,self,327,341,getattr,341
+jax,tests\lax_numpy_test.py,testOp,"self, onp_op, lnp_op, rng, shapes, dtypes, check_dtypes, op_tolerance",351,377,getattr,356
+jax,tests\lax_numpy_test.py,testOp,"self, onp_op, lnp_op, rng, shapes, dtypes, check_dtypes, op_tolerance",351,377,getattr,356
+jax,tests\lax_numpy_test.py,testOperatorOverload,"self, name, rng, shapes, dtypes, op_tolerance",379,400,getattr,392
+jax,tests\lax_numpy_test.py,testRightOperatorOverload,"self, name, rng, shapes, dtypes, op_tolerance",402,426,getattr,418
+jax,tests\lax_numpy_test.py,testBitwiseOp,"self, onp_op, lnp_op, rng, shapes, dtypes",428,448,getattr,433
+jax,tests\lax_numpy_test.py,testBitwiseOp,"self, onp_op, lnp_op, rng, shapes, dtypes",428,448,getattr,433
+jax,tests\lax_numpy_test.py,testReducer,"self, onp_op, lnp_op, rng, shape, dtype, out_dtype, axis, keepdims",450,474,getattr,456
+jax,tests\lax_numpy_test.py,testReducer,"self, onp_op, lnp_op, rng, shape, dtype, out_dtype, axis, keepdims",450,474,getattr,456
+jax,tests\lax_numpy_test.py,testReducerNoDtype,"self, onp_op, lnp_op, rng, shape, dtype, axis, keepdims",476,492,getattr,481
+jax,tests\lax_numpy_test.py,testReducerNoDtype,"self, onp_op, lnp_op, rng, shape, dtype, axis, keepdims",476,492,getattr,481
+jax,tests\lax_numpy_test.py,testArgMinMax,"self, onp_op, lnp_op, rng, shape, dtype, axis",508,530,getattr,513
+jax,tests\lax_numpy_test.py,testArgMinMax,"self, onp_op, lnp_op, rng, shape, dtype, axis",508,530,getattr,513
+jax,tests\lax_numpy_test.py,testCumSumProd,"self, axis, shape, dtype, out_dtype, onp_op, lnp_op, rng",861,881,getattr,865
+jax,tests\lax_numpy_test.py,testCumSumProd,"self, axis, shape, dtype, out_dtype, onp_op, lnp_op, rng",861,881,getattr,866
+jax,tests\lax_numpy_test.py,testTriLU,"self, dtype, shape, op, k, rng",898,912,getattr,908
+jax,tests\lax_numpy_test.py,testTriLU,"self, dtype, shape, op, k, rng",898,912,getattr,909
+jax,tests\lax_numpy_test.py,testHVDStack,"self, shape, op, dtypes, rng",999,1017,getattr,1015
+jax,tests\lax_numpy_test.py,testHVDStack,"self, shape, op, dtypes, rng",999,1017,getattr,1016
+jax,tests\lax_numpy_test.py,testQuantile,"self, op, a_rng, q_rng, a_shape, a_dtype, q_shape, q_dtype, axis, keepdims",1652,1691,getattr,1685
+jax,tests\lax_numpy_test.py,testQuantile,"self, op, a_rng, q_rng, a_shape, a_dtype, q_shape, q_dtype, axis, keepdims",1652,1691,getattr,1686
+jax,tests\lax_numpy_test.py,testAtLeastNdLiterals,"self, dtype, op",1756,1768,getattr,1764
+jax,tests\lax_numpy_test.py,testAtLeastNdLiterals,"self, dtype, op",1756,1768,getattr,1765
+jax,tests\lax_numpy_test.py,testMathSpecialFloatValues,"self, op, dtype",1842,1869,getattr,1851
+jax,tests\lax_numpy_test.py,testMathSpecialFloatValues,"self, op, dtype",1842,1869,getattr,1852
+jax,tests\lax_scipy_test.py,testScipySpecialFun,"self, scipy_op, lax_op, rng, shapes, dtypes, test_autodiff",105,125,getattr,111
+jax,tests\lax_scipy_test.py,testScipySpecialFun,"self, scipy_op, lax_op, rng, shapes, dtypes, test_autodiff",105,125,getattr,112
+jax,tests\lax_test.py,testOp,"self, op_name, rng, shapes, dtype",180,192,getattr,191
+jax,tests\lax_test.py,testOpAgainstNumpy,"self, op_name, rng, shapes, dtype, tol",194,208,getattr,206
+jax,tests\lax_test.py,testOpAgainstNumpy,"self, op_name, rng, shapes, dtype, tol",194,208,getattr,207
+jax,tests\lax_test.py,testOp,"self, op_name, rng, shapes, dtype, bdims",2426,2441,getattr,2439
+jax,tests\stax_test.py,testNonlinearShape,"self, input_shape, nonlinear",129,137,getattr,136

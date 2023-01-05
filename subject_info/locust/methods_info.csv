@@ -1,0 +1,428 @@
+file,method,params,startlineno,endlineno
+examples\basic.py,index,l,4,5
+examples\basic.py,stats,l,7,8
+examples\basic.py,page404,self,15,17
+examples\browse_docs_sequence_test.py,on_start,self,10,11
+examples\browse_docs_sequence_test.py,index_page,self,14,20
+examples\browse_docs_sequence_test.py,load_page,"self, url=None",23,31
+examples\browse_docs_sequence_test.py,load_sub_page,self,34,38
+examples\browse_docs_test.py,on_start,self,10,13
+examples\browse_docs_test.py,index_page,self,15,21
+examples\browse_docs_test.py,load_page,"self, url=None",24,31
+examples\browse_docs_test.py,load_sub_page,self,34,37
+examples\custom_wait_function.py,index,l,4,5
+examples\custom_wait_function.py,stats,l,7,8
+examples\custom_wait_function.py,page404,self,15,17
+examples\custom_wait_function.py,strictExp,"min_wait, max_wait, mu='1'",29,39
+examples\dynamice_user_credentials.py,on_start,self,12,15
+examples\dynamice_user_credentials.py,some_task,self,17,20
+examples\events.py,index,l,12,14
+examples\events.py,stats,l,16,18
+examples\events.py,on_request_success,"request_type, name, response_time, response_length",36,40
+examples\events.py,on_report_to_master,"client_id, data",42,49
+examples\events.py,on_slave_report,"client_id, data",51,57
+examples\events.py,total_content_length,,64,69
+examples\multiple_hosts.py,__init__,"self, *args, **kwargs",9,11
+examples\multiple_hosts.py,index,self,16,18
+examples\multiple_hosts.py,index_other_host,self,20,22
+examples\semaphore_wait.py,on_hatch_complete,**kw,7,8
+examples\semaphore_wait.py,on_start,self,13,15
+examples\semaphore_wait.py,index,self,17,19
+examples\custom_xmlrpc_client\xmlrpc_locustfile.py,__getattr__,"self, name",13,28
+examples\custom_xmlrpc_client\xmlrpc_locustfile.py,wrapper,"*args, **kwargs",15,24
+examples\custom_xmlrpc_client\xmlrpc_locustfile.py,__init__,"self, *args, **kwargs",36,38
+examples\custom_xmlrpc_client\xmlrpc_locustfile.py,get_time,self,48,50
+examples\custom_xmlrpc_client\xmlrpc_locustfile.py,get_random_number,self,52,54
+locust\clients.py,raise_for_status,self,21,24
+locust\clients.py,__init__,"self, base_url, *args, **kwargs",50,65
+locust\clients.py,_build_url,"self, path",67,72
+locust\clients.py,request,"self, method, url, name=None, catch_response=False, **kwargs",74,149
+locust\clients.py,_send_request_safe_mode,"self, method, url, **kwargs",151,166
+locust\clients.py,__init__,"self, response",181,183
+locust\clients.py,__enter__,self,185,186
+locust\clients.py,__exit__,"self, exc, value, traceback",188,206
+locust\clients.py,success,self,208,224
+locust\clients.py,failure,"self, exc",226,248
+locust\core.py,task,weight='1',27,58
+locust\core.py,decorator_func,func,42,44
+locust\core.py,seq_task,order,61,87
+locust\core.py,decorator_func,func,81,85
+locust\core.py,__getattr__,"self, _",95,96
+locust\core.py,__init__,self,138,147
+locust\core.py,_set_setup_flag,cls,149,151
+locust\core.py,_set_teardown_flag,cls,153,155
+locust\core.py,run,"self, runner=None",157,171
+locust\core.py,__init__,self,191,196
+locust\core.py,__new__,"mcs, classname, bases, classDict",205,231
+locust\core.py,__init__,"self, parent",301,329
+locust\core.py,_set_setup_flag,cls,331,333
+locust\core.py,_set_teardown_flag,cls,335,337
+locust\core.py,run,"self, *args, **kwargs",339,383
+locust\core.py,execute_next_task,self,385,387
+locust\core.py,execute_task,"self, task, *args, **kwargs",389,399
+locust\core.py,schedule_task,"self, task_callable, args=None, kwargs=None, first=False",401,416
+locust\core.py,get_next_task,self,418,419
+locust\core.py,get_wait_secs,self,421,423
+locust\core.py,wait,self,425,426
+locust\core.py,_sleep,"self, seconds",428,429
+locust\core.py,interrupt,"self, reschedule=True",431,442
+locust\core.py,client,self,444,450
+locust\core.py,__init__,"self, parent",473,476
+locust\core.py,get_next_task,self,478,481
+locust\events.py,__init__,self,19,20
+locust\events.py,__iadd__,"self, handler",22,24
+locust\events.py,__isub__,"self, handler",26,28
+locust\events.py,fire,"self, reverse=False, **kwargs",30,34
+locust\exception.py,__init__,"self, reschedule=True",15,20
+locust\inspectlocust.py,print_task_ratio,"locusts, total=False, level='0', parent_ratio='1.0'",9,11
+locust\inspectlocust.py,_print_task_ratio,"x, level='0'",13,19
+locust\inspectlocust.py,get_task_ratio_dict,"tasks, total=False, parent_ratio='1.0'",22,53
+locust\log.py,setup_logging,"loglevel, logfile",7,16
+locust\log.py,write,"self, s",25,26
+locust\log.py,flush,"self, *args, **kwargs",28,30
+locust\log.py,write,"self, s",36,37
+locust\log.py,flush,"self, *args, **kwargs",39,41
+locust\main.py,parse_options,,27,288
+locust\main.py,_is_package,path,291,297
+locust\main.py,find_locustfile,locustfile,301,331
+locust\main.py,is_locust,tup,335,345
+locust\main.py,load_locustfile,path,349,403
+locust\main.py,__import_locustfile__,"filename, path",358,371
+locust\main.py,main,,405,560
+locust\main.py,spawn_run_time_limit_greenlet,,477,482
+locust\main.py,timelimit_stop,,479,481
+locust\main.py,shutdown,code='0',528,544
+locust\main.py,sig_term_handler,,547,549
+locust\runners.py,__init__,"self, locust_classes, options",31,50
+locust\runners.py,on_hatch_complete,user_count,45,49
+locust\runners.py,request_stats,self,52,54
+locust\runners.py,errors,self,56,58
+locust\runners.py,user_count,self,60,62
+locust\runners.py,weight_locusts,"self, amount, stop_timeout=None",64,85
+locust\runners.py,spawn_locusts,"self, spawn_count=None, stop_timeout=None, wait=False",87,125
+locust\runners.py,hatch,,102,120
+locust\runners.py,start_locust,_,112,116
+locust\runners.py,kill_locusts,"self, kill_count",127,144
+locust\runners.py,start_hatching,"self, locust_count=None, hatch_rate=None, wait=False",146,174
+locust\runners.py,stop,self,176,182
+locust\runners.py,quit,self,184,186
+locust\runners.py,log_exception,"self, node_id, msg, formatted_tb",188,193
+locust\runners.py,__init__,"self, locust_classes, options",196,203
+locust\runners.py,on_locust_error,"locust_instance, exception, tb",200,202
+locust\runners.py,start_hatching,"self, locust_count=None, hatch_rate=None, wait=False",205,207
+locust\runners.py,__init__,"self, locust_classes, options",210,217
+locust\runners.py,noop,"self, *args, **kwargs",219,221
+locust\runners.py,__init__,"self, id, state=STATE_INIT, heartbeat_liveness='3'",224,228
+locust\runners.py,__init__,"self, *args, **kwargs",231,272
+locust\runners.py,get_by_state,"self, state",235,236
+locust\runners.py,all,self,238,240
+locust\runners.py,ready,self,242,244
+locust\runners.py,hatching,self,246,248
+locust\runners.py,running,self,250,252
+locust\runners.py,on_slave_report,"client_id, data",261,266
+locust\runners.py,on_quitting,,270,271
+locust\runners.py,user_count,self,274,276
+locust\runners.py,start_hatching,"self, locust_count, hatch_rate",278,313
+locust\runners.py,stop,self,315,319
+locust\runners.py,quit,self,321,324
+locust\runners.py,heartbeat_worker,self,326,335
+locust\runners.py,client_listener,self,337,376
+locust\runners.py,slave_count,self,378,380
+locust\runners.py,__init__,"self, *args, **kwargs",383,416
+locust\runners.py,on_hatch_complete,user_count,397,399
+locust\runners.py,on_report_to_master,"client_id, data",403,404
+locust\runners.py,on_quitting,,408,409
+locust\runners.py,on_locust_error,"locust_instance, exception, tb",413,415
+locust\runners.py,heartbeat,self,418,421
+locust\runners.py,worker,self,423,442
+locust\runners.py,stats_reporter,self,444,454
+locust\stats.py,calculate_response_time_percentile,"response_times, num_requests, percent",38,54
+locust\stats.py,diff_response_time_dicts,"latest, old",57,70
+locust\stats.py,__init__,self,74,78
+locust\stats.py,num_requests,self,80,82
+locust\stats.py,num_failures,self,84,86
+locust\stats.py,last_request_timestamp,self,88,90
+locust\stats.py,log_request,"self, method, name, response_time, content_length",92,94
+locust\stats.py,log_error,"self, method, name, error",96,106
+locust\stats.py,get,"self, name, method",108,116
+locust\stats.py,reset_all,self,118,125
+locust\stats.py,clear_all,self,127,134
+locust\stats.py,serialize_stats,self,136,137
+locust\stats.py,serialize_errors,self,139,140
+locust\stats.py,__init__,"self, stats, name, method, use_response_times_cache=False",206,211
+locust\stats.py,reset,self,213,226
+locust\stats.py,log,"self, response_time, content_length",228,241
+locust\stats.py,_log_time_of_request,"self, t",243,245
+locust\stats.py,_log_response_time,"self, response_time",247,271
+locust\stats.py,log_error,"self, error",273,274
+locust\stats.py,fail_ratio,self,276,284
+locust\stats.py,avg_response_time,self,286,291
+locust\stats.py,median_response_time,self,293,298
+locust\stats.py,current_rps,self,300,307
+locust\stats.py,total_rps,self,309,314
+locust\stats.py,avg_content_length,self,316,321
+locust\stats.py,extend,"self, other",323,341
+locust\stats.py,serialize,self,343,356
+locust\stats.py,unserialize,"cls, data",359,375
+locust\stats.py,get_stripped_report,self,377,383
+locust\stats.py,__str__,self,385,399
+locust\stats.py,get_response_time_percentile,"self, percent",402,409
+locust\stats.py,get_current_response_time_percentile,"self, percent",411,446
+locust\stats.py,percentile,"self, tpl=((' %-' + str(STATS_NAME_WIDTH)) + 's %8d %6d %6d %6d %6d %6d %6d %6d %6d %6d')",449,464
+locust\stats.py,_cache_response_times,"self, t",467,483
+locust\stats.py,__init__,"self, method, name, error, occurences='0'",487,491
+locust\stats.py,parse_error,"cls, error",493,505
+locust\stats.py,create_key,"cls, method, name, error",507,510
+locust\stats.py,occured,self,512,513
+locust\stats.py,to_name,self,515,517
+locust\stats.py,to_dict,self,519,524
+locust\stats.py,from_dict,"cls, data",527,533
+locust\stats.py,avg,values,537,538
+locust\stats.py,median_from_dict,"total, count",540,549
+locust\stats.py,on_request_success,"request_type, name, response_time, response_length, **kwargs",557,558
+locust\stats.py,on_request_failure,"request_type, name, response_time, exception, **kwargs",560,562
+locust\stats.py,on_report_to_master,"client_id, data",564,568
+locust\stats.py,on_slave_report,"client_id, data",570,596
+locust\stats.py,print_stats,stats,605,625
+locust\stats.py,print_percentile_stats,stats,627,640
+locust\stats.py,print_error_report,,642,651
+locust\stats.py,stats_printer,,653,657
+locust\stats.py,stats_writer,base_filepath,659,663
+locust\stats.py,write_stat_csvs,base_filepath,666,672
+locust\stats.py,sort_stats,stats,675,676
+locust\stats.py,requests_csv,,679,711
+locust\stats.py,distribution_csv,,713,736
+locust\web.py,index,,32,52
+locust\web.py,swarm,,55,62
+locust\web.py,stop,,64,67
+locust\web.py,reset_stats,,69,72
+locust\web.py,request_stats_csv,,74,81
+locust\web.py,distribution_stats_csv,,83,90
+locust\web.py,request_stats,,92,134
+locust\web.py,exceptions,,136,145
+locust\web.py,exceptions_csv,,149,164
+locust\web.py,start,"locust, options",166,168
+locust\rpc\protocol.py,__init__,"self, message_type, data, node_id",5,8
+locust\rpc\protocol.py,serialize,self,10,11
+locust\rpc\protocol.py,unserialize,"cls, data",13,16
+locust\rpc\zmqrpc.py,__init__,"self, sock_type",7,9
+locust\rpc\zmqrpc.py,send,"self, msg",11,13
+locust\rpc\zmqrpc.py,send_to_client,"self, msg",15,17
+locust\rpc\zmqrpc.py,recv,self,19,23
+locust\rpc\zmqrpc.py,recv_from_client,self,25,30
+locust\rpc\zmqrpc.py,__init__,"self, host, port",33,35
+locust\rpc\zmqrpc.py,__init__,"self, host, port, identity",38,41
+locust\test\testcases.py,ultra_fast,,21,23
+locust\test\testcases.py,fast,,25,28
+locust\test\testcases.py,slow,,30,37
+locust\test\testcases.py,consistent,,39,42
+locust\test\testcases.py,request_method,,44,46
+locust\test\testcases.py,request_header_test,,48,50
+locust\test\testcases.py,manipulate,,52,55
+locust\test\testcases.py,failed_request,,57,59
+locust\test\testcases.py,do_redirect,,61,67
+locust\test\testcases.py,basic_auth,,69,76
+locust\test\testcases.py,no_content_length,,78,83
+locust\test\testcases.py,not_found,error,85,87
+locust\test\testcases.py,streaming_response,iterations,89,98
+locust\test\testcases.py,generate,,92,97
+locust\test\testcases.py,set_cookie,,100,104
+locust\test\testcases.py,get_cookie,,106,108
+locust\test\testcases.py,setUp,self,116,135
+locust\test\testcases.py,tearDown,self,137,139
+locust\test\testcases.py,setUp,self,146,152
+locust\test\testcases.py,tearDown,self,154,157
+locust\test\test_client.py,test_get,self,11,14
+locust\test\test_client.py,test_connection_error,self,16,21
+locust\test\test_client.py,test_wrong_url,self,23,33
+locust\test\test_client.py,test_streaming_response,self,35,52
+locust\test\test_client.py,test_slow_redirect,self,54,60
+locust\test\test_client.py,test_post_redirect,self,62,70
+locust\test\test_client.py,test_cookie,self,72,77
+locust\test\test_client.py,test_head,self,79,83
+locust\test\test_client.py,test_delete,self,85,89
+locust\test\test_client.py,test_options,self,91,98
+locust\test\test_locust_class.py,setUp,self,12,17
+locust\test\test_locust_class.py,test_task_ratio,self,19,31
+locust\test\test_locust_class.py,test_task_decorator_ratio,self,33,59
+locust\test\test_locust_class.py,t3,self,40,42
+locust\test\test_locust_class.py,t4,self,44,46
+locust\test\test_locust_class.py,test_on_start,self,61,80
+locust\test\test_locust_class.py,on_start,self,66,67
+locust\test\test_locust_class.py,t1,self,69,70
+locust\test\test_locust_class.py,t2,self,72,75
+locust\test\test_locust_class.py,test_schedule_task,self,82,102
+locust\test\test_locust_class.py,t1,l,86,87
+locust\test\test_locust_class.py,t2,"l, arg",89,90
+locust\test\test_locust_class.py,test_schedule_task_with_kwargs,self,104,122
+locust\test\test_locust_class.py,t1,self,106,108
+locust\test\test_locust_class.py,t2,"self, *args, **kwargs",109,112
+locust\test\test_locust_class.py,test_schedule_task_bound_method,self,124,140
+locust\test\test_locust_class.py,t1,self,128,131
+locust\test\test_locust_class.py,t2,self,132,133
+locust\test\test_locust_class.py,test_taskset_inheritance,self,143,156
+locust\test\test_locust_class.py,t1,l,144,145
+locust\test\test_locust_class.py,t2,self,150,152
+locust\test\test_locust_class.py,test_task_decorator_with_or_without_argument,self,158,178
+locust\test\test_locust_class.py,t1,self,160,162
+locust\test\test_locust_class.py,t1,self,167,169
+locust\test\test_locust_class.py,t1,self,174,176
+locust\test\test_locust_class.py,test_wait_function,self,180,186
+locust\test\test_locust_class.py,test_sub_taskset,self,188,204
+locust\test\test_locust_class.py,a_task,self,192,195
+locust\test\test_locust_class.py,test_sub_taskset_tasks_decorator,self,206,221
+locust\test\test_locust_class.py,a_task,self,212,215
+locust\test\test_locust_class.py,test_sub_taskset_arguments,self,223,244
+locust\test\test_locust_class.py,a_task,self,227,231
+locust\test\test_locust_class.py,test_interrupt_taskset_in_main_taskset,self,246,282
+locust\test\test_locust_class.py,interrupted_task,self,248,250
+locust\test\test_locust_class.py,interrupted_task,self,256,258
+locust\test\test_locust_class.py,test_on_start_interrupt,self,284,299
+locust\test\test_locust_class.py,on_start,self,286,290
+locust\test\test_locust_class.py,test_parent_attribute,self,302,327
+locust\test\test_locust_class.py,on_start,self,307,308
+locust\test\test_locust_class.py,on_start,self,312,313
+locust\test\test_locust_class.py,stop,self,314,316
+locust\test\test_locust_class.py,test_get_request,self,331,341
+locust\test\test_locust_class.py,t1,l,333,334
+locust\test\test_locust_class.py,test_client_request_headers,self,343,348
+locust\test\test_locust_class.py,test_client_get,self,350,355
+locust\test\test_locust_class.py,test_client_get_absolute_url,self,357,362
+locust\test\test_locust_class.py,test_client_post,self,364,370
+locust\test\test_locust_class.py,test_client_put,self,372,378
+locust\test\test_locust_class.py,test_client_delete,self,380,386
+locust\test\test_locust_class.py,test_client_head,self,388,393
+locust\test\test_locust_class.py,test_client_basic_auth,self,395,412
+locust\test\test_locust_class.py,test_log_request_name_argument,self,414,430
+locust\test\test_locust_class.py,t1,l,422,424
+locust\test\test_locust_class.py,test_locust_client_error,self,432,446
+locust\test\test_locust_class.py,t1,self,434,437
+locust\test\test_locust_class.py,test_redirect_url_original_path_as_name,self,448,458
+locust\test\test_locust_class.py,setUp,self,462,478
+locust\test\test_locust_class.py,on_failure,"request_type, name, response_time, exception",472,474
+locust\test\test_locust_class.py,on_success,**kwargs,475,476
+locust\test\test_locust_class.py,test_catch_response,self,480,493
+locust\test\test_locust_class.py,test_catch_response_http_fail,self,495,498
+locust\test\test_locust_class.py,test_catch_response_http_manual_fail,self,500,507
+locust\test\test_locust_class.py,test_catch_response_http_manual_success,self,510,514
+locust\test\test_locust_class.py,test_catch_response_allow_404,self,516,522
+locust\test\test_locust_class.py,test_interrupt_taskset_with_catch_response,self,524,538
+locust\test\test_locust_class.py,interrupted_task,self,526,529
+locust\test\test_locust_class.py,test_catch_response_connection_error_success,self,540,549
+locust\test\test_locust_class.py,test_catch_response_connection_error_fail,self,551,560
+locust\test\test_main.py,test_is_locust,self,8,29
+locust\test\test_main.py,__create_mock_locust_file,"self, filename",65,70
+locust\test\test_main.py,setUp,self,72,73
+locust\test\test_main.py,tearDown,self,75,76
+locust\test\test_main.py,test_load_locust_file_from_absolute_path,self,78,80
+locust\test\test_main.py,test_load_locust_file_from_relative_path,self,82,84
+locust\test\test_main.py,test_load_locust_file_with_a_dot_in_filename,self,86,88
+locust\test\test_main.py,test_load_locust_file_with_multiple_dots_in_filename,self,90,92
+locust\test\test_main.py,test_return_docstring_and_locusts,self,94,99
+locust\test\test_parser.py,setUp,self,7,8
+locust\test\test_parser.py,test_default,self,10,12
+locust\test\test_parser.py,test_reset_stats,self,14,19
+locust\test\test_parser.py,test_should_accept_legacy_no_reset_stats,self,21,26
+locust\test\test_runners.py,mocked_rpc_server,,16,44
+locust\test\test_runners.py,__init__,"self, host, port",21,22
+locust\test\test_runners.py,mocked_send,"cls, message",24,27
+locust\test\test_runners.py,recv,self,29,31
+locust\test\test_runners.py,send,"self, message",33,34
+locust\test\test_runners.py,send_to_client,"self, message",36,37
+locust\test\test_runners.py,recv_from_client,self,39,42
+locust\test\test_runners.py,__init__,self,47,56
+locust\test\test_runners.py,reset_stats,self,58,59
+locust\test\test_runners.py,setUp,self,62,65
+locust\test\test_runners.py,tearDown,self,68,69
+locust\test\test_runners.py,test_slave_connect,self,71,86
+locust\test\test_runners.py,test_slave_stats_report_median,self,88,106
+locust\test\test_runners.py,test_master_marks_downed_slaves_as_missing,self,108,117
+locust\test\test_runners.py,test_master_total_stats,self,119,143
+locust\test\test_runners.py,test_master_current_response_times,self,145,192
+locust\test\test_runners.py,test_sends_hatch_data_to_ready_running_hatching_slaves,self,194,209
+locust\test\test_runners.py,test_spawn_zero_locusts,self,211,233
+locust\test\test_runners.py,my_task,self,213,215
+locust\test\test_runners.py,test_spawn_uneven_locusts,self,235,255
+locust\test\test_runners.py,test_spawn_fewer_locusts_than_slaves,self,257,273
+locust\test\test_runners.py,test_exception_in_task,self,275,297
+locust\test\test_runners.py,will_error,self,281,283
+locust\test\test_runners.py,test_exception_is_catched,self,299,341
+locust\test\test_runners.py,__init__,"self, *a, **kw",305,309
+locust\test\test_runners.py,will_error,self,312,314
+locust\test\test_runners.py,will_stop,self,316,318
+locust\test\test_runners.py,test_message_serialize,self,345,350
+locust\test\test_stats.py,setUp,self,14,27
+locust\test\test_stats.py,test_percentile,self,29,36
+locust\test\test_stats.py,test_median,self,38,39
+locust\test\test_stats.py,test_total_rps,self,41,42
+locust\test\test_stats.py,test_current_rps,self,44,49
+locust\test\test_stats.py,test_num_reqs_fails,self,51,53
+locust\test\test_stats.py,test_avg,self,55,56
+locust\test\test_stats.py,test_reset,self,58,68
+locust\test\test_stats.py,test_reset_min_response_time,self,70,73
+locust\test\test_stats.py,test_aggregation,self,75,100
+locust\test\test_stats.py,test_aggregation_with_rounding,self,102,117
+locust\test\test_stats.py,test_percentile_rounded_down,self,119,123
+locust\test\test_stats.py,test_percentile_rounded_up,self,125,129
+locust\test\test_stats.py,test_error_grouping,self,131,144
+locust\test\test_stats.py,test_error_grouping_errors_with_memory_addresses,self,146,153
+locust\test\test_stats.py,test_serialize_through_message,self,155,170
+locust\test\test_stats.py,setUp,"self, *args, **kwargs",174,176
+locust\test\test_stats.py,test_response_times_cached,self,178,189
+locust\test\test_stats.py,test_response_times_not_cached_if_not_enabled,self,191,197
+locust\test\test_stats.py,test_latest_total_response_times_pruned,self,199,214
+locust\test\test_stats.py,test_get_current_response_time_percentile,self,217,230
+locust\test\test_stats.py,test_diff_response_times_dicts,self,232,251
+locust\test\test_stats.py,test_request_stats_content_length,self,256,264
+locust\test\test_stats.py,test_request_stats_no_content_length,self,266,272
+locust\test\test_stats.py,test_request_stats_no_content_length_streaming,self,274,280
+locust\test\test_stats.py,test_request_stats_named_endpoint,self,282,288
+locust\test\test_stats.py,test_request_stats_query_variables,self,290,296
+locust\test\test_stats.py,test_request_stats_put,self,298,304
+locust\test\test_stats.py,test_request_connection_error,self,306,314
+locust\test\test_stats.py,root_task,self,318,320
+locust\test\test_stats.py,task1,self,324,326
+locust\test\test_stats.py,task2,self,327,329
+locust\test\test_stats.py,test_get_task_ratio_dict_relative,self,332,338
+locust\test\test_stats.py,test_get_task_ratio_dict_total,self,340,346
+locust\test\test_taskratio.py,test_task_ratio_command,self,8,38
+locust\test\test_taskratio.py,root_task1,self,10,12
+locust\test\test_taskratio.py,task1,self,16,18
+locust\test\test_taskratio.py,task2,self,20,22
+locust\test\test_taskratio.py,test_task_ratio_command_with_locust_weight,self,40,66
+locust\test\test_taskratio.py,task1,self,42,44
+locust\test\test_taskratio.py,task3,self,46,48
+locust\test\test_task_sequence_class.py,setUp,self,12,19
+locust\test\test_task_sequence_class.py,test_task_sequence_with_list,self,21,46
+locust\test\test_task_sequence_class.py,t1,l,22,24
+locust\test\test_task_sequence_class.py,t2,l,26,28
+locust\test\test_task_sequence_class.py,t3,l,30,33
+locust\test\test_task_sequence_class.py,test_task_with_decorator,self,48,76
+locust\test\test_task_sequence_class.py,t1,self,54,57
+locust\test\test_task_sequence_class.py,t2,self,59,63
+locust\test\test_task_sequence_class.py,t3,self,65,69
+locust\test\test_util.py,test_parse_timespan_invalid_values,self,6,9
+locust\test\test_util.py,test_parse_timespan,self,11,16
+locust\test\test_web.py,setUp,self,20,33
+locust\test\test_web.py,tearDown,self,35,37
+locust\test\test_web.py,test_index,self,39,40
+locust\test\test_web.py,test_stats_no_data,self,42,43
+locust\test\test_web.py,test_stats,self,45,58
+locust\test\test_web.py,test_stats_cache,self,60,75
+locust\test\test_web.py,test_request_stats_csv,self,77,80
+locust\test\test_web.py,test_distribution_stats_csv,self,82,97
+locust\test\test_web.py,test_request_stats_with_errors,self,99,103
+locust\test\test_web.py,test_exceptions,self,105,118
+locust\test\test_web.py,test_exceptions_csv,self,120,138
+locust\test\test_zmqrpc.py,setUp,self,9,11
+locust\test\test_zmqrpc.py,tearDown,self,13,15
+locust\test\test_zmqrpc.py,test_client_send,self,17,22
+locust\test\test_zmqrpc.py,test_client_recv,self,24,32
+locust\util\cache.py,memoize,"timeout, dynamic_timeout=False",6,33
+locust\util\cache.py,decorator,func,14,32
+locust\util\cache.py,wrapper,"*args, **kwargs",15,23
+locust\util\cache.py,clear_cache,,25,29
+locust\util\exception_handler.py,retry,"delays=('1', '3', '5'), exception=Exception",6,23
+locust\util\exception_handler.py,decorator,function,8,22
+locust\util\exception_handler.py,wrapper,"*args, **kwargs",9,21
+locust\util\time.py,parse_timespan,time_str,4,24

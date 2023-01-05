@@ -1,0 +1,1476 @@
+commit,author,date,title,file
+bb235e77,Jeff Forcier,2021-10-15 19:26:59,Enhance language/styling around end of Connection workflow,fabric/connection.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),fabric/__init__.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),fabric/config.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),fabric/connection.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),fabric/runners.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),fabric/testing/base.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),integration/connection.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),tests/config.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),tests/connection.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),tests/init.py
+05433a24,Jeff Forcier,2021-05-14 13:21:23,Add Connection.shell(),tests/runners.py
+35fe47c7,Jeff Forcier,2021-06-10 16:53:20,Use a kwarg in an otherwise confusing posarg spot,fabric/connection.py
+35fe47c7,Jeff Forcier,2021-06-10 16:53:20,Use a kwarg in an otherwise confusing posarg spot,tests/connection.py
+be16a6e8,David Schneider,2020-10-28 06:54:40,clarify documentation for Connection.put,fabric/connection.py
+c22a3494,Jeff Forcier,2021-05-13 18:36:41,Send SSH window change message on SIGWINCH when pty=True,fabric/runners.py
+c22a3494,Jeff Forcier,2021-05-13 18:36:41,Send SSH window change message on SIGWINCH when pty=True,tests/runners.py
+ab609f9a,Jeff Forcier,2021-03-19 16:19:30,Formatting/blackening,fabric/runners.py
+ab609f9a,Jeff Forcier,2021-03-19 16:19:30,Formatting/blackening,tests/runners.py
+313fba66,David JM Emmett,2021-03-11 00:33:45,Feedback: there ought to be another test proving that this kwarg override is happening (currently the test change only proves that the config override is not happening) and also proving the setdefault is working (caller can override),tests/runners.py
+e07e5400,David JM Emmett,2021-03-11 00:06:04,"Feedback: the kwarg override should be ""gentle"" and use kwargs.setdefault in case a user is explicitly giving it for some reason",fabric/runners.py
+74804aa7,David JM Emmett,2021-02-22 23:51:04,"Removing global-scope configuration for replacing environment variables, replacing with specific override to clear environment only for remote.",fabric/config.py
+74804aa7,David JM Emmett,2021-02-22 23:51:04,"Removing global-scope configuration for replacing environment variables, replacing with specific override to clear environment only for remote.",fabric/runners.py
+74804aa7,David JM Emmett,2021-02-22 23:51:04,"Removing global-scope configuration for replacing environment variables, replacing with specific override to clear environment only for remote.",tests/config.py
+93220dd1,Jeff Forcier,2021-01-18 19:54:07,"flake8 and oops pathlib2 does not show up as pathlib, my bad, sorry",fabric/testing/fixtures.py
+93220dd1,Jeff Forcier,2021-01-18 19:54:07,"flake8 and oops pathlib2 does not show up as pathlib, my bad, sorry",fabric/transfer.py
+93220dd1,Jeff Forcier,2021-01-18 19:54:07,"flake8 and oops pathlib2 does not show up as pathlib, my bad, sorry",tests/transfer.py
+163c2935,Jeff Forcier,2021-01-18 19:46:11,"Sphinx anchor was causing two separate params lists, weird",fabric/connection.py
+071100ff,Jeff Forcier,2021-01-18 19:38:18,Patch pathlib.Path for safety,fabric/testing/base.py
+b90ed1ee,Jeff Forcier,2021-01-18 19:31:27,Further update Group and tests for put/get,fabric/group.py
+b90ed1ee,Jeff Forcier,2021-01-18 19:31:27,Further update Group and tests for put/get,tests/group.py
+e19f8133,Jeff Forcier,2021-01-18 17:12:01,Finish applying sudo and method generalization to Group,fabric/group.py
+e19f8133,Jeff Forcier,2021-01-18 17:12:01,Finish applying sudo and method generalization to Group,tests/group.py
+a01efedc,Jeff Forcier,2021-01-18 15:45:24,Some missed blackening,fabric/group.py
+a01efedc,Jeff Forcier,2021-01-18 15:45:24,Some missed blackening,tests/group.py
+a01efedc,Jeff Forcier,2021-01-18 15:45:24,Some missed blackening,tests/transfer.py
+1e4bd7a3,Jeff Forcier,2021-01-18 15:43:24,Apply pathlib2 to make mkdir work better,fabric/transfer.py
+1e4bd7a3,Jeff Forcier,2021-01-18 15:43:24,Apply pathlib2 to make mkdir work better,setup.py
+1e4bd7a3,Jeff Forcier,2021-01-18 15:43:24,Apply pathlib2 to make mkdir work better,tests/transfer.py
+2e7ae318,Jeff Forcier,2021-01-18 12:52:35,Interpolate Transfer.get local path argument,fabric/transfer.py
+2e7ae318,Jeff Forcier,2021-01-18 12:52:35,Interpolate Transfer.get local path argument,tests/transfer.py
+2cb7aa70,Jeff Forcier,2021-01-10 15:28:49,get() now autocreates local directory paths,fabric/transfer.py
+2cb7aa70,Jeff Forcier,2021-01-10 15:28:49,get() now autocreates local directory paths,tests/transfer.py
+7076ea88,Jeff Forcier,2021-01-10 15:28:07,Fix up some test helpers re: os.path wrapping,fabric/testing/base.py
+7076ea88,Jeff Forcier,2021-01-10 15:28:07,Fix up some test helpers re: os.path wrapping,fabric/testing/fixtures.py
+0f2a36e6,Jeff Forcier,2021-01-04 17:45:55,Changelog and other DDD re #1868,fabric/group.py
+0f2a36e6,Jeff Forcier,2021-01-04 17:45:55,Changelog and other DDD re #1868,fabric/transfer.py
+65600159,Jeff Forcier,2020-12-31 14:17:04,More outdated TODOs (sudo is not actually used for INTERACTIVE sudo prompts),fabric/group.py
+26ae6d18,Jeff Forcier,2020-12-31 13:59:37,Start implementing Group.sudo,fabric/group.py
+26ae6d18,Jeff Forcier,2020-12-31 13:59:37,Start implementing Group.sudo,tests/group.py
+44da3fb7,Jeff Forcier,2020-12-31 12:50:11,TODO twiddlin',fabric/group.py
+5848600e,Jeff Forcier,2020-12-31 12:50:05,Prep for 2.6,fabric/_version.py
+a0aa6bc4,Jeff Forcier,2020-01-03 18:17:38,Blacken,tasks.py
+a0aa6bc4,Jeff Forcier,2020-01-03 18:17:38,Blacken,tests/conftest.py
+24cbe6dd,Jeff Forcier,2020-01-03 18:07:57,flake8,tests/_util.py
+3b41f844,Jeff Forcier,2020-01-03 17:34:15,More rigorously screen real user ssh_config from test suite,tests/_util.py
+3b41f844,Jeff Forcier,2020-01-03 17:34:15,More rigorously screen real user ssh_config from test suite,tests/conftest.py
+3b41f844,Jeff Forcier,2020-01-03 17:34:15,More rigorously screen real user ssh_config from test suite,tests/connection.py
+2e5a387c,Jeff Forcier,2019-08-06 18:57:28,Cut 2.5.0,fabric/_version.py
+5d7a0e7d,Jeff Forcier,2019-08-06 14:36:48,Blacken,setup.py
+6c52ff5e,Jeff Forcier,2019-08-06 14:36:24,Python 3.7 exists,setup.py
+50d9d907,Jeff Forcier,2019-07-12 21:01:35,Remove in_stream=False from anonymous subproc execution,fabric/executor.py
+0154f1f7,Jeff Forcier,2019-07-12 20:51:33,Nuke old outdated direct Cryptography dependency,setup.py
+f87251c8,Jeff Forcier,2019-04-26 15:59:51,Implement Fabric's end of pyinvoke/invoke#552,fabric/runners.py
+520825f2,Jeff Forcier,2019-08-06 12:22:06,Alphabetize CLI options,fabric/main.py
+0b888139,Jeff Forcier,2019-08-06 12:10:45,"Changelog re #1989, closes #1989, and bump Invoke to >=1.3",setup.py
+78271201,Jeff Forcier,2019-08-06 12:06:16,Add -t/--connect-timeout CLI flag,fabric/main.py
+78271201,Jeff Forcier,2019-08-06 12:06:16,Add -t/--connect-timeout CLI flag,tests/_support/fabfile.py
+78271201,Jeff Forcier,2019-08-06 12:06:16,Add -t/--connect-timeout CLI flag,tests/main.py
+a75a4d0b,Jeff Forcier,2019-08-05 22:15:15,No idea why black missed this earlier???,tasks.py
+beb2b617,Jeff Forcier,2019-08-05 22:13:37,"Updated the approach in Invoke, now we just basically kill()",fabric/runners.py
+beb2b617,Jeff Forcier,2019-08-05 22:13:37,"Updated the approach in Invoke, now we just basically kill()",integration/connection.py
+beb2b617,Jeff Forcier,2019-08-05 22:13:37,"Updated the approach in Invoke, now we just basically kill()",tests/runners.py
+f5a76b22,Jeff Forcier,2019-08-05 10:24:08,"Integration-level tests, which fail. Womp womp. Gotta think",integration/connection.py
+39bf08a7,Jeff Forcier,2019-08-05 10:23:34,Tweaks to timeout behavior to bring in line with pyinvoke/invoke#645 work,fabric/runners.py
+79858bd4,Israel Fruchter,2019-07-01 22:02:06,Add support for `command_timeout` in `run()`,fabric/runners.py
+502ce7ba,Jeff Forcier,2019-07-19 12:29:14,Build in capture=no for integration task,tasks.py
+6186c9e8,Jeff Forcier,2018-11-29 19:02:06,"Improve discoverability of Connection(..., connect_kwargs={})",fabric/connection.py
+401aa9fd,Jeff Forcier,2018-11-08 13:25:37,Global state is bad no matter what,fabric/main.py
+401aa9fd,Jeff Forcier,2018-11-08 13:25:37,Global state is bad no matter what,tests/_util.py
+401aa9fd,Jeff Forcier,2018-11-08 13:25:37,Global state is bad no matter what,tests/main.py
+e2a81f8b,Jeff Forcier,2018-11-08 13:25:37,Global state is bad no matter what,fabric/main.py
+e2a81f8b,Jeff Forcier,2018-11-08 13:25:37,Global state is bad no matter what,tests/main.py
+eca114f1,Jeff Forcier,2018-10-26 17:17:56,Docstring enhancement re: Executor.normalize_hosts() overriding,fabric/executor.py
+b16a928d,Jeff Forcier,2018-10-18 13:27:14,Tidelift callout in sidebar,sites/shared_conf.py
+53f2f615,Jeff Forcier,2018-10-18 13:27:14,Tidelift callout in sidebar,sites/shared_conf.py
+cefb0249,Jeff Forcier,2018-09-13 15:19:58,Cut 2.4.0,fabric/_version.py
+3fd368c5,Jeff Forcier,2018-09-13 15:18:55,Cut 2.3.2,fabric/_version.py
+004efb9a,Jeff Forcier,2018-09-13 15:17:56,Cut 2.2.3,fabric/_version.py
+b1344636,Jeff Forcier,2018-09-13 15:17:13,Cut 2.1.6,fabric/_version.py
+9e8cf978,Jeff Forcier,2018-09-13 15:16:35,Cut 2.0.5,fabric/_version.py
+378ec342,Jeff Forcier,2018-08-27 17:26:10,Many commits died to bring you this questionable sanity test,tasks.py
+b8ba90ea,Jeff Forcier,2018-08-27 17:18:46,Rolling back any mention of automagic env import,fabric/config.py
+b8ba90ea,Jeff Forcier,2018-08-27 17:18:46,Rolling back any mention of automagic env import,fabric/connection.py
+b8ba90ea,Jeff Forcier,2018-08-27 17:18:46,Rolling back any mention of automagic env import,tests/config.py
+b8ba90ea,Jeff Forcier,2018-08-27 17:18:46,Rolling back any mention of automagic env import,tests/connection.py
+a85d1110,Jeff Forcier,2018-08-27 17:03:32,Fix up and impl remaining Connection->Config v1 tests,fabric/connection.py
+a85d1110,Jeff Forcier,2018-08-27 17:03:32,Fix up and impl remaining Connection->Config v1 tests,tests/connection.py
+40adb924,Jeff Forcier,2018-08-27 16:36:53,warn_only,fabric/config.py
+40adb924,Jeff Forcier,2018-08-27 16:36:53,warn_only,tests/_util.py
+40adb924,Jeff Forcier,2018-08-27 16:36:53,warn_only,tests/config.py
+d93df261,Jeff Forcier,2018-08-27 16:35:19,use_ssh_config,fabric/config.py
+d93df261,Jeff Forcier,2018-08-27 16:35:19,use_ssh_config,tests/_util.py
+d93df261,Jeff Forcier,2018-08-27 16:35:19,use_ssh_config,tests/config.py
+0b2d5a28,Jeff Forcier,2018-08-27 16:32:28,Connect timeout,fabric/config.py
+0b2d5a28,Jeff Forcier,2018-08-27 16:32:28,Connect timeout,tests/_util.py
+0b2d5a28,Jeff Forcier,2018-08-27 16:32:28,Connect timeout,tests/config.py
+e4138b23,Jeff Forcier,2018-08-27 16:28:45,Sudo prompt,fabric/config.py
+e4138b23,Jeff Forcier,2018-08-27 16:28:45,Sudo prompt,tests/_util.py
+e4138b23,Jeff Forcier,2018-08-27 16:28:45,Sudo prompt,tests/config.py
+2965beb3,Jeff Forcier,2018-08-27 16:28:18,Sorting,fabric/config.py
+2f6a5a56,Jeff Forcier,2018-08-27 16:26:14,Comment,tests/_util.py
+a9411c07,Jeff Forcier,2018-08-27 16:24:51,ssh_config_path,fabric/config.py
+a9411c07,Jeff Forcier,2018-08-27 16:24:51,ssh_config_path,tests/_util.py
+a9411c07,Jeff Forcier,2018-08-27 16:24:51,ssh_config_path,tests/config.py
+34cba3e9,Jeff Forcier,2018-08-27 16:20:17,Typofix,fabric/config.py
+ff57c2e0,Jeff Forcier,2018-08-27 16:17:40,password goes to two places,fabric/config.py
+ff57c2e0,Jeff Forcier,2018-08-27 16:17:40,password goes to two places,tests/_util.py
+ff57c2e0,Jeff Forcier,2018-08-27 16:17:40,password goes to two places,tests/config.py
+8520e7f7,Jeff Forcier,2018-08-27 16:13:06,Commentary,fabric/config.py
+20a725fc,Jeff Forcier,2018-08-27 15:46:20,I ain't got no agent,fabric/config.py
+20a725fc,Jeff Forcier,2018-08-27 15:46:20,I ain't got no agent,tests/_util.py
+20a725fc,Jeff Forcier,2018-08-27 15:46:20,I ain't got no agent,tests/config.py
+efe32a0b,Jeff Forcier,2018-08-27 15:35:29,"First wave of migration to Config.from_v1 done, plus some new env vars ported",fabric/config.py
+efe32a0b,Jeff Forcier,2018-08-27 15:35:29,"First wave of migration to Config.from_v1 done, plus some new env vars ported",tests/_util.py
+efe32a0b,Jeff Forcier,2018-08-27 15:35:29,"First wave of migration to Config.from_v1 done, plus some new env vars ported",tests/config.py
+efe32a0b,Jeff Forcier,2018-08-27 15:35:29,"First wave of migration to Config.from_v1 done, plus some new env vars ported",tests/connection.py
+d77d3256,Jeff Forcier,2018-08-27 14:37:06,Not a fan of copypasta but it all fits...,fabric/config.py
+f79f223f,Jeff Forcier,2018-08-27 14:20:16,Bunch of doc/test updates to start teasing apart conf/cxn v1 imports,tests/config.py
+f79f223f,Jeff Forcier,2018-08-27 14:20:16,Bunch of doc/test updates to start teasing apart conf/cxn v1 imports,tests/connection.py
+77d71826,Jeff Forcier,2018-08-27 10:56:32,Reverse course re: Cxn kwargs vs v1 env,fabric/connection.py
+77d71826,Jeff Forcier,2018-08-27 10:56:32,Reverse course re: Cxn kwargs vs v1 env,tests/connection.py
+d9d0c04d,Jeff Forcier,2018-08-27 10:40:21,WIP re: Config.from_v1,fabric/config.py
+d9d0c04d,Jeff Forcier,2018-08-27 10:40:21,WIP re: Config.from_v1,fabric/connection.py
+d9d0c04d,Jeff Forcier,2018-08-27 10:40:21,WIP re: Config.from_v1,tests/config.py
+d9d0c04d,Jeff Forcier,2018-08-27 10:40:21,WIP re: Config.from_v1,tests/connection.py
+bd048c24,Jeff Forcier,2018-08-17 15:12:07,Found an edge case wrt key_filename,fabric/connection.py
+bd048c24,Jeff Forcier,2018-08-17 15:12:07,Found an edge case wrt key_filename,tests/connection.py
+1f7576f7,Jeff Forcier,2018-08-16 17:11:47,key_filename plus concerns around key,fabric/connection.py
+1f7576f7,Jeff Forcier,2018-08-16 17:11:47,key_filename plus concerns around key,tests/connection.py
+8325c57d,Jeff Forcier,2018-08-16 15:53:00,Factor host string out of tests,tests/connection.py
+6f7c1385,Jeff Forcier,2018-08-16 15:42:20,Found some annoying edge cases around env.port,fabric/connection.py
+6f7c1385,Jeff Forcier,2018-08-16 15:42:20,Found some annoying edge cases around env.port,tests/connection.py
+7c1ae651,Jeff Forcier,2018-08-16 15:42:03,versionadded,fabric/connection.py
+a17bd7fe,Jeff Forcier,2018-08-16 15:41:55,Move derive_shorthand to its own function for use before instantiation,fabric/connection.py
+033301bb,Jeff Forcier,2018-08-16 15:16:18,"LMAO really? WTF, me or Christian 10+ years ago?",fabric/connection.py
+033301bb,Jeff Forcier,2018-08-16 15:16:18,"LMAO really? WTF, me or Christian 10+ years ago?",tests/connection.py
+a47a6445,Jeff Forcier,2018-08-16 14:26:18,Whitespace,fabric/connection.py
+2d372cd7,Jeff Forcier,2018-08-16 14:25:12,Guard against empty host strings,fabric/connection.py
+2d372cd7,Jeff Forcier,2018-08-16 14:25:12,Guard against empty host strings,fabric/exceptions.py
+2d372cd7,Jeff Forcier,2018-08-16 14:25:12,Guard against empty host strings,tests/connection.py
+9ad93c75,Jeff Forcier,2018-08-16 14:08:55,Basic tests filled out,fabric/connection.py
+9ad93c75,Jeff Forcier,2018-08-16 14:08:55,Basic tests filled out,tests/connection.py
+6785ebe3,Jeff Forcier,2018-08-16 13:02:49,Initial skel tests,tests/connection.py
+9ccc7a4a,Jeff Forcier,2018-08-16 12:52:13,Realized we really want an explicit mapping in our docs,fabric/connection.py
+cfe6cba4,Jeff Forcier,2018-08-14 17:10:35,DDD re: #1849,fabric/connection.py
+7ca664ae,Jeff Forcier,2018-08-14 15:24:06,Stars to dashes,fabric/connection.py
+75ed2f5d,Jeff Forcier,2018-08-27 13:09:14,Implement context manager behavior for Group.,fabric/group.py
+75ed2f5d,Jeff Forcier,2018-08-27 13:09:14,Implement context manager behavior for Group.,tests/group.py
+2ae1ab8a,Jeff Forcier,2018-08-27 13:07:12,Add versionadded for Group.close,fabric/group.py
+4dc85db7,Jeff Forcier,2018-08-27 13:00:41,Add test proving Group.close,tests/group.py
+b8205911,Jeff Forcier,2018-08-27 12:54:36,Don't actually think we need to make close() an abstract method yet.,fabric/group.py
+6892834e,Johannes Löthberg,2018-01-31 12:21:55,Add close method to group objects,fabric/group.py
+a817db7d,Jeff Forcier,2018-08-20 16:16:01,"Fix really dumb, if honest, mistake",fabric/main.py
+5d41aa1f,Jeff Forcier,2018-08-20 16:12:00,"DDD, TDD re: completion oops",tests/main.py
+a8521ecf,Jeff Forcier,2018-08-15 17:23:24,Short-circuit when proxyjump host is also our host,fabric/connection.py
+cf392ccd,Jeff Forcier,2018-08-15 16:59:12,Refactor gateway obtainment into subroutine,fabric/connection.py
+19e93b3c,Jeff Forcier,2018-08-15 16:24:10,Tests seeming to prove #1850,tests/connection.py
+b34ec026,Jeff Forcier,2018-08-15 15:57:36,Replace Invoke logger with our own in some spots,fabric/executor.py
+b34ec026,Jeff Forcier,2018-08-15 15:57:36,Replace Invoke logger with our own in some spots,fabric/transfer.py
+a880d05c,Jeff Forcier,2018-08-15 15:43:01,"Changelog, test and fix #1852",fabric/connection.py
+a880d05c,Jeff Forcier,2018-08-15 15:43:01,"Changelog, test and fix #1852",tests/connection.py
+20785e86,Jeff Forcier,2018-08-15 15:41:46,Refactor,fabric/connection.py
+b0eef835,Jeff Forcier,2018-08-08 19:12:26,Cut 2.3.1,fabric/_version.py
+1dd6524a,Jeff Forcier,2018-08-08 19:09:23,Export inlined env vars instead of just prefixing them,fabric/connection.py
+1dd6524a,Jeff Forcier,2018-08-08 19:09:23,Export inlined env vars instead of just prefixing them,fabric/runners.py
+1dd6524a,Jeff Forcier,2018-08-08 19:09:23,Export inlined env vars instead of just prefixing them,tests/runners.py
+61e408a7,Jeff Forcier,2018-08-08 18:52:11,Cut 2.3.0,fabric/_version.py
+2a328233,Jeff Forcier,2018-08-08 18:34:27,I hate dicts sometimes,fabric/connection.py
+2a328233,Jeff Forcier,2018-08-08 18:34:27,I hate dicts sometimes,fabric/runners.py
+2a328233,Jeff Forcier,2018-08-08 18:34:27,I hate dicts sometimes,tests/runners.py
+1975ac87,Jeff Forcier,2018-08-08 18:29:16,Lang tweak,fabric/connection.py
+d0381770,Jeff Forcier,2018-08-08 18:07:48,Account for new Remote init kwarg in some unrelated tests,tests/connection.py
+fb69f9d5,Jeff Forcier,2018-08-08 18:01:36,Implement #1826,fabric/runners.py
+fb69f9d5,Jeff Forcier,2018-08-08 18:01:36,Implement #1826,tests/runners.py
+0b9651b8,Jeff Forcier,2018-08-08 17:59:16,"This is too annoying to flake8, just remove it for now",tests/runners.py
+27f38173,Jeff Forcier,2018-08-08 17:35:15,Moar TODO updates,fabric/runners.py
+dd16adce,Jeff Forcier,2018-08-08 17:33:43,"Danger, Will ""Bill"" Robin$on`!",fabric/connection.py
+4a541d89,Jeff Forcier,2018-08-08 17:17:20,Failing test proving #1826,fabric/runners.py
+4a541d89,Jeff Forcier,2018-08-08 17:17:20,Failing test proving #1826,tests/runners.py
+897388df,Jeff Forcier,2018-08-08 17:17:02,Refactoring,tests/runners.py
+172ec315,Jeff Forcier,2018-08-08 17:09:11,Refactoring,tests/runners.py
+548d5c1c,Jeff Forcier,2018-08-08 17:00:23,Not sure why this pty=True was here,tests/runners.py
+2a308770,Jeff Forcier,2018-08-08 16:57:26,Tweak TODO,fabric/runners.py
+64494e7d,Jeff Forcier,2018-08-08 16:37:15,Shuffle,tests/runners.py
+59603fce,Jeff Forcier,2018-08-08 16:34:53,Test+impl re: passing inline_(ssh_)env from Connection to Remote,fabric/connection.py
+59603fce,Jeff Forcier,2018-08-08 16:34:53,Test+impl re: passing inline_(ssh_)env from Connection to Remote,tests/connection.py
+8b23793b,Jeff Forcier,2018-08-08 16:28:49,Refactor,fabric/connection.py
+68f379bf,Jeff Forcier,2018-08-08 16:26:01,Forgot versionchanged::s,fabric/connection.py
+68f379bf,Jeff Forcier,2018-08-08 16:26:01,Forgot versionchanged::s,fabric/runners.py
+02d637ae,Jeff Forcier,2018-08-08 16:23:31,inline_ssh_env at Connection level (setting only),fabric/connection.py
+02d637ae,Jeff Forcier,2018-08-08 16:23:31,inline_ssh_env at Connection level (setting only),tests/connection.py
+b4ab76c5,Jeff Forcier,2018-08-08 16:17:37,Add baseline config option for inlined ssh envs,fabric/config.py
+b4ab76c5,Jeff Forcier,2018-08-08 16:17:37,Add baseline config option for inlined ssh envs,tests/config.py
+24f135b6,Jeff Forcier,2018-08-08 16:02:19,DDD re #1826,fabric/connection.py
+24f135b6,Jeff Forcier,2018-08-08 16:02:19,DDD re #1826,fabric/runners.py
+9cd2a656,Jeff Forcier,2018-08-08 14:51:28,Missing test re: updating remote shell environment,tests/runners.py
+2dd32457,Jeff Forcier,2018-07-31 17:59:01,Cut 2.2.2,fabric/_version.py
+fc8f2af9,Jeff Forcier,2018-07-31 17:57:55,Cut 2.1.5,fabric/_version.py
+6f19bfb7,Jeff Forcier,2018-07-31 17:56:44,Cut 2.0.4,fabric/_version.py
+4afeead5,Jeff Forcier,2018-07-31 15:54:10,Ehhhh,tests/main.py
+4da29e1c,Jeff Forcier,2018-07-31 15:21:39,Implement a test related TODO,tests/main.py
+cbfdac93,Jeff Forcier,2018-07-31 15:09:41,Heh,tests/main.py
+a87ef044,Jeff Forcier,2018-07-25 16:11:48,I am really starting to hate doctests,fabric/connection.py
+a87ef044,Jeff Forcier,2018-07-25 16:11:48,I am really starting to hate doctests,tests/connection.py
+8e1cc2f8,Jeff Forcier,2018-07-25 12:33:42,Oh right that is a lie now,sites/shared_conf.py
+44a4d31a,Jeff Forcier,2018-07-25 11:42:26,Set up for doctesting stuff in www site (eg README),sites/docs/conf.py
+44a4d31a,Jeff Forcier,2018-07-25 11:42:26,Set up for doctesting stuff in www site (eg README),sites/shared_conf.py
+bdbae338,Jeff Forcier,2018-07-25 11:34:23,Handle FLOs when uploading to remote directories,fabric/transfer.py
+bdbae338,Jeff Forcier,2018-07-25 11:34:23,Handle FLOs when uploading to remote directories,tests/transfer.py
+68cd2b0c,Jeff Forcier,2018-07-24 15:54:44,Whoops we never actually documented how to get GroupResult out of GroupException,fabric/exceptions.py
+ffdc0b8a,Jeff Forcier,2018-07-24 13:33:53,Failing test proving #1749,tests/transfer.py
+ee58d604,Jeff Forcier,2018-07-24 13:29:34,Tweaky,tests/transfer.py
+5dfbf7a1,Jeff Forcier,2018-07-24 13:17:03,Unit level tests for new Transfer.is_remote_dir,fabric/transfer.py
+5dfbf7a1,Jeff Forcier,2018-07-24 13:17:03,Unit level tests for new Transfer.is_remote_dir,tests/transfer.py
+b7511313,Jeff Forcier,2018-07-24 12:48:04,Minor refactor of sftp obj handle,fabric/transfer.py
+1eb10f63,Jeff Forcier,2018-07-24 11:27:34,Tweak,fabric/transfer.py
+d3f23ead,Jeff Forcier,2018-07-24 11:24:22,These args were in unintuitive order,tests/transfer.py
+f2d3d59e,Jeff Forcier,2018-07-23 21:55:10,Implement #1831,fabric/group.py
+7b8a5a22,Jeff Forcier,2018-07-23 21:53:44,"DDD, TDD re #1831",fabric/group.py
+7b8a5a22,Jeff Forcier,2018-07-23 21:53:44,"DDD, TDD re #1831",tests/group.py
+109ddfef,Jeff Forcier,2018-07-23 19:20:32,Correct second 'fix' (really just doc fix) re #1762,tests/_support/yml_conf/fabfile.py
+109ddfef,Jeff Forcier,2018-07-23 19:20:32,Correct second 'fix' (really just doc fix) re #1762,tests/main.py
+a0a49ee2,Jeff Forcier,2018-07-23 19:17:30,First fix re #1762,fabric/main.py
+e52aa671,Jeff Forcier,2018-07-23 19:10:01,"DDD, TDD re #1762",tests/_support/yml_conf/fabfile.py
+e52aa671,Jeff Forcier,2018-07-23 19:10:01,"DDD, TDD re #1762",tests/main.py
+e574b84a,Jeff Forcier,2018-07-23 19:08:14,Old not-technically-a-typo fix,tests/_support/yml_conf/fabfile.py
+3ab2d55f,Jeff Forcier,2018-07-23 17:13:23,Clarify SFTP get/put docstrings re: lack of tilde expansion,fabric/transfer.py
+0b01e3b7,Jeff Forcier,2018-07-18 12:49:19,Cut 2.2.1,fabric/_version.py
+2026b816,Jeff Forcier,2018-07-18 12:47:30,Fixes #1824,fabric/executor.py
+2026b816,Jeff Forcier,2018-07-18 12:47:30,Fixes #1824,tests/_support/fabfile.py
+2026b816,Jeff Forcier,2018-07-18 12:47:30,Fixes #1824,tests/executor.py
+d2ede06a,Jeff Forcier,2018-07-18 12:41:24,Failing unit tests re #1824,tests/executor.py
+dabf3659,Jeff Forcier,2018-07-18 12:35:55,Tweak,tests/executor.py
+c490cfed,Jeff Forcier,2018-07-18 12:34:18,Nuke old TODOs,tests/executor.py
+5a91693b,Jeff Forcier,2018-07-18 12:34:02,Initial high level test proving #1824,tests/_support/fabfile.py
+5a91693b,Jeff Forcier,2018-07-18 12:34:02,Initial high level test proving #1824,tests/main.py
+2723d232,Jeff Forcier,2018-07-13 13:44:05,Cut 2.2.0,fabric/_version.py
+df9f7d58,Jeff Forcier,2018-07-13 13:43:33,Cut 2.1.4,fabric/_version.py
+b7f9065e,Jeff Forcier,2018-07-13 13:42:18,Cut 2.0.3,fabric/_version.py
+28d949de,Jeff Forcier,2018-07-12 11:33:57,Flesh out arguably higher level tests re: hosts arg in task decorator,tests/_support/fabfile.py
+28d949de,Jeff Forcier,2018-07-12 11:33:57,Flesh out arguably higher level tests re: hosts arg in task decorator,tests/main.py
+54f7c670,Jeff Forcier,2018-07-10 17:17:10,Fuckin really?!,fabric/testing/fixtures.py
+c7196769,Jeff Forcier,2018-07-10 15:33:36,OH hey,tests/main.py
+1b53d72b,Jeff Forcier,2018-07-10 15:31:56,Add a repr to testing Command,fabric/testing/base.py
+abdd2c76,Jeff Forcier,2018-07-10 14:25:31,More test fixup,tests/executor.py
+01b16b1e,Jeff Forcier,2018-07-10 13:47:20,Set up some program/main level tests around task(hosts=xxx),tests/main.py
+6794219c,Jeff Forcier,2018-07-10 13:39:51,Get task-level tests passing,tests/task.py
+5416c6c9,Jeff Forcier,2018-07-10 13:36:42,Most of the way towards full handling of kwargs-or-string host values,fabric/executor.py
+5416c6c9,Jeff Forcier,2018-07-10 13:36:42,Most of the way towards full handling of kwargs-or-string host values,fabric/tasks.py
+5416c6c9,Jeff Forcier,2018-07-10 13:36:42,Most of the way towards full handling of kwargs-or-string host values,tests/executor.py
+5416c6c9,Jeff Forcier,2018-07-10 13:36:42,Most of the way towards full handling of kwargs-or-string host values,tests/task.py
+ca353689,Jeff Forcier,2018-07-10 13:22:13,LOL that's a typo right there,fabric/executor.py
+54393171,Jeff Forcier,2018-07-09 19:36:20,Sanity test ConnectionCall superclass behavior,tests/task.py
+0fc83ffd,Jeff Forcier,2018-07-09 19:35:48,Refactor,tests/task.py
+a264e9c7,Jeff Forcier,2018-07-09 18:03:34,Test refactor + set up for Task(hosts=xxx),tests/executor.py
+8499b79b,Jeff Forcier,2018-07-09 17:48:43,Wrap up basic 'hosts attr on Task objects' level stuff,fabric/tasks.py
+8499b79b,Jeff Forcier,2018-07-09 17:48:43,Wrap up basic 'hosts attr on Task objects' level stuff,tests/task.py
+35b26bd5,Jeff Forcier,2018-07-09 17:04:36,Tweak,fabric/tasks.py
+b0394248,Jeff Forcier,2018-07-09 16:51:26,Override default task class to be our own,fabric/tasks.py
+8ca5ac03,Jeff Forcier,2018-07-09 16:04:27,Fabric 2.2 needs Invoke 1.1,setup.py
+263d38e2,Jeff Forcier,2018-07-09 16:01:45,Sanity test: don't screw over our own subclassers,tests/task.py
+a581115a,Jeff Forcier,2018-07-09 15:27:29,"For clarity, use module (vs member) imports.",tests/task.py
+2bdc454f,Jeff Forcier,2018-07-09 15:22:35,Flesh out sanity 'works like parent' tests for Fab-level task/Task,fabric/tasks.py
+2bdc454f,Jeff Forcier,2018-07-09 15:22:35,Flesh out sanity 'works like parent' tests for Fab-level task/Task,tests/task.py
+bf195d03,Jeff Forcier,2018-07-09 14:59:08,Implement ConnectionCall repr update,fabric/tasks.py
+6f4d5148,Jeff Forcier,2018-07-09 14:50:24,Stub tests for new Fabric-level Task/task re #1772,tests/task.py
+090d6d31,Jeff Forcier,2018-07-09 14:00:10,Move ConnectionCall to tasks module to match invoke's Call,fabric/executor.py
+090d6d31,Jeff Forcier,2018-07-09 14:00:10,Move ConnectionCall to tasks module to match invoke's Call,fabric/tasks.py
+3c7faaa3,Jeff Forcier,2018-07-09 13:56:16,Rest of stub tests filled out or explicitly skipped.,tests/executor.py
+4b8fa0f9,Jeff Forcier,2018-07-09 12:15:04,Refactor + next test,tests/executor.py
+b7b698ba,Jeff Forcier,2018-07-09 12:14:49,TODO,fabric/executor.py
+daabb479,Jeff Forcier,2018-07-09 12:07:43,Next test,tests/executor.py
+51225d1d,Jeff Forcier,2018-07-09 12:00:37,Refactor and next test,tests/executor.py
+572de1ba,Jeff Forcier,2018-07-03 16:49:21,Make fabric's Executor a real boy,fabric/__init__.py
+572de1ba,Jeff Forcier,2018-07-03 16:49:21,Make fabric's Executor a real boy,fabric/executor.py
+572de1ba,Jeff Forcier,2018-07-03 16:49:21,Make fabric's Executor a real boy,fabric/main.py
+572de1ba,Jeff Forcier,2018-07-03 16:49:21,Make fabric's Executor a real boy,fabric/tasks.py
+572de1ba,Jeff Forcier,2018-07-03 16:49:21,Make fabric's Executor a real boy,tests/init.py
+4775441a,Jeff Forcier,2018-06-28 12:02:31,Upgrade desired black on travis to 18.6b4,tasks.py
+fd60d7e3,Jeff Forcier,2018-06-25 22:42:29,Blacken under black 18.6b4,tests/main.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,fabric/config.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,fabric/connection.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,fabric/executor.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,fabric/main.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,fabric/transfer.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,integration/connection.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,integration/group.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,integration/transfer.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/_util.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/config.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/connection.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/group.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/main.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/runners.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/transfer.py
+87bba073,Jeff Forcier,2018-06-25 22:41:48,Blacken under black 18.6b4,tests/util.py
+32ac474b,Jeff Forcier,2018-06-21 16:06:41,Fix typo re: key_filenames (is not plural),fabric/connection.py
+cdff3889,Jeff Forcier,2018-06-19 14:54:10,Blacken,tests/main.py
+1a866888,Jeff Forcier,2018-06-19 14:01:23,"Overhaul test to be separate top level class, bit cleaner",tests/main.py
+2ad14b59,Jeff Forcier,2018-06-19 13:41:52,Blacken,fabric/__main__.py
+2ad14b59,Jeff Forcier,2018-06-19 13:41:52,Blacken,tests/main.py
+d5b7ce26,Jeff Forcier,2018-06-14 17:48:55,Oh dear sweet baby Jesus,fabric/connection.py
+a6caafc9,Jeff Forcier,2018-06-14 17:48:39,Second stab at wider disable of SSHConfig loading in connection tests,tests/_util.py
+a6caafc9,Jeff Forcier,2018-06-14 17:48:39,Second stab at wider disable of SSHConfig loading in connection tests,tests/connection.py
+d5ae5666,Jeff Forcier,2018-06-14 16:58:19,First stab at fixing #1753,tests/connection.py
+c0ba134a,Jeff Forcier,2018-05-24 21:10:07,Cut 2.1.3,fabric/_version.py
+ce11b0cb,Jeff Forcier,2018-05-24 21:06:59,Better package finding that covers subpackages,setup.py
+4141d2fd,Jeff Forcier,2018-05-24 21:06:45,Better package finding that covers subpackages,setup.py
+ec27c719,Jeff Forcier,2018-05-24 18:02:08,Cut 2.1.2,fabric/_version.py
+b98334bd,Jeff Forcier,2018-05-24 18:01:53,JFC,setup.py
+8437723c,Jeff Forcier,2018-05-24 17:58:40,Cut 2.1.1,fabric/_version.py
+5e9cab34,Jeff Forcier,2018-05-24 17:58:21,Might as well be consistent if we're pinning,setup.py
+0934dbf2,Jeff Forcier,2018-05-24 17:57:38,FML,setup.py
+4f7c3127,Jeff Forcier,2018-05-24 17:37:21,Missed a doctest related bit when creating testing module,sites/docs/conf.py
+2117fbbb,Jeff Forcier,2018-05-24 17:35:08,Cut 2.1.0,fabric/_version.py
+b2355740,Jeff Forcier,2018-05-24 17:32:46,Cut 2.0.2,fabric/_version.py
+81543597,Jeff Forcier,2018-05-24 16:36:58,Set username better,fabric/testing/fixtures.py
+04fbf9e0,Jeff Forcier,2018-05-24 16:31:57,Shorter is nicer.,fabric/testing/fixtures.py
+24bd2957,Jeff Forcier,2018-05-24 16:28:18,Make connection fixture more about high level mocking only.,fabric/testing/fixtures.py
+444cf1ff,Jeff Forcier,2018-05-24 16:02:26,(re)blacken after master merge,fabric/testing/base.py
+7def1b21,Jeff Forcier,2018-05-24 15:32:36,New very high level fixture,fabric/testing/fixtures.py
+78804a5a,Jeff Forcier,2018-05-24 15:32:25,Versionaddeds,fabric/testing/base.py
+78804a5a,Jeff Forcier,2018-05-24 15:32:25,Versionaddeds,fabric/testing/fixtures.py
+b3959951,Jeff Forcier,2018-05-24 15:31:48,Bunch of doc reference fixes,fabric/testing/base.py
+b3959951,Jeff Forcier,2018-05-24 15:31:48,Bunch of doc reference fixes,fabric/testing/fixtures.py
+b5db13f0,Jeff Forcier,2018-05-24 13:48:47,Typofix,fabric/testing/fixtures.py
+7937d78c,Jeff Forcier,2018-05-24 13:18:51,Typofix,fabric/testing/base.py
+c249db91,Jeff Forcier,2018-05-24 13:15:41,Make testing helpers a subpackage.,fabric/testing/__init__.py
+c249db91,Jeff Forcier,2018-05-24 13:15:41,Make testing helpers a subpackage.,fabric/testing/base.py
+c249db91,Jeff Forcier,2018-05-24 13:15:41,Make testing helpers a subpackage.,fabric/testing/fixtures.py
+c249db91,Jeff Forcier,2018-05-24 13:15:41,Make testing helpers a subpackage.,tests/conftest.py
+c249db91,Jeff Forcier,2018-05-24 13:15:41,Make testing helpers a subpackage.,tests/main.py
+e253e17f,Jeff Forcier,2018-05-24 12:07:27,Start trying to break out test helpers publicly,fabric/testing.py
+e253e17f,Jeff Forcier,2018-05-24 12:07:27,Start trying to break out test helpers publicly,tests/_util.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,fabric/config.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,fabric/connection.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,fabric/util.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,setup.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,tests/_support/fabfile.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,tests/_util.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,tests/connection.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,tests/group.py
+196f7ac8,Jeff Forcier,2018-05-24 15:52:40,Blacken under 18.5b0,tests/main.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,integration/concurrency.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,integration/connection.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,integration/group.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,integration/transfer.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,setup.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,sites/docs/conf.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,sites/shared_conf.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,sites/www/conf.py
+fad3c67a,Jeff Forcier,2018-05-24 15:38:57,Newly expanded blackening,tasks.py
+422a9de8,Jeff Forcier,2018-05-24 15:38:15,Not sure why Chris explicitly put this in here actually.,tasks.py
+750fa2d6,Jeff Forcier,2018-05-24 12:11:13,WIP,fabric/tasks.py
+e0816142,Jeff Forcier,2018-05-21 19:58:13,"Port some test util junk from invoke for now, meh",tests/_util.py
+d1ea4d6f,Jeff Forcier,2018-05-21 18:43:35,Missed a versionadded,fabric/tasks.py
+9602b453,Jeff Forcier,2018-05-21 17:37:47,Just init things,fabric/__init__.py
+9602b453,Jeff Forcier,2018-05-21 17:37:47,Just init things,tests/init.py
+e2113424,Jeff Forcier,2018-05-21 17:37:32,Remove old eq_,tests/_util.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/fabfile.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/json_conf/fabfile.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/prompting.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/py_conf/fabfile.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/runtime_fabfile.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/yaml_conf/fabfile.py
+21e29a64,Jeff Forcier,2018-05-21 17:25:19,Go whole hog on using fabric.tasks.task,tests/_support/yml_conf/fabfile.py
+825b8380,Jeff Forcier,2018-05-21 17:20:01,Tweak,fabric/tasks.py
+fe54c363,Jeff Forcier,2018-05-21 16:45:03,Remove outdated TODO,fabric/executor.py
+6b514132,Jeff Forcier,2018-05-21 16:44:55,Basic Fabric-level task/Task DDD,fabric/tasks.py
+efa88a94,Jeff Forcier,2018-05-19 10:28:56,"flake8 vs black, part N",tasks.py
+efa88a94,Jeff Forcier,2018-05-19 10:28:56,"flake8 vs black, part N",tests/_util.py
+efa88a94,Jeff Forcier,2018-05-19 10:28:56,"flake8 vs black, part N",tests/runners.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",fabric/config.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",fabric/connection.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",fabric/util.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",tests/_support/fabfile.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",tests/_util.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",tests/connection.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",tests/group.py
+4a7929c7,Jeff Forcier,2018-05-19 10:21:17,"Revert ""Blacken codebase""",tests/main.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,fabric/config.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,fabric/connection.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,fabric/util.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,tests/_support/fabfile.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,tests/_util.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,tests/connection.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,tests/group.py
+0cc40438,Jeff Forcier,2018-05-18 19:12:23,Blacken codebase,tests/main.py
+6343a445,Rupesh Patro,2018-05-17 00:12:55,adding ability to invoke fabric package as a script using python -m fabric,fabric/__main__.py
+6343a445,Rupesh Patro,2018-05-17 00:12:55,adding ability to invoke fabric package as a script using python -m fabric,tests/main.py
+e4d7fbee,Rupesh Patro,2018-05-16 23:49:48,adding ability to invoke fabric package as a script using python -m fabric,fabric/__main__.py
+4a0a6b60,Rupesh Patro,2018-05-16 23:49:15,adding ability to invoke fabric package as a script using python -m fabric,tests/main.py
+6866f197,Jeff Forcier,2018-05-14 17:07:09,Missing space?,fabric/executor.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/_version.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/config.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/connection.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/exceptions.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/executor.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/group.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/main.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/runners.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/transfer.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/tunnels.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/util.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/json_conf/fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/py_conf/fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/runtime_fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/yaml_conf/fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/yml_conf/fabfile.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_util.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/config.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/conftest.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/connection.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/group.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/init.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/main.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/runners.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/transfer.py
+a18d25f7,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/util.py
+492c619d,Chris Rose,2018-05-14 14:55:22,Blacken fabric with Travis,tasks.py
+875b64e6,Jeff Forcier,2018-05-16 14:21:38,flake8,integration/connection.py
+875b64e6,Jeff Forcier,2018-05-16 14:21:38,flake8,integration/transfer.py
+7412cf89,Jeff Forcier,2018-05-16 14:19:44,Port integration suite to pytest,integration/concurrency.py
+7412cf89,Jeff Forcier,2018-05-16 14:19:44,Port integration suite to pytest,integration/connection.py
+7412cf89,Jeff Forcier,2018-05-16 14:19:44,Port integration suite to pytest,integration/group.py
+7412cf89,Jeff Forcier,2018-05-16 14:19:44,Port integration suite to pytest,integration/transfer.py
+df12bb9b,Jeff Forcier,2018-05-14 17:07:09,Missing space?,fabric/executor.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/_version.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/config.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/connection.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/exceptions.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/executor.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/group.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/main.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/runners.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/transfer.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/tunnels.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,fabric/util.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/json_conf/fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/py_conf/fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/runtime_fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/yaml_conf/fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_support/yml_conf/fabfile.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/_util.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/config.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/conftest.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/connection.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/group.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/init.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/main.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/runners.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/transfer.py
+58a5beb4,Chris Rose,2018-05-14 15:10:06,Blacken fabric,tests/util.py
+8a957dcd,Chris Rose,2018-05-14 14:55:22,Blacken fabric with Travis,tasks.py
+e17cd70a,Jeff Forcier,2018-05-14 11:17:26,Cut 2.0.1,fabric/_version.py
+08870b38,Jeff Forcier,2018-05-14 11:15:56,Get Invocations release tasks working properly,tasks.py
+220baa9a,Athmane Madjoudj,2018-05-12 19:48:46,Fallback to system modules if vendorized one do not exist,fabric/connection.py
+220baa9a,Athmane Madjoudj,2018-05-12 19:48:46,Fallback to system modules if vendorized one do not exist,fabric/group.py
+220baa9a,Athmane Madjoudj,2018-05-12 19:48:46,Fallback to system modules if vendorized one do not exist,tests/connection.py
+220baa9a,Athmane Madjoudj,2018-05-12 19:48:46,Fallback to system modules if vendorized one do not exist,tests/runners.py
+220baa9a,Athmane Madjoudj,2018-05-12 19:48:46,Fallback to system modules if vendorized one do not exist,tests/transfer.py
+66868afe,Jeff Forcier,2018-05-09 23:49:43,Invoke 1.0 is on PyPI now.,setup.py
+924158d3,Jeff Forcier,2018-05-09 23:47:27,Custom two-name publish task,tasks.py
+90cbfea2,Jeff Forcier,2018-05-09 19:09:42,s/cxn/c/g,fabric/connection.py
+c6dc274a,Jeff Forcier,2018-05-09 19:00:41,Remove outright lies from documentation.,fabric/group.py
+79a370d6,Jeff Forcier,2018-05-09 18:20:46,prompt-for-sudo-password now implemented in Invoke,fabric/main.py
+79a370d6,Jeff Forcier,2018-05-09 18:20:46,prompt-for-sudo-password now implemented in Invoke,tests/main.py
+9f289ea2,Jeff Forcier,2018-05-09 16:32:02,Tweak language of transfers.Result note,fabric/transfer.py
+b1aabc96,Jeff Forcier,2018-05-09 16:26:05,Quick clarifiation module/class docstrings for rest of tunnels.py,fabric/tunnels.py
+4e633d8d,Jeff Forcier,2018-05-08 19:02:57,Modernize a few string interpolations,fabric/config.py
+4e633d8d,Jeff Forcier,2018-05-08 19:02:57,Modernize a few string interpolations,fabric/executor.py
+4e633d8d,Jeff Forcier,2018-05-08 19:02:57,Modernize a few string interpolations,fabric/transfer.py
+c6436e11,Jeff Forcier,2018-05-07 17:46:04,Tweak trove classifiers,setup.py
+251cc3cc,Jeff Forcier,2018-05-04 23:33:42,Minor doc tweaks,sites/shared_conf.py
+ef607259,Jeff Forcier,2018-05-02 15:15:45,Re-enable codecov for Fabric 2 docs,sites/shared_conf.py
+d86ff40f,Jeff Forcier,2018-05-01 14:26:11,Try splitting out v1 changelog.,sites/www/conf.py
+d93046fb,Jeff Forcier,2018-05-01 12:20:21,"Whoops, invoke now uses -F for --list-format. Meh.",fabric/main.py
+d93046fb,Jeff Forcier,2018-05-01 12:20:21,"Whoops, invoke now uses -F for --list-format. Meh.",tests/main.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/config.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/connection.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/exceptions.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/group.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/runners.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/transfer.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/tunnels.py
+92896616,Jeff Forcier,2018-05-01 11:57:06,Add versionadded 2.0 to all public docstrings,fabric/util.py
+dd9da5c1,Jeff Forcier,2018-04-26 11:11:08,2.0 on the horizon,setup.py
+ff861bbb,Jeff Forcier,2018-04-23 15:20:09,Fix a whole passle of horrible Sphinx reference issues.,fabric/connection.py
+ff861bbb,Jeff Forcier,2018-04-23 15:20:09,Fix a whole passle of horrible Sphinx reference issues.,fabric/transfer.py
+e6911e14,Jeff Forcier,2018-04-23 14:36:30,"Let's not, re: explicitly saying str or unicode",fabric/connection.py
+4358f344,Jeff Forcier,2018-04-20 14:37:56,Some more TODOs re things like run.shell being COMSPEC on Windows but only locally,fabric/config.py
+95d1ed55,Jeff Forcier,2017-11-20 11:57:53,Implement basic pre/post honoring re #452,fabric/executor.py
+346ee631,Jeff Forcier,2017-11-20 11:50:32,"More TDD, expecting current first-stab pre/post behavior",tests/_support/fabfile.py
+346ee631,Jeff Forcier,2017-11-20 11:50:32,"More TDD, expecting current first-stab pre/post behavior",tests/main.py
+3c2135a1,Jeff Forcier,2017-11-20 10:41:31,TDD proving we still haven't gotten pre/post hooked up yet,fabric/executor.py
+3c2135a1,Jeff Forcier,2017-11-20 10:41:31,TDD proving we still haven't gotten pre/post hooked up yet,tests/_support/fabfile.py
+3c2135a1,Jeff Forcier,2017-11-20 10:41:31,TDD proving we still haven't gotten pre/post hooked up yet,tests/main.py
+2ddda59a,Jeff Forcier,2017-11-20 10:39:15,TODO,tests/_util.py
+f82b9a52,Jeff Forcier,2017-11-14 13:49:12,flake8,tests/_support/prompting.py
+45dc7eb3,Jeff Forcier,2017-11-14 13:48:49,Test & implement --prompt-for-pass(word|phrase),fabric/main.py
+45dc7eb3,Jeff Forcier,2017-11-14 13:48:49,Test & implement --prompt-for-pass(word|phrase),tests/_support/prompting.py
+45dc7eb3,Jeff Forcier,2017-11-14 13:48:49,Test & implement --prompt-for-pass(word|phrase),tests/main.py
+1a00a16c,Jeff Forcier,2017-11-14 12:50:24,Upcoming password/phrase distinction needs Paramiko 2.4,setup.py
+93889b78,Jeff Forcier,2017-11-14 12:50:08,Let's stop using outer bounds in setup.py,setup.py
+37d086c9,Jeff Forcier,2017-11-14 12:35:51,Flake8,tests/conftest.py
+37d086c9,Jeff Forcier,2017-11-14 12:35:51,Flake8,tests/connection.py
+3e8e6c48,Jeff Forcier,2017-11-14 12:23:43,"Implementation makes new tests pass, key_filename gtg?",fabric/connection.py
+61c317eb,Jeff Forcier,2017-11-14 12:23:29,Test all permutations of key_filenames source merging,tests/connection.py
+e12f0da6,Jeff Forcier,2017-11-13 20:24:08,Move test around & set up to expand,tests/connection.py
+0f1e21e3,Jeff Forcier,2017-11-13 16:54:09,Apply fixture to some less straightforward tests.,tests/connection.py
+eb87957f,Jeff Forcier,2017-11-13 15:51:35,Update most SSHClient-mocking tests to use new fixture.,tests/conftest.py
+eb87957f,Jeff Forcier,2017-11-13 15:51:35,Update most SSHClient-mocking tests to use new fixture.,tests/connection.py
+a55f2152,Jeff Forcier,2017-11-13 14:17:58,Fix semi-typo in var name,tests/connection.py
+79ec6021,Jeff Forcier,2017-11-13 12:11:42,Whitespace,tests/conftest.py
+9cf488c2,Jeff Forcier,2017-11-13 12:11:06,Tighten up previous test,tests/connection.py
+ec1d2d7b,Jeff Forcier,2017-11-13 11:48:37,"Realized CLI _is_ config, for now, so merged them in DDD.",tests/connection.py
+e2e899d9,Jeff Forcier,2017-11-10 15:12:03,"Whoops, pytest still not quite smart enough",tests/connection.py
+9fa1170f,Jeff Forcier,2017-11-08 14:22:01,Clarify comment,tests/connection.py
+47d383c3,Jeff Forcier,2017-11-08 14:20:49,Yea don't think this matters,tests/connection.py
+503caf12,Jeff Forcier,2017-11-08 13:56:01,"DDD, TDD re: ssh_config IdentityFile support",tests/connection.py
+6297c6ec,Jeff Forcier,2017-11-08 11:12:44,"Clean up support, config file path stuff more",tests/_util.py
+6297c6ec,Jeff Forcier,2017-11-08 11:12:44,"Clean up support, config file path stuff more",tests/config.py
+6297c6ec,Jeff Forcier,2017-11-08 11:12:44,"Clean up support, config file path stuff more",tests/connection.py
+6297c6ec,Jeff Forcier,2017-11-08 11:12:44,"Clean up support, config file path stuff more",tests/main.py
+2ce54a6b,Jeff Forcier,2017-11-08 11:06:01,Move config.yml so it's not annoyingly conflated with config test file in tab complete,tests/main.py
+9bb657d8,Jeff Forcier,2017-11-06 20:51:11,flake8 and cleanup,tests/_util.py
+9bb657d8,Jeff Forcier,2017-11-06 20:51:11,flake8 and cleanup,tests/main.py
+9bb657d8,Jeff Forcier,2017-11-06 20:51:11,flake8 and cleanup,tests/runners.py
+4b8d53f0,Jeff Forcier,2017-11-06 20:43:24,Tighten up SFTP fixtures and apply to rest of module.,tests/conftest.py
+4b8d53f0,Jeff Forcier,2017-11-06 20:43:24,Tighten up SFTP fixtures and apply to rest of module.,tests/transfer.py
+9263c6e0,Jeff Forcier,2017-11-06 19:25:24,First stab at working fixture version of mock_sftp,tests/conftest.py
+9263c6e0,Jeff Forcier,2017-11-06 19:25:24,First stab at working fixture version of mock_sftp,tests/transfer.py
+0c2da3ad,Jeff Forcier,2017-11-06 19:14:21,TODO,tests/_util.py
+61eaa5cf,Jeff Forcier,2017-11-06 18:57:28,Some fixes after a recent merge/rebase to v2,tests/config.py
+61eaa5cf,Jeff Forcier,2017-11-06 18:57:28,Some fixes after a recent merge/rebase to v2,tests/main.py
+463ed050,Jeff Forcier,2017-07-10 17:42:04,Get bunch more tests working,tests/_util.py
+463ed050,Jeff Forcier,2017-07-10 17:42:04,Get bunch more tests working,tests/runners.py
+cc840595,Jeff Forcier,2017-07-10 17:41:58,Ensure Remote is added to top level exports,fabric/__init__.py
+cc840595,Jeff Forcier,2017-07-10 17:41:58,Ensure Remote is added to top level exports,tests/init.py
+885eda6d,Jeff Forcier,2017-07-10 16:21:20,"Fixups to previous commit. Many tests pass now, but not all.",tests/config.py
+885eda6d,Jeff Forcier,2017-07-10 16:21:20,"Fixups to previous commit. Many tests pass now, but not all.",tests/conftest.py
+885eda6d,Jeff Forcier,2017-07-10 16:21:20,"Fixups to previous commit. Many tests pass now, but not all.",tests/connection.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/_util.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/config.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/conftest.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/connection.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/group.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/init.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/main.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/runners.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/transfer.py
+07df1647,Jeff Forcier,2017-07-10 14:36:19,flake8 mostly happy about imports/names/etc now.,tests/util.py
+b07e3277,Jeff Forcier,2017-06-27 11:34:49,Finish updating main.py tests - all green,fabric/executor.py
+b07e3277,Jeff Forcier,2017-06-27 11:34:49,Finish updating main.py tests - all green,tests/_util.py
+b07e3277,Jeff Forcier,2017-06-27 11:34:49,Finish updating main.py tests - all green,tests/main.py
+461247bc,Jeff Forcier,2017-06-27 11:10:20,Comment/docstring tweaks,tests/_util.py
+1171a021,Jeff Forcier,2017-06-26 18:41:03,"WIP, have bunch of main.py tests working under pytest-relaxed now",fabric/executor.py
+1171a021,Jeff Forcier,2017-06-26 18:41:03,"WIP, have bunch of main.py tests working under pytest-relaxed now",tasks.py
+1171a021,Jeff Forcier,2017-06-26 18:41:03,"WIP, have bunch of main.py tests working under pytest-relaxed now",tests/_support/runtime_fabfile.py
+1171a021,Jeff Forcier,2017-06-26 18:41:03,"WIP, have bunch of main.py tests working under pytest-relaxed now",tests/_util.py
+1171a021,Jeff Forcier,2017-06-26 18:41:03,"WIP, have bunch of main.py tests working under pytest-relaxed now",tests/main.py
+82dcc9ef,Jeff Forcier,2017-10-18 16:34:45,Use dict comprehensions where obviously useful,tests/group.py
+1c937e3e,Jeff Forcier,2017-10-18 16:31:56,Use set literals,tests/config.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,fabric/config.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,fabric/connection.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,fabric/main.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,integration/concurrency.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,integration/connection.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,setup.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,tests/_util.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,tests/connection.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,tests/group.py
+4bbdebf7,Jeff Forcier,2017-10-18 16:30:50,s/{N}/{}/g,tests/main.py
+c00cd21b,Jeff Forcier,2017-10-18 16:27:07,Doc/metadata updates re: dropping 2.6/3.3,setup.py
+c00cd21b,Jeff Forcier,2017-10-18 16:27:07,Doc/metadata updates re: dropping 2.6/3.3,sites/shared_conf.py
+0baba701,Jeff Forcier,2017-10-18 15:47:22,Implement list-type behavior for --identity CLI flag.,fabric/connection.py
+0baba701,Jeff Forcier,2017-10-18 15:47:22,Implement list-type behavior for --identity CLI flag.,fabric/main.py
+0baba701,Jeff Forcier,2017-10-18 15:47:22,Implement list-type behavior for --identity CLI flag.,tests/_support/fabfile.py
+0baba701,Jeff Forcier,2017-10-18 15:47:22,Implement list-type behavior for --identity CLI flag.,tests/main.py
+292d1775,Jeff Forcier,2017-10-18 15:46:43,Flip around logic inside Connection.open for less indentation,fabric/connection.py
+c9e11251,Jeff Forcier,2017-10-18 15:45:35,Tweak comment,tests/main.py
+ff3e43ab,Jeff Forcier,2017-10-16 13:57:38,Formatting,fabric/main.py
+f9fabf1e,Jeff Forcier,2017-10-16 13:57:29,Sort keys,tests/connection.py
+965339aa,Jeff Forcier,2017-08-14 16:29:27,Implement runtime -i flag.,fabric/main.py
+bd6adc46,Jeff Forcier,2017-08-14 16:20:52,"DDD, TDD re: -i flag",tests/_support/fabfile.py
+bd6adc46,Jeff Forcier,2017-08-14 16:20:52,"DDD, TDD re: -i flag",tests/main.py
+268f0e48,Jeff Forcier,2017-08-14 15:43:03,This needed a docstring since it's public and referenced in other docstrings,fabric/config.py
+2e036e7b,Jeff Forcier,2017-08-14 15:34:02,Flake8,tests/config.py
+c11741e3,Jeff Forcier,2017-08-14 15:33:18,"Updates to account for Invoke 0.20.x changes around config lifecycle shakeup, and related bits",fabric/config.py
+c11741e3,Jeff Forcier,2017-08-14 15:33:18,"Updates to account for Invoke 0.20.x changes around config lifecycle shakeup, and related bits",fabric/executor.py
+c11741e3,Jeff Forcier,2017-08-14 15:33:18,"Updates to account for Invoke 0.20.x changes around config lifecycle shakeup, and related bits",fabric/main.py
+c11741e3,Jeff Forcier,2017-08-14 15:33:18,"Updates to account for Invoke 0.20.x changes around config lifecycle shakeup, and related bits",tests/config.py
+c11741e3,Jeff Forcier,2017-08-14 15:33:18,"Updates to account for Invoke 0.20.x changes around config lifecycle shakeup, and related bits",tests/main.py
+973e1749,Jeff Forcier,2017-08-14 13:21:02,This is actually hard to do and not sure it ever passed.,tests/_support/alt_collection_name/myfabtasks.py
+973e1749,Jeff Forcier,2017-08-14 13:21:02,This is actually hard to do and not sure it ever passed.,tests/main.py
+ae053ed0,Jeff Forcier,2017-08-13 21:31:47,Keep sanity-test exceptions from masking test-body ones.,tests/_util.py
+6be8af5b,Jeff Forcier,2017-08-13 20:56:29,TODO,fabric/main.py
+31b35848,Jeff Forcier,2017-07-24 15:41:41,Impl/tests re: upcoming Invoke features around configurable collection name.,fabric/config.py
+31b35848,Jeff Forcier,2017-07-24 15:41:41,Impl/tests re: upcoming Invoke features around configurable collection name.,fabric/main.py
+31b35848,Jeff Forcier,2017-07-24 15:41:41,Impl/tests re: upcoming Invoke features around configurable collection name.,tests/_support/alt_collection_name/myfabtasks.py
+31b35848,Jeff Forcier,2017-07-24 15:41:41,Impl/tests re: upcoming Invoke features around configurable collection name.,tests/config.py
+31b35848,Jeff Forcier,2017-07-24 15:41:41,Impl/tests re: upcoming Invoke features around configurable collection name.,tests/main.py
+e9dafb1a,Jeff Forcier,2017-07-24 15:40:41,Add tests for yml config loading,tests/_support/yml_conf/fabfile.py
+e9dafb1a,Jeff Forcier,2017-07-24 15:40:41,Add tests for yml config loading,tests/main.py
+faf102d8,Jeff Forcier,2017-07-24 15:26:13,These are no longer Fabric specific,fabric/loader.py
+faf102d8,Jeff Forcier,2017-07-24 15:26:13,These are no longer Fabric specific,tests/config.py
+2c739b08,Jeff Forcier,2017-06-05 16:44:22,flake8,fabric/connection.py
+2c739b08,Jeff Forcier,2017-06-05 16:44:22,flake8,tests/connection.py
+3d705ca4,Jeff Forcier,2017-06-05 16:43:36,Implement sudo-calls-open() functionality for test added recently,fabric/connection.py
+4cc01fda,Jeff Forcier,2017-06-05 16:43:16,Update runner-related impl + tests re: recent Invoke changes.,fabric/connection.py
+4cc01fda,Jeff Forcier,2017-06-05 16:43:16,Update runner-related impl + tests re: recent Invoke changes.,tests/connection.py
+6dfb8c97,Jeff Forcier,2017-06-05 14:47:39,Never had an explicit test for this and we really should,tests/connection.py
+80906c78,Jeff Forcier,2017-06-05 14:47:27,Upgrade to new Invoke level config bits re: configuration of runner classes.,fabric/config.py
+80906c78,Jeff Forcier,2017-06-05 14:47:27,Upgrade to new Invoke level config bits re: configuration of runner classes.,fabric/connection.py
+80906c78,Jeff Forcier,2017-06-05 14:47:27,Upgrade to new Invoke level config bits re: configuration of runner classes.,tests/connection.py
+c568c34a,Jeff Forcier,2017-06-05 14:46:03,We _do_ need to call superclass init in Connection now.,fabric/connection.py
+edb2ebaf,Jeff Forcier,2017-06-05 14:32:51,Sort Fabric-level config defaults,fabric/config.py
+1fed64b4,Jeff Forcier,2017-06-02 12:39:47,Formatting,tests/_util.py
+f5fe812b,Jeff Forcier,2017-05-22 11:51:26,More clarity,fabric/group.py
+1e432470,Jeff Forcier,2017-05-22 11:46:32,Make Group docstring clearer re: it not being useful by itself,fabric/group.py
+b118107d,Jeff Forcier,2017-05-01 15:11:59,Use config re: travis stuff,tasks.py
+870c09bd,Jeff Forcier,2017-05-01 14:43:42,Start migrating shared travis.yml bits into invocations,tasks.py
+ad3943ac,Jeff Forcier,2017-04-20 18:13:44,"Bah, no way to tell codecov to default to v2 temporarily",sites/shared_conf.py
+af928396,Jeff Forcier,2017-04-20 18:05:15,Added codecov button to website sidebar,sites/shared_conf.py
+aa1580bb,Jeff Forcier,2017-04-20 12:57:46,"Grump, more-itertools is 2.7 only",integration/concurrency.py
+661e94db,Jeff Forcier,2017-04-20 08:16:40,Skip manual threading test pending pyinvoke/invoke#438,integration/concurrency.py
+d4da084d,Jeff Forcier,2017-04-19 17:38:08,Tryin to wring more usefulness out of these errors,integration/concurrency.py
+63bdafdd,Jeff Forcier,2017-04-19 17:25:36,"Hack up threading test to maybe avoid dumb issues, or at least be a lot more repeatable when it errors",integration/concurrency.py
+5a52d2d5,Jeff Forcier,2017-04-18 21:39:56,"Great, now shit doesn't fucking work on Travis 50% of the time",integration/concurrency.py
+7a29c2e3,Jeff Forcier,2017-04-18 21:20:05,Realized sdist installs would fail w/o env var.,setup.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,fabric/config.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,fabric/connection.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,integration/concurrency.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,integration/connection.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,tests/connection.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,tests/group.py
+5f34806b,Jeff Forcier,2017-04-18 20:29:14,Python 2.6 string format bs,tests/main.py
+7237985c,Jeff Forcier,2017-04-18 19:29:22,Bunch of packaging bullshit,tasks.py
+18f053be,Jeff Forcier,2017-04-18 18:06:24,"Reference public intersphinx for paramiko, invoke when on travis.",sites/docs/conf.py
+18f053be,Jeff Forcier,2017-04-18 18:06:24,"Reference public intersphinx for paramiko, invoke when on travis.",sites/shared_conf.py
+18f053be,Jeff Forcier,2017-04-18 18:06:24,"Reference public intersphinx for paramiko, invoke when on travis.",sites/www/conf.py
+548a5728,Jeff Forcier,2017-04-18 17:53:02,"getlogin() shows real user ID, not effective; try $LOGNAME",integration/connection.py
+a90aa324,Jeff Forcier,2017-04-18 17:28:46,"Yup, need to read dict as unicode for comparisons to work on Trusty",integration/concurrency.py
+a8f748f4,Jeff Forcier,2017-04-18 17:24:47,Was kind of dumb to use a 'real file' after I found out about the git issue.,integration/transfer.py
+2d4e1bfc,Jeff Forcier,2017-04-18 17:24:15,Spec's mediocre special asserts cause issues when dict is UTF-8.,integration/connection.py
+312b234d,Jeff Forcier,2017-04-18 17:23:38,stty -a behaves differently xplatform; stty size appears not to,integration/connection.py
+b5b88f6a,Jeff Forcier,2017-04-18 14:41:55,Grumpagrump,integration/concurrency.py
+f8693f56,Jeff Forcier,2017-04-18 13:23:00,Suspect Travis' dict is way smaller than OS X's,integration/concurrency.py
+24b5bd6a,Jeff Forcier,2017-04-18 11:40:18,flake8,integration/connection.py
+9a16a6ca,Jeff Forcier,2017-04-18 11:36:45,Enhance travis-oriented tests to probably actually work,integration/connection.py
+c7e008bc,Jeff Forcier,2017-04-18 11:31:05,Skip sudo integration tests outside Travis,integration/connection.py
+b83a1767,Jeff Forcier,2017-04-15 16:47:15,flake8,tests/_support/fabfile.py
+4f92a077,Jeff Forcier,2017-04-15 14:00:07,Update impl and tests re: FABRIC_ env prefix etc,fabric/config.py
+4f92a077,Jeff Forcier,2017-04-15 14:00:07,Update impl and tests re: FABRIC_ env prefix etc,tests/_support/fabfile.py
+4f92a077,Jeff Forcier,2017-04-15 14:00:07,Update impl and tests re: FABRIC_ env prefix etc,tests/config.py
+4f92a077,Jeff Forcier,2017-04-15 14:00:07,Update impl and tests re: FABRIC_ env prefix etc,tests/main.py
+ffd1d09d,Jeff Forcier,2017-04-14 16:57:01,Comment tweaks,tests/main.py
+9ff3d575,Jeff Forcier,2017-04-14 16:46:06,Guard against env pollution in main() tests,tests/_util.py
+9ff3d575,Jeff Forcier,2017-04-14 16:46:06,Guard against env pollution in main() tests,tests/main.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/_support/json_conf/fabfile.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/_support/py_conf/fabfile.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/_support/py_conf/fabric.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/_support/yaml_conf/fabfile.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/config.py
+5dc8db8f,Jeff Forcier,2017-04-13 12:48:29,Set up failing tests proving pyinvoke/invoke#418,tests/main.py
+61161f42,Jeff Forcier,2017-04-13 12:42:34,Tweaks,tests/main.py
+a9fce4f4,Jeff Forcier,2017-04-12 21:21:00,Flake8,tests/main.py
+cfbf9a92,Jeff Forcier,2017-04-12 21:20:27,OK this test passes now.,tests/_support/fabfile.py
+cfbf9a92,Jeff Forcier,2017-04-12 21:20:27,OK this test passes now.,tests/main.py
+5b68b44f,Jeff Forcier,2017-04-12 21:18:36,BOO git does not preserve file permissions well,integration/transfer.py
+32915cf8,Jeff Forcier,2017-04-12 21:02:13,Overhaul things again re: pyinvoke/invoke#309,fabric/executor.py
+32915cf8,Jeff Forcier,2017-04-12 21:02:13,Overhaul things again re: pyinvoke/invoke#309,tests/main.py
+1085adfb,Jeff Forcier,2017-04-12 19:26:48,Expand a TODO,fabric/executor.py
+68d752d2,Jeff Forcier,2017-04-12 16:44:08,And another proving the upcoming behavior change works where intended.,tests/_support/fabfile.py
+68d752d2,Jeff Forcier,2017-04-12 16:44:08,And another proving the upcoming behavior change works where intended.,tests/main.py
+58c87146,Jeff Forcier,2017-04-12 16:27:33,Put in one test guarding against upcoming invoke behavior change,tests/_support/fabfile.py
+58c87146,Jeff Forcier,2017-04-12 16:27:33,Put in one test guarding against upcoming invoke behavior change,tests/main.py
+fcf04c4c,Jeff Forcier,2017-04-12 16:02:03,Break up fabric.main a bit more,fabric/executor.py
+fcf04c4c,Jeff Forcier,2017-04-12 16:02:03,Break up fabric.main a bit more,fabric/loader.py
+fcf04c4c,Jeff Forcier,2017-04-12 16:02:03,Break up fabric.main a bit more,fabric/main.py
+fcf04c4c,Jeff Forcier,2017-04-12 16:02:03,Break up fabric.main a bit more,tests/main.py
+b391d85b,Jeff Forcier,2017-04-03 10:21:24,Pull in invoke www docs too,sites/shared_conf.py
+8bb761c8,Jeff Forcier,2017-03-27 17:59:33,Still getting like 0.5% failure rates with these tunnel thread tests :(,tests/connection.py
+37f72831,Jeff Forcier,2017-03-27 17:10:04,Comment update,sites/shared_conf.py
+4bc4b2c8,Jeff Forcier,2017-03-27 11:05:16,Swap str/repr to be more correct (& match invoke recent change),fabric/connection.py
+fed60724,Jeff Forcier,2017-03-27 10:46:58,Use six.wraps instead of stdlib wraps,tests/_util.py
+20b576c0,Jeff Forcier,2017-03-22 13:32:26,Fold MockSFTP into mock_sftp,tests/_util.py
+fcea0c01,Jeff Forcier,2017-03-22 13:16:32,First stab at transfer doctest.,sites/docs/conf.py
+fcea0c01,Jeff Forcier,2017-03-22 13:16:32,First stab at transfer doctest.,tests/_util.py
+fa557323,Jeff Forcier,2017-03-21 22:29:18,Fix up some pesky forward_remote test race conditions,tests/connection.py
+a20c1452,Jeff Forcier,2017-03-21 18:46:35,Jesus christ I think I am done with the sudo bits for now,tests/connection.py
+d0354270,Jeff Forcier,2017-03-21 14:53:59,Implement stdin expectations in MockRemote.,tests/_util.py
+40b58f0a,Jeff Forcier,2017-03-21 12:50:10,Flake8,tests/_util.py
+0a1d8227,Jeff Forcier,2017-03-21 11:55:31,"Documentation reference-link pass, WIP",fabric/group.py
+005a388d,Jeff Forcier,2017-03-20 21:14:36,WIP,fabric/config.py
+202ac7a8,Jeff Forcier,2017-03-20 20:20:14,Turns out multi-command Sessions _did not work!_,tests/_util.py
+48f35232,Jeff Forcier,2017-03-20 17:39:57,Reuse new MockRemote class to implement mock_remote,tests/_util.py
+e3843584,Jeff Forcier,2017-03-20 17:08:06,Enhance Result subclass docstring and fix up doctest.,fabric/runners.py
+7fd26c78,Jeff Forcier,2017-03-20 16:56:39,Autostarting MockRemote,tests/_util.py
+6546fd90,Jeff Forcier,2017-03-20 16:52:58,Rename class and make it easier to instantiate,sites/docs/conf.py
+6546fd90,Jeff Forcier,2017-03-20 16:52:58,Rename class and make it easier to instantiate,tests/_util.py
+a5907044,Jeff Forcier,2017-03-20 16:46:01,First steps towards mocking in tutorial doctests,sites/docs/conf.py
+a5907044,Jeff Forcier,2017-03-20 16:46:01,First steps towards mocking in tutorial doctests,tests/_util.py
+c7b881f9,Jeff Forcier,2017-03-20 15:37:27,Remove cruft,tests/_util.py
+5f0b62d5,Jeff Forcier,2017-03-20 14:11:21,Format tweak,sites/docs/conf.py
+c753ab2a,Jeff Forcier,2017-03-15 13:56:56,Feel like this bit should be higher level,tests/main.py
+3e0ac9f0,Jeff Forcier,2017-03-15 13:52:04,Add failure cases to integration group tests,integration/group.py
+b9ac30b0,Jeff Forcier,2017-03-15 13:51:52,Tidy up existing integration test,integration/group.py
+57dd3317,Jeff Forcier,2017-03-15 13:41:47,Split out Group integration test,integration/connection.py
+57dd3317,Jeff Forcier,2017-03-15 13:41:47,Split out Group integration test,integration/group.py
+333fd8d2,Jeff Forcier,2017-03-15 13:24:24,Fix non-relative imports,fabric/group.py
+059b29bc,Jeff Forcier,2017-03-15 13:17:59,flake8,fabric/group.py
+a8d2371e,Jeff Forcier,2017-03-15 13:17:46,"GroupException raising implemented, tests green",fabric/group.py
+a8d2371e,Jeff Forcier,2017-03-15 13:17:46,"GroupException raising implemented, tests green",tests/group.py
+3671bc93,Jeff Forcier,2017-03-15 13:15:20,Implement GroupResult.(succeeded/failed),fabric/group.py
+6f22b479,Jeff Forcier,2017-03-15 13:07:06,Return GroupResult in Group.run,fabric/group.py
+039adf27,Jeff Forcier,2017-03-15 13:06:53,Add GroupResult to init,fabric/__init__.py
+039adf27,Jeff Forcier,2017-03-15 13:06:53,Add GroupResult to init,tests/init.py
+14742a08,Jeff Forcier,2017-03-15 13:02:12,Expand tests for GroupResult behavior,tests/group.py
+d646a2d0,Jeff Forcier,2017-03-15 12:50:08,Tweak tests to fail due to no GroupException yet,fabric/exceptions.py
+d646a2d0,Jeff Forcier,2017-03-15 12:50:08,Tweak tests to fail due to no GroupException yet,tests/group.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,fabric/__init__.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,fabric/connection.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,fabric/group.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,tests/connection.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,tests/group.py
+f13cf1b0,Jeff Forcier,2017-03-15 12:37:51,Break Group into its own module and test module,tests/init.py
+b61af673,Jeff Forcier,2017-03-15 12:08:38,DDD re: GroupResult,fabric/connection.py
+7c9c0f61,Jeff Forcier,2017-03-15 11:51:11,Flesh out and/or fix up more Group tests.,fabric/connection.py
+7c9c0f61,Jeff Forcier,2017-03-15 11:51:11,Flesh out and/or fix up more Group tests.,tests/connection.py
+ab443892,Jeff Forcier,2017-03-15 11:25:11,Fill out serial error-capturing test,tests/connection.py
+cc124977,Jeff Forcier,2017-03-15 07:58:50,TODO,fabric/runners.py
+80313f41,Jeff Forcier,2017-03-08 16:43:46,Flake8,fabric/connection.py
+80313f41,Jeff Forcier,2017-03-08 16:43:46,Flake8,integration/concurrency.py
+80313f41,Jeff Forcier,2017-03-08 16:43:46,Flake8,tests/connection.py
+6f8bf00c,Jeff Forcier,2017-03-08 16:36:50,Fix up Group.run return values a bit,fabric/connection.py
+6f8bf00c,Jeff Forcier,2017-03-08 16:36:50,Fix up Group.run return values a bit,tests/connection.py
+b850ca3d,Jeff Forcier,2017-03-08 16:36:27,Tweak integration tests re: recent changes,fabric/connection.py
+b850ca3d,Jeff Forcier,2017-03-08 16:36:27,Tweak integration tests re: recent changes,integration/connection.py
+59479d8f,Jeff Forcier,2017-03-07 14:05:54,Add new group subclasses to package level,fabric/__init__.py
+59479d8f,Jeff Forcier,2017-03-07 14:05:54,Add new group subclasses to package level,tests/init.py
+ba0a9f81,Jeff Forcier,2017-03-07 13:22:02,Not sure why I had this mismatch between tut and impl,fabric/connection.py
+ba0a9f81,Jeff Forcier,2017-03-07 13:22:02,Not sure why I had this mismatch between tut and impl,tests/connection.py
+67928d88,Jeff Forcier,2017-03-06 22:21:18,LOL words,fabric/connection.py
+c2a7a0ee,Jeff Forcier,2017-03-06 20:20:08,Failing test re: exceptions in ThreadingGroup,tests/connection.py
+17ffd6b5,Jeff Forcier,2017-03-06 20:19:01,Oh hey things work better now,tests/connection.py
+d8a4814e,Jeff Forcier,2017-03-06 19:38:24,"First draft of ThreadingGroup, still not quite working (re tests) tho",fabric/connection.py
+d8a4814e,Jeff Forcier,2017-03-06 19:38:24,"First draft of ThreadingGroup, still not quite working (re tests) tho",tests/connection.py
+b2a941d8,Jeff Forcier,2017-03-06 19:30:03,More skel tests,tests/connection.py
+7bdeeab2,Jeff Forcier,2017-03-06 19:28:45,Reorg and tweak Group tests,tests/connection.py
+a7fe8f6c,Jeff Forcier,2017-03-06 18:49:42,"Huh that was dumb of me, threads totally take args",integration/concurrency.py
+f4cdd9d3,Jeff Forcier,2017-03-06 17:47:43,TODOs and another failing test,fabric/connection.py
+f4cdd9d3,Jeff Forcier,2017-03-06 17:47:43,TODOs and another failing test,tests/connection.py
+7209cfc1,Jeff Forcier,2017-03-06 15:50:11,Failing test re: ThreadingGroup,fabric/connection.py
+7209cfc1,Jeff Forcier,2017-03-06 15:50:11,Failing test re: ThreadingGroup,tests/connection.py
+b9ff5ae0,Jeff Forcier,2017-03-06 15:49:55,Tidy up six imports,fabric/connection.py
+67da75b5,Jeff Forcier,2017-03-06 14:48:35,Silly but effective serialization test update,tests/connection.py
+5d311992,Jeff Forcier,2017-03-06 14:28:45,"Start splitting out Group into discrete strategy subclasses, shrug",fabric/connection.py
+5d311992,Jeff Forcier,2017-03-06 14:28:45,"Start splitting out Group into discrete strategy subclasses, shrug",tests/connection.py
+034e0a80,Jeff Forcier,2017-03-06 14:04:03,Fix older TODO,fabric/connection.py
+771889ef,Jeff Forcier,2017-03-06 13:50:21,Big meh,integration/concurrency.py
+7fbec047,Jeff Forcier,2017-03-01 22:56:22,YAY FIXED (upstream),integration/concurrency.py
+13313c89,Jeff Forcier,2017-03-01 22:12:47,Test proving pyinvoke/invoke#432,integration/connection.py
+fd0ab923,Jeff Forcier,2017-02-28 18:54:23,TODO,integration/concurrency.py
+4d8e0989,Jeff Forcier,2017-02-28 18:53:53,Oh jeez we don't actually _have_ our own password option rn do we,fabric/connection.py
+4d8e0989,Jeff Forcier,2017-02-28 18:53:53,Oh jeez we don't actually _have_ our own password option rn do we,tests/connection.py
+d784ad63,Jeff Forcier,2017-02-28 18:53:53,Oh jeez we don't actually _have_ our own password option rn do we,fabric/connection.py
+d784ad63,Jeff Forcier,2017-02-28 18:53:53,Oh jeez we don't actually _have_ our own password option rn do we,tests/connection.py
+7795dd6d,Jeff Forcier,2017-02-28 18:52:08,Oh this is totally unneeded now whee,fabric/runners.py
+441099d5,Jeff Forcier,2017-02-28 17:29:35,Base case tests about 'can it be threaded?',integration/concurrency.py
+b5086c6a,Jeff Forcier,2017-02-28 15:23:42,Fix for previous test,fabric/connection.py
+8513e70d,Jeff Forcier,2017-02-28 15:20:04,"Test for a real case I just caught, god bless dogfooding",tests/connection.py
+fb05d147,Jeff Forcier,2017-02-28 15:15:25,Implement multihop ProxyJump,fabric/connection.py
+9809b1ae,Jeff Forcier,2017-02-28 14:48:52,Failing test re: multihop ProxyJump,tests/connection.py
+5a2e0652,Jeff Forcier,2017-02-28 14:44:45,Move a TODO,fabric/connection.py
+dbb7d16f,Jeff Forcier,2017-02-28 14:38:26,Whitespace,tests/connection.py
+180f7ac8,Jeff Forcier,2017-02-28 14:27:10,Implement configuration-level option for runtime ssh path,fabric/config.py
+180f7ac8,Jeff Forcier,2017-02-28 14:27:10,Implement configuration-level option for runtime ssh path,tests/config.py
+9e4162f2,Jeff Forcier,2017-02-28 13:57:42,TODO,tests/connection.py
+0650a943,Jeff Forcier,2017-02-28 13:51:34,Implement connect_kwargs ambiguity checking,fabric/connection.py
+3b0eb15a,Jeff Forcier,2017-02-28 13:30:42,Actually let's just not allow overwriting of connect_kwargs at all.,tests/connection.py
+9d740621,Jeff Forcier,2017-02-28 13:30:23,Start with connect_kwargs so other values overwrite,fabric/connection.py
+cc6e51b3,Jeff Forcier,2017-02-28 13:30:02,TODO,fabric/connection.py
+4d2dedfe,Jeff Forcier,2017-02-28 13:29:57,Implement connect timeout,fabric/config.py
+4d2dedfe,Jeff Forcier,2017-02-28 13:29:57,Implement connect timeout,fabric/connection.py
+4d2dedfe,Jeff Forcier,2017-02-28 13:29:57,Implement connect timeout,tests/connection.py
+6b3da3db,Jeff Forcier,2017-02-28 13:02:41,Fix forward_agent kwarg doc,fabric/connection.py
+a2e1a9f0,Jeff Forcier,2017-02-28 12:59:13,Alphasort config descriptions,tests/config.py
+a2e1a9f0,Jeff Forcier,2017-02-28 12:59:13,Alphasort config descriptions,tests/connection.py
+b8df8be0,Jeff Forcier,2017-02-28 12:54:18,Comment,tests/config.py
+5ee2c490,Jeff Forcier,2017-02-28 12:36:38,Tidy up mentions of original_host vs host,fabric/connection.py
+81db9505,Jeff Forcier,2017-02-23 17:13:17,This doesn't work since not a 'real' assignment.,fabric/config.py
+41e6d4e8,Jeff Forcier,2017-02-23 16:46:46,Apply new invoke-level method of setting DataProxy initial attrs,fabric/config.py
+41e6d4e8,Jeff Forcier,2017-02-23 16:46:46,Apply new invoke-level method of setting DataProxy initial attrs,fabric/connection.py
+aaf34b0a,Jeff Forcier,2017-02-23 16:17:19,"Get ssh_config hostname support working, also add a baseline test too",fabric/connection.py
+aaf34b0a,Jeff Forcier,2017-02-23 16:17:19,"Get ssh_config hostname support working, also add a baseline test too",tests/connection.py
+3e779ffc,Jeff Forcier,2017-02-23 16:17:00,Tweak,fabric/connection.py
+4b62dc46,Jeff Forcier,2017-02-23 13:51:26,Failing test re: hostname ssh_config support,tests/connection.py
+69d9ccf5,Jeff Forcier,2017-02-23 13:40:20,Move tests around,tests/connection.py
+df78303f,Jeff Forcier,2017-02-14 11:29:21,"I think for now, bounded ranges are good enough?",setup.py
+2777b559,Jeff Forcier,2017-02-14 11:28:57,Newer Invoke requirement,setup.py
+2d37ecee,Jeff Forcier,2017-02-14 10:57:21,Better pin on cryptography,setup.py
+cf8cbff4,Jeff Forcier,2017-02-14 10:13:46,TODOs,fabric/connection.py
+ff48a4f0,Jeff Forcier,2017-02-14 10:10:32,connect_kwargs now configurable,fabric/config.py
+ff48a4f0,Jeff Forcier,2017-02-14 10:10:32,connect_kwargs now configurable,fabric/connection.py
+1db2b016,Jeff Forcier,2017-02-13 18:40:11,Assert that connect_kwargs may be configured,fabric/connection.py
+1db2b016,Jeff Forcier,2017-02-13 18:40:11,Assert that connect_kwargs may be configured,tests/config.py
+1db2b016,Jeff Forcier,2017-02-13 18:40:11,Assert that connect_kwargs may be configured,tests/connection.py
+c4ef56a8,Jeff Forcier,2017-02-13 18:36:03,Add missing tests re: __init__ connect_kwargs,tests/connection.py
+69e1c419,Jeff Forcier,2017-02-13 18:31:15,Rename test,tests/config.py
+f9e07b86,Jeff Forcier,2017-02-13 18:30:22,More test reorg,tests/config.py
+c7d90b15,Jeff Forcier,2017-02-13 18:29:13,"Be specific, jeez",tests/config.py
+117a907f,Jeff Forcier,2017-02-13 18:27:07,Move a test around & clean it up a bit,tests/config.py
+003f0af0,Jeff Forcier,2017-02-10 10:37:25,Oh hey look SSH config for gatewaying works now,fabric/config.py
+003f0af0,Jeff Forcier,2017-02-10 10:37:25,Oh hey look SSH config for gatewaying works now,fabric/connection.py
+003f0af0,Jeff Forcier,2017-02-10 10:37:25,Oh hey look SSH config for gatewaying works now,tests/connection.py
+7427fb5c,Jeff Forcier,2017-02-09 18:02:13,Threadiiiiiiing,tests/connection.py
+fc74d18d,Jeff Forcier,2017-02-09 13:23:41,Whitespace,fabric/connection.py
+ec65647b,Jeff Forcier,2017-02-09 13:21:44,TDD re: enhanced gateway support:,tests/connection.py
+4766f078,Jeff Forcier,2017-02-09 12:50:49,DDD re: ProxyJump ssh_config support,fabric/connection.py
+164671e5,Jeff Forcier,2017-02-09 11:22:48,Add explicit bit about Connection config to its docstring,fabric/connection.py
+65a4bb9a,Jeff Forcier,2017-02-06 18:25:42,Test & impl rest of forward_agent stuff. I think,fabric/connection.py
+65a4bb9a,Jeff Forcier,2017-02-06 18:25:42,Test & impl rest of forward_agent stuff. I think,tests/connection.py
+af900ab6,Jeff Forcier,2017-02-06 18:21:12,Recent Invoke changes revealed that I messed up a bunch of times.,fabric/connection.py
+0bc7e2bc,Jeff Forcier,2017-02-06 16:27:28,Tweaks to match recent Invoke changes made on our behalf.,fabric/config.py
+526ec597,Jeff Forcier,2017-02-01 17:06:34,Tests and implementation for honoring user,fabric/connection.py
+526ec597,Jeff Forcier,2017-02-01 17:06:34,Tests and implementation for honoring user,tests/connection.py
+7dfbdfcd,Jeff Forcier,2017-02-01 17:01:56,Reorg,tests/connection.py
+4dc982f2,Jeff Forcier,2017-02-01 17:00:24,Expando,tests/connection.py
+11642296,Jeff Forcier,2017-02-01 16:58:34,Implement honoring SSH config Port option,fabric/connection.py
+9e6c0bb0,Jeff Forcier,2017-02-01 16:57:10,Wowow what a hard to catch mistake that was.,tests/connection.py
+231b34a0,Jeff Forcier,2017-02-01 16:56:24,Debuggery,fabric/config.py
+231b34a0,Jeff Forcier,2017-02-01 16:56:24,Debuggery,fabric/util.py
+d82c82fc,Jeff Forcier,2017-02-01 15:50:16,Skel/failing tests re: actually leveraging SSH config,tests/_support/runtime_fabfile.py
+d82c82fc,Jeff Forcier,2017-02-01 15:50:16,Skel/failing tests re: actually leveraging SSH config,tests/connection.py
+d4ac91c5,Jeff Forcier,2017-02-01 15:39:44,Implement load_ssh_configs option,fabric/config.py
+d4ac91c5,Jeff Forcier,2017-02-01 15:39:44,Implement load_ssh_configs option,tests/config.py
+50c36901,Jeff Forcier,2017-02-01 15:25:46,"DDD, TDD re: disabling default ssh_config loading",tests/config.py
+775397a3,Jeff Forcier,2017-02-01 14:59:31,Typofix,fabric/connection.py
+a8039b27,Jeff Forcier,2017-02-01 14:24:22,Flake8,fabric/config.py
+a8039b27,Jeff Forcier,2017-02-01 14:24:22,Flake8,tests/config.py
+a8039b27,Jeff Forcier,2017-02-01 14:24:22,Flake8,tests/main.py
+040676e5,Jeff Forcier,2017-02-01 14:21:26,More leveraging of even more new Invoke level Config stuff.,fabric/config.py
+040676e5,Jeff Forcier,2017-02-01 14:21:26,More leveraging of even more new Invoke level Config stuff.,tests/_support/runtime_fabfile.py
+040676e5,Jeff Forcier,2017-02-01 14:21:26,More leveraging of even more new Invoke level Config stuff.,tests/main.py
+44f49eff,Jeff Forcier,2017-02-01 13:15:32,Another test done,tests/main.py
+d45060b5,Jeff Forcier,2017-02-01 13:02:39,Flesh out another test and refactor,tests/main.py
+fb609f70,Jeff Forcier,2017-02-01 12:58:38,Leverage some new invoke bits to get runtime SSH conf file working:,fabric/config.py
+fb609f70,Jeff Forcier,2017-02-01 12:58:38,Leverage some new invoke bits to get runtime SSH conf file working:,fabric/main.py
+fb609f70,Jeff Forcier,2017-02-01 12:58:38,Leverage some new invoke bits to get runtime SSH conf file working:,tests/_support/runtime_fabfile.py
+fb609f70,Jeff Forcier,2017-02-01 12:58:38,Leverage some new invoke bits to get runtime SSH conf file working:,tests/main.py
+212ce4f9,Jeff Forcier,2017-02-01 12:54:16,Nuke now-basically-done TODO,fabric/config.py
+cfc723fc,Jeff Forcier,2017-01-31 18:16:36,Python 3 fix,fabric/config.py
+388051b6,Jeff Forcier,2017-01-31 17:53:00,Implement & test the Connection-level bits for ssh_config,fabric/connection.py
+388051b6,Jeff Forcier,2017-01-31 17:53:00,Implement & test the Connection-level bits for ssh_config,tests/connection.py
+62c10994,Jeff Forcier,2017-01-31 17:51:57,Improve some bits for ssh config loading:,fabric/config.py
+62c10994,Jeff Forcier,2017-01-31 17:51:57,Improve some bits for ssh config loading:,tests/config.py
+8358bd38,Jeff Forcier,2017-01-31 16:46:39,Oops,tests/connection.py
+2903859b,Jeff Forcier,2017-01-31 16:25:50,Tests passing...?!,fabric/config.py
+2903859b,Jeff Forcier,2017-01-31 16:25:50,Tests passing...?!,tests/config.py
+48b9e2e3,Jeff Forcier,2017-01-31 14:35:11,Start fleshing things out a bit,fabric/config.py
+48b9e2e3,Jeff Forcier,2017-01-31 14:35:11,Start fleshing things out a bit,tests/_util.py
+48b9e2e3,Jeff Forcier,2017-01-31 14:35:11,Start fleshing things out a bit,tests/config.py
+ca78ec4e,Jeff Forcier,2017-01-31 13:55:18,Skel tests for ssh config,tests/config.py
+d4466675,Jeff Forcier,2017-01-25 16:33:38,"Move default config values to concepts doc from docstring, as it is in Invoke",fabric/config.py
+b969e023,Jeff Forcier,2017-01-23 18:12:35,Implement basic-level tests for Connection.forward_remote.,tests/connection.py
+2d408636,Jeff Forcier,2017-01-23 17:14:58,"Oh hey this is super outdated, sudo() is purely invoke level now",tests/runners.py
+362924c9,Jeff Forcier,2017-01-23 15:29:03,Turn self.open() into @opens,fabric/connection.py
+a533c2e6,Jeff Forcier,2017-01-23 15:13:19,Tweak docstrings,fabric/connection.py
+a533c2e6,Jeff Forcier,2017-01-23 15:13:19,Tweak docstrings,fabric/tunnels.py
+7575ab92,Jeff Forcier,2017-01-23 14:39:11,Nuke TODOs,fabric/connection.py
+376f5c26,Jeff Forcier,2017-01-23 14:23:57,Tighten up paramiko client connect kwarg stuff:,fabric/connection.py
+376f5c26,Jeff Forcier,2017-01-23 14:23:57,Tighten up paramiko client connect kwarg stuff:,tests/connection.py
+415babc1,Jeff Forcier,2017-01-23 14:09:47,Whitespace,tests/connection.py
+3ef774e1,Jeff Forcier,2017-01-23 14:02:13,Update doc bits re: moved Config location,fabric/connection.py
+92aa070f,Jeff Forcier,2017-01-23 13:58:41,Implement eq/hash for Connection,fabric/connection.py
+92aa070f,Jeff Forcier,2017-01-23 13:58:41,Implement eq/hash for Connection,tests/connection.py
+5459d938,Jeff Forcier,2017-01-23 12:15:31,flake8 + a missed integration test fix,integration/connection.py
+5459d938,Jeff Forcier,2017-01-23 12:15:31,flake8 + a missed integration test fix,tests/connection.py
+5459d938,Jeff Forcier,2017-01-23 12:15:31,flake8 + a missed integration test fix,tests/runners.py
+7e79ca33,Jeff Forcier,2017-01-23 12:10:13,Tighten up stringrep:,fabric/connection.py
+7e79ca33,Jeff Forcier,2017-01-23 12:10:13,Tighten up stringrep:,tests/connection.py
+e7b1240a,Jeff Forcier,2017-01-23 12:06:38,Remove host_string for anything but the convenient cxn creation shorthand.,fabric/connection.py
+e7b1240a,Jeff Forcier,2017-01-23 12:06:38,Remove host_string for anything but the convenient cxn creation shorthand.,fabric/runners.py
+e7b1240a,Jeff Forcier,2017-01-23 12:06:38,Remove host_string for anything but the convenient cxn creation shorthand.,tests/connection.py
+e7b1240a,Jeff Forcier,2017-01-23 12:06:38,Remove host_string for anything but the convenient cxn creation shorthand.,tests/runners.py
+979241b0,Jeff Forcier,2017-01-23 11:57:04,"Add a TODO, sigh",tests/connection.py
+6d628292,Jeff Forcier,2017-01-23 11:54:16,Update re: recent Invoke change,fabric/connection.py
+5265df14,Jeff Forcier,2017-01-16 12:43:07,Split out config into its own module/test module,fabric/config.py
+5265df14,Jeff Forcier,2017-01-16 12:43:07,Split out config into its own module/test module,fabric/connection.py
+5265df14,Jeff Forcier,2017-01-16 12:43:07,Split out config into its own module/test module,tests/config.py
+5265df14,Jeff Forcier,2017-01-16 12:43:07,Split out config into its own module/test module,tests/connection.py
+3609669d,Jeff Forcier,2017-01-16 12:34:14,Whitespace,tests/main.py
+5f71d8b1,Jeff Forcier,2017-01-13 12:14:51,Implement agent forwarding!,fabric/connection.py
+96b59331,Jeff Forcier,2017-01-13 12:11:32,Implement 'upgrading' of invoke configs in Connection,fabric/connection.py
+96b59331,Jeff Forcier,2017-01-13 12:11:32,Implement 'upgrading' of invoke configs in Connection,tests/connection.py
+609aafeb,Jeff Forcier,2017-01-11 17:36:22,Found a corner case bug when testing other new stuff.,fabric/runners.py
+609aafeb,Jeff Forcier,2017-01-11 17:36:22,Found a corner case bug when testing other new stuff.,tests/runners.py
+44220495,Jeff Forcier,2017-01-11 17:16:29,Implement agent forwarding toggling (but not actual forwarding),fabric/connection.py
+1e59df12,Jeff Forcier,2017-01-11 16:57:10,Insert actual tests re: AgentRequestHandler usage.,fabric/connection.py
+1e59df12,Jeff Forcier,2017-01-11 16:57:10,Insert actual tests re: AgentRequestHandler usage.,fabric/runners.py
+1e59df12,Jeff Forcier,2017-01-11 16:57:10,Insert actual tests re: AgentRequestHandler usage.,tests/connection.py
+e31a9331,Jeff Forcier,2017-01-11 16:38:18,Failing tests re: agent forward configuration,fabric/connection.py
+e31a9331,Jeff Forcier,2017-01-11 16:38:18,Failing tests re: agent forward configuration,tests/connection.py
+3c331d08,Jeff Forcier,2017-01-09 17:01:46,Tweak TODO,fabric/connection.py
+626b2786,Jeff Forcier,2017-01-09 15:34:03,Use ExceptionHandlingThread & friends for tunnel thread classes.,fabric/connection.py
+626b2786,Jeff Forcier,2017-01-09 15:34:03,Use ExceptionHandlingThread & friends for tunnel thread classes.,fabric/tunnels.py
+626b2786,Jeff Forcier,2017-01-09 15:34:03,Use ExceptionHandlingThread & friends for tunnel thread classes.,tests/connection.py
+1768a2a0,Jeff Forcier,2017-01-09 15:03:09,Realized these don't actually make as much sense.,tests/connection.py
+83614c00,Jeff Forcier,2017-01-09 14:35:44,Skel tests for more corner cases re: exception handling,tests/connection.py
+4c3a61e1,Jeff Forcier,2017-01-09 14:32:32,Both types of threading errors now failing correctly,tests/connection.py
+9ec0a834,Jeff Forcier,2017-01-09 14:27:44,Refactor for tunnel manager errors (not impl yet),tests/connection.py
+0641aa3b,Jeff Forcier,2017-01-09 14:25:34,Initial tunnel thread error failure case tested,tests/connection.py
+a4dd5f26,Jeff Forcier,2017-01-09 13:43:37,flake8,tasks.py
+c5596e89,Jeff Forcier,2017-01-09 13:36:01,Docstring tweak,fabric/connection.py
+fb55625e,Jeff Forcier,2017-01-09 13:30:40,Skel tests for Connection.forward_remote(),tests/connection.py
+e7a6dfb1,Jeff Forcier,2017-01-09 12:51:22,punt =/,tests/connection.py
+be29d366,Jeff Forcier,2017-01-09 12:45:08,And remote non-localhost iface,tests/connection.py
+555a9049,Jeff Forcier,2017-01-09 12:41:44,And now the listener on another local iface,tests/connection.py
+b5263e27,Jeff Forcier,2017-01-09 12:30:37,Update refactor + extent to new remote_port testing,tests/connection.py
+bf730794,Jeff Forcier,2017-01-09 12:14:37,Start factoring out tunnel unit test stuff,tests/connection.py
+f6f6ae78,Jeff Forcier,2017-01-09 12:14:18,Use new invocations error counter for testing thread sleeps etc,tasks.py
+405a6e2e,Jeff Forcier,2017-01-09 11:55:27,"Lower test-related thread sleeps, seems to work just as well",tests/connection.py
+ab694ce2,Jeff Forcier,2017-01-09 11:20:45,Comment tweak,tests/connection.py
+25a46b5e,Jeff Forcier,2016-12-19 16:14:00,Tweak TODO re: stuff that happened in Invoke,integration/connection.py
+6d6621a8,Jeff Forcier,2016-12-19 15:54:24,I've no recollection of why localhost was scare quoted,integration/connection.py
+76e79975,Jeff Forcier,2016-12-19 15:52:39,Reorganize integration test module,integration/connection.py
+2105432f,Jeff Forcier,2016-12-19 15:48:11,Meh,integration/connection.py
+bf02a58c,Jeff Forcier,2016-12-19 15:45:26,Impl a rename TODO,fabric/connection.py
+bf02a58c,Jeff Forcier,2016-12-19 15:45:26,Impl a rename TODO,fabric/tunnels.py
+b713134f,Jeff Forcier,2016-12-19 14:51:13,Test for key/pkey passthru,tests/connection.py
+ccd0218b,Jeff Forcier,2016-12-19 14:48:30,Tweak TODO,fabric/connection.py
+7c6f4613,Jeff Forcier,2016-12-19 14:46:09,"Implement basic remote environment updating, now that Paramiko supports it.",fabric/runners.py
+7c6f4613,Jeff Forcier,2016-12-19 14:46:09,"Implement basic remote environment updating, now that Paramiko supports it.",setup.py
+25f411c5,Jeff Forcier,2016-12-19 13:08:05,Update config docs & override replace_env value.,fabric/connection.py
+25f411c5,Jeff Forcier,2016-12-19 13:08:05,Update config docs & override replace_env value.,tests/connection.py
+9eeec3b0,Jeff Forcier,2016-12-19 11:58:09,Update Context/DataProxy attr-setting behavior re: recent Invoke changes,fabric/connection.py
+84124089,Jeff Forcier,2016-12-06 11:13:31,Well that was a stupid mistake,fabric/connection.py
+84124089,Jeff Forcier,2016-12-06 11:13:31,Well that was a stupid mistake,tests/connection.py
+c4045280,Jeff Forcier,2016-11-29 15:21:12,Allow passthru of connect() kwargs in open().,fabric/connection.py
+c4045280,Jeff Forcier,2016-11-29 15:21:12,Allow passthru of connect() kwargs in open().,tests/connection.py
+dfe31d4d,Jeff Forcier,2016-11-24 09:48:27,Have basic either-or package naming working via local pip,setup.py
+d9c7dcfc,Jeff Forcier,2016-11-24 09:13:11,Modernize setuptools classifiers a bit,setup.py
+9eca26c4,Jeff Forcier,2016-11-23 17:01:52,whitespace,fabric/connection.py
+e38ad507,Jeff Forcier,2016-11-23 17:01:35,Python 3 removed tuple unpacking noooooooo,fabric/connection.py
+8dd15882,Jeff Forcier,2016-11-23 16:55:47,Update to fix issues mostly-fixed upstream in Invoke re: attr access.,fabric/connection.py
+010fe81e,Jeff Forcier,2016-11-23 13:11:11,WIP,fabric/connection.py
+2d4f936a,Jeff Forcier,2016-11-23 13:09:34,This test is obviated as of recent Invokes re invoke/invoke#406,tests/runners.py
+69d3e723,Jeff Forcier,2016-09-23 15:23:36,Comment,fabric/connection.py
+88099c8e,Jeff Forcier,2016-09-08 16:19:52,Fix typo,fabric/tunnels.py
+b5af3a32,Jeff Forcier,2016-09-08 16:09:02,Tiny import tweaks,fabric/connection.py
+b5af3a32,Jeff Forcier,2016-09-08 16:09:02,Tiny import tweaks,fabric/tunnels.py
+4e637f67,Jeff Forcier,2016-09-08 16:05:41,Use TCP_NODELAY on tunnel sockets to match OpenSSH,fabric/tunnels.py
+b06c7d8c,Jeff Forcier,2016-08-25 17:07:45,More skel tests,tests/connection.py
+127ccc19,Jeff Forcier,2016-08-25 16:15:38,Untested but apparently working 1st draft of forward_remote tunneling,fabric/connection.py
+137c6d16,Jeff Forcier,2016-08-25 14:23:36,New skel tests,tests/connection.py
+56b172e2,Jeff Forcier,2016-08-25 14:21:17,Tweaks to forward_local sig/docstring,fabric/connection.py
+3c17178c,Jeff Forcier,2016-08-25 14:09:43,More refactor/cleanup/TODO-impl for first tunnel,fabric/tunnels.py
+756ba682,Jeff Forcier,2016-08-25 13:54:28,More forward-local-tunnel cleanup,fabric/tunnels.py
+2d19fbf9,Jeff Forcier,2016-08-25 13:42:54,Tighten up tunnel shutdown,fabric/tunnels.py
+3d8bb459,Jeff Forcier,2016-08-15 20:47:04,Tweaks,tests/connection.py
+f4c88da7,Jeff Forcier,2016-08-15 20:36:39,flake8,fabric/connection.py
+f4c88da7,Jeff Forcier,2016-08-15 20:36:39,flake8,fabric/main.py
+f4c88da7,Jeff Forcier,2016-08-15 20:36:39,flake8,fabric/tunnels.py
+f4c88da7,Jeff Forcier,2016-08-15 20:36:39,flake8,tests/main.py
+4af21ada,Jeff Forcier,2016-08-15 20:04:33,First draft of port forward testing,tests/connection.py
+362d8850,Jeff Forcier,2016-08-15 20:04:05,Add a TODO,fabric/tunnels.py
+14ae456b,Jeff Forcier,2016-08-15 17:35:48,Remove unactionable TODO.,fabric/tunnels.py
+11d0dbad,Jeff Forcier,2016-08-15 17:34:51,Clarification,fabric/tunnels.py
+9389bdd6,Jeff Forcier,2016-08-15 17:32:59,Don't see any great way to reconcile this.,fabric/connection.py
+abfa7c76,Jeff Forcier,2016-08-15 16:44:02,"Move tunnel classes to their own file, connection.py is big enough already",fabric/connection.py
+abfa7c76,Jeff Forcier,2016-08-15 16:44:02,"Move tunnel classes to their own file, connection.py is big enough already",fabric/tunnels.py
+f2f43074,Jeff Forcier,2016-08-15 16:23:56,Whitespace,fabric/connection.py
+f2f43074,Jeff Forcier,2016-08-15 16:23:56,Whitespace,tests/connection.py
+b7389b45,Jeff Forcier,2016-08-15 15:38:36,Forgot to fix test when changing open_channel() call semantics,tests/connection.py
+81a0b471,Jeff Forcier,2016-08-15 15:37:13,"Document, test key_filename param",fabric/connection.py
+81a0b471,Jeff Forcier,2016-08-15 15:37:13,"Document, test key_filename param",tests/connection.py
+0a519ac3,Jeff Forcier,2016-08-15 15:16:56,Tweak TODO around gateway channel open semantics.,fabric/connection.py
+d1000479,Jeff Forcier,2016-08-15 14:37:43,Impl TODO re: string rep + gateways.,fabric/connection.py
+d1000479,Jeff Forcier,2016-08-15 14:37:43,Impl TODO re: string rep + gateways.,tests/connection.py
+6f7cdc80,Jeff Forcier,2016-08-15 14:37:24,Not worthwhile,fabric/connection.py
+6890be87,Jeff Forcier,2016-08-15 12:14:59,Implement corner case re: remainder + no hosts,fabric/exceptions.py
+6890be87,Jeff Forcier,2016-08-15 12:14:59,Implement corner case re: remainder + no hosts,fabric/main.py
+6890be87,Jeff Forcier,2016-08-15 12:14:59,Implement corner case re: remainder + no hosts,tests/main.py
+602cffa0,Jeff Forcier,2016-08-11 17:03:41,Allow using 'fab' like 'inv' re: hostless tasks,fabric/main.py
+602cffa0,Jeff Forcier,2016-08-11 17:03:41,Allow using 'fab' like 'inv' re: hostless tasks,tests/main.py
+a87178e8,Jeff Forcier,2016-08-11 17:02:01,MVP local port forwarding.,fabric/connection.py
+33addaf4,Jeff Forcier,2016-08-11 17:00:54,Pass through Paramiko key_filename temporarily,fabric/connection.py
+50551ad5,Jeff Forcier,2016-08-09 16:05:48,"DDD, TDD re: no hosts flag",tests/main.py
+c9ba89a2,Jeff Forcier,2016-08-08 20:52:13,Flesh out another main-module skiptest,tests/main.py
+00627e5a,Jeff Forcier,2016-08-08 20:51:48,Expand mock_remote assertability,tests/_util.py
+0933e0f1,Jeff Forcier,2016-08-08 20:20:41,Prove that remainder + multi-host --hosts works.,tests/main.py
+b2b81608,Jeff Forcier,2016-08-08 20:14:44,Tweak/update older --hosts tests,tests/main.py
+ef721aef,Jeff Forcier,2016-08-08 19:49:29,flake8,tests/connection.py
+d568358f,Jeff Forcier,2016-08-08 19:47:52,This was a horribly stupid bug,fabric/connection.py
+554ade30,Jeff Forcier,2016-08-08 19:47:45,(Mostly) get both direct and proxy gatewaying working,fabric/connection.py
+554ade30,Jeff Forcier,2016-08-08 19:47:45,(Mostly) get both direct and proxy gatewaying working,tests/connection.py
+85c1184f,Jeff Forcier,2016-08-01 17:14:35,Allow using Paramiko<2 for the time being.,setup.py
+803f6fa0,Jeff Forcier,2016-08-01 17:13:39,Doc touchup re: gateways,fabric/connection.py
+4355a47b,Jeff Forcier,2016-08-01 17:06:11,Implement direct-tcpip gateways,fabric/connection.py
+4355a47b,Jeff Forcier,2016-08-01 17:06:11,Implement direct-tcpip gateways,tests/connection.py
+8fe6847e,Jeff Forcier,2016-08-01 12:08:43,"Forgot a spot re: username param, in test setup",tests/_util.py
+2b957d51,Jeff Forcier,2016-07-29 12:54:43,Finding all kinds of stupid oversights lately.,fabric/connection.py
+2b957d51,Jeff Forcier,2016-07-29 12:54:43,Finding all kinds of stupid oversights lately.,tests/connection.py
+7d9fd2c4,Jeff Forcier,2016-07-26 20:07:01,Am using modern OpenSSL bearing Pythons now,setup.py
+554ab30b,Jeff Forcier,2016-07-26 19:42:11,Add some missing tests about internal SSHClient,tests/connection.py
+cfc28e89,Jeff Forcier,2016-07-26 09:00:29,Add a TODO,fabric/connection.py
+accb05c3,Jeff Forcier,2016-07-25 19:43:53,Add some more TODOs,fabric/connection.py
+de115a54,Jeff Forcier,2016-06-25 19:51:17,Basic sudo invocation test works,fabric/connection.py
+de115a54,Jeff Forcier,2016-06-25 19:51:17,Basic sudo invocation test works,tests/connection.py
+7f2ae863,Jeff Forcier,2016-06-25 19:43:04,Start dialing back sudo things re: it moving back to invoke,fabric/connection.py
+7f2ae863,Jeff Forcier,2016-06-25 19:43:04,Start dialing back sudo things re: it moving back to invoke,integration/main.py
+7f2ae863,Jeff Forcier,2016-06-25 19:43:04,Start dialing back sudo things re: it moving back to invoke,tests/connection.py
+34d4dc79,Jeff Forcier,2016-06-18 11:16:32,"Multiple config options with same underscore prefix, should be nested",fabric/connection.py
+34d4dc79,Jeff Forcier,2016-06-18 11:16:32,"Multiple config options with same underscore prefix, should be nested",tests/connection.py
+b6794986,Jeff Forcier,2016-06-13 21:36:18,Update stub sudo tests,tests/connection.py
+976b43ff,Jeff Forcier,2016-06-12 18:32:56,First stab at sudo() docstring,fabric/connection.py
+c940ad5d,Jeff Forcier,2016-06-12 12:58:29,"Enhance Connection docstring, implement contextmanager",fabric/connection.py
+c940ad5d,Jeff Forcier,2016-06-12 12:58:29,"Enhance Connection docstring, implement contextmanager",tests/connection.py
+d14ee281,Jeff Forcier,2016-06-12 12:53:28,Add another TODO,fabric/connection.py
+4a36bbb8,Jeff Forcier,2016-06-12 12:51:59,Add a TODO that occurred to me while implementing related things,fabric/connection.py
+7f3ba8f9,Jeff Forcier,2016-06-12 12:49:45,Minor comment updates,fabric/connection.py
+574f6dbf,Jeff Forcier,2016-06-12 12:12:42,Fix an old test name typo,tests/connection.py
+a75fc32b,Jeff Forcier,2016-06-12 11:52:08,Preserve v1's use of Channel.close() after each command exec,fabric/runners.py
+a75fc32b,Jeff Forcier,2016-06-12 11:52:08,Preserve v1's use of Channel.close() after each command exec,tests/runners.py
+e9cbd6f8,Jeff Forcier,2016-06-06 18:14:10,More Python 3 compat fixes to integration suite,integration/transfer.py
+80ac7090,Jeff Forcier,2016-06-06 18:07:58,Upgrade tests to use bytes for proc output.,tests/_util.py
+80ac7090,Jeff Forcier,2016-06-06 18:07:58,Upgrade tests to use bytes for proc output.,tests/runners.py
+b1bac05a,Jeff Forcier,2016-06-06 18:00:05,Use realistic mode value for SFTP mocking.,fabric/transfer.py
+b1bac05a,Jeff Forcier,2016-06-06 18:00:05,Use realistic mode value for SFTP mocking.,tests/_util.py
+255caa1c,Jeff Forcier,2016-06-06 17:59:35,Use 2+3 compat StringIO in tests,tests/transfer.py
+51a91ac1,Jeff Forcier,2016-06-06 17:59:20,Python 3 requires modern '0oXXX' octal literal style.,integration/transfer.py
+51a91ac1,Jeff Forcier,2016-06-06 17:59:20,Python 3 requires modern '0oXXX' octal literal style.,tests/transfer.py
+f3fa7a13,Jeff Forcier,2016-06-05 16:07:13,Tip toe in sudo water,tests/connection.py
+f01b8409,Jeff Forcier,2016-06-05 15:29:30,Add test proving remote pty interrupt w/ ETX char,tests/runners.py
+9fdd21ab,Jeff Forcier,2016-06-05 15:29:15,Enhance comment re: remote escape sequence,fabric/runners.py
+2194d8ef,Jeff Forcier,2016-06-05 15:29:05,Forgot to remove a test that is now pointless.,tests/runners.py
+082b7a58,Jeff Forcier,2016-06-05 14:55:21,Unused imports,fabric/runners.py
+811b7cfd,Jeff Forcier,2016-06-05 14:18:19,Update for latest invoke.Runner API,fabric/runners.py
+deb2656e,Jeff Forcier,2016-06-05 14:17:54,"Invoke moved guts of wait() to Runner, including a sleep call",tests/_util.py
+e4687b54,Jeff Forcier,2016-06-05 14:17:34,Pin dependencies,setup.py
+116a29b1,Jeff Forcier,2016-06-05 14:17:10,Update for invoke's removal of contextualization,fabric/main.py
+116a29b1,Jeff Forcier,2016-06-05 14:17:10,Update for invoke's removal of contextualization,tests/_support/fabfile.py
+085559bc,Jeff Forcier,2016-02-28 15:39:32,Note following recent developments in Invoke re: interrupt signals,fabric/runners.py
+8064d93a,Jeff Forcier,2015-12-19 16:56:49,Not sure why this was left duplicated,sites/docs/conf.py
+8064d93a,Jeff Forcier,2015-12-19 16:56:49,Not sure why this was left duplicated,sites/shared_conf.py
+5ee8849f,Jeff Forcier,2015-12-18 13:18:02,Update IO functionality to match latest invoke,fabric/runners.py
+dfb8a069,Jeff Forcier,2015-12-10 14:36:19,Actually clone parameterized task calls so things work right,fabric/main.py
+dfb8a069,Jeff Forcier,2015-12-10 14:36:19,Actually clone parameterized task calls so things work right,tests/main.py
+99447076,Jeff Forcier,2015-12-09 17:58:18,flake8 & other minor cleanup,integration/main.py
+99447076,Jeff Forcier,2015-12-09 17:58:18,flake8 & other minor cleanup,tests/_util.py
+99447076,Jeff Forcier,2015-12-09 17:58:18,flake8 & other minor cleanup,tests/connection.py
+99447076,Jeff Forcier,2015-12-09 17:58:18,flake8 & other minor cleanup,tests/main.py
+abd110d4,Jeff Forcier,2015-12-09 17:42:16,"Finish updating mock_remote to care about command, hostname.",tests/_util.py
+abd110d4,Jeff Forcier,2015-12-09 17:42:16,"Finish updating mock_remote to care about command, hostname.",tests/connection.py
+abd110d4,Jeff Forcier,2015-12-09 17:42:16,"Finish updating mock_remote to care about command, hostname.",tests/main.py
+c383e279,Jeff Forcier,2015-12-09 17:41:38,Tighten up use of SSHClient.get_transport() into one spot,fabric/connection.py
+3934d806,Jeff Forcier,2015-12-09 12:36:27,Took yet another stab at nontrivial mocking API.,tests/_util.py
+3934d806,Jeff Forcier,2015-12-09 12:36:27,Took yet another stab at nontrivial mocking API.,tests/main.py
+3934d806,Jeff Forcier,2015-12-09 12:36:27,Took yet another stab at nontrivial mocking API.,tests/runners.py
+e4479d30,Jeff Forcier,2015-12-08 17:25:16,Minor cleanup,tests/_util.py
+7203665d,Jeff Forcier,2015-12-08 17:12:27,Line up old implementation with new API at first,tests/_util.py
+cd8ca7b1,Jeff Forcier,2015-12-08 17:09:22,DDD re: reimagined mock_remote API,tests/_util.py
+7fec560f,Jeff Forcier,2015-12-08 16:30:15,Leverage itertools in another spot that really wanted it.,tests/_util.py
+bf919e6e,Jeff Forcier,2015-12-08 16:29:32,Tweak an older sanity check to make it clearer/less bizarre,tests/_util.py
+ed3b2504,Jeff Forcier,2015-12-08 14:56:42,Useful Connection.__str__ instead of inheriting from invoke.Context/Config,fabric/connection.py
+ed3b2504,Jeff Forcier,2015-12-08 14:56:42,Useful Connection.__str__ instead of inheriting from invoke.Context/Config,tests/connection.py
+5e4f83c1,Jeff Forcier,2015-12-08 14:27:11,Cuz I'm not gonna remember this quirk of mock later,tests/_util.py
+411533e9,Jeff Forcier,2015-12-08 14:26:13,"Not sure why this was multiline, maybe it changed",fabric/connection.py
+2ac71b5d,Jeff Forcier,2015-12-08 14:26:02,Fill out transport.active mocking to get us to connect(),tests/_util.py
+3ebb98a8,Jeff Forcier,2015-12-08 12:57:45,Clarify help statement re -H,fabric/main.py
+ca62b6db,Jeff Forcier,2015-12-08 12:57:36,Allow using @mock_remote w/o empty-parens,tests/_util.py
+ca62b6db,Jeff Forcier,2015-12-08 12:57:36,Allow using @mock_remote w/o empty-parens,tests/main.py
+ca62b6db,Jeff Forcier,2015-12-08 12:57:36,Allow using @mock_remote w/o empty-parens,tests/runners.py
+6f60e452,Jeff Forcier,2015-09-25 20:24:53,Missed a spot in the refactor,tests/runners.py
+66d5a7cc,Jeff Forcier,2015-09-25 20:23:49,flake8,tests/_util.py
+d0d71b73,Jeff Forcier,2015-09-25 20:22:25,Expand on a TODO because tonight is 'long ass TODO' night,tests/_util.py
+277b8f1f,Jeff Forcier,2015-09-25 20:22:14,"After all that test related work, the impl fix is of course 1 line",fabric/main.py
+277b8f1f,Jeff Forcier,2015-09-25 20:22:14,"After all that test related work, the impl fix is of course 1 line",tests/main.py
+10d73bd3,Jeff Forcier,2015-09-25 20:01:50,Tweak new version of mock_remote to usefully barf on more-than-expected run()s,tests/_util.py
+10d73bd3,Jeff Forcier,2015-09-25 20:01:50,Tweak new version of mock_remote to usefully barf on more-than-expected run()s,tests/main.py
+ba2b14b2,Jeff Forcier,2015-09-25 19:37:03,Add another skipped test,tests/main.py
+4b5cd893,Jeff Forcier,2015-09-25 19:36:54,Minor tweaks/cleanup to test bits,tests/_support/fabfile.py
+4b5cd893,Jeff Forcier,2015-09-25 19:36:54,Minor tweaks/cleanup to test bits,tests/main.py
+c9794466,Jeff Forcier,2015-09-25 19:36:30,Start refactoring mock_remote() to handle multiple command runs,tests/_util.py
+c9794466,Jeff Forcier,2015-09-25 19:36:30,Start refactoring mock_remote() to handle multiple command runs,tests/runners.py
+31d3912f,Jeff Forcier,2015-09-24 17:00:25,flake8 and fix test I broke in previous commit,fabric/main.py
+31d3912f,Jeff Forcier,2015-09-24 17:00:25,flake8 and fix test I broke in previous commit,tests/main.py
+d7a66693,Jeff Forcier,2015-09-24 16:59:03,Reorganize main program tests & add skel tests for advanced -H,tests/main.py
+8f5ce019,Jeff Forcier,2015-09-24 16:48:27,Make Connection a real enough Context.,fabric/connection.py
+8f5ce019,Jeff Forcier,2015-09-24 16:48:27,Make Connection a real enough Context.,tests/connection.py
+da50c3e0,Jeff Forcier,2015-09-24 16:32:44,"Herpaderp, simplify the remainder test for now:",tests/main.py
+5963f191,Jeff Forcier,2015-09-24 15:30:09,Hey look these are all done now,fabric/main.py
+94d2771b,Jeff Forcier,2015-09-24 15:27:08,Make test fail again because of unresolved Context/Connection divergence,tests/main.py
+8371b392,Jeff Forcier,2015-09-24 15:26:12,Minor test refactor,tests/main.py
+92c3de99,Jeff Forcier,2015-09-24 15:24:39,And now we prove it calls run() as expected,tests/main.py
+1593e71a,Jeff Forcier,2015-09-24 14:47:40,"Have remainder-as-task running once-per-host, basically",fabric/main.py
+1593e71a,Jeff Forcier,2015-09-24 14:47:40,"Have remainder-as-task running once-per-host, basically",tests/main.py
+2aafbfdb,Jeff Forcier,2015-09-24 13:20:46,Expose Config at top level,fabric/__init__.py
+2aafbfdb,Jeff Forcier,2015-09-24 13:20:46,Expose Config at top level,tests/init.py
+f1a9b97c,Jeff Forcier,2015-09-22 14:55:17,Implement basic remainder-as-task functionality.,fabric/main.py
+165bf214,Jeff Forcier,2015-09-21 12:13:16,Shoot for the moon,tests/main.py
+a69ce506,Jeff Forcier,2015-09-21 11:59:37,First draft of remainder/-H functionality test,tests/main.py
+82dc7b0e,Jeff Forcier,2015-09-21 11:46:42,flake8,tests/main.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,fabric/connection.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,fabric/util.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/_util.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/connection.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/main.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/runners.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/transfer.py
+cb3886a0,Jeff Forcier,2015-09-21 11:46:23,s/utils/util/ & fix some test bugs this shook out/caused,tests/util.py
+93e46171,Jeff Forcier,2015-09-21 11:35:16,Forgot a support file derp,tests/_support/fabfile.py
+3a03fd6c,Jeff Forcier,2015-09-19 13:18:19,SO EASY boy that invoke maintainer is great isn't he??,fabric/main.py
+ee5b766d,Jeff Forcier,2015-09-19 13:15:16,Failing test re: extended core arg for host stuff,tests/main.py
+cf484742,Jeff Forcier,2015-09-19 13:15:07,Refactor,tests/main.py
+8146e121,Jeff Forcier,2015-09-18 18:57:27,Test & implementation for loading fabfiles instead of tasks modules,fabric/main.py
+8146e121,Jeff Forcier,2015-09-18 18:57:27,Test & implementation for loading fabfiles instead of tasks modules,tests/main.py
+cac104f9,Jeff Forcier,2015-09-18 18:57:00,Forgot to tweak settings a tad after the invocations stuff,tasks.py
+0fdbf7ca,Jeff Forcier,2015-09-18 15:41:44,flake8 & consolidate recently-ported-to-invocations tasks,fabric/main.py
+0fdbf7ca,Jeff Forcier,2015-09-18 15:41:44,flake8 & consolidate recently-ported-to-invocations tasks,tasks.py
+0fdbf7ca,Jeff Forcier,2015-09-18 15:41:44,flake8 & consolidate recently-ported-to-invocations tasks,tests/main.py
+d09379bb,Jeff Forcier,2015-09-18 10:05:10,Use stripped-down version of invoke test expect(),tests/main.py
+22181069,Jeff Forcier,2015-09-17 19:08:44,Start testing Fab's Program overrides/subclassing,tests/main.py
+137e7272,Jeff Forcier,2015-09-15 15:03:54,Oh hey we can just do this via subclassing YAY CLASSES,fabric/main.py
+c022ce00,Jeff Forcier,2015-09-15 15:03:43,Because duh,fabric/_version.py
+9bdfc2e8,Jeff Forcier,2015-09-15 12:06:47,Start pulling in new invoke Program stuff.,fabric/main.py
+9bdfc2e8,Jeff Forcier,2015-09-15 12:06:47,Start pulling in new invoke Program stuff.,setup.py
+0c108536,Jeff Forcier,2015-09-06 23:30:40,Update a bunch of the docs/etc to be somewhat less broken re: references,fabric/connection.py
+0c108536,Jeff Forcier,2015-09-06 23:30:40,Update a bunch of the docs/etc to be somewhat less broken re: references,fabric/transfer.py
+0c108536,Jeff Forcier,2015-09-06 23:30:40,Update a bunch of the docs/etc to be somewhat less broken re: references,fabric/utils.py
+0b119a24,Jeff Forcier,2015-09-06 23:18:38,Dandruff removal,fabric/transfer.py
+0b119a24,Jeff Forcier,2015-09-06 23:18:38,Dandruff removal,integration/transfer.py
+0b119a24,Jeff Forcier,2015-09-06 23:18:38,Dandruff removal,tests/transfer.py
+32a352ed,Jeff Forcier,2015-09-06 23:15:04,Preserve file-like object rewinding for put() use case.,fabric/transfer.py
+32a352ed,Jeff Forcier,2015-09-06 23:15:04,Preserve file-like object rewinding for put() use case.,integration/transfer.py
+32a352ed,Jeff Forcier,2015-09-06 23:15:04,Preserve file-like object rewinding for put() use case.,tests/transfer.py
+744cd358,Jeff Forcier,2015-09-06 22:24:15,Update tests & impl re: skipped transfer tests,fabric/transfer.py
+744cd358,Jeff Forcier,2015-09-06 22:24:15,Update tests & impl re: skipped transfer tests,tests/transfer.py
+63a46ef5,Jeff Forcier,2015-09-06 21:28:57,Cleanup,fabric/transfer.py
+abac4f48,Jeff Forcier,2015-09-06 21:14:28,"Implementation, and test updates for, put()",fabric/transfer.py
+abac4f48,Jeff Forcier,2015-09-06 21:14:28,"Implementation, and test updates for, put()",integration/transfer.py
+abac4f48,Jeff Forcier,2015-09-06 21:14:28,"Implementation, and test updates for, put()",tests/_utils.py
+abac4f48,Jeff Forcier,2015-09-06 21:14:28,"Implementation, and test updates for, put()",tests/transfer.py
+6a872ed6,Jeff Forcier,2015-09-06 21:14:09,Forgot the test re: caching of SFTPClient. Derp,tests/connection.py
+db378f43,Jeff Forcier,2015-09-06 21:12:43,Another new skipped test,tests/transfer.py
+67cdc6da,Jeff Forcier,2015-09-06 21:12:10,Docstring/comment tweaks,fabric/transfer.py
+780328ed,Jeff Forcier,2015-09-06 21:04:44,Connection-level test ensuring Connection.put is hooked up,fabric/connection.py
+780328ed,Jeff Forcier,2015-09-06 21:04:44,Connection-level test ensuring Connection.put is hooked up,tests/connection.py
+1ce068fa,Jeff Forcier,2015-09-06 21:04:14,This line only needs to happen inside the conditional block,fabric/transfer.py
+0778b7ef,Jeff Forcier,2015-09-06 21:03:35,Make Connection.sftp() caching for preservation of 'remote' state,fabric/connection.py
+01e0c1aa,Jeff Forcier,2015-09-06 15:30:33,"First draft of sadly copypasta'd get() tests, as put() tests, w/ appropriate tweaks",integration/transfer.py
+01e0c1aa,Jeff Forcier,2015-09-06 15:30:33,"First draft of sadly copypasta'd get() tests, as put() tests, w/ appropriate tweaks",tests/transfer.py
+3ffac452,Jeff Forcier,2015-09-06 15:16:43,Make test paths clearer & shorter,tests/transfer.py
+6e62dffb,Jeff Forcier,2015-09-06 15:00:10,Solidify get() path treatment re: relative & absolute paths.,fabric/transfer.py
+6e62dffb,Jeff Forcier,2015-09-06 15:00:10,Solidify get() path treatment re: relative & absolute paths.,integration/transfer.py
+6e62dffb,Jeff Forcier,2015-09-06 15:00:10,Solidify get() path treatment re: relative & absolute paths.,tests/_utils.py
+6e62dffb,Jeff Forcier,2015-09-06 15:00:10,Solidify get() path treatment re: relative & absolute paths.,tests/transfer.py
+cce2363b,Jeff Forcier,2015-09-06 12:21:58,Add some more skipped tests for get(),tests/transfer.py
+77cec978,Jeff Forcier,2015-08-24 11:58:05,Docstring for put(),fabric/transfer.py
+515eb0c0,Jeff Forcier,2015-08-17 21:44:38,Not sure how this got mis-indented,fabric/connection.py
+c0bf3bba,Jeff Forcier,2015-08-17 21:43:41,More test cleanup re: transfer imports/use.,integration/transfer.py
+c0bf3bba,Jeff Forcier,2015-08-17 21:43:41,More test cleanup re: transfer imports/use.,tests/init.py
+c0bf3bba,Jeff Forcier,2015-08-17 21:43:41,More test cleanup re: transfer imports/use.,tests/transfer.py
+84045b01,Jeff Forcier,2015-08-17 21:39:58,This docstring said too much.,fabric/connection.py
+93d6ce84,Jeff Forcier,2015-08-17 21:39:06,Tiny tweaks,fabric/transfer.py
+93d6ce84,Jeff Forcier,2015-08-17 21:39:06,Tiny tweaks,tests/connection.py
+5cea1dd0,Jeff Forcier,2015-08-17 21:38:49,"Forgot to wrap get() on Connection, derp",fabric/connection.py
+5cea1dd0,Jeff Forcier,2015-08-17 21:38:49,"Forgot to wrap get() on Connection, derp",tests/connection.py
+c9688e5e,Jeff Forcier,2015-08-17 21:35:05,Don't bother publishing the only-kinda-public guts classes.,fabric/__init__.py
+c9688e5e,Jeff Forcier,2015-08-17 21:35:05,Don't bother publishing the only-kinda-public guts classes.,tests/_utils.py
+c9688e5e,Jeff Forcier,2015-08-17 21:35:05,Don't bother publishing the only-kinda-public guts classes.,tests/init.py
+3a04c3fe,Jeff Forcier,2015-08-17 18:14:12,"Suck it up, move mock_sftp with its sibling, rename it appropriately",tests/_utils.py
+3a04c3fe,Jeff Forcier,2015-08-17 18:14:12,"Suck it up, move mock_sftp with its sibling, rename it appropriately",tests/transfer.py
+aeb5ca69,Jeff Forcier,2015-08-17 17:36:30,Let's lean on module namespacing for Result objects for now,fabric/runners.py
+4172d75a,Jeff Forcier,2015-08-17 17:31:42,Nuke outdated TODO,fabric/transfer.py
+411a6e75,Jeff Forcier,2015-08-17 17:08:35,flake8,integration/main.py
+411a6e75,Jeff Forcier,2015-08-17 17:08:35,flake8,tests/transfer.py
+ee8eb883,Jeff Forcier,2015-08-17 17:05:41,Test & implement flag controlling mode preservation,fabric/transfer.py
+ee8eb883,Jeff Forcier,2015-08-17 17:05:41,Test & implement flag controlling mode preservation,tests/transfer.py
+af8ebbc3,Jeff Forcier,2015-08-17 17:02:52,"Rework common mock junk for transfer tests to a decorator, as with connection tests.",tests/transfer.py
+6fc43664,Jeff Forcier,2015-08-17 13:49:51,Add integration-level test for get() mode preservation,integration/transfer.py
+ed320ac8,Jeff Forcier,2015-08-17 12:51:58,Never removed this when creating integration/transfer.py,integration/main.py
+9a879222,Jeff Forcier,2015-08-17 12:51:24,Test & implement get() remote mode preservation.,fabric/transfer.py
+9a879222,Jeff Forcier,2015-08-17 12:51:24,Test & implement get() remote mode preservation.,tests/transfer.py
+ed698e9f,Jeff Forcier,2015-08-16 18:55:45,flake8,integration/transfer.py
+ed698e9f,Jeff Forcier,2015-08-16 18:55:45,flake8,tests/transfer.py
+d43e5bb4,Jeff Forcier,2015-08-16 18:55:00,Tidy up & account for change in return value,fabric/transfer.py
+d43e5bb4,Jeff Forcier,2015-08-16 18:55:00,Tidy up & account for change in return value,integration/transfer.py
+d43e5bb4,Jeff Forcier,2015-08-16 18:55:00,Tidy up & account for change in return value,tests/transfer.py
+c866ef05,Jeff Forcier,2015-08-16 18:50:46,Update unit and integration tests re: FLOs,fabric/transfer.py
+c866ef05,Jeff Forcier,2015-08-16 18:50:46,Update unit and integration tests re: FLOs,integration/transfer.py
+c866ef05,Jeff Forcier,2015-08-16 18:50:46,Update unit and integration tests re: FLOs,tests/transfer.py
+a2b1dfca,Jeff Forcier,2015-08-16 18:31:30,Failing test re: file-like object get(),fabric/transfer.py
+a2b1dfca,Jeff Forcier,2015-08-16 18:31:30,Failing test re: file-like object get(),tests/transfer.py
+cb86b06c,Jeff Forcier,2015-08-16 16:29:15,"These don't make much sense, absolute vs relative doesn't mattress at our level & basics already cover the no-local case",tests/transfer.py
+a311c446,Jeff Forcier,2015-08-16 16:20:00,Small test refactor,tests/transfer.py
+806f006b,Jeff Forcier,2015-08-16 16:14:53,Docs tweaks,fabric/transfer.py
+ef6c380b,Jeff Forcier,2015-08-16 15:40:25,"Add connection reference to result, meh",fabric/transfer.py
+ef6c380b,Jeff Forcier,2015-08-16 15:40:25,"Add connection reference to result, meh",tests/transfer.py
+e5230e20,Jeff Forcier,2015-08-16 15:38:26,Tweak stubtests re null Result.local for file-like objects,fabric/transfer.py
+e5230e20,Jeff Forcier,2015-08-16 15:38:26,Tweak stubtests re null Result.local for file-like objects,tests/transfer.py
+33983943,Jeff Forcier,2015-08-16 15:36:03,Fill out basic tests,tests/transfer.py
+b0dc32e8,Jeff Forcier,2015-08-16 14:29:28,Docstring and comment tweaks,fabric/transfer.py
+bb7572e8,Jeff Forcier,2015-07-15 16:29:21,Poking around with paths n such,fabric/transfer.py
+bb7572e8,Jeff Forcier,2015-07-15 16:29:21,Poking around with paths n such,tests/transfer.py
+7010787c,Jeff Forcier,2015-07-15 15:54:41,"Base case proven, with more questions raised, sigh",fabric/transfer.py
+7010787c,Jeff Forcier,2015-07-15 15:54:41,"Base case proven, with more questions raised, sigh",integration/transfer.py
+7010787c,Jeff Forcier,2015-07-15 15:54:41,"Base case proven, with more questions raised, sigh",tests/transfer.py
+640b3f88,Jeff Forcier,2015-07-15 15:36:18,Stub tests for local file objects in get(),tests/transfer.py
+37327fa4,Jeff Forcier,2015-07-15 15:14:42,Super basic sftp-client method on Connection,fabric/connection.py
+37327fa4,Jeff Forcier,2015-07-15 15:14:42,Super basic sftp-client method on Connection,tests/connection.py
+ab7c6159,Jeff Forcier,2015-07-15 14:58:31,Move test around,tests/connection.py
+fa824e4c,Jeff Forcier,2015-07-15 14:49:05,More updates to docstring/etc,fabric/transfer.py
+fa824e4c,Jeff Forcier,2015-07-15 14:49:05,More updates to docstring/etc,tests/transfer.py
+4ea98d19,Jeff Forcier,2015-07-15 14:48:57,"For now we're testing Transfer itself, not Connection",tests/transfer.py
+196ddec0,Jeff Forcier,2015-07-15 14:45:11,Tweak TODO,fabric/transfer.py
+5139970a,Jeff Forcier,2015-07-15 14:44:32,Updates to get() docstring,fabric/transfer.py
+6a4c1067,Jeff Forcier,2015-07-15 14:32:21,First real stab at get() docstring,fabric/transfer.py
+eaadd872,Jeff Forcier,2015-07-15 13:09:58,Start transfer integration tests,integration/transfer.py
+ec214534,Jeff Forcier,2015-07-15 13:09:01,Expand/reorg unit test file,tests/transfer.py
+2e4644f1,Jeff Forcier,2015-07-15 12:59:02,Tweak parameterized integration runner,tasks.py
+68b3c21a,Jeff Forcier,2015-06-26 14:24:33,Basic failing unit test re: get(),fabric/transfer.py
+68b3c21a,Jeff Forcier,2015-06-26 14:24:33,Basic failing unit test re: get(),tests/transfer.py
+3333c6b6,Jeff Forcier,2015-06-26 14:06:02,Basic test for connection kwarg/attr,fabric/transfer.py
+3333c6b6,Jeff Forcier,2015-06-26 14:06:02,Basic test for connection kwarg/attr,tests/transfer.py
+eafa7dfe,Jeff Forcier,2015-06-26 14:04:54,Untested integration test for basic get(),integration/main.py
+a8c41dfe,Jeff Forcier,2015-06-26 14:04:37,Move TODO and add docstring,fabric/transfer.py
+a8c41dfe,Jeff Forcier,2015-06-26 14:04:37,Move TODO and add docstring,tests/transfer.py
+60342726,Jeff Forcier,2015-06-26 12:46:52,top level Transfer import,fabric/__init__.py
+60342726,Jeff Forcier,2015-06-26 12:46:52,top level Transfer import,tests/init.py
+dfd329c2,Jeff Forcier,2015-06-26 12:43:23,Skeleton basic tests for get(),fabric/transfer.py
+dfd329c2,Jeff Forcier,2015-06-26 12:43:23,Skeleton basic tests for get(),tests/transfer.py
+25bcd499,Jeff Forcier,2015-06-23 18:01:03,Leverage new invoke bits to customize runner result,fabric/runners.py
+25bcd499,Jeff Forcier,2015-06-23 18:01:03,Leverage new invoke bits to customize runner result,tests/runners.py
+db7afa1e,Jeff Forcier,2015-06-23 17:25:09,Comment,tests/runners.py
+a58ea3bd,Jeff Forcier,2015-06-23 17:23:37,Older flake8,tests/connection.py
+19ecbf2d,Jeff Forcier,2015-06-23 17:23:29,Failing test re: host data in command result,tests/runners.py
+38aafd60,Jeff Forcier,2015-06-19 15:30:15,Add Group to top level api,fabric/__init__.py
+38aafd60,Jeff Forcier,2015-06-19 15:30:15,Add Group to top level api,tests/init.py
+88165084,Jeff Forcier,2015-06-19 15:29:45,Tests for top level api,tests/init.py
+c9d4b9cb,Jeff Forcier,2015-06-19 14:30:05,"Flesh out another test, albeit a silly one",integration/main.py
+f66526da,Jeff Forcier,2015-06-19 14:24:46,Hide some older test output,integration/main.py
+efe99c6e,Jeff Forcier,2015-06-19 14:24:19,Expand integration test re: Group,integration/main.py
+b5284897,Jeff Forcier,2015-06-19 14:21:51,TODO update,fabric/connection.py
+7359197d,Jeff Forcier,2015-06-19 13:51:24,Implement now-passing tests + a new test re: return value,fabric/connection.py
+7359197d,Jeff Forcier,2015-06-19 13:51:24,Implement now-passing tests + a new test re: return value,tests/connection.py
+03b5be77,Jeff Forcier,2015-06-19 13:51:09,Temporary host_string attribute,fabric/connection.py
+03b5be77,Jeff Forcier,2015-06-19 13:51:09,Temporary host_string attribute,tests/connection.py
+04079181,Jeff Forcier,2015-06-19 13:08:58,Failing test for run() wrapping,tests/connection.py
+7d5929fc,Jeff Forcier,2015-06-19 13:06:19,Progress,fabric/connection.py
+7d5929fc,Jeff Forcier,2015-06-19 13:06:19,Progress,tests/connection.py
+b34ac1c2,Jeff Forcier,2015-06-19 12:58:14,Start in on Group,fabric/connection.py
+b34ac1c2,Jeff Forcier,2015-06-19 12:58:14,Start in on Group,tests/connection.py
+a656ccf7,Jeff Forcier,2015-06-18 11:38:57,Widen default page width,sites/shared_conf.py
+0e899316,Jeff Forcier,2015-06-12 14:30:54,flake8,fabric/connection.py
+0e899316,Jeff Forcier,2015-06-12 14:30:54,flake8,tests/connection.py
+0e899316,Jeff Forcier,2015-06-12 14:30:54,flake8,tests/runners.py
+43e23648,Jeff Forcier,2015-06-12 14:30:13,Implement new tests re: shorthand,fabric/connection.py
+a006d9b7,Jeff Forcier,2015-06-12 14:18:03,Make sure we don't regress on IPv6.,fabric/connection.py
+a006d9b7,Jeff Forcier,2015-06-12 14:18:03,Make sure we don't regress on IPv6.,tests/connection.py
+be8738df,Jeff Forcier,2015-06-12 13:45:23,Failing tests re: shorthand host specifications,tests/connection.py
+2b0b6d33,Jeff Forcier,2015-06-11 17:11:52,Yea this part is absolutely Invoke not Fabric,tests/runners.py
+e2fb19f8,Jeff Forcier,2015-06-11 17:09:49,I don't even know what this means,tests/connection.py
+8c31b0e2,Jeff Forcier,2015-06-11 17:08:33,Tests + impl for local() passthrough in Connection,fabric/connection.py
+8c31b0e2,Jeff Forcier,2015-06-11 17:08:33,Tests + impl for local() passthrough in Connection,integration/main.py
+8c31b0e2,Jeff Forcier,2015-06-11 17:08:33,Tests + impl for local() passthrough in Connection,tests/connection.py
+09c594c0,Jeff Forcier,2015-06-11 17:06:18,Not sure why I shat this out w/o implementing it,fabric/connection.py
+377f681b,Jeff Forcier,2015-06-11 17:01:44,"Nah, that's silly",tests/connection.py
+50544845,Jeff Forcier,2015-06-11 16:59:51,Another actually-pointless test.,tests/connection.py
+64189e4b,Jeff Forcier,2015-06-11 16:58:17,Implementation,fabric/connection.py
+fb56cb05,Jeff Forcier,2015-06-11 16:56:37,Failing test,tests/connection.py
+c9f23342,Jeff Forcier,2015-06-11 16:55:13,This just belongs as part of the TODO above,tests/connection.py
+7b8a5f27,Jeff Forcier,2015-06-11 16:50:43,Sanity test filled out,tests/connection.py
+8d08ddc1,Jeff Forcier,2015-06-11 16:43:06,These aren't worth worrying about right now.,tests/connection.py
+72444bc8,Jeff Forcier,2015-06-11 16:39:46,Reorder,tests/connection.py
+0a1c69ae,Jeff Forcier,2015-06-11 16:11:23,Not sure why we were testing that; probably holdout from v1.,fabric/connection.py
+0592af03,Jeff Forcier,2015-06-11 15:46:28,Add new test providing coverage for time.sleep call,tests/runners.py
+f0e42d1a,Jeff Forcier,2015-06-11 15:46:19,Add sleep/wait test support to mock_remote(),tests/_utils.py
+09538938,Jeff Forcier,2015-06-11 15:45:53,Coverage bit,fabric/utils.py
+28a5c8f2,Jeff Forcier,2015-06-11 14:54:21,Actually use coverage task,tasks.py
+b62ecd6d,Jeff Forcier,2015-06-11 13:51:59,Implement test & address lack of mocking elsewhere after,fabric/connection.py
+b62ecd6d,Jeff Forcier,2015-06-11 13:51:59,Implement test & address lack of mocking elsewhere after,tests/connection.py
+159fdc43,Jeff Forcier,2015-06-11 13:48:30,Failing test,tests/connection.py
+04beef20,Jeff Forcier,2015-06-11 13:46:17,Not going this route,tests/host.py
+ddc4b153,Jeff Forcier,2015-05-29 12:35:25,lint,tests/utils.py
+500e0cbb,Jeff Forcier,2015-05-21 15:26:32,Never actually deleted this bit,fabric/runners.py
+cc794ff1,Jeff Forcier,2015-05-21 14:29:58,Get integration test passing now too,integration/main.py
+faf141dc,Jeff Forcier,2015-05-21 14:27:25,Test passes,fabric/runners.py
+b05fb2b6,Jeff Forcier,2015-05-20 11:34:52,Failing test re: pty_size used in remote pty allocation,tests/runners.py
+646a4189,Jeff Forcier,2015-05-20 11:34:39,This can be a top level import,fabric/runners.py
+424d1c52,Jeff Forcier,2015-05-18 16:51:57,Ported pty size stuff to invoke,fabric/utils.py
+424d1c52,Jeff Forcier,2015-05-18 16:51:57,Ported pty size stuff to invoke,tests/utils.py
+b638ae5a,Jeff Forcier,2015-05-18 10:07:23,Add more safety to earlier test,tests/utils.py
+9d2c8dcd,Jeff Forcier,2015-05-18 10:05:55,Flesh out last pty size test,fabric/utils.py
+9d2c8dcd,Jeff Forcier,2015-05-18 10:05:55,Flesh out last pty size test,tests/utils.py
+a4161d5b,Jeff Forcier,2015-05-17 17:27:28,Copy in 'sites' task from invoke,tasks.py
+453aba24,Jeff Forcier,2015-05-17 17:17:18,flake8,fabric/runners.py
+453aba24,Jeff Forcier,2015-05-17 17:17:18,flake8,fabric/utils.py
+453aba24,Jeff Forcier,2015-05-17 17:17:18,flake8,integration/main.py
+453aba24,Jeff Forcier,2015-05-17 17:17:18,flake8,tests/runners.py
+0d106109,Jeff Forcier,2015-05-17 16:43:42,Fill out next pty size test,tests/utils.py
+b55d5b69,Jeff Forcier,2015-05-17 16:43:34,Comment tweak,tests/utils.py
+f53b5344,Jeff Forcier,2015-05-17 16:43:25,Switch get_pty_size to use X-by-Y because that's more intuitive.,fabric/utils.py
+74861ac0,Jeff Forcier,2015-05-17 16:21:15,Tweak first pty-size test to fail/pass correctly,tests/utils.py
+5eeb9ca0,Jeff Forcier,2015-05-17 16:20:17,Import pty-size code from Fabric 1,fabric/utils.py
+85879faa,Jeff Forcier,2015-05-17 15:54:46,Failing tests re: pty size,tests/utils.py
+a5b7bfc9,Jeff Forcier,2015-05-17 15:36:48,Tweak comment,tests/utils.py
+45d4d9ee,Jeff Forcier,2015-05-12 16:31:22,Implement basic pty use,fabric/runners.py
+45d4d9ee,Jeff Forcier,2015-05-12 16:31:22,Implement basic pty use,integration/main.py
+b4fc1a7e,Jeff Forcier,2015-05-11 17:29:24,Add TODO,fabric/runners.py
+b4fc1a7e,Jeff Forcier,2015-05-11 17:29:24,Add TODO,integration/main.py
+f8cac61e,Jeff Forcier,2015-05-11 16:01:54,Gah,tests/runners.py
+cc8a403c,Jeff Forcier,2015-05-11 15:58:18,Remove TODO that is now handled by invoke layer,fabric/runners.py
+127639fe,Jeff Forcier,2015-05-11 15:57:37,Failing test re: pty,tests/runners.py
+5b958ce5,Jeff Forcier,2015-05-11 15:51:10,Fill out stream-write test,tests/runners.py
+43834ebd,Jeff Forcier,2015-05-11 15:49:06,Use dummy command as in invoke's runner tests,tests/runners.py
+84febdbc,Jeff Forcier,2015-05-11 15:40:35,Hush up a loud test,integration/main.py
+b0e402d0,Jeff Forcier,2015-05-11 15:39:56,Use mock_remote in existing test,tests/runners.py
+baae1ef0,Jeff Forcier,2015-05-11 15:39:43,Implement mock_remote like invoke's mock_subprocess,tests/_utils.py
+21e0e55b,Jeff Forcier,2015-05-06 19:44:02,add coverage task from invocations,tasks.py
+9752c8a5,Jeff Forcier,2015-05-06 19:43:01,These kwargs were unnecessary,tasks.py
+9ad933b1,Jeff Forcier,2015-05-06 16:18:22,Oh hey look it actually works now (!!!),fabric/runners.py
+4741d37d,Jeff Forcier,2015-05-06 14:19:18,Start working in recent invoke Runner changes,fabric/runners.py
+4741d37d,Jeff Forcier,2015-05-06 14:19:18,Start working in recent invoke Runner changes,tests/runners.py
+fe61d2d0,Jeff Forcier,2015-04-29 19:36:39,Update tasks stuff,tasks.py
+43e73306,Jeff Forcier,2015-04-09 13:39:09,Comments & skel tests,fabric/runners.py
+43e73306,Jeff Forcier,2015-04-09 13:39:09,Comments & skel tests,tests/runners.py
+4fb07812,Jeff Forcier,2015-04-09 13:12:47,Expand test re: Paramiko bits. Eh.,fabric/connection.py
+4fb07812,Jeff Forcier,2015-04-09 13:12:47,Expand test re: Paramiko bits. Eh.,tests/runners.py
+ea132143,Jeff Forcier,2015-04-08 19:52:24,Bunch of TODOs and skel tests and similar,fabric/connection.py
+ea132143,Jeff Forcier,2015-04-08 19:52:24,Bunch of TODOs and skel tests and similar,fabric/runners.py
+ea132143,Jeff Forcier,2015-04-08 19:52:24,Bunch of TODOs and skel tests and similar,tests/connection.py
+ea132143,Jeff Forcier,2015-04-08 19:52:24,Bunch of TODOs and skel tests and similar,tests/runners.py
+b96a09aa,Jeff Forcier,2015-04-07 18:36:30,Feeling out actual Runner.run stuff now,fabric/connection.py
+b96a09aa,Jeff Forcier,2015-04-07 18:36:30,Feeling out actual Runner.run stuff now,fabric/runners.py
+b96a09aa,Jeff Forcier,2015-04-07 18:36:30,Feeling out actual Runner.run stuff now,tests/connection.py
+b96a09aa,Jeff Forcier,2015-04-07 18:36:30,Feeling out actual Runner.run stuff now,tests/runners.py
+f4f41b52,Jeff Forcier,2015-04-07 17:41:30,Get those tests passing,fabric/connection.py
+f4f41b52,Jeff Forcier,2015-04-07 17:41:30,Get those tests passing,tests/connection.py
+7ea5048f,Jeff Forcier,2015-04-07 17:29:14,First step to using Remote,fabric/connection.py
+577c4994,Jeff Forcier,2015-04-07 17:27:48,Update Connection.run docstring,fabric/connection.py
+913d8b1b,Jeff Forcier,2015-04-07 17:23:38,Old test rename,tests/connection.py
+913d8b1b,Jeff Forcier,2015-04-07 17:23:38,Old test rename,tests/runners.py
+c75efee7,Jeff Forcier,2015-04-07 17:23:27,First draft fill-out of Connection.run() tests,tests/connection.py
+a1cdd5d9,Jeff Forcier,2015-04-07 16:37:29,Start in on run() tests,integration/main.py
+a1cdd5d9,Jeff Forcier,2015-04-07 16:37:29,Start in on run() tests,tests/connection.py
+7599efbe,Jeff Forcier,2015-04-07 16:21:34,Get tests passing,fabric/connection.py
+7599efbe,Jeff Forcier,2015-04-07 16:21:34,Get tests passing,integration/main.py
+7599efbe,Jeff Forcier,2015-04-07 16:21:34,Get tests passing,tests/connection.py
+4dbc5f8c,Jeff Forcier,2015-04-07 16:16:44,Flesh out close() tests,tests/connection.py
+a5496951,Jeff Forcier,2015-04-07 16:08:25,Consistency,tests/connection.py
+febe2777,Jeff Forcier,2015-04-07 16:07:04,New failing int test re: close(),integration/main.py
+54242c2d,Jeff Forcier,2015-04-07 16:06:54,That was silly,integration/main.py
+ee27418d,Jeff Forcier,2015-04-07 13:48:16,Try fixing up some doc references,fabric/connection.py
+25a9a649,Jeff Forcier,2015-04-06 19:11:20,Move intersphinx stuff around & add paramiko,sites/docs/conf.py
+25a9a649,Jeff Forcier,2015-04-06 19:11:20,Move intersphinx stuff around & add paramiko,sites/shared_conf.py
+25a9a649,Jeff Forcier,2015-04-06 19:11:20,Move intersphinx stuff around & add paramiko,sites/www/conf.py
+bfc87de2,Jeff Forcier,2015-04-06 18:56:09,Python intersphinx is in shared conf now,sites/docs/conf.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,fabric/__init__.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,fabric/connection.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,fabric/utils.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,setup.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,tests/connection.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,tests/host.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,tests/runners.py
+c484e770,Jeff Forcier,2015-04-06 16:01:45,flake8 pass,tests/utils.py
+649322ff,Jeff Forcier,2015-04-06 15:54:53,Remove now outdated TODO,fabric/connection.py
+a705625f,Jeff Forcier,2015-04-06 15:45:03,"Move is_connected from state to query of paramiko state, start implementing tests to match",fabric/connection.py
+a705625f,Jeff Forcier,2015-04-06 15:45:03,"Move is_connected from state to query of paramiko state, start implementing tests to match",integration/main.py
+a705625f,Jeff Forcier,2015-04-06 15:45:03,"Move is_connected from state to query of paramiko state, start implementing tests to match",tests/connection.py
+583d1115,Jeff Forcier,2015-04-06 15:29:09,Tweak use of mock class return value junk,tests/connection.py
+8ae391d7,Jeff Forcier,2015-04-05 22:43:42,Tweak old integration test docstring,integration/main.py
+9bba8e3c,Jeff Forcier,2015-04-05 22:43:29,First real integration test & related unit tests \o/,fabric/connection.py
+9bba8e3c,Jeff Forcier,2015-04-05 22:43:29,First real integration test & related unit tests \o/,integration/main.py
+9bba8e3c,Jeff Forcier,2015-04-05 22:43:29,First real integration test & related unit tests \o/,tests/connection.py
+a42351c5,Jeff Forcier,2015-04-05 22:34:07,Use persistent client object,fabric/connection.py
+a42351c5,Jeff Forcier,2015-04-05 22:34:07,Use persistent client object,tests/connection.py
+5ab34173,Jeff Forcier,2015-04-05 21:47:53,Extend mock test to include port,fabric/connection.py
+5ab34173,Jeff Forcier,2015-04-05 21:47:53,Extend mock test to include port,tests/connection.py
+2e2a00a0,Jeff Forcier,2015-04-05 21:42:14,Move towards real spec usage,integration/main.py
+da961179,Jeff Forcier,2015-04-05 20:37:09,Add integration task + neuter existing such tests,integration/main.py
+da961179,Jeff Forcier,2015-04-05 20:37:09,Add integration task + neuter existing such tests,tasks.py
+fcc9c9dc,Jeff Forcier,2015-04-05 20:34:13,Tiptoe into actual Paramiko level mock testing,fabric/connection.py
+fcc9c9dc,Jeff Forcier,2015-04-05 20:34:13,Tiptoe into actual Paramiko level mock testing,tests/connection.py
+dc929b9e,Jeff Forcier,2015-04-05 19:22:50,No idea why I had lexicon explicit in here heh,setup.py
+e2eaefe4,Jeff Forcier,2015-04-04 22:09:34,Fill in a stupid-easy test,fabric/connection.py
+e2eaefe4,Jeff Forcier,2015-04-04 22:09:34,Fill in a stupid-easy test,tests/connection.py
+b171e499,Jeff Forcier,2015-04-04 22:09:17,Document some instance attributes,fabric/connection.py
+097b333c,Jeff Forcier,2015-04-04 22:06:32,Missed a spot,fabric/connection.py
+2fc4b9af,Jeff Forcier,2015-04-04 21:54:26,Use rejiggered Invoke global_defaults stuff to make a local Config class w/ appropriate defaults,fabric/connection.py
+2fc4b9af,Jeff Forcier,2015-04-04 21:54:26,Use rejiggered Invoke global_defaults stuff to make a local Config class w/ appropriate defaults,tests/connection.py
+3846dcb4,Jeff Forcier,2015-04-04 14:38:41,Update skipped test,tests/connection.py
+91c64c55,Jeff Forcier,2015-04-04 14:28:12,Starting to walk part of that back.,fabric/connection.py
+91c64c55,Jeff Forcier,2015-04-04 14:28:12,Starting to walk part of that back.,tests/connection.py
+ddcadf1b,Jeff Forcier,2015-04-04 14:23:51,Get updated connection tests passing,fabric/connection.py
+ddcadf1b,Jeff Forcier,2015-04-04 14:23:51,Get updated connection tests passing,tests/connection.py
+8f2c26cd,Jeff Forcier,2015-04-04 13:56:22,"Update docstring, tests re: Connection config stuff",fabric/connection.py
+8f2c26cd,Jeff Forcier,2015-04-04 13:56:22,"Update docstring, tests re: Connection config stuff",tests/connection.py
+abc253c2,Jeff Forcier,2015-04-03 18:01:57,Move Remote tests into run() specific subsection,tests/runners.py
+8fcda5e3,Jeff Forcier,2015-04-03 17:21:07,More test skel pokery,fabric/connection.py
+8fcda5e3,Jeff Forcier,2015-04-03 17:21:07,More test skel pokery,tests/connection.py
+30171a93,Jeff Forcier,2015-04-03 16:16:30,Consolidate a comment,fabric/connection.py
+30171a93,Jeff Forcier,2015-04-03 16:16:30,Consolidate a comment,tests/runners.py
+7ad07354,Jeff Forcier,2015-04-03 15:19:48,Start skel tests for Connection open/close,tests/connection.py
+e9106d21,Jeff Forcier,2015-04-03 14:59:49,Public docstring updates - inching towards reality,fabric/connection.py
+e9106d21,Jeff Forcier,2015-04-03 14:59:49,Public docstring updates - inching towards reality,fabric/runners.py
+d3452b6b,Jeff Forcier,2015-04-03 14:59:44,Comment updates,fabric/connection.py
+d3452b6b,Jeff Forcier,2015-04-03 14:59:44,Comment updates,fabric/runners.py
+d3452b6b,Jeff Forcier,2015-04-03 14:59:44,Comment updates,tests/runners.py
+0c9d6306,Jeff Forcier,2015-04-03 13:20:13,Sudo thoughts,fabric/runners.py
+f3da9b52,Jeff Forcier,2015-04-03 13:20:07,Rename runner->runners,fabric/runners.py
+f3da9b52,Jeff Forcier,2015-04-03 13:20:07,Rename runner->runners,tests/runners.py
+ccbc6db5,Jeff Forcier,2015-04-03 13:17:27,Skel bits for Runner tests,tests/runner.py
+cf18fe19,Jeff Forcier,2015-04-01 16:52:04,Rename default config to match invoke's,fabric/connection.py
+900171e5,Jeff Forcier,2015-03-24 14:47:23,tweak runner test comments/etc,tests/runner.py
+f72a6978,Jeff Forcier,2015-03-17 13:57:42,Nuke old todo,fabric/connection.py
+3633ea54,Jeff Forcier,2015-03-16 20:05:15,Missed a spot re: pluralization earlier,tests/runner.py
+e8d2640e,Jeff Forcier,2015-03-16 20:05:03,Fix up connection config tests,fabric/connection.py
+e8d2640e,Jeff Forcier,2015-03-16 20:05:03,Fix up connection config tests,tests/connection.py
+a6597774,Jeff Forcier,2015-03-16 16:26:56,Unpluralize,fabric/runner.py
+a6597774,Jeff Forcier,2015-03-16 16:26:56,Unpluralize,tests/runner.py
+97e9ce23,Jeff Forcier,2015-03-16 16:00:14,Copy terrible watch() from invoke,tasks.py
+5bcd8ccc,Jeff Forcier,2015-03-16 13:26:44,Forgot to nuke this when moved its docs to api RST,fabric/connection.py
+14b5658e,Jeff Forcier,2015-03-16 11:17:46,Align tasks.py docs stuff w/ invoke's,tasks.py
+bd4e4508,Jeff Forcier,2015-03-16 11:16:54,First stab at working in invoke.connection,fabric/connection.py
+bd4e4508,Jeff Forcier,2015-03-16 11:16:54,First stab at working in invoke.connection,tests/connection.py
+837d2028,Jeff Forcier,2014-11-17 10:59:05,Start working Invoke config into Connection stuff,fabric/__init__.py
+837d2028,Jeff Forcier,2014-11-17 10:59:05,Start working Invoke config into Connection stuff,fabric/configuration.py
+837d2028,Jeff Forcier,2014-11-17 10:59:05,Start working Invoke config into Connection stuff,fabric/connection.py
+837d2028,Jeff Forcier,2014-11-17 10:59:05,Start working Invoke config into Connection stuff,tests/connection.py
+b5c4019f,Jeff Forcier,2014-11-17 10:58:13,Shuffle local user method around and add tests,fabric/system.py
+b5c4019f,Jeff Forcier,2014-11-17 10:58:13,Shuffle local user method around and add tests,fabric/utils.py
+b5c4019f,Jeff Forcier,2014-11-17 10:58:13,Shuffle local user method around and add tests,tests/utils.py
+16f08d55,Jeff Forcier,2014-11-14 15:44:06,Use zen-of-python.info,fabric/connection.py
+c05e1d39,Jeff Forcier,2014-11-14 15:33:42,Fix Invoke doc intersphinx path (and tweak formatting),sites/docs/conf.py
+81daad15,Jeff Forcier,2014-11-14 15:26:15,Task update for newer config stuff,tasks.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",fabric/__init__.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",fabric/configuration.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",fabric/connection.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",fabric/host.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",fabric/system.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",setup.py
+dc4dbae6,Jeff Forcier,2014-08-14 17:04:36,"Heading somewhere, slowly",tests/connection.py
+bc0432b9,Jeff Forcier,2014-08-14 14:08:55,Start fleshing out docstrings for Connection,fabric/connection.py
+0f9e67c0,Jeff Forcier,2014-08-14 14:07:09,Add invoke intersphinx,sites/docs/conf.py
+4b6dbcc7,Jeff Forcier,2014-08-13 12:32:35,WIP,fabric/connection.py
+61a6a6e9,Jeff Forcier,2014-08-12 11:30:05,Partially updated/cleaned copy of sites tree added,sites/docs/conf.py
+61a6a6e9,Jeff Forcier,2014-08-12 11:30:05,Partially updated/cleaned copy of sites tree added,sites/shared_conf.py
+61a6a6e9,Jeff Forcier,2014-08-12 11:30:05,Partially updated/cleaned copy of sites tree added,sites/www/conf.py
+a82c0175,Jeff Forcier,2014-05-11 13:44:33,Add invoke to setup.py to match dev-reqs.txt,setup.py
+38290cf2,Jeff Forcier,2014-05-05 09:51:47,Flesh out test ideas a tiny bit,tests/runners.py
+e94270dc,Jeff Forcier,2014-04-15 17:22:21,Bunch of semi random test-ish/skeleton things/thoughts,fabric/connection.py
+e94270dc,Jeff Forcier,2014-04-15 17:22:21,Bunch of semi random test-ish/skeleton things/thoughts,fabric/runners.py
+e94270dc,Jeff Forcier,2014-04-15 17:22:21,Bunch of semi random test-ish/skeleton things/thoughts,integration/main.py
+e94270dc,Jeff Forcier,2014-04-15 17:22:21,Bunch of semi random test-ish/skeleton things/thoughts,tests/connection.py
+e94270dc,Jeff Forcier,2014-04-15 17:22:21,Bunch of semi random test-ish/skeleton things/thoughts,tests/runners.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,fabric/__init__.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,fabric/_version.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,fabric/host.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,setup.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,tasks.py
+fb38f254,Jeff Forcier,2014-04-10 14:09:33,Some tests pass!,tests/host.py

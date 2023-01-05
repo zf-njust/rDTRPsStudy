@@ -1,0 +1,63 @@
+2047e7ae; (tag: refs/tags/v6.1.0, refs/remotes/origin/stable);Ben Darnell;2020-10-30 13:44:37 -0400;Merge pull request #2944 from bdarnell/bump6.1
+bee08e25; (tag: refs/tags/v6.1.0b2);Ben Darnell;2020-10-24 20:49:14 -0400;Merge pull request #2940 from bdarnell/bump6.1b2
+69e750ef; (tag: refs/tags/v6.1.0b1);Ben Darnell;2020-09-30 07:15:10 -0400;ci: Switch from testpypi to real pypi
+b4e39e52; (tag: refs/tags/v6.0.4, refs/remotes/origin/branch6.0);Ben Darnell;2020-03-03 21:11:24 -0500;Merge pull request #2819 from bdarnell/backport-604
+a36d05d1; (tag: refs/tags/v6.0.3);Ben Darnell;2019-06-23 18:12:17 -0400;Merge pull request #2685 from bdarnell/release603
+442a8124; (tag: refs/tags/v6.0.2);Ben Darnell;2019-03-23 12:36:00 -0400;Merge pull request #2630 from bdarnell/release602
+c9dad2a3; (tag: refs/tags/v6.0.1);Ben Darnell;2019-03-03 11:59:47 -0500;Merge pull request #2610 from bdarnell/release-601
+3c8728d8; (tag: refs/tags/v6.0.0);Ben Darnell;2019-03-01 10:11:52 -0500;Merge pull request #2602 from bdarnell/version-6.0
+4f1ebe47; (tag: refs/tags/v6.0.0b1);Ben Darnell;2019-02-10 18:08:24 -0500;Merge pull request #2588 from bdarnell/6.0b1
+cc2cf078; (tag: refs/tags/v5.1.1);Ben Darnell;2018-09-16 14:53:14 -0400;Merge pull request #2499 from bdarnell/fix-511
+c890f840; (tag: refs/tags/v5.1.0);Ben Darnell;2018-07-11 09:25:17 -0400;Merge pull request #2442 from bdarnell/finalize-5.1
+9470c80a; (tag: refs/tags/v5.1.0b1);Ben Darnell;2018-06-10 23:25:13 -0400;Set version number to 5.1b1
+4fb847bf; (tag: refs/tags/v5.0.2);Ben Darnell;2018-04-07 20:30:56 -0400;Merge pull request #2348 from bdarnell/release-502
+b758925a; (tag: refs/tags/v5.0.1);Ben Darnell;2018-03-18 11:39:19 -0400;Merge pull request #2315 from bdarnell/release-501
+3fc6aec1; (tag: refs/tags/v5.0.0);Ben Darnell;2018-03-05 08:39:07 -0500;Merge pull request #2300 from bdarnell/release-5.0
+8e9e7550; (tag: refs/tags/v4.5.3, refs/remotes/origin/branch4.5);Ben Darnell;2018-01-06 12:48:56 -0500;Correct version and date on 4.5.3 release notes
+810c341d; (tag: refs/tags/v4.5.2);Ben Darnell;2017-08-27 14:50:20 -0400;Merge pull request #2143 from bdarnell/cherrypick-cloexec
+e4f26acd; (tag: refs/tags/v4.5.1);Ben Darnell;2017-04-20 09:32:04 -0400;Version 4.5.1
+c9d2a3fa; (tag: refs/tags/v4.5.0);Ben Darnell;2017-04-16 19:46:22 -0400;Set version to 4.5
+50f1890e; (tag: refs/tags/v4.4.3, refs/remotes/origin/branch4.4);Ben Darnell;2017-03-30 09:17:36 -0400;Version bump and release notes for 4.4.3
+c0f99bac; (tag: refs/tags/v4.4.2);A. Jesse Jiryu Davis;2016-09-30 18:38:48 -0400;Merge pull request #1852 from bdarnell/parse-cookie
+087085ab; (tag: refs/tags/v4.4.1);Ben Darnell;2016-07-23 12:27:16 -0400;Set version number to 4.4.1
+79ef301e; (tag: refs/tags/v4.4.0);Ben Darnell;2016-07-15 10:53:37 -0400;Set version number to 4.4
+24660996; (tag: refs/tags/v4.4.0b1);Ben Darnell;2016-07-08 14:16:41 -0400;Set version number to 4.4b1
+26a5a6b8; (tag: refs/tags/v4.3.0, refs/remotes/origin/branch4.3);Ben Darnell;2015-11-06 15:08:40 -0500;Set version number to 4.3
+aebf0088; (tag: refs/tags/v4.3.0b2);Ben Darnell;2015-10-24 18:03:48 -0400;Set version number to 4.3b2
+2c543d27; (tag: refs/tags/v4.3.0b1);Ben Darnell;2015-10-19 00:11:02 +0200;Set version number to 4.3b1
+5d4d1143; (tag: refs/tags/v4.2.1);Ben Darnell;2015-07-17 11:48:58 -0400;Release version 4.2.1
+fdfaf3df; (tag: refs/tags/v4.2.0);Ben Darnell;2015-05-26 21:46:05 -0400;Set version number to 4.2.0
+61a16c90; (tag: refs/tags/v4.2.0b1);Ben Darnell;2015-05-10 13:16:50 -0400;Fix title of 4.2 release notes page
+a30dcd09; (tag: refs/tags/v4.1.0);Ben Darnell;2015-02-07 12:47:11 -0500;Set version number to 4.1
+fff09e90; (tag: refs/tags/v4.1.0b2);Ben Darnell;2015-02-01 14:27:54 -0500;Set version number to 4.1b2
+343ceb10; (tag: refs/tags/v4.1.0b1);Ben Darnell;2015-01-24 19:12:08 -0500;Set version number to 4.1b1
+b18b12b5; (tag: refs/tags/v4.0.2);Ben Darnell;2014-09-10 23:47:51 -0400;Set version number to 4.0.2
+54bfbee5; (tag: refs/tags/v4.0.1);Ben Darnell;2014-08-12 09:11:20 -0400;Set version number to 4.0.1.
+f1824029; (tag: refs/tags/v4.0.0);Ben Darnell;2014-07-15 08:42:27 -0400;Set version number to 4.0
+8b5c4ae2; (tag: refs/tags/v4.0.0b3);Ben Darnell;2014-07-08 22:50:05 -0400;Set version number to 4.0b3.
+aa7b15f0; (tag: refs/tags/v4.0.0b2);Ben Darnell;2014-07-01 08:37:02 -0400;Set version number to 4.0b2
+681882b0; (tag: refs/tags/v4.0.0b1);Ben Darnell;2014-06-21 16:02:18 -0400;Set version number to 4.0b1
+67655497; (tag: refs/tags/v3.2.2, refs/remotes/origin/branch3.2);Ben Darnell;2014-06-03 23:30:18 -0400;Set version number to 3.2.2
+98969318; (tag: refs/tags/v3.2.1);Ben Darnell;2014-05-05 22:28:23 -0400;Set version number to 3.2.1
+76a6987a; (tag: refs/tags/v3.2.0);Ben Darnell;2014-01-14 08:41:27 -0500;Set version number to 3.2.
+b2039a3d; (tag: refs/tags/v3.2.0b2);Ben Darnell;2014-01-07 22:01:38 -0500;Set version number to 3.2b2
+541331a0; (tag: refs/tags/v3.2.0b1);Ben Darnell;2013-12-30 14:18:28 -0500;Set version number to 3.2b1.
+f36652d4; (tag: refs/tags/v3.1.1);Ben Darnell;2013-09-01 14:21:36 -0400;Set version number to 3.1.1
+2d7ce584; (tag: refs/tags/v3.1.0);Ben Darnell;2013-06-15 14:15:54 -0400;Set version to 3.1.
+1a3088b5; (tag: refs/tags/v3.0.2, refs/remotes/origin/branch3.0);Ben Darnell;2013-06-02 16:27:28 -0400;Version bump and release notes for 3.0.2.
+e5559087; (tag: refs/tags/v3.0.1);Ben Darnell;2013-04-08 23:26:51 -0400;Set version number to 3.0.1
+6c6b72f3; (tag: refs/tags/v3.0.0);Ben Darnell;2013-03-29 09:02:04 -0400;Set version number to 3.0
+169ac4ef; (tag: refs/tags/v2.4.1);Ben Darnell;2012-11-24 21:22:10 -0500;Bump version to 2.4.1, update release notes.
+648bebf0; (tag: refs/tags/v2.4.0);Ben Darnell;2012-09-03 22:09:29 -0700;Final 2.4 release notes
+13598908; (tag: refs/tags/v2.3.0);Ben Darnell;2012-05-31 21:39:21 -0700;Set version number to 2.3
+8d7f9f01; (tag: refs/tags/v2.2.1);Ben Darnell;2012-04-23 22:04:06 -0700;Version number bump for 2.2.1
+02bc7615; (tag: refs/tags/v2.2.0);Ben Darnell;2012-01-30 11:01:44 -0800;Set version number to 2.2.
+fa159286; (tag: refs/tags/v2.1.1);Ben Darnell;2011-10-04 09:59:49 -0700;Set version number to 2.1.1
+b419316c; (tag: refs/tags/v2.1.0);Ben Darnell;2011-09-20 21:21:52 -0700;Set version number to 2.1
+94078a68; (tag: refs/tags/v2.0.0);Ben Darnell;2011-06-21 22:28:35 -0700;Set version number to 2.0
+f36fb66f; (tag: refs/tags/v1.2.1, refs/remotes/origin/branch1.2);Ben Darnell;2011-03-03 12:41:26 -0800;Set version number to 1.2.1
+f5436204; (tag: refs/tags/v1.2.0);Ben Darnell;2011-02-20 12:56:18 -0800;Update version number to 1.2
+b9124542; (tag: refs/tags/v1.1.1);Ben Darnell;2011-02-08 22:43:07 -0800;Tag release 1.1.1
+2338348e; (tag: refs/tags/v1.1.0);Ben Darnell;2010-09-07 17:05:12 -0700;Bump version number to 1.1
+2b5064b7; (tag: refs/tags/v1.0.1);Ben Darnell;2010-08-13 10:49:03 -0700;Set version number to 1.0.1
+eb5b3d8d; (tag: refs/tags/v1.0.0);Ben Darnell;2010-07-22 15:15:37 -0700;Set version number to 1.0

@@ -1,0 +1,90 @@
+198c335d2; (tag: refs/tags/v4.17.0);Patrick von Platen;2022-03-03 16:01:56 +0100;[Doctests] Fix ignore bug and add more doc tests (#15911)
+db7d6a80e; (tag: refs/tags/v4.16.2);Lysandre;2022-01-31 11:40:27 -0500;Release: v4.16.2
+c4ad38e5a; (tag: refs/tags/v4.16.1, refs/remotes/origin/v4.16.1-release);Sylvain Gugger;2022-01-28 11:53:30 -0500;Release: v4.16.1
+f87db5e41; (tag: refs/tags/v4.16.0);Lysandre;2022-01-27 13:06:33 -0500;Release: v4.16.0
+05fa1a7ac; (tag: refs/tags/v4.15.0);Patrick von Platen;2021-12-22 18:43:15 +0100;Release: v4.15.0
+19e5ed736; (tag: refs/tags/v4.14.1, refs/remotes/origin/v4.14.1-release);Sylvain Gugger;2021-12-15 13:53:58 -0500;Release: v4.14.1
+960d8cb41; (tag: refs/tags/v4.14.0);Lysandre;2021-12-15 18:20:35 +0100;Release: v4.14.0
+4da3a696e; (tag: refs/tags/v4.13.0);Lysandre;2021-12-09 16:55:21 +0100;Release: v4.13.0
+ef3cec0ca; (tag: refs/tags/v4.12.5, refs/remotes/origin/v4.12.5-release);Lysandre;2021-11-17 11:36:14 -0500;Release: v4.12.5
+527c763ff; (tag: refs/tags/v4.12.4, refs/remotes/origin/v4.12.4-release);Lysandre;2021-11-16 17:25:47 -0500;Release: v4.12.4
+3ea15d278; (tag: refs/tags/v4.12.3, refs/remotes/origin/v4.12.3-release);Sylvain Gugger;2021-11-02 18:04:04 -0400;Style
+219137337; (tag: refs/tags/v4.12.2, refs/remotes/origin/v4.12.2-release);Lysandre;2021-10-29 14:48:05 -0400;Release: v4.12.2
+e0a515407; (tag: refs/tags/v4.12.1, refs/remotes/origin/v4.12.1-release);Lysandre Debut;2021-10-29 13:43:43 -0400;Release v4.12.1
+62bf53663; (tag: refs/tags/v4.12.0);Lysandre;2021-10-28 12:09:45 -0400;Release v4.12.0
+65659a29c; (tag: refs/tags/v4.11.3);Lysandre;2021-10-06 12:48:25 -0400;Release v4.11.3
+7655f1107; (tag: refs/tags/v4.11.2);Sylvain Gugger;2021-09-30 11:54:39 -0400;Release v4.11.2
+54f9d62c6; (tag: refs/tags/v4.11.1);Sylvain Gugger;2021-09-29 12:04:25 -0400;Release v4.11.1
+dc193c906; (tag: refs/tags/v4.11.0);Lysandre;2021-09-27 14:14:09 -0400;Release: v4.11.0
+7a0b9187f; (tag: refs/tags/v4.10.3, refs/remotes/origin/v4.10.3-release);Lysandre;2021-09-22 15:56:28 -0400;Release: v4.10.3
+a5fc34437; (tag: refs/tags/v4.10.2, refs/remotes/origin/v4.10.2-release);Patrick von Platen;2021-09-10 18:19:10 +0200;[Wav2Vec2] Fix dtype 64 bug (#13517)
+28e278728; (tag: refs/tags/v4.10.1, refs/remotes/origin/v4.10.1-release);patrickvonplaten;2021-09-10 16:12:44 +0200;Release: 4.10.1
+d12bbe494; (tag: refs/tags/v4.10.0);Lysandre;2021-08-31 15:53:10 +0200;Release: v4.10.0
+41981a25c; (tag: refs/tags/v4.9.2, refs/remotes/origin/v4.9.2-release);Lysandre;2021-08-09 16:01:36 +0200;Patch release: v4.9.2
+bff1c71e8; (tag: refs/tags/v4.9.1, refs/remotes/origin/v4.9.1);Sylvain Gugger;2021-07-26 10:21:55 -0400;Release: v4.9.1
+72aee83ce; (tag: refs/tags/v4.9.0);Lysandre;2021-07-22 12:11:55 +0200;Release: v4.9.0
+96d1cfb13; (tag: refs/tags/v4.8.2);Lysandre;2021-06-30 14:18:21 +0200;Patch release: v4.8.2
+136617224; (tag: refs/tags/v4.8.1, refs/remotes/origin/v4.8.0-release);Sylvain Gugger;2021-06-24 10:12:11 -0400;Release: v4.8.1
+468cda20f; (tag: refs/tags/v4.8.0);Patrick von Platen;2021-06-23 17:39:21 +0100;[Flax T5] Fix weight initialization and fix docs (#12327)
+7a6c9fab8; (tag: refs/tags/v4.7.0);Lysandre;2021-06-17 17:57:42 +0200;Release: v4.7.0
+fb27b276e; (tag: refs/tags/v4.6.1);Sylvain Gugger;2021-05-20 10:46:15 -0400;Release: v4.6.1
+64e78564a; (tag: refs/tags/v4.6.0);Lysandre;2021-05-12 17:03:03 +0200;Release: v4.6.0
+4bae96ec2; (tag: refs/tags/v4.5.1);Sylvain Gugger;2021-04-13 11:18:16 -0400;Release: V4.5.1
+4906a29f7; (tag: refs/tags/v4.5.0);Lysandre;2021-04-06 12:37:47 -0400;Release v4.5.0
+9f43a425f; (tag: refs/tags/v4.4.2);Sylvain Gugger;2021-03-18 15:09:04 -0400;Release: v4.4.2
+f213d2394; (tag: refs/tags/v4.4.1);Lysandre Debut;2021-03-16 15:58:20 -0400;Patches full import failure when sentencepiece is not installed (#10752)
+c988db5af; (tag: refs/tags/v4.4.0);Lysandre;2021-03-16 11:33:35 -0400;Release v4.4.0
+bae0c79f6; (tag: refs/tags/v4.3.3);Lysandre;2021-02-24 15:02:48 -0500;Release: v4.3.3
+cd48078ce; (tag: refs/tags/v4.3.2);Sylvain Gugger;2021-02-09 14:07:52 -0500;Release: v4.3.2
+cc86472c7; (tag: refs/tags/v4.3.1);Lysandre;2021-02-09 09:53:45 +0100;Release: v4.3.1
+800f385d7; (tag: refs/tags/v4.3.0);Lysandre;2021-02-08 18:31:49 +0100;Release: v4.3.0
+4cd22512d; (tag: refs/tags/v4.3.0.rc1, tag: refs/tags/4.3.0.rc1);Sylvain Gugger;2021-02-04 15:41:19 -0500;Release: 4.3.0.rc1
+98af96a15; (tag: refs/tags/v4.2.2);Lysandre;2021-01-21 09:06:41 +0100;Release: v4.2.2
+236cc365a; (tag: refs/tags/v4.2.1);Lysandre;2021-01-14 14:17:56 +0100;Release: v4.2.1
+7d9a9d0c7; (tag: refs/tags/v4.2.0);Lysandre;2021-01-13 16:01:47 +0100;Release: v4.2.0
+bfa4ccf77; (tag: refs/tags/v4.1.1);Lysandre;2020-12-17 11:25:49 -0500;Release: v4.1.1
+f5438ab8a; (tag: refs/tags/v4.1.0);Lysandre;2020-12-17 10:04:55 -0500;Release: v4.1.0
+e20ac6611; (tag: refs/tags/v4.0.1);Lysandre;2020-12-09 11:23:27 -0500;Release: v4.0.1
+c781171df; (tag: refs/tags/v4.0.0);LysandreJik;2020-11-30 11:33:35 -0500;Release: v4.0.0
+d86b5ffc6; (tag: refs/tags/v4.0.0-rc-1);LysandreJik;2020-11-19 12:00:03 -0500;Release: v4.0.0-rc-1
+d5b3e56de; (tag: refs/tags/v3.5.1, refs/remotes/origin/v3.5.1hotfix);Sylvain Gugger;2020-11-13 10:03:08 -0500;Release: v3.5.1
+818878dc8; (tag: refs/tags/v3.5.0);Lysandre;2020-11-10 08:50:24 -0500;Release: v3.5.0
+eb0e0ce2a; (tag: refs/tags/v3.4.0);Lysandre;2020-10-20 16:21:11 +0200;Release: v3.4.0
+1ba08dc22; (tag: refs/tags/v3.3.1);Sylvain Gugger;2020-09-29 14:17:34 -0400;Release: v3.3.1
+0613f0522; (tag: refs/tags/v3.3.0);Lysandre;2020-09-28 15:30:57 +0200;Release: v3.3.0
+3ebb1b3a2; (tag: refs/tags/v3.2.0);Lysandre;2020-09-22 17:36:51 +0200;Release: v3.2.0
+4b3ee9cbc; (tag: refs/tags/v3.1.0);Lysandre;2020-09-01 14:27:52 +0200;Release: v3.1.0
+b0892fa0e; (tag: refs/tags/v3.0.2);Lysandre;2020-07-06 18:49:32 -0400;Release: v3.0.2
+fedabcd15; (tag: refs/tags/v3.0.1, tag: refs/tags/3.0.1);Thomas Wolf;2020-07-03 17:02:44 +0200;Release: 3.0.1
+b62ca5952; (tag: refs/tags/v3.0.0);Lysandre;2020-06-29 10:38:34 -0400;Release: v3.0.0
+b42586ea5; (tag: refs/tags/v2.11.0);Julien Chaumond;2020-06-02 10:21:09 -0400;Fix CI after killing archive maps (#4724)
+10d72390c; (tag: refs/tags/v2.10.0);Lysandre;2020-05-22 10:49:45 -0400;Revert #4446 Since it introduces a new dependency
+7cb203fae; (tag: refs/tags/v2.9.1);Lysandre;2020-05-13 17:38:50 -0400;Release: v2.9.1
+e7cfc1a31; (tag: refs/tags/v2.9.0);Lysandre;2020-05-07 14:15:20 -0400;Release: v2.9.0
+11c3257a1; (tag: refs/tags/v2.8.0);LysandreJik;2020-04-06 10:06:41 -0400;unpin isort for pypi
+6f5a12a58; (tag: refs/tags/v2.7.0);LysandreJik;2020-03-30 08:49:24 -0400;Release: v2.7.0
+fbc5bf10c; (tag: refs/tags/v2.6.0);LysandreJik;2020-03-24 11:51:24 -0400;v2.6.0 release: isort un-pinned
+b90745c59; (tag: refs/tags/v2.5.1);Lysandre Debut;2020-02-24 18:45:53 -0500;Test correct tokenizers after default switch (#3003)
+fb560dcb0; (tag: refs/tags/v2.5.0);Lysandre;2020-02-19 11:46:19 -0500;Release: v2.5.0
+d426b58b9; (tag: refs/tags/v2.4.1);Lysandre;2020-01-31 14:55:33 -0500;Patch: v2.4.1
+6664ea943; (tag: refs/tags/v2.4.0);Lysandre;2020-01-31 09:40:32 -0500;Release: v2.4.0
+a436574bf; (tag: refs/tags/v2.3.0);Lysandre;2019-12-20 16:22:20 -0500;Release: v2.3.0
+7bd11dda6; (tag: refs/tags/v2.2.2);Lysandre;2019-12-13 16:45:30 -0500;Release: v2.2.2
+8101924a6; (tag: refs/tags/v2.2.1);LysandreJik;2019-12-03 11:20:26 -0500;Patch: v2.2.1
+ae98d4599; (tag: refs/tags/v2.2.0);Lysandre;2019-11-26 14:12:44 -0500;Release: v2.2.0
+3ddce1d74; (tag: refs/tags/v2.1.1);Lysandre;2019-10-11 06:37:49 -0400;Release: 2.1.1
+9c2e0a4ac; (tag: refs/tags/v2.1.0);LysandreJik;2019-10-09 12:14:03 -0400;Release: 2.1.0
+1d646badb; (tag: refs/tags/v2.0.0);thomwolf;2019-09-26 13:48:00 +0200;Merge branch 'master' of https://github.com/huggingface/pytorch-transformers
+89fd3450a; (tag: refs/tags/1.2.0);thomwolf;2019-09-04 13:32:18 +0200;Release: 1.2.0
+fe02e45e4; (tag: refs/tags/1.1.0);LysandreJik;2019-08-15 11:15:08 -0400;Release: 1.1.0
+b33a38509; (tag: refs/tags/v1.0.0);Thomas Wolf;2019-07-16 16:18:37 +0200;update readme
+ed7549bb1; (tag: refs/tags/1.0);thomwolf;2019-07-16 16:10:58 +0200;release version 1.0
+b832d5bb8; (tag: refs/tags/v0.6.2);thomwolf;2019-04-25 21:37:47 +0200;Release: 0.6.2
+8f46cd105; (tag: refs/tags/v0.6.1);Thomas Wolf;2019-02-18 12:00:11 +0100;Merge pull request #288 from huggingface/gpt2
+0856a231c; (tag: refs/tags/v0.6.0);Thomas Wolf;2019-02-18 11:38:05 +0100;Merge pull request #287 from huggingface/gpt2
+4e56da38d; (tag: refs/tags/v0.5.1);Thomas Wolf;2019-02-13 10:19:25 +0100;Merge pull request #268 from wangxiaodiu/master
+03cdb2a39; (tag: refs/tags/v0.5.0, tag: refs/tags/0.5.0);Thomas Wolf;2019-02-11 14:19:26 +0100;Merge pull request #254 from huggingface/python_2
+e1bfad484; (tag: refs/tags/v0.4.0);Thomas Wolf;2018-12-14 15:15:47 +0100;Merge pull request #112 from huggingface/fourth-release
+66d50ca6a; (tag: refs/tags/v0.3.0);Thomas Wolf;2018-11-30 23:10:30 +0100;Merge pull request #73 from huggingface/third-release
+ce37b8e48; (tag: refs/tags/v0.2.0, tag: refs/tags/v0.1.2);thomwolf;2018-11-26 10:45:48 +0100;bump version in setup.py
+4132a028a; (tag: refs/tags/0.1.2);Thomas Wolf;2018-11-17 12:21:48 +0100;Merge pull request #29 from huggingface/first-release

@@ -1,0 +1,897 @@
+file,method,params,startlineno,endlineno
+docs\conf.py,setup,app,195,200
+docs\api-examples-source\charts.audio.py,read_file_from_url,url,4,6
+docs\api-examples-source\charts.image.py,read_file_from_url,url,6,8
+docs\api-examples-source\charts.video.py,read_file_from_url,url,4,6
+docs\_ext\stoutput.py,run,self,27,58
+docs\_ext\stoutput.py,setup,app,61,62
+examples\audio.py,note,"freq, length, amp, rate",9,12
+examples\bart_vs_bikes.py,from_data_file,filename,15,18
+examples\caching.py,check_if_cached,,10,13
+examples\caching.py,my_func,"arg1, arg2=None, *args, **kwargs",16,20
+examples\caching.py,my_func,"arg1, arg2=None, *args, **kwargs",81,85
+examples\checkboxes.py,create_image,"r='0', g='0', b='0', a='0'",11,48
+examples\dataframe_styling.py,color_negative_red,val,10,17
+examples\dataframe_styling.py,highlight_max,"data, color='yellow'",20,29
+examples\images.py,__init__,"self, size='200', step='10'",16,29
+examples\images.py,create_image,self,31,67
+examples\images.py,generate_image_types,self,69,81
+examples\images.py,generate_image_channel_data,self,83,98
+examples\images.py,generate_bgra_image,self,100,110
+examples\images.py,generate_gif,self,112,139
+examples\images.py,generate_pseudorandom_image,self,141,158
+examples\images.py,generate_gray_image,self,160,167
+examples\images.py,save,self,169,171
+examples\images.py,get_images,self,173,174
+examples\images.py,main,,176,294
+examples\matplotlib_kwargs.py,main,,11,79
+examples\mnist-cnn.py,__init__,"self, x_test",38,39
+examples\mnist-cnn.py,on_train_begin,"self, logs=None",41,45
+examples\mnist-cnn.py,on_epoch_begin,"self, epoch, logs=None",47,53
+examples\mnist-cnn.py,on_batch_end,"self, batch, logs=None",55,70
+examples\mnist-cnn.py,on_epoch_end,"self, epoch, logs=None",73,85
+examples\mnist-cnn.py,_create_chart,"self, type='line', height='0'",87,105
+examples\reference.py,read_file_from_url,url,171,180
+examples\reference.py,lengthy_computation,,337,338
+examples\table_styling.py,color_negative_red,val,11,18
+examples\table_styling.py,highlight_max,"data, color='yellow'",21,30
+examples\uber.py,load_data,nrows,18,24
+examples\uber.py,display_uber_data,hour,26,41
+examples\core\dataframe.py,highlight_first,value,6,8
+lib\setup.py,readme,,9,11
+lib\streamlit\bootstrap.py,_set_up_signal_handler,,26,35
+lib\streamlit\bootstrap.py,signal_handler,"signal_number, stack_frame",29,31
+lib\streamlit\bootstrap.py,_fix_sys_path,script_path,38,44
+lib\streamlit\bootstrap.py,_on_server_start,server,47,71
+lib\streamlit\bootstrap.py,maybe_open_browser,,50,66
+lib\streamlit\bootstrap.py,_print_url,,74,103
+lib\streamlit\bootstrap.py,run,script_path,106,131
+lib\streamlit\caching.py,read_from_mem_cache,key,47,54
+lib\streamlit\caching.py,write_to_mem_cache,"key, rv",57,58
+lib\streamlit\caching.py,read_from_disk_cache,key,61,71
+lib\streamlit\caching.py,write_to_disk_cache,"key, rv",74,89
+lib\streamlit\caching.py,read_from_cache,"key, use_disk_cache=False",92,96
+lib\streamlit\caching.py,write_to_cache,"key, rv, use_disk_cache=False",99,103
+lib\streamlit\caching.py,cache,"func=None, on_disk=False",106,190
+lib\streamlit\caching.py,wrapped_func,"*argc, **argv",148,180
+lib\streamlit\caching.py,clear_cache,,193,203
+lib\streamlit\caching.py,get_cache_path,,206,207
+lib\streamlit\caching.py,_clear_disk_cache,,210,217
+lib\streamlit\caching.py,_clear_mem_cache,,220,222
+lib\streamlit\case_converters.py,to_upper_camel_case,snake_case_str,11,16
+lib\streamlit\case_converters.py,to_lower_camel_case,snake_case_str,19,32
+lib\streamlit\case_converters.py,to_snake_case,camel_case_str,35,43
+lib\streamlit\case_converters.py,convert_dict_keys,"func, in_dict",46,72
+lib\streamlit\cli.py,main,"ctx, log_level='info'",20,36
+lib\streamlit\cli.py,help,ctx,39,47
+lib\streamlit\cli.py,main_version,ctx,50,58
+lib\streamlit\cli.py,main_docs,,61,66
+lib\streamlit\cli.py,main_hello,,69,82
+lib\streamlit\cli.py,main_run,"file, args",85,90
+lib\streamlit\cli.py,_main_run,"file, args=[]",92,102
+lib\streamlit\cli.py,main_clear_cache,ctx,108,113
+lib\streamlit\cli.py,main_show_config,ctx,117,122
+lib\streamlit\cli.py,cache,,127,130
+lib\streamlit\cli.py,cache_clear,,133,142
+lib\streamlit\cli.py,config,,147,150
+lib\streamlit\cli.py,config_show,,153,157
+lib\streamlit\cli.py,activate,ctx,162,167
+lib\streamlit\cli.py,activate_reset,,170,173
+lib\streamlit\code_util.py,extract_args,line,8,41
+lib\streamlit\code_util.py,get_method_args_from_code,"args, line",44,75
+lib\streamlit\compatibility.py,setup_2_3_shims,caller_globals,17,69
+lib\streamlit\compatibility.py,is_running_py3,,72,74
+lib\streamlit\config.py,set_option,"key, value",48,63
+lib\streamlit\config.py,get_option,key,66,83
+lib\streamlit\config.py,_create_section,"section, description",86,90
+lib\streamlit\config.py,_create_option,"key, description=None, default_val=None, visibility='visible', deprecated=False, deprecation_text=None, expiration_date=None, replaced_by=None",93,143
+lib\streamlit\config.py,_delete_option,key,146,154
+lib\streamlit\config.py,_global_development_mode,,186,196
+lib\streamlit\config.py,_global_log_level,,200,209
+lib\streamlit\config.py,_global_unit_test,,212,218
+lib\streamlit\config.py,_server_headless,,289,305
+lib\streamlit\config.py,_server_live_save,,309,316
+lib\streamlit\config.py,_server_run_on_save,,319,325
+lib\streamlit\config.py,_server_port,,328,335
+lib\streamlit\config.py,_server_enable_cors,,338,344
+lib\streamlit\config.py,_browser_server_address,,351,358
+lib\streamlit\config.py,_gather_usage_stats,,361,367
+lib\streamlit\config.py,_browser_server_port,,370,377
+lib\streamlit\config.py,_s3_bucket,,386,395
+lib\streamlit\config.py,_s3_url,,398,407
+lib\streamlit\config.py,_s3_access_key_id,,410,421
+lib\streamlit\config.py,_s3_secret_access_key,,424,435
+lib\streamlit\config.py,_get_public_credentials,,478,491
+lib\streamlit\config.py,get_where_defined,key,494,505
+lib\streamlit\config.py,_is_unset,option_name,508,523
+lib\streamlit\config.py,is_manually_set,option_name,526,541
+lib\streamlit\config.py,show_config,,544,636
+lib\streamlit\config.py,append_desc,text,555,556
+lib\streamlit\config.py,append_comment,text,558,559
+lib\streamlit\config.py,append_section,text,561,562
+lib\streamlit\config.py,append_setting,text,564,565
+lib\streamlit\config.py,append_newline,,567,568
+lib\streamlit\config.py,_set_option,"key, value, where_defined",645,659
+lib\streamlit\config.py,_update_config_with_toml,"raw_toml, where_defined",662,680
+lib\streamlit\config.py,_maybe_read_env_variable,value,683,710
+lib\streamlit\config.py,_maybe_convert_to_number,v,713,725
+lib\streamlit\config.py,parse_config_file,file_contents=None,728,757
+lib\streamlit\config.py,_clean_paragraphs,txt,760,763
+lib\streamlit\config.py,_clean,txt,766,768
+lib\streamlit\config.py,_check_conflicts,,771,815
+lib\streamlit\config.py,_set_development_mode,,818,819
+lib\streamlit\config.py,on_config_parsed,func,822,833
+lib\streamlit\ConfigOption.py,__init__,"self, key, description=None, default_val=None, visibility='visible', deprecated=False, deprecation_text=None, expiration_date=None, replaced_by=None, config_getter=None",77,141
+lib\streamlit\ConfigOption.py,__call__,"self, get_val_func",143,164
+lib\streamlit\ConfigOption.py,value,self,166,169
+lib\streamlit\ConfigOption.py,set_value,"self, value, where_defined=None",171,219
+lib\streamlit\ConfigOption.py,is_expired,self,221,228
+lib\streamlit\ConfigOption.py,_parse_yyyymmdd_str,date_str,231,232
+lib\streamlit\credentials.py,get_current,cls,36,42
+lib\streamlit\credentials.py,__init__,self,44,53
+lib\streamlit\credentials.py,load,"self, auto_resolve=False",55,78
+lib\streamlit\credentials.py,check_activated,"self, auto_resolve=False",80,91
+lib\streamlit\credentials.py,reset,cls,93,105
+lib\streamlit\credentials.py,save,self,107,114
+lib\streamlit\credentials.py,activate,"self, show_instructions=True",116,154
+lib\streamlit\credentials.py,_generate_code,"secret, email",157,171
+lib\streamlit\credentials.py,_verify_code,"email, code",174,207
+lib\streamlit\credentials.py,_exit,message,210,213
+lib\streamlit\credentials.py,_get_data,msg,216,224
+lib\streamlit\DeltaGenerator.py,_wraps_with_cleaned_sig,wrapped,32,48
+lib\streamlit\DeltaGenerator.py,_clean_up_sig,method,51,81
+lib\streamlit\DeltaGenerator.py,wrapped_method,"self, *args, **kwargs",77,79
+lib\streamlit\DeltaGenerator.py,_with_element,method,84,124
+lib\streamlit\DeltaGenerator.py,wrapped_method,"self, *args, **kwargs",105,122
+lib\streamlit\DeltaGenerator.py,marshall_element,element,108,109
+lib\streamlit\DeltaGenerator.py,_widget,f,127,154
+lib\streamlit\DeltaGenerator.py,wrapper,"dg, element, *args, **kwargs",128,152
+lib\streamlit\DeltaGenerator.py,__init__,"self, enqueue, id='0', is_root=True",160,175
+lib\streamlit\DeltaGenerator.py,_reset,self,178,181
+lib\streamlit\DeltaGenerator.py,_enqueue_new_element_delta,"self, marshall_element",183,226
+lib\streamlit\DeltaGenerator.py,balloons,"self, element",228,240
+lib\streamlit\DeltaGenerator.py,text,"self, element, body",242,261
+lib\streamlit\DeltaGenerator.py,markdown,"self, element, body",263,283
+lib\streamlit\DeltaGenerator.py,code,"self, element, body, language='python'",285,314
+lib\streamlit\DeltaGenerator.py,json,"self, element, body",316,348
+lib\streamlit\DeltaGenerator.py,title,"self, element, body",350,372
+lib\streamlit\DeltaGenerator.py,header,"self, element, body",374,393
+lib\streamlit\DeltaGenerator.py,subheader,"self, element, body",395,414
+lib\streamlit\DeltaGenerator.py,error,"self, element, body",416,431
+lib\streamlit\DeltaGenerator.py,warning,"self, element, body",433,448
+lib\streamlit\DeltaGenerator.py,info,"self, element, body",450,465
+lib\streamlit\DeltaGenerator.py,success,"self, element, body",467,482
+lib\streamlit\DeltaGenerator.py,help,"self, element, obj",484,510
+lib\streamlit\DeltaGenerator.py,exception,"self, element, exception, exception_traceback=None",512,533
+lib\streamlit\DeltaGenerator.py,_text_exception,"self, element, exception_type, message, stack_trace",535,548
+lib\streamlit\DeltaGenerator.py,dataframe,"self, _, data=None",550,597
+lib\streamlit\DeltaGenerator.py,set_data_frame,delta,594,595
+lib\streamlit\DeltaGenerator.py,_native_chart,"self, element, chart",601,604
+lib\streamlit\DeltaGenerator.py,line_chart,"self, element, data, width='0', height='0'",606,637
+lib\streamlit\DeltaGenerator.py,area_chart,"self, element, data, width='0', height='0'",639,669
+lib\streamlit\DeltaGenerator.py,bar_chart,"self, element, data, width='0', height='0'",671,701
+lib\streamlit\DeltaGenerator.py,vega_lite_chart,"self, element, data=None, spec=None, width='0', **kwargs",703,759
+lib\streamlit\DeltaGenerator.py,altair_chart,"self, element, altair_chart",761,795
+lib\streamlit\DeltaGenerator.py,graphviz_chart,"self, element, figure_or_dot, width='0', height='0'",797,862
+lib\streamlit\DeltaGenerator.py,plotly_chart,"self, element, figure_or_data, width='0', height='0', sharing='streamlit', **kwargs",864,944
+lib\streamlit\DeltaGenerator.py,pyplot,"self, element, fig=None, **kwargs",946,985
+lib\streamlit\DeltaGenerator.py,bokeh_chart,"self, element, figure",987,1027
+lib\streamlit\DeltaGenerator.py,image,"self, element, image, caption=None, width=None, use_column_width=False, clamp=False",1030,1078
+lib\streamlit\DeltaGenerator.py,audio,"self, element, data, format='audio/wav'",1080,1110
+lib\streamlit\DeltaGenerator.py,video,"self, element, data, format='video/mp4'",1112,1142
+lib\streamlit\DeltaGenerator.py,button,"self, element, ui_value, label",1144,1162
+lib\streamlit\DeltaGenerator.py,checkbox,"self, element, ui_value, label, value=False",1164,1186
+lib\streamlit\DeltaGenerator.py,radio,"self, element, ui_value, label, options, value='0'",1188,1219
+lib\streamlit\DeltaGenerator.py,selectbox,"self, element, ui_value, label, options, value='0'",1221,1252
+lib\streamlit\DeltaGenerator.py,slider,"self, element, ui_value, label, value=None, min_value=None, max_value=None, step=None",1254,1353
+lib\streamlit\DeltaGenerator.py,text_input,"self, element, ui_value, label, value=''",1355,1382
+lib\streamlit\DeltaGenerator.py,text_area,"self, element, ui_value, label, value=''",1384,1417
+lib\streamlit\DeltaGenerator.py,time_input,"self, element, ui_value, label, value=None",1419,1457
+lib\streamlit\DeltaGenerator.py,date_input,"self, element, ui_value, label, value=None",1459,1497
+lib\streamlit\DeltaGenerator.py,progress,"self, element, value",1499,1535
+lib\streamlit\DeltaGenerator.py,empty,"self, element",1537,1556
+lib\streamlit\DeltaGenerator.py,map,"self, element, data",1558,1592
+lib\streamlit\DeltaGenerator.py,deck_gl_chart,"self, element, data=None, spec=None, **kwargs",1594,1710
+lib\streamlit\DeltaGenerator.py,table,"self, element, data=None",1712,1739
+lib\streamlit\DeltaGenerator.py,add_rows,"self, data=None, **kwargs",1741,1824
+lib\streamlit\DeltaGenerator.py,_clean_text,text,1827,1828
+lib\streamlit\hello.py,run,,10,51
+lib\streamlit\logger.py,set_log_level,level,24,49
+lib\streamlit\logger.py,setup_formatter,logger,52,70
+lib\streamlit\logger.py,init_tornado_logs,,73,84
+lib\streamlit\logger.py,get_logger,name,87,114
+lib\streamlit\magic.py,add_magic,"code, script_path",8,28
+lib\streamlit\magic.py,_modify_ast_subtree,"tree, body_attr='body', is_root=False",31,65
+lib\streamlit\magic.py,_insert_import_statement,tree,68,90
+lib\streamlit\magic.py,_build_st_import_statement,,93,98
+lib\streamlit\magic.py,_build_st_write_call,nodes,103,114
+lib\streamlit\magic.py,_get_st_write_from_expr,"node, i, parent_type",118,154
+lib\streamlit\metrics.py,__init__,"self, *args, **kwargs",8,9
+lib\streamlit\metrics.py,__call__,"self, *args, **kwargs",11,12
+lib\streamlit\metrics.py,labels,"self, *args, **kwargs",14,15
+lib\streamlit\metrics.py,inc,"self, *args, **kwargs",17,18
+lib\streamlit\metrics.py,dec,"self, *args, **kwargs",20,21
+lib\streamlit\metrics.py,set,"self, *args, **kwargs",23,24
+lib\streamlit\metrics.py,get,"cls, metric",31,34
+lib\streamlit\metrics.py,get_current,cls,36,42
+lib\streamlit\metrics.py,__init__,self,44,57
+lib\streamlit\metrics.py,toggle_metrics,self,59,82
+lib\streamlit\Report.py,get_url,"cls, host_ip",26,43
+lib\streamlit\Report.py,__init__,"self, script_path, argv",46,76
+lib\streamlit\Report.py,get_debug,self,78,80
+lib\streamlit\Report.py,parse_argv_from_command_line,"self, cmd_line_str",83,107
+lib\streamlit\Report.py,enqueue,"self, msg",109,111
+lib\streamlit\Report.py,clear,self,113,121
+lib\streamlit\Report.py,flush_browser_queue,self,123,138
+lib\streamlit\Report.py,generate_new_id,self,140,144
+lib\streamlit\Report.py,serialize_running_report_to_files,self,146,170
+lib\streamlit\Report.py,serialize_final_report_to_files,self,173,222
+lib\streamlit\Report.py,_build_manifest,"self, status, num_messages=None, first_delta_index=None, num_deltas=None, external_server_ip=None, internal_server_ip=None",224,278
+lib\streamlit\Report.py,_should_save_report_msg,msg,282,306
+lib\streamlit\Report.py,_get_browser_address_bar_port,,310,321
+lib\streamlit\ReportContext.py,__init__,"self, ioloop, script_path, script_argv",41,82
+lib\streamlit\ReportContext.py,root_dg,self,84,93
+lib\streamlit\ReportContext.py,widgets,self,95,104
+lib\streamlit\ReportContext.py,flush_browser_queue,self,106,119
+lib\streamlit\ReportContext.py,shutdown,self,121,130
+lib\streamlit\ReportContext.py,enqueue,"self, msg",132,151
+lib\streamlit\ReportContext.py,enqueue_exception,"self, e",153,174
+lib\streamlit\ReportContext.py,_clear_queue,self,176,177
+lib\streamlit\ReportContext.py,_enqueue_script_state_changed_message,"self, new_script_state",179,196
+lib\streamlit\ReportContext.py,_enqueue_session_state_changed_message,self,198,203
+lib\streamlit\ReportContext.py,_enqueue_file_change_message,"self, _",205,209
+lib\streamlit\ReportContext.py,_on_script_compile_error,"self, exc",211,223
+lib\streamlit\ReportContext.py,_maybe_enqueue_initialize_message,self,225,253
+lib\streamlit\ReportContext.py,_enqueue_new_report_message,self,255,261
+lib\streamlit\ReportContext.py,_enqueue_report_finished_message,self,263,266
+lib\streamlit\ReportContext.py,handle_rerun_script_request,"self, command_line=None, widget_state=None, is_preheat=False",268,309
+lib\streamlit\ReportContext.py,handle_stop_script_request,self,311,313
+lib\streamlit\ReportContext.py,handle_clear_cache_request,self,315,325
+lib\streamlit\ReportContext.py,handle_set_run_on_save_request,"self, new_value",327,339
+lib\streamlit\ReportContext.py,handle_save_request,"self, ws",341,371
+lib\streamlit\ReportContext.py,progress,percent,344,349
+lib\streamlit\ReportContext.py,_save_running_report,self,373,382
+lib\streamlit\ReportContext.py,_save_final_report,"self, progress=None",384,393
+lib\streamlit\ReportContext.py,_save_final_report_and_quit,self,395,398
+lib\streamlit\ReportContext.py,_get_storage,self,400,403
+lib\streamlit\ReportQueue.py,__init__,self,21,29
+lib\streamlit\ReportQueue.py,get_debug,self,31,35
+lib\streamlit\ReportQueue.py,__iter__,self,38,39
+lib\streamlit\ReportQueue.py,is_empty,self,41,42
+lib\streamlit\ReportQueue.py,get_initial_msg,self,44,47
+lib\streamlit\ReportQueue.py,enqueue,"self, msg",49,71
+lib\streamlit\ReportQueue.py,clone,self,73,81
+lib\streamlit\ReportQueue.py,_clear,self,83,85
+lib\streamlit\ReportQueue.py,clear,self,87,90
+lib\streamlit\ReportQueue.py,flush,self,92,96
+lib\streamlit\ReportQueue.py,compose_deltas,"old_delta, new_delta",99,123
+lib\streamlit\ReportThread.py,__init__,"self, report_ctx, target=None, name=None",14,16
+lib\streamlit\ReportThread.py,add_report_ctx,thread,19,39
+lib\streamlit\ReportThread.py,get_report_ctx,,42,54
+lib\streamlit\ScriptRunner.py,__init__,self,58,62
+lib\streamlit\ScriptRunner.py,enqueue,"self, event, data=None",64,120
+lib\streamlit\ScriptRunner.py,dequeue_nowait,self,122,131
+lib\streamlit\ScriptRunner.py,dequeue,"self, wait=True",133,157
+lib\streamlit\ScriptRunner.py,__init__,"self, report",161,212
+lib\streamlit\ScriptRunner.py,widgets,self,214,223
+lib\streamlit\ScriptRunner.py,start_run_loop,"self, ctx",225,246
+lib\streamlit\ScriptRunner.py,_set_state,"self, new_state",248,254
+lib\streamlit\ScriptRunner.py,is_running,self,256,257
+lib\streamlit\ScriptRunner.py,is_shutdown,self,259,260
+lib\streamlit\ScriptRunner.py,request_rerun,"self, argv=None, widget_state=None",262,282
+lib\streamlit\ScriptRunner.py,request_stop,self,284,288
+lib\streamlit\ScriptRunner.py,request_shutdown,self,290,294
+lib\streamlit\ScriptRunner.py,maybe_handle_execution_control_request,self,296,325
+lib\streamlit\ScriptRunner.py,_on_source_file_changed,self,327,333
+lib\streamlit\ScriptRunner.py,_loop,self,335,361
+lib\streamlit\ScriptRunner.py,_install_tracer,self,363,372
+lib\streamlit\ScriptRunner.py,trace_calls,"frame, event, arg",366,368
+lib\streamlit\ScriptRunner.py,_set_execing_flag,self,374,387
+lib\streamlit\ScriptRunner.py,_run_script,"self, rerun_data",389,513
+lib\streamlit\ScriptRunner.py,__init__,"self, rerun_data",528,536
+lib\streamlit\ScriptRunner.py,_clean_problem_modules,,539,554
+lib\streamlit\ScriptRunner.py,_new_module,name,557,565
+lib\streamlit\ScriptRunner.py,_index_if,"collection, pred",568,576
+lib\streamlit\ScriptRunner.py,__init__,"self, report",584,586
+lib\streamlit\ScriptRunner.py,__enter__,self,588,591
+lib\streamlit\ScriptRunner.py,__exit__,"self, type, value, traceback",593,601
+lib\streamlit\ScriptRunner.py,_log_if_error,fn,606,610
+lib\streamlit\Server.py,get_current,cls,58,64
+lib\streamlit\Server.py,__init__,"self, script_path, script_argv, on_server_start_callback",66,94
+lib\streamlit\Server.py,get_debug,self,96,98
+lib\streamlit\Server.py,_get_routes,self,101,123
+lib\streamlit\Server.py,_set_state,"self, new_state",125,127
+lib\streamlit\Server.py,is_ready_for_browser_connection,self,129,134
+lib\streamlit\Server.py,browser_is_connected,self,137,139
+lib\streamlit\Server.py,loop_coroutine,self,141,194
+lib\streamlit\Server.py,stop,self,196,198
+lib\streamlit\Server.py,add_preheated_report_context,self,200,207
+lib\streamlit\Server.py,_add_browser_connection,"self, ws",209,242
+lib\streamlit\Server.py,_remove_browser_connection,"self, ws",244,251
+lib\streamlit\Server.py,initialize,"self, server",257,258
+lib\streamlit\Server.py,set_default_headers,self,260,267
+lib\streamlit\Server.py,get,self,271,278
+lib\streamlit\Server.py,get,self,282,289
+lib\streamlit\Server.py,get,self,293,299
+lib\streamlit\Server.py,initialize,"self, server",305,306
+lib\streamlit\Server.py,check_origin,"self, origin",308,310
+lib\streamlit\Server.py,open,self,312,313
+lib\streamlit\Server.py,on_close,self,315,316
+lib\streamlit\Server.py,on_message,"self, payload",318,354
+lib\streamlit\Server.py,_set_tornado_log_levels,,357,363
+lib\streamlit\Server.py,_serialize,msg,366,373
+lib\streamlit\Server.py,_convert_msg_to_exception_msg,"msg, e",376,383
+lib\streamlit\Server.py,_is_url_from_allowed_origins,url,386,439
+lib\streamlit\Server.py,_get_server_address_if_manually_set,,442,444
+lib\streamlit\Server.py,_get_s3_url_host_if_manually_set,,447,449
+lib\streamlit\util.py,_decode_ascii,string,49,51
+lib\streamlit\util.py,streamlit_read,"path, binary=False",54,76
+lib\streamlit\util.py,streamlit_write,"path, binary=False",79,106
+lib\streamlit\util.py,escape_markdown,raw_string,109,130
+lib\streamlit\util.py,get_static_dir,,133,136
+lib\streamlit\util.py,memoize,func,139,147
+lib\streamlit\util.py,wrapped_func,,142,146
+lib\streamlit\util.py,_make_blocking_http_get,"url, timeout='5'",150,154
+lib\streamlit\util.py,get_external_ip,,160,183
+lib\streamlit\util.py,get_internal_ip,,189,215
+lib\streamlit\util.py,open_browser,url,218,256
+lib\streamlit\util.py,is_type,"obj, fqn_type_pattern",259,286
+lib\streamlit\util.py,is_pex,,293,301
+lib\streamlit\util.py,is_altair_chart,obj,304,306
+lib\streamlit\util.py,is_keras_model,obj,309,315
+lib\streamlit\util.py,is_plotly_chart,obj,318,323
+lib\streamlit\util.py,is_graphviz_chart,obj,327,331
+lib\streamlit\util.py,_is_plotly_obj,obj,335,338
+lib\streamlit\util.py,_is_list_of_plotly_objs,obj,341,346
+lib\streamlit\util.py,_is_probably_plotly_dict,obj,349,366
+lib\streamlit\util.py,is_repl,,369,383
+lib\streamlit\util.py,is_function,x,389,391
+lib\streamlit\util.py,get_streamlit_file_path,*filepath,394,410
+lib\streamlit\util.py,print_url,"title, url",413,416
+lib\streamlit\util.py,get_hostname,url,419,427
+lib\streamlit\widgets.py,reset_widget_triggers,widget_states,10,28
+lib\streamlit\widgets.py,coalesce_widget_states,"old_states, new_states",31,74
+lib\streamlit\widgets.py,__init__,self,78,80
+lib\streamlit\widgets.py,get_widget_value,"self, id",82,105
+lib\streamlit\widgets.py,set_state,"self, widget_states",107,118
+lib\streamlit\widgets.py,set_item,"self, key, value",120,121
+lib\streamlit\widgets.py,dump,self,123,124
+lib\streamlit\__init__.py,_set_log_level,,85,87
+lib\streamlit\__init__.py,_with_dg,method,96,102
+lib\streamlit\__init__.py,wrapped_method,"*args, **kwargs",97,101
+lib\streamlit\__init__.py,write,*args,184,322
+lib\streamlit\__init__.py,flush_buffer,,274,277
+lib\streamlit\__init__.py,show,*args,325,383
+lib\streamlit\__init__.py,spinner,text='In progress...',386,425
+lib\streamlit\__init__.py,set_message,,412,415
+lib\streamlit\__init__.py,echo,,431,467
+lib\streamlit\__init__.py,_transparent_write,*args,470,475
+lib\streamlit\__init__.py,_maybe_print_repl_warning,,484,510
+lib\streamlit\elements\altair.py,marshall,"vega_lite_chart, altair_chart",12,39
+lib\streamlit\elements\altair.py,id_transform,data,22,27
+lib\streamlit\elements\bokeh_chart.py,marshall,"proto, figure",9,15
+lib\streamlit\elements\Chart.py,__init__,"self, data, type, width='0', height='0', **kwargs",71,104
+lib\streamlit\elements\Chart.py,append_component,"self, component_name, props",106,117
+lib\streamlit\elements\Chart.py,marshall,"self, proto_chart",119,135
+lib\streamlit\elements\Chart.py,_append_missing_data_components,self,137,174
+lib\streamlit\elements\Chart.py,_materializeValue,"self, value, currCycle",176,204
+lib\streamlit\elements\Chart.py,register_component,"component_name, implemented",207,240
+lib\streamlit\elements\Chart.py,append_component_method,"self, **props",233,238
+lib\streamlit\elements\Chart.py,register_type_builder,chart_type,249,267
+lib\streamlit\elements\Chart.py,type_builder,"data, **kwargs",263,265
+lib\streamlit\elements\data_frame_proto.py,marshall_data_frame,"data, proto_df",18,42
+lib\streamlit\elements\data_frame_proto.py,convert_anything_to_df,df,45,70
+lib\streamlit\elements\data_frame_proto.py,_is_pandas_styler,obj,73,74
+lib\streamlit\elements\data_frame_proto.py,_marshall_styles,"proto_table_style, df, styler=None",77,115
+lib\streamlit\elements\data_frame_proto.py,_get_css_styles,translated_style,118,156
+lib\streamlit\elements\data_frame_proto.py,_get_custom_display_values,"df, translated_style",159,220
+lib\streamlit\elements\data_frame_proto.py,has_custom_display_value,cell,179,188
+lib\streamlit\elements\data_frame_proto.py,_marshall_index,"pandas_index, proto_index",223,267
+lib\streamlit\elements\data_frame_proto.py,_marshall_table,"pandas_table, proto_table",270,277
+lib\streamlit\elements\data_frame_proto.py,_marshall_any_array,"pandas_array, proto_array",280,318
+lib\streamlit\elements\data_frame_proto.py,add_rows,"delta1, delta2, name=None",321,355
+lib\streamlit\elements\data_frame_proto.py,_concat_index,"index1, index2",358,391
+lib\streamlit\elements\data_frame_proto.py,_concat_any_array,"any_array_1, any_array_2",394,408
+lib\streamlit\elements\data_frame_proto.py,_concat_cell_style_array,"style_array1, style_array2",411,418
+lib\streamlit\elements\data_frame_proto.py,_get_data_frame,"delta, name=None",421,458
+lib\streamlit\elements\data_frame_proto.py,_get_or_create_dataset,"datasets_proto, name",461,469
+lib\streamlit\elements\data_frame_proto.py,_index_len,index,472,491
+lib\streamlit\elements\data_frame_proto.py,_any_array_len,any_array,494,498
+lib\streamlit\elements\deck_gl.py,marshall,"proto, data=None, spec=None, **kwargs",20,66
+lib\streamlit\elements\doc_string.py,marshall,"proto, obj",33,64
+lib\streamlit\elements\doc_string.py,_get_signature,f,67,110
+lib\streamlit\elements\doc_string.py,_unwrap_decorated_func,f,113,142
+lib\streamlit\elements\exception_proto.py,marshall,"exception_proto, exception, exception_traceback=None",10,55
+lib\streamlit\elements\exception_proto.py,get_stack_trace,"exception, exception_traceback=None",59,84
+lib\streamlit\elements\generic_binary_proto.py,marshall,"proto, data",13,41
+lib\streamlit\elements\graphviz_chart.py,marshall,"proto, figure_or_dot, width, height",13,29
+lib\streamlit\elements\image_proto.py,_PIL_to_png_bytes,image,18,21
+lib\streamlit\elements\image_proto.py,_BytesIO_to_bytes,data,24,26
+lib\streamlit\elements\image_proto.py,_np_array_to_png_bytes,array,29,33
+lib\streamlit\elements\image_proto.py,_4d_to_list_3d,array,36,37
+lib\streamlit\elements\image_proto.py,_verify_np_shape,array,39,51
+lib\streamlit\elements\image_proto.py,_bytes_to_b64,"data, width",54,66
+lib\streamlit\elements\image_proto.py,_clip_image,"image, clamp",69,86
+lib\streamlit\elements\image_proto.py,marshall_images,"image, caption, width, proto_imgs, clamp",89,169
+lib\streamlit\elements\plotly_chart.py,marshall,"proto, figure_or_data, width, height, sharing, **kwargs",36,77
+lib\streamlit\elements\plotly_chart.py,_plot_to_url_or_load_cached_url,"*args, **kwargs",80,87
+lib\streamlit\elements\plotly_chart.py,_get_embed_url,url,90,99
+lib\streamlit\elements\pyplot.py,marshall,"new_element_proto, fig=None, **kwargs",20,47
+lib\streamlit\elements\vega_lite.py,marshall,"proto, data=None, spec=None, width='0', **kwargs",19,85
+lib\streamlit\elements\lib\ChartComponent.py,__init__,"self, type, props",12,24
+lib\streamlit\elements\lib\ChartComponent.py,type,self,26,28
+lib\streamlit\elements\lib\ChartComponent.py,marshall,"self, proto_component",30,35
+lib\streamlit\elements\lib\dicttools.py,_unflatten_single_dict,flat_dict,11,63
+lib\streamlit\elements\lib\dicttools.py,unflatten,"flat_dict, encodings=None",66,125
+lib\streamlit\elements\lib\dict_builder.py,__init__,"self, spec, shallow=False, column=None",21,24
+lib\streamlit\elements\lib\dict_builder.py,build,"self, df, spec_override=None, user_params=None, curr_col_index='0'",26,69
+lib\streamlit\elements\lib\dict_builder.py,_get_merged_spec_item,"df, user_params, spec_value, curr_out_value, curr_col_index",73,116
+lib\streamlit\elements\lib\dict_builder.py,_handle_for_each_spec,"df, user_params, for_each_column, curr_out_value, curr_col_index",119,124
+lib\streamlit\elements\lib\dict_builder.py,_handle_dict_builder_spec,"df, user_params, spec_value, curr_out_value, curr_col_index",127,144
+lib\streamlit\elements\lib\dict_builder.py,_handle_list_spec,"df, user_params, spec_value, curr_out_value, curr_col_index",147,166
+lib\streamlit\elements\lib\dict_builder.py,__init__,"self, name, default_value=None",170,172
+lib\streamlit\elements\lib\dict_builder.py,build,"self, param_override_dict",174,178
+lib\streamlit\elements\lib\dict_builder.py,__init__,"self, content",182,183
+lib\streamlit\elements\lib\dict_builder.py,__init__,"self, *alternatives",187,188
+lib\streamlit\elements\lib\dict_builder.py,__init__,"self, *items",204,205
+lib\streamlit\elements\lib\dict_builder.py,get,"self, index",207,208
+lib\streamlit\elements\lib\dict_builder.py,__init__,self,215,224
+lib\streamlit\elements\lib\dict_builder.py,_get_first_match,"available_names, wanted_names",227,233
+lib\streamlit\elements\lib\dict_builder.py,_guess_column_type,"df, i",237,243
+lib\streamlit\storage\AbstractStorage.py,__init__,self,31,41
+lib\streamlit\storage\AbstractStorage.py,save_report_files,"self, report_id, files, progress_coroutine=None, manifest_save_order=None",43,90
+lib\streamlit\storage\AbstractStorage.py,_save_report_files,"self, report_id, files, progress_coroutine=None, manifest_save_order=None",92,106
+lib\streamlit\storage\AbstractStorage.py,_get_static_dir,,109,123
+lib\streamlit\storage\AbstractStorage.py,_get_static_files,static_dir,126,175
+lib\streamlit\storage\FileStorage.py,__init__,self,26,32
+lib\streamlit\storage\FileStorage.py,_mkdir,self,34,39
+lib\streamlit\storage\FileStorage.py,_save_report_files,"self, report_id, files, progress_coroutine=None, manifest_save_order=None",41,70
+lib\streamlit\storage\FileStorage.py,_recursively_create_folder,path,73,80
+lib\streamlit\storage\S3Storage.py,__init__,self,33,89
+lib\streamlit\storage\S3Storage.py,_get_static_upload_files,self,91,103
+lib\streamlit\storage\S3Storage.py,_bucket_exists,self,105,117
+lib\streamlit\storage\S3Storage.py,_create_bucket,self,119,126
+lib\streamlit\storage\S3Storage.py,_s3_init,self,128,141
+lib\streamlit\storage\S3Storage.py,_s3_key,"self, relative_path, add_prefix=True",143,148
+lib\streamlit\storage\S3Storage.py,_save_report_files,"self, report_id, files, progress_coroutine=None, manifest_save_order=None",150,181
+lib\streamlit\storage\S3Storage.py,_s3_upload_files,"self, files, progress_coroutine",183,205
+lib\streamlit\watcher\EventBasedFileWatcher.py,close_all,,46,51
+lib\streamlit\watcher\EventBasedFileWatcher.py,__init__,"self, file_path, on_file_changed",53,72
+lib\streamlit\watcher\EventBasedFileWatcher.py,close,self,74,77
+lib\streamlit\watcher\EventBasedFileWatcher.py,get_singleton,cls,85,95
+lib\streamlit\watcher\EventBasedFileWatcher.py,__new__,cls,98,102
+lib\streamlit\watcher\EventBasedFileWatcher.py,__init__,self,104,118
+lib\streamlit\watcher\EventBasedFileWatcher.py,watch_file,"self, file_path, callback",120,144
+lib\streamlit\watcher\EventBasedFileWatcher.py,stop_watching_file,"self, file_path, callback",146,173
+lib\streamlit\watcher\EventBasedFileWatcher.py,close,self,175,187
+lib\streamlit\watcher\EventBasedFileWatcher.py,__init__,"self, md5, modification_time",192,195
+lib\streamlit\watcher\EventBasedFileWatcher.py,__init__,self,210,214
+lib\streamlit\watcher\EventBasedFileWatcher.py,add_file_change_listener,"self, file_path, callback",216,234
+lib\streamlit\watcher\EventBasedFileWatcher.py,remove_file_change_listener,"self, file_path, callback",236,252
+lib\streamlit\watcher\EventBasedFileWatcher.py,is_watching_files,self,254,256
+lib\streamlit\watcher\EventBasedFileWatcher.py,handle_file_change_event,"self, event",258,313
+lib\streamlit\watcher\EventBasedFileWatcher.py,on_created,"self, event",315,318
+lib\streamlit\watcher\EventBasedFileWatcher.py,on_modified,"self, event",320,323
+lib\streamlit\watcher\EventBasedFileWatcher.py,on_moved,"self, event",325,328
+lib\streamlit\watcher\LocalSourcesWatcher.py,__init__,"self, report, on_file_changed",33,46
+lib\streamlit\watcher\LocalSourcesWatcher.py,on_file_changed,"self, filepath",49,59
+lib\streamlit\watcher\LocalSourcesWatcher.py,close,self,61,65
+lib\streamlit\watcher\LocalSourcesWatcher.py,_register_watcher,"self, filepath, module_name",67,72
+lib\streamlit\watcher\LocalSourcesWatcher.py,_deregister_watcher,"self, filepath",74,83
+lib\streamlit\watcher\LocalSourcesWatcher.py,update_watched_modules,self,85,154
+lib\streamlit\watcher\LocalSourcesWatcher.py,_file_is_in_folder,"filepath, folderpath",157,160
+lib\streamlit\watcher\PollingFileWatcher.py,close_all,,29,36
+lib\streamlit\watcher\PollingFileWatcher.py,__init__,"self, file_path, on_file_changed",38,57
+lib\streamlit\watcher\PollingFileWatcher.py,_schedule,self,59,64
+lib\streamlit\watcher\PollingFileWatcher.py,task,,60,62
+lib\streamlit\watcher\PollingFileWatcher.py,_check_if_file_changed,self,66,88
+lib\streamlit\watcher\PollingFileWatcher.py,close,self,90,92
+lib\streamlit\watcher\util.py,calc_md5_with_blocking_retries,file_path,25,61
+lib\tests\testutil.py,build_mock_config_get_option,overrides_dict,14,22
+lib\tests\testutil.py,mock_config_get_option,name,17,20
+lib\tests\testutil.py,build_mock_config_is_manually_set,overrides_dict,25,33
+lib\tests\testutil.py,mock_config_is_manually_set,name,28,31
+lib\tests\testutil.py,__init__,"self, delta_generator",38,40
+lib\tests\testutil.py,setUp,"self, override_root=True",44,51
+lib\tests\testutil.py,tearDown,self,53,56
+lib\tests\testutil.py,new_delta_generator,"self, *args, **kwargs",58,71
+lib\tests\testutil.py,enqueue_fn,msg,59,61
+lib\tests\testutil.py,get_message_from_queue,"self, index=(- '1')",73,74
+lib\tests\testutil.py,get_delta_from_queue,"self, index=(- '1')",76,77
+lib\tests\streamlit\add_rows_test.py,setUp,self,24,26
+lib\tests\streamlit\add_rows_test.py,_get_unnamed_data_methods,self,28,35
+lib\tests\streamlit\add_rows_test.py,_get_named_data_methods,self,41,49
+lib\tests\streamlit\add_rows_test.py,test_simple_add_rows,self,55,81
+lib\tests\streamlit\add_rows_test.py,test_simple_add_rows_with_clear_queue,self,83,109
+lib\tests\streamlit\add_rows_test.py,test_named_add_rows,self,111,134
+lib\tests\streamlit\add_rows_test.py,test_named_add_rows_with_clear_queue,self,136,159
+lib\tests\streamlit\add_rows_test.py,test_add_rows_works_when_new_name,self,161,179
+lib\tests\streamlit\add_rows_test.py,test_add_rows_fails_when_wrong_shape,self,181,196
+lib\tests\streamlit\altair_test.py,test_altair_chart,self,24,42
+lib\tests\streamlit\bokeh_test.py,test_figure,self,16,23
+lib\tests\streamlit\bootstrap_test.py,setUp,self,24,26
+lib\tests\streamlit\bootstrap_test.py,tearDown,self,28,30
+lib\tests\streamlit\bootstrap_test.py,test_print_urls_configured,self,32,44
+lib\tests\streamlit\bootstrap_test.py,test_print_urls_remote,"self, mock_get_internal_ip, mock_get_external_ip",46,66
+lib\tests\streamlit\bootstrap_test.py,test_print_urls_local,"self, mock_get_internal_ip",68,84
+lib\tests\streamlit\button_test.py,test_button,self,12,18
+lib\tests\streamlit\checkbox_test.py,test_just_label,self,18,24
+lib\tests\streamlit\checkbox_test.py,test_value_types,"self, arg_value, proto_value",26,40
+lib\tests\streamlit\compatibility_test.py,test_print_function,self,12,18
+lib\tests\streamlit\compatibility_test.py,test_builtin_types,self,20,32
+lib\tests\streamlit\ConfigOption_test.py,test_invalid_key,self,11,17
+lib\tests\streamlit\ConfigOption_test.py,test_constructor_default_values,self,19,25
+lib\tests\streamlit\ConfigOption_test.py,test_call,self,27,36
+lib\tests\streamlit\ConfigOption_test.py,someRandomFunction,,31,34
+lib\tests\streamlit\ConfigOption_test.py,test_call_assert,self,38,49
+lib\tests\streamlit\ConfigOption_test.py,someRandomFunction,,43,45
+lib\tests\streamlit\ConfigOption_test.py,test_value,self,51,62
+lib\tests\streamlit\ConfigOption_test.py,someRandomFunction,,57,60
+lib\tests\streamlit\ConfigOption_test.py,test_set_value,self,64,73
+lib\tests\streamlit\ConfigOption_test.py,test_deprecated_expired,self,75,88
+lib\tests\streamlit\ConfigOption_test.py,test_deprecated_unexpired,self,90,102
+lib\tests\streamlit\ConfigOption_test.py,test_replaced_by_unexpired,self,104,117
+lib\tests\streamlit\ConfigOption_test.py,config_getter,key,105,107
+lib\tests\streamlit\ConfigOption_test.py,test_replaced_by_expired,self,119,132
+lib\tests\streamlit\ConfigOption_test.py,config_getter,key,120,122
+lib\tests\streamlit\config_test.py,setUp,self,24,28
+lib\tests\streamlit\config_test.py,tearDown,self,30,37
+lib\tests\streamlit\config_test.py,test_simple_config_option,self,39,54
+lib\tests\streamlit\config_test.py,test_complex_config_option,self,56,72
+lib\tests\streamlit\config_test.py,config_option,,59,62
+lib\tests\streamlit\config_test.py,test_complex_config_option_must_have_doc_strings,self,74,82
+lib\tests\streamlit\config_test.py,no_doc_string,,80,82
+lib\tests\streamlit\config_test.py,test_invalid_config_name,self,84,87
+lib\tests\streamlit\config_test.py,test_invalid_config_section,self,89,92
+lib\tests\streamlit\config_test.py,test_cannot_overwrite_config_section,self,94,98
+lib\tests\streamlit\config_test.py,test_cannot_overwrite_config_key,self,100,104
+lib\tests\streamlit\config_test.py,test_param_names_are_camel_case,self,106,113
+lib\tests\streamlit\config_test.py,test_get_set_and_complex_config_options,self,115,164
+lib\tests\streamlit\config_test.py,_test_dependent_option,,129,132
+lib\tests\streamlit\config_test.py,test_parsing_toml,self,166,188
+lib\tests\streamlit\config_test.py,test_parsing_env_vars_in_toml,self,190,214
+lib\tests\streamlit\config_test.py,test_delete_option,self,216,223
+lib\tests\streamlit\config_test.py,test_sections_order,self,225,236
+lib\tests\streamlit\config_test.py,test_config_option_keys,self,238,270
+lib\tests\streamlit\config_test.py,test_clean_paragraphs,self,272,290
+lib\tests\streamlit\config_test.py,test_clean,self,292,294
+lib\tests\streamlit\config_test.py,test_check_conflicts_2,self,296,303
+lib\tests\streamlit\config_test.py,test_check_conflicts_2a,self,305,312
+lib\tests\streamlit\config_test.py,test_check_conflicts_3,self,315,320
+lib\tests\streamlit\config_test.py,test_check_conflicts_4,self,322,329
+lib\tests\streamlit\config_test.py,test_check_conflicts_5,self,331,336
+lib\tests\streamlit\config_test.py,test_maybe_convert_to_number,self,338,341
+lib\tests\streamlit\config_test.py,test_maybe_read_env_variable,self,343,346
+lib\tests\streamlit\config_test.py,test_update_config_with_toml,self,348,355
+lib\tests\streamlit\config_test.py,test_set_option,self,357,363
+lib\tests\streamlit\config_test.py,test_is_manually_set,self,365,370
+lib\tests\streamlit\config_test.py,test_is_unset,self,372,377
+lib\tests\streamlit\config_test.py,test_get_where_defined,self,379,385
+lib\tests\streamlit\config_test.py,test_get_options,self,387,393
+lib\tests\streamlit\config_test.py,test_s3,self,395,419
+lib\tests\streamlit\config_test.py,test_browser_server_port,self,421,423
+lib\tests\streamlit\config_test.py,test_server_headless_via_liveSave,self,425,427
+lib\tests\streamlit\config_test.py,test_server_headless_via_atom_plugin,self,429,435
+lib\tests\streamlit\config_test.py,test_server_headless,self,437,448
+lib\tests\streamlit\config_test.py,test_global_dev_mode,self,450,452
+lib\tests\streamlit\config_test.py,test_global_log_level_debug,self,454,456
+lib\tests\streamlit\config_test.py,test_global_log_level,self,458,460
+lib\tests\streamlit\credentials_test.py,setUp,self,28,30
+lib\tests\streamlit\credentials_test.py,test_Credentials_constructor,self,32,39
+lib\tests\streamlit\credentials_test.py,test_Credentials_get_current,self,41,48
+lib\tests\streamlit\credentials_test.py,test_Credentials_constructor_runs_twice,self,50,59
+lib\tests\streamlit\credentials_test.py,test_Credentials_load,self,61,74
+lib\tests\streamlit\credentials_test.py,test_Credentials_load_twice,self,76,84
+lib\tests\streamlit\credentials_test.py,test_Credentials_load_file_not_found,self,86,97
+lib\tests\streamlit\credentials_test.py,test_Credentials_load_permission_denied,self,99,113
+lib\tests\streamlit\credentials_test.py,test_Credentials_check_activated_already_loaded,self,118,125
+lib\tests\streamlit\credentials_test.py,test_Credentials_check_activated_false,self,127,134
+lib\tests\streamlit\credentials_test.py,test_Credentials_check_activated_error,self,136,144
+lib\tests\streamlit\credentials_test.py,test_Credentials_save,self,146,169
+lib\tests\streamlit\credentials_test.py,test_Credentials_activate_already_activated,self,171,181
+lib\tests\streamlit\credentials_test.py,test_Credentials_activate_already_activated_not_valid,self,183,194
+lib\tests\streamlit\credentials_test.py,test_Credentials_activate,self,196,210
+lib\tests\streamlit\credentials_test.py,test_Credentials_reset,self,212,218
+lib\tests\streamlit\credentials_test.py,test_Credentials_reset_error,self,220,228
+lib\tests\streamlit\credentials_test.py,test__generate_code,self,234,237
+lib\tests\streamlit\credentials_test.py,test__verify_code,self,239,242
+lib\tests\streamlit\credentials_test.py,test__verify_code_wrong_code,self,244,247
+lib\tests\streamlit\credentials_test.py,test__verify_code_bad_code,self,249,252
+lib\tests\streamlit\credentials_test.py,test_get_data,self,254,262
+lib\tests\streamlit\dataframe_coercion_test.py,test_dict_of_lists,self,19,26
+lib\tests\streamlit\dataframe_coercion_test.py,test_empty_numpy_array,self,28,35
+lib\tests\streamlit\dataframe_coercion_test.py,test_styler,self,37,43
+lib\tests\streamlit\dataframe_styling_test.py,setUp,self,26,33
+lib\tests\streamlit\dataframe_styling_test.py,enqueue,msg,29,31
+lib\tests\streamlit\dataframe_styling_test.py,test_unstyled_has_no_style,"self, element, proto",35,55
+lib\tests\streamlit\dataframe_styling_test.py,test_format,"self, element, proto",57,72
+lib\tests\streamlit\dataframe_styling_test.py,test_css_styling,"self, element, proto",74,95
+lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows,"self, element, proto",97,119
+lib\tests\streamlit\dataframe_styling_test.py,test_add_styled_rows_to_unstyled_rows,"self, element, proto",121,141
+lib\tests\streamlit\dataframe_styling_test.py,test_add_unstyled_rows_to_styled_rows,"self, element, proto",143,165
+lib\tests\streamlit\dataframe_styling_test.py,_get_element,self,167,169
+lib\tests\streamlit\dataframe_styling_test.py,_assert_column_display_values,"self, proto_df, col, display_values",171,176
+lib\tests\streamlit\dataframe_styling_test.py,_assert_column_css_styles,"self, proto_df, col, expected_styles",178,186
+lib\tests\streamlit\dataframe_styling_test.py,get_cell_style,"proto_df, col, row",189,200
+lib\tests\streamlit\dataframe_styling_test.py,make_cssstyle_proto,"property, value",203,208
+lib\tests\streamlit\dataframe_styling_test.py,proto_to_str,proto,211,213
+lib\tests\streamlit\dataframe_styling_test.py,css_s,"property, value",216,218
+lib\tests\streamlit\data_frame_proto_test.py,_css_style,"prop, value",23,27
+lib\tests\streamlit\data_frame_proto_test.py,test_marshall_data_frame,self,33,36
+lib\tests\streamlit\data_frame_proto_test.py,test_convert_anything_to_df,self,38,47
+lib\tests\streamlit\data_frame_proto_test.py,test_is_pandas_styler,self,49,55
+lib\tests\streamlit\data_frame_proto_test.py,test_marshall_styles,self,57,68
+lib\tests\streamlit\data_frame_proto_test.py,test_get_css_styles,self,70,80
+lib\tests\streamlit\data_frame_proto_test.py,test_get_custom_display_values,self,82,93
+lib\tests\streamlit\data_frame_proto_test.py,test_marshall_index,self,95,167
+lib\tests\streamlit\data_frame_proto_test.py,test_marshall_table,self,169,176
+lib\tests\streamlit\data_frame_proto_test.py,test_marshall_any_array,self,178,258
+lib\tests\streamlit\data_frame_proto_test.py,test_add_rows,self,260,335
+lib\tests\streamlit\data_frame_proto_test.py,test_concat_index,self,337,451
+lib\tests\streamlit\data_frame_proto_test.py,test_concat_any_array,self,453,483
+lib\tests\streamlit\data_frame_proto_test.py,test_concat_cell_style_array,self,485,511
+lib\tests\streamlit\data_frame_proto_test.py,test_get_data_frame,self,513,608
+lib\tests\streamlit\data_frame_proto_test.py,test_get_or_create_dataset,self,610,629
+lib\tests\streamlit\data_frame_proto_test.py,test_index_len,self,632,674
+lib\tests\streamlit\data_frame_proto_test.py,test_any_array_len,self,676,692
+lib\tests\streamlit\date_input_test.py,test_just_label,self,15,23
+lib\tests\streamlit\date_input_test.py,test_value_types,"self, arg_value, proto_value",25,35
+lib\tests\streamlit\deck_gl_test.py,test_no_args,self,25,31
+lib\tests\streamlit\deck_gl_test.py,test_basic,self,33,40
+lib\tests\streamlit\delta_generator_test.py,__init__,self,37,39
+lib\tests\streamlit\delta_generator_test.py,fake_text,"self, element, body",41,44
+lib\tests\streamlit\delta_generator_test.py,fake_dataframe,"self, element, arg0, data=None",46,53
+lib\tests\streamlit\delta_generator_test.py,fake_text_raise_exception,"self, element, body",55,57
+lib\tests\streamlit\delta_generator_test.py,exception,"self, e",59,66
+lib\tests\streamlit\delta_generator_test.py,_enqueue_new_element_delta,"self, marshall_element",68,77
+lib\tests\streamlit\delta_generator_test.py,__init__,self,81,82
+lib\tests\streamlit\delta_generator_test.py,__call__,"self, data",84,85
+lib\tests\streamlit\delta_generator_test.py,test_wraps_with_cleaned_sig,self,91,108
+lib\tests\streamlit\delta_generator_test.py,test_clean_up_sig,self,110,127
+lib\tests\streamlit\delta_generator_test.py,test_with_element,self,129,137
+lib\tests\streamlit\delta_generator_test.py,test_with_element_exception,self,139,146
+lib\tests\streamlit\delta_generator_test.py,set_widget_requires_args,self,148,151
+lib\tests\streamlit\delta_generator_test.py,setUp,self,157,158
+lib\tests\streamlit\delta_generator_test.py,test_constructor,self,160,164
+lib\tests\streamlit\delta_generator_test.py,test_constructor_with_id,self,166,170
+lib\tests\streamlit\delta_generator_test.py,test_enqueue_new_element_delta_null,self,172,176
+lib\tests\streamlit\delta_generator_test.py,test_enqueue_new_element_delta,self,178,196
+lib\tests\streamlit\delta_generator_test.py,marshall_element,element,188,189
+lib\tests\streamlit\delta_generator_test.py,test_enqueue_new_element_delta_same_id,self,198,216
+lib\tests\streamlit\delta_generator_test.py,marshall_element,element,208,209
+lib\tests\streamlit\delta_generator_test.py,test_generic_text,self,222,252
+lib\tests\streamlit\delta_generator_test.py,test_json_object,self,254,267
+lib\tests\streamlit\delta_generator_test.py,test_json_string,self,269,278
+lib\tests\streamlit\delta_generator_test.py,test_json_unserializable,self,280,292
+lib\tests\streamlit\delta_generator_test.py,test_markdown,self,294,302
+lib\tests\streamlit\delta_generator_test.py,test_code,self,304,315
+lib\tests\streamlit\delta_generator_test.py,test_empty,self,317,322
+lib\tests\streamlit\delta_generator_test.py,test_progress_int,self,328,335
+lib\tests\streamlit\delta_generator_test.py,test_progress_float,self,337,344
+lib\tests\streamlit\delta_generator_test.py,test_progress_bad_values,self,346,358
+lib\tests\streamlit\delta_generator_test.py,test_line_chart,self,364,373
+lib\tests\streamlit\delta_generator_test.py,test_area_chart,self,375,384
+lib\tests\streamlit\delta_generator_test.py,test_bar_chart,self,386,395
+lib\tests\streamlit\delta_generator_test.py,test_image_from_url,self,401,420
+lib\tests\streamlit\delta_generator_test.py,test_unequal_images_and_captions_error,self,422,433
+lib\tests\streamlit\graphviz_test.py,test_spec,self,14,24
+lib\tests\streamlit\graphviz_test.py,test_dot,self,26,36
+lib\tests\streamlit\help_test.py,test_basic_func_with_doc,self,21,37
+lib\tests\streamlit\help_test.py,my_func,"some_param, another_param='123'",23,25
+lib\tests\streamlit\help_test.py,test_basic_func_without_doc,self,39,54
+lib\tests\streamlit\help_test.py,my_func,"some_param, another_param='123'",41,42
+lib\tests\streamlit\help_test.py,test_deltagenerator_func,self,56,70
+lib\tests\streamlit\help_test.py,test_unwrapped_deltagenerator_func,self,72,84
+lib\tests\streamlit\help_test.py,test_st_cache,self,86,98
+lib\tests\streamlit\help_test.py,test_st_write,self,100,112
+lib\tests\streamlit\help_test.py,test_builtin_func,self,114,127
+lib\tests\streamlit\help_test.py,test_builtin_obj,self,129,141
+lib\tests\streamlit\image_proto_test.py,test_PIL_to_png_bytes,self,9,11
+lib\tests\streamlit\image_proto_test.py,test_BytesIO_to_bytes,self,13,15
+lib\tests\streamlit\image_proto_test.py,test_np_array_to_png_bytes,self,17,19
+lib\tests\streamlit\image_proto_test.py,test_verify_np_shape,self,21,29
+lib\tests\streamlit\image_proto_test.py,test_bytes_to_b64,self,31,37
+lib\tests\streamlit\image_proto_test.py,test_clip_image,self,39,48
+lib\tests\streamlit\image_proto_test.py,test_marshall_images,self,50,65
+lib\tests\streamlit\keras_test.py,test_model,self,18,30
+lib\tests\streamlit\logger_test.py,test_set_log_level_by_constant,self,30,41
+lib\tests\streamlit\logger_test.py,test_set_log_level_error,self,43,48
+lib\tests\streamlit\logger_test.py,test_init_tornado_logs,self,65,72
+lib\tests\streamlit\metrics_test.py,setUp,self,18,20
+lib\tests\streamlit\metrics_test.py,tearDown,self,22,27
+lib\tests\streamlit\metrics_test.py,test_constructor,self,29,32
+lib\tests\streamlit\metrics_test.py,test_get_current,self,34,37
+lib\tests\streamlit\metrics_test.py,test_not_singleton,self,39,46
+lib\tests\streamlit\metrics_test.py,test_enabled_metrics_no_prometheus,self,48,62
+lib\tests\streamlit\metrics_test.py,test_enabled_metrics,self,64,95
+lib\tests\streamlit\metrics_test.py,test_disabled_metrics_check_value,self,97,132
+lib\tests\streamlit\metrics_test.py,test_disabled_metrics,self,134,153
+lib\tests\streamlit\radio_test.py,test_just_label,self,16,22
+lib\tests\streamlit\radio_test.py,test_valid_value,self,24,30
+lib\tests\streamlit\radio_test.py,test_option_types,"self, options, proto_options",32,45
+lib\tests\streamlit\radio_test.py,test_cast_options_to_string,self,47,57
+lib\tests\streamlit\radio_test.py,test_invalid_value,self,59,64
+lib\tests\streamlit\radio_test.py,test_invalid_value_range,self,66,71
+lib\tests\streamlit\ReportQueue_test.py,test_simple_enqueue,self,37,47
+lib\tests\streamlit\ReportQueue_test.py,test_enqueue_two,self,49,62
+lib\tests\streamlit\ReportQueue_test.py,test_enqueue_three,self,64,82
+lib\tests\streamlit\ReportQueue_test.py,test_replace_element,self,84,100
+lib\tests\streamlit\ReportQueue_test.py,test_simple_add_rows,self,102,126
+lib\tests\streamlit\ReportQueue_test.py,test_add_rows_rerun,self,128,154
+lib\tests\streamlit\ScriptRunner_test.py,_create_widget,"id, states",16,18
+lib\tests\streamlit\ScriptRunner_test.py,test_dequeue,self,22,55
+lib\tests\streamlit\ScriptRunner_test.py,get_event,,32,34
+lib\tests\streamlit\ScriptRunner_test.py,set_event,value,36,38
+lib\tests\streamlit\ScriptRunner_test.py,do_dequeue,,40,42
+lib\tests\streamlit\ScriptRunner_test.py,test_rerun_data_coalescing,self,57,140
+lib\tests\streamlit\selectbox_test.py,test_just_label,self,16,22
+lib\tests\streamlit\selectbox_test.py,test_valid_value,self,24,30
+lib\tests\streamlit\selectbox_test.py,test_option_types,"self, options, proto_options",32,45
+lib\tests\streamlit\selectbox_test.py,test_cast_options_to_string,self,47,57
+lib\tests\streamlit\selectbox_test.py,test_invalid_value,self,59,64
+lib\tests\streamlit\selectbox_test.py,test_invalid_value_range,self,66,71
+lib\tests\streamlit\Server_test.py,test_is_url_from_allowed_origins_allowed_domains,self,8,12
+lib\tests\streamlit\Server_test.py,test_is_url_from_allowed_origins_CORS_off,self,14,17
+lib\tests\streamlit\Server_test.py,test_is_url_from_allowed_origins_s3_bucket,self,19,23
+lib\tests\streamlit\Server_test.py,test_is_url_from_allowed_origins_browser_serverAddress,self,25,31
+lib\tests\streamlit\Server_test.py,test_is_url_from_allowed_origins_s3_url,self,33,39
+lib\tests\streamlit\show_test.py,test_st_show,self,14,37
+lib\tests\streamlit\show_test.py,test_get_method_args_from_code,"self, name, input, args, expected",39,48
+lib\tests\streamlit\show_test.py,test_failed_get_args_from_code,"self, name, input, args, expected",50,59
+lib\tests\streamlit\show_test.py,test_extract_args,"self, name, input, expected",61,70
+lib\tests\streamlit\slider_test.py,test_just_label,self,13,19
+lib\tests\streamlit\slider_test.py,test_value_types,"self, arg_value, proto_value",21,35
+lib\tests\streamlit\streamlit_test.py,get_version,,24,33
+lib\tests\streamlit\streamlit_test.py,test_streamlit_version,self,39,41
+lib\tests\streamlit\streamlit_test.py,test_get_option,self,43,46
+lib\tests\streamlit\streamlit_test.py,test_set_option,self,48,56
+lib\tests\streamlit\streamlit_test.py,test_st_altair_chart,self,66,85
+lib\tests\streamlit\streamlit_test.py,test_st_area_chart,self,87,102
+lib\tests\streamlit\streamlit_test.py,test_st_audio,self,104,116
+lib\tests\streamlit\streamlit_test.py,test_st_balloons,self,118,126
+lib\tests\streamlit\streamlit_test.py,test_st_bar_chart,self,128,143
+lib\tests\streamlit\streamlit_test.py,test_st_code,self,145,157
+lib\tests\streamlit\streamlit_test.py,test_st_dataframe,self,159,168
+lib\tests\streamlit\streamlit_test.py,test_st_deck_gl_chart,self,170,206
+lib\tests\streamlit\streamlit_test.py,test_st_empty,self,209,214
+lib\tests\streamlit\streamlit_test.py,test_st_error,self,216,222
+lib\tests\streamlit\streamlit_test.py,test_st_exception,self,224,239
+lib\tests\streamlit\streamlit_test.py,test_st_header,self,242,248
+lib\tests\streamlit\streamlit_test.py,test_st_help,self,250,263
+lib\tests\streamlit\streamlit_test.py,test_st_image_PIL_image,self,265,281
+lib\tests\streamlit\streamlit_test.py,test_st_image_PIL_array,self,283,308
+lib\tests\streamlit\streamlit_test.py,test_st_image_with_single_url,self,310,322
+lib\tests\streamlit\streamlit_test.py,test_st_image_with_list_of_urls,self,324,340
+lib\tests\streamlit\streamlit_test.py,test_st_image_bad_width,self,342,353
+lib\tests\streamlit\streamlit_test.py,test_st_info,self,355,361
+lib\tests\streamlit\streamlit_test.py,test_st_json,self,363,369
+lib\tests\streamlit\streamlit_test.py,test_st_line_chart,self,371,386
+lib\tests\streamlit\streamlit_test.py,test_st_map,self,388,400
+lib\tests\streamlit\streamlit_test.py,test_st_map_missing_column,self,402,414
+lib\tests\streamlit\streamlit_test.py,test_st_map_nan_exception,self,416,426
+lib\tests\streamlit\streamlit_test.py,test_st_markdown,self,428,434
+lib\tests\streamlit\streamlit_test.py,test_st_progress,self,436,441
+lib\tests\streamlit\streamlit_test.py,test_st_pyplot,self,443,476
+lib\tests\streamlit\streamlit_test.py,test_st_plotly_chart_simple,self,478,495
+lib\tests\streamlit\streamlit_test.py,test_st_plotly_chart_dimensions,self,497,514
+lib\tests\streamlit\streamlit_test.py,test_st_plotly_chart_mpl,self,516,536
+lib\tests\streamlit\streamlit_test.py,test_st_plotly_chart_sharing,self,538,557
+lib\tests\streamlit\streamlit_test.py,test_st_subheader,self,559,565
+lib\tests\streamlit\streamlit_test.py,test_st_success,self,567,573
+lib\tests\streamlit\streamlit_test.py,test_st_table,self,575,584
+lib\tests\streamlit\streamlit_test.py,test_st_text,self,586,592
+lib\tests\streamlit\streamlit_test.py,test_st_title,self,594,600
+lib\tests\streamlit\streamlit_test.py,test_st_vega_lite_chart,self,602,604
+lib\tests\streamlit\streamlit_test.py,test_st_video,self,606,618
+lib\tests\streamlit\streamlit_test.py,test_st_warning,self,620,626
+lib\tests\streamlit\streamlit_test.py,test_st_native_chart,self,628,644
+lib\tests\streamlit\streamlit_test.py,test_st_text_exception,self,646,667
+lib\tests\streamlit\streamlit_test.py,test_string,self,681,691
+lib\tests\streamlit\streamlit_test.py,test_dataframe,self,693,710
+lib\tests\streamlit\streamlit_test.py,test_exception_type,self,712,717
+lib\tests\streamlit\streamlit_test.py,test_help,self,719,731
+lib\tests\streamlit\streamlit_test.py,test_altair_chart,"self, is_type",733,744
+lib\tests\streamlit\streamlit_test.py,test_pyplot,"self, is_type",746,757
+lib\tests\streamlit\streamlit_test.py,test_plotly,self,759,766
+lib\tests\streamlit\streamlit_test.py,test_dict,self,768,773
+lib\tests\streamlit\streamlit_test.py,test_dict_and_string,"self, mock_json, mock_markdown",775,790
+lib\tests\streamlit\streamlit_test.py,test_default_object,self,792,801
+lib\tests\streamlit\streamlit_test.py,__str__,self,795,796
+lib\tests\streamlit\streamlit_test.py,test_exception,self,803,809
+lib\tests\streamlit\streamlit_test.py,test_spinner,self,811,818
+lib\tests\streamlit\text_area_test.py,test_just_label,self,14,20
+lib\tests\streamlit\text_area_test.py,test_value_types,self,22,32
+lib\tests\streamlit\text_input_test.py,test_just_label,self,14,20
+lib\tests\streamlit\text_input_test.py,test_value_types,self,22,32
+lib\tests\streamlit\time_input_test.py,test_just_label,self,15,23
+lib\tests\streamlit\time_input_test.py,test_value_types,"self, arg_value, proto_value",25,35
+lib\tests\streamlit\util_test.py,setUp,self,29,31
+lib\tests\streamlit\util_test.py,tearDown,self,33,34
+lib\tests\streamlit\util_test.py,test_memoization,self,36,41
+lib\tests\streamlit\util_test.py,test_decode_ascii,self,43,45
+lib\tests\streamlit\util_test.py,test_streamlit_read,self,47,53
+lib\tests\streamlit\util_test.py,test_streamlit_read_binary,self,55,61
+lib\tests\streamlit\util_test.py,test_streamlit_read_zero_bytes,self,63,71
+lib\tests\streamlit\util_test.py,test_streamlit_write,self,73,79
+lib\tests\streamlit\util_test.py,test_streamlit_write_exception,self,81,96
+lib\tests\streamlit\util_test.py,test_list_is_plotly_chart,self,98,110
+lib\tests\streamlit\util_test.py,test_data_dict_is_plotly_chart,self,112,126
+lib\tests\streamlit\util_test.py,test_dirty_data_dict_is_not_plotly_chart,self,128,143
+lib\tests\streamlit\util_test.py,test_layout_dict_is_not_plotly_chart,self,145,155
+lib\tests\streamlit\util_test.py,test_fig_is_plotly_chart,self,157,170
+lib\tests\streamlit\vega_lite_test.py,test_no_args,self,37,42
+lib\tests\streamlit\vega_lite_test.py,test_none_args,self,44,49
+lib\tests\streamlit\vega_lite_test.py,test_spec_but_no_data,self,51,59
+lib\tests\streamlit\vega_lite_test.py,test_spec_in_arg1,self,61,69
+lib\tests\streamlit\vega_lite_test.py,test_data_in_spec,self,71,82
+lib\tests\streamlit\vega_lite_test.py,test_data_values_in_spec,self,84,97
+lib\tests\streamlit\vega_lite_test.py,test_datasets_in_spec,self,99,112
+lib\tests\streamlit\vega_lite_test.py,test_datasets_correctly_in_spec,self,114,132
+lib\tests\streamlit\vega_lite_test.py,test_dict_unflatten,self,136,154
+lib\tests\streamlit\vega_lite_test.py,test_add_rows,self,159,175
+lib\tests\streamlit\vega_lite_test.py,test_no_args_add_rows,self,177,187
+lib\tests\streamlit\vega_lite_test.py,test_width_zero,self,189,198
+lib\tests\streamlit\vega_lite_test.py,test_width_positive,self,202,213
+lib\tests\streamlit\vega_lite_test.py,test_width_neg_one,self,218,223
+lib\tests\streamlit\vega_lite_test.py,test_width_inside_spec,self,225,231
+lib\tests\streamlit\vega_lite_test.py,test_autosize_set,self,233,240
+lib\tests\streamlit\vega_lite_test.py,merge_dicts,"x, y",244,247
+lib\tests\streamlit\widgets_test.py,_create_widget,"id, states",13,15
+lib\tests\streamlit\widgets_test.py,test_values,self,19,35
+lib\tests\streamlit\widgets_test.py,test_reset_triggers,self,37,51
+lib\tests\streamlit\widgets_test.py,test_coalesce_widget_states,self,53,80
+lib\tests\streamlit\storage\S3Storage_test.py,tearDown,self,15,16
+lib\tests\streamlit\storage\S3Storage_test.py,test_public_url,"self, creds, static_files",18,30
+lib\tests\streamlit\storage\S3Storage_test.py,test_private_url,"self, static_files",32,44
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,setUp,self,18,26
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,tearDown,self,28,35
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,test_file_watch_and_callback,self,37,62
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,test_callback_not_called_if_same_mtime,self,64,90
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,test_callback_not_called_if_same_md5,self,92,119
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,test_callback_not_called_if_wrong_event_type,self,121,147
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,test_multiple_watchers_same_file,self,149,203
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,modify_mock_file,,155,164
+lib\tests\streamlit\watcher\EventBasedFileWatcher_test.py,__init__,"self, mtime",208,209
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_file_in_folder,self,18,20
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_file_not_in_folder,self,22,24
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_rel_file_not_in_folder,self,26,28
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,setUp,self,49,65
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_just_script,"self, fob",67,83
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_script_and_2_modules_at_once,"self, fob",85,115
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_script_and_2_modules_in_series,"self, fob",117,149
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_misbehaved_module,"self, fob",151,161
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,test_blacklist,"self, fob",163,183
+lib\tests\streamlit\watcher\LocalSourcesWatcher_test.py,sort_args_list,args_list,186,187
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,setUp,self,21,27
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,tearDown,self,29,32
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,test_file_watch_and_callback,self,34,58
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,cb,x,38,39
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,test_callback_not_called_if_same_mtime,self,60,88
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,cb,x,64,65
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,test_callback_not_called_if_same_md5,self,90,119
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,cb,x,94,95
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,test_multiple_watchers_same_file,self,121,177
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,modify_mock_file,,126,131
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,sleep,,133,137
+lib\tests\streamlit\watcher\PollingFileWatcher_test.py,__init__,"self, mtime",182,183
+lib\tests\streamlit\watcher\util_test.py,test_md5_calculation_succeeds_with_bytes_input,self,8,12
+lib\tests\streamlit\watcher\util_test.py,test_md5_calculation_opens_file_with_rb,self,14,21
+lib\tests\streamlit\watcher\test_data\misbehaved_module.py,__spec__,self,7,9
+scripts\create_streamlit_cloudformation_template.py,__init__,self,37,60
+scripts\create_streamlit_cloudformation_template.py,add_ami_mappings,self,62,89
+scripts\create_streamlit_cloudformation_template.py,setup_parameters,self,92,158
+scripts\create_streamlit_cloudformation_template.py,setup_self_terminating_stack,self,163,231
+scripts\create_streamlit_cloudformation_template.py,setup_security_group,self,235,257
+scripts\create_streamlit_cloudformation_template.py,add_ec2_instance,self,261,379
+scripts\create_streamlit_cloudformation_template.py,to_json,self,385,387
+scripts\create_streamlit_cloudformation_template.py,to_yaml,self,389,391
+scripts\create_streamlit_cloudformation_template.py,create,self,393,402
+scripts\create_streamlit_cloudformation_template.py,write_file,self,404,429
+scripts\create_streamlit_cloudformation_template.py,write_parameters,self,431,466
+scripts\create_streamlit_cloudformation_template.py,main,,469,473
+scripts\run_all_examples.py,run_commands,"section_header, commands, skip_last_input=False, comment=None",24,58
+scripts\run_all_examples.py,main,,61,94
+scripts\update_version.py,verify_pep440,version,61,74
+scripts\update_version.py,update_files,"data, python=True",77,101
+scripts\update_version.py,main,,104,108
+user-tests\example_test.py,test_external_ip_works,,6,15

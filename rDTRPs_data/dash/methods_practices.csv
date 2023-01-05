@@ -1,0 +1,82 @@
+dash,file,method,params,startlineno,endlineno,type,lineno
+dash,dash\dash.py,_walk_assets_directory,self,1331,1364,assignment,1351
+dash,dash\dash.py,_walk_assets_directory,self,1331,1364,reference,1353
+dash,dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324,assignment,303
+dash,dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324,assignment,312
+dash,dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324,reference,321
+dash,dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324,getattr,262
+dash,dash\development\_r_components_generation.py,generate_js_metadata,"pkg_data, project_shortname",243,324,getattr,262
+dash,dash\development\_r_components_generation.py,make_namespace_exports,"components, prefix",676,736,assignment,701
+dash,dash\dash.py,__init__,"self, name=None, server=True, assets_folder='assets', assets_url_path='assets', assets_ignore='', assets_external_path=None, include_assets_files=True, url_base_pathname=None, requests_pathname_prefix=None, routes_pathname_prefix=None, serve_locally=True, compress=True, meta_tags=None, index_string=_default_index, external_scripts=None, external_stylesheets=None, suppress_callback_exceptions=None, show_undo_redo=False, plugins=None, **obsolete",207,338,reference,268
+dash,dash\dash.py,__init__,"self, name=None, server=True, assets_folder='assets', assets_url_path='assets', assets_ignore='', assets_external_path=None, include_assets_files=True, url_base_pathname=None, requests_pathname_prefix=None, routes_pathname_prefix=None, serve_locally=True, compress=True, meta_tags=None, index_string=_default_index, external_scripts=None, external_stylesheets=None, suppress_callback_exceptions=None, show_undo_redo=False, plugins=None, **obsolete",207,338,reference,269
+dash,dash\dash.py,__init__,"self, name=None, server=True, assets_folder='assets', assets_url_path='assets', assets_ignore='', assets_external_path=None, include_assets_files=True, url_base_pathname=None, requests_pathname_prefix=None, routes_pathname_prefix=None, serve_locally=True, compress=True, meta_tags=None, index_string=_default_index, external_scripts=None, external_stylesheets=None, suppress_callback_exceptions=None, show_undo_redo=False, plugins=None, **obsolete",207,338,getattr,246
+dash,dash\dash.py,_validate_callback,"self, output, inputs, state",805,972,reference,822
+dash,dash\dash.py,_validate_callback,"self, output, inputs, state",805,972,getattr,850
+dash,dash\dash.py,_validate_callback,"self, output, inputs, state",805,972,getattr,852
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,101
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,104
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,111
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,113
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,115
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,118
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,118
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,124
+dash,dash\_configs.py,pathname_configs,"url_base_pathname=None, routes_pathname_prefix=None, requests_pathname_prefix=None",55,124,reference,124
+dash,dash\development\_py_components_generation.py,create_prop_docstring,"prop_name, type_object, required, description, default, indent_num, is_flow_type=False",398,468,reference,447
+dash,dash\development\_py_components_generation.py,create_prop_docstring,"prop_name, type_object, required, description, default, indent_num, is_flow_type=False",398,468,reference,454
+dash,dash\development\_py_components_generation.py,create_prop_docstring,"prop_name, type_object, required, description, default, indent_num, is_flow_type=False",398,468,reference,462
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,121
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,121
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,121
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,121
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,122
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,122
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,122
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,122
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,125
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,125
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,126
+dash,tests\integration\dash_assets\test_dash_assets.py,test_dada002_external_files_init,dash_duo,65,135,reference,126
+dash,tests\unit\test_configs.py,test_pathname_prefix_environ_requests,empty_environ,88,91,reference,91
+dash,tests\unit\test_configs.py,test_pathname_prefix_from_environ_app_name,empty_environ,75,79,reference,78
+dash,tests\unit\test_configs.py,test_pathname_prefix_from_environ_app_name,empty_environ,75,79,reference,79
+dash,dash\dash.py,index,"self, *args, **kwargs",685,732,getattr,691
+dash,dash\dash.py,_validate_callback_output,"output_value, output",974,1076,getattr,982
+dash,dash\dash.py,_validate_callback_output,"output_value, output",974,1076,getattr,1039
+dash,dash\dash.py,_validate_callback_output,"output_value, output",974,1076,getattr,1051
+dash,dash\dash.py,_validate_layout,self,1292,1312,getattr,1302
+dash,dash\dash.py,_validate_layout,self,1292,1312,getattr,1307
+dash,dash\_callback_context.py,has_context,func,7,18,getattr,15
+dash,dash\_callback_context.py,inputs,self,23,26,getattr,26
+dash,dash\_callback_context.py,states,self,28,31,getattr,31
+dash,dash\_callback_context.py,triggered,self,33,36,getattr,36
+dash,dash\_callback_context.py,response,self,38,41,getattr,41
+dash,dash\_utils.py,patch_collections_abc,member,58,59,getattr,59
+dash,dash\_watch.py,watch,"folders, on_change, pattern=None, sleep_time='0.1'",7,36,delsubscript,31
+dash,dash\development\base_component.py,get_resources,"cls, resource_name",17,25,getattr,23
+dash,dash\development\base_component.py,to_plotly_json,self,99,123,getattr,102
+dash,dash\development\base_component.py,to_plotly_json,self,99,123,getattr,109
+dash,dash\development\base_component.py,_get_set_or_delete,"self, id, operation, new_item=None",127,189,getattr,133
+dash,dash\development\base_component.py,_get_set_or_delete,"self, id, operation, new_item=None",127,189,getattr,162
+dash,dash\development\base_component.py,_get_set_or_delete,"self, id, operation, new_item=None",127,189,delsubscript,169
+dash,dash\development\base_component.py,_traverse_with_paths,self,220,253,getattr,222
+dash,dash\development\base_component.py,_traverse_with_paths,self,220,253,getattr,226
+dash,dash\development\base_component.py,_traverse_with_paths,self,220,253,getattr,245
+dash,dash\development\base_component.py,__iter__,self,255,260,getattr,258
+dash,dash\development\base_component.py,__len__,self,262,282,getattr,269
+dash,dash\development\base_component.py,__repr__,self,284,304,getattr,287
+dash,dash\development\base_component.py,__repr__,self,284,304,getattr,298
+dash,dash\development\base_component.py,__repr__,self,284,304,getattr,302
+dash,dash\development\build_process.py,bundles,"self, build=None",110,155,getattr,123
+dash,dash\testing\browser.py,get_webdriver,self,314,318,getattr,316
+dash,dash\testing\browser.py,_get_wd_options,self,320,330,getattr,324
+dash,dash\testing\plugin.py,pytest_addhooks,pluginmanager,65,74,getattr,71
+dash,tests\integration\test_integration.py,test_inin022_no_callback_context,,979,982,getattr,982
+dash,tests\integration\utils.py,wait_for,"condition_function, get_message=(lambda : ''), *args, **kwargs",20,60,delsubscript,50
+dash,tests\unit\test_import.py,test_dash_import_is_correct,,5,14,getattr,13
+dash,tests\unit\dash\test_dash_import.py,test_dddi001_dash_import_is_correct,,5,14,getattr,13
+dash,tests\unit\development\test_base_component.py,test_del_item_with_nested_children_with_mixed_strings_and_without_lists,,112,119,delsubscript,117
+dash,tests\unit\development\test_base_component.py,test_del_item_from_list,,265,279,delsubscript,271
+dash,tests\unit\development\test_base_component.py,test_del_item_from_list,,265,279,delsubscript,276
+dash,tests\unit\development\test_base_component.py,test_del_item_from_class,,282,290,delsubscript,286
+dash,tests\unit\development\test_generate_class.py,test_arguments_become_attributes,component_class,63,67,getattr,67

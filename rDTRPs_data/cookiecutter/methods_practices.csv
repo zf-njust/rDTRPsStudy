@@ -1,0 +1,11 @@
+cookiecutter,file,method,params,startlineno,endlineno,type,lineno
+cookiecutter,cookiecutter\prompt.py,prompt_for_config,"context, no_input=False",190,242,reference,213
+cookiecutter,cookiecutter\prompt.py,prompt_for_config,"context, no_input=False",190,242,reference,219
+cookiecutter,cookiecutter\prompt.py,prompt_for_config,"context, no_input=False",190,242,reference,221
+cookiecutter,cookiecutter\prompt.py,prompt_for_config,"context, no_input=False",190,242,reference,235
+cookiecutter,cookiecutter\prompt.py,prompt_for_config,"context, no_input=False",190,242,reference,237
+cookiecutter,cookiecutter\prompt.py,read_user_variable,"var_name, default_value",19,26,reference,26
+cookiecutter,cookiecutter\prompt.py,read_user_dict,"var_name, default_value",111,134,reference,119
+cookiecutter,cookiecutter\prompt.py,read_user_dict,"var_name, default_value",111,134,reference,133
+cookiecutter,tests\test_prompt.py,test_convert_to_str,"mocker, raw_var, rendered_var",19,43,reference,35
+cookiecutter,cookiecutter\log.py,configure_logger,"stream_level='DEBUG', debug_file=None",22,54,delsubscript,34

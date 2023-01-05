@@ -1,0 +1,201 @@
+beets,file,method,params,startlineno,endlineno,type,lineno
+beets,beets\util\__init__.py,link,"path, dest, replace=False",492,514,assignment,512
+beets,beets\util\__init__.py,command_output,"cmd, shell=False",797,834,assignment,817
+beets,beets\dbcore\db.py,store,"self, fields=None",483,531,assignment,501
+beets,beets\ui\__init__.py,add_album_option,"self, flags=('-a', '--album')",828,838,assignment,838
+beets,beets\ui\commands.py,completion_script,commands,1723,1799,assignment,1730
+beets,beets\util\bluelet.py,run,root_coro,218,380,assignment,352
+beets,beets\util\bluelet.py,run,root_coro,218,380,assignment,358
+beets,beets\util\bluelet.py,run,root_coro,218,380,delsubscript,243
+beets,beets\util\bluelet.py,run,root_coro,218,380,delsubscript,248
+beets,beets\util\bluelet.py,run,root_coro,218,380,delsubscript,254
+beets,beets\util\bluelet.py,run,root_coro,218,380,delsubscript,274
+beets,beets\util\bluelet.py,run,root_coro,218,380,delsubscript,363
+beets,beetsplug\absubmit.py,__init__,self,55,92,assignment,92
+beets,beetsplug\absubmit.py,_get_analysis,"self, item",114,150,assignment,138
+beets,beetsplug\absubmit.py,_get_analysis,"self, item",114,150,argument,139
+beets,beetsplug\spotify.py,album_for_id,"self, album_id",147,210,assignment,176
+beets,beetsplug\spotify.py,album_for_id,"self, album_id",147,210,reference,204
+beets,beetsplug\types.py,_types,self,34,52,assignment,43
+beets,beetsplug\types.py,_types,self,34,52,assignment,45
+beets,beetsplug\types.py,_types,self,34,52,assignment,47
+beets,beetsplug\lastgenre\__init__.py,setup,self,118,157,argument,136
+beets,beetsplug\lastgenre\__init__.py,setup,self,118,157,assignment,155
+beets,beets\library.py,__init__,"self, field, pattern, fast=True, case_sensitive=None",61,84,reference,75
+beets,beets\library.py,__init__,"self, field, pattern, fast=True, case_sensitive=None",61,84,reference,78
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,906
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,907
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,908
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,909
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,910
+beets,beets\mediafile.py,set,"self, mutagen_file, value",904,911,reference,911
+beets,beets\mediafile.py,set,"self, mutagen_file, value",665,670,reference,669
+beets,beets\mediafile.py,set,"self, mutagen_file, value",665,670,reference,670
+beets,beets\mediafile.py,store,"self, mutagen_file, value",509,512,reference,512
+beets,beets\mediafile.py,_get_date_tuple,"self, mediafile",1291,1321,reference,1311
+beets,beets\mediafile.py,_get_date_tuple,"self, mediafile",1291,1321,reference,1312
+beets,beets\mediafile.py,_get_date_tuple,"self, mediafile",1291,1321,reference,1316
+beets,beets\mediafile.py,__set__,"self, mediafile, value",1197,1201,reference,1201
+beets,beets\plugins.py,__init__,"self, name=None",73,90,reference,77
+beets,beets\plugins.py,__init__,"self, name=None",73,90,reference,87
+beets,beets\plugins.py,__init__,"self, name=None",73,90,reference,76
+beets,beets\plugins.py,__init__,"self, plugin",53,54,reference,54
+beets,beets\autotag\hooks.py,__init__,"self, album, album_id, artist, artist_id, tracks, asin=None, albumtype=None, va=False, year=None, month=None, day=None, label=None, mediums=None, artist_sort=None, releasegroup_id=None, catalognum=None, script=None, language=None, country=None, albumstatus=None, media=None, albumdisambig=None, releasegroupdisambig=None, artist_credit=None, original_year=None, original_month=None, original_day=None, data_source=None, data_url=None",78,114,reference,86
+beets,beets\autotag\hooks.py,__init__,"self, album, album_id, artist, artist_id, tracks, asin=None, albumtype=None, va=False, year=None, month=None, day=None, label=None, mediums=None, artist_sort=None, releasegroup_id=None, catalognum=None, script=None, language=None, country=None, albumstatus=None, media=None, albumdisambig=None, releasegroupdisambig=None, artist_credit=None, original_year=None, original_month=None, original_day=None, data_source=None, data_url=None",78,114,reference,87
+beets,beets\autotag\match.py,tag_album,"items, search_artist=None, search_album=None, search_ids=[]",391,467,reference,454
+beets,beets\autotag\match.py,tag_album,"items, search_artist=None, search_album=None, search_ids=[]",391,467,reference,460
+beets,beets\autotag\mb.py,_flatten_artist_credit,credit,132,174,reference,140
+beets,beets\autotag\mb.py,album_url,albumid,75,76,reference,76
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,360
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,361
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,368
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,369
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,388
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,389
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,392
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,397
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,398
+beets,beets\autotag\mb.py,album_info,release,265,406,reference,403
+beets,beets\dbcore\query.py,parse,"cls, string",579,632,reference,624
+beets,beets\dbcore\query.py,parse,"cls, string",579,632,reference,628
+beets,beets\dbcore\query.py,parse,"cls, string",579,632,reference,632
+beets,beets\dbcore\types.py,format,"self, value",58,70,reference,67
+beets,beets\dbcore\types.py,format,"self, value",58,70,reference,68
+beets,beets\dbcore\types.py,format,"self, value",58,70,reference,70
+beets,beets\ui\commands.py,dist_string,dist,184,195,reference,190
+beets,beets\ui\commands.py,dist_string,dist,184,195,reference,192
+beets,beets\ui\commands.py,dist_string,dist,184,195,reference,194
+beets,beets\ui\commands.py,dist_string,dist,184,195,reference,195
+beets,beets\ui\commands.py,choose_candidate,"candidates, singleton, rec, cur_artist=None, cur_album=None, item=None, itemcount=None, choices=[]",510,638,reference,585
+beets,beets\ui\commands.py,choose_candidate,"candidates, singleton, rec, cur_artist=None, cur_album=None, item=None, itemcount=None, choices=[]",510,638,reference,586
+beets,beets\ui\commands.py,show_change,"cur_artist, cur_album, match",214,399,reference,336
+beets,beets\ui\commands.py,show_change,"cur_artist, cur_album, match",214,399,reference,337
+beets,beets\ui\commands.py,show_change,"cur_artist, cur_album, match",214,399,reference,347
+beets,beets\ui\commands.py,show_change,"cur_artist, cur_album, match",214,399,reference,348
+beets,beets\ui\commands.py,resolve_duplicate,"self, task, found_duplicates",779,820,reference,808
+beets,beets\ui\commands.py,resolve_duplicate,"self, task, found_duplicates",779,820,reference,811
+beets,beets\ui\commands.py,resolve_duplicate,"self, task, found_duplicates",779,820,reference,814
+beets,beets\ui\commands.py,resolve_duplicate,"self, task, found_duplicates",779,820,reference,817
+beets,beets\ui\__init__.py,_colorize,"color, text",514,525,reference,525
+beets,beets\ui\__init__.py,input_options,"options, require=False, prompt=None, fallback_prompt=None, numrange=None, default=None, max_width='72'",221,378,reference,285
+beets,beets\ui\__init__.py,term_width,,640,660,reference,657
+beets,beets\util\artresizer.py,__init__,self,174,191,reference,186
+beets,beetsplug\fetchart.py,batch_fetch_art,"self, lib, albums, force, quiet",936,958,reference,945
+beets,beetsplug\fetchart.py,batch_fetch_art,"self, lib, albums, force, quiet",936,958,reference,958
+beets,beetsplug\lyrics.py,is_lyrics,"self, text, artist=None",506,533,reference,531
+beets,beetsplug\lyrics.py,is_lyrics,"self, text, artist=None",506,533,reference,532
+beets,beetsplug\lyrics.py,is_lyrics,"self, text, artist=None",506,533,reference,533
+beets,beetsplug\permissions.py,check_permissions,"path, permission",29,33,reference,33
+beets,beetsplug\replaygain.py,handle_album,"self, album, write, force=False",929,978,reference,953
+beets,beetsplug\replaygain.py,handle_track,"self, item, write, force=False",980,1016,reference,994
+beets,beetsplug\replaygain.py,handle_track,"self, item, write, force=False",980,1016,reference,996
+beets,beetsplug\bpd\__init__.py,send,"self, lines",741,754,reference,749
+beets,extra\release.py,bump_version,version,71,132,reference,122
+beets,extra\release.py,bump_version,version,71,132,reference,128
+beets,extra\release.py,bump,version,135,140,reference,135
+beets,test\test_filefilter.py,__create_import_dir,"self, count",54,100,reference,78
+beets,test\test_filefilter.py,__create_import_dir,"self, count",54,100,reference,88
+beets,test\test_filefilter.py,__create_import_dir,"self, count",54,100,reference,98
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,129
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,130
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,134
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,134
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,137
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,138
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,141
+beets,test\test_importer.py,_make_album_match,"self, artist, album, tracks, distance='0', missing='0'",121,143,reference,142
+beets,test\test_importer.py,_make_track_match,"self, artist, album, number",112,118,reference,116
+beets,test\test_info.py,test_collect_item_and_path,self,75,93,reference,80
+beets,test\test_info.py,test_collect_item_and_path,self,75,93,reference,81
+beets,test\test_mb.py,test_parse_release_with_year,self,136,145,reference,139
+beets,test\test_mb.py,test_parse_release_with_year,self,136,145,reference,140
+beets,test\test_mb.py,test_parse_releasegroupid,self,264,267,reference,267
+beets,test\test_mediafile_edge.py,test_round_trip,self,306,310,reference,308
+beets,test\test_mediafile_edge.py,test_safe_cast_float_with_dot_only,self,141,143,reference,143
+beets,test\test_mediafile_edge.py,test_safe_cast_float_with_no_numbers,self,137,139,reference,139
+beets,test\test_mediafile_edge.py,test_safe_cast_float_with_multiple_dots,self,145,147,reference,147
+beets,test\test_mediafile_edge.py,test_safe_cast_special_chars_to_unicode,self,132,135,reference,134
+beets,test\test_mediafile_edge.py,test_safe_cast_special_chars_to_unicode,self,132,135,reference,135
+beets,test\test_player.py,__init__,"self, sock, do_hello=True",149,155,reference,154
+beets,test\test_plugins.py,__create_import_dir,"self, count",189,212,reference,210
+beets,beets\importer.py,progress_reset,toppath,143,146,delsubscript,146
+beets,beets\library.py,read,"self, read_path=None",595,624,getattr,614
+beets,beets\library.py,functions,self,1456,1464,getattr,1463
+beets,beets\mediafile.py,delete,"self, mutagen_file",537,541,delsubscript,541
+beets,beets\mediafile.py,delete,"self, mutagen_file",874,881,delsubscript,881
+beets,beets\mediafile.py,store,"self, mutagen_file, image_data",1026,1032,delsubscript,1029
+beets,beets\mediafile.py,store,"self, mutagen_file, image_data",1026,1032,delsubscript,1031
+beets,beets\mediafile.py,delete,"self, mutagen_file",1148,1155,delsubscript,1153
+beets,beets\plugins.py,load_plugins,names=(),263,290,getattr,281
+beets,beets\plugins.py,types,model_cls,333,347,getattr,338
+beets,beets\plugins.py,named_queries,model_cls,350,357,getattr,355
+beets,beets\random.py,_equal_chance_permutation,"objs, field='albumartist', random_gen=None",34,60,delsubscript,60
+beets,beets\autotag\hooks.py,decode,"self, codec='utf-8'",119,133,getattr,127
+beets,beets\autotag\hooks.py,decode,"self, codec='utf-8'",196,204,getattr,202
+beets,beets\autotag\match.py,_add_candidate,"items, results, info",348,388,getattr,369
+beets,beets\autotag\__init__.py,apply_metadata,"album_info, mapping",62,187,getattr,97
+beets,beets\autotag\__init__.py,apply_metadata,"album_info, mapping",62,187,getattr,177
+beets,beets\autotag\__init__.py,apply_metadata,"album_info, mapping",62,187,getattr,184
+beets,beets\dbcore\db.py,__delitem__,"self, key",131,137,delsubscript,135
+beets,beets\dbcore\db.py,__delitem__,"self, key",131,137,delsubscript,137
+beets,beets\dbcore\db.py,__delitem__,"self, key",392,403,delsubscript,396
+beets,beets\dbcore\db.py,__delattr__,"self, key",475,479,delsubscript,479
+beets,beets\dbcore\query.py,__delitem__,"self, key",445,446,delsubscript,446
+beets,beets\dbcore\queryparse.py,parse_sorted_query,"model_cls, parts, prefixes={}, case_insensitive=True",217,254,delsubscript,240
+beets,beets\ui\commands.py,print_and_modify,"obj, mods, dels",1411,1424,delsubscript,1421
+beets,beets\ui\__init__.py,_store_dict,"option, opt_str, value, parser",780,803,getattr,786
+beets,beets\ui\__init__.py,_store_dict,"option, opt_str, value, parser",780,803,getattr,792
+beets,beets\ui\__init__.py,_configure,options,1156,1190,getattr,1162
+beets,beets\ui\__init__.py,_configure,options,1156,1190,delattribute,1164
+beets,beets\util\confit.py,clear,self,479,484,delsubscript,483
+beets,beets\util\confit.py,add,"self, value",955,960,delsubscript,960
+beets,beets\util\confit.py,set,"self, value",962,967,delsubscript,967
+beets,beets\util\__init__.py,lazy_property,func,1037,1057,getattr,1051
+beets,beetsplug\chroma.py,submit_items,"log, userkey, items, chunksize='64'",267,311,delsubscript,279
+beets,beetsplug\discogs.py,album_for_id,"self, album_id",188,218,getattr,207
+beets,beetsplug\duplicates.py,_checksum,"self, item, prog",195,220,getattr,202
+beets,beetsplug\duplicates.py,_group_by,"self, objs, keys, strict",222,245,getattr,231
+beets,beetsplug\duplicates.py,_order,"self, objs, tiebreak=None",247,273,getattr,259
+beets,beetsplug\duplicates.py,_order,"self, objs, tiebreak=None",247,273,getattr,269
+beets,beetsplug\duplicates.py,_merge_items,"self, objs",275,294,getattr,284
+beets,beetsplug\duplicates.py,_merge_items,"self, objs",275,294,getattr,285
+beets,beetsplug\info.py,tag_data_emitter,path,45,58,getattr,52
+beets,beetsplug\missing.py,_missing,"self, album",215,228,getattr,223
+beets,beetsplug\mpdstats.py,get,"self, command, retries=RETRIES",87,108,getattr,92
+beets,beetsplug\mpdstats.py,run,self,295,310,getattr,303
+beets,beetsplug\scrub.py,_mutagen_classes,,76,85,getattr,84
+beets,beetsplug\scrub.py,_scrub,"self, path",87,112,delsubscript,108
+beets,beetsplug\bpd\__init__.py,cmd_delete,"self, conn, index",505,519,delsubscript,509
+beets,beetsplug\bpd\__init__.py,delegate,"self, prefix, target, extra_args='0'",961,994,getattr,971
+beets,beetsplug\metasync\__init__.py,load_meta_sources,,50,60,getattr,58
+beets,beetsplug\web\__init__.py,_rep,"obj, expand=False",34,65,delsubscript,45
+beets,beetsplug\web\__init__.py,_rep,"obj, expand=False",34,65,delsubscript,62
+beets,extra\release.py,get_latest_changelog,,143,162,delsubscript,155
+beets,test\helper.py,teardown_beets,self,207,213,delsubscript,210
+beets,test\test_config_command.py,setUp,self,22,41,delsubscript,26
+beets,test\test_dbcore.py,test_delete_flexattr,self,263,268,delsubscript,267
+beets,test\test_dbcore.py,test_delete_flexattr_via_dot,self,270,275,delattribute,274
+beets,test\test_dbcore.py,test_delete_flexattr_persists,self,277,288,delsubscript,284
+beets,test\test_dbcore.py,test_delete_non_existent_attribute,self,290,293,delsubscript,293
+beets,test\test_dbcore.py,test_delete_fixed_attribute,self,295,306,delsubscript,305
+beets,test\test_dbcore.py,test_load_deleted_flex_field,self,323,335,delsubscript,331
+beets,test\test_dbcore.py,test_computed_field,self,349,353,delattribute,353
+beets,test\test_dbcore.py,test_delete_internal_field,self,361,365,delattribute,363
+beets,test\test_logging.py,tearDown,self,84,90,delattribute,87
+beets,test\test_mb.py,test_missing_language,self,317,321,delsubscript,319
+beets,test\test_mediafile.py,test_delete_art,self,80,92,delattribute,88
+beets,test\test_mediafile.py,test_delete_image_structures,self,154,162,delattribute,158
+beets,test\test_mediafile.py,test_read_audio_properties,self,433,440,getattr,437
+beets,test\test_mediafile.py,test_read_audio_properties,self,433,440,getattr,440
+beets,test\test_mediafile.py,test_read_empty,self,446,449,getattr,449
+beets,test\test_mediafile.py,test_delete_tag,self,591,603,getattr,596
+beets,test\test_mediafile.py,test_delete_tag,self,591,603,getattr,603
+beets,test\test_mediafile.py,assertTags,"self, mediafile, tags",647,659,getattr,651
+beets,test\test_mediafile_edge.py,test_bitrate_with_zero_length,self,266,268,delattribute,267
+beets,test\test_plugins.py,test_listener_params,"self, mock_find_plugins",346,410,getattr,355
+beets,test\test_ui.py,test_print_without_locale,self,658,669,delsubscript,661
+beets,test\test_ui.py,test_print_with_invalid_locale,self,671,689,delsubscript,685
+beets,test\test_ui.py,test_print_with_invalid_locale,self,671,689,delsubscript,689
+beets,test\test_ui.py,setUp,self,702,737,delsubscript,707
+beets,test\test_ui.py,tearDown,self,739,748,delsubscript,745
+beets,test\_common.py,tearDown,self,183,193,delsubscript,187

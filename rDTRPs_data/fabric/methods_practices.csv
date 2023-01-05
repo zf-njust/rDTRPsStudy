@@ -1,0 +1,17 @@
+fabric,file,method,params,startlineno,endlineno,type,lineno
+fabric,fabric\tunnels.py,_run,self,48,109,argument,59
+fabric,tests\connection.py,merges_sources,"self, client, ssh, invoke, kwarg, expected",787,878,assignment,859
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,401
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,403
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,405
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,408
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,411
+fabric,fabric\connection.py,__init__,"self, host, user=None, port=None, config=None, gateway=None, forward_agent=None, connect_timeout=None, connect_kwargs=None, inline_ssh_env=None",216,465,reference,416
+fabric,tests\connection.py,_forward_local,"self, kwargs, Client, mocket, select",1062,1128,reference,1070
+fabric,tests\connection.py,_forward_local,"self, kwargs, Client, mocket, select",1062,1128,reference,1109
+fabric,fabric\config.py,clone,"self, *args, **kwargs",195,219,getattr,214
+fabric,fabric\connection.py,open,self,585,635,delsubscript,632
+fabric,fabric\executor.py,expand_calls,"self, calls, apply_hosts=True",50,99,getattr,70
+fabric,fabric\transfer.py,put,"self, local, remote=None, preserve_mode=True",147,282,getattr,201
+fabric,tests\init.py,version_and_version_info,self,8,10,getattr,10
+fabric,tests\init.py,version_and_version_info,self,8,10,getattr,10

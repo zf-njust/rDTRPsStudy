@@ -1,0 +1,464 @@
+file,method,params,startlineno,endlineno
+examples\extract_features.py,__init__,"self, unique_id, text_a, text_b",42,45
+examples\extract_features.py,__init__,"self, unique_id, tokens, input_ids, input_mask, input_type_ids",51,56
+examples\extract_features.py,convert_examples_to_features,"examples, seq_length, tokenizer",59,147
+examples\extract_features.py,_truncate_seq_pair,"tokens_a, tokens_b, max_length",150,164
+examples\extract_features.py,read_examples,input_file,167,188
+examples\extract_features.py,main,,191,293
+examples\run_classifier.py,__init__,"self, guid, text_a, text_b=None, label=None",48,63
+examples\run_classifier.py,__init__,"self, input_ids, input_mask, segment_ids, label_id",69,73
+examples\run_classifier.py,get_train_examples,"self, data_dir",79,81
+examples\run_classifier.py,get_dev_examples,"self, data_dir",83,85
+examples\run_classifier.py,get_labels,self,87,89
+examples\run_classifier.py,_read_tsv,"cls, input_file, quotechar=None",91,101
+examples\run_classifier.py,get_train_examples,"self, data_dir",107,111
+examples\run_classifier.py,get_dev_examples,"self, data_dir",113,116
+examples\run_classifier.py,get_labels,self,118,120
+examples\run_classifier.py,_create_examples,"self, lines, set_type",122,134
+examples\run_classifier.py,get_train_examples,"self, data_dir",140,143
+examples\run_classifier.py,get_dev_examples,"self, data_dir",145,149
+examples\run_classifier.py,get_labels,self,151,153
+examples\run_classifier.py,_create_examples,"self, lines, set_type",155,167
+examples\run_classifier.py,get_train_examples,"self, data_dir",173,176
+examples\run_classifier.py,get_dev_examples,"self, data_dir",178,181
+examples\run_classifier.py,get_labels,self,183,185
+examples\run_classifier.py,_create_examples,"self, lines, set_type",187,196
+examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278
+examples\run_classifier.py,_truncate_seq_pair,"tokens_a, tokens_b, max_length",281,295
+examples\run_classifier.py,accuracy,"out, labels",297,299
+examples\run_classifier.py,main,,301,634
+examples\run_gpt2.py,top_k_logits,"logits, k",18,23
+examples\run_gpt2.py,sample_sequence,"model, length, start_token=None, batch_size=None, context=None, temperature='1', top_k='0', device='cuda', sample=True",25,46
+examples\run_gpt2.py,run_model,,48,102
+examples\run_gpt2_generate_unconditional_samples.py,top_k_logits,"logits, k",18,23
+examples\run_gpt2_generate_unconditional_samples.py,sample_sequence,"model, length, start_token=None, batch_size=None, context=None, temperature='1', top_k='0', device='cuda'",25,43
+examples\run_gpt2_generate_unconditional_samples.py,sample_model,,45,85
+examples\run_lm_finetuning.py,__init__,"self, corpus_path, tokenizer, seq_len, encoding='utf-8', corpus_lines=None, on_memory=True",46,109
+examples\run_lm_finetuning.py,__len__,self,111,113
+examples\run_lm_finetuning.py,__getitem__,"self, item",115,142
+examples\run_lm_finetuning.py,random_sent,"self, index",144,160
+examples\run_lm_finetuning.py,get_corpus_line,"self, item",162,197
+examples\run_lm_finetuning.py,get_random_line,self,199,220
+examples\run_lm_finetuning.py,get_next_line,self,222,234
+examples\run_lm_finetuning.py,__init__,"self, guid, tokens_a, tokens_b=None, is_next=None, lm_labels=None",240,256
+examples\run_lm_finetuning.py,__init__,"self, input_ids, input_mask, segment_ids, is_next, lm_label_ids",262,267
+examples\run_lm_finetuning.py,random_word,"tokens, tokenizer",270,306
+examples\run_lm_finetuning.py,convert_example_to_features,"example, max_seq_length, tokenizer",309,400
+examples\run_lm_finetuning.py,main,,403,619
+examples\run_lm_finetuning.py,_truncate_seq_pair,"tokens_a, tokens_b, max_length",622,636
+examples\run_lm_finetuning.py,accuracy,"out, labels",639,641
+examples\run_openai_gpt.py,accuracy,"out, labels",43,45
+examples\run_openai_gpt.py,load_rocstories_dataset,dataset_path,47,55
+examples\run_openai_gpt.py,pre_process_datasets,"encoded_datasets, input_len, cap_length, start_token, delimiter_token, clf_token",57,82
+examples\run_openai_gpt.py,main,,84,256
+examples\run_openai_gpt.py,tokenize_and_encode,obj,145,151
+examples\run_squad.py,__init__,"self, qas_id, question_text, doc_tokens, orig_answer_text=None, start_position=None, end_position=None, is_impossible=None",61,75
+examples\run_squad.py,__str__,self,77,78
+examples\run_squad.py,__repr__,self,80,92
+examples\run_squad.py,__init__,"self, unique_id, example_index, doc_span_index, tokens, token_to_orig_map, token_is_max_context, input_ids, input_mask, segment_ids, start_position=None, end_position=None, is_impossible=None",98,122
+examples\run_squad.py,read_squad_examples,"input_file, is_training, version_2_with_negative",125,200
+examples\run_squad.py,is_whitespace,c,130,133
+examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363
+examples\run_squad.py,_improve_answer_span,"doc_tokens, input_start, input_end, tokenizer, orig_answer_text",366,400
+examples\run_squad.py,_check_is_max_context,"doc_spans, cur_span_index, position",403,437
+examples\run_squad.py,write_predictions,"all_examples, all_features, all_results, n_best_size, max_answer_length, do_lower_case, output_prediction_file, output_nbest_file, output_null_log_odds_file, verbose_logging, version_2_with_negative, null_score_diff_threshold",444,633
+examples\run_squad.py,get_final_text,"pred_text, orig_text, do_lower_case, verbose_logging=False",636,729
+examples\run_squad.py,_strip_spaces,text,664,673
+examples\run_squad.py,_get_best_indexes,"logits, n_best_size",732,741
+examples\run_squad.py,_compute_softmax,scores,744,764
+examples\run_squad.py,main,,766,1080
+examples\run_swag.py,__init__,"self, swag_id, context_sentence, start_ending, ending_0, ending_1, ending_2, ending_3, label=None",46,64
+examples\run_swag.py,__str__,self,66,67
+examples\run_swag.py,__repr__,self,69,83
+examples\run_swag.py,__init__,"self, example_id, choices_features, label",87,102
+examples\run_swag.py,read_swag_examples,"input_file, is_training",105,134
+examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212
+examples\run_swag.py,_truncate_seq_pair,"tokens_a, tokens_b, max_length",214,228
+examples\run_swag.py,accuracy,"out, labels",230,232
+examples\run_swag.py,select_field,"features, field",234,240
+examples\run_swag.py,main,,243,543
+examples\run_transfo_xl.py,main,,38,149
+examples\run_transfo_xl.py,evaluate,eval_iter,107,123
+examples\run_transfo_xl.py,format_log,"loss, split",136,139
+pytorch_pretrained_bert\convert_gpt2_checkpoint_to_pytorch.py,convert_gpt2_checkpoint_to_pytorch,"gpt2_checkpoint_path, gpt2_config_file, pytorch_dump_folder_path",30,48
+pytorch_pretrained_bert\convert_openai_checkpoint_to_pytorch.py,convert_openai_checkpoint_to_pytorch,"openai_checkpoint_folder_path, openai_config_file, pytorch_dump_folder_path",30,48
+pytorch_pretrained_bert\convert_tf_checkpoint_to_pytorch.py,convert_tf_checkpoint_to_pytorch,"tf_checkpoint_path, bert_config_file, pytorch_dump_path",30,41
+pytorch_pretrained_bert\convert_transfo_xl_checkpoint_to_pytorch.py,convert_transfo_xl_checkpoint_to_pytorch,"tf_checkpoint_path, transfo_xl_config_file, pytorch_dump_folder_path, transfo_xl_dataset_file",47,89
+pytorch_pretrained_bert\file_utils.py,url_to_filename,"url, etag=None",39,54
+pytorch_pretrained_bert\file_utils.py,filename_to_url,"filename, cache_dir=None",57,80
+pytorch_pretrained_bert\file_utils.py,cached_path,"url_or_filename, cache_dir=None",83,110
+pytorch_pretrained_bert\file_utils.py,split_s3_path,url,113,123
+pytorch_pretrained_bert\file_utils.py,s3_request,func,126,142
+pytorch_pretrained_bert\file_utils.py,wrapper,"url, *args, **kwargs",132,140
+pytorch_pretrained_bert\file_utils.py,s3_etag,url,145,151
+pytorch_pretrained_bert\file_utils.py,s3_get,"url, temp_file",154,159
+pytorch_pretrained_bert\file_utils.py,http_get,"url, temp_file",162,171
+pytorch_pretrained_bert\file_utils.py,get_from_cache,"url, cache_dir=None",174,231
+pytorch_pretrained_bert\file_utils.py,read_set_from_file,filename,234,243
+pytorch_pretrained_bert\file_utils.py,get_file_extension,"path, dot=True, lower=True",246,249
+pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110
+pytorch_pretrained_bert\modeling.py,gelu,x,113,119
+pytorch_pretrained_bert\modeling.py,swish,x,122,123
+pytorch_pretrained_bert\modeling.py,__init__,"self, vocab_size_or_config_json_file, hidden_size='768', num_hidden_layers='12', num_attention_heads='12', intermediate_size='3072', hidden_act='gelu', hidden_dropout_prob='0.1', attention_probs_dropout_prob='0.1', max_position_embeddings='512', type_vocab_size='2', initializer_range='0.02'",132,187
+pytorch_pretrained_bert\modeling.py,from_dict,"cls, json_object",190,196
+pytorch_pretrained_bert\modeling.py,from_json_file,"cls, json_file",198,203
+pytorch_pretrained_bert\modeling.py,__repr__,self,205,206
+pytorch_pretrained_bert\modeling.py,to_dict,self,208,211
+pytorch_pretrained_bert\modeling.py,to_json_string,self,213,215
+pytorch_pretrained_bert\modeling.py,__init__,"self, hidden_size, eps='1e-12'",222,228
+pytorch_pretrained_bert\modeling.py,forward,"self, x",230,234
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",239,248
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None",250,264
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",268,282
+pytorch_pretrained_bert\modeling.py,transpose_for_scores,"self, x",284,287
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states, attention_mask",289,315
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",319,323
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states, input_tensor",325,329
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",333,336
+pytorch_pretrained_bert\modeling.py,forward,"self, input_tensor, attention_mask",338,341
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",345,351
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states",353,356
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",360,364
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states, input_tensor",366,370
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",374,378
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states, attention_mask",380,384
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",388,391
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states, attention_mask, output_all_encoded_layers=True",393,401
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",405,408
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states",410,416
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",420,427
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states",429,433
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, bert_model_embedding_weights",437,447
+pytorch_pretrained_bert\modeling.py,forward,"self, hidden_states",449,452
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, bert_model_embedding_weights",456,458
+pytorch_pretrained_bert\modeling.py,forward,"self, sequence_output",460,462
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",466,468
+pytorch_pretrained_bert\modeling.py,forward,"self, pooled_output",470,472
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, bert_model_embedding_weights",476,479
+pytorch_pretrained_bert\modeling.py,forward,"self, sequence_output, pooled_output",481,484
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, *inputs, **kwargs",491,500
+pytorch_pretrained_bert\modeling.py,init_bert_weights,"self, module",502,513
+pytorch_pretrained_bert\modeling.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",515,636
+pytorch_pretrained_bert\modeling.py,load,"module, prefix=''",616,622
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",683,688
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, output_all_encoded_layers=True",690,719
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",772,776
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, masked_lm_labels=None, next_sentence_label=None",778,790
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",835,839
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, masked_lm_labels=None",841,851
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",897,901
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, next_sentence_label=None",903,913
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, num_labels",961,967
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, labels=None",969,979
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, num_choices",1026,1032
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, labels=None",1034,1048
+pytorch_pretrained_bert\modeling.py,__init__,"self, config, num_labels",1096,1102
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, labels=None",1104,1121
+pytorch_pretrained_bert\modeling.py,__init__,"self, config",1171,1177
+pytorch_pretrained_bert\modeling.py,forward,"self, input_ids, token_type_ids=None, attention_mask=None, start_positions=None, end_positions=None",1179,1203
+pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97
+pytorch_pretrained_bert\modeling_gpt2.py,gelu,x,100,101
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, vocab_size_or_config_json_file='50257', n_positions='1024', n_ctx='1024', n_embd='768', n_layer='12', n_head='12', layer_norm_epsilon='1e-05', initializer_range='0.02'",108,150
+pytorch_pretrained_bert\modeling_gpt2.py,from_dict,"cls, json_object",154,160
+pytorch_pretrained_bert\modeling_gpt2.py,from_json_file,"cls, json_file",162,167
+pytorch_pretrained_bert\modeling_gpt2.py,__repr__,self,169,170
+pytorch_pretrained_bert\modeling_gpt2.py,to_dict,self,172,175
+pytorch_pretrained_bert\modeling_gpt2.py,to_json_string,self,177,179
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, nf, nx",183,189
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, x",191,195
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, nx, n_ctx, config, scale=False",199,209
+pytorch_pretrained_bert\modeling_gpt2.py,_attn,"self, q, k, v",211,224
+pytorch_pretrained_bert\modeling_gpt2.py,merge_heads,"self, x",222,225
+pytorch_pretrained_bert\modeling_gpt2.py,split_heads,"self, x, k=False",227,233
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, x, layer_past=None",235,249
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, n_state, config",253,258
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, x",260,263
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, n_ctx, config, scale=False",267,273
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, x, layer_past=None",275,280
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, model_embeddings_weights, config",286,289
+pytorch_pretrained_bert\modeling_gpt2.py,set_embeddings_weights,"self, model_embeddings_weights",291,294
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, hidden_state",296,300
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, config",306,312
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, hidden_states, mc_token_ids",314,324
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, config, *inputs, **kwargs",332,342
+pytorch_pretrained_bert\modeling_gpt2.py,set_tied,self,344,345
+pytorch_pretrained_bert\modeling_gpt2.py,init_weights,"self, module",347,358
+pytorch_pretrained_bert\modeling_gpt2.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",360,477
+pytorch_pretrained_bert\modeling_gpt2.py,load,"module, prefix=''",448,455
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, config",514,522
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, input_ids, position_ids=None, token_type_ids=None, past=None",524,552
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, config",594,598
+pytorch_pretrained_bert\modeling_gpt2.py,set_tied,self,600,603
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, input_ids, position_ids=None, token_type_ids=None, lm_labels=None, past=None",605,612
+pytorch_pretrained_bert\modeling_gpt2.py,__init__,"self, config",659,664
+pytorch_pretrained_bert\modeling_gpt2.py,set_tied,self,666,669
+pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, input_ids, mc_token_ids, lm_labels=None, mc_labels=None, token_type_ids=None, position_ids=None, past=None",671,684
+pytorch_pretrained_bert\modeling_openai.py,load_tf_weights_in_openai_gpt,"model, openai_checkpoint_folder_path",46,113
+pytorch_pretrained_bert\modeling_openai.py,gelu,x,116,117
+pytorch_pretrained_bert\modeling_openai.py,swish,x,120,121
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, vocab_size_or_config_json_file='40478', n_special='0', n_positions='512', n_ctx='512', n_embd='768', n_layer='12', n_head='12', afn='gelu', resid_pdrop='0.1', embd_pdrop='0.1', attn_pdrop='0.1', layer_norm_epsilon='1e-05', initializer_range='0.02'",131,191
+pytorch_pretrained_bert\modeling_openai.py,total_tokens_embeddings,self,195,197
+pytorch_pretrained_bert\modeling_openai.py,from_dict,"cls, json_object",199,205
+pytorch_pretrained_bert\modeling_openai.py,from_json_file,"cls, json_file",207,212
+pytorch_pretrained_bert\modeling_openai.py,__repr__,self,214,215
+pytorch_pretrained_bert\modeling_openai.py,to_dict,self,217,220
+pytorch_pretrained_bert\modeling_openai.py,to_json_string,self,222,224
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, nf, rf, nx",228,238
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, x",240,247
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, nx, n_ctx, config, scale=False",251,263
+pytorch_pretrained_bert\modeling_openai.py,_attn,"self, q, k, v",265,280
+pytorch_pretrained_bert\modeling_openai.py,merge_heads,"self, x",278,281
+pytorch_pretrained_bert\modeling_openai.py,split_heads,"self, x, k=False",283,289
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, x",291,301
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, n_state, config",305,311
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, x",313,316
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, n_ctx, config, scale=False",320,326
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, x",328,333
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, model_embeddings_weights, config",339,342
+pytorch_pretrained_bert\modeling_openai.py,set_embeddings_weights,"self, model_embeddings_weights",344,347
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, hidden_state",349,353
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, config",359,367
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, hidden_states, mc_token_ids",369,379
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, config, *inputs, **kwargs",387,397
+pytorch_pretrained_bert\modeling_openai.py,init_weights,"self, module",399,410
+pytorch_pretrained_bert\modeling_openai.py,set_num_special_tokens,"self, num_special_tokens",412,413
+pytorch_pretrained_bert\modeling_openai.py,from_pretrained,"cls, pretrained_model_name_or_path, num_special_tokens=None, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",415,533
+pytorch_pretrained_bert\modeling_openai.py,load,"module, prefix=''",503,510
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, config",587,596
+pytorch_pretrained_bert\modeling_openai.py,set_num_special_tokens,"self, num_special_tokens",599,612
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, input_ids, position_ids=None, token_type_ids=None",614,640
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, config",699,703
+pytorch_pretrained_bert\modeling_openai.py,set_num_special_tokens,"self, num_special_tokens",705,710
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, input_ids, position_ids=None, token_type_ids=None, lm_labels=None",712,719
+pytorch_pretrained_bert\modeling_openai.py,__init__,"self, config",783,788
+pytorch_pretrained_bert\modeling_openai.py,set_num_special_tokens,"self, num_special_tokens",790,795
+pytorch_pretrained_bert\modeling_openai.py,forward,"self, input_ids, mc_token_ids, lm_labels=None, mc_labels=None, token_type_ids=None, position_ids=None",797,810
+pytorch_pretrained_bert\modeling_transfo_xl.py,build_tf_to_pytorch_map,"model, config",55,125
+pytorch_pretrained_bert\modeling_transfo_xl.py,load_tf_weights_in_transfo_xl,"model, config, tf_path",127,180
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, vocab_size_or_config_json_file='267735', cutoffs=['20000', '40000', '200000'], d_model='1024', d_embed='1024', n_head='16', d_head='64', d_inner='4096', div_val='4', pre_lnorm=False, n_layer='18', tgt_len='128', ext_len='0', mem_len='1600', clamp_len='1000', same_length=True, proj_share_all_but_first=True, attn_type='0', sample_softmax=(- '1'), adaptive=True, tie_weight=True, dropout='0.1', dropatt='0.0', untie_r=True, init='normal', init_range='0.01', proj_init_std='0.01', init_std='0.02'",186,287
+pytorch_pretrained_bert\modeling_transfo_xl.py,from_dict,"cls, json_object",290,296
+pytorch_pretrained_bert\modeling_transfo_xl.py,from_json_file,"cls, json_file",298,303
+pytorch_pretrained_bert\modeling_transfo_xl.py,__repr__,self,305,306
+pytorch_pretrained_bert\modeling_transfo_xl.py,to_dict,self,308,311
+pytorch_pretrained_bert\modeling_transfo_xl.py,to_json_string,self,313,315
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, demb",319,325
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, pos_seq, bsz=None",327,334
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, d_model, d_inner, dropout, pre_lnorm=False",338,354
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, inp",356,370
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_head, d_model, d_head, dropout, dropatt='0', pre_lnorm=False, r_r_bias=None, r_w_bias=None",373,400
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, h, attn_mask=None, mems=None",402,451
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_head, d_model, d_head, dropout, dropatt='0', tgt_len=None, ext_len=None, mem_len=None, pre_lnorm=False, r_r_bias=None, r_w_bias=None",454,481
+pytorch_pretrained_bert\modeling_transfo_xl.py,_parallelogram_mask,"self, h, w, left=False",483,492
+pytorch_pretrained_bert\modeling_transfo_xl.py,_shift,"self, x, qlen, klen, mask, left=False",494,510
+pytorch_pretrained_bert\modeling_transfo_xl.py,_rel_shift,"self, x, zero_triu=False",512,526
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, w, r, attn_mask=None, mems=None",528,529
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, *args, **kwargs",532,535
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, w, r, attn_mask=None, mems=None",537,610
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, *args, **kwargs",613,614
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, w, r_emb, r_w_bias, r_bias, attn_mask=None, mems=None",616,695
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_head, d_model, d_head, d_inner, dropout, **kwargs",698,703
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, dec_inp, dec_attn_mask=None, mems=None",705,711
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_head, d_model, d_head, d_inner, dropout, **kwargs",714,721
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, dec_inp, r_emb, r_w_bias, r_bias, dec_attn_mask=None, mems=None",723,730
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_head, d_model, d_head, d_inner, dropout, **kwargs",733,740
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, dec_inp, r, dec_attn_mask=None, mems=None",742,749
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, n_token, d_embed, d_proj, cutoffs, div_val='1', sample_softmax=False",753,781
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, inp",783,813
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, config, *inputs, **kwargs",820,829
+pytorch_pretrained_bert\modeling_transfo_xl.py,init_weight,"self, weight",831,835
+pytorch_pretrained_bert\modeling_transfo_xl.py,init_bias,"self, bias",837,838
+pytorch_pretrained_bert\modeling_transfo_xl.py,init_weights,"self, m",840,879
+pytorch_pretrained_bert\modeling_transfo_xl.py,set_num_special_tokens,"self, num_special_tokens",881,882
+pytorch_pretrained_bert\modeling_transfo_xl.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",884,980
+pytorch_pretrained_bert\modeling_transfo_xl.py,load,"module, prefix=''",955,961
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, config",1023,1096
+pytorch_pretrained_bert\modeling_transfo_xl.py,backward_compatible,self,1098,1099
+pytorch_pretrained_bert\modeling_transfo_xl.py,reset_length,"self, tgt_len, ext_len, mem_len",1102,1105
+pytorch_pretrained_bert\modeling_transfo_xl.py,init_mems,"self, data",1107,1118
+pytorch_pretrained_bert\modeling_transfo_xl.py,_update_mems,"self, hids, mems, qlen, mlen",1120,1141
+pytorch_pretrained_bert\modeling_transfo_xl.py,_forward,"self, dec_inp, mems=None",1143,1231
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, input_ids, mems=None",1233,1257
+pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, config",1310,1323
+pytorch_pretrained_bert\modeling_transfo_xl.py,tie_weights,self,1325,1341
+pytorch_pretrained_bert\modeling_transfo_xl.py,reset_length,"self, tgt_len, ext_len, mem_len",1343,1344
+pytorch_pretrained_bert\modeling_transfo_xl.py,init_mems,"self, data",1346,1347
+pytorch_pretrained_bert\modeling_transfo_xl.py,forward,"self, input_ids, target=None, mems=None",1349,1381
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,__init__,"self, n_token, d_embed, d_proj, cutoffs, div_val='1', keep_order=False",32,76
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,_compute_logit,"self, hidden, weight, bias, proj",78,90
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,forward,"self, hidden, target=None, keep_order=False",92,195
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,log_prob,"self, hidden",198,257
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,__init__,"self, range_max, n_sample",261,279
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,sample,"self, labels",281,300
+pytorch_pretrained_bert\modeling_transfo_xl_utilities.py,sample_logits,"embedding, bias, labels, inputs, sampler",302,333
+pytorch_pretrained_bert\optimization.py,warmup_cosine,"x, warmup='0.002'",23,26
+pytorch_pretrained_bert\optimization.py,warmup_constant,"x, warmup='0.002'",28,31
+pytorch_pretrained_bert\optimization.py,warmup_linear,"x, warmup='0.002'",33,36
+pytorch_pretrained_bert\optimization.py,__init__,"self, params, lr=required, warmup=(- '1'), t_total=(- '1'), schedule='warmup_linear', b1='0.9', b2='0.999', e='1e-06', weight_decay='0.01', max_grad_norm='1.0'",59,77
+pytorch_pretrained_bert\optimization.py,get_lr,self,79,92
+pytorch_pretrained_bert\optimization.py,step,"self, closure=None",94,162
+pytorch_pretrained_bert\optimization_openai.py,warmup_cosine,"x, warmup='0.002'",23,25
+pytorch_pretrained_bert\optimization_openai.py,warmup_constant,"x, warmup='0.002'",27,29
+pytorch_pretrained_bert\optimization_openai.py,warmup_linear,"x, warmup='0.002'",31,33
+pytorch_pretrained_bert\optimization_openai.py,__init__,"self, params, lr=required, schedule='warmup_linear', warmup=(- '1'), t_total=(- '1'), b1='0.9', b2='0.999', e='1e-08', weight_decay='0', vector_l2=False, max_grad_norm=(- '1'), **kwargs",45,63
+pytorch_pretrained_bert\optimization_openai.py,get_lr,self,65,78
+pytorch_pretrained_bert\optimization_openai.py,step,"self, closure=None",80,140
+pytorch_pretrained_bert\tokenization.py,load_vocab,vocab_file,50,62
+pytorch_pretrained_bert\tokenization.py,whitespace_tokenize,text,65,71
+pytorch_pretrained_bert\tokenization.py,__init__,"self, vocab_file, do_lower_case=True, max_len=None, never_split=('[UNK]', '[SEP]', '[PAD]', '[CLS]', '[MASK]')",77,89
+pytorch_pretrained_bert\tokenization.py,tokenize,"self, text",91,96
+pytorch_pretrained_bert\tokenization.py,convert_tokens_to_ids,"self, tokens",98,109
+pytorch_pretrained_bert\tokenization.py,convert_ids_to_tokens,"self, ids",111,116
+pytorch_pretrained_bert\tokenization.py,from_pretrained,"cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs",118,154
+pytorch_pretrained_bert\tokenization.py,__init__,"self, do_lower_case=True, never_split=('[UNK]', '[SEP]', '[PAD]', '[CLS]', '[MASK]')",160,169
+pytorch_pretrained_bert\tokenization.py,tokenize,"self, text",171,190
+pytorch_pretrained_bert\tokenization.py,_run_strip_accents,"self, text",192,201
+pytorch_pretrained_bert\tokenization.py,_run_split_on_punc,"self, text",203,223
+pytorch_pretrained_bert\tokenization.py,_tokenize_chinese_chars,"self, text",225,236
+pytorch_pretrained_bert\tokenization.py,_is_chinese_char,"self, cp",238,258
+pytorch_pretrained_bert\tokenization.py,_clean_text,"self, text",260,271
+pytorch_pretrained_bert\tokenization.py,__init__,"self, vocab, unk_token='[UNK]', max_input_chars_per_word='100'",277,280
+pytorch_pretrained_bert\tokenization.py,tokenize,"self, text",282,331
+pytorch_pretrained_bert\tokenization.py,_is_whitespace,char,334,343
+pytorch_pretrained_bert\tokenization.py,_is_control,char,346,355
+pytorch_pretrained_bert\tokenization.py,_is_punctuation,char,358,371
+pytorch_pretrained_bert\tokenization_gpt2.py,lru_cache,,30,31
+pytorch_pretrained_bert\tokenization_gpt2.py,bytes_to_unicode,,49,69
+pytorch_pretrained_bert\tokenization_gpt2.py,get_pairs,word,71,81
+pytorch_pretrained_bert\tokenization_gpt2.py,from_pretrained,"cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs",88,129
+pytorch_pretrained_bert\tokenization_gpt2.py,__init__,"self, vocab_file, merges_file, errors='replace', max_len=None",131,144
+pytorch_pretrained_bert\tokenization_gpt2.py,__len__,self,146,147
+pytorch_pretrained_bert\tokenization_gpt2.py,bpe,"self, token",149,188
+pytorch_pretrained_bert\tokenization_gpt2.py,encode,"self, text",190,201
+pytorch_pretrained_bert\tokenization_gpt2.py,decode,"self, tokens",203,206
+pytorch_pretrained_bert\tokenization_openai.py,get_pairs,word,45,55
+pytorch_pretrained_bert\tokenization_openai.py,text_standardize,text,57,70
+pytorch_pretrained_bert\tokenization_openai.py,from_pretrained,"cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs",80,121
+pytorch_pretrained_bert\tokenization_openai.py,__init__,"self, vocab_file, merges_file, special_tokens=None, max_len=None",123,142
+pytorch_pretrained_bert\tokenization_openai.py,__len__,self,144,145
+pytorch_pretrained_bert\tokenization_openai.py,set_special_tokens,"self, special_tokens",147,161
+pytorch_pretrained_bert\tokenization_openai.py,bpe,"self, token",163,204
+pytorch_pretrained_bert\tokenization_openai.py,tokenize,"self, text",206,219
+pytorch_pretrained_bert\tokenization_openai.py,convert_tokens_to_ids,"self, tokens",221,240
+pytorch_pretrained_bert\tokenization_openai.py,convert_ids_to_tokens,"self, ids, skip_special_tokens=False",242,251
+pytorch_pretrained_bert\tokenization_openai.py,decode,"self, ids, skip_special_tokens=False, clean_up_tokenization_spaces=False",253,263
+pytorch_pretrained_bert\tokenization_transfo_xl.py,from_pretrained,"cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs",57,91
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__init__,"self, special=[], min_freq='0', max_size=None, lower_case=False, delimiter=None, vocab_file=None, never_split=('<unk>', '<eos>', '<formula>')",93,102
+pytorch_pretrained_bert\tokenization_transfo_xl.py,count_file,"self, path, verbose=False, add_eos=False",104,117
+pytorch_pretrained_bert\tokenization_transfo_xl.py,count_sents,"self, sents, verbose=False",119,127
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_build_from_file,"self, vocab_file",129,142
+pytorch_pretrained_bert\tokenization_transfo_xl.py,build_vocab,self,144,163
+pytorch_pretrained_bert\tokenization_transfo_xl.py,encode_file,"self, path, ordered=False, verbose=False, add_eos=True, add_double_eos=False",165,181
+pytorch_pretrained_bert\tokenization_transfo_xl.py,encode_sents,"self, sents, ordered=False, verbose=False",183,194
+pytorch_pretrained_bert\tokenization_transfo_xl.py,add_special,"self, sym",196,200
+pytorch_pretrained_bert\tokenization_transfo_xl.py,add_symbol,"self, sym",202,205
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_sym,"self, idx",207,209
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_idx,"self, sym",211,225
+pytorch_pretrained_bert\tokenization_transfo_xl.py,convert_ids_to_tokens,"self, indices",227,229
+pytorch_pretrained_bert\tokenization_transfo_xl.py,convert_tokens_to_ids,"self, symbols",231,233
+pytorch_pretrained_bert\tokenization_transfo_xl.py,convert_to_tensor,"self, symbols",235,236
+pytorch_pretrained_bert\tokenization_transfo_xl.py,decode,"self, indices, exclude=None",238,243
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__len__,self,245,246
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_run_split_on_punc,"self, text",248,268
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_run_strip_accents,"self, text",270,279
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_clean_text,"self, text",281,292
+pytorch_pretrained_bert\tokenization_transfo_xl.py,whitespace_tokenize,"self, text",294,303
+pytorch_pretrained_bert\tokenization_transfo_xl.py,tokenize,"self, line, add_eos=False, add_double_eos=False",305,323
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__init__,"self, data, bsz, bptt, device='cpu', ext_len=None",327,347
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_batch,"self, i, bptt=None",349,362
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_fixlen_iter,"self, start='0'",364,366
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_varlen_iter,"self, start='0', std='5', min_len='5', max_deviation='3'",368,378
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__iter__,self,380,381
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__init__,"self, data, bsz, bptt, device='cpu', ext_len=None, shuffle=False",385,396
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_sent_stream,self,398,405
+pytorch_pretrained_bert\tokenization_transfo_xl.py,stream_iterator,"self, sent_stream",407,454
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__iter__,self,456,461
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__init__,"self, paths, vocab, bsz, bptt, device='cpu', ext_len=None, shuffle=False",465,476
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_sent_stream,"self, path",478,484
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__iter__,self,486,494
+pytorch_pretrained_bert\tokenization_transfo_xl.py,from_pretrained,"cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs",498,539
+pytorch_pretrained_bert\tokenization_transfo_xl.py,__init__,"self, *args, **kwargs",541,546
+pytorch_pretrained_bert\tokenization_transfo_xl.py,build_corpus,"self, path, dataset",548,585
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_iterator,"self, split, *args, **kwargs",587,601
+pytorch_pretrained_bert\tokenization_transfo_xl.py,get_lm_corpus,"datadir, dataset",604,633
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_is_whitespace,char,635,644
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_is_control,char,647,656
+pytorch_pretrained_bert\tokenization_transfo_xl.py,_is_punctuation,char,659,672
+pytorch_pretrained_bert\__main__.py,main,,2,81
+tests\modeling_gpt2_test.py,__init__,"self, parent, batch_size='13', seq_length='7', is_training=True, use_position_ids=True, use_token_type_ids=True, use_labels=True, vocab_size='99', n_positions='33', n_embd='32', n_layer='5', n_head='4', n_choices='3', type_sequence_label_size='2', initializer_range='0.02', num_labels='3', scope=None",32,66
+tests\modeling_gpt2_test.py,prepare_config_and_inputs,self,68,97
+tests\modeling_gpt2_test.py,create_gpt2_model,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",99,108
+tests\modeling_gpt2_test.py,check_gpt2_model_output,"self, result",110,113
+tests\modeling_gpt2_test.py,create_gpt2_lm_head,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",116,127
+tests\modeling_gpt2_test.py,check_gpt2_lm_head_output,"self, result",129,133
+tests\modeling_gpt2_test.py,check_gpt2_lm_head_loss_output,"self, result",135,138
+tests\modeling_gpt2_test.py,create_gpt2_double_heads,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",140,154
+tests\modeling_gpt2_test.py,check_gpt2_double_heads_output,"self, result",156,163
+tests\modeling_gpt2_test.py,check_gpt2_double_heads_loss_output,"self, result",165,168
+tests\modeling_gpt2_test.py,test_default,self,170,171
+tests\modeling_gpt2_test.py,test_config_to_json_string,self,173,177
+tests\modeling_gpt2_test.py,run_tester,"self, tester",179,190
+tests\modeling_gpt2_test.py,ids_tensor,"cls, shape, vocab_size, rng=None, name=None",192,206
+tests\modeling_openai_test.py,__init__,"self, parent, batch_size='13', seq_length='7', is_training=True, use_position_ids=True, use_token_type_ids=True, use_labels=True, vocab_size='99', n_special='1', n_positions='33', n_embd='32', n_layer='5', n_head='4', n_choices='3', afn='gelu', resid_pdrop='0.1', attn_pdrop='0.1', embd_pdrop='0.1', type_sequence_label_size='2', initializer_range='0.02', num_labels='3', scope=None",32,76
+tests\modeling_openai_test.py,prepare_config_and_inputs,self,78,112
+tests\modeling_openai_test.py,create_openai_model,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",114,122
+tests\modeling_openai_test.py,check_openai_model_output,"self, result",124,127
+tests\modeling_openai_test.py,create_openai_lm_head,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",130,140
+tests\modeling_openai_test.py,check_openai_lm_head_output,"self, result",142,146
+tests\modeling_openai_test.py,check_openai_lm_head_loss_output,"self, result",148,151
+tests\modeling_openai_test.py,create_openai_double_heads,"self, config, input_ids, token_type_ids, position_ids, mc_labels, lm_labels, mc_token_ids",153,166
+tests\modeling_openai_test.py,check_openai_double_heads_output,"self, result",168,175
+tests\modeling_openai_test.py,check_openai_double_heads_loss_output,"self, result",177,180
+tests\modeling_openai_test.py,test_default,self,182,183
+tests\modeling_openai_test.py,test_config_to_json_string,self,185,189
+tests\modeling_openai_test.py,run_tester,"self, tester",191,202
+tests\modeling_openai_test.py,ids_tensor,"cls, shape, vocab_size, rng=None, name=None",204,218
+tests\modeling_test.py,__init__,"self, parent, batch_size='13', seq_length='7', is_training=True, use_input_mask=True, use_token_type_ids=True, use_labels=True, vocab_size='99', hidden_size='32', num_hidden_layers='5', num_attention_heads='4', intermediate_size='37', hidden_act='gelu', hidden_dropout_prob='0.1', attention_probs_dropout_prob='0.1', max_position_embeddings='512', type_vocab_size='16', type_sequence_label_size='2', initializer_range='0.02', num_labels='3', scope=None",34,76
+tests\modeling_test.py,prepare_config_and_inputs,self,78,108
+tests\modeling_test.py,check_loss_output,"self, result",110,113
+tests\modeling_test.py,create_bert_model,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",115,124
+tests\modeling_test.py,check_bert_model_output,"self, result",126,133
+tests\modeling_test.py,create_bert_for_masked_lm,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",136,145
+tests\modeling_test.py,check_bert_for_masked_lm_output,"self, result",147,150
+tests\modeling_test.py,create_bert_for_next_sequence_prediction,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",152,161
+tests\modeling_test.py,check_bert_for_next_sequence_prediction_output,"self, result",163,166
+tests\modeling_test.py,create_bert_for_pretraining,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",169,179
+tests\modeling_test.py,check_bert_for_pretraining_output,"self, result",181,187
+tests\modeling_test.py,create_bert_for_question_answering,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",190,200
+tests\modeling_test.py,check_bert_for_question_answering_output,"self, result",202,208
+tests\modeling_test.py,create_bert_for_sequence_classification,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",211,220
+tests\modeling_test.py,check_bert_for_sequence_classification_output,"self, result",222,225
+tests\modeling_test.py,create_bert_for_token_classification,"self, config, input_ids, token_type_ids, input_mask, sequence_labels, token_labels",228,237
+tests\modeling_test.py,check_bert_for_token_classification_output,"self, result",239,242
+tests\modeling_test.py,test_default,self,245,246
+tests\modeling_test.py,test_config_to_json_string,self,248,252
+tests\modeling_test.py,run_tester,"self, tester",254,281
+tests\modeling_test.py,ids_tensor,"cls, shape, vocab_size, rng=None, name=None",283,297
+tests\modeling_transfo_xl_test.py,__init__,"self, parent, batch_size='13', seq_length='7', mem_len='30', clamp_len='15', is_training=True, use_labels=True, vocab_size='99', cutoffs=['10', '50', '80'], d_model='32', d_embed='32', n_head='4', d_head='8', d_inner='128', div_val='2', n_layer='5', scope=None, seed='1'",31,67
+tests\modeling_transfo_xl_test.py,prepare_config_and_inputs,self,69,90
+tests\modeling_transfo_xl_test.py,set_seed,self,92,94
+tests\modeling_transfo_xl_test.py,create_transfo_xl_model,"self, config, input_ids_1, input_ids_2, lm_labels",96,108
+tests\modeling_transfo_xl_test.py,check_transfo_xl_model_output,"self, result",110,122
+tests\modeling_transfo_xl_test.py,create_transfo_xl_lm_head,"self, config, input_ids_1, input_ids_2, lm_labels",125,145
+tests\modeling_transfo_xl_test.py,check_transfo_xl_lm_head_output,"self, result",147,178
+tests\modeling_transfo_xl_test.py,test_default,self,180,181
+tests\modeling_transfo_xl_test.py,test_config_to_json_string,self,183,187
+tests\modeling_transfo_xl_test.py,run_tester,"self, tester",189,198
+tests\modeling_transfo_xl_test.py,ids_tensor,"cls, shape, vocab_size, rng=None, name=None",200,214
+tests\optimization_test.py,assertListAlmostEqual,"self, list1, list2, tol",27,30
+tests\optimization_test.py,test_adam,self,32,46
+tests\tokenization_openai_test.py,test_full_tokenizer,self,26,53
+tests\tokenization_test.py,test_full_tokenizer,self,30,47
+tests\tokenization_test.py,test_full_tokenizer_raises_error_for_long_sequences,self,49,65
+tests\tokenization_test.py,test_chinese,self,67,72
+tests\tokenization_test.py,test_basic_tokenizer_lower,self,74,80
+tests\tokenization_test.py,test_basic_tokenizer_no_lower,self,82,87
+tests\tokenization_test.py,test_wordpiece_tokenizer,self,89,107
+tests\tokenization_test.py,test_is_whitespace,self,109,117
+tests\tokenization_test.py,test_is_control,self,119,125
+tests\tokenization_test.py,test_is_punctuation,self,127,134
+tests\tokenization_transfo_xl_test.py,test_full_tokenizer,self,28,44
+tests\tokenization_transfo_xl_test.py,test_full_tokenizer_lower,self,46,52
+tests\tokenization_transfo_xl_test.py,test_full_tokenizer_no_lower,self,54,59
+tests\tokenization_transfo_xl_test.py,test_is_whitespace,self,61,69
+tests\tokenization_transfo_xl_test.py,test_is_control,self,71,77
+tests\tokenization_transfo_xl_test.py,test_is_punctuation,self,79,86

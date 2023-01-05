@@ -1,0 +1,343 @@
+bokeh,file,method,params,startlineno,endlineno,type,lineno
+bokeh,bokeh\colors\tests\test_util.py,test_len,self,62,63,argument,63
+bokeh,bokeh\sphinxext\bokeh_enum.py,run,self,94,121,assignment,107
+bokeh,bokeh\sphinxext\bokeh_enum.py,run,self,94,121,getattr,102
+bokeh,bokeh\util\browser.py,get_browser_controller,browser=None,56,86,assignment,82
+bokeh,bokeh\util\tests\test_browser.py,test_view_args,,95,122,assignment,97
+bokeh,examples\app\simple_hdf5\create_hdf5.py,generate_data,path,8,26,argument,26
+bokeh,examples\app\simple_hdf5\create_hdf5.py,generate_data,path,8,26,getattr,25
+bokeh,_setup_support.py,yellow,text,21,21,reference,21
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,494
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,453
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,412
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,413
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,407
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,423
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,426
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,426
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,430
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,431
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,432
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,442
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,445
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,445
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,449
+bokeh,bokeh\layouts.py,grid,"children=[], sizing_mode=None, nrows=None, ncols=None",342,504,reference,451
+bokeh,bokeh\model.py,_repr_html_,self,779,816,reference,816
+bokeh,bokeh\model.py,_repr_html_,self,779,816,getattr,786
+bokeh,bokeh\client\session.py,push,"self, document=None",377,408,reference,406
+bokeh,bokeh\client\session.py,push,"self, document=None",377,408,reference,408
+bokeh,bokeh\client\session.py,_attach_document,"self, document",445,449,reference,446
+bokeh,bokeh\client\session.py,_attach_document,"self, document",445,449,reference,447
+bokeh,bokeh\client\session.py,_attach_document,"self, document",445,449,reference,449
+bokeh,bokeh\command\subcommands\serve.py,invoke,"self, args",536,664,reference,660
+bokeh,bokeh\command\subcommands\serve.py,invoke,"self, args",536,664,getattr,548
+bokeh,bokeh\command\subcommands\serve.py,invoke,"self, args",536,664,getattr,571
+bokeh,bokeh\command\subcommands\serve.py,invoke,"self, args",536,664,getattr,585
+bokeh,bokeh\command\subcommands\static.py,invoke,"self, args",54,78,reference,77
+bokeh,bokeh\command\subcommands\static.py,invoke,"self, args",54,78,getattr,62
+bokeh,bokeh\command\subcommands\static.py,invoke,"self, args",54,78,getattr,68
+bokeh,bokeh\command\subcommands\static.py,invoke,"self, args",54,78,getattr,68
+bokeh,bokeh\command\subcommands\tests\test_serve.py,test_actual_port_printed_out,,288,305,reference,296
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",123,134,reference,128
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",123,134,reference,129
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",123,134,reference,130
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",123,134,reference,132
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",123,134,reference,134
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",192,203,reference,197
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",192,203,reference,198
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",192,203,reference,199
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",192,203,reference,201
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",192,203,reference,203
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",262,273,reference,267
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",262,273,reference,268
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",262,273,reference,269
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",262,273,reference,271
+bokeh,bokeh\core\property\container.py,wrap,"cls, value",262,273,reference,273
+bokeh,bokeh\core\property\enum.py,_sphinx_type,self,78,86,reference,86
+bokeh,bokeh\core\property\tests\test_bases.py,test_property_matches_basic_types,capsys,94,100,reference,97
+bokeh,bokeh\core\property\tests\test_bases.py,test_property_matches_basic_types,capsys,94,100,reference,97
+bokeh,bokeh\core\property\tests\test_bases.py,test_property_matches_basic_types,capsys,94,100,reference,98
+bokeh,bokeh\core\property\tests\test_bases.py,test_property_matches_compatible_arrays,capsys,102,112,reference,109
+bokeh,bokeh\core\property\tests\test_bases.py,test_property_matches_compatible_arrays,capsys,102,112,reference,110
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_List_wrap,,417,426,reference,419
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_List_wrap,,417,426,reference,420
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_List_wrap,,417,426,reference,420
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_List_wrap,,417,426,reference,421
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_List_wrap,,417,426,reference,421
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Dict_wrap,,428,437,reference,430
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Dict_wrap,,428,437,reference,431
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Dict_wrap,,428,437,reference,431
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Dict_wrap,,428,437,reference,432
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Dict_wrap,,428,437,reference,432
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Property_wrap,,408,415,reference,413
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Property_wrap,,408,415,reference,414
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Property_wrap,,408,415,reference,414
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Property_wrap,,408,415,reference,415
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_Property_wrap,,408,415,reference,415
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,341
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,347
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,351
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,355
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,359
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,363
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,367
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,371
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,375
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,383
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,reference,388
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,delsubscript,323
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueList_mutators,mock_notify,318,390,delsubscript,329
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_ColumnData_wrap,,439,448,reference,441
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_ColumnData_wrap,,439,448,reference,442
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_ColumnData_wrap,,439,448,reference,442
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_ColumnData_wrap,,439,448,reference,443
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_ColumnData_wrap,,439,448,reference,443
+bokeh,bokeh\document\tests\test_document.py,test_patch_spec_property,self,790,841,reference,802
+bokeh,bokeh\document\tests\test_document.py,test_patch_spec_property,self,790,841,reference,811
+bokeh,bokeh\embed\elements.py,script_for_render_items,"docs_json_or_id, render_items, app_path=None, absolute_url=None",132,158,reference,158
+bokeh,bokeh\embed\standalone.py,file_html,"models, resources, title=None, template=FILE, template_variables={}, theme=FromCurdoc, suppress_callback_warning=False, _always_new=False",250,312,reference,307
+bokeh,bokeh\embed\standalone.py,file_html,"models, resources, title=None, template=FILE, template_variables={}, theme=FromCurdoc, suppress_callback_warning=False, _always_new=False",250,312,reference,308
+bokeh,bokeh\embed\standalone.py,file_html,"models, resources, title=None, template=FILE, template_variables={}, theme=FromCurdoc, suppress_callback_warning=False, _always_new=False",250,312,reference,309
+bokeh,bokeh\embed\standalone.py,_title_from_models,"models, title",420,436,reference,426
+bokeh,bokeh\embed\standalone.py,_title_from_models,"models, title",420,436,reference,431
+bokeh,bokeh\embed\standalone.py,autoload_static,"model, resources, script_path",55,109,reference,109
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,121
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,121
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,121
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,126
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,132
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,137
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,145
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,148
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,157
+bokeh,bokeh\embed\util.py,OutputDocumentFor,"objs, apply_theme=None, always_new=False",66,168,reference,131
+bokeh,bokeh\embed\util.py,_create_temp_doc,models,336,345,reference,338
+bokeh,bokeh\embed\util.py,_create_temp_doc,models,336,345,reference,344
+bokeh,bokeh\embed\util.py,_set_temp_theme,"doc, apply_theme",353,359,reference,354
+bokeh,bokeh\embed\util.py,_set_temp_theme,"doc, apply_theme",353,359,reference,357
+bokeh,bokeh\embed\util.py,_unset_temp_theme,doc,361,365,reference,364
+bokeh,bokeh\embed\util.py,_unset_temp_theme,doc,361,365,reference,365
+bokeh,bokeh\embed\util.py,_unset_temp_theme,doc,361,365,delattribute,365
+bokeh,bokeh\embed\util.py,_dispose_temp_doc,models,347,351,reference,348
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,263
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,264
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,266
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,266
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,269
+bokeh,bokeh\embed\util.py,standalone_docs_json_and_render_items,"models, suppress_callback_warning=False",259,303,reference,273
+bokeh,bokeh\embed\util.py,submodel_has_python_callbacks,models,305,315,reference,310
+bokeh,bokeh\embed\wrappers.py,wrap_in_onload,code,49,53,reference,53
+bokeh,bokeh\io\notebook.py,push_notebook,"document=None, state=None, handle=None",191,275,reference,248
+bokeh,bokeh\models\sources.py,add,"self, data, name=None",325,343,reference,342
+bokeh,bokeh\models\sources.py,add,"self, data, name=None",325,343,reference,343
+bokeh,bokeh\models\tests\test_plots.py,test__check_required_scale_has_scales,,272,275,reference,275
+bokeh,bokeh\models\tests\test_plots.py,test__check_compatible_scale_and_ranges_compat_numeric,,284,292,reference,287
+bokeh,bokeh\models\tests\test_plots.py,test__check_compatible_scale_and_ranges_compat_numeric,,284,292,reference,292
+bokeh,bokeh\models\tests\test_plots.py,test__check_required_scale_missing_scales,,278,281,reference,281
+bokeh,bokeh\models\tests\test_plots.py,test__check_compatible_scale_and_ranges_compat_factor,,295,298,reference,298
+bokeh,bokeh\models\tests\test_plots.py,test__check_compatible_scale_and_ranges_incompat_numeric_scale_and_factor_range,,301,304,reference,304
+bokeh,bokeh\models\tests\test_plots.py,test__check_compatible_scale_and_ranges_incompat_factor_scale_and_numeric_range,,307,310,reference,310
+bokeh,bokeh\models\tests\test_renderers.py,test_graphrenderer_check_malformed_graph_source_no_errors,,45,49,reference,49
+bokeh,bokeh\models\tests\test_renderers.py,test_graphrenderer_check_malformed_graph_source_no_edge_start_or_end,,59,65,reference,65
+bokeh,bokeh\models\tests\test_renderers.py,test_graphrenderer_check_malformed_graph_source_no_node_index,,51,57,reference,57
+bokeh,bokeh\models\tests\test_sources.py,test_remove_exists,self,186,191,reference,189
+bokeh,bokeh\models\tests\test_sources.py,test_add_without_name,self,172,177,reference,175
+bokeh,bokeh\models\tests\test_sources.py,test_add_without_name,self,172,177,reference,177
+bokeh,bokeh\models\tests\test_sources.py,test_add_with_and_without_name,self,179,184,reference,182
+bokeh,bokeh\models\tests\test_sources.py,test_add_with_and_without_name,self,179,184,reference,184
+bokeh,bokeh\models\tests\test_sources.py,test_add_with_name,self,165,170,reference,168
+bokeh,bokeh\models\tests\test_sources.py,test_add_with_name,self,165,170,reference,170
+bokeh,bokeh\plotting\helpers.py,_tool_from_string,name,511,528,reference,518
+bokeh,bokeh\plotting\helpers.py,_tool_from_string,name,511,528,reference,519
+bokeh,bokeh\plotting\helpers.py,_tool_from_string,name,511,528,reference,521
+bokeh,bokeh\server\server.py,show,"self, app_path, browser=None, new='tab'",226,261,reference,258
+bokeh,bokeh\server\views\autoload_js_handler.py,get,"self, *args, **kwargs",58,98,reference,92
+bokeh,bokeh\tests\test_client_server.py,test_unit_spec_changes_do_not_boomerang,monkeypatch,925,979,reference,956
+bokeh,bokeh\tests\test_client_server.py,test_unit_spec_changes_do_not_boomerang,monkeypatch,925,979,reference,957
+bokeh,bokeh\tests\test_model.py,test_exception_for_bad_callbacks,self,50,54,reference,54
+bokeh,bokeh\util\compiler.py,_bundle_models,custom_models,544,634,reference,591
+bokeh,bokeh\util\compiler.py,_bundle_models,custom_models,544,634,reference,598
+bokeh,bokeh\util\compiler.py,_bundle_models,custom_models,544,634,reference,634
+bokeh,bokeh\util\compiler.py,bundle_models,models,328,343,reference,338
+bokeh,bokeh\util\compiler.py,bundle_models,models,328,343,reference,343
+bokeh,bokeh\util\compiler.py,full_name,self,252,255,reference,255
+bokeh,bokeh\util\deprecation.py,deprecated,"since_or_msg, old=None, new=None, extra=None",45,68,reference,59
+bokeh,bokeh\util\deprecation.py,deprecated,"since_or_msg, old=None, new=None, extra=None",45,68,reference,68
+bokeh,bokeh\util\deprecation.py,warn,"message, stacklevel='2'",42,43,reference,43
+bokeh,bokeh\util\serialization.py,traverse_data,"obj, use_numpy=True, buffers=None",423,456,reference,451
+bokeh,bokeh\util\string.py,indent,"text, n='2', ch=' '",105,120,reference,120
+bokeh,bokeh\util\terminal.py,white,text,62,62,reference,62
+bokeh,bokeh\util\tests\test_deprecation.py,test_bad_arg_type,,39,42,reference,42
+bokeh,bokeh\util\tests\test_session_id.py,_base64_decode,encoded,48,56,reference,53
+bokeh,bokeh\util\tests\test_session_id.py,_base64_decode,encoded,48,56,reference,55
+bokeh,bokeh\util\tests\test_tornado.py,test__yield_for_all_futures,,51,78,reference,59
+bokeh,bokeh\util\tests\test_tornado.py,test__yield_for_all_futures,,51,78,reference,60
+bokeh,examples\app\fourier_animated.py,create_centric_plot,"foos, title='', r='1', y_range=((- '2'), '2'), period=(pi / '2'), cfoos=None",129,157,reference,147
+bokeh,examples\app\crossfilter\main.py,create_figure,,25,63,reference,61
+bokeh,examples\app\crossfilter\main.py,create_figure,,25,63,reference,61
+bokeh,examples\models\file\donut.py,polar_to_cartesian,"r, start_angles, end_angles",47,54,reference,48
+bokeh,examples\models\file\donut.py,polar_to_cartesian,"r, start_angles, end_angles",47,54,reference,48
+bokeh,scripts\build_upload.py,blue,text,30,30,reference,30
+bokeh,scripts\deploy.py,blue,text,14,14,reference,14
+bokeh,scripts\deploy.py,run,cmd,93,96,reference,96
+bokeh,versioneer.py,get_versions,verbose=False,1409,1482,delsubscript,1416
+bokeh,versioneer.py,get_cmdclass,,1490,1657,delsubscript,1493
+bokeh,versioneer.py,get_cmdclass,,1490,1657,delsubscript,1599
+bokeh,bokeh\model.py,__str__,self,310,311,getattr,311
+bokeh,bokeh\model.py,layout,"self, side, plot",548,555,getattr,553
+bokeh,bokeh\model.py,_clear_extensions,,717,721,getattr,721
+bokeh,bokeh\model.py,_to_json_like,"self, include_defaults",734,777,getattr,757
+bokeh,bokeh\model.py,_visit_immediate_value_references,"value, visitor",822,833,getattr,830
+bokeh,bokeh\palettes.py,small_palettes,self,1132,1139,delsubscript,1134
+bokeh,bokeh\palettes.py,small_palettes,self,1132,1139,delsubscript,1135
+bokeh,bokeh\palettes.py,small_palettes,self,1132,1139,delsubscript,1136
+bokeh,bokeh\palettes.py,small_palettes,self,1132,1139,delsubscript,1137
+bokeh,bokeh\palettes.py,small_palettes,self,1132,1139,delsubscript,1138
+bokeh,bokeh\resources.py,_collect_external_resources,"self, resource_attr",155,171,getattr,161
+bokeh,bokeh\application\handlers\code.py,_monkeypatch_io,self,197,204,getattr,201
+bokeh,bokeh\application\handlers\tests\test_directory.py,test_directory_has_theme_file,self,151,189,delattribute,184
+bokeh,bokeh\colors\util.py,__getitem__,"self, v",59,69,getattr,63
+bokeh,bokeh\colors\util.py,__getitem__,"self, v",59,69,getattr,67
+bokeh,bokeh\colors\util.py,__iter__,self,71,73,getattr,73
+bokeh,bokeh\colors\util.py,__getattr__,"self, v",75,79,getattr,78
+bokeh,bokeh\colors\tests\test_groups.py,test_color,group,212,220,getattr,216
+bokeh,bokeh\colors\tests\test_groups.py,test_color,group,212,220,getattr,220
+bokeh,bokeh\colors\tests\test_named.py,test_color,"name, R, G, B",189,195,getattr,193
+bokeh,bokeh\command\subcommand.py,__init__,"self, parser",98,116,getattr,111
+bokeh,bokeh\command\subcommands\info.py,_version,"modname, attr",79,82,getattr,82
+bokeh,bokeh\command\subcommands\__init__.py,_collect,,49,73,getattr,66
+bokeh,bokeh\core\has_props.py,__new__,"meta_cls, class_name, bases, class_dict",88,158,delsubscript,104
+bokeh,bokeh\core\has_props.py,__new__,"meta_cls, class_name, bases, class_dict",88,158,delsubscript,139
+bokeh,bokeh\core\has_props.py,accumulate_from_superclasses,"cls, propname",191,212,getattr,209
+bokeh,bokeh\core\has_props.py,accumulate_dict_from_superclasses,"cls, propname",214,237,getattr,232
+bokeh,bokeh\core\has_props.py,__setattr__,"self, name, value",255,288,getattr,277
+bokeh,bokeh\core\has_props.py,lookup,"cls, name",407,419,getattr,419
+bokeh,bokeh\core\has_props.py,themed_values,self,572,582,getattr,582
+bokeh,bokeh\core\has_props.py,apply_theme,"self, property_values",584,629,getattr,613
+bokeh,bokeh\core\has_props.py,apply_theme,"self, property_values",584,629,delsubscript,624
+bokeh,bokeh\core\query.py,match,"obj, selector, context=None",89,211,getattr,187
+bokeh,bokeh\core\templates.py,get_env,,72,82,getattr,75
+bokeh,bokeh\core\property\color.py,transform,"self, value",136,147,getattr,142
+bokeh,bokeh\core\property\dataspec.py,to_serializable,"self, obj, name, val",363,371,getattr,370
+bokeh,bokeh\core\property\descriptors.py,__delete__,"self, obj",547,561,delsubscript,557
+bokeh,bokeh\core\property\descriptors.py,__delete__,"self, obj",547,561,delsubscript,561
+bokeh,bokeh\core\property\descriptors.py,_real_set,"self, obj, old, value, hint=None, setter=None",771,838,delsubscript,830
+bokeh,bokeh\core\property\descriptors.py,_real_set,"self, obj, old, value, hint=None, setter=None",771,838,delsubscript,833
+bokeh,bokeh\core\property\descriptors.py,serializable_value,"self, obj",981,985,getattr,985
+bokeh,bokeh\core\property\descriptors.py,set_from_json,"self, obj, json, models=None, setter=None",987,1028,getattr,1017
+bokeh,bokeh\core\property\instance.py,instance_type,self,72,78,getattr,76
+bokeh,bokeh\core\property\wrappers.py,_stream,"self, doc, source, new_data, rollover=None, setter=None",398,444,delsubscript,439
+bokeh,bokeh\core\property\tests\test_descriptors.py,test___delete__,self,162,218,delattribute,185
+bokeh,bokeh\core\property\tests\test_descriptors.py,test___delete__,self,162,218,delattribute,196
+bokeh,bokeh\core\property\tests\test_descriptors.py,test___delete__,self,162,218,delattribute,201
+bokeh,bokeh\core\property\tests\test_descriptors.py,test___delete__,self,162,218,delattribute,211
+bokeh,bokeh\core\property\tests\test_descriptors.py,test___delete__,self,162,218,delattribute,216
+bokeh,bokeh\core\property\tests\test_wrappers.py,test_PropertyValueDict_mutators,mock_notify,83,113,delsubscript,88
+bokeh,bokeh\core\validation\check.py,check_integrity,models,82,121,getattr,109
+bokeh,bokeh\core\validation\check.py,check_integrity,models,82,121,getattr,110
+bokeh,bokeh\document\document.py,delete_modules,self,484,519,delsubscript,516
+bokeh,bokeh\document\document.py,remove_on_change,"self, *callbacks",694,702,delsubscript,702
+bokeh,bokeh\document\document.py,_remove_session_callback,"self, callback_obj, originator",1045,1070,delsubscript,1063
+bokeh,bokeh\document\document.py,_with_self_as_curdoc,"self, f",1101,1114,getattr,1108
+bokeh,bokeh\document\tests\test_locking.py,test_other_attrs_raise,,51,57,getattr,56
+bokeh,bokeh\io\notebook.py,destroy_server,server_id,308,325,delsubscript,322
+bokeh,bokeh\io\showing.py,show,"obj, browser=None, new='tab', notebook_handle=False, notebook_url='localhost:8888', **kw",46,145,getattr,133
+bokeh,bokeh\models\plots.py,_axis,"self, *sides",152,157,getattr,155
+bokeh,bokeh\models\plots.py,add_layout,"self, obj, place='center'",230,248,getattr,248
+bokeh,bokeh\models\sources.py,remove,"self, name",346,363,delsubscript,360
+bokeh,bokeh\models\tests\test_defaults.py,all_descriptors,,33,45,getattr,35
+bokeh,bokeh\models\tests\test_defaults.py,all_descriptors,,33,45,getattr,44
+bokeh,bokeh\models\tests\test_plots.py,verify_axis,"self, axis_name",225,229,getattr,227
+bokeh,bokeh\models\tests\test_sources.py,test_stream_dict_to_ds_created_from_df,"self, pd",390,439,delsubscript,423
+bokeh,bokeh\models\tests\test_sources.py,test_stream_dict_to_ds_created_from_df,"self, pd",390,439,delsubscript,423
+bokeh,bokeh\models\tests\utils\property_utils.py,check_fill_properties,"model, prefix='', fill_color=Color.gray, fill_alpha='1.0'",60,62,getattr,61
+bokeh,bokeh\models\tests\utils\property_utils.py,check_fill_properties,"model, prefix='', fill_color=Color.gray, fill_alpha='1.0'",60,62,getattr,62
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,65
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,66
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,67
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,68
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,69
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,70
+bokeh,bokeh\models\tests\utils\property_utils.py,check_line_properties,"model, prefix='', line_color=Color.black, line_width='1.0', line_alpha='1.0'",64,71,getattr,71
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,74
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,75
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,76
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,77
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,78
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,79
+bokeh,bokeh\models\tests\utils\property_utils.py,check_text_properties,"model, prefix='', font_size='12pt', baseline='bottom', font_style='normal', align='left'",73,80,getattr,80
+bokeh,bokeh\plotting\helpers.py,_process_axis_and_grid,"plot, axis_type, axis_location, minor_ticks, axis_label, rng, dim",531,548,getattr,548
+bokeh,bokeh\plotting\helpers.py,_get_argspecs,glyphclass,653,667,getattr,657
+bokeh,bokeh\plotting\helpers.py,_add_sigfunc_info,"func, argspecs, glyphclass, extra_docs",730,760,getattr,741
+bokeh,bokeh\plotting\helpers.py,_add_sigfunc_info,"func, argspecs, glyphclass, extra_docs",730,760,getattr,748
+bokeh,bokeh\plotting\tests\test_figure.py,test_mixed_inputs,"self, marker",233,257,getattr,241
+bokeh,bokeh\plotting\tests\test_figure.py,test_color_input,"self, color, marker",259,271,getattr,263
+bokeh,bokeh\plotting\tests\test_figure.py,test_line_color_input,"self, color, marker",273,282,getattr,277
+bokeh,bokeh\plotting\tests\test_figure.py,test_fill_color_input,"self, color, marker",284,293,getattr,288
+bokeh,bokeh\plotting\tests\test_figure.py,test_render_level,"self, marker",295,302,getattr,298
+bokeh,bokeh\sampledata\tests\test_gapminder.py,test_data,"pd, name",46,51,getattr,50
+bokeh,bokeh\sampledata\tests\test_stocks.py,test_data,name,47,52,getattr,51
+bokeh,bokeh\server\contexts.py,create_session_if_needed,"self, session_id, request=None",186,233,delsubscript,218
+bokeh,bokeh\server\contexts.py,_discard_session,"self, session, should_discard",242,276,delsubscript,260
+bokeh,bokeh\server\contexts.py,_discard_session,"self, session, should_discard",242,276,delsubscript,261
+bokeh,bokeh\server\contexts.py,__init__,"self, request",304,308,delsubscript,306
+bokeh,bokeh\server\contexts.py,__init__,"self, request",304,308,delsubscript,307
+bokeh,bokeh\server\session.py,destroy,self,150,157,delattribute,154
+bokeh,bokeh\server\session.py,destroy,self,150,157,delattribute,157
+bokeh,bokeh\server\session.py,_wrap_document_callback,"self, callback",193,198,getattr,194
+bokeh,bokeh\sphinxext\bokeh_color.py,run,self,73,78,getattr,76
+bokeh,bokeh\sphinxext\bokeh_jinja.py,run,self,75,104,getattr,84
+bokeh,bokeh\sphinxext\bokeh_model.py,run,self,96,133,getattr,111
+bokeh,bokeh\sphinxext\bokeh_options.py,run,self,92,128,getattr,107
+bokeh,bokeh\sphinxext\bokeh_options.py,run,self,92,128,getattr,118
+bokeh,bokeh\sphinxext\bokeh_palette_group.py,html_visit_bokeh_palette_group,"self, node",83,98,getattr,86
+bokeh,bokeh\sphinxext\bokeh_prop.py,run,self,94,121,getattr,103
+bokeh,bokeh\sphinxext\bokeh_prop.py,run,self,94,121,getattr,110
+bokeh,bokeh\sphinxext\example_handler.py,_monkeypatch,self,82,113,getattr,101
+bokeh,bokeh\tests\test_client_server.py,test_allow_websocket_origin,self,153,212,delsubscript,164
+bokeh,bokeh\tests\test_client_server.py,test_allow_websocket_origin,self,153,212,delsubscript,174
+bokeh,bokeh\tests\test_client_server.py,test_allow_websocket_origin,self,153,212,delsubscript,184
+bokeh,bokeh\tests\test_client_server.py,test_allow_websocket_origin,self,153,212,delsubscript,202
+bokeh,bokeh\tests\test_client_server.py,test_allow_websocket_origin,self,153,212,delsubscript,212
+bokeh,bokeh\tests\test_events.py,__call__,"self, event",49,51,getattr,51
+bokeh,bokeh\tests\test_objects.py,_check_mutation,"self, obj, attr, mutator, expected_event_old, expected_event_new",342,358,getattr,348
+bokeh,bokeh\tests\test_objects.py,_check_mutation,"self, obj, attr, mutator, expected_event_old, expected_event_new",342,358,getattr,351
+bokeh,bokeh\tests\test_objects.py,test_list_delitem,self,395,402,delsubscript,399
+bokeh,bokeh\tests\test_objects.py,test_list_delslice,self,404,411,delsubscript,408
+bokeh,bokeh\tests\test_objects.py,test_dict_delitem_string,self,534,541,delsubscript,538
+bokeh,bokeh\tests\test_objects.py,test_dict_delitem_int,self,543,550,delsubscript,547
+bokeh,bokeh\tests\test_settings.py,test_single,self,56,60,delsubscript,60
+bokeh,bokeh\tests\test_settings.py,test_multiple,self,62,66,delsubscript,66
+bokeh,bokeh\tests\test_themes.py,_compare_dict_to_model_defaults,"self, props, model_name",247,256,getattr,252
+bokeh,bokeh\tests\test_themes.py,_compare_dict_to_model_defaults,"self, props, model_name",247,256,getattr,254
+bokeh,bokeh\tests\test_tile_providers.py,test_type,"self, name",77,80,getattr,79
+bokeh,bokeh\tests\test_tile_providers.py,test_url,"self, name",82,85,getattr,84
+bokeh,bokeh\tests\test_tile_providers.py,test_attribution,"self, name",87,97,getattr,89
+bokeh,bokeh\tests\test_tile_providers.py,test_copies,"self, name",99,103,getattr,101
+bokeh,bokeh\tests\test_tile_providers.py,test_copies,"self, name",99,103,getattr,102
+bokeh,bokeh\tests\test_tile_providers.py,test_type,"self, name",108,111,getattr,110
+bokeh,bokeh\tests\test_tile_providers.py,test_url,"self, name",113,116,getattr,115
+bokeh,bokeh\tests\test_tile_providers.py,test_attribution,"self, name",118,122,getattr,120
+bokeh,bokeh\tests\test_tile_providers.py,test_copies,"self, name",126,130,getattr,128
+bokeh,bokeh\tests\test_tile_providers.py,test_copies,"self, name",126,130,getattr,129
+bokeh,bokeh\tests\test_tile_providers.py,test_get_provider,"self, name",136,160,getattr,141
+bokeh,bokeh\tests\test_tile_providers.py,test_get_provider,"self, name",136,160,getattr,156
+bokeh,bokeh\util\compiler.py,path,self,266,275,getattr,268
+bokeh,bokeh\util\compiler.py,dependencies,self,293,295,getattr,295
+bokeh,bokeh\util\compiler.py,_get_custom_models,models,501,516,getattr,508
+bokeh,bokeh\util\datatypes.py,remove_value,"self, key, value",100,115,delsubscript,111
+bokeh,bokeh\util\datatypes.py,remove_value,"self, key, value",100,115,delsubscript,113
+bokeh,bokeh\util\future.py,signature,func,123,150,delsubscript,144
+bokeh,bokeh\util\tornado.py,_execute_remover,"self, callback_id, removers",192,205,delsubscript,200
+bokeh,bokeh\util\tests\test_browser.py,test_get_browser_controller_dummy_with_env,mock_get,63,70,delsubscript,70
+bokeh,bokeh\util\tests\test_browser.py,test_get_browser_controller_None_with_env,mock_get,72,79,delsubscript,79
+bokeh,bokeh\util\tests\test_browser.py,test_get_browser_controller_value_with_env,mock_get,81,88,delsubscript,88
+bokeh,bokeh\util\tests\test_serialization.py,test_simple_ids_no,self,56,60,delsubscript,60
+bokeh,bokeh\util\tests\test_session_id.py,test_missing_sysrandom_with_secret_key,"self, _mock_sysrandom",177,185,delsubscript,185
+bokeh,bokeh\_testing\plugins\examples_report.py,pytest_unconfigure,config,114,118,getattr,115
+bokeh,bokeh\_testing\plugins\examples_report.py,pytest_unconfigure,config,114,118,delattribute,117
+bokeh,bokeh\_testing\util\examples.py,collect_examples,config_path,338,361,getattr,348
+bokeh,examples\app\weather\main.py,get_dataset,"src, name, distribution",15,29,delsubscript,17
+bokeh,scripts\build_upload.py,run,"cmd, fake_cmd=None, silent=False, **kw",102,125,delsubscript,122
+bokeh,tests\test_examples.py,test_server_examples,"server_example, example, config, report, bokeh_server",60,87,delsubscript,67

@@ -1,0 +1,78 @@
+jumpserver,file,method,params,startlineno,endlineno,type,lineno
+jumpserver,apps\applications\models\remote_app.py,parameters,self,60,75,assignment,74
+jumpserver,apps\assets\models\user.py,get_all_assets,self,150,161,assignment,156
+jumpserver,apps\common\signals_handlers.py,on_request_finished_logging_db_query,"sender, **kwargs",34,51,assignment,48
+jumpserver,apps\common\utils\common.py,combine_seq,"s1, s2, callback=None",19,27,assignment,26
+jumpserver,apps\common\utils\common.py,combine_seq,"s1, s2, callback=None",19,27,reference,27
+jumpserver,apps\common\utils\common.py,capacity_convert,"size, expect='auto', rate='1000'",79,117,assignment,97
+jumpserver,apps\ops\ansible\callback.py,v2_playbook_on_stats,"self, stats",249,261,assignment,259
+jumpserver,apps\perms\models\asset_permission.py,get_all_assets,self,96,107,assignment,102
+jumpserver,apps\perms\api\mixin.py,get_request_md5,self,62,68,assignment,66
+jumpserver,utils\clean_duplicate_user_groups.py,clean_group,interactive=True,23,72,assignment,54
+jumpserver,apps\assets\backends\manager.py,_merge_instances,*args,100,110,reference,106
+jumpserver,apps\assets\models\node.py,get_all_children,"self, with_self=False",56,61,reference,61
+jumpserver,apps\assets\models\node.py,get_ancestor,"self, with_self=False",77,82,reference,82
+jumpserver,apps\assets\models\node.py,get_family,self,120,123,reference,123
+jumpserver,apps\assets\models\node.py,get_family,self,120,123,reference,123
+jumpserver,apps\common\mixins\api.py,dispatch,"self, request, *args, **kwargs",77,86,reference,84
+jumpserver,apps\common\mixins\api.py,dispatch,"self, request, *args, **kwargs",77,86,reference,85
+jumpserver,apps\common\utils\encode.py,ssh_pubkey_gen,"private_key=None, username='jumpserver', hostname='localhost', password=None",82,96,reference,96
+jumpserver,apps\common\utils\encode.py,ssh_key_gen,"length='2048', type='rsa', password=None, username='jumpserver', hostname=None",99,122,reference,120
+jumpserver,apps\ops\ansible\runner.py,clean_tasks,"self, tasks",168,177,reference,174
+jumpserver,apps\ops\ansible\runner.py,clean_tasks,"self, tasks",168,177,reference,175
+jumpserver,apps\settings\utils.py,_ldap_entry_to_user_item,"self, entry",69,80,reference,79
+jumpserver,apps\settings\utils.py,_ldap_entry_to_user_item,"self, entry",69,80,getattr,74
+jumpserver,apps\terminal\backends\command\db.py,make_filter_kwargs,"date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",60,92,reference,73
+jumpserver,apps\terminal\backends\command\db.py,make_filter_kwargs,"date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",60,92,reference,74
+jumpserver,apps\terminal\backends\command\db.py,make_filter_kwargs,"date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",60,92,reference,75
+jumpserver,apps\terminal\backends\command\db.py,make_filter_kwargs,"date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",60,92,reference,76
+jumpserver,apps\users\utils.py,construct_user_created_email_body,user,27,58,reference,58
+jumpserver,apps\users\utils.py,send_user_created_mail,user,61,84,reference,77
+jumpserver,apps\users\utils.py,send_user_created_mail,user,61,84,reference,77
+jumpserver,apps\users\utils.py,send_user_created_mail,user,61,84,reference,80
+jumpserver,apps\users\utils.py,send_user_created_mail,user,61,84,reference,84
+jumpserver,apps\users\utils.py,send_user_created_mail,user,61,84,reference,84
+jumpserver,apps\assets\backends\base.py,order_by,"self, *ordering",23,32,getattr,31
+jumpserver,apps\assets\backends\base.py,filter_in,"self, kwargs",34,61,getattr,51
+jumpserver,apps\assets\backends\base.py,filter_equal,"self, kwargs",63,78,getattr,69
+jumpserver,apps\assets\models\base.py,construct_to_authbook,"self, asset",238,250,getattr,248
+jumpserver,apps\audits\utils.py,write_content_to_excel,"response, header=None, login_logs=None, fields=None",14,22,getattr,20
+jumpserver,apps\authentication\backends\api.py,authenticate,"self, request",150,169,getattr,157
+jumpserver,apps\authentication\backends\ldap.py,user_can_authenticate,user,21,28,getattr,27
+jumpserver,apps\authentication\backends\ldap.py,_populate_user_from_attributes,self,95,116,getattr,108
+jumpserver,apps\authentication\backends\ldap.py,_populate_user_from_attributes,self,95,116,getattr,114
+jumpserver,apps\authentication\backends\openid\backends.py,user_can_authenticate,user,23,30,getattr,29
+jumpserver,apps\common\drfmetadata.py,get_field_info,"self, field",52,82,getattr,59
+jumpserver,apps\common\drfmetadata.py,get_field_info,"self, field",52,82,getattr,62
+jumpserver,apps\common\drfmetadata.py,get_field_info,"self, field",52,82,getattr,66
+jumpserver,apps\common\drfmetadata.py,get_field_info,"self, field",52,82,getattr,68
+jumpserver,apps\common\local.py,_find,attr,8,9,getattr,9
+jumpserver,apps\common\mixins\api.py,get_success_message,"self, cleaned_data",65,75,getattr,69
+jumpserver,apps\common\mixins\serializers.py,to_internal_value,"self, data",18,37,getattr,22
+jumpserver,apps\common\mixins\serializers.py,to_internal_value,"self, data",18,37,getattr,24
+jumpserver,apps\common\mixins\serializers.py,to_internal_value,"self, data",18,37,getattr,24
+jumpserver,apps\common\templatetags\common_tags.py,join_queryset_attr,"queryset, attr, delimiter=', '",12,14,getattr,14
+jumpserver,apps\common\templatetags\common_tags.py,join_attr,"seq, attr=None, sep=None",44,50,getattr,49
+jumpserver,apps\common\utils\common.py,set_or_append_attr_bulk,"seq, key, value",71,76,getattr,73
+jumpserver,apps\jumpserver\conf.py,import_string,dotted_path,16,29,getattr,25
+jumpserver,apps\jumpserver\conf.py,from_object,"self, obj",133,165,getattr,165
+jumpserver,apps\jumpserver\utils.py,_find,attr,12,13,getattr,13
+jumpserver,apps\ops\ansible\callback.py,gather_result,"self, res",264,269,delsubscript,267
+jumpserver,apps\ops\ansible\callback.py,v2_runner_on_ok,"self, res, **kwargs",271,275,delsubscript,273
+jumpserver,apps\ops\models\adhoc.py,__eq__,"self, other",301,311,getattr,309
+jumpserver,apps\ops\models\adhoc.py,__eq__,"self, other",301,311,getattr,309
+jumpserver,apps\orgs\utils.py,_find,attr,31,32,getattr,32
+jumpserver,apps\orgs\mixins\models.py,fullname,"self, attr=None",81,93,getattr,85
+jumpserver,apps\perms\mixins.py,sort_remote_apps,"self, queryset",90,103,getattr,101
+jumpserver,apps\perms\utils\asset_permission.py,get_resource_without_cache,"self, resource",363,365,getattr,365
+jumpserver,apps\perms\utils\asset_permission.py,is_obj_attr_has,"obj, val, attrs=('hostname', 'ip', 'comment')",582,592,getattr,586
+jumpserver,apps\perms\utils\asset_permission.py,sort_assets,"assets, order_by='hostname', reverse=False",595,600,getattr,599
+jumpserver,apps\settings\forms.py,__init__,"self, *args, **kwargs",15,28,getattr,18
+jumpserver,apps\settings\signals_handler.py,monkey_patch_settings,"sender, **kwargs",25,75,getattr,50
+jumpserver,apps\settings\signals_handler.py,on_create_set_created_by,"sender, instance=None, **kwargs",90,96,getattr,92
+jumpserver,apps\settings\utils.py,save_user,"user, user_item",105,115,getattr,110
+jumpserver,apps\terminal\models.py,config,self,73,85,getattr,79
+jumpserver,apps\terminal\backends\command\models.py,to_dict,self,38,42,getattr,41
+jumpserver,apps\users\utils.py,get_password_check_rules,,282,290,getattr,286
+jumpserver,apps\users\models\utils.py,init_model,,9,12,getattr,11
+jumpserver,apps\users\models\utils.py,generate_fake,,15,18,getattr,17

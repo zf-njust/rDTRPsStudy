@@ -1,0 +1,118 @@
+6f762d719; (tag: refs/tags/v2.20.1, refs/remotes/origin/v2.20);ibuler;2022-03-22 12:51:24 +0800;fix: 修复权限 view 没有 Model 的问题
+005dd2770; (tag: refs/tags/v2.20.0, refs/remotes/origin/master);Jiangjie.Bai;2022-03-17 19:22:22 +0800;Merge pull request #7917 from jumpserver/dev
+1eb1e1ca2; (tag: refs/tags/v2.18.3);halo;2022-03-02 15:18:43 +0800;fix: 修复节点创建不能指定id问题，兼容api
+fef321125; (tag: refs/tags/v2.19.2);halo;2022-03-02 15:18:43 +0800;fix: 修复节点创建不能指定id问题，兼容api
+bca4b5191; (tag: refs/tags/v2.19.1);Jiangjie.Bai;2022-02-18 20:19:21 +0800;fix: 修复获取命令过滤规则时按照有组织的资源进行组织过滤
+18c388f3a; (tag: refs/tags/v2.19.0);Jiangjie.Bai;2022-02-17 11:04:33 +0800;Merge pull request #7629 from jumpserver/dev
+231bd574f; (tag: refs/tags/v2.17.5);xinwen;2022-02-15 10:46:16 +0800;fix: Authbook 修改秘钥不生效
+03da32251; (tag: refs/tags/v2.18.2);Michael Bai;2022-02-11 12:24:18 +0800;chore: Commit to top
+e86f84aae; (tag: refs/tags/v2.17.4);xinwen;2022-02-07 17:46:53 +0800;fix: 消息订阅redis连接未关闭
+37a3566b0; (tag: refs/tags/v2.18.1, tag: refs/tags/v2.18.0);Jiangjie.Bai;2022-01-20 13:47:13 +0800;Merge pull request #7540 from jumpserver/dev
+5adbbeb86; (tag: refs/tags/v2.17.3, tag: refs/tags/v2.17.2);halo;2021-12-20 18:24:16 +0800;feat: rdp协议新增username表达式，匹配更多特殊字符
+c8b049349; (tag: refs/tags/v2.17.1);Eric;2021-12-24 10:40:03 +0800;perf: 修改 Jmservisor 的下载地址名称
+d27947919; (tag: refs/tags/v2.17.0);Jiangjie.Bai;2021-12-15 22:03:19 +0800;Merge pull request #7404 from jumpserver/dev
+4def7bc5e; (tag: refs/tags/v2.16.3);ibuler;2021-11-25 18:16:58 +0800;fix: 修复 close connection 的问题
+b8af86b16; (tag: refs/tags/v2.16.2);ibuler;2021-11-24 17:25:10 +0800;fix: 修复 cas/oidc 登录 MFA 产生的bug
+2bdaf73d4; (tag: refs/tags/v2.16.1);feng626;2021-11-19 16:01:16 +0800;翻译mo
+23d867dce; (tag: refs/tags/v2.16.0);Michael Bai;2021-11-18 19:01:34 +0800;fix(i18n): 修改翻译文件
+79600e25f; (tag: refs/tags/v2.15.5, refs/remotes/origin/v2.15);ibuler;2021-11-18 16:05:14 +0800;fix: 修复数据库连接没有关闭的问题
+2604f35bb; (tag: refs/tags/v2.15.4);feng626;2021-11-02 15:41:25 +0800;perf: 异地登陆去掉本地判断
+6e42a9704; (tag: refs/tags/v2.15.3, tag: refs/tags/v2.15.2);feng626;2021-10-29 15:29:57 +0800;fix: 修复xpack引入包问题
+15cdd44c6; (tag: refs/tags/v2.15.1);Jiangjie.Bai;2021-10-28 17:45:42 +0800;Merge pull request #7107 from jumpserver/dev
+42e9fbf37; (tag: refs/tags/v2.15.0);Jiangjie.Bai;2021-10-28 15:31:44 +0800;Merge pull request #7103 from jumpserver/dev
+7dfd24ee2; (tag: refs/tags/v2.14.2);Michael Bai;2021-09-24 20:14:23 +0800;fix: 修复authbook systemuser字段问题
+95412d739; (tag: refs/tags/v2.14.1);feng626;2021-09-22 15:46:23 +0800;perf: 工单评论优化
+f46c043db; (tag: refs/tags/v2.14.0);wojiushixiaobai;2021-09-16 22:37:46 +0800;fix: 添加依赖
+669f65984; (tag: refs/tags/v2.13.2, tag: refs/tags/v2.13.1, refs/remotes/origin/v2.13);ibuler;2021-08-20 15:20:35 +0800;fix: 修复ws引起的redis连接增加
+10e06a453; (tag: refs/tags/v2.13.0);Jiangjie.Bai;2021-08-19 18:52:25 +0800;Merge pull request #6692 from jumpserver/dev
+ca29e142f; (tag: refs/tags/v2.12.2);Bai;2021-08-12 18:48:03 +0800;feat: update v2.12.2 to latest
+b754cfe07; (tag: refs/tags/v2.12.1);Bai;2021-08-12 18:23:59 +0800;feat: update v2.12.1 to latest
+c5ac45b73; (tag: refs/tags/v2.10.5, refs/remotes/origin/v2.10);xinwen;2021-08-11 16:13:30 +0800;fix: 将 es 的 doc_type 默认值改为 _doc
+c0560ad3c; (tag: refs/tags/v2.12.0);Jiangjie.Bai;2021-07-15 19:19:18 +0800;Merge pull request #6464 from jumpserver/dev
+3cd33e9e2; (tag: refs/tags/v2.11.4, tag: refs/tags/v2.11.3);Bai;2021-06-29 12:54:25 +0800;fix: 修复自动生成系统用户密码中包含 {{ 双字符时测试可连接性失败的问题
+c69fe238c; (tag: refs/tags/v2.11.2);Bai;2021-06-22 19:16:07 +0800;fix: 修改翻译信息
+a9b7da3a8; (tag: refs/tags/v2.11.1);Bai;2021-06-18 18:10:04 +0800;fix: 修改获取系统用户认证信息时username的选择逻辑；（单独设置过的系统用户认证信息登录资产失败）
+502657bad; (tag: refs/tags/v2.11.0);Jiangjie.Bai;2021-06-17 12:23:20 +0800;Merge pull request #6294 from jumpserver/dev
+8f63b38a7; (tag: refs/tags/v2.10.4);xinwen;2021-06-04 17:26:34 +0800;fix: 其他组织中创建的用户不要添加到默认组织了
+d183e3ddd; (tag: refs/tags/v2.10.3, tag: refs/tags/v2.10.2);Michael Bai;2021-05-22 17:00:01 +0800;fix: 修复创建/更新用户时密码策略相关的问题
+344c29158; (tag: refs/tags/v2.10.1);ibuler;2021-05-21 15:13:43 +0800;fix(assets): 修复网关信息没有密码的bug
+0380be51d; (tag: refs/tags/v2.10.0);Jiangjie.Bai;2021-05-20 15:02:28 +0800;Merge pull request #6155 from jumpserver/dev
+471cb4553; (tag: refs/tags/v2.9.2);Bai;2021-04-22 18:51:20 +0800;perf: 修改Latest version
+f794b5022; (tag: refs/tags/v2.7.3, refs/remotes/origin/v2.7);Bai;2021-04-20 17:35:13 +0800;fix: 修复操作应用/应用授权/acl等未记录日志的问题3
+87894df12; (tag: refs/tags/v2.9.1);ibuler;2021-04-19 16:59:28 +0800;fix: 修复创建的系统用户很快过期的问题
+d042de7b0; (tag: refs/tags/v2.9.0);Jiangjie.Bai;2021-04-15 21:02:28 +0800;Merge pull request #5972 from jumpserver/dev
+3b9548722; (tag: refs/tags/v2.8.4);xinwen;2021-04-14 10:32:25 +0800;fix: 添加 0069_change_node_key0_to_key1 迁移脚本
+eba7a7288; (tag: refs/tags/v2.8.3);xinwen;2021-04-09 16:11:49 +0800;fix: 修复 test cookie 问题，删掉key=0迁移脚本
+4055306cf; (tag: refs/tags/v2.8.2);ibuler;2021-03-24 10:10:38 +0800;perf: 修改表结构迁移，增加rdp terminal
+043c4a7a0; (tag: refs/tags/v2.8.1);老广;2021-03-19 20:05:29 +0800;Merge pull request #5813 from jumpserver/master
+b32e352b2; (tag: refs/tags/v2.8.0);Jiangjie.Bai;2021-03-18 21:04:37 +0800;Merge pull request #5799 from jumpserver/dev
+3806fd5f4; (tag: refs/tags/v2.7.2);Bai;2021-03-01 16:30:47 +0800;fix: 修改获取org时，thread_local缓存问题
+f4087c9ad; (tag: refs/tags/v2.7.1);xinwen;2021-02-03 14:43:30 +0800;perf: 减少 celery 数量
+66f57fdb2; (tag: refs/tags/v2.7.0);Jiangjie.Bai;2021-01-21 15:56:09 +0800;Merge pull request #5504 from jumpserver/dev
+ee01b4e0f; (tag: refs/tags/v2.6.2);ibuler;2021-01-15 11:15:09 +0800;fix: 修改缩进
+634e3a8e2; (tag: refs/tags/v2.4.5);Bai;2021-01-14 22:38:23 +0800;fix: 修改镜像为mirror-vault源
+043d24a8f; (tag: refs/tags/v2.5.4);ibuler;2021-01-14 10:10:10 +0800;fix: bug
+a802fb792; (tag: refs/tags/v2.6.1);Bai;2020-12-21 16:49:19 +0800;fix: 修复资产导入携带disk_info信息时失败的问题
+3f4877f26; (tag: refs/tags/v2.6.0);Jiangjie.Bai;2020-12-17 18:26:54 +0800;Merge pull request #5295 from jumpserver/dev
+03ff53546; (tag: refs/tags/v2.5.3);ibuler;2020-12-07 10:48:47 +0800;fix: 修复centos的mirror问题
+2aefecec0; (tag: refs/tags/v2.5.2);xinwen;2020-11-26 10:34:27 +0800;perf(User): 用户列表在大规模数据情况下慢
+c6f798d32; (tag: refs/tags/v2.5.1);ibuler;2020-11-22 18:08:37 +0800;perf(build): 优化使用pip mirror
+9685a25dc; (tag: refs/tags/v2.5.0);Jiangjie.Bai;2020-11-18 11:53:12 +0800;Merge pull request #5034 from jumpserver/dev
+19a8a0806; (tag: refs/tags/v2.4.4);xinwen;2020-11-09 17:15:33 +0800;fix(perms): 当用户授权为空时，清空旧的授权树
+10ff7730e; (tag: refs/tags/v2.4.3);xinwen;2020-10-30 12:22:57 +0800;perf(perms): 优化根据资产获取授权的系统用户
+4f70e313b; (tag: refs/tags/v2.4.2);root;2020-10-26 18:32:22 +0800;modify: AttributeError: 'UUID' object has no attribute 'name'
+2c2088954; (tag: refs/tags/v2.4.1);ibuler;2020-10-20 10:45:23 +0800;fix(perms): 修复用户的资产不区分组织的问题
+32fab08ed; (tag: refs/tags/v2.4.0);Jiangjie.Bai;2020-10-15 14:08:36 +0800;Merge pull request #4802 from jumpserver/dev
+9c9261e34; (tag: refs/tags/v2.3.3);xinwen;2020-10-15 11:24:24 +0800;fix(orgs): 修复组织添加用户bug
+8e6e8a0cb; (tag: refs/tags/v2.3.2);ibuler;2020-09-30 12:20:13 +0800;fix: 修复资产列表有时的bug
+cdf3cf3e8; (tag: refs/tags/v2.3.1, tag: refs/tags/v2.3.0);Jiangjie.Bai;2020-09-16 19:55:18 +0800;Merge pull request #4667 from jumpserver/dev
+fdcecb022; (tag: refs/tags/v2.2.3);Bai;2020-09-14 11:38:48 +0800;fix(assets): 修复系统用户导入模版没有密码字段的问题
+502ded6de; (tag: refs/tags/v2.2.2);ibuler;2020-09-01 13:37:16 +0800;ci(Dockerfile): 修改依赖的setuptools版本，导致的ldap无法安装问题
+692dd6c8c; (tag: refs/tags/v2.2.1, tag: refs/tags/v2.2.0);BaiJiangJie;2020-08-20 12:48:19 +0800;Merge pull request #4519 from jumpserver/dev
+37b103872; (tag: refs/tags/v2.1.2);xinwen;2020-07-28 20:28:38 +0800;fix(csv): 修复`JMSCSVParser`调用`serializer`导致循环调用问题
+526babb72; (tag: refs/tags/v2.1.1);ibuler;2020-07-31 19:40:27 +0800;fix(auth): 修复radius decode error的问题
+070af8c49; (tag: refs/tags/v2.1.0);BaiJiangJie;2020-07-16 18:08:44 +0800;fix(radius): 修复radius认证失败问题 (#4342) (#4343)
+7c08582e7; (tag: refs/tags/v2.0.2);ibuler;2020-07-08 16:14:19 +0800;Merge branch 'master' into v2.0
+2acc1dc87; (tag: refs/tags/2.0.1);老广;2020-06-22 19:05:15 +0800;Merge pull request #4134 from jumpserver/fix-mfa-1.5
+92fc0ceb1; (tag: refs/tags/2.0.0);BaiJiangJie;2020-06-18 15:03:32 +0800;Merge pull request #4118 from jumpserver/master
+fb9ac5484; (tag: refs/tags/1.5.9);BaiJiangJie;2020-06-15 13:57:35 +0800;Merge pull request #4103 from jumpserver/master_mfa
+c700b101c; (tag: refs/tags/1.5.8);BaiJiangJie;2020-05-11 16:58:40 +0800;Merge pull request #3988 from jumpserver/master_otp
+600ea4263; (tag: refs/tags/1.5.7);BaiJiangJie;2020-04-13 18:22:23 +0800;Merge pull request #3882 from jumpserver/master_bai
+3cc9e0a66; (tag: refs/tags/1.5.6);BaiJiangJie;2020-02-03 14:25:24 +0800;Merge pull request #3680 from jumpserver/dev
+33dc7dec8; (tag: refs/tags/1.5.5);BaiJiangJie;2019-12-20 10:26:09 +0800;Merge pull request #3554 from jumpserver/master_auth
+eb0558877; (tag: refs/tags/1.5.4);BaiJiangJie;2019-12-04 11:14:43 +0800;Merge pull request #3486 from jumpserver/dev
+f65ee12b1; (tag: refs/tags/1.5.3);BaiJiangJie;2019-10-09 17:32:02 +0800;Merge pull request #3316 from jumpserver/dev
+05818671a; (tag: refs/tags/1.5.2);BaiJiangJie;2019-08-26 11:58:06 +0800;V52 (#3158)
+52d528613; (tag: refs/tags/1.5.1);老广;2019-07-06 16:01:34 +0800;Merge pull request #2893 from jumpserver/dev
+e5185ebd5; (tag: refs/tags/1.5.0);BaiJiangJie;2019-06-03 16:35:58 +0800;Merge pull request #2770 from jumpserver/dev
+a02593095; (tag: refs/tags/v1.4.10, tag: refs/tags/1.4.10);老广;2019-04-30 10:46:28 +0800;Merge pull request #2642 from jumpserver/dev
+8fede58c6; (tag: refs/tags/1.4.9);老广;2019-03-26 11:39:43 +0800;Merge pull request #2456 from jumpserver/dev
+232674b1c; (tag: refs/tags/1.4.8);老广;2019-02-22 17:10:05 +0800;Merge pull request #2423 from jumpserver/dev
+507518da0; (tag: refs/tags/1.4.7);老广;2019-01-29 19:33:06 +0800;Merge pull request #2369 from jumpserver/dev
+3b56027ed; (tag: refs/tags/v1.4.7);老广;2019-01-29 17:45:31 +0800;Merge pull request #2364 from jumpserver/dev
+0e9ebed19; (tag: refs/tags/1.4.6);老广;2018-12-19 13:57:15 +0800;Merge pull request #2214 from jumpserver/dev
+0f61b36bf; (tag: refs/tags/1.4.5);老广;2018-12-12 18:04:27 +0800;Merge pull request #2155 from jumpserver/dev
+69ab3e354; (tag: refs/tags/1.4.4);老广;2018-11-13 15:17:47 +0800;Merge pull request #2028 from jumpserver/dev
+9491827e0; (tag: refs/tags/v1.4.4);老广;2018-11-11 12:04:00 +0800;Merge pull request #2014 from jumpserver/dev
+0665644fd; (tag: refs/tags/1.4.3);老广;2018-10-12 15:33:52 +0800;Merge pull request #1905 from jumpserver/dev
+1341983fd; (tag: refs/tags/1.4.2);老广;2018-10-08 19:13:12 +0800;Merge pull request #1878 from jumpserver/dev
+2a37107ab; (tag: refs/tags/1.4.1);老广;2018-09-11 16:04:18 +0800;Merge pull request #1805 from jumpserver/dev
+d5451a482; (tag: refs/tags/1.4.0);老广;2018-08-06 23:34:35 -0500;Dev (#1646)
+16b23a37f; (tag: refs/tags/1.3.3);老广;2018-07-24 22:09:58 -0500;增加命令导出 (#1566)
+e7a731fae; (tag: refs/tags/1.3.2);老广;2018-06-10 22:33:57 -0500;Merge pull request #1417 from jumpserver/dev
+8470dce80; (tag: refs/tags/1.3.1);老广;2018-05-24 18:58:47 +0800;Merge pull request #1357 from jumpserver/dev
+84003b777; (tag: refs/tags/1.3.0);老广;2018-05-02 10:54:38 +0800;Merge pull request #1283 from jumpserver/dev
+53c532a6a; (tag: refs/tags/1.2.1);老广;2018-04-19 10:49:01 +0800;Merge pull request #1213 from jumpserver/dev
+d2d10b59a; (tag: refs/tags/1.2.0);老广;2018-04-06 13:30:05 +0800;Merge pull request #1175 from jumpserver/dev
+2d10e1305; (tag: refs/tags/1.1.1);老广;2018-04-04 14:05:16 +0800;Merge pull request #1171 from jumpserver/dev
+d2f108eee; (tag: refs/tags/1.1.0);老广;2018-04-02 19:03:51 +0800;Merge pull request #1154 from BaiJiangJie/master
+35ed88113; (tag: refs/tags/1.0.0);老广;2018-03-14 20:03:02 +0800;Merge pull request #1070 from jumpserver/dev
+3533c0101; (tag: refs/tags/0.3.3);老广;2017-12-14 12:03:32 +0800;Update requirements.txt
+a114e173e; (tag: refs/tags/0.3.2-rc2);vincent927;2017-08-07 16:44:11 +0800;修复centos7安装报错-平台不支持 (#603)
+bb7a3ea05; (tag: refs/tags/0.3.2);liuzheng712;2016-04-05 10:53:47 +0800;Merge branch 'master' of github.com:jumpserver/jumpserver
+edad26e05; (tag: refs/tags/0.3.1);ibuler;2016-03-31 00:16:18 +0800;Merge pull request #183 from jumpserver/connect_slow
+d7442b487; (tag: refs/tags/0.3.0-beta);ibuler;2016-03-25 17:36:12 +0800;Update views.py
+e24003df9; (tag: refs/tags/0.2.1);ibuler;2015-12-17 17:12:26 +0800;Update connect.py
+8f7e1bfc3; (tag: refs/tags/0.2.0);ibuler;2015-04-20 22:55:26 +0800;modify readme
+aba3a2222; (tag: refs/tags/0.1.1);ibuler;2014-12-07 21:09:03 +0800;Merge branch 'master' of https://github.com/xxrenzhe/jumpserver
+4444d53c0; (tag: refs/tags/0.1.0);ibuler;2014-08-21 18:19:06 +0800;修改文件权限

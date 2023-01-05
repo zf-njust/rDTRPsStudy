@@ -1,0 +1,92 @@
+b647cc157; (tag: refs/tags/3.0.0dev5);bryevdv;2022-03-03 18:20:23 +0000;Deployment updates for release 3.0.0dev5
+b8b857c1c; (tag: refs/tags/3.0.0dev4);bryevdv;2022-01-27 18:16:08 +0000;Deployment updates for release 3.0.0dev4
+c4815ef00; (tag: refs/tags/3.0.0dev3);mattpap;2022-01-06 19:35:50 +0000;Deployment updates for release 3.0.0dev3
+1a7d0f4c3; (tag: refs/tags/3.0.0dev2);bryevdv;2021-12-09 00:39:53 +0000;Deployment updates for release 3.0.0dev2
+ad33147f5; (tag: refs/tags/2.4.2);bryevdv;2021-11-22 17:23:18 +0000;Deployment updates for release 2.4.2
+6bcda8a0b; (tag: refs/tags/2.4.2rc1);bryevdv;2021-11-19 21:22:26 +0000;Deployment updates for release 2.4.2rc1
+99d1fc017; (tag: refs/tags/2.4.2dev1);bryevdv;2021-11-17 19:06:44 +0000;Deployment updates for release 2.4.2dev1
+831e5d7e7; (tag: refs/tags/3.0.0dev1);mattpap;2021-10-28 20:47:34 +0000;Deployment updates for release 3.0.0dev1
+74ffffb82; (tag: refs/tags/2.4.1);bryevdv;2021-10-13 17:24:16 +0000;Deployment updates for release 2.4.1
+cc4b86ae7; (tag: refs/tags/2.4.1rc1);bryevdv;2021-10-06 22:58:48 +0000;Deployment updates for release 2.4.1rc1
+a3bb60029; (tag: refs/tags/2.4.0);bryevdv;2021-09-15 06:28:31 +0000;Deployment updates for release 2.4.0
+968fc746a; (tag: refs/tags/2.4.0rc3);bryevdv;2021-09-15 01:45:34 +0000;Deployment updates for release 2.4.0rc3
+51e9a3e70; (tag: refs/tags/2.4.0rc2);bryevdv;2021-09-14 21:23:20 +0000;Deployment updates for release 2.4.0rc2
+d01710742; (tag: refs/tags/2.4.0rc1);bryevdv;2021-09-14 15:58:09 +0000;Deployment updates for release 2.4.0rc1
+474deb1cb; (tag: refs/tags/2.4.0dev8);bryevdv;2021-09-08 21:41:39 +0000;Deployment updates for release 2.4.0dev8
+9dd3afc79; (tag: refs/tags/2.4.0dev7);bryevdv;2021-09-04 05:25:37 +0000;Deployment updates for release 2.4.0dev7
+cdc93e2b0; (tag: refs/tags/2.4.0dev6);bryevdv;2021-08-27 20:38:07 +0000;Deployment updates for release 2.4.0dev6
+765e787c8; (tag: refs/tags/2.4.0dev5);bryevdv;2021-08-27 16:52:32 +0000;Deployment updates for release 2.4.0dev5
+1cc98757d; (tag: refs/tags/2.4.0dev4);bryevdv;2021-08-18 03:21:56 +0000;Deployment updates for release 2.4.0dev4
+12532bf9a; (tag: refs/tags/2.4.0dev3);bryevdv;2021-08-10 19:37:30 +0000;Deployment updates for release 2.4.0dev3
+9f7562b7b; (tag: refs/tags/2.4.0dev2);bryevdv;2021-07-26 03:42:46 +0000;Deployment updates for release 2.4.0dev2
+76b8b32af; (tag: refs/tags/2.3.3);bryevdv;2021-07-07 17:51:19 +0000;Deployment updates for release 2.3.3
+557f7a8db; (tag: refs/tags/2.3.3rc1);mattpap;2021-07-05 23:25:57 +0000;Deployment updates for release 2.3.3rc1
+e2485d418; (tag: refs/tags/2.4.0dev1);bryevdv;2021-06-14 05:45:48 +0000;Deployment updates for release 2.4.0dev1
+0b7bd67fc; (tag: refs/tags/2.3.2);bryevdv;2021-05-10 16:40:10 +0000;Deployment updates for release 2.3.2
+de39fa2bc; (tag: refs/tags/2.3.1);bryevdv;2021-04-07 17:50:50 +0000;Deployment updates for release 2.3.1
+04bb30fef; (tag: refs/tags/2.3.0);bryevdv;2021-02-24 17:37:06 +0000;Deployment updates for release 2.3.0
+d3e4f3ab3; (tag: refs/tags/2.2.3);Bryan Van de Ven;2020-10-19 12:17:16 -0700;Deployment updates for release 2.2.3
+49cc036a3; (tag: refs/tags/2.2.2);Bryan Van de Ven;2020-10-12 10:04:12 -0700;Deployment updates for release 2.2.2
+0b9526ef5; (tag: refs/tags/2.2.1);Bryan Van de Ven;2020-08-31 11:40:29 -0700;Deployment updates for release 2.2.1
+009b87275; (tag: refs/tags/2.2.0);Bryan Van de Ven;2020-08-24 08:49:11 -0700;Deployment updates for release 2.2.0
+39a1a60cb; (tag: refs/tags/2.1.1);Bryan Van de Ven;2020-06-22 14:16:53 -0700;Updating for version 2.1.1
+8d8f7e57c; (tag: refs/tags/2.1.0);Bryan Van de Ven;2020-06-14 18:06:24 -0700;Updating for version 2.1.0
+bbe84dcf1; (tag: refs/tags/2.0.2);Bryan Van de Ven;2020-04-21 18:57:35 -0700;Updating for version 2.0.2
+74ed93e5a; (tag: refs/tags/2.0.1);Bryan Van de Ven;2020-03-29 13:06:23 -0700;Updating for version 2.0.1
+cc894fa49; (tag: refs/tags/2.0.0);Bryan Van de Ven;2020-03-08 20:55:28 -0700;Merge branch release_2.0.0
+b19f2c554; (tag: refs/tags/1.4.0);Bryan Van de Ven;2019-11-04 00:25:46 -0500;'Merge branch release_1.4.0'
+de4587452; (tag: refs/tags/1.3.4);Bryan Van de Ven;2019-08-06 20:40:44 -0700;'Merge branch release_1.3.4'
+1ca01c4c2; (tag: refs/tags/1.3.2);Bryan Van de Ven;2019-08-04 13:42:12 -0700;'Merge branch release_1.3.2'
+b61ad4589; (tag: refs/tags/1.3.1);Bryan Van de Ven;2019-07-29 20:01:15 -0700;'Merge branch release_1.3.1'
+96a5c8bb1; (tag: refs/tags/1.3.0);Bryan Van de Ven;2019-07-22 19:18:17 -0700;'Merge branch release_1.3.0'
+9f510bc7c; (tag: refs/tags/1.2.0);Bryan Van de Ven;2019-05-27 22:18:12 -0700;'Merge branch release_1.2.0'
+21e56fcb9; (tag: refs/tags/1.1.0);Bryan Van de Ven;2019-04-08 20:45:12 -0700;'Merge branch release_1.1.0'
+d260c4294; (tag: refs/tags/1.0.4);Bryan Van de Ven;2019-01-09 12:44:49 -0800;'Merge branch release_1.0.4'
+f04830b6a; (tag: refs/tags/1.0.3);Bryan Van de Ven;2018-12-31 12:08:11 -0800;'Merge branch release_1.0.3'
+daf9d511e; (tag: refs/tags/1.0.2);Bryan Van de Ven;2018-11-29 10:58:32 -0800;'Merge branch release_1.0.2'
+201ef74ba; (tag: refs/tags/1.0.1);Bryan Van de Ven;2018-10-31 18:29:53 -0700;'Merge branch release_1.0.1'
+ac92b9f8c; (tag: refs/tags/1.0.0);Bryan Van de Ven;2018-10-24 08:11:47 -0700;'Merge branch release_1.0.0'
+30aea2646; (tag: refs/tags/0.13.0);Bryan Van de Ven;2018-06-20 00:43:18 -0700;'Merge branch release_0.13.0'
+7e4333b0e; (tag: refs/tags/0.12.16);Bryan Van de Ven;2018-05-14 12:52:20 -0700;'Merge branch release_0.12.16'
+2b3390bee; (tag: refs/tags/0.12.15);Bryan Van de Ven;2018-03-29 09:40:51 -0700;'Merge branch release_0.12.15'
+8b336a711; (tag: refs/tags/0.12.14);Bryan Van de Ven;2018-02-07 12:44:36 -0600;'Merge branch release_0.12.14'
+79041cc7c; (tag: refs/tags/0.12.13);Bryan Van de Ven;2017-12-06 16:06:04 -0600;'Merge branch release_0.12.13'
+eb90ea2b3; (tag: refs/tags/0.12.12);Bryan Van de Ven;2017-12-05 16:16:43 -0600;'Merge branch release_0.12.12'
+62d935d41; (tag: refs/tags/0.12.11);Bryan Van de Ven;2017-11-28 11:06:33 -0600;'Merge branch release_0.12.11'
+79ca20476; (tag: refs/tags/0.12.10);Bryan Van de Ven;2017-10-16 10:08:51 -0500;'Merge branch release_0.12.10'
+3010cf2c8; (tag: refs/tags/0.12.9);Bryan Van de Ven;2017-09-12 01:20:06 -0500;'Merge branch release_0.12.9'
+f00f0f2f9; (tag: refs/tags/0.12.7);Bryan Van de Ven;2017-08-28 19:32:21 -0500;'Merge branch release_0.12.7'
+6070bf96d; (tag: refs/tags/0.12.6);Bryan Van de Ven;2017-06-13 09:22:29 -0500;'Merge branch release_0.12.6'
+8f1cfc3b8; (tag: refs/tags/0.12.5);Luke Canavan;2017-04-05 16:01:29 -0300;'Merge branch release_0.12.5'
+760396a6f; (tag: refs/tags/0.12.4);Bryan Van de Ven;2017-01-09 10:17:23 -0600;'Merge branch release_0.12.4'
+03c1e713d; (tag: refs/tags/0.12.3);Bryan Van de Ven;2016-10-07 10:12:46 -0500;Merge branch release_0.12.3
+7336b3b7d; (tag: refs/tags/0.12.2);Luke Canavan;2016-09-06 14:15:25 -0500;Merge branch release_0.12.2
+87905439b; (tag: refs/tags/0.12.1);Bryan Van de Ven;2016-07-28 12:54:20 -0500;Merge branch release_0.12.1
+bc9185360; (tag: refs/tags/0.12.0);Bryan Van de Ven;2016-06-27 18:56:17 -0500;Merge branch release_0.12.0
+64b6b1f2e; (tag: refs/tags/0.11.1);Bryan Van de Ven;2016-02-04 13:10:16 -0600;Merge branch release_0.11.1
+69adee25d; (tag: refs/tags/0.11.0);damianavila;2016-01-06 15:49:41 -0300;Merge branch release_0.11.0
+206172574; (tag: refs/tags/0.10.0);damianavila;2015-09-25 13:03:08 -0300;Merge branch release_0.10.0
+476440b29; (tag: refs/tags/0.9.3);damianavila;2015-08-28 09:05:58 -0300;Merge branch release_0.9.3
+b47193ce7; (tag: refs/tags/0.9.2);damianavila;2015-07-23 16:13:47 -0300;Merge branch release_0.9.2
+80d76fe15; (tag: refs/tags/0.9.1);damianavila;2015-07-03 18:44:40 -0500;Merge branch release_0.9.1
+9f21bc95b; (tag: refs/tags/0.9.0);Damián Avila;2015-05-15 12:32:57 -0300;Merge pull request #2301 from bokeh/release_0.9.0
+da429b96a; (tag: refs/tags/0.8.2);Damián Avila;2015-03-25 18:32:39 -0300;Merge pull request #2101 from bokeh/release_0.8.2
+e99b300fd; (tag: refs/tags/0.8.1);damianavila;2015-02-23 16:38:20 -0300;Updating CHANGELOG and release notes to 0.8.1.
+0b9a07fdb; (tag: refs/tags/0.8.0);damianavila;2015-02-16 18:36:36 -0300;Updating CHANGELOG and release notes to 0.8.0.
+23fb41880; (tag: refs/tags/0.7.1);damianavila;2015-01-12 15:37:38 -0300;Updating CHANGELOG and release notes to 0.7.1.
+430e793ef; (tag: refs/tags/0.7.0);damianavila;2014-12-05 14:09:51 -0300;Updating CHANGELOG and release notes to 0.7.0.
+e6ff2cae6; (tag: refs/tags/0.6.1);damianavila;2014-09-24 21:01:30 -0300;Updating CHANGELOG and release notes to 0.6.1.
+08172e8f7; (tag: refs/tags/0.6.0);damianavila;2014-09-09 16:46:04 -0300;Updating CHANGELOG and release notes to <version>. Also fix a little error in the issues script.
+c476b63af; (tag: refs/tags/0.5.2);damianavila;2014-08-15 09:57:31 -0300;Update CHANGELOG and release notes.
+5ec54b101; (tag: refs/tags/0.5.1);damianavila;2014-07-23 13:23:58 -0300;Update CHANGELOG and release notes for version 0.5.1.
+ae52d6fd5; (tag: refs/tags/0.5.0);Bryan Van de Ven;2014-07-08 13:56:57 -0500;re-updating BokehJS release to 0.5.0
+76ef90c78; (tag: refs/tags/0.4.4);Bryan Van de Ven;2014-04-16 17:36:50 -0500;update bokehjs release to 0.4.4
+6b7c3e741; (tag: refs/tags/0.4.3);Bryan Van de Ven;2014-04-16 09:17:40 -0500;add section on testing to dev guide
+dbce23618; (tag: refs/tags/0.4.2);Bryan Van de Ven;2014-03-10 12:00:11 -0400;quick hack to get mpl plots in the main gallery
+cb4430972; (tag: refs/tags/0.4.1);Peter Wang;2014-02-18 18:01:36 -0600;condensing and rewording a few things in CHANGELOG
+37f438734; (tag: refs/tags/0.4.0);Bryan Van de Ven;2014-02-04 15:46:39 -0600;update release notes
+99a06df37; (tag: refs/tags/0.3.0);Bryan Van de Ven;2013-11-19 14:49:56 -0600;execute notebooks
+ee31e35ed; (tag: refs/tags/0.2.0);Paddy Mullen;2013-10-21 11:11:05 -0400;merged
+2d26511cf; (tag: refs/tags/0.1.1);Peter Wang;2013-09-04 17:12:36 -0500;Adding try..except around glyph examples that require the plot server, to warn if the plot server is not running
+b79734930; (tag: refs/tags/0.1.0);Peter Wang;2013-09-03 17:57:31 -0500;Removing pdb and dead comments
+494db4e99; (tag: refs/tags/0.0.1);Peter Wang;2013-06-03 20:39:21 -0400;Updating pre-built JS files in jsbuild/

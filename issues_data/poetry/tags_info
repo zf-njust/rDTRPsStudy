@@ -1,0 +1,109 @@
+dca6ff26; (tag: refs/tags/1.2.0b1);finswimmer;2022-03-05 22:44:15 +0100;bump to version 1.2.0b1
+68649946; (tag: refs/tags/1.1.13, refs/remotes/origin/1.1);finswimmer;2022-02-10 22:18:00 +0100;remove leading slash when comparing to ${GITHUB_REF} (#5181)
+020fb336; (tag: refs/tags/1.1.12);finswimmer;2021-11-27 09:23:46 +0100;Bump version to 1.1.12
+10d55598; (tag: refs/tags/1.1.11);Sébastien Eustace;2021-10-04 19:30:03 +0200;Bump version to 1.1.11
+ebc5484d; (tag: refs/tags/1.1.10);Sébastien Eustace;2021-09-21 22:21:47 +0200;Bump version to 1.1.10
+69bd6820; (tag: refs/tags/1.1.9);Sébastien Eustace;2021-09-18 12:36:52 +0200;Bump version to 1.1.9
+bce13c14; (tag: refs/tags/1.1.8);Sébastien Eustace;2021-08-19 10:29:58 +0200;Bump version to 1.1.8
+6659a22e; (tag: refs/tags/1.2.0a2);Sébastien Eustace;2021-08-01 00:12:01 +0200;Bump version to 1.2.0a2
+e9312d1a; (tag: refs/tags/1.1.7);Sébastien Eustace;2021-06-25 16:18:10 +0200;Bump version to 1.1.7
+ea92ec14; (tag: refs/tags/1.2.0a1);Sébastien Eustace;2021-04-23 15:17:35 +0200;Bump version to 1.2.0a1
+db3481fa; (tag: refs/tags/1.1.6);Sébastien Eustace;2021-04-09 18:17:12 +0200;Bump version to 1.1.6
+a9704149; (tag: refs/tags/1.1.5);Sébastien Eustace;2021-03-03 21:04:52 +0100;Bump version to 1.1.5
+8312e3f2; (tag: refs/tags/1.1.4);Arun Babu Neelicattu;2020-10-23 22:36:10 +0200;Bump version to 1.1.4
+52d5fff6; (tag: refs/tags/1.1.3);Arun Babu Neelicattu;2020-10-14 17:52:08 +0200;Bump version to 1.1.3
+fe580039; (tag: refs/tags/1.1.2);Arun Babu Neelicattu;2020-10-06 21:27:31 +0200;Bump version to 1.1.2
+c7e00ecb; (tag: refs/tags/1.1.1);Arun Babu Neelicattu;2020-10-05 11:14:19 +0200;Bump version to 1.1.1
+539d7f73; (tag: refs/tags/1.1.0);Sébastien Eustace;2020-10-01 00:28:18 +0200;Bump version to 1.1.0
+824e7b79; (tag: refs/tags/1.1.0rc1);Sébastien Eustace;2020-09-25 16:53:46 +0200;Bump version to 1.1.0rc1
+eccff451; (tag: refs/tags/1.1.0b4);Arun Babu Neelicattu;2020-09-23 00:19:41 +0200;Bump version to 1.1.0b4
+8b11f9c4; (tag: refs/tags/1.1.0b3);Sébastien Eustace;2020-09-18 18:09:08 +0200;Bump version to 1.1.0b3
+7887ec23; (tag: refs/tags/1.1.0b2);Sébastien Eustace;2020-07-24 19:14:23 +0200;Bump version to 1.1.0b2
+81516476; (tag: refs/tags/1.1.0b1);Sébastien Eustace;2020-07-24 17:39:20 +0200;Bump version to 1.1.0b1
+d3c9049a; (tag: refs/tags/1.0.10);Sébastien Eustace;2020-07-21 23:06:40 +0200;Bump version to 1.0.10
+a50d87db; (tag: refs/tags/1.1.0a3);Sébastien Eustace;2020-07-10 10:34:11 +0200;Bump version to 1.1.0a3
+549f8659; (tag: refs/tags/1.1.0a2);Sébastien Eustace;2020-06-26 17:29:18 +0200;Bump version to 1.1.0a2
+1d64e1c7; (tag: refs/tags/1.0.9);Sébastien Eustace;2020-06-09 21:02:33 +0200;Bump version to 1.0.9
+6f9d6b0e; (tag: refs/tags/1.0.8);Sébastien Eustace;2020-06-05 19:38:09 +0200;Bump version to 1.0.8
+cb866bff; (tag: refs/tags/1.0.7);Sébastien Eustace;2020-06-05 16:27:56 +0200;Bump version to 1.0.7
+288c4215; (tag: refs/tags/1.0.6);Sébastien Eustace;2020-06-05 15:37:49 +0200;Bump version to 1.0.6
+d00222aa; (tag: refs/tags/1.1.0a1);Sébastien Eustace;2020-03-27 23:13:42 +0100;Update the change log
+754dbf80; (tag: refs/tags/1.0.5);Sébastien Eustace;2020-02-29 18:57:17 +0100;Bump version to 1.0.5 (#2112)
+bb9582c9; (tag: refs/tags/1.0.4);Sébastien Eustace;2020-02-28 20:04:02 +0100;Fix release script (#2104)
+ed443425; (tag: refs/tags/1.0.3);Sébastien Eustace;2020-01-31 18:18:34 +0100;Bump version to 1.0.3 (#1966)
+636ce8b0; (tag: refs/tags/1.0.2);Sébastien Eustace;2020-01-10 15:36:54 +0100;Bump version to 1.0.2 (#1866)
+01ec4a16; (tag: refs/tags/1.0.1);Sébastien Eustace;2020-01-10 13:24:21 +0100;Bump version to 1.0.1 (#1860)
+794dac59; (tag: refs/tags/1.0.0);Sébastien Eustace;2019-12-12 21:01:57 +0100;Bump version to 1.0.0 (#1718)
+e943a4e1; (tag: refs/tags/1.0.0b9);Sébastien Eustace;2019-12-06 18:58:43 +0100;Bump version to 1.0.0b9 (#1687)
+a7188a13; (tag: refs/tags/1.0.0b8);Sébastien Eustace;2019-11-26 19:38:45 +0100;Bump version to 1.0.0b8
+c77b4425; (tag: refs/tags/1.0.0b7);Sébastien Eustace;2019-11-22 17:21:43 +0100;Bump version to 1.0.0b7
+8131859a; (tag: refs/tags/1.0.0b6);Sébastien Eustace;2019-11-20 22:40:36 +0100;Fix release workflow
+481d81db; (tag: refs/tags/1.0.0b5);Sébastien Eustace;2019-11-15 10:35:09 +0100;Bump version to 1.0.0b5
+51c70421; (tag: refs/tags/1.0.0b4);Sébastien Eustace;2019-11-08 14:56:25 +0100;Bump version to 1.0.0b4
+9addba4d; (tag: refs/tags/1.0.0b3);Sébastien Eustace;2019-10-25 16:41:31 +0200;Bump version to 1.0.0b3
+21ed84ed; (tag: refs/tags/1.0.0b2);Sébastien Eustace;2019-10-11 17:06:37 +0200;Bump version to 1.0.0b2
+1caf20a2; (tag: refs/tags/1.0.0b1);Sébastien Eustace;2019-08-09 16:26:07 +0200;Bump version 1.0.0b1
+442ff521; (tag: refs/tags/1.0.0a5);Sébastien Eustace;2019-07-15 23:18:21 +0200;Fix build scripts
+7699a83a; (tag: refs/tags/0.12.17);Sébastien Eustace;2019-07-03 21:57:35 +0200;Bump version to 0.12.17
+0857f325; (tag: refs/tags/1.0.0a4);Sébastien Eustace;2019-06-11 17:40:53 -0500;Bump version to 1.0.0a4
+9247a8c5; (tag: refs/tags/1.0.0a3);Sébastien Eustace;2019-05-26 21:00:41 +0200;Bump version to 1.0.0a3
+1aa1ab29; (tag: refs/tags/0.12.16);Sébastien Eustace;2019-05-17 10:49:05 +0200;Bump version to 0.12.16
+cb649141; (tag: refs/tags/0.12.15);Sébastien Eustace;2019-05-03 15:35:34 +0200;Bump version to 0.12.15
+2d27acd7; (tag: refs/tags/0.12.14);Sébastien Eustace;2019-04-26 20:53:16 +0200;Bump version to 0.12.14
+b8e5361c; (tag: refs/tags/0.12.13);Sébastien Eustace;2019-04-26 14:08:33 +0200;Bump version to 0.12.13
+e57e4ac8; (tag: refs/tags/0.12.12);Sébastien Eustace;2019-04-11 21:52:52 +0200;Bump version to 0.12.12
+df59c3d4; (tag: refs/tags/1.0.0a2);Sébastien Eustace;2019-01-14 22:32:29 +0100;Bump version to 1.0.0a2
+3dd09c2c; (tag: refs/tags/0.12.11);Sébastien Eustace;2019-01-13 22:22:51 +0100;Bump version to 0.12.11
+a51d6642; (tag: refs/tags/1.0.0a1);Sébastien Eustace;2018-12-08 13:58:48 -0500;Bump version to 1.0.0a1
+a1048974; (tag: refs/tags/1.0.0a0);Sébastien Eustace;2018-12-07 21:26:52 -0500;Bump version to 1.0.0a0
+22887cff; (tag: refs/tags/0.12.10);Sébastien Eustace;2018-11-22 17:11:54 -0500;Bump version to 0.12.10
+be8425d1; (tag: refs/tags/0.12.9);Sébastien Eustace;2018-11-19 15:36:42 -0500;Bump version to 0.12.9
+f597d1fc; (tag: refs/tags/0.12.8);Sébastien Eustace;2018-11-13 13:03:33 -0500;Bump version to 0.12.8
+9d36018f; (tag: refs/tags/0.12.7);Sébastien Eustace;2018-11-08 17:53:43 -0500;Bump version to 0.12.7
+713b813f; (tag: refs/tags/0.12.6);Sébastien Eustace;2018-11-05 14:14:30 -0500;Bump version to 0.12.6
+120f8cda; (tag: refs/tags/0.12.5);Sébastien Eustace;2018-10-26 11:02:27 -0500;Bump version to 0.12.5
+62fc038d; (tag: refs/tags/0.12.4);Sébastien Eustace;2018-10-21 11:23:17 -0500;Bump version to 0.12.4
+611c38b5; (tag: refs/tags/0.12.3);Sébastien Eustace;2018-10-18 18:46:14 -0500;Bump version to 0.12.3
+475c6572; (tag: refs/tags/0.12.2);Sébastien Eustace;2018-10-17 16:44:20 -0500;Bump version to 0.12.2
+9b6d618a; (tag: refs/tags/0.12.1);Sébastien Eustace;2018-10-17 16:14:07 -0500;Bump version to 0.12.1
+2f2cec03; (tag: refs/tags/0.12.0);Sébastien Eustace;2018-10-17 14:09:30 -0500;Bump version to 0.12.0
+1cc05e18; (tag: refs/tags/0.12.0a5);Sébastien Eustace;2018-10-16 16:29:08 -0500;Bump version to 0.12.0a5
+9e98dc72; (tag: refs/tags/0.12.0a4);Sébastien Eustace;2018-10-16 15:53:37 -0500;Bump version to 0.12.0a4
+481bb7dd; (tag: refs/tags/0.12.0a3);Sébastien Eustace;2018-10-07 18:48:03 -0500;Bump version to 0.12.0a3
+11b6f91c; (tag: refs/tags/0.12.0a2);Sébastien Eustace;2018-09-18 15:31:39 -0500;Bump version to 0.12.0a2
+9f41af55; (tag: refs/tags/0.12.0a1);Sébastien Eustace;2018-09-13 17:29:20 -0500;Bump version to 0.12.0a1
+76f2f70d; (tag: refs/tags/0.12.0a0);Sébastien Eustace;2018-09-13 14:51:13 -0500;Update version to 0.12.0a0
+9d87b562; (tag: refs/tags/0.11.5);Sébastien Eustace;2018-09-04 16:56:08 +0200;Bump version to 0.11.5
+a1b97707; (tag: refs/tags/0.11.4);Sébastien Eustace;2018-07-30 13:14:50 -0500;Bump version to 0.11.4
+ceb48cd7; (tag: refs/tags/0.11.3);Sébastien Eustace;2018-07-26 16:00:53 -0500;Bump version to 0.11.3
+1b7492e5; (tag: refs/tags/0.11.2);Sébastien Eustace;2018-07-03 17:28:56 -0500;Bump version to 0.11.2
+86d76e30; (tag: refs/tags/0.11.1);Sébastien Eustace;2018-06-29 11:39:39 -0500;Bump version to 0.11.1
+3b046769; (tag: refs/tags/0.11.0);Sébastien Eustace;2018-06-28 18:37:26 -0500;Bump version to 0.11.0
+a5186e60; (tag: refs/tags/0.10.3);Sébastien Eustace;2018-06-04 15:59:34 -0500;Bump version to 0.10.3
+8e3692cd; (tag: refs/tags/0.10.2);Sébastien Eustace;2018-05-31 17:09:15 -0500;Bump version to 0.10.2
+0e0a2612; (tag: refs/tags/0.10.1);Sébastien Eustace;2018-05-28 20:57:43 -0500;Bump version to 0.10.1
+1ec6a025; (tag: refs/tags/0.10.0);Sébastien Eustace;2018-05-28 12:07:18 -0500;Bump version to 0.10.0
+3240acce; (tag: refs/tags/0.9.1);Sébastien Eustace;2018-05-18 16:58:07 -0500;Bump version to 0.9.1
+87c4aaf9; (tag: refs/tags/0.9.0);Sébastien Eustace;2018-05-07 12:04:02 -0500;Bump version to 0.9.0
+4829967a; (tag: refs/tags/0.8.6);Sébastien Eustace;2018-04-30 10:56:49 -0500;Bump version to 0.8.6
+8708540f; (tag: refs/tags/0.8.5);Sébastien Eustace;2018-04-19 13:52:23 -0500;Bump version to 0.8.5
+781a1f68; (tag: refs/tags/0.8.4);Sébastien Eustace;2018-04-18 15:44:52 -0500;Bump version to 0.8.4
+50673f37; (tag: refs/tags/0.8.3);Sébastien Eustace;2018-04-16 11:43:27 -0500;Bump version to 0.8.3
+05c2964d; (tag: refs/tags/0.8.2);Sébastien Eustace;2018-04-14 18:34:33 -0500;Bump version to 0.8.2
+c799b4a5; (tag: refs/tags/0.8.1);Sébastien Eustace;2018-04-13 18:08:33 -0500;Bump version to 0.8.1
+f05d2951; (tag: refs/tags/0.8.0);Sébastien Eustace;2018-04-13 16:43:04 -0500;Bump version to 0.8.0
+c8858956; (tag: refs/tags/0.7.1);Sébastien Eustace;2018-04-05 15:38:02 -0500;Bump version to 0.7.1
+2fee2b29; (tag: refs/tags/0.7.0);Sébastien Eustace;2018-04-04 13:53:00 -0500;Bump version to 0.7.0
+1a780975; (tag: refs/tags/0.6.5);Sébastien Eustace;2018-03-22 15:42:00 -0500;Bump version to 0.6.5
+16d49d10; (tag: refs/tags/0.6.4);Sébastien Eustace;2018-03-21 16:22:33 -0500;Bump version to 0.6.4
+be2e0540; (tag: refs/tags/0.6.3);Sébastien Eustace;2018-03-20 17:10:30 -0500;Bump version to 0.6.3
+8d84573f; (tag: refs/tags/0.6.2);Sébastien Eustace;2018-03-19 15:03:33 -0500;Bump version to 0.6.2
+d27e5040; (tag: refs/tags/0.6.1);Sébastien Eustace;2018-03-18 12:51:19 -0500;Bump version to 0.6.1
+cde1d16d; (tag: refs/tags/0.6.0);Sébastien Eustace;2018-03-16 18:08:12 -0500;Bump version to 0.6.0
+29264bcb; (tag: refs/tags/0.5.0);Sébastien Eustace;2018-03-14 13:52:32 -0500;Bump version to 0.5.0
+e80348e1; (tag: refs/tags/0.4.2);Sébastien Eustace;2018-03-10 12:45:14 -0500;Update pyproject.toml
+90259c62; (tag: refs/tags/0.4.1);Sébastien Eustace;2018-03-08 16:20:04 -0500;Bump version to 0.4.1
+ff43f6a7; (tag: refs/tags/0.4.0);Sébastien Eustace;2018-03-08 16:06:07 -0500;Fix credentials retrieval for PyPI
+8f764c2b; (tag: refs/tags/0.3.0);Sébastien Eustace;2018-03-05 10:39:46 -0500;Bump version to 0.3.0
+770981db; (tag: refs/tags/0.2.0);Sébastien Eustace;2018-03-01 13:42:36 -0500;Update CHANGELOG
+f291da83; (tag: refs/tags/0.1.0);Sébastien Eustace;2018-02-28 10:13:48 -0500;Update .gitignore

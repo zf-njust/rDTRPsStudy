@@ -1,0 +1,30 @@
+0b40625; (tag: refs/tags/2.0.2);Audrey Roy Greenfeld;2021-12-27 10:28:18 -0800;Update 2.0.2 release notes
+bb643eb; (tag: refs/tags/2.0.1);Audrey Roy Greenfeld;2021-12-11 11:02:55 -0800;Merge pull request #1620 from cookiecutter/1555-go-through-pypi-checklist
+1c0b5b1; (tag: refs/tags/2.0.0a0);Fabio Todaro;2021-06-14 14:23:29 +0200;Merge pull request #1568 from SharpEdgeMarshall/fix_release_drafter
+985b982; (tag: refs/tags/1.7.3);Sorin Sbarnea;2021-05-14 10:46:22 +0100;Backport pip-publish workflow (#1553)
+7a5f253; (tag: refs/tags/1.7.2);Andrey Shpak;2020-04-21 06:26:51 +0300;Release 1.7.2
+b943abf; (tag: refs/tags/1.7.1);Andrey Shpak;2020-04-21 01:24:38 +0300;Release 1.7.1
+1ac5a42; (tag: refs/tags/1.7.0);Andrey Shpak;2019-12-22 15:31:16 +0300;History and authors update
+17ae80d; (tag: refs/tags/1.6.0);Raphael Pierzina;2017-10-15 17:21:07 +0200;Bump version: 1.5.1 → 1.6.0
+1e8140e; (tag: refs/tags/1.5.1);Raphael Pierzina;2017-02-04 17:57:02 +0000;Bump version: 1.5.0 → 1.5.1
+f09ad34; (tag: refs/tags/1.5.0);Raphael Pierzina;2016-12-18 21:17:48 +0000;Update release date in HISTORY.rst
+5baa870; (tag: refs/tags/1.4.0);Raphael Pierzina;2016-03-20 16:31:15 +0000;Bump version: 1.3.0 → 1.4.0
+69e0fb6; (tag: refs/tags/1.3.0);Raphael Pierzina;2015-11-10 23:47:32 +0100;Bump version: 1.2.1 → 1.3.0
+a2822cb; (tag: refs/tags/1.2.1);Daniel Roy Greenfeld;2015-10-18 15:07:34 -0700;Change to 1.2.1 because PyPI
+1b849e3; (tag: refs/tags/1.1.0);Daniel Roy Greenfeld;2015-09-26 14:38:06 -0700;Release 1.1.0
+3eddbbd; (tag: refs/tags/1.0.0);Daniel Greenfeld;2015-03-16 08:49:03 -0400;Update history and bump to 1.0
+a057b2c; (tag: refs/tags/0.9e.1, tag: refs/tags/0.9.1);Jace Browning;2015-01-20 09:40:31 -0500;Merged @jacebrowning's json fix into 0.9.0
+376316c; (tag: refs/tags/0.9.0);Michael Joseph;2014-11-17 09:10:56 +0200;Merge pull request #331 from hackebrot/hackebrot-fix-duplicate-author-mention
+782aa5a; (tag: refs/tags/0.8.0);Daniel Greenfeld;2014-10-29 18:32:51 -0700;Add mock as a dependency because it's part of compat.py
+58b318d; (tag: refs/tags/0.7.2);Audrey Roy;2014-08-05 19:17:49 -0700;Release 0.7.2
+738c44c; (tag: refs/tags/0.7.1);Audrey Roy;2014-04-26 16:17:35 -0700;Release 0.7.1
+86de05c; (tag: refs/tags/0.7.0);Audrey Roy;2013-11-07 21:01:13 -0800;Typo fix.
+51a0171; (tag: refs/tags/0.6.4);Audrey Roy;2013-08-21 12:33:41 +0200;Release 0.6.4. Officially support Windows.
+625c118; (tag: refs/tags/0.6.3);Audrey Roy;2013-08-20 12:33:25 +0200;Release 0.6.3.
+03f22f2; (tag: refs/tags/0.6.2);Audrey Roy;2013-08-19 23:55:03 +0200;Tests for passing in a repo arg.
+a67cb2c; (tag: refs/tags/0.6.1);Audrey Roy;2013-08-12 14:57:35 +0200;Release 0.6.1
+4299379; (tag: refs/tags/0.6.0);Audrey Roy;2013-08-08 12:46:04 +0200;Release 0.6.0.
+27e193d; (tag: refs/tags/0.5);Audrey Roy;2013-07-28 16:29:43 +0200;Release 0.5.
+5a58891; (tag: refs/tags/0.4);Audrey Roy;2013-07-22 00:28:11 +0200;Don't accept output_dir arg anymore.
+0d5c16f; (tag: refs/tags/0.3);Audrey Roy;2013-07-17 11:30:45 +0200;Release 0.3.
+76f9450; (tag: refs/tags/0.2.1);Audrey Roy;2013-07-17 01:21:22 +0200;Release 0.2.1 fixes.

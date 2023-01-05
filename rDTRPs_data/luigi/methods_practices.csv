@@ -1,0 +1,310 @@
+luigi,file,method,params,startlineno,endlineno,type,lineno
+luigi,luigi\scheduler.py,dump,self,471,478,argument,476
+luigi,luigi\date_interval.py,__init__,"self, y, m, d",167,170,reference,170
+luigi,luigi\date_interval.py,__init__,"self, y, w",191,201,reference,195
+luigi,luigi\date_interval.py,__init__,"self, y, w",191,201,reference,196
+luigi,luigi\date_interval.py,__init__,"self, y, w",191,201,reference,200
+luigi,luigi\date_interval.py,__init__,"self, y, w",191,201,reference,201
+luigi,luigi\date_interval.py,__init__,"self, y, w",191,201,reference,201
+luigi,luigi\execution_summary.py,_get_external_workers,worker,358,373,reference,370
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,182
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,183
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,186
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,192
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,201
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,213
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,216
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,218
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,220
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,reference,221
+luigi,luigi\execution_summary.py,_get_str,"task_dict, extra_indent",165,222,getattr,194
+luigi,luigi\interface.py,_schedule_and_run,"tasks, worker_scheduler_factory=None, override_defaults=None",129,176,reference,162
+luigi,luigi\interface.py,create_remote_scheduler,"self, url",121,122,reference,122
+luigi,luigi\local_target.py,__init__,"self, path=None, format=None, is_tmp=False",134,144,reference,138
+luigi,luigi\local_target.py,__init__,"self, path=None, format=None, is_tmp=False",134,144,reference,142
+luigi,luigi\parameter.py,serialize,"self, dt",530,536,reference,536
+luigi,luigi\parameter.py,parse,"self, s",524,528,reference,528
+luigi,luigi\parameter.py,serialize,"self, dt",379,385,reference,385
+luigi,luigi\parameter.py,normalize,"self, dt",544,557,reference,556
+luigi,luigi\parameter.py,_value_iterator,"self, task_name, param_name",212,228,reference,221
+luigi,luigi\parameter.py,_value_iterator,"self, task_name, param_name",212,228,getattr,221
+luigi,luigi\parameter.py,parse,"self, s",373,377,reference,377
+luigi,luigi\rpc.py,__init__,"self, url='http://localhost:8082/', connect_timeout=None",105,124,reference,106
+luigi,luigi\rpc.py,__init__,"self, url='http://localhost:8082/', connect_timeout=None",105,124,reference,110
+luigi,luigi\scheduler.py,add_task_batcher,"self, worker, task_family, batched_args, max_batch_size=float('inf')",790,792,reference,792
+luigi,luigi\scheduler.py,add_worker,"self, worker, info, **kwargs",981,983,reference,983
+luigi,luigi\target.py,exists,self,242,252,reference,252
+luigi,luigi\task_register.py,_editdistance,"a, b",198,213,reference,205
+luigi,luigi\task_register.py,_editdistance,"a, b",198,213,reference,209
+luigi,luigi\task_register.py,_editdistance,"a, b",198,213,reference,209
+luigi,luigi\task_register.py,_editdistance,"a, b",198,213,reference,211
+luigi,luigi\task_register.py,_editdistance,"a, b",198,213,reference,213
+luigi,luigi\worker.py,__init__,"self, scheduler=None, worker_id=None, worker_processes='1', assistant=False, **kwargs",523,571,reference,537
+luigi,luigi\worker.py,_announce_scheduling_failure,"self, task, expl",667,680,reference,670
+luigi,luigi\worker.py,_add_task_batcher,"self, task",783,795,reference,790
+luigi,luigi\worker.py,_add,"self, task, is_complete",797,881,reference,869
+luigi,luigi\worker.py,_add_worker,self,896,898,reference,898
+luigi,luigi\worker.py,_handle_next_task,self,1054,1122,reference,1093
+luigi,luigi\worker.py,_get_work,self,947,999,reference,954
+luigi,luigi\worker.py,_get_work,self,947,999,reference,961
+luigi,luigi\worker.py,_get_work,self,947,999,reference,967
+luigi,luigi\worker.py,_get_work,self,947,999,reference,968
+luigi,luigi\worker.py,_get_work,self,947,999,reference,971
+luigi,luigi\worker.py,_get_work,self,947,999,reference,971
+luigi,luigi\worker.py,_get_work,self,947,999,reference,972
+luigi,luigi\worker.py,_get_work,self,947,999,reference,981
+luigi,luigi\worker.py,_get_work,self,947,999,reference,985
+luigi,luigi\worker.py,_get_work,self,947,999,reference,988
+luigi,luigi\worker.py,_get_work,self,947,999,reference,991
+luigi,luigi\worker.py,_get_work,self,947,999,reference,992
+luigi,luigi\worker.py,_handle_task_load_error,"self, exception, task_ids",722,735,reference,723
+luigi,luigi\worker.py,_handle_task_load_error,"self, exception, task_ids",722,735,reference,727
+luigi,luigi\worker.py,_handle_task_load_error,"self, exception, task_ids",722,735,reference,729
+luigi,luigi\worker.py,_get_work_task_id,"self, get_work_response",919,945,reference,935
+luigi,luigi\worker.py,_keep_alive,"self, get_work_response",1133,1161,reference,1160
+luigi,luigi\worker.py,_create_task_process,"self, task",1021,1031,reference,1023
+luigi,luigi\worker.py,_create_task_process,"self, task",1021,1031,reference,1027
+luigi,luigi\worker.py,__init__,"self, scheduler, task_id, worker_id, scheduler_messages",303,307,reference,305
+luigi,luigi\configuration\toml_parser.py,read,"self, config_paths",49,54,reference,54
+luigi,luigi\configuration\toml_parser.py,__getitem__,"self, name",84,85,reference,85
+luigi,luigi\contrib\batch.py,get_job_status,"self, job_id",115,130,reference,126
+luigi,luigi\contrib\batch.py,wait_on_job,"self, job_id",153,174,reference,158
+luigi,luigi\contrib\batch.py,wait_on_job,"self, job_id",153,174,reference,161
+luigi,luigi\contrib\batch.py,wait_on_job,"self, job_id",153,174,reference,164
+luigi,luigi\contrib\batch.py,wait_on_job,"self, job_id",153,174,reference,167
+luigi,luigi\contrib\batch.py,wait_on_job,"self, job_id",153,174,reference,174
+luigi,luigi\contrib\beam_dataflow.py,_format_input_args,self,379,445,reference,436
+luigi,luigi\contrib\bigquery.py,run,self,739,778,reference,763
+luigi,luigi\contrib\bigquery.py,run,self,739,778,reference,769
+luigi,luigi\contrib\bigquery.py,run,self,739,778,reference,771
+luigi,luigi\contrib\bigquery.py,run,self,739,778,reference,773
+luigi,luigi\contrib\bigquery.py,run,self,610,643,reference,614
+luigi,luigi\contrib\datadog_metric.py,_send_gauge,"self, metric_name, value, tags=[]",96,101,reference,101
+luigi,luigi\contrib\datadog_metric.py,_send_increment,"self, metric_name, value='1', tags=[]",103,108,reference,108
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,153
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,158
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,161
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,162
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,163
+luigi,luigi\contrib\docker_runner.py,__init__,"self, *args, **kwargs",122,168,reference,164
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,183
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,185
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,230
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,231
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,236
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,193
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,199
+luigi,luigi\contrib\docker_runner.py,run,self,170,249,reference,200
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,428
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,431
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,479
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,481
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,494
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,495
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,498
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,500
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,501
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,518
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,524
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,531
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,533
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,536
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,538
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,547
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,550
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,552
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,562
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,571
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,577
+luigi,luigi\contrib\hadoop.py,run_job,"self, job, tracking_url_callback=None",423,585,reference,581
+luigi,luigi\contrib\lsf.py,fetch_task_failures,self,119,129,reference,129
+luigi,luigi\contrib\lsf.py,_track_job,self,285,336,reference,305
+luigi,luigi\contrib\lsf.py,_track_job,self,285,336,reference,325
+luigi,luigi\contrib\lsf.py,fetch_task_output,self,131,141,reference,141
+luigi,luigi\contrib\mrrunner.py,main,"args=None, stdin=sys.stdin, stdout=sys.stdout, print_exception=print_exception",80,97,reference,93
+luigi,luigi\contrib\mrrunner.py,run,"self, kind, stdin=sys.stdin, stdout=sys.stdout",53,61,reference,55
+luigi,luigi\contrib\mrrunner.py,run,"self, kind, stdin=sys.stdin, stdout=sys.stdout",53,61,reference,57
+luigi,luigi\contrib\mrrunner.py,run,"self, kind, stdin=sys.stdin, stdout=sys.stdout",53,61,reference,59
+luigi,luigi\contrib\mysqldb.py,run,self,207,246,reference,215
+luigi,luigi\contrib\postgres.py,output,self,382,395,reference,395
+luigi,luigi\contrib\postgres.py,copy,"self, cursor, file",284,291,reference,291
+luigi,luigi\contrib\rdbms.py,_add_metadata_columns,"self, connection",102,113,reference,112
+luigi,luigi\contrib\rdbms.py,create_table,"self, connection",201,219,reference,218
+luigi,luigi\contrib\redshift.py,does_table_exist,"self, connection",445,464,reference,450
+luigi,luigi\contrib\redshift.py,does_table_exist,"self, connection",445,464,reference,460
+luigi,luigi\contrib\redshift.py,_credentials,self,100,118,reference,111
+luigi,luigi\contrib\redshift.py,_credentials,self,100,118,reference,111
+luigi,luigi\contrib\redshift.py,_credentials,self,100,118,reference,113
+luigi,luigi\contrib\redshift.py,_credentials,self,100,118,reference,114
+luigi,luigi\contrib\redshift.py,does_schema_exist,"self, connection",424,443,reference,429
+luigi,luigi\contrib\redshift.py,does_schema_exist,"self, connection",424,443,reference,438
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,471
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,475
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,482
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,486
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,486
+luigi,luigi\contrib\redshift.py,init_copy,"self, connection",466,487,reference,486
+luigi,luigi\contrib\redshift.py,create_schema,"self, connection",283,291,reference,287
+luigi,luigi\contrib\redshift.py,create_schema,"self, connection",283,291,reference,290
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,304
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,309
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,314
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,318
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,319
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,324
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,325
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,327
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,331
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,338
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,342
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,343
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,348
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,349
+luigi,luigi\contrib\redshift.py,create_table,"self, connection",293,357,reference,351
+luigi,luigi\contrib\redshift.py,truncate_table,"self, connection",267,273,reference,268
+luigi,luigi\contrib\redshift.py,truncate_table,"self, connection",267,273,reference,271
+luigi,luigi\contrib\redshift.py,prune,"self, connection",275,281,reference,276
+luigi,luigi\contrib\redshift.py,prune,"self, connection",275,281,reference,276
+luigi,luigi\contrib\redshift.py,prune,"self, connection",275,281,reference,276
+luigi,luigi\contrib\redshift.py,copy,"self, cursor, f",386,407,reference,394
+luigi,luigi\contrib\redshift.py,copy,"self, cursor, f",386,407,reference,394
+luigi,luigi\contrib\redshift.py,copy,"self, cursor, f",386,407,reference,395
+luigi,luigi\contrib\redshift.py,copy,"self, cursor, f",386,407,reference,403
+luigi,luigi\contrib\redshift.py,copy,"self, cursor, f",386,407,reference,407
+luigi,luigi\contrib\redshift.py,output,self,792,804,reference,799
+luigi,luigi\contrib\redshift.py,output,self,792,804,reference,800
+luigi,luigi\contrib\redshift.py,output,self,792,804,reference,801
+luigi,luigi\contrib\redshift.py,output,self,792,804,reference,802
+luigi,luigi\contrib\redshift.py,output,self,792,804,reference,803
+luigi,luigi\contrib\s3.py,listdir,"self, path, start_time=None, end_time=None, return_key=False",464,495,reference,479
+luigi,luigi\contrib\s3.py,listdir,"self, path, start_time=None, end_time=None, return_key=False",464,495,reference,480
+luigi,luigi\contrib\s3.py,isdir,"self, path",414,444,reference,440
+luigi,luigi\contrib\s3.py,_copy_dir,"self, source_path, destination_path, threads=DEFAULT_THREADS, start_time=None, end_time=None, part_size=DEFAULT_PART_SIZE, **kwargs",343,381,reference,353
+luigi,luigi\contrib\s3.py,_copy_dir,"self, source_path, destination_path, threads=DEFAULT_THREADS, start_time=None, end_time=None, part_size=DEFAULT_PART_SIZE, **kwargs",343,381,reference,364
+luigi,luigi\contrib\s3.py,_copy_dir,"self, source_path, destination_path, threads=DEFAULT_THREADS, start_time=None, end_time=None, part_size=DEFAULT_PART_SIZE, **kwargs",343,381,reference,368
+luigi,luigi\contrib\s3.py,mkdir,"self, path, parents=True, raise_if_exists=False",448,462,reference,459
+luigi,luigi\contrib\s3.py,mkdir,"self, path, parents=True, raise_if_exists=False",448,462,reference,462
+luigi,luigi\contrib\salesforce.py,parse_results,"fields, data",59,77,reference,70
+luigi,luigi\contrib\salesforce.py,parse_results,"fields, data",59,77,reference,74
+luigi,luigi\contrib\salesforce.py,parse_results,"fields, data",59,77,reference,76
+luigi,luigi\contrib\salesforce.py,_traverse_results,"value, fields, row, path",80,94,reference,91
+luigi,luigi\contrib\salesforce.py,_traverse_results,"value, fields, row, path",80,94,reference,94
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,357
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,348
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,350
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,353
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,353
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,354
+luigi,luigi\contrib\sqla.py,create_table,"self, engine",318,357,reference,355
+luigi,luigi\contrib\hdfs\clients.py,get_autoconfig_client,client_cache=_AUTOCONFIG_CLIENT,36,57,reference,44
+luigi,luigi\contrib\hdfs\clients.py,get_autoconfig_client,client_cache=_AUTOCONFIG_CLIENT,36,57,reference,46
+luigi,luigi\contrib\hdfs\clients.py,get_autoconfig_client,client_cache=_AUTOCONFIG_CLIENT,36,57,reference,48
+luigi,luigi\contrib\hdfs\clients.py,get_autoconfig_client,client_cache=_AUTOCONFIG_CLIENT,36,57,reference,53
+luigi,luigi\contrib\hdfs\config.py,tmppath,"path=None, include_unix_username=True",102,144,reference,144
+luigi,luigi\tools\range.py,requires,self,208,253,reference,228
+luigi,luigi\tools\range.py,requires,self,208,253,reference,228
+luigi,luigi\tools\range.py,requires,self,208,253,reference,228
+luigi,luigi\tools\range.py,requires,self,208,253,reference,228
+luigi,luigi\tools\range.py,requires,self,208,253,reference,240
+luigi,luigi\tools\range.py,requires,self,208,253,reference,240
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,472
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,474
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,475
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,476
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,477
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,482
+luigi,luigi\tools\range.py,finite_datetimes,"self, finite_start, finite_stop",462,485,reference,484
+luigi,luigi\tools\range.py,_emit_metrics,"self, missing_datetimes, finite_start, finite_stop",166,183,reference,174
+luigi,luigi\tools\range.py,_emit_metrics,"self, missing_datetimes, finite_start, finite_stop",166,183,reference,174
+luigi,luigi\tools\range.py,_emit_metrics,"self, missing_datetimes, finite_start, finite_stop",166,183,reference,175
+luigi,luigi\tools\range.py,_emit_metrics,"self, missing_datetimes, finite_start, finite_stop",166,183,reference,175
+luigi,test\dict_parameter_test.py,test_hash_normalize,self,59,63,reference,63
+luigi,test\dict_parameter_test.py,test_hash_normalize,self,59,63,reference,63
+luigi,test\execution_summary_test.py,test_with_dates,self,586,610,reference,598
+luigi,test\rpc_test.py,test_get_work_retries_on_null_limited,self,113,119,reference,119
+luigi,test\scheduler_api_test.py,_start_simple_batch,"self, use_max=False, mark_running=True, resources=None",412,426,reference,424
+luigi,test\scheduler_api_test.py,_start_simple_batch,"self, use_max=False, mark_running=True, resources=None",412,426,reference,426
+luigi,test\scheduler_api_test.py,test_set_batch_runner_multiple_retries,self,437,445,reference,441
+luigi,test\scheduler_api_test.py,test_reschedule_max_batch,self,520,536,reference,529
+luigi,test\scheduler_api_test.py,test_set_batch_runner_retry,self,428,435,reference,431
+luigi,test\scheduler_api_test.py,test_set_batch_runner_new_task,self,378,393,reference,388
+luigi,test\contrib\dropbox_test.py,aux_write_binary_file_to_dropbox,"self, multiplier",304,319,reference,319
+luigi,test\contrib\dropbox_test.py,aux_write_binary_file_to_dropbox,"self, multiplier",304,319,reference,315
+luigi,test\contrib\gcs_test.py,test_put_file_multiproc,self,156,175,reference,164
+luigi,test\contrib\gcs_test.py,test_put_file_multiproc,self,156,175,reference,174
+luigi,test\contrib\gcs_test.py,test_put_file,self,144,154,reference,149
+luigi,test\contrib\gcs_test.py,test_put_file,self,144,154,reference,154
+luigi,test\contrib\s3_test.py,_run_multipart_test,"self, part_size, file_size, **kwargs",617,638,reference,625
+luigi,test\contrib\s3_test.py,test_copy_dir,self,544,580,reference,562
+luigi,test\visualiser\visualiser_test.py,run,self,414,425,reference,425
+luigi,luigi\cmdline_parser.py,_get_task_kwargs,self,122,133,getattr,129
+luigi,luigi\execution_summary.py,_get_str_ranging_multiple_parameters,"first, last, tasks, unique_param",229,241,getattr,237
+luigi,luigi\execution_summary.py,_get_set_of_params,tasks,244,248,getattr,247
+luigi,luigi\execution_summary.py,_get_str_one_parameter,tasks,271,283,getattr,279
+luigi,luigi\execution_summary.py,_serialize_first_param,task,286,287,getattr,287
+luigi,luigi\format.py,__getattr__,"self, name",38,40,getattr,40
+luigi,luigi\format.py,__getattr__,"self, name",150,156,getattr,154
+luigi,luigi\format.py,__getattr__,"self, name",150,156,getattr,156
+luigi,luigi\format.py,__getattr__,"self, name",231,237,getattr,235
+luigi,luigi\format.py,__getattr__,"self, name",231,237,getattr,237
+luigi,luigi\format.py,__getattr__,"self, name",258,261,getattr,261
+luigi,luigi\format.py,__getattr__,"self, name",426,429,getattr,429
+luigi,luigi\scheduler.py,fetch_rpc_messages,self,437,440,delsubscript,439
+luigi,luigi\scheduler.py,add_task,"self, task_id=None, status=PENDING, runnable=True, deps=None, new_deps=None, expl=None, resources=None, priority='0', family='', module=None, params=None, param_visibilities=None, accepts_messages=False, assistant=False, tracking_url=None, worker=None, batchable=None, batch_id=None, retry_policy_dict=None, owners=None, **kwargs",821,963,getattr,865
+luigi,luigi\scheduler.py,add_task,"self, task_id=None, status=PENDING, runnable=True, deps=None, new_deps=None, expl=None, resources=None, priority='0', family='', module=None, params=None, param_visibilities=None, accepts_messages=False, assistant=False, tracking_url=None, worker=None, batchable=None, batch_id=None, retry_policy_dict=None, owners=None, **kwargs",821,963,getattr,867
+luigi,luigi\scheduler.py,_used_resources,self,1068,1076,getattr,1072
+luigi,luigi\scheduler.py,get_work,"self, host=None, assistant=False, current_tasks=None, worker=None, **kwargs",1143,1291,getattr,1223
+luigi,luigi\scheduler.py,get_work,"self, host=None, assistant=False, current_tasks=None, worker=None, **kwargs",1143,1291,getattr,1270
+luigi,luigi\scheduler.py,get_work,"self, host=None, assistant=False, current_tasks=None, worker=None, **kwargs",1143,1291,getattr,1285
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1335
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1337
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1342
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1343
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1344
+luigi,luigi\scheduler.py,_serialize_task,"self, task_id, include_deps=True, deps=None",1327,1353,getattr,1345
+luigi,luigi\scheduler.py,_traverse_graph,"self, root_task_id, seen=None, dep_func=None, include_done=True",1370,1429,delsubscript,1425
+luigi,luigi\scheduler.py,get_running_task_resources,"self, task_id",1646,1652,getattr,1650
+luigi,luigi\server.py,get,"self, method",112,127,getattr,120
+luigi,luigi\setup_logging.py,_default,"cls, opts",170,185,getattr,173
+luigi,luigi\six.py,__getattr__,"self, attr",117,121,getattr,119
+luigi,luigi\six.py,_resolve,self,159,161,getattr,161
+luigi,luigi\six.py,remove_move,name,491,499,delsubscript,497
+luigi,luigi\six.py,assertCountEqual,"self, *args, **kwargs",666,667,getattr,667
+luigi,luigi\six.py,assertRaisesRegex,"self, *args, **kwargs",670,671,getattr,671
+luigi,luigi\six.py,assertRegex,"self, *args, **kwargs",674,675,getattr,675
+luigi,luigi\six.py,print_,"*args, **kwargs",723,775,getattr,736
+luigi,luigi\task.py,get_params,cls,354,370,getattr,362
+luigi,luigi\task.py,clone,"self, cls=None, **kwargs",508,531,getattr,529
+luigi,luigi\task.py,no_unpicklable_properties,self,690,719,getattr,713
+luigi,luigi\util.py,previous,task,422,457,getattr,435
+luigi,luigi\worker.py,_forward_attributes,self,263,273,getattr,267
+luigi,luigi\worker.py,run,self,283,293,getattr,288
+luigi,luigi\worker.py,_handle_rpc_message,"self, message",1223,1240,getattr,1232
+luigi,luigi\worker.py,_handle_rpc_message,"self, message",1223,1240,getattr,1236
+luigi,luigi\contrib\hadoop.py,create_packages_archive,"packages, filename",124,194,getattr,147
+luigi,luigi\contrib\hadoop.py,create_packages_archive,"packages, filename",124,194,getattr,152
+luigi,luigi\contrib\pai.py,slot_to_dict,o,54,61,getattr,58
+luigi,luigi\contrib\target.py,_chained_call,"self, method_name, *args, **kwargs",61,76,getattr,65
+luigi,luigi\contrib\hdfs\clients.py,_with_ac,method_name,60,63,getattr,62
+luigi,luigi\contrib\hdfs\format.py,__getstate__,self,168,177,getattr,171
+luigi,luigi\contrib\hdfs\format.py,__setstate__,"self, d",179,187,getattr,186
+luigi,luigi\contrib\hdfs\target.py,__init__,"self, path=None, format=None, is_tmp=False, fs=None",34,92,getattr,51
+luigi,luigi\contrib\hdfs\target.py,__init__,"self, path=None, format=None, is_tmp=False, fs=None",34,92,getattr,83
+luigi,luigi\tools\range.py,_constrain_glob,"glob, paths, limit='5'",491,528,delsubscript,528
+luigi,test\notifications_test.py,tearDown,self,200,201,delsubscript,201
+luigi,test\notifications_test.py,tearDown,self,312,313,delsubscript,313
+luigi,test\notifications_test.py,tearDown,self,338,339,delsubscript,339
+luigi,test\notifications_test.py,tearDown,self,371,372,delsubscript,372
+luigi,test\scheduler_visualisation_test.py,test_simple_worker_list,self,513,533,getattr,519
+luigi,test\target_test.py,test_with_close,self,104,112,getattr,108
+luigi,test\target_test.py,test_with_exception,self,114,126,getattr,122
+luigi,test\target_test.py,test_del,self,128,136,getattr,132
+luigi,test\target_test.py,test_write_cleanup_no_close,self,138,150,getattr,144
+luigi,test\target_test.py,test_del_with_Text,self,161,169,getattr,165
+luigi,test\target_test.py,test_gzip,self,226,235,getattr,231
+luigi,test\target_test.py,test_gzip_works_and_cleans_up,self,237,249,getattr,242
+luigi,test\task_forwarded_attributes_test.py,gather_forwarded_attributes,self,33,43,getattr,41
+luigi,test\task_serialize_test.py,_task_to_dict,task,81,87,getattr,85
+luigi,test\worker_scheduler_com_test.py,test_dispatch_unregistered_message,self,164,190,getattr,177
+luigi,test\contrib\redshift_test.py,test_copy_missing_creds,"self, mock_redshift_target",232,253,delsubscript,237
+luigi,test\contrib\redshift_test.py,test_copy_missing_creds,"self, mock_redshift_target",232,253,delsubscript,238

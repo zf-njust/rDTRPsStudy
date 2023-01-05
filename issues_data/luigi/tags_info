@@ -1,0 +1,59 @@
+f2f631b3; (tag: refs/tags/3.0.3);sonjaer;2021-04-15 13:11:11 +0200;Version 3.0.3 (#3073)
+92fe69e0; (tag: refs/tags/3.0.2);Hongxin Liang;2020-09-23 13:52:39 +0200;Version 3.0.2
+56bdc3a5; (tag: refs/tags/3.0.1);Babis Kiosidis;2020-07-23 11:52:51 +0300;Merge pull request #2974 from ckiosidis/luigi-3.0.1
+ba201928; (tag: refs/tags/3.0.0);Honnix;2020-06-02 10:24:29 +0200;Merge pull request #2953 from spotify/luigi-3.0.0
+54a34736; (tag: refs/tags/2.8.13);sonjaer;2020-04-29 15:20:21 +0200;Version 2.8.13
+13368ecf; (tag: refs/tags/2.8.12);Hongxin Liang;2020-02-19 10:49:54 +0100;version 2.8.12
+f6809d2e; (tag: refs/tags/3.0.0b2);Hongxin Liang;2020-02-10 17:23:43 +0100;Version 3.0.0b2
+8b3205c0; (tag: refs/tags/2.8.11);Hongxin Liang;2020-01-02 15:52:46 +0100;version 2.8.11
+e3ba1ddb; (tag: refs/tags/2.8.10);Hongxin Liang;2019-11-22 15:28:59 +0100;Version 2.8.10
+1e99e6b6; (tag: refs/tags/2.8.9);Hongxin Liang;2019-08-27 10:20:06 +0200;Version 2.8.9
+8d486804; (tag: refs/tags/2.8.8);Natasha Lazarova;2019-08-12 10:44:51 +0200;Version 2.8.8
+fbd977df; (tag: refs/tags/2.8.7);Nelson Arapé;2019-06-14 12:17:50 +0200;Merge pull request #2726 from spotify/release-2.8.7
+89751cca; (tag: refs/tags/2.8.6);Hongxin Liang;2019-05-22 14:37:25 +0200;Version 2.8.6
+1164eb6b; (tag: refs/tags/2.8.5);Hongxin Liang;2019-05-09 13:33:45 +0200;Version 2.8.5
+2e4c3737; (tag: refs/tags/2.8.4);Mikaela Grundin;2019-05-06 16:44:50 +0200;Merge pull request #2701 from spotify/version-2.8.4
+8a485cd6; (tag: refs/tags/2.8.3);Natasha Lazarova;2019-01-16 14:50:27 +0100;Upgrade to version 2.8.3
+217561ac; (tag: refs/tags/2.8.2);Dillon Stadther;2018-12-12 12:04:06 -0500;Release 2.8.2 hotfix (#2606)
+5193f84b; (tag: refs/tags/2.8.1);Natasha;2018-12-11 17:10:35 +0100;Merge pull request #2602 from spotify/release-2.8.1
+c01e134b; (tag: refs/tags/2.8.0);Hongxin Liang;2018-11-02 13:46:38 +0100;Version 2.8.0
+68dfdfca; (tag: refs/tags/2.7.9);Hongxin Liang;2018-09-28 09:29:43 +0200;Version 2.7.9
+0ebf37f2; (tag: refs/tags/2.7.8);Hongxin Liang;2018-08-24 15:41:28 +0200;Version 2.7.8
+be5e13cf; (tag: refs/tags/2.7.7);Hongxin Liang;2018-08-24 11:02:34 +0200;Version 2.7.7
+93abed77; (tag: refs/tags/2.7.6);Uldis Barbans;2018-07-11 15:33:42 +0200;Version 2.7.6
+00a5e458; (tag: refs/tags/2.7.5);Mikaela Grundin;2018-04-12 11:54:45 +0200;Updated to version 2.7.5 (#2395)
+0d7083b6; (tag: refs/tags/2.7.4);Mikaela Grundin;2018-04-11 10:16:04 +0200;Version 2.7.4
+7c6b9737; (tag: refs/tags/2.7.3);Honnix;2018-03-13 16:42:01 +0100;Merge pull request #2374 from spotify/v2.7.3
+b5a24da9; (tag: refs/tags/2.7.2);Fabrizio Demaria;2018-01-24 12:47:18 +0100;Merge pull request #2338 from spotify/update-version-1
+4fb857a0; (tag: refs/tags/2.7.1);Dillon Stadther;2017-10-05 07:39:15 -0400;Version 2.7.1
+6027efef; (tag: refs/tags/2.7.0);Arash Rouhani;2017-08-25 15:18:51 +0200;Version 2.7.0
+7801ebe7; (tag: refs/tags/2.6.2);Arash Rouhani;2017-06-06 10:31:25 +0200;Version 2.6.2
+b26ce627; (tag: refs/tags/2.6.1);Arash Rouhani;2017-03-14 14:17:36 +0700;Version 2.6.1
+72ffb49e; (tag: refs/tags/2.6.0);Arash Rouhani;2017-02-10 13:55:11 +0700;Version 2.6.0
+5678b611; (tag: refs/tags/2.5.0);Arash Rouhani;2017-01-10 14:53:42 +0700;Version 2.5.0
+6f0d175c; (tag: refs/tags/2.4.0);Arash Rouhani;2016-12-02 11:51:18 +0700;Version 2.4.0
+35b340d7; (tag: refs/tags/2.3.3);Arash Rouhani;2016-10-21 11:03:20 +0700;Version 2.3.3
+6cf70913; (tag: refs/tags/2.3.2);Arash Rouhani;2016-09-20 16:45:35 +0700;Version 2.3.2
+daaeeb67; (tag: refs/tags/2.3.1);Arash Rouhani;2016-08-25 09:40:01 +0700;Version 2.3.1
+521d41e5; (tag: refs/tags/2.3.0);Arash Rouhani;2016-08-12 10:17:28 +0700;Version 2.3.0
+c29e48fa; (tag: refs/tags/2.2.0);Arash Rouhani;2016-07-08 17:47:05 +0700;Version 2.2.0
+559df529; (tag: refs/tags/2.1.1);Arash Rouhani;2016-04-06 14:14:34 +0700;Release version 2.1.1
+ab16e155; (tag: refs/tags/2.1.0);Uldis Barbans;2016-04-01 22:56:58 +0200;Merge pull request #1626 from spotify/ulzha/2.1.0
+82f7f09e; (tag: refs/tags/2.0.1);Erik Bernhardsson;2015-12-05 13:00:49 -0500;2.0.1
+eb4930da; (tag: refs/tags/2.0.0);Arash Rouhani;2015-10-23 14:30:18 +0200;Releasing 2.0.0
+c3af8269; (tag: refs/tags/1.3.0);Arash Rouhani;2015-06-26 15:11:35 +0200;Release 1.3.0
+a6e5eb1a; (tag: refs/tags/v1.2.1, tag: refs/tags/1.2.1);Arash Rouhani;2015-05-26 11:53:00 +0200;Release 1.2.1
+ac530c6c; (tag: refs/tags/v1.2.0);Arash Rouhani;2015-05-26 10:57:42 +0200;Merge pull request #974 from spotify/erikbern/tarrasch
+6c2c82e9; (tag: refs/tags/1.1.2);Erik Bernhardsson;2015-03-17 20:08:23 -0400;Merge pull request #858 from spotify/erikbern/fix-857
+be728d82; (tag: refs/tags/1.1.1);Erik Bernhardsson;2015-03-16 08:45:06 -0400;Merge pull request #855 from spotify/erikbern/cmdline-2
+0abe27e5; (tag: refs/tags/1.1.0);Arash Rouhani;2015-02-26 17:56:04 +0100;Merge pull request #794 from spotify/ulzha/task-limit
+a6d6e129; (tag: refs/tags/1.0.24);Erik Bernhardsson;2015-02-11 07:00:30 -0500;bumped version to 1.0.24
+af47ea1a; (tag: refs/tags/1.0.23);Erik Bernhardsson;2015-02-10 06:52:06 -0500;Merge pull request #732 from splusminusx/patch-1
+7a235e75; (tag: refs/tags/1.0.22);Erik Bernhardsson;2015-02-09 23:20:07 -0500;Fixed an issue with bin/luigid and bumped to 1.0.22
+f577612d; (tag: refs/tags/v1.0.22);Erik Bernhardsson;2015-02-09 23:00:35 -0500;Merge pull request #730 from spotify/erikbern/core
+10a2f671; (tag: refs/tags/v1.0.21);Erik Bernhardsson;2015-02-08 15:57:31 -0500;Merge pull request #727 from spotify/erikbern/scheduler-config
+c2152b10; (tag: refs/tags/v1.0.20);Erik Bernhardsson;2015-01-21 11:26:56 -0500;Bump version to 1.0.20 and upload to PyPI
+54984663; (tag: refs/tags/v1.0.19);Erik Bernhardsson;2014-09-22 14:12:28 +0200;Merge pull request #455 from Tarrasch/tmp-paths-with-username
+6668e3a3; (tag: refs/tags/v1.0.18);Erik Bernhardsson;2014-09-15 07:40:19 -0400;1.0.18
+dd1a2a9b; (tag: refs/tags/v1.0.17);Erik Bernhardsson;2014-08-28 08:47:03 -0400;Merge pull request #409 from campanja/fix-large-rpc-requests
+a50b6c17; (tag: refs/tags/1.0.16);Erik Bernhardsson;2014-05-17 18:35:36 +0200;bumped version to 1.0.16

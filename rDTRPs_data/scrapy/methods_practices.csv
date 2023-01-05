@@ -1,0 +1,199 @@
+scrapy,file,method,params,startlineno,endlineno,type,lineno
+scrapy,scrapy\utils\python.py,_getargspec_py23,func,188,205,argument,205
+scrapy,scrapy\utils\log.py,configure_logging,"settings=None, install_root_handler=True",61,101,assignment,98
+scrapy,scrapy\utils\log.py,_get_handler,settings,122,141,assignment,129
+scrapy,scrapy\utils\log.py,_get_handler,settings,122,141,assignment,131
+scrapy,scrapy\downloadermiddlewares\httpcache.py,process_response,"self, request, response, spider",68,95,argument,80
+scrapy,scrapy\loader\processors.py,__call__,"self, value, loader_context=None",21,39,assignment,26
+scrapy,scrapy\loader\processors.py,__call__,"self, value, loader_context=None",49,64,assignment,53
+scrapy,tests\test_downloadermiddleware_httpproxy.py,tearDown,self,23,24,assignment,24
+scrapy,tests\test_downloadermiddleware_httpproxy.py,test_no_environment_proxies,self,31,39,assignment,32
+scrapy,tests\test_exporters.py,_get_exporter,"self, **kwargs",195,197,assignment,196
+scrapy,tests\test_feedexport.py,test_export_multiple_item_classes,self,558,600,assignment,591
+scrapy,tests\test_linkextractors.py,test_xhtml,self,390,438,assignment,430
+scrapy,tests\test_proxy_connect.py,tearDown,self,58,61,assignment,61
+scrapy,tests\test_spider.py,test_get_sitemap_body,self,385,393,assignment,389
+scrapy,tests\test_utils_log.py,setUp,self,68,78,assignment,72
+scrapy,tests\test_utils_log.py,setUp,self,102,106,assignment,106
+scrapy,tests\test_utils_reqser.py,test_request_class,self,65,69,assignment,68
+scrapy,tests\test_cmdline\__init__.py,test_profiling,self,44,59,argument,56
+scrapy,tests\test_cmdline\__init__.py,test_profiling,self,44,59,argument,57
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,115
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,116
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,118
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,119
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,120
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,121
+scrapy,scrapy\extensions\memusage.py,_send_report,"self, rcpts, subject",111,122,reference,122
+scrapy,scrapy\http\response\text.py,text,self,68,77,reference,76
+scrapy,scrapy\loader\__init__.py,get_value,"self, value, *processors, **kw",101,118,reference,105
+scrapy,scrapy\loader\__init__.py,get_value,"self, value, *processors, **kw",101,118,reference,108
+scrapy,scrapy\loader\__init__.py,get_value,"self, value, *processors, **kw",101,118,reference,113
+scrapy,scrapy\loader\__init__.py,_get_xpathvalues,"self, xpaths, **kw",192,195,reference,195
+scrapy,scrapy\loader\__init__.py,_get_cssvalues,"self, csss, **kw",209,212,reference,212
+scrapy,scrapy\settings\__init__.py,set,"self, name, value, priority='project'",246,272,reference,270
+scrapy,scrapy\settings\__init__.py,set,"self, name, value, priority='project'",246,272,reference,272
+scrapy,scrapy\settings\__init__.py,__init__,"self, value, priority",46,51,reference,49
+scrapy,scrapy\settings\__init__.py,__init__,"self, value, priority",46,51,reference,51
+scrapy,scrapy\settings\__init__.py,delete,"self, name, priority='project'",332,336,reference,335
+scrapy,scrapy\settings\__init__.py,delete,"self, name, priority='project'",332,336,delsubscript,336
+scrapy,scrapy\settings\__init__.py,set,"self, value, priority",53,59,reference,56
+scrapy,scrapy\settings\__init__.py,set,"self, value, priority",53,59,reference,58
+scrapy,scrapy\utils\iterators.py,csviter,"obj, delimiter=None, headers=None, encoding=None, quotechar=None",84,132,reference,103
+scrapy,scrapy\utils\iterators.py,xmliter,"obj, nodename",18,41,reference,33
+scrapy,scrapy\utils\iterators.py,xmliter,"obj, nodename",18,41,reference,35
+scrapy,scrapy\utils\iterators.py,xmliter,"obj, nodename",18,41,reference,36
+scrapy,scrapy\utils\iterators.py,xmliter,"obj, nodename",18,41,reference,39
+scrapy,scrapy\utils\python.py,to_bytes,"text, encoding=None, errors='strict'",100,110,reference,110
+scrapy,scrapy\utils\python.py,without_none_values,iterable,347,356,reference,356
+scrapy,scrapy\utils\python.py,without_none_values,iterable,347,356,reference,356
+scrapy,scrapy\utils\python.py,without_none_values,iterable,347,356,reference,354
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,50
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,51
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,53
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,54
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,58
+scrapy,scrapy\utils\reqser.py,request_from_dict,"d, spider=None",43,69,reference,59
+scrapy,scrapy\utils\reqser.py,_get_method,"obj, name",102,107,reference,103
+scrapy,scrapy\utils\reqser.py,_get_method,"obj, name",102,107,getattr,105
+scrapy,tests\test_crawler.py,test_crawler_runner_accepts_dict,self,160,163,reference,162
+scrapy,tests\test_crawler.py,test_crawler_runner_accepts_dict,self,160,163,reference,163
+scrapy,tests\test_downloader_handlers.py,test_payload,self,354,360,reference,356
+scrapy,tests\test_downloader_handlers.py,test_payload,self,354,360,reference,359
+scrapy,tests\test_logformatter.py,test_dropped,self,47,55,reference,53
+scrapy,tests\test_logformatter.py,test_crawled,self,24,37,reference,29
+scrapy,tests\test_logformatter.py,test_crawled,self,24,37,reference,36
+scrapy,tests\test_logformatter.py,test_scraped,self,57,65,reference,63
+scrapy,tests\test_pipeline_files.py,test_item_fields_default,self,113,127,reference,123
+scrapy,tests\test_pipeline_files.py,test_item_fields_default,self,113,127,reference,126
+scrapy,tests\test_pipeline_files.py,test_item_fields_default,self,113,127,reference,127
+scrapy,tests\test_pipeline_files.py,test_item_fields_override_settings,self,129,147,reference,143
+scrapy,tests\test_pipeline_files.py,test_item_fields_override_settings,self,129,147,reference,146
+scrapy,tests\test_pipeline_files.py,test_item_fields_override_settings,self,129,147,reference,147
+scrapy,tests\test_pipeline_files.py,test_different_settings_for_different_instances,self,193,206,reference,203
+scrapy,tests\test_pipeline_files.py,test_different_settings_for_different_instances,self,193,206,reference,205
+scrapy,tests\test_pipeline_files.py,test_different_settings_for_different_instances,self,193,206,getattr,203
+scrapy,tests\test_pipeline_files.py,test_different_settings_for_different_instances,self,193,206,getattr,206
+scrapy,tests\test_pipeline_images.py,test_item_fields_override_settings,self,139,157,reference,153
+scrapy,tests\test_pipeline_images.py,test_item_fields_override_settings,self,139,157,reference,156
+scrapy,tests\test_pipeline_images.py,test_item_fields_override_settings,self,139,157,reference,157
+scrapy,tests\test_pipeline_images.py,test_item_fields_default,self,123,137,reference,133
+scrapy,tests\test_pipeline_images.py,test_item_fields_default,self,123,137,reference,136
+scrapy,tests\test_pipeline_images.py,test_item_fields_default,self,123,137,reference,137
+scrapy,tests\test_utils_datatypes.py,test_set,self,229,243,reference,243
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,379
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,380
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,380
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,381
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,382
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,382
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,383
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,384
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,384
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,385
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,385
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,386
+scrapy,tests\test_utils_iterators.py,test_body_or_str,self,377,386,reference,386
+scrapy,tests\test_webclient.py,testPayload,self,258,261,reference,260
+scrapy,tests\test_webclient.py,testPayload,self,258,261,reference,261
+scrapy,tests\test_webclient.py,testParse,self,44,74,reference,73
+scrapy,tests\test_webclient.py,testParse,self,44,74,reference,73
+scrapy,tests\test_webclient.py,testParse,self,44,74,reference,73
+scrapy,tests\test_webclient.py,testParse,self,44,74,reference,73
+scrapy,tests\test_settings\__init__.py,test_set_less_priority,self,34,37,reference,36
+scrapy,tests\test_settings\__init__.py,test_set_new_attribute,self,69,76,reference,75
+scrapy,tests\test_settings\__init__.py,test_overwrite_basesettings,self,39,54,reference,46
+scrapy,tests\test_settings\__init__.py,test_overwrite_basesettings,self,39,54,reference,47
+scrapy,tests\test_settings\__init__.py,test_set_greater_priority,self,24,27,reference,26
+scrapy,scrapy\cmdline.py,_pop_command_name,argv,60,66,delsubscript,64
+scrapy,scrapy\crawler.py,_crawl,"self, crawler, *args, **kwargs",186,197,getattr,194
+scrapy,scrapy\item.py,__new__,"mcs, class_name, bases, attrs",34,52,getattr,39
+scrapy,scrapy\item.py,__new__,"mcs, class_name, bases, attrs",34,52,getattr,42
+scrapy,scrapy\item.py,__delitem__,"self, key",75,76,delsubscript,76
+scrapy,scrapy\pqueues.py,pop_slot,"self, slot",65,71,delsubscript,70
+scrapy,scrapy\shell.py,__getattr__,"self, name",203,207,getattr,207
+scrapy,scrapy\commands\parse.py,get_callback_from_rules,"self, spider, response",126,134,getattr,127
+scrapy,scrapy\commands\parse.py,prepare_request,"self, spider, request, opts",163,222,getattr,185
+scrapy,scrapy\core\spidermw.py,_add_middleware,"self, mw",29,36,getattr,35
+scrapy,scrapy\core\spidermw.py,_add_middleware,"self, mw",29,36,getattr,36
+scrapy,scrapy\core\downloader\contextfactory.py,getCertificateOptions,self,35,51,getattr,48
+scrapy,scrapy\core\downloader\contextfactory.py,getCertificateOptions,self,35,51,getattr,49
+scrapy,scrapy\core\downloader\handlers\http11.py,download_request,"self, request, spider",62,68,getattr,65
+scrapy,scrapy\core\downloader\handlers\http11.py,download_request,"self, request, spider",62,68,getattr,66
+scrapy,scrapy\core\downloader\handlers\__init__.py,_load_handler,"self, scheme, skip_lazy=False",45,63,getattr,49
+scrapy,scrapy\downloadermiddlewares\downloadtimeout.py,spider_opened,"self, spider",21,22,getattr,22
+scrapy,scrapy\downloadermiddlewares\httpauth.py,spider_opened,"self, spider",22,26,getattr,23
+scrapy,scrapy\downloadermiddlewares\httpauth.py,spider_opened,"self, spider",22,26,getattr,24
+scrapy,scrapy\downloadermiddlewares\httpauth.py,process_request,"self, request, spider",28,31,getattr,29
+scrapy,scrapy\downloadermiddlewares\httpcompression.py,process_response,"self, request, response, spider",31,51,delsubscript,49
+scrapy,scrapy\downloadermiddlewares\redirect.py,process_response,"self, request, response, spider",62,82,getattr,64
+scrapy,scrapy\downloadermiddlewares\useragent.py,spider_opened,"self, spider",18,19,getattr,19
+scrapy,scrapy\extensions\closespider.py,spider_closed,"self, spider",66,69,getattr,67
+scrapy,scrapy\extensions\feedexport.py,_get_instance,"self, objcls, *args, **kwargs",299,302,getattr,301
+scrapy,scrapy\extensions\feedexport.py,_get_uri_params,"self, spider",310,317,getattr,313
+scrapy,scrapy\extensions\httpcache.py,close_spider,"self, spider",360,365,delattribute,364
+scrapy,scrapy\extensions\throttle.py,_min_delay,"self, spider",30,32,getattr,32
+scrapy,scrapy\http\request\__init__.py,replace,"self, *args, **kwargs",97,105,getattr,103
+scrapy,scrapy\http\response\__init__.py,replace,"self, *args, **kwargs",74,81,getattr,79
+scrapy,scrapy\loader\__init__.py,get_input_processor,"self, field_name",141,146,getattr,142
+scrapy,scrapy\loader\__init__.py,get_output_processor,"self, field_name",148,153,getattr,149
+scrapy,scrapy\pipelines\media.py,_cache_result_and_execute_waiters,"self, result, fp, info",136,169,getattr,162
+scrapy,scrapy\settings\__init__.py,setmodule,"self, module, priority='project'",277,297,getattr,297
+scrapy,scrapy\settings\__init__.py,__delitem__,"self, name",338,340,delsubscript,340
+scrapy,scrapy\settings\__init__.py,__delitem__,"self, k",428,429,delsubscript,429
+scrapy,scrapy\settings\__init__.py,iter_default_settings,,460,464,getattr,464
+scrapy,scrapy\spidermiddlewares\httperror.py,process_spider_input,"self, response, spider",31,45,getattr,42
+scrapy,scrapy\spidermiddlewares\offsite.py,get_host_regex,"self, spider",51,64,getattr,53
+scrapy,scrapy\spiders\crawl.py,_get_method,"method, spider",24,28,getattr,28
+scrapy,scrapy\spiders\sitemap.py,__init__,"self, *a, **kw",21,28,getattr,26
+scrapy,scrapy\spiders\__init__.py,__init__,"self, name=None, **kwargs",25,32,getattr,28
+scrapy,scrapy\spiders\__init__.py,close,"spider, reason",90,94,getattr,92
+scrapy,scrapy\utils\deprecate.py,create_deprecated_class,"name, new_class, clsdict=None, warn_category=ScrapyDeprecationWarning, warn_once=True, old_class_path=None, new_class_path=None, subclass_warn_message='{cls} inherits from deprecated class {old}, please inherit from {new}.', instance_warn_message='{cls} is deprecated, instantiate {new} instead.'",15,117,getattr,92
+scrapy,scrapy\utils\deprecate.py,method_is_overridden,"subclass, base_class, method_name",142,171,getattr,169
+scrapy,scrapy\utils\deprecate.py,method_is_overridden,"subclass, base_class, method_name",142,171,getattr,170
+scrapy,scrapy\utils\gz.py,gunzip,data,30,54,getattr,47
+scrapy,scrapy\utils\misc.py,load_object,path,33,53,getattr,49
+scrapy,scrapy\utils\misc.py,set_environ,**kwargs,149,164,delsubscript,162
+scrapy,scrapy\utils\python.py,get_func_args,"func, stripself=False",208,232,getattr,224
+scrapy,scrapy\utils\python.py,equal_attributes,"obj1, obj2, attributes",272,287,getattr,284
+scrapy,scrapy\utils\python.py,equal_attributes,"obj1, obj2, attributes",272,287,getattr,284
+scrapy,scrapy\utils\reqser.py,_mangle_private_name,"obj, func, name",77,84,getattr,78
+scrapy,scrapy\utils\spider.py,iter_spider_classes,module,16,29,getattr,28
+scrapy,scrapy\utils\url.py,url_is_from_spider,"url, spider",28,31,getattr,31
+scrapy,tests\test_command_version.py,test_output,self,13,19,getattr,15
+scrapy,tests\test_command_version.py,test_verbose_output,self,22,31,getattr,24
+scrapy,tests\test_crawler.py,assertOptionIsDefault,"self, settings, key",21,23,getattr,23
+scrapy,tests\test_downloadermiddleware_cookies.py,tearDown,self,25,26,delattribute,26
+scrapy,tests\test_downloadermiddleware_decompression.py,tearDown,self,48,49,delattribute,49
+scrapy,tests\test_downloadermiddleware_httpauth.py,tearDown,self,20,21,delattribute,21
+scrapy,tests\test_downloadermiddleware_redirect.py,test_redirect_3xx_permanent,self,25,51,delsubscript,38
+scrapy,tests\test_downloadermiddleware_redirect.py,test_redirect_302,self,72,92,delsubscript,91
+scrapy,tests\test_downloadermiddleware_redirect.py,test_redirect_302_head,self,94,107,delsubscript,106
+scrapy,tests\test_downloadermiddleware_robotstxt.py,tearDown,self,22,23,delattribute,23
+scrapy,tests\test_http_headers.py,test_delete_and_contains,self,57,62,delsubscript,61
+scrapy,tests\test_pipeline_files.py,test_subclass_attributes_preserved_if_no_settings,self,208,217,getattr,215
+scrapy,tests\test_pipeline_files.py,test_subclass_attributes_preserved_if_no_settings,self,208,217,getattr,217
+scrapy,tests\test_pipeline_files.py,test_subclass_attributes_preserved_if_no_settings,self,208,217,getattr,217
+scrapy,tests\test_pipeline_files.py,test_subclass_attrs_preserved_custom_settings,self,219,231,getattr,228
+scrapy,tests\test_pipeline_files.py,test_no_custom_settings_for_subclasses,self,233,245,getattr,245
+scrapy,tests\test_pipeline_files.py,test_custom_settings_for_subclasses,self,247,262,getattr,262
+scrapy,tests\test_pipeline_files.py,test_custom_settings_and_class_attrs_for_subclasses,self,264,276,getattr,276
+scrapy,tests\test_pipeline_files.py,test_user_defined_subclass_default_key_names,self,288,303,getattr,302
+scrapy,tests\test_pipeline_images.py,test_different_settings_for_different_instances,self,232,246,getattr,245
+scrapy,tests\test_pipeline_images.py,test_different_settings_for_different_instances,self,232,246,getattr,246
+scrapy,tests\test_pipeline_images.py,test_subclass_attrs_preserved_default_settings,self,248,259,getattr,257
+scrapy,tests\test_pipeline_images.py,test_subclass_attrs_preserved_default_settings,self,248,259,getattr,259
+scrapy,tests\test_pipeline_images.py,test_subclass_attrs_preserved_custom_settings,self,261,275,getattr,272
+scrapy,tests\test_pipeline_images.py,test_no_custom_settings_for_subclasses,self,277,289,getattr,289
+scrapy,tests\test_pipeline_images.py,test_custom_settings_for_subclasses,self,291,306,getattr,306
+scrapy,tests\test_pipeline_images.py,test_custom_settings_and_class_attrs_for_subclasses,self,308,320,getattr,320
+scrapy,tests\test_pipeline_images.py,test_user_defined_subclass_default_key_names,self,330,345,getattr,344
+scrapy,tests\test_pipeline_media.py,test_should_remove_req_res_references_before_caching_the_results,self,97,166,getattr,165
+scrapy,tests\test_utils_datatypes.py,test_init_mutable_mapping,self,49,72,delsubscript,61
+scrapy,tests\test_utils_datatypes.py,test_delete,self,84,88,delsubscript,86
+scrapy,tests\test_utils_reqser.py,_assert_mangles_to,"self, obj, name",112,116,getattr,113
+scrapy,tests\test_cmdline\__init__.py,_execute,"self, *new_args, **kwargs",24,29,getattr,25
+scrapy,tests\test_settings\__init__.py,test_delete,self,198,206,delsubscript,205
+scrapy,tests\test_spiderloader\__init__.py,tearDown,self,34,37,delattribute,35
+scrapy,tests\test_spiderloader\__init__.py,tearDown,self,34,37,delsubscript,36
+scrapy,tests\test_spiderloader\__init__.py,tearDown,self,123,125,delsubscript,124

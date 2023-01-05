@@ -1,0 +1,73 @@
+8ec69cce; (tag: refs/tags/v2.3.0, refs/remotes/origin/master);alexcjohnson;2022-03-13 18:22:51 -0600;new build
+19048d82; (tag: refs/tags/v2.2.0);alexcjohnson;2022-02-18 10:08:04 -0500;2.2.0 build
+48e995b7; (tag: refs/tags/v2.1.0);alexcjohnson;2022-01-28 18:16:09 -0500;new build
+2975e001; (tag: refs/tags/v2.0.0);HammadTheOne;2021-09-03 20:15:46 -0400;Merge pull request #1744 from plotly/master-2.0.0
+360b9835; (tag: refs/tags/v1.21.0);alexcjohnson;2021-07-13 01:20:37 -0400;renderer build artifacts for dash v1.21.0
+49a80bb3; (tag: refs/tags/v1.20.0);Harrisonn Griffin;2021-04-08 18:03:45 -0400;dash 1.20.0 dev to master (#1590)
+1ba12757; (tag: refs/tags/v1.19.0);Harrisonn Griffin;2021-01-19 18:34:45 -0500;dash 1.19.0 dev to master (#1537)
+1cc7b3e8; (tag: refs/tags/v1.18.1);Harrisonn Griffin;2020-12-09 16:16:00 -0500;dash 1.18.1 dev to master (#1492)
+f776fa00; (tag: refs/tags/v1.18.0);Harrisonn Griffin;2020-12-07 16:46:19 -0500;dash 1.18.0 dev to master (#1485)
+78b9832a; (tag: refs/tags/v1.17.0);Marc-André Rivet;2020-10-29 16:55:36 -0400;Merge remote-tracking branch 'origin/dev'
+8e64fbea; (tag: refs/tags/v1.16.3);Marc-André Rivet;2020-10-07 16:29:32 -0400;Merge remote-tracking branch 'origin/dev'
+dde48f1d; (tag: refs/tags/v1.16.2);Marc-André Rivet;2020-09-25 08:08:54 -0400;Merge remote-tracking branch 'origin/dev' + build artifacts
+e56ec432; (tag: refs/tags/v1.16.1);Marc-André Rivet;2020-09-16 16:49:34 -0400;Merge remote-tracking branch 'origin/dev'
+484d0107; (tag: refs/tags/v1.16.0);Marc-André Rivet;2020-09-03 13:53:45 -0400;Merge dev + build artifacts
+6bdb53d2; (tag: refs/tags/v1.15.0);Marc-André Rivet;2020-08-25 14:07:51 -0400;Merge remote-tracking branch 'origin/dev'
+a589eca7; (tag: refs/tags/v1.14.0);Marc-André Rivet;2020-07-28 02:06:13 -0400;Merge remote-tracking branch 'origin/dev' + build artifacts
+48f6f123; (tag: refs/tags/v1.13.4);Ryan Patrick Kyle;2020-06-25 15:56:16 -0400;Merge branch 'dev'
+b7b3fa8b; (tag: refs/tags/v1.13.3);Marc-André Rivet;2020-06-19 11:56:36 -0400;Merge remote-tracking branch 'origin/dev'
+4f54da9a; (tag: refs/tags/v1.13.2);Marc-André Rivet;2020-06-18 17:49:27 -0400;Merge remote-tracking branch 'origin/dev'
+70a8c9e2; (tag: refs/tags/v1.13.1);Marc-André Rivet;2020-06-17 21:31:59 -0400;Merge remote-tracking branch 'origin/dev'
+c69402fb; (tag: refs/tags/v1.13);Marc-André Rivet;2020-06-17 17:30:52 -0400;Merge remote-tracking branch 'origin/dev'
+404791bb; (tag: refs/tags/v1.12.0);Marc-André Rivet;2020-05-05 14:38:47 -0400;Merge remote-tracking branch 'origin/dev' + update build artifacts
+5b329f41; (tag: refs/tags/v1.12);Marc-André Rivet;2020-05-05 14:13:25 -0400;noise
+599cccb5; (tag: refs/tags/v1.11.0);Marc-André Rivet;2020-04-10 10:05:11 -0400;Merge remote-tracking branch 'origin/dev' + update renderer build artifacts
+9dc11a5b; (tag: refs/tags/v1.10.0);Marc-André Rivet;2020-04-01 18:33:37 -0400;Merge remote-tracking branch 'origin/dev' + update build artifacts
+27d740da; (tag: refs/tags/v1.9.1);Marc-André Rivet;2020-02-27 17:19:09 -0500;Merge remote-tracking branch 'origin/dev'
+a3a7859d; (tag: refs/tags/v1.9.0);Marc-André Rivet;2020-02-04 12:50:29 -0500;- Merge branch 'iframe-sandbox-support' of github.com:plotly/dash into iframe-sandbox-support - Update build artifacts
+c2d6dce3; (tag: refs/tags/v1.8.0);Marc-André Rivet;2020-01-14 13:20:46 -0500;- Merge remote-tracking branch 'origin/dev' - update renderer artifacts - stricten dash dependencies versions
+904f0e37; (tag: refs/tags/v1.7.0);Marc-André Rivet;2019-11-27 15:26:07 -0500;Merge remote-tracking branch 'origin/dev'
+8202224c; (tag: refs/tags/v1.6.1);Marc-André Rivet;2019-11-14 15:40:03 -0500;strict versions
+041ab38e; (tag: refs/tags/v1.6.0);Marc-André Rivet;2019-11-04 16:00:13 -0500;Merge remote-tracking branch 'origin/dev'
+6150ec5d; (tag: refs/tags/v1.5.1);Marc-André Rivet;2019-10-29 21:21:27 -0400;Merge remote-tracking branch 'origin/dev'
+5fd4e713; (tag: refs/tags/v1.5.0);Marc-André Rivet;2019-10-29 12:54:01 -0400;update build
+74b4c2e8; (tag: refs/tags/v1.4.1);Marc-André Rivet;2019-10-17 09:57:16 -0400;build 1.1.2
+619ed99c; (tag: refs/tags/v1.4.0);Marc-André Rivet;2019-10-08 13:59:05 -0400;Merge remote-tracking branch 'origin/dev'
+5b30badb; (tag: refs/tags/v1.3.1);Marc-André Rivet;2019-09-19 09:48:03 -0400;Merge remote-tracking branch 'origin/dev'
+cdbf2be5; (tag: refs/tags/v1.3.0);Marc-André Rivet;2019-09-17 14:31:47 -0400;Merge remote-tracking branch 'origin/dev'
+b89c85b8; (tag: refs/tags/v1.2.0);Marc-André Rivet;2019-08-27 16:42:06 -0400;artifacts
+7880d5be; (tag: refs/tags/v1.1.1);Marc-André Rivet;2019-08-06 18:46:11 -0400;Merge branch 'master' of github.com:plotly/dash
+7525ebca; (tag: refs/tags/v-test);byron;2019-08-05 16:14:51 -0400;:wrench: add artifacts step
+fe34ed7d; (tag: refs/tags/v1.1.0);Marc-André Rivet;2019-08-05 14:48:21 -0400;bump version to v1.1.0
+9774281e; (tag: refs/tags/v1.0.2);Marc-André Rivet;2019-07-15 14:13:29 -0400;bump version to 1.0.2
+bd93aecd; (tag: refs/tags/v1.0.1);Marc-André Rivet;2019-07-09 11:01:46 -0400;bump version to 1.0.1
+3ea02b2d; (tag: refs/tags/v1.0.0);Marc-André Rivet;2019-06-20 15:16:18 -0400;dash changelog typo
+16e74e32; (tag: refs/tags/v0.43.0);Marc-André Rivet;2019-05-15 10:40:25 -0400;bump version to 0.43.0
+33a8baac; (tag: refs/tags/v0.41.0);Marc-André Rivet;2019-04-10 10:53:53 -0400;bump version to 0.41.0
+6cee22c4; (tag: refs/tags/v0.40.0);Marc-André Rivet;2019-03-25 11:36:31 -0400;bump version to 0.40.0
+05545461; (tag: refs/tags/v0.39.0);Marc-André Rivet;2019-03-04 20:25:16 -0500;bump dependencies versions
+ef3cd1a5; (tag: refs/tags/v0.38.0);Marc-André Rivet;2019-02-25 08:12:24 -0500;bump version to 0.38.0
+f52de16a; (tag: refs/tags/v0.37.0);Marc-André Rivet;2019-02-11 09:07:37 -0500;- bump version - update changelog with new dash-* versions - update setup.py with new dash-* versions
+8ceea3c2; (tag: refs/tags/v0.36.0);Marc-André Rivet;2019-01-25 12:54:17 -0500;bump version to 0.36.0
+8e62b13e; (tag: refs/tags/v0.35.3);Philippe Duval;2019-01-23 12:14:55 -0500;Merge pull request #524 from plotly/remove-registry
+e2f5c246; (tag: refs/tags/v0.35.2);Marc-André Rivet;2019-01-11 14:41:30 -0500;bump version to 0.35.2
+2c182b14; (tag: refs/tags/v0.35.1);Philippe Duval;2019-01-04 10:55:18 -0500;Merge pull request #518 from plotly/fix-dynamic-external-url
+0c7eb4a0; (tag: refs/tags/v0.34.0);Philippe Duval;2018-12-17 19:03:58 -0500;Merge pull request #490 from plotly/improve-generation-cli
+75a285f1; (tag: refs/tags/v0.32.2);Philippe Duval;2018-12-10 10:38:07 -0500;Merge pull request #485 from mungojam/message-typo-fix
+85e48635; (tag: refs/tags/v0.32.1);Philippe Duval;2018-12-07 14:01:03 -0500;Merge pull request #484 from plotly/extract-meta-mute-props
+b0ea2f4c; (tag: refs/tags/v0.32.0);Marc-André Rivet;2018-12-07 11:45:37 -0500;Merge pull request #478 from plotly/dash-support-map-files
+f590166b; (tag: refs/tags/v0.30.0);Philippe Duval;2018-11-14 16:06:23 -0500;Merge pull request #362 from plotly/hot-reload
+1663feaf; (tag: refs/tags/v0.29.0);Philippe Duval;2018-11-06 11:14:03 -0500;Merge pull request #444 from plotly/component-suites-registration
+09f551a1; (tag: refs/tags/v0.28.6);Philippe Duval;2018-11-05 10:48:30 -0500;Merge pull request #443 from plotly/fix-registered-path
+a6a1ea97; (tag: refs/tags/v0.28.5);Philippe Duval;2018-10-18 18:01:15 -0400;Merge pull request #431 from plotly/generate-classes-endline
+7f70192d; (tag: refs/tags/v0.28.4);Ryan Marren;2018-10-18 16:51:06 -0400;Bump CHANGELOG.md, version.py.
+02eb3f23; (tag: refs/tags/v0.28.3);Philippe Duval;2018-10-17 14:17:15 -0400;Merge pull request #418 from plotly/fix-http-equiv
+066bd6b0; (tag: refs/tags/v0.28.1);Philippe Duval;2018-09-26 16:26:24 -0400;Merge pull request #408 from plotly/version-bump
+9c00695c; (tag: refs/tags/v0.28.0);Philippe Duval;2018-09-26 15:14:00 -0400;Merge pull request #406 from plotly/default-favicon
+f94991be; (tag: refs/tags/v0.27.0);Philippe Duval;2018-09-20 21:30:58 -0400;Merge pull request #369 from plotly/serve-unminified
+a6388beb; (tag: refs/tags/v0.26.6);Philippe Duval;2018-09-19 10:45:04 -0400;Merge pull request #394 from plotly/fix-invalid-component-suites
+dbcb2a12; (tag: refs/tags/v0.26.5);Philippe Duval;2018-09-10 11:35:23 -0400;Merge pull request #374 from plotly/fix-assets-url-path
+4ee769d3; (tag: refs/tags/v0.19.0);chriddyp;2017-10-16 21:13:05 -0400;v0.19.0
+5cce7764; (tag: refs/tags/v0.18.3);chriddyp;2017-09-08 17:33:09 -0400;v0.18.3
+b890bd81; (tag: refs/tags/v0.18.1);chriddyp;2017-09-07 11:34:01 -0400;v0.18.1
+dea7b753; (tag: refs/tags/v0.18.0);chriddyp;2017-09-07 10:08:48 -0400;v0.18.0

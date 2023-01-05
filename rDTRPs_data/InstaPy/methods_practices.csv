@@ -1,0 +1,94 @@
+InstaPy,file,method,params,startlineno,endlineno,type,lineno
+InstaPy,instapy\util.py,remove_duplicates,"container, keep_order, logger",1302,1323,assignment,1311
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2227
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2227
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2227
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2230
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2230
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2230
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2238
+InstaPy,instapy\util.py,parse_cli_args,,2217,2306,argument,2244
+InstaPy,instapy\commenters_util.py,extract_information,"browser, username, daysold, max_pic",98,283,assignment,264
+InstaPy,proxy_extension.py,create_proxy_extension,proxy,5,78,reference,34
+InstaPy,proxy_extension.py,create_proxy_extension,proxy,5,78,reference,73
+InstaPy,proxy_extension.py,create_proxy_extension,proxy,5,78,reference,74
+InstaPy,proxy_extension.py,create_proxy_extension,proxy,5,78,reference,76
+InstaPy,proxy_extension.py,create_proxy_extension,proxy,5,78,reference,78
+InstaPy,instapy\instapy.py,run_time,self,5608,5615,reference,5613
+InstaPy,instapy\instapy.py,run_time,self,5608,5615,reference,5615
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5080
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5083
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5082
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5085
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5084
+InstaPy,instapy\instapy.py,live_report,self,5054,5123,reference,5086
+InstaPy,instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919,reference,5911
+InstaPy,instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919,reference,5919
+InstaPy,instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919,reference,5917
+InstaPy,instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919,reference,5919
+InstaPy,instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919,reference,5919
+InstaPy,instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887,reference,5879
+InstaPy,instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887,reference,5887
+InstaPy,instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887,reference,5885
+InstaPy,instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887,reference,5887
+InstaPy,instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887,reference,5887
+InstaPy,instapy\relationship_tools.py,get_followers,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",18,294,reference,181
+InstaPy,instapy\relationship_tools.py,get_followers,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",18,294,reference,285
+InstaPy,instapy\relationship_tools.py,get_followers,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",18,294,reference,182
+InstaPy,instapy\relationship_tools.py,get_followers,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",18,294,reference,289
+InstaPy,instapy\relationship_tools.py,get_following,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",297,574,reference,461
+InstaPy,instapy\relationship_tools.py,get_following,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",297,574,reference,565
+InstaPy,instapy\relationship_tools.py,get_following,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",297,574,reference,462
+InstaPy,instapy\relationship_tools.py,get_following,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",297,574,reference,569
+InstaPy,instapy\time_util.py,randomize_time,mean,14,22,reference,15
+InstaPy,instapy\time_util.py,randomize_time,mean,14,22,reference,16
+InstaPy,instapy\time_util.py,randomize_time,mean,14,22,reference,16
+InstaPy,instapy\time_util.py,randomize_time,mean,14,22,reference,19
+InstaPy,instapy\time_util.py,randomize_time,mean,14,22,reference,20
+InstaPy,instapy\unfollow_util.py,get_users_through_dialog_with_graphql,"browser, login, user_name, amount, users_count, randomize, dont_include, blacklist, follow_times, simulation, channel, jumps, logger, logfolder",862,1016,reference,884
+InstaPy,instapy\unfollow_util.py,get_users_through_dialog_with_graphql,"browser, login, user_name, amount, users_count, randomize, dont_include, blacklist, follow_times, simulation, channel, jumps, logger, logfolder",862,1016,reference,928
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,246
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,249
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,300
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,247
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,248
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,300
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,318
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,329
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,335
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,338
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,351
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,360
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,377
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,380
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,386
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,388
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,390
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,394
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,396
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,404
+InstaPy,instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762,reference,453
+InstaPy,instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714,reference,1683
+InstaPy,instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714,reference,1696
+InstaPy,instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714,reference,1684
+InstaPy,instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714,reference,1686
+InstaPy,instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714,reference,1698
+InstaPy,instapy\util.py,truncate_float,"number, precision, round=False",2007,2029,reference,2027
+InstaPy,instapy\util.py,truncate_float,"number, precision, round=False",2007,2029,reference,2029
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2149
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2160
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2152
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2151
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2153
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2163
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2162
+InstaPy,instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199,reference,2164
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2344
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2345
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2346
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2347
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2349
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2350
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2351
+InstaPy,instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361,reference,2352
+InstaPy,instapy\like_util.py,get_links_for_tag,"browser, tag, amount, skip_top_posts, randomize, media, logger",237,405,delsubscript,400

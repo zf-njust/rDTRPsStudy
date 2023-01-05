@@ -1,0 +1,20 @@
+locust,file,method,params,startlineno,endlineno,type,lineno
+locust,locust\log.py,setup_logging,"loglevel, logfile",7,16,assignment,15
+locust,locust\log.py,setup_logging,"loglevel, logfile",7,16,assignment,16
+locust,locust\log.py,setup_logging,"loglevel, logfile",7,16,getattr,8
+locust,examples\custom_xmlrpc_client\xmlrpc_locustfile.py,__getattr__,"self, name",13,28,reference,24
+locust,locust\inspectlocust.py,_print_task_ratio,"x, level='0'",13,19,reference,17
+locust,locust\inspectlocust.py,_print_task_ratio,"x, level='0'",13,19,reference,17
+locust,locust\test\test_runners.py,test_slave_stats_report_median,self,88,106,reference,101
+locust,locust\test\test_runners.py,setUp,self,62,65,reference,64
+locust,locust\test\test_runners.py,tearDown,self,68,69,reference,69
+locust,locust\main.py,is_locust,tup,335,345,getattr,344
+locust,locust\main.py,load_locustfile,path,349,403,delsubscript,391
+locust,locust\main.py,load_locustfile,path,349,403,delsubscript,396
+locust,locust\main.py,load_locustfile,path,349,403,delsubscript,400
+locust,locust\runners.py,client_listener,self,337,376,delsubscript,352
+locust,locust\runners.py,client_listener,self,337,376,delsubscript,370
+locust,locust\test\testcases.py,setUp,self,116,135,delsubscript,118
+locust,locust\test\testcases.py,setUp,self,116,135,getattr,122
+locust,locust\util\cache.py,memoize,"timeout, dynamic_timeout=False",6,33,delsubscript,27
+locust,locust\util\cache.py,memoize,"timeout, dynamic_timeout=False",6,33,delsubscript,29

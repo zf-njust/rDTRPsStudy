@@ -1,0 +1,1344 @@
+file,method,params,startlineno,endlineno
+docs\conf.py,github_link,"name, rawtext, text, lineno, inliner, options=None, content=None",66,91
+docs\conf.py,setup,app,94,95
+examples\javascript\js_example\views.py,index,js,8,11
+examples\javascript\js_example\views.py,add,,14,18
+examples\javascript\tests\conftest.py,fixture_app,,6,10
+examples\javascript\tests\conftest.py,client,app,13,15
+examples\javascript\tests\test_js_example.py,test_index,"app, client, path, template_name",5,19
+examples\javascript\tests\test_js_example.py,check,"sender, template, context",15,16
+examples\javascript\tests\test_js_example.py,test_add,"client, a, b, result",22,27
+examples\tutorial\flaskr\auth.py,login_required,view,19,29
+examples\tutorial\flaskr\auth.py,wrapped_view,**kwargs,22,27
+examples\tutorial\flaskr\auth.py,load_logged_in_user,,32,42
+examples\tutorial\flaskr\auth.py,register,,46,81
+examples\tutorial\flaskr\auth.py,login,,84,109
+examples\tutorial\flaskr\auth.py,logout,,112,116
+examples\tutorial\flaskr\blog.py,index,,16,25
+examples\tutorial\flaskr\blog.py,get_post,"id, check_author=True",28,57
+examples\tutorial\flaskr\blog.py,create,,60,83
+examples\tutorial\flaskr\blog.py,update,id,86,110
+examples\tutorial\flaskr\blog.py,delete,id,113,125
+examples\tutorial\flaskr\db.py,get_db,,9,20
+examples\tutorial\flaskr\db.py,close_db,e=None,23,30
+examples\tutorial\flaskr\db.py,init_db,,33,38
+examples\tutorial\flaskr\db.py,init_db_command,,41,46
+examples\tutorial\flaskr\db.py,init_app,app,49,54
+examples\tutorial\flaskr\__init__.py,create_app,test_config=None,6,50
+examples\tutorial\flaskr\__init__.py,hello,,29,31
+examples\tutorial\tests\conftest.py,app,,15,32
+examples\tutorial\tests\conftest.py,client,app,35,38
+examples\tutorial\tests\conftest.py,runner,app,41,44
+examples\tutorial\tests\conftest.py,__init__,"self, client",48,49
+examples\tutorial\tests\conftest.py,login,"self, username='test', password='test'",51,53
+examples\tutorial\tests\conftest.py,logout,self,56,57
+examples\tutorial\tests\conftest.py,auth,client,60,62
+examples\tutorial\tests\test_auth.py,test_register,"client, app",8,20
+examples\tutorial\tests\test_auth.py,test_register_validate_input,"client, username, password, message",24,36
+examples\tutorial\tests\test_auth.py,test_login,"client, auth",39,52
+examples\tutorial\tests\test_auth.py,test_login_validate_input,"auth, username, password, message",55,61
+examples\tutorial\tests\test_auth.py,test_logout,"client, auth",64,69
+examples\tutorial\tests\test_blog.py,test_index,"client, auth",6,16
+examples\tutorial\tests\test_blog.py,test_login_required,"client, path",19,22
+examples\tutorial\tests\test_blog.py,test_author_required,"app, client, auth",25,37
+examples\tutorial\tests\test_blog.py,test_exists_required,"client, auth, path",40,43
+examples\tutorial\tests\test_blog.py,test_create,"client, auth, app",46,54
+examples\tutorial\tests\test_blog.py,test_update,"client, auth, app",57,65
+examples\tutorial\tests\test_blog.py,test_create_update_validate,"client, auth, path",68,72
+examples\tutorial\tests\test_blog.py,test_delete,"client, auth, app",75,83
+examples\tutorial\tests\test_db.py,test_get_close_db,app,8,16
+examples\tutorial\tests\test_db.py,test_init_db_command,"runner, monkeypatch",19,29
+examples\tutorial\tests\test_db.py,fake_init_db,,23,24
+examples\tutorial\tests\test_factory.py,test_config,,4,7
+examples\tutorial\tests\test_factory.py,test_hello,client,10,12
+src\flask\app.py,_make_timedelta,value,76,79
+src\flask\app.py,setupmethod,f,82,100
+src\flask\app.py,wrapper_func,"self, *args, **kwargs",87,98
+src\flask\app.py,__init__,"self, import_name, static_url_path=None, static_folder='static', static_host=None, host_matching=False, subdomain_matching=False, template_folder='templates', instance_path=None, instance_relative_config=False, root_path=None",402,610
+src\flask\app.py,name,self,612,627
+src\flask\app.py,propagate_exceptions,self,629,639
+src\flask\app.py,preserve_context_on_exception,self,641,652
+src\flask\app.py,logger,self,654,679
+src\flask\app.py,jinja_env,self,681,689
+src\flask\app.py,got_first_request,self,691,698
+src\flask\app.py,make_config,"self, instance_relative=False",700,715
+src\flask\app.py,auto_find_instance_path,self,717,728
+src\flask\app.py,open_instance_resource,"self, resource, mode='rb'",730,740
+src\flask\app.py,templates_auto_reload,self,742,755
+src\flask\app.py,templates_auto_reload,"self, value",757,759
+src\flask\app.py,create_jinja_environment,self,761,794
+src\flask\app.py,create_global_jinja_loader,self,796,807
+src\flask\app.py,select_jinja_autoescape,"self, filename",809,817
+src\flask\app.py,update_template_context,"self, context",819,842
+src\flask\app.py,make_shell_context,self,844,854
+src\flask\app.py,debug,self,867,882
+src\flask\app.py,debug,"self, value",884,887
+src\flask\app.py,run,"self, host=None, port=None, debug=None, load_dotenv=True, **options",889,995
+src\flask\app.py,test_client,"self, use_cookies=True, **kwargs",997,1051
+src\flask\app.py,test_cli_runner,"self, **kwargs",1053,1068
+src\flask\app.py,open_session,"self, request",1070,1089
+src\flask\app.py,save_session,"self, session, response",1091,1112
+src\flask\app.py,make_null_session,self,1114,1131
+src\flask\app.py,register_blueprint,"self, blueprint, **options",1133,1167
+src\flask\app.py,iter_blueprints,self,1169,1174
+src\flask\app.py,add_url_rule,"self, rule, endpoint=None, view_func=None, provide_automatic_options=None, **options",1176,1285
+src\flask\app.py,route,"self, rule, **options",1287,1317
+src\flask\app.py,decorator,f,1312,1315
+src\flask\app.py,endpoint,"self, endpoint",1319,1335
+src\flask\app.py,decorator,f,1331,1333
+src\flask\app.py,_get_exc_class_and_code,exc_class_or_code,1337,1356
+src\flask\app.py,errorhandler,"self, code_or_exception",1358,1393
+src\flask\app.py,decorator,f,1389,1391
+src\flask\app.py,register_error_handler,"self, code_or_exception, f",1395,1403
+src\flask\app.py,_register_error_handler,"self, key, code_or_exception, f",1405,1428
+src\flask\app.py,template_filter,"self, name=None",1430,1448
+src\flask\app.py,decorator,f,1444,1446
+src\flask\app.py,add_template_filter,"self, f, name=None",1450,1458
+src\flask\app.py,template_test,"self, name=None",1460,1485
+src\flask\app.py,decorator,f,1481,1483
+src\flask\app.py,add_template_test,"self, f, name=None",1487,1497
+src\flask\app.py,template_global,"self, name=None",1499,1519
+src\flask\app.py,decorator,f,1515,1517
+src\flask\app.py,add_template_global,"self, f, name=None",1521,1531
+src\flask\app.py,before_request,"self, f",1533,1545
+src\flask\app.py,before_first_request,"self, f",1547,1558
+src\flask\app.py,after_request,"self, f",1560,1572
+src\flask\app.py,teardown_request,"self, f",1574,1611
+src\flask\app.py,teardown_appcontext,"self, f",1613,1644
+src\flask\app.py,context_processor,"self, f",1646,1650
+src\flask\app.py,shell_context_processor,"self, f",1652,1659
+src\flask\app.py,url_value_preprocessor,"self, f",1661,1676
+src\flask\app.py,url_defaults,"self, f",1678,1685
+src\flask\app.py,_find_error_handler,"self, e",1687,1710
+src\flask\app.py,handle_http_exception,"self, e",1712,1743
+src\flask\app.py,trap_http_exception,"self, e",1745,1778
+src\flask\app.py,handle_user_exception,"self, e",1780,1821
+src\flask\app.py,handle_exception,"self, e",1823,1880
+src\flask\app.py,log_exception,"self, exc_info",1882,1891
+src\flask\app.py,raise_routing_exception,"self, request",1894,1911
+src\flask\app.py,dispatch_request,self,1913,1935
+src\flask\app.py,full_dispatch_request,self,1937,1952
+src\flask\app.py,finalize_request,"self, rv, from_error_handler=False",1954,1977
+src\flask\app.py,try_trigger_before_first_request_functions,self,1979,1993
+src\flask\app.py,make_default_options_response,self,1995,2016
+src\flask\app.py,should_ignore_error,"self, error",2018,2026
+src\flask\app.py,make_response,"self, rv",2028,2144
+src\flask\app.py,create_url_adapter,"self, request",2146,2181
+src\flask\app.py,inject_url_defaults,"self, endpoint, values",2184,2196
+src\flask\app.py,handle_url_build_error,"self, error, endpoint, values",2198,2216
+src\flask\app.py,preprocess_request,self,2218,2243
+src\flask\app.py,process_response,"self, response",2245,2269
+src\flask\app.py,do_teardown_request,"self, exc=_sentinel",2271,2300
+src\flask\app.py,do_teardown_appcontext,"self, exc=_sentinel",2302,2321
+src\flask\app.py,app_context,self,2323,2342
+src\flask\app.py,request_context,"self, environ",2344,2358
+src\flask\app.py,test_request_context,"self, *args, **kwargs",2360,2414
+src\flask\app.py,wsgi_app,"self, environ, start_response",2416,2457
+src\flask\app.py,__call__,"self, environ, start_response",2459,2463
+src\flask\app.py,__repr__,self,2465,2466
+src\flask\blueprints.py,__init__,"self, blueprint, app, options, first_registration",28,63
+src\flask\blueprints.py,add_url_rule,"self, rule, endpoint=None, view_func=None, **options",65,86
+src\flask\blueprints.py,__init__,"self, name, import_name, static_folder=None, static_url_path=None, template_folder=None, url_prefix=None, subdomain=None, url_defaults=None, root_path=None, cli_group=_sentinel",168,193
+src\flask\blueprints.py,record,"self, func",195,211
+src\flask\blueprints.py,record_once,"self, func",213,224
+src\flask\blueprints.py,wrapper,state,220,222
+src\flask\blueprints.py,make_setup_state,"self, app, options, first_registration=False",226,231
+src\flask\blueprints.py,register,"self, app, options, first_registration=False",233,270
+src\flask\blueprints.py,route,"self, rule, **options",272,282
+src\flask\blueprints.py,decorator,f,277,280
+src\flask\blueprints.py,add_url_rule,"self, rule, endpoint=None, view_func=None, **options",284,294
+src\flask\blueprints.py,endpoint,"self, endpoint",296,311
+src\flask\blueprints.py,decorator,f,304,309
+src\flask\blueprints.py,register_endpoint,state,305,306
+src\flask\blueprints.py,app_template_filter,"self, name=None",313,325
+src\flask\blueprints.py,decorator,f,321,323
+src\flask\blueprints.py,add_app_template_filter,"self, f, name=None",327,339
+src\flask\blueprints.py,register_template,state,336,337
+src\flask\blueprints.py,app_template_test,"self, name=None",341,355
+src\flask\blueprints.py,decorator,f,351,353
+src\flask\blueprints.py,add_app_template_test,"self, f, name=None",357,371
+src\flask\blueprints.py,register_template,state,368,369
+src\flask\blueprints.py,app_template_global,"self, name=None",373,387
+src\flask\blueprints.py,decorator,f,383,385
+src\flask\blueprints.py,add_app_template_global,"self, f, name=None",389,403
+src\flask\blueprints.py,register_template,state,400,401
+src\flask\blueprints.py,before_request,"self, f",405,413
+src\flask\blueprints.py,before_app_request,"self, f",415,422
+src\flask\blueprints.py,before_app_first_request,"self, f",424,429
+src\flask\blueprints.py,after_request,"self, f",431,439
+src\flask\blueprints.py,after_app_request,"self, f",441,448
+src\flask\blueprints.py,teardown_request,"self, f",450,460
+src\flask\blueprints.py,teardown_app_request,"self, f",462,470
+src\flask\blueprints.py,context_processor,"self, f",472,481
+src\flask\blueprints.py,app_context_processor,"self, f",483,490
+src\flask\blueprints.py,app_errorhandler,"self, code",492,501
+src\flask\blueprints.py,decorator,f,497,499
+src\flask\blueprints.py,url_value_preprocessor,"self, f",503,511
+src\flask\blueprints.py,url_defaults,"self, f",513,521
+src\flask\blueprints.py,app_url_value_preprocessor,"self, f",523,529
+src\flask\blueprints.py,app_url_defaults,"self, f",531,537
+src\flask\blueprints.py,errorhandler,"self, code_or_exception",539,557
+src\flask\blueprints.py,decorator,f,551,555
+src\flask\blueprints.py,register_error_handler,"self, code_or_exception, f",559,568
+src\flask\cli.py,find_best_app,"script_info, module",52,99
+src\flask\cli.py,call_factory,"script_info, app_factory, arguments=()",103,119
+src\flask\cli.py,_called_with_wrong_args,factory,122,145
+src\flask\cli.py,find_app_by_string,"script_info, module, app_name",148,203
+src\flask\cli.py,prepare_import,path,207,233
+src\flask\cli.py,locate_app,"script_info, module_name, app_name, raise_if_not_found=True",236,259
+src\flask\cli.py,get_version,"ctx, param, value",262,279
+src\flask\cli.py,__init__,"self, loader, use_eager_loading=False",299,307
+src\flask\cli.py,_load_in_background,self,309,319
+src\flask\cli.py,_load_app,,310,316
+src\flask\cli.py,_flush_bg_loading_exception,self,321,326
+src\flask\cli.py,_load_unlocked,self,328,332
+src\flask\cli.py,__call__,"self, environ, start_response",334,344
+src\flask\cli.py,__init__,"self, app_import_path=None, create_app=None, set_debug_flag=True",356,366
+src\flask\cli.py,load_app,self,368,410
+src\flask\cli.py,with_appcontext,f,416,428
+src\flask\cli.py,decorator,"__ctx, *args, **kwargs",423,426
+src\flask\cli.py,command,"self, *args, **kwargs",439,451
+src\flask\cli.py,decorator,f,446,449
+src\flask\cli.py,group,"self, *args, **kwargs",453,459
+src\flask\cli.py,__init__,"self, add_default_commands=True, create_app=None, add_version_option=True, load_dotenv=True, set_debug_flag=True, **extra",487,511
+src\flask\cli.py,_load_plugin_commands,self,513,524
+src\flask\cli.py,get_command,"self, ctx, name",526,546
+src\flask\cli.py,list_commands,"self, ctx",548,565
+src\flask\cli.py,main,"self, *args, **kwargs",567,586
+src\flask\cli.py,_path_is_ancestor,"path, other",589,593
+src\flask\cli.py,load_dotenv,path=None,596,654
+src\flask\cli.py,show_server_banner,"env, debug, app_import_path, eager_loading",657,683
+src\flask\cli.py,__init__,self,694,695
+src\flask\cli.py,convert,"self, value, param, ctx",697,729
+src\flask\cli.py,_validate_key,"ctx, param, value",732,764
+src\flask\cli.py,convert,"self, value, param, ctx",773,776
+src\flask\cli.py,run_command,"info, host, port, reload, debugger, eager_loading, with_threads, cert, extra_files",779,860
+src\flask\cli.py,shell_command,,864,896
+src\flask\cli.py,routes_command,"sort, all_methods",899,942
+src\flask\cli.py,main,as_module=False,965,966
+src\flask\config.py,__init__,"self, name, get_converter=None",25,27
+src\flask\config.py,__get__,"self, obj, type=None",29,35
+src\flask\config.py,__set__,"self, obj, value",37,38
+src\flask\config.py,__init__,"self, root_path, defaults=None",85,87
+src\flask\config.py,from_envvar,"self, variable_name, silent=False",89,111
+src\flask\config.py,from_pyfile,"self, filename, silent=False",113,139
+src\flask\config.py,from_object,"self, obj",141,177
+src\flask\config.py,from_json,"self, filename, silent=False",179,202
+src\flask\config.py,from_mapping,"self, *mapping, **kwargs",204,225
+src\flask\config.py,get_namespace,"self, namespace, lowercase=True, trim_namespace=True",227,266
+src\flask\config.py,__repr__,self,268,269
+src\flask\ctx.py,get,"self, name, default=None",48,57
+src\flask\ctx.py,pop,"self, name, default=_sentinel",59,71
+src\flask\ctx.py,setdefault,"self, name, default=None",73,83
+src\flask\ctx.py,__contains__,"self, item",85,86
+src\flask\ctx.py,__iter__,self,88,89
+src\flask\ctx.py,__repr__,self,91,95
+src\flask\ctx.py,after_this_request,f,98,120
+src\flask\ctx.py,copy_current_request_context,f,123,160
+src\flask\ctx.py,wrapper,"*args, **kwargs",156,158
+src\flask\ctx.py,has_request_context,,163,192
+src\flask\ctx.py,has_app_context,,195,202
+src\flask\ctx.py,__init__,"self, app",214,221
+src\flask\ctx.py,push,self,223,229
+src\flask\ctx.py,pop,"self, exc=_sentinel",231,242
+src\flask\ctx.py,__enter__,self,244,246
+src\flask\ctx.py,__exit__,"self, exc_type, exc_value, tb",248,252
+src\flask\ctx.py,__init__,"self, app, environ, request=None, session=None",285,315
+src\flask\ctx.py,g,self,317,319
+src\flask\ctx.py,g,"self, value",321,323
+src\flask\ctx.py,copy,self,325,342
+src\flask\ctx.py,match_request,self,345,353
+src\flask\ctx.py,push,self,355,396
+src\flask\ctx.py,pop,"self, exc=_sentinel",398,442
+src\flask\ctx.py,auto_pop,"self, exc",445,452
+src\flask\ctx.py,__enter__,self,454,456
+src\flask\ctx.py,__exit__,"self, exc_type, exc_value, tb",458,467
+src\flask\ctx.py,__repr__,self,469,474
+src\flask\debughelpers.py,__init__,"self, request, key",33,48
+src\flask\debughelpers.py,__str__,self,50,51
+src\flask\debughelpers.py,__init__,"self, request",60,83
+src\flask\debughelpers.py,attach_enctype_error_multidict,request,86,104
+src\flask\debughelpers.py,__getitem__,"self, key",94,100
+src\flask\debughelpers.py,_dump_loader_info,loader,107,121
+src\flask\debughelpers.py,explain_template_loading_attempts,"app, template, attempts",124,169
+src\flask\debughelpers.py,explain_ignored_app_run,,172,182
+src\flask\globals.py,_lookup_req_object,name,35,39
+src\flask\globals.py,_lookup_app_object,name,42,46
+src\flask\globals.py,_find_app,,49,53
+src\flask\helpers.py,get_env,,56,61
+src\flask\helpers.py,get_debug_flag,,64,75
+src\flask\helpers.py,get_load_dotenv,default=True,78,90
+src\flask\helpers.py,_endpoint_from_view_func,view_func,93,98
+src\flask\helpers.py,stream_with_context,generator_or_function,101,174
+src\flask\helpers.py,decorator,"*args, **kwargs",139,141
+src\flask\helpers.py,generator,,145,166
+src\flask\helpers.py,make_response,*args,177,223
+src\flask\helpers.py,url_for,"endpoint, **values",226,374
+src\flask\helpers.py,get_template_attribute,"template_name, attribute",377,396
+src\flask\helpers.py,flash,"message, category='message'",399,425
+src\flask\helpers.py,get_flashed_messages,"with_categories=False, category_filter=()",429,466
+src\flask\helpers.py,send_file,"filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False, last_modified=None",469,693
+src\flask\helpers.py,safe_join,"directory, *pathnames",696,730
+src\flask\helpers.py,send_from_directory,"directory, filename, **options",733,771
+src\flask\helpers.py,get_root_path,import_name,774,819
+src\flask\helpers.py,_matching_loader_thinks_module_is_package,"loader, mod_name",822,846
+src\flask\helpers.py,_find_package_path,root_mod_name,850,905
+src\flask\helpers.py,find_package,import_name,908,933
+src\flask\helpers.py,__init__,"self, func, name=None, doc=None",944,949
+src\flask\helpers.py,__get__,"self, obj, type=None",951,959
+src\flask\helpers.py,__init__,"self, import_name, template_folder=None, root_path=None",975,993
+src\flask\helpers.py,static_folder,self,995,999
+src\flask\helpers.py,static_folder,"self, value",1001,1003
+src\flask\helpers.py,static_url_path,self,1005,1017
+src\flask\helpers.py,static_url_path,"self, value",1019,1024
+src\flask\helpers.py,has_static_folder,self,1026,1033
+src\flask\helpers.py,jinja_loader,self,1035,1042
+src\flask\helpers.py,get_send_file_max_age,"self, filename",1044,1068
+src\flask\helpers.py,send_static_file,"self, filename",1070,1082
+src\flask\helpers.py,open_resource,"self, resource, mode='rb'",1085,1112
+src\flask\helpers.py,total_seconds,td,1115,1123
+src\flask\helpers.py,is_ip,value,1126,1153
+src\flask\logging.py,wsgi_errors_stream,,20,30
+src\flask\logging.py,has_level_handler,logger,33,49
+src\flask\logging.py,_has_config,logger,60,70
+src\flask\logging.py,create_logger,app,74,109
+src\flask\sessions.py,permanent,self,28,31
+src\flask\sessions.py,permanent,"self, value",33,35
+src\flask\sessions.py,__init__,"self, initial=None",75,80
+src\flask\sessions.py,on_update,self,76,78
+src\flask\sessions.py,__getitem__,"self, key",82,84
+src\flask\sessions.py,get,"self, key, default=None",86,88
+src\flask\sessions.py,setdefault,"self, key, default=None",90,92
+src\flask\sessions.py,_fail,"self, *args, **kwargs",101,103
+src\flask\sessions.py,make_null_session,"self, app",155,165
+src\flask\sessions.py,is_null_session,"self, obj",167,174
+src\flask\sessions.py,get_cookie_domain,"self, app",176,232
+src\flask\sessions.py,get_cookie_path,"self, app",234,240
+src\flask\sessions.py,get_cookie_httponly,"self, app",242,247
+src\flask\sessions.py,get_cookie_secure,"self, app",249,253
+src\flask\sessions.py,get_cookie_samesite,"self, app",255,260
+src\flask\sessions.py,get_expiration_time,"self, app, session",262,269
+src\flask\sessions.py,should_set_cookie,"self, app, session",271,284
+src\flask\sessions.py,open_session,"self, app, request",287,293
+src\flask\sessions.py,save_session,"self, app, session, response",295,301
+src\flask\sessions.py,get_signing_serializer,"self, app",326,336
+src\flask\sessions.py,open_session,"self, app, request",339,351
+src\flask\sessions.py,save_session,"self, app, session, response",353,387
+src\flask\signals.py,signal,"self, name, doc=None",20,21
+src\flask\signals.py,__init__,"self, name, doc=None",30,32
+src\flask\signals.py,send,"self, *args, **kwargs",34,35
+src\flask\signals.py,_fail,"self, *args, **kwargs",37,39
+src\flask\templating.py,_default_template_ctx_processor,,21,33
+src\flask\templating.py,__init__,"self, app, **options",42,46
+src\flask\templating.py,__init__,"self, app",54,55
+src\flask\templating.py,get_source,"self, environment, template",57,60
+src\flask\templating.py,_get_source_explained,"self, environment, template",62,81
+src\flask\templating.py,_get_source_fast,"self, environment, template",83,89
+src\flask\templating.py,_iter_loaders,"self, template",91,99
+src\flask\templating.py,list_templates,self,101,113
+src\flask\templating.py,_render,"template, context, app",116,122
+src\flask\templating.py,render_template,"template_name_or_list, **context",125,140
+src\flask\templating.py,render_template_string,"source, **context",144,155
+src\flask\testing.py,__init__,"self, app, path='/', base_url=None, subdomain=None, url_scheme=None, *args, **kwargs",47,86
+src\flask\testing.py,json_dumps,"self, obj, **kwargs",88,95
+src\flask\testing.py,make_test_environ_builder,"*args, **kwargs",98,112
+src\flask\testing.py,__init__,"self, *args, **kwargs",132,136
+src\flask\testing.py,session_transaction,"self, *args, **kwargs",139,190
+src\flask\testing.py,open,"self, *args, **kwargs",192,227
+src\flask\testing.py,__enter__,self,230,234
+src\flask\testing.py,__exit__,"self, exc_type, exc_value, tb",236,249
+src\flask\testing.py,__init__,"self, app, **kwargs",258,260
+src\flask\testing.py,invoke,"self, cli=None, args=None, **kwargs",262,283
+src\flask\views.py,dispatch_request,self,69,74
+src\flask\views.py,as_view,"cls, name, *class_args, **class_kwargs",76,108
+src\flask\views.py,view,"*args, **kwargs",87,89
+src\flask\views.py,__init__,"cls, name, bases, d",116,135
+src\flask\views.py,dispatch_request,"self, *args, **kwargs",154,163
+src\flask\wrappers.py,on_json_loading_failed,"self, e",23,27
+src\flask\wrappers.py,max_content_length,self,65,69
+src\flask\wrappers.py,endpoint,self,71,79
+src\flask\wrappers.py,blueprint,self,81,85
+src\flask\wrappers.py,_load_form_data,self,87,100
+src\flask\wrappers.py,_get_data_for_json,"self, cache",123,124
+src\flask\wrappers.py,max_cookie_size,self,126,137
+src\flask\_compat.py,reraise,"tp, value, tb=None",36,39
+src\flask\_compat.py,implements_to_string,cls,54,57
+src\flask\_compat.py,with_metaclass,"meta, *bases",60,69
+src\flask\_compat.py,__new__,"metacls, name, this_bases, d",66,67
+src\flask\_compat.py,__enter__,self,87,88
+src\flask\_compat.py,__exit__,"self, *args",90,93
+src\flask\_compat.py,fspath,path,114,115
+src\flask\_compat.py,__init__,"self, name, version, value",119,123
+src\flask\_compat.py,_warn,self,125,128
+src\flask\_compat.py,__eq__,"self, other",130,132
+src\flask\_compat.py,__ne__,"self, other",134,136
+src\flask\_compat.py,__bool__,self,138,140
+src\flask\json\tag.py,__init__,"self, serializer",68,70
+src\flask\json\tag.py,check,"self, value",72,74
+src\flask\json\tag.py,to_json,"self, value",76,79
+src\flask\json\tag.py,to_python,"self, value",81,84
+src\flask\json\tag.py,tag,"self, value",86,89
+src\flask\json\tag.py,check,"self, value",102,106
+src\flask\json\tag.py,to_json,"self, value",109,111
+src\flask\json\tag.py,to_python,"self, value",113,115
+src\flask\json\tag.py,check,"self, value",121,122
+src\flask\json\tag.py,to_json,"self, value",124,127
+src\flask\json\tag.py,check,"self, value",136,137
+src\flask\json\tag.py,to_json,"self, value",139,140
+src\flask\json\tag.py,to_python,"self, value",142,143
+src\flask\json\tag.py,check,"self, value",149,150
+src\flask\json\tag.py,to_json,"self, value",152,153
+src\flask\json\tag.py,check,"self, value",162,163
+src\flask\json\tag.py,to_json,"self, value",165,166
+src\flask\json\tag.py,to_python,"self, value",168,169
+src\flask\json\tag.py,check,"self, value",180,181
+src\flask\json\tag.py,to_json,"self, value",183,184
+src\flask\json\tag.py,to_python,"self, value",186,187
+src\flask\json\tag.py,check,"self, value",194,195
+src\flask\json\tag.py,to_json,"self, value",197,198
+src\flask\json\tag.py,to_python,"self, value",200,201
+src\flask\json\tag.py,check,"self, value",208,209
+src\flask\json\tag.py,to_json,"self, value",211,212
+src\flask\json\tag.py,to_python,"self, value",214,215
+src\flask\json\tag.py,__init__,self,248,253
+src\flask\json\tag.py,register,"self, tag_class, force=False, index=None",255,281
+src\flask\json\tag.py,tag,"self, value",283,289
+src\flask\json\tag.py,untag,"self, value",291,301
+src\flask\json\tag.py,dumps,"self, value",303,305
+src\flask\json\tag.py,loads,"self, value",307,309
+src\flask\json\__init__.py,_wrap_reader_for_text,"fp, encoding",47,50
+src\flask\json\__init__.py,_wrap_writer_for_text,"fp, encoding",53,58
+src\flask\json\__init__.py,default,"self, o",73,100
+src\flask\json\__init__.py,_dump_arg_defaults,"kwargs, app=None",111,128
+src\flask\json\__init__.py,_load_arg_defaults,"kwargs, app=None",131,142
+src\flask\json\__init__.py,detect_encoding,data,145,185
+src\flask\json\__init__.py,dumps,"obj, app=None, **kwargs",188,214
+src\flask\json\__init__.py,dump,"obj, fp, app=None, **kwargs",217,223
+src\flask\json\__init__.py,loads,"s, app=None, **kwargs",226,253
+src\flask\json\__init__.py,load,"fp, app=None, **kwargs",256,261
+src\flask\json\__init__.py,htmlsafe_dumps,"obj, **kwargs",264,298
+src\flask\json\__init__.py,htmlsafe_dump,"obj, fp, **kwargs",301,303
+src\flask\json\__init__.py,jsonify,"*args, **kwargs",306,371
+src\flask\json\__init__.py,tojson_filter,"obj, **kwargs",375,376
+tests\conftest.py,_standard_os_environ,,21,43
+tests\conftest.py,_reset_os_environ,"monkeypatch, _standard_os_environ",46,51
+tests\conftest.py,app,,59,62
+tests\conftest.py,app_ctx,app,65,68
+tests\conftest.py,req_ctx,app,71,74
+tests\conftest.py,client,app,77,79
+tests\conftest.py,test_apps,monkeypatch,82,85
+tests\conftest.py,leak_detector,,89,98
+tests\conftest.py,limit_loader,"request, monkeypatch",101,130
+tests\conftest.py,__init__,"self, loader",116,117
+tests\conftest.py,__getattr__,"self, name",119,123
+tests\conftest.py,get_loader,"*args, **kwargs",127,128
+tests\conftest.py,modules_tmpdir,"tmpdir, monkeypatch",133,138
+tests\conftest.py,modules_tmpdir_prefix,"modules_tmpdir, monkeypatch",141,144
+tests\conftest.py,site_packages,"modules_tmpdir, monkeypatch",147,156
+tests\conftest.py,install_egg,"modules_tmpdir, monkeypatch",159,194
+tests\conftest.py,inner,"name, base=modules_tmpdir",164,192
+tests\conftest.py,purge_module,request,197,202
+tests\conftest.py,inner,name,199,200
+tests\test_appctx.py,test_basic_url_generation,app,16,26
+tests\test_appctx.py,index,,20,22
+tests\test_appctx.py,test_url_generation_requires_server_name,app,29,32
+tests\test_appctx.py,test_url_generation_without_context_fails,,35,37
+tests\test_appctx.py,test_request_context_means_app_context,app,40,43
+tests\test_appctx.py,test_app_context_provides_current_app,app,46,49
+tests\test_appctx.py,test_app_tearing_down,app,52,62
+tests\test_appctx.py,cleanup,exception,55,57
+tests\test_appctx.py,test_app_tearing_down_with_previous_exception,app,65,80
+tests\test_appctx.py,cleanup,exception,68,70
+tests\test_appctx.py,test_app_tearing_down_with_handled_exception_by_except_block,app,83,96
+tests\test_appctx.py,cleanup,exception,86,88
+tests\test_appctx.py,test_app_tearing_down_with_handled_exception_by_app_handler,"app, client",99,118
+tests\test_appctx.py,cleanup,exception,103,105
+tests\test_appctx.py,index,,107,109
+tests\test_appctx.py,handler,f,111,113
+tests\test_appctx.py,test_app_tearing_down_with_unhandled_exception,"app, client",121,139
+tests\test_appctx.py,cleanup,exception,125,127
+tests\test_appctx.py,index,,129,131
+tests\test_appctx.py,test_app_ctx_globals_methods,"app, app_ctx",142,162
+tests\test_appctx.py,test_custom_app_ctx_globals_class,app,165,172
+tests\test_appctx.py,__init__,self,167,168
+tests\test_appctx.py,test_context_refcounts,"app, client",175,198
+tests\test_appctx.py,teardown_req,error=None,178,180
+tests\test_appctx.py,teardown_app,error=None,182,184
+tests\test_appctx.py,index,,186,193
+tests\test_appctx.py,test_clean_pop,app,201,220
+tests\test_appctx.py,teardown_req,error=None,205,207
+tests\test_appctx.py,teardown_app,error=None,209,211
+tests\test_basic.py,test_options_work,"app, client",30,37
+tests\test_basic.py,index,,31,33
+tests\test_basic.py,test_options_on_multiple_rules,"app, client",40,50
+tests\test_basic.py,index,,41,43
+tests\test_basic.py,index_put,,45,47
+tests\test_basic.py,test_provide_automatic_options_attr,,53,72
+tests\test_basic.py,index,,56,57
+tests\test_basic.py,index2,,66,67
+tests\test_basic.py,test_provide_automatic_options_kwarg,"app, client",75,118
+tests\test_basic.py,index,,76,77
+tests\test_basic.py,more,,79,80
+tests\test_basic.py,test_request_dispatching,"app, client",121,141
+tests\test_basic.py,index,,122,124
+tests\test_basic.py,more,,126,128
+tests\test_basic.py,test_disallow_string_for_allowed_methods,app,144,149
+tests\test_basic.py,index,,147,149
+tests\test_basic.py,test_url_mapping,"app, client",152,185
+tests\test_basic.py,index,,155,156
+tests\test_basic.py,more,,158,159
+tests\test_basic.py,options,,161,162
+tests\test_basic.py,test_werkzeug_routing,"app, client",188,205
+tests\test_basic.py,bar,,195,196
+tests\test_basic.py,index,,198,199
+tests\test_basic.py,test_endpoint_decorator,"app, client",208,224
+tests\test_basic.py,bar,,215,217
+tests\test_basic.py,index,,219,221
+tests\test_basic.py,test_session,"app, client",227,247
+tests\test_basic.py,set,,228,235
+tests\test_basic.py,get,,237,244
+tests\test_basic.py,test_session_using_server_name,"app, client",250,260
+tests\test_basic.py,index,,253,256
+tests\test_basic.py,test_session_using_server_name_and_port,"app, client",263,273
+tests\test_basic.py,index,,266,269
+tests\test_basic.py,test_session_using_server_name_port_and_path,"app, client",276,287
+tests\test_basic.py,index,,279,282
+tests\test_basic.py,test_session_using_application_root,"app, client",290,309
+tests\test_basic.py,__init__,"self, app, prefix",292,294
+tests\test_basic.py,__call__,"self, environ, start_response",296,298
+tests\test_basic.py,index,,303,306
+tests\test_basic.py,test_session_using_session_settings,"app, client",312,334
+tests\test_basic.py,index,,323,326
+tests\test_basic.py,test_session_using_samesite_attribute,"app, client",337,361
+tests\test_basic.py,index,,338,341
+tests\test_basic.py,test_session_localhost_warning,"recwarn, app, client",364,375
+tests\test_basic.py,index,,367,370
+tests\test_basic.py,test_session_ip_warning,"recwarn, app, client",378,389
+tests\test_basic.py,index,,381,384
+tests\test_basic.py,test_missing_session,app,392,402
+tests\test_basic.py,expect_exception,"f, *args, **kwargs",395,397
+tests\test_basic.py,test_session_expiration,"app, client",405,434
+tests\test_basic.py,index,,408,412
+tests\test_basic.py,test,,414,416
+tests\test_basic.py,test_session_stored_last,"app, client",437,448
+tests\test_basic.py,modify_session,response,438,441
+tests\test_basic.py,dump_session_contents,,443,445
+tests\test_basic.py,test_session_special_types,"app, client",451,479
+tests\test_basic.py,dump_session_contents,,455,465
+tests\test_basic.py,test_session_cookie_setting,app,482,520
+tests\test_basic.py,bump,,485,489
+tests\test_basic.py,read,,491,493
+tests\test_basic.py,run_test,expect_header,495,504
+tests\test_basic.py,test_session_vary_cookie,"app, client",523,575
+tests\test_basic.py,set_session,,524,527
+tests\test_basic.py,get,,529,531
+tests\test_basic.py,getitem,,533,535
+tests\test_basic.py,setdefault,,537,539
+tests\test_basic.py,vary_cookie_header_set,,541,546
+tests\test_basic.py,vary_header_set,,548,553
+tests\test_basic.py,no_vary_header,,555,557
+tests\test_basic.py,expect,"path, header_value='Cookie'",559,567
+tests\test_basic.py,test_flashes,"app, req_ctx",578,584
+tests\test_basic.py,test_extended_flashing,app,587,665
+tests\test_basic.py,index,,594,599
+tests\test_basic.py,test,,601,609
+tests\test_basic.py,test_with_categories,,611,620
+tests\test_basic.py,test_filter,,622,628
+tests\test_basic.py,test_filters,,630,639
+tests\test_basic.py,test_filters2,,641,647
+tests\test_basic.py,test_request_processing,"app, client",668,690
+tests\test_basic.py,before_request,,671,673
+tests\test_basic.py,after_request,response,675,679
+tests\test_basic.py,index,,681,685
+tests\test_basic.py,test_request_preprocessing_early_return,"app, client",693,717
+tests\test_basic.py,before_request1,,696,698
+tests\test_basic.py,before_request2,,700,703
+tests\test_basic.py,before_request3,,705,708
+tests\test_basic.py,index,,710,713
+tests\test_basic.py,test_after_request_processing,"app, client",720,732
+tests\test_basic.py,index,,721,728
+tests\test_basic.py,foo,response,723,726
+tests\test_basic.py,test_teardown_request_handler,"app, client",735,750
+tests\test_basic.py,teardown_request,exc,738,741
+tests\test_basic.py,root,,743,745
+tests\test_basic.py,test_teardown_request_handler_debug_mode,"app, client",753,768
+tests\test_basic.py,teardown_request,exc,756,759
+tests\test_basic.py,root,,761,763
+tests\test_basic.py,test_teardown_request_handler_error,"app, client",771,806
+tests\test_basic.py,teardown_request1,exc,775,785
+tests\test_basic.py,teardown_request2,exc,787,797
+tests\test_basic.py,fails,,799,801
+tests\test_basic.py,test_before_after_request_order,"app, client",809,844
+tests\test_basic.py,before1,,812,814
+tests\test_basic.py,before2,,816,818
+tests\test_basic.py,after1,response,820,823
+tests\test_basic.py,after2,response,825,828
+tests\test_basic.py,finish1,exc,830,832
+tests\test_basic.py,finish2,exc,834,836
+tests\test_basic.py,index,,838,840
+tests\test_basic.py,test_error_handling,"app, client",847,882
+tests\test_basic.py,not_found,e,850,852
+tests\test_basic.py,internal_server_error,e,854,856
+tests\test_basic.py,forbidden,e,858,860
+tests\test_basic.py,index,,862,864
+tests\test_basic.py,error,,866,868
+tests\test_basic.py,error2,,870,872
+tests\test_basic.py,test_error_handler_unknown_code,app,885,889
+tests\test_basic.py,test_error_handling_processing,"app, client",892,910
+tests\test_basic.py,internal_server_error,e,895,897
+tests\test_basic.py,broken_func,,899,901
+tests\test_basic.py,after_request,resp,903,906
+tests\test_basic.py,test_baseexception_error_handling,"app, client",913,925
+tests\test_basic.py,broken_func,,916,918
+tests\test_basic.py,test_before_request_and_routing_errors,"app, client",928,939
+tests\test_basic.py,attach_something,,929,931
+tests\test_basic.py,return_something,error,933,935
+tests\test_basic.py,test_user_error_handling,"app, client",942,955
+tests\test_basic.py,handle_my_exception,e,946,949
+tests\test_basic.py,index,,951,953
+tests\test_basic.py,test_http_error_subclass_handling,"app, client",958,987
+tests\test_basic.py,handle_forbidden_subclass,e,962,965
+tests\test_basic.py,handle_403,e,967,971
+tests\test_basic.py,index1,,973,975
+tests\test_basic.py,index2,,977,979
+tests\test_basic.py,index3,,981,983
+tests\test_basic.py,test_errorhandler_precedence,"app, client",990,1020
+tests\test_basic.py,handle_e2,e,1000,1002
+tests\test_basic.py,handle_exception,e,1004,1006
+tests\test_basic.py,raise_e1,,1008,1010
+tests\test_basic.py,raise_e3,,1012,1014
+tests\test_basic.py,test_trapping_of_bad_request_key_errors,"app, client",1023,1051
+tests\test_basic.py,fail,,1024,1026
+tests\test_basic.py,allow_abort,,1028,1030
+tests\test_basic.py,test_trapping_of_all_http_exceptions,"app, client",1054,1062
+tests\test_basic.py,fail,,1057,1059
+tests\test_basic.py,test_error_handler_after_processor_error,"app, client",1065,1090
+tests\test_basic.py,before_request,,1068,1071
+tests\test_basic.py,after_request,response,1073,1077
+tests\test_basic.py,index,,1079,1081
+tests\test_basic.py,internal_server_error,e,1083,1085
+tests\test_basic.py,test_enctype_debug_helper,"app, client",1093,1109
+tests\test_basic.py,index,,1098,1100
+tests\test_basic.py,test_response_types,"app, client",1112,1192
+tests\test_basic.py,from_text,,1113,1115
+tests\test_basic.py,from_bytes,,1117,1119
+tests\test_basic.py,from_full_tuple,,1121,1126
+tests\test_basic.py,from_text_headers,,1129,1131
+tests\test_basic.py,from_text_status,,1133,1135
+tests\test_basic.py,from_response_headers,,1137,1141
+tests\test_basic.py,from_response_status,,1144,1146
+tests\test_basic.py,from_wsgi,,1148,1150
+tests\test_basic.py,from_dict,,1152,1154
+tests\test_basic.py,test_response_type_errors,,1195,1235
+tests\test_basic.py,from_none,,1199,1201
+tests\test_basic.py,from_small_tuple,,1203,1205
+tests\test_basic.py,from_large_tuple,,1207,1209
+tests\test_basic.py,from_bad_type,,1211,1213
+tests\test_basic.py,from_bad_wsgi,,1215,1217
+tests\test_basic.py,test_make_response,"app, req_ctx",1238,1252
+tests\test_basic.py,test_make_response_with_response_instance,"app, req_ctx",1255,1273
+tests\test_basic.py,test_jsonify_no_prettyprint,"app, req_ctx",1276,1282
+tests\test_basic.py,test_jsonify_prettyprint,"app, req_ctx",1285,1293
+tests\test_basic.py,test_jsonify_mimetype,"app, req_ctx",1296,1300
+tests\test_basic.py,test_json_dump_dataclass,"app, req_ctx",1303,1310
+tests\test_basic.py,test_jsonify_args_and_kwargs_check,"app, req_ctx",1313,1316
+tests\test_basic.py,test_url_generation,"app, req_ctx",1319,1327
+tests\test_basic.py,hello,,1320,1322
+tests\test_basic.py,test_build_error_handler,app,1331,1354
+tests\test_basic.py,handler,"error, endpoint, values",1348,1350
+tests\test_basic.py,test_build_error_handler_reraise,app,1357,1365
+tests\test_basic.py,handler_raises_build_error,"error, endpoint, values",1359,1360
+tests\test_basic.py,test_url_for_passes_special_values_to_build_error_handler,app,1368,1380
+tests\test_basic.py,handler,"error, endpoint, values",1369,1377
+tests\test_basic.py,test_static_files,"app, client",1383,1389
+tests\test_basic.py,test_static_url_path,,1392,1400
+tests\test_basic.py,test_static_url_path_with_ending_slash,,1403,1411
+tests\test_basic.py,test_static_url_empty_path,app,1414,1418
+tests\test_basic.py,test_static_url_empty_path_default,app,1421,1425
+tests\test_basic.py,test_static_route_with_host_matching,,1428,1446
+tests\test_basic.py,test_request_locals,,1449,1451
+tests\test_basic.py,test_server_name_subdomain,,1454,1493
+tests\test_basic.py,index,,1458,1460
+tests\test_basic.py,subdomain,,1462,1464
+tests\test_basic.py,test_exception_propagation,"app, client",1496,1516
+tests\test_basic.py,apprunner,config_key,1497,1507
+tests\test_basic.py,index,,1498,1500
+tests\test_basic.py,test_werkzeug_passthrough_errors,"monkeypatch, debug, use_debugger, use_reloader, propagate_exceptions, app",1519,1534
+tests\test_basic.py,run_simple_mock,"*args, **kwargs",1529,1530
+tests\test_basic.py,test_max_content_length,"app, client",1537,1555
+tests\test_basic.py,always_first,,1540,1543
+tests\test_basic.py,accept_file,,1545,1548
+tests\test_basic.py,catcher,error,1550,1552
+tests\test_basic.py,test_url_processors,"app, client",1558,1584
+tests\test_basic.py,add_language_code,"endpoint, values",1559,1564
+tests\test_basic.py,pull_lang_code,"endpoint, values",1566,1568
+tests\test_basic.py,index,,1570,1572
+tests\test_basic.py,about,,1574,1576
+tests\test_basic.py,something_else,,1578,1580
+tests\test_basic.py,test_inject_blueprint_url_defaults,app,1587,1608
+tests\test_basic.py,bp_defaults,"endpoint, values",1590,1592
+tests\test_basic.py,view,page,1594,1596
+tests\test_basic.py,test_nonascii_pathinfo,"app, client",1611,1617
+tests\test_basic.py,index,,1612,1614
+tests\test_basic.py,test_debug_mode_complains_after_first_request,"app, client",1620,1644
+tests\test_basic.py,index,,1623,1625
+tests\test_basic.py,broken,,1631,1633
+tests\test_basic.py,working,,1639,1641
+tests\test_basic.py,test_before_first_request_functions,"app, client",1647,1658
+tests\test_basic.py,foo,,1650,1652
+tests\test_basic.py,test_before_first_request_functions_concurrent,"app, client",1661,1677
+tests\test_basic.py,foo,,1664,1667
+tests\test_basic.py,get_and_assert,,1669,1671
+tests\test_basic.py,test_routing_redirect_debugging,"app, client",1680,1701
+tests\test_basic.py,foo,,1683,1685
+tests\test_basic.py,test_route_decorator_custom_endpoint,"app, client",1704,1726
+tests\test_basic.py,foo,,1707,1709
+tests\test_basic.py,for_bar,,1711,1713
+tests\test_basic.py,for_bar_foo,,1715,1717
+tests\test_basic.py,test_preserve_only_once,"app, client",1729,1745
+tests\test_basic.py,fail_func,,1732,1734
+tests\test_basic.py,test_preserve_remembers_exception,"app, client",1748,1777
+tests\test_basic.py,fail_func,,1752,1754
+tests\test_basic.py,success_func,,1756,1758
+tests\test_basic.py,teardown_handler,exc,1760,1762
+tests\test_basic.py,test_get_method_on_g,app_ctx,1780,1785
+tests\test_basic.py,test_g_iteration_protocol,app_ctx,1788,1793
+tests\test_basic.py,test_subdomain_basic_support,,1796,1813
+tests\test_basic.py,normal_index,,1801,1803
+tests\test_basic.py,test_index,,1805,1807
+tests\test_basic.py,test_subdomain_matching,,1816,1826
+tests\test_basic.py,index,user,1821,1823
+tests\test_basic.py,test_subdomain_matching_with_ports,,1829,1839
+tests\test_basic.py,index,user,1834,1836
+tests\test_basic.py,test_subdomain_matching_other_name,matching,1842,1860
+tests\test_basic.py,index,,1848,1850
+tests\test_basic.py,test_multi_route_rules,"app, client",1863,1872
+tests\test_basic.py,index,test='a',1864,1867
+tests\test_basic.py,test_multi_route_class_views,"app, client",1875,1888
+tests\test_basic.py,__init__,"self, app",1877,1879
+tests\test_basic.py,index,"self, test='a'",1881,1882
+tests\test_basic.py,test_run_defaults,"monkeypatch, app",1891,1900
+tests\test_basic.py,run_simple_mock,"*args, **kwargs",1895,1896
+tests\test_basic.py,test_run_server_port,"monkeypatch, app",1903,1913
+tests\test_basic.py,run_simple_mock,"hostname, port, application, *args, **kwargs",1907,1908
+tests\test_basic.py,test_run_from_config,"monkeypatch, host, port, server_name, expect_host, expect_port, app",1916,1937
+tests\test_basic.py,run_simple_mock,"hostname, port, *args, **kwargs",1931,1933
+tests\test_basic.py,test_max_cookie_size,"app, client, recwarn",1940,1967
+tests\test_basic.py,index,,1953,1957
+tests\test_blueprints.py,test_blueprint_specific_error_handling,"app, client",21,56
+tests\test_blueprints.py,frontend_forbidden,e,26,28
+tests\test_blueprints.py,frontend_no,,30,32
+tests\test_blueprints.py,backend_forbidden,e,34,36
+tests\test_blueprints.py,backend_no,,38,40
+tests\test_blueprints.py,sideend_no,,42,44
+tests\test_blueprints.py,app_forbidden,e,50,52
+tests\test_blueprints.py,test_blueprint_specific_user_error_handling,"app, client",59,90
+tests\test_blueprints.py,my_decorator_exception_handler,e,68,71
+tests\test_blueprints.py,my_function_exception_handler,e,73,75
+tests\test_blueprints.py,blue_deco_test,,79,81
+tests\test_blueprints.py,blue_func_test,,83,85
+tests\test_blueprints.py,test_blueprint_app_error_handling,"app, client",93,114
+tests\test_blueprints.py,forbidden_handler,e,96,98
+tests\test_blueprints.py,app_forbidden,,100,102
+tests\test_blueprints.py,bp_forbidden,,106,108
+tests\test_blueprints.py,test_blueprint_prefix_slash,"app, client, prefix, rule, url",117,141
+tests\test_blueprints.py,index,,136,138
+tests\test_blueprints.py,test_blueprint_url_defaults,"app, client",144,161
+tests\test_blueprints.py,foo,"bar, baz",147,149
+tests\test_blueprints.py,bar,bar,151,153
+tests\test_blueprints.py,test_blueprint_url_processors,"app, client",164,186
+tests\test_blueprints.py,add_language_code,"endpoint, values",167,169
+tests\test_blueprints.py,pull_lang_code,"endpoint, values",171,173
+tests\test_blueprints.py,index,,175,177
+tests\test_blueprints.py,about,,179,181
+tests\test_blueprints.py,test_templates_and_static,test_apps,189,233
+tests\test_blueprints.py,test_default_static_cache_timeout,app,236,257
+tests\test_blueprints.py,get_send_file_max_age,"self, filename",238,239
+tests\test_blueprints.py,test_templates_list,test_apps,260,264
+tests\test_blueprints.py,test_dotted_names,"app, client",267,288
+tests\test_blueprints.py,frontend_index,,271,273
+tests\test_blueprints.py,frontend_page2,,275,277
+tests\test_blueprints.py,backend_index,,279,281
+tests\test_blueprints.py,test_dotted_names_from_app,"app, client",291,305
+tests\test_blueprints.py,app_index,,294,296
+tests\test_blueprints.py,index,,298,300
+tests\test_blueprints.py,test_empty_url_defaults,"app, client",308,319
+tests\test_blueprints.py,something,page,311,314
+tests\test_blueprints.py,test_route_decorator_custom_endpoint,"app, client",322,351
+tests\test_blueprints.py,foo,,325,327
+tests\test_blueprints.py,foo_bar,,329,331
+tests\test_blueprints.py,foo_bar_foo,,333,335
+tests\test_blueprints.py,bar_foo,,337,339
+tests\test_blueprints.py,index,,343,345
+tests\test_blueprints.py,test_route_decorator_custom_endpoint_with_dots,"app, client",354,412
+tests\test_blueprints.py,foo,,357,359
+tests\test_blueprints.py,foo_bar,,363,365
+tests\test_blueprints.py,foo_bar_foo,,374,376
+tests\test_blueprints.py,foo_foo_foo,,383,384
+tests\test_blueprints.py,test_endpoint_decorator,"app, client",415,429
+tests\test_blueprints.py,foobar,,422,424
+tests\test_blueprints.py,test_template_filter,app,432,442
+tests\test_blueprints.py,my_reverse,s,435,437
+tests\test_blueprints.py,test_add_template_filter,app,445,455
+tests\test_blueprints.py,my_reverse,s,448,449
+tests\test_blueprints.py,test_template_filter_with_name,app,458,468
+tests\test_blueprints.py,my_reverse,s,461,463
+tests\test_blueprints.py,test_add_template_filter_with_name,app,471,481
+tests\test_blueprints.py,my_reverse,s,474,475
+tests\test_blueprints.py,test_template_filter_with_template,"app, client",484,498
+tests\test_blueprints.py,super_reverse,s,487,489
+tests\test_blueprints.py,index,,493,495
+tests\test_blueprints.py,test_template_filter_after_route_with_template,"app, client",501,514
+tests\test_blueprints.py,index,,502,504
+tests\test_blueprints.py,super_reverse,s,508,510
+tests\test_blueprints.py,test_add_template_filter_with_template,"app, client",517,531
+tests\test_blueprints.py,super_reverse,s,520,521
+tests\test_blueprints.py,index,,526,528
+tests\test_blueprints.py,test_template_filter_with_name_and_template,"app, client",534,548
+tests\test_blueprints.py,my_reverse,s,537,539
+tests\test_blueprints.py,index,,543,545
+tests\test_blueprints.py,test_add_template_filter_with_name_and_template,"app, client",551,565
+tests\test_blueprints.py,my_reverse,s,554,555
+tests\test_blueprints.py,index,,560,562
+tests\test_blueprints.py,test_template_test,app,568,578
+tests\test_blueprints.py,is_boolean,value,571,573
+tests\test_blueprints.py,test_add_template_test,app,581,591
+tests\test_blueprints.py,is_boolean,value,584,585
+tests\test_blueprints.py,test_template_test_with_name,app,594,604
+tests\test_blueprints.py,is_boolean,value,597,599
+tests\test_blueprints.py,test_add_template_test_with_name,app,607,617
+tests\test_blueprints.py,is_boolean,value,610,611
+tests\test_blueprints.py,test_template_test_with_template,"app, client",620,634
+tests\test_blueprints.py,boolean,value,623,625
+tests\test_blueprints.py,index,,629,631
+tests\test_blueprints.py,test_template_test_after_route_with_template,"app, client",637,650
+tests\test_blueprints.py,index,,638,640
+tests\test_blueprints.py,boolean,value,644,646
+tests\test_blueprints.py,test_add_template_test_with_template,"app, client",653,667
+tests\test_blueprints.py,boolean,value,656,657
+tests\test_blueprints.py,index,,662,664
+tests\test_blueprints.py,test_template_test_with_name_and_template,"app, client",670,684
+tests\test_blueprints.py,is_boolean,value,673,675
+tests\test_blueprints.py,index,,679,681
+tests\test_blueprints.py,test_add_template_test_with_name_and_template,"app, client",687,701
+tests\test_blueprints.py,is_boolean,value,690,691
+tests\test_blueprints.py,index,,696,698
+tests\test_blueprints.py,test_context_processing,"app, client",704,741
+tests\test_blueprints.py,not_answer_context_processor,,713,715
+tests\test_blueprints.py,answer_context_processor,,718,720
+tests\test_blueprints.py,bp_page,,723,725
+tests\test_blueprints.py,app_page,,727,729
+tests\test_blueprints.py,test_template_global,app,744,762
+tests\test_blueprints.py,get_answer,,747,749
+tests\test_blueprints.py,test_request_processing,"app, client",765,793
+tests\test_blueprints.py,before_bp,,769,771
+tests\test_blueprints.py,after_bp,response,773,777
+tests\test_blueprints.py,teardown_bp,exc,779,781
+tests\test_blueprints.py,bp_endpoint,,784,786
+tests\test_blueprints.py,test_app_request_processing,"app, client",796,836
+tests\test_blueprints.py,before_first_request,,800,802
+tests\test_blueprints.py,before_app,,804,806
+tests\test_blueprints.py,after_app,response,808,812
+tests\test_blueprints.py,teardown_app,exc,814,816
+tests\test_blueprints.py,bp_endpoint,,821,823
+tests\test_blueprints.py,test_app_url_processors,"app, client",839,863
+tests\test_blueprints.py,add_language_code,"endpoint, values",843,845
+tests\test_blueprints.py,pull_lang_code,"endpoint, values",847,849
+tests\test_blueprints.py,index,,852,854
+tests\test_blueprints.py,about,,856,858
+tests\test_cli.py,runner,,44,46
+tests\test_cli.py,test_cli_name,test_apps,49,53
+tests\test_cli.py,test_find_best_app,test_apps,56,148
+tests\test_cli.py,create_app,,76,78
+tests\test_cli.py,create_app,foo,84,86
+tests\test_cli.py,create_app,"foo=None, script_info=None",92,94
+tests\test_cli.py,make_app,,100,102
+tests\test_cli.py,create_app,,110,112
+tests\test_cli.py,create_app,,119,121
+tests\test_cli.py,create_app,"foo, bar",137,139
+tests\test_cli.py,create_app,,144,146
+tests\test_cli.py,test_prepare_import,"request, value, path, result",151,197
+tests\test_cli.py,reset_path,,191,192
+tests\test_cli.py,test_locate_app,"test_apps, iname, aname, result",200,221
+tests\test_cli.py,test_locate_app_raises,"test_apps, iname, aname",224,246
+tests\test_cli.py,test_locate_app_suppress_raise,,249,256
+tests\test_cli.py,test_get_version,"test_apps, capsys",259,276
+tests\test_cli.py,exit,self,268,269
+tests\test_cli.py,test_scriptinfo,"test_apps, monkeypatch",279,326
+tests\test_cli.py,create_app,info,299,300
+tests\test_cli.py,test_with_appcontext,runner,329,341
+tests\test_cli.py,testcmd,,332,335
+tests\test_cli.py,test_appgroup,runner,344,371
+tests\test_cli.py,cli,,347,349
+tests\test_cli.py,test,,351,353
+tests\test_cli.py,subgroup,,355,357
+tests\test_cli.py,test2,,359,361
+tests\test_cli.py,test_flaskgroup,runner,374,390
+tests\test_cli.py,create_app,info,377,378
+tests\test_cli.py,cli,**params,380,382
+tests\test_cli.py,test,,384,386
+tests\test_cli.py,test_flaskgroup_debug,"runner, set_debug_flag",393,412
+tests\test_cli.py,create_app,info,397,400
+tests\test_cli.py,cli,**params,402,404
+tests\test_cli.py,test,,406,408
+tests\test_cli.py,test_print_exceptions,runner,415,429
+tests\test_cli.py,create_app,info,418,420
+tests\test_cli.py,cli,**params,422,424
+tests\test_cli.py,invoke,"self, runner",433,450
+tests\test_cli.py,create_app,info,435,447
+tests\test_cli.py,yyy_get_post,"x, y",439,441
+tests\test_cli.py,aaa_post,,443,445
+tests\test_cli.py,invoke_no_routes,"self, runner",452,461
+tests\test_cli.py,create_app,info,454,458
+tests\test_cli.py,expect_order,"self, order, output",463,467
+tests\test_cli.py,test_simple,"self, invoke",469,472
+tests\test_cli.py,test_sort,"self, invoke",474,488
+tests\test_cli.py,test_all_methods,"self, invoke",491,495
+tests\test_cli.py,test_no_routes,"self, invoke_no_routes",497,500
+tests\test_cli.py,test_load_dotenv,monkeypatch,506,526
+tests\test_cli.py,test_dotenv_path,monkeypatch,529,537
+tests\test_cli.py,test_dotenv_optional,monkeypatch,540,544
+tests\test_cli.py,test_disable_dotenv_from_env,"monkeypatch, runner",547,552
+tests\test_cli.py,test_run_cert_path,,555,565
+tests\test_cli.py,test_run_cert_adhoc,monkeypatch,568,582
+tests\test_cli.py,test_run_cert_import,monkeypatch,585,609
+tests\test_cli.py,test_run_cert_no_ssl,monkeypatch,612,615
+tests\test_cli.py,test_cli_blueprints,app,618,658
+tests\test_cli.py,custom_command,,625,627
+tests\test_cli.py,nested_command,,629,631
+tests\test_cli.py,merged_command,,633,635
+tests\test_cli.py,late_command,,637,639
+tests\test_cli.py,test_cli_empty,app,661,667
+tests\test_config.py,common_object_test,app,24,27
+tests\test_config.py,test_config_from_file,,30,33
+tests\test_config.py,test_config_from_object,,36,39
+tests\test_config.py,test_config_from_json,,42,46
+tests\test_config.py,test_config_from_mapping,,49,64
+tests\test_config.py,test_config_from_class,,67,76
+tests\test_config.py,test_config_from_envvar,monkeypatch,79,91
+tests\test_config.py,test_config_from_envvar_missing,monkeypatch,94,104
+tests\test_config.py,test_config_missing,,107,116
+tests\test_config.py,test_config_missing_json,,119,128
+tests\test_config.py,test_custom_config_class,,131,141
+tests\test_config.py,test_session_lifetime,,144,147
+tests\test_config.py,test_send_file_max_age,,150,155
+tests\test_config.py,test_get_namespace,,158,181
+tests\test_config.py,test_from_pyfile_weird_encoding,"tmpdir, encoding",184,202
+tests\test_converters.py,test_custom_converters,"app, client",7,25
+tests\test_converters.py,to_python,"self, value",9,10
+tests\test_converters.py,to_url,"self, value",12,14
+tests\test_converters.py,index,args,18,20
+tests\test_converters.py,test_context_available,"app, client",28,40
+tests\test_converters.py,to_python,"self, value",30,32
+tests\test_converters.py,index,name,36,38
+tests\test_deprecations.py,test_json_available,,6,12
+tests\test_helpers.py,has_encoding,name,32,39
+tests\test_helpers.py,__init__,"self, path",49,50
+tests\test_helpers.py,__fspath__,self,52,53
+tests\test_helpers.py,__init__,"self, hours, name",63,65
+tests\test_helpers.py,utcoffset,"self, dt",67,68
+tests\test_helpers.py,tzname,"self, dt",70,71
+tests\test_helpers.py,dst,"self, dt",73,74
+tests\test_helpers.py,test_detect_encoding,"self, value, encoding",78,97
+tests\test_helpers.py,test_bad_request_debug_message,"self, app, client, debug",99,112
+tests\test_helpers.py,post_json,,104,107
+tests\test_helpers.py,test_json_bad_requests,"self, app, client",114,120
+tests\test_helpers.py,return_json,,115,117
+tests\test_helpers.py,test_json_custom_mimetypes,"self, app, client",122,128
+tests\test_helpers.py,return_json,,123,125
+tests\test_helpers.py,test_json_as_unicode,"self, test_value, expected, app, app_ctx",130,137
+tests\test_helpers.py,test_json_dump_to_file,"self, app, app_ctx",139,146
+tests\test_helpers.py,test_jsonify_basic_types,"self, test_value, app, client",148,158
+tests\test_helpers.py,test_jsonify_dicts,"self, app, client",160,185
+tests\test_helpers.py,return_kwargs,,174,176
+tests\test_helpers.py,return_dict,,178,180
+tests\test_helpers.py,test_jsonify_arrays,"self, app, client",187,212
+tests\test_helpers.py,return_args_unpack,,201,203
+tests\test_helpers.py,return_array,,205,207
+tests\test_helpers.py,test_jsonify_date_types,"self, app, client",214,226
+tests\test_helpers.py,test_jsonify_aware_datetimes,"self, tz",228,235
+tests\test_helpers.py,test_jsonify_uuid_types,"self, app, client",237,249
+tests\test_helpers.py,test_json_attr,"self, app, client",251,262
+tests\test_helpers.py,add,,252,255
+tests\test_helpers.py,test_template_escaping,"self, app, req_ctx",264,282
+tests\test_helpers.py,test_json_customization,"self, app, client",284,317
+tests\test_helpers.py,__init__,"self, val",286,287
+tests\test_helpers.py,default,"self, o",290,293
+tests\test_helpers.py,__init__,"self, *args, **kwargs",296,298
+tests\test_helpers.py,object_hook,"self, obj",300,303
+tests\test_helpers.py,index,,308,310
+tests\test_helpers.py,test_blueprint_json_customization,"self, app, client",319,357
+tests\test_helpers.py,__init__,"self, val",321,322
+tests\test_helpers.py,default,"self, o",325,329
+tests\test_helpers.py,__init__,"self, *args, **kwargs",332,334
+tests\test_helpers.py,object_hook,"self, obj",336,340
+tests\test_helpers.py,index,,346,348
+tests\test_helpers.py,test_modified_url_encoding,"self, app, client",359,375
+tests\test_helpers.py,index,,369,371
+tests\test_helpers.py,test_json_key_sorting,"self, app, client",377,445
+tests\test_helpers.py,index,,383,385
+tests\test_helpers.py,test_send_file_regular,"self, app, req_ctx",449,456
+tests\test_helpers.py,test_send_file_xsendfile,"self, app, req_ctx",458,467
+tests\test_helpers.py,test_send_file_last_modified,"self, app, client",469,481
+tests\test_helpers.py,index,,472,477
+tests\test_helpers.py,test_send_file_object_without_mimetype,"self, app, req_ctx",483,489
+tests\test_helpers.py,test_send_file_object,"self, app, req_ctx",491,543
+tests\test_helpers.py,__init__,"self, *args, **kwargs",517,518
+tests\test_helpers.py,__getattr__,"self, name",520,521
+tests\test_helpers.py,test_send_file_pathlike,"self, app, req_ctx",545,552
+tests\test_helpers.py,test_send_file_range_request,"self, app, client",554,617
+tests\test_helpers.py,index,,559,561
+tests\test_helpers.py,test_send_file_range_request_bytesio,"self, app, client",619,630
+tests\test_helpers.py,index,,620,624
+tests\test_helpers.py,test_send_file_range_request_xsendfile_invalid,"self, app, client",632,646
+tests\test_helpers.py,index,,640,642
+tests\test_helpers.py,test_attachment,"self, app, req_ctx",648,685
+tests\test_helpers.py,test_attachment_filename_encoding,"self, filename, ascii, utf8",687,714
+tests\test_helpers.py,test_static_file,"self, app, req_ctx",716,763
+tests\test_helpers.py,get_send_file_max_age,"self, filename",749,750
+tests\test_helpers.py,test_send_from_directory,"self, app, req_ctx",765,772
+tests\test_helpers.py,test_send_from_directory_pathlike,"self, app, req_ctx",774,781
+tests\test_helpers.py,test_send_from_directory_bad_request,"self, app, req_ctx",783,789
+tests\test_helpers.py,test_url_for_with_anchor,"self, app, req_ctx",793,798
+tests\test_helpers.py,index,,794,796
+tests\test_helpers.py,test_url_for_with_scheme,"self, app, req_ctx",800,807
+tests\test_helpers.py,index,,801,803
+tests\test_helpers.py,test_url_for_with_scheme_not_external,"self, app, req_ctx",810,815
+tests\test_helpers.py,index,,811,813
+tests\test_helpers.py,test_url_for_with_alternating_schemes,"self, app, req_ctx",817,827
+tests\test_helpers.py,index,,818,820
+tests\test_helpers.py,test_url_with_method,"self, app, req_ctx",829,848
+tests\test_helpers.py,get,"self, id=None",833,836
+tests\test_helpers.py,post,self,838,839
+tests\test_helpers.py,test_name_with_import_error,"self, modules_tmpdir",862,867
+tests\test_helpers.py,test_streaming_with_context,"self, app, client",871,882
+tests\test_helpers.py,index,,872,879
+tests\test_helpers.py,generate,,874,877
+tests\test_helpers.py,test_streaming_with_context_as_decorator,"self, app, client",884,896
+tests\test_helpers.py,index,,885,893
+tests\test_helpers.py,generate,hello,887,891
+tests\test_helpers.py,test_streaming_with_context_and_custom_close,"self, app, client",898,927
+tests\test_helpers.py,__init__,"self, gen",902,903
+tests\test_helpers.py,__iter__,self,905,906
+tests\test_helpers.py,close,self,908,909
+tests\test_helpers.py,__next__,self,911,912
+tests\test_helpers.py,index,,916,923
+tests\test_helpers.py,generate,,918,921
+tests\test_helpers.py,test_stream_keeps_session,"self, app, client",929,941
+tests\test_helpers.py,index,,930,938
+tests\test_helpers.py,gen,,934,936
+tests\test_helpers.py,test_safe_join,self,945,965
+tests\test_helpers.py,test_safe_join_exceptions,self,967,982
+tests\test_helpers.py,test_get_debug_flag,"self, monkeypatch, debug, expected_flag, expected_default_flag",986,1004
+tests\test_helpers.py,test_get_env,"self, monkeypatch, env, ref_env, debug",1006,1018
+tests\test_helpers.py,test_make_response,self,1020,1030
+tests\test_helpers.py,test_open_resource,"self, mode",1032,1037
+tests\test_helpers.py,test_open_resource_exceptions,"self, mode",1039,1044
+tests\test_instance_config.py,test_explicit_instance_paths,modules_tmpdir,18,24
+tests\test_instance_config.py,test_main_module_paths,"modules_tmpdir, purge_module",27,35
+tests\test_instance_config.py,test_uninstalled_module_paths,"modules_tmpdir, purge_module",38,49
+tests\test_instance_config.py,test_uninstalled_package_paths,"modules_tmpdir, purge_module",52,65
+tests\test_instance_config.py,test_installed_module_paths,"modules_tmpdir, modules_tmpdir_prefix, purge_module, site_packages, limit_loader",68,78
+tests\test_instance_config.py,test_installed_package_paths,"limit_loader, modules_tmpdir, modules_tmpdir_prefix, purge_module, monkeypatch",81,95
+tests\test_instance_config.py,test_prefix_package_paths,"limit_loader, modules_tmpdir, modules_tmpdir_prefix, purge_module, site_packages",99,110
+tests\test_instance_config.py,test_egg_installed_paths,"install_egg, modules_tmpdir, modules_tmpdir_prefix",114,127
+tests\test_instance_config.py,test_meta_path_loader_without_is_package,"request, modules_tmpdir",130,143
+tests\test_instance_config.py,find_module,"self, name, path=None",136,137
+tests\test_json_tag.py,test_dump_load_unchanged,data,19,36
+tests\test_json_tag.py,test_duplicate_tag,,39,47
+tests\test_json_tag.py,test_custom_tag,,50,70
+tests\test_json_tag.py,__init__,"self, data",52,53
+tests\test_json_tag.py,check,"self, value",59,60
+tests\test_json_tag.py,to_json,"self, value",62,63
+tests\test_json_tag.py,to_python,"self, value",65,66
+tests\test_json_tag.py,test_tag_interface,,73,77
+tests\test_json_tag.py,test_tag_order,,80,93
+tests\test_logging.py,reset_logging,pytestconfig,20,41
+tests\test_logging.py,test_logger,app,44,47
+tests\test_logging.py,test_logger_debug,app,50,53
+tests\test_logging.py,test_existing_handler,app,56,59
+tests\test_logging.py,test_wsgi_errors_stream,"app, client",62,75
+tests\test_logging.py,index,,63,66
+tests\test_logging.py,test_has_level_handler,,78,91
+tests\test_logging.py,test_log_view_exception,"app, client",94,106
+tests\test_logging.py,index,,95,97
+tests\test_logging.py,test_warn_old_config,"app, request",109,115
+tests\test_meta.py,test_changelog_utf8_compatible,,4,6
+tests\test_regression.py,__enter__,self,24,36
+tests\test_regression.py,__exit__,"self, exc_type, exc_value, tb",38,44
+tests\test_regression.py,test_memory_consumption,,47,67
+tests\test_regression.py,index,,50,52
+tests\test_regression.py,fire,,54,58
+tests\test_regression.py,test_safe_join_toplevel_pardir,,70,74
+tests\test_regression.py,test_aborting,app,77,97
+tests\test_regression.py,handle_foo,e,81,83
+tests\test_regression.py,index,,85,87
+tests\test_regression.py,test,,89,91
+tests\test_reqctx.py,test_teardown_on_pop,app,22,33
+tests\test_reqctx.py,end_of_request,exception,25,27
+tests\test_reqctx.py,test_teardown_with_previous_exception,app,36,50
+tests\test_reqctx.py,end_of_request,exception,39,41
+tests\test_reqctx.py,test_teardown_with_handled_exception,app,53,66
+tests\test_reqctx.py,end_of_request,exception,56,58
+tests\test_reqctx.py,test_proper_test_request_context,app,69,107
+tests\test_reqctx.py,index,,72,74
+tests\test_reqctx.py,sub,,76,78
+tests\test_reqctx.py,test_context_binding,app,110,123
+tests\test_reqctx.py,index,,111,113
+tests\test_reqctx.py,meh,,115,117
+tests\test_reqctx.py,test_context_test,app,126,135
+tests\test_reqctx.py,test_manual_context_binding,app,138,148
+tests\test_reqctx.py,index,,139,141
+tests\test_reqctx.py,test_greenlet_context_copying,"self, app, client",153,180
+tests\test_reqctx.py,index,,156,174
+tests\test_reqctx.py,g,,161,171
+tests\test_reqctx.py,test_greenlet_context_copying_api,"self, app, client",182,205
+tests\test_reqctx.py,index,,185,199
+tests\test_reqctx.py,g,,189,196
+tests\test_reqctx.py,test_session_error_pops_context,,208,229
+tests\test_reqctx.py,open_session,"self, app, request",213,214
+tests\test_reqctx.py,index,,221,224
+tests\test_reqctx.py,test_bad_environ_raises_bad_request,,232,249
+tests\test_reqctx.py,test_environ_for_valid_idna_completes,,252,274
+tests\test_reqctx.py,index,,255,257
+tests\test_reqctx.py,test_normal_environ_completes,,277,285
+tests\test_reqctx.py,index,,280,282
+tests\test_signals.py,test_template_rendered,"app, client",25,43
+tests\test_signals.py,index,,26,28
+tests\test_signals.py,record,"sender, template, context",32,33
+tests\test_signals.py,test_before_render_template,,46,68
+tests\test_signals.py,index,,49,51
+tests\test_signals.py,record,"sender, template, context",55,57
+tests\test_signals.py,test_request_signals,,71,113
+tests\test_signals.py,before_request_signal,sender,75,76
+tests\test_signals.py,after_request_signal,"sender, response",78,80
+tests\test_signals.py,before_request_handler,,82,84
+tests\test_signals.py,after_request_handler,response,86,90
+tests\test_signals.py,index,,92,95
+tests\test_signals.py,test_request_exception_signal,,116,133
+tests\test_signals.py,index,,120,122
+tests\test_signals.py,record,"sender, exception",124,125
+tests\test_signals.py,test_appcontext_signals,,136,160
+tests\test_signals.py,record_push,"sender, **kwargs",140,141
+tests\test_signals.py,record_pop,"sender, **kwargs",143,144
+tests\test_signals.py,index,,146,148
+tests\test_signals.py,test_flash_signal,app,163,184
+tests\test_signals.py,index,,164,167
+tests\test_signals.py,record,"sender, message, category",171,172
+tests\test_signals.py,test_appcontext_tearing_down_signal,,187,206
+tests\test_signals.py,record_teardown,"sender, **kwargs",191,192
+tests\test_signals.py,index,,194,196
+tests\test_subclassing.py,test_suppressed_exception_logging,,16,31
+tests\test_subclassing.py,log_exception,"self, exc_info",18,19
+tests\test_subclassing.py,index,,24,26
+tests\test_templating.py,test_context_processing,"app, client",20,30
+tests\test_templating.py,context_processor,,21,23
+tests\test_templating.py,index,,25,27
+tests\test_templating.py,test_original_win,"app, client",33,39
+tests\test_templating.py,index,,34,36
+tests\test_templating.py,test_request_less_rendering,"app, app_ctx",42,50
+tests\test_templating.py,context_processor,,45,47
+tests\test_templating.py,test_standard_context,"app, client",53,68
+tests\test_templating.py,index,,54,64
+tests\test_templating.py,test_escaping,"app, client",71,87
+tests\test_templating.py,index,,74,77
+tests\test_templating.py,test_no_escaping,"app, client",91,109
+tests\test_templating.py,index,,94,97
+tests\test_templating.py,test_escaping_without_template_filename,"app, client, req_ctx",113,115
+tests\test_templating.py,test_macros,"app, req_ctx",118,120
+tests\test_templating.py,test_template_filter,app,123,130
+tests\test_templating.py,my_reverse,s,124,126
+tests\test_templating.py,test_add_template_filter,app,133,140
+tests\test_templating.py,my_reverse,s,134,135
+tests\test_templating.py,test_template_filter_with_name,app,143,150
+tests\test_templating.py,my_reverse,s,144,146
+tests\test_templating.py,test_add_template_filter_with_name,app,153,160
+tests\test_templating.py,my_reverse,s,154,155
+tests\test_templating.py,test_template_filter_with_template,"app, client",163,173
+tests\test_templating.py,super_reverse,s,164,166
+tests\test_templating.py,index,,168,170
+tests\test_templating.py,test_add_template_filter_with_template,"app, client",176,187
+tests\test_templating.py,super_reverse,s,177,178
+tests\test_templating.py,index,,182,184
+tests\test_templating.py,test_template_filter_with_name_and_template,"app, client",190,200
+tests\test_templating.py,my_reverse,s,191,193
+tests\test_templating.py,index,,195,197
+tests\test_templating.py,test_add_template_filter_with_name_and_template,"app, client",203,214
+tests\test_templating.py,my_reverse,s,204,205
+tests\test_templating.py,index,,209,211
+tests\test_templating.py,test_template_test,app,217,224
+tests\test_templating.py,boolean,value,218,220
+tests\test_templating.py,test_add_template_test,app,227,234
+tests\test_templating.py,boolean,value,228,229
+tests\test_templating.py,test_template_test_with_name,app,237,244
+tests\test_templating.py,is_boolean,value,238,240
+tests\test_templating.py,test_add_template_test_with_name,app,247,254
+tests\test_templating.py,is_boolean,value,248,249
+tests\test_templating.py,test_template_test_with_template,"app, client",257,267
+tests\test_templating.py,boolean,value,258,260
+tests\test_templating.py,index,,262,264
+tests\test_templating.py,test_add_template_test_with_template,"app, client",270,281
+tests\test_templating.py,boolean,value,271,272
+tests\test_templating.py,index,,276,278
+tests\test_templating.py,test_template_test_with_name_and_template,"app, client",284,294
+tests\test_templating.py,is_boolean,value,285,287
+tests\test_templating.py,index,,289,291
+tests\test_templating.py,test_add_template_test_with_name_and_template,"app, client",297,308
+tests\test_templating.py,is_boolean,value,298,299
+tests\test_templating.py,index,,303,305
+tests\test_templating.py,test_add_template_global,"app, app_ctx",311,321
+tests\test_templating.py,get_stuff,,312,314
+tests\test_templating.py,test_custom_template_loader,client,324,339
+tests\test_templating.py,create_global_jinja_loader,self,326,329
+tests\test_templating.py,index,,333,335
+tests\test_templating.py,test_iterable_loader,"app, client",342,359
+tests\test_templating.py,context_processor,,343,345
+tests\test_templating.py,index,,347,355
+tests\test_templating.py,test_templates_auto_reload,app,362,391
+tests\test_templating.py,test_templates_auto_reload_debug_run,"app, monkeypatch",394,406
+tests\test_templating.py,run_simple_mock,"*args, **kwargs",395,396
+tests\test_templating.py,test_template_loader_debugging,"test_apps, monkeypatch",409,442
+tests\test_templating.py,handle,"self, record",415,429
+tests\test_templating.py,test_custom_jinja_env,,445,453
+tests\test_testing.py,test_environ_defaults_from_config,"app, client",30,42
+tests\test_testing.py,index,,34,36
+tests\test_testing.py,test_environ_defaults,"app, client, app_ctx, req_ctx",45,54
+tests\test_testing.py,index,,46,48
+tests\test_testing.py,test_environ_base_default,"app, client, app_ctx",57,65
+tests\test_testing.py,index,,58,61
+tests\test_testing.py,test_environ_base_modified,"app, client, app_ctx",68,84
+tests\test_testing.py,index,,69,72
+tests\test_testing.py,test_client_open_environ,"app, client, request",87,101
+tests\test_testing.py,index,,88,90
+tests\test_testing.py,test_specify_url_scheme,"app, client",104,113
+tests\test_testing.py,index,,105,107
+tests\test_testing.py,test_path_is_url,app,116,121
+tests\test_testing.py,test_make_test_environ_builder,app,124,130
+tests\test_testing.py,test_environbuilder_json_dumps,app,133,137
+tests\test_testing.py,test_blueprint_with_subdomain,,140,161
+tests\test_testing.py,index,,148,150
+tests\test_testing.py,test_redirect_keep_session,"app, client, app_ctx",164,191
+tests\test_testing.py,index,,165,170
+tests\test_testing.py,get_session,,172,174
+tests\test_testing.py,test_session_transactions,"app, client",194,208
+tests\test_testing.py,index,,195,197
+tests\test_testing.py,test_session_transactions_no_null_sessions,,211,219
+tests\test_testing.py,test_session_transactions_keep_context,"app, client, req_ctx",222,227
+tests\test_testing.py,test_session_transaction_needs_cookies,app,230,235
+tests\test_testing.py,test_test_client_context_binding,"app, client",238,267
+tests\test_testing.py,index,,241,244
+tests\test_testing.py,other,,246,248
+tests\test_testing.py,test_reuse_client,client,270,277
+tests\test_testing.py,test_test_client_calls_teardown_handlers,"app, client",280,300
+tests\test_testing.py,remember,error,283,285
+tests\test_testing.py,test_full_url_request,"app, client",303,312
+tests\test_testing.py,action,,304,306
+tests\test_testing.py,test_json_request_and_response,"app, client",315,331
+tests\test_testing.py,echo,,316,318
+tests\test_testing.py,test_client_json_no_app_context,"app, client",334,352
+tests\test_testing.py,hello,,336,338
+tests\test_testing.py,add,"self, app",343,344
+tests\test_testing.py,test_subdomain,,355,371
+tests\test_testing.py,view,company_id,360,362
+tests\test_testing.py,test_nosubdomain,"app, client",374,388
+tests\test_testing.py,view,company_id,377,379
+tests\test_testing.py,test_cli_runner_class,app,391,400
+tests\test_testing.py,test_cli_invoke,app,403,414
+tests\test_testing.py,hello_command,,404,406
+tests\test_testing.py,test_cli_custom_obj,app,417,432
+tests\test_testing.py,create_app,,421,423
+tests\test_testing.py,hello_command,,425,427
+tests\test_testing.py,test_client_pop_all_preserved,"app, req_ctx, client",435,447
+tests\test_testing.py,index,,436,439
+tests\test_user_error_handler.py,test_error_handler_no_match,"app, client",18,52
+tests\test_user_error_handler.py,custom_exception_handler,e,22,25
+tests\test_user_error_handler.py,handle_500,e,27,35
+tests\test_user_error_handler.py,custom_test,,37,39
+tests\test_user_error_handler.py,key_error,,41,43
+tests\test_user_error_handler.py,do_abort,,45,47
+tests\test_user_error_handler.py,test_error_handler_subclass,app,55,91
+tests\test_user_error_handler.py,parent_exception_handler,e,65,68
+tests\test_user_error_handler.py,child_exception_handler,e,70,73
+tests\test_user_error_handler.py,parent_test,,75,77
+tests\test_user_error_handler.py,unregistered_test,,79,81
+tests\test_user_error_handler.py,registered_test,,83,85
+tests\test_user_error_handler.py,test_error_handler_http_subclass,app,94,127
+tests\test_user_error_handler.py,code_exception_handler,e,101,104
+tests\test_user_error_handler.py,subclass_exception_handler,e,106,109
+tests\test_user_error_handler.py,forbidden_test,,111,113
+tests\test_user_error_handler.py,registered_test,,115,117
+tests\test_user_error_handler.py,unregistered_test,,119,121
+tests\test_user_error_handler.py,test_error_handler_blueprint,app,130,154
+tests\test_user_error_handler.py,bp_exception_handler,e,133,135
+tests\test_user_error_handler.py,bp_test,,137,139
+tests\test_user_error_handler.py,app_exception_handler,e,141,143
+tests\test_user_error_handler.py,app_test,,145,147
+tests\test_user_error_handler.py,test_default_error_handler,,157,208
+tests\test_user_error_handler.py,bp_exception_handler,e,160,164
+tests\test_user_error_handler.py,bp_forbidden_handler,e,166,169
+tests\test_user_error_handler.py,bp_registered_test,,171,173
+tests\test_user_error_handler.py,bp_forbidden_test,,175,177
+tests\test_user_error_handler.py,catchall_exception_handler,e,181,185
+tests\test_user_error_handler.py,catchall_forbidden_handler,e,187,190
+tests\test_user_error_handler.py,forbidden,,192,194
+tests\test_user_error_handler.py,slash,,196,198
+tests\test_user_error_handler.py,app,"self, app",217,236
+tests\test_user_error_handler.py,do_custom,,219,221
+tests\test_user_error_handler.py,do_error,,223,225
+tests\test_user_error_handler.py,do_abort,,227,229
+tests\test_user_error_handler.py,do_raise,,231,233
+tests\test_user_error_handler.py,report_error,"self, e",238,244
+tests\test_user_error_handler.py,test_handle_class_or_code,"self, app, client, to_handle",246,261
+tests\test_user_error_handler.py,handle_500,e,253,256
+tests\test_user_error_handler.py,test_handle_generic_http,"self, app, client",263,275
+tests\test_user_error_handler.py,handle_http,e,268,271
+tests\test_user_error_handler.py,test_handle_generic,"self, app, client",277,289
+tests\test_user_error_handler.py,handle_exception,e,282,284
+tests\test_views.py,common_test,app,17,24
+tests\test_views.py,test_basic_view,app,27,35
+tests\test_views.py,dispatch_request,self,31,32
+tests\test_views.py,test_method_based_view,app,38,48
+tests\test_views.py,get,self,40,41
+tests\test_views.py,post,self,43,44
+tests\test_views.py,test_view_patching,app,51,69
+tests\test_views.py,get,self,53,54
+tests\test_views.py,post,self,56,57
+tests\test_views.py,get,self,60,61
+tests\test_views.py,post,self,63,64
+tests\test_views.py,test_view_inheritance,"app, client",72,87
+tests\test_views.py,get,self,74,75
+tests\test_views.py,post,self,77,78
+tests\test_views.py,delete,self,81,82
+tests\test_views.py,test_view_decorators,"app, client",90,108
+tests\test_views.py,add_x_parachute,f,91,97
+tests\test_views.py,new_function,"*args, **kwargs",92,95
+tests\test_views.py,dispatch_request,self,102,103
+tests\test_views.py,test_view_provide_automatic_options_attr,,111,148
+tests\test_views.py,dispatch_request,self,117,118
+tests\test_views.py,dispatch_request,self,131,132
+tests\test_views.py,dispatch_request,self,142,143
+tests\test_views.py,test_implicit_head,"app, client",151,162
+tests\test_views.py,get,self,153,154
+tests\test_views.py,test_explicit_head,"app, client",165,178
+tests\test_views.py,get,self,167,168
+tests\test_views.py,head,self,170,171
+tests\test_views.py,test_endpoint_override,app,181,196
+tests\test_views.py,dispatch_request,self,187,188
+tests\test_views.py,test_methods_var_inheritance,"app, client",199,214
+tests\test_views.py,get,self,204,205
+tests\test_views.py,propfind,self,207,208
+tests\test_views.py,test_multiple_inheritance,"app, client",217,233
+tests\test_views.py,get,self,219,220
+tests\test_views.py,delete,self,223,224
+tests\test_views.py,test_remove_method_from_parent,"app, client",236,252
+tests\test_views.py,get,self,238,239
+tests\test_views.py,post,self,242,243
+tests\test_apps\blueprintapp\apps\admin\__init__.py,index,,13,15
+tests\test_apps\blueprintapp\apps\admin\__init__.py,index2,,18,20
+tests\test_apps\blueprintapp\apps\frontend\__init__.py,index,,7,9
+tests\test_apps\blueprintapp\apps\frontend\__init__.py,missing_template,,12,14
+tests\test_apps\cliapp\factory.py,create_app,,7,8
+tests\test_apps\cliapp\factory.py,create_app2,"foo, bar",11,12
+tests\test_apps\cliapp\factory.py,create_app3,"foo, script_info",15,16
+tests\test_apps\cliapp\factory.py,no_app,,19,20
+tests\test_apps\helloworld\hello.py,hello,,6,8

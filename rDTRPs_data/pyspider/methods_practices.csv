@@ -1,0 +1,177 @@
+pyspider,file,method,params,startlineno,endlineno,type,lineno
+pyspider,pyspider\database\sqlite\resultdb.py,__init__,"self, path",21,25,assignment,23
+pyspider,pyspider\database\sqlite\projectdb.py,__init__,"self, path",19,28,assignment,21
+pyspider,pyspider\database\sqlite\taskdb.py,__init__,"self, path",21,25,assignment,23
+pyspider,pyspider\processor\project_module.py,build_module,"project, env=None",31,86,assignment,60
+pyspider,pyspider\libs\base_handler.py,run_task,"self, module, task, response",178,218,assignment,194
+pyspider,pyspider\scheduler\scheduler.py,paused,self,51,102,assignment,77
+pyspider,tests\test_processor.py,test_70_update_project,self,481,547,assignment,523
+pyspider,tests\test_processor.py,test_70_update_project,self,481,547,delsubscript,538
+pyspider,pyspider\database\basedb.py,_insert,"self, tablename=None, **values",96,110,reference,101
+pyspider,pyspider\database\basedb.py,_insert,"self, tablename=None, **values",96,110,reference,104
+pyspider,pyspider\database\basedb.py,_insert,"self, tablename=None, **values",96,110,reference,106
+pyspider,pyspider\database\basedb.py,_insert,"self, tablename=None, **values",96,110,reference,107
+pyspider,pyspider\database\basedb.py,_insert,"self, tablename=None, **values",96,110,reference,110
+pyspider,pyspider\database\basedb.py,_execute,"self, sql_query, values=[]",35,38,reference,38
+pyspider,pyspider\database\basedb.py,_select,"self, tablename=None, what='*', where='', where_values=[], offset='0', limit=None",40,55,reference,46
+pyspider,pyspider\database\basedb.py,_select2dic,"self, tablename=None, what='*', where='', where_values=[], order=None, offset='0', limit=None",57,78,reference,64
+pyspider,pyspider\database\basedb.py,_replace,"self, tablename=None, **values",80,94,reference,85
+pyspider,pyspider\database\basedb.py,_replace,"self, tablename=None, **values",80,94,reference,88
+pyspider,pyspider\database\basedb.py,_replace,"self, tablename=None, **values",80,94,reference,90
+pyspider,pyspider\database\basedb.py,_replace,"self, tablename=None, **values",80,94,reference,91
+pyspider,pyspider\database\basedb.py,_replace,"self, tablename=None, **values",80,94,reference,94
+pyspider,pyspider\database\basedb.py,_update,"self, tablename=None, where='1=0', where_values=[], **values",112,120,reference,117
+pyspider,pyspider\database\basedb.py,_delete,"self, tablename=None, where='1=0', where_values=[]",122,129,reference,125
+pyspider,pyspider\database\basedb.py,_delete,"self, tablename=None, where='1=0', where_values=[]",122,129,reference,126
+pyspider,pyspider\database\basedb.py,_delete,"self, tablename=None, where='1=0', where_values=[]",122,129,reference,129
+pyspider,pyspider\database\redis\taskdb.py,load_tasks,"self, status, project=None, fields=None",75,103,reference,96
+pyspider,pyspider\libs\base_handler.py,_crawl,"self, url, **kwargs",255,337,reference,334
+pyspider,pyspider\libs\base_handler.py,_crawl,"self, url, **kwargs",255,337,reference,334
+pyspider,pyspider\libs\base_handler.py,_crawl,"self, url, **kwargs",255,337,reference,336
+pyspider,pyspider\libs\base_handler.py,_crawl,"self, url, **kwargs",255,337,reference,337
+pyspider,pyspider\libs\base_handler.py,_crawl,"self, url, **kwargs",255,337,getattr,268
+pyspider,pyspider\libs\base_handler.py,get_taskid,"self, task",339,341,reference,339
+pyspider,pyspider\libs\bench.py,_bench_report,"self, name, prefix='0', rjust='0'",198,210,reference,206
+pyspider,pyspider\libs\bench.py,_bench_report,"self, name, prefix='0', rjust='0'",198,210,reference,209
+pyspider,pyspider\libs\pprint.py,_perfcheck,object=None,364,375,reference,370
+pyspider,pyspider\libs\pprint.py,_perfcheck,object=None,364,375,reference,372
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,254
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,256
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,257
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,259
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,260
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,260
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,276
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,284
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,286
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,286
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,298
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,300
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,304
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,reference,312
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,getattr,296
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,delsubscript,319
+pyspider,pyspider\libs\pprint.py,_safe_repr,"object, context, maxlevels, level",253,356,delsubscript,352
+pyspider,pyspider\libs\pprint.py,_recursion,object,359,361,reference,361
+pyspider,pyspider\libs\pprint.py,_recursion,object,359,361,reference,361
+pyspider,pyspider\libs\pprint.py,pformat,"self, object",122,125,reference,124
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,136
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,138
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,142
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,143
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,156
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,reference,160
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,getattr,151
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,delsubscript,177
+pyspider,pyspider\libs\pprint.py,_format,"self, object, stream, indent, allowance, context, level",134,232,delsubscript,226
+pyspider,pyspider\libs\pprint.py,_repr,"self, object, context, level",234,241,reference,235
+pyspider,pyspider\libs\pprint.py,format,"self, object, context, maxlevels, level",243,248,reference,248
+pyspider,pyspider\processor\project_module.py,find_spec,"self, fullname, path, target=None",241,244,reference,244
+pyspider,pyspider\processor\project_module.py,find_module,"self, fullname, path",246,256,reference,246
+pyspider,pyspider\scheduler\scheduler.py,_print_counter_log,self,550,586,reference,581
+pyspider,pyspider\scheduler\scheduler.py,_dump_cnt,self,588,592,reference,588
+pyspider,pyspider\scheduler\scheduler.py,update,"self, project_info",104,126,reference,123
+pyspider,pyspider\scheduler\scheduler.py,update,"self, project_info",104,126,reference,125
+pyspider,pyspider\scheduler\scheduler.py,update,"self, project_info",104,126,reference,126
+pyspider,pyspider\scheduler\scheduler.py,update,"self, project_info",104,126,reference,126
+pyspider,pyspider\webui\debug.py,run,project,69,166,reference,121
+pyspider,pyspider\webui\debug.py,run,project,69,166,reference,124
+pyspider,tests\test_processor.py,test_3_echo,self,90,95,reference,93
+pyspider,tests\test_processor.py,test_3_echo,self,90,95,reference,93
+pyspider,tests\test_processor.py,test_5_echo_task,self,104,109,reference,107
+pyspider,tests\test_processor.py,test_5_echo_task,self,104,109,reference,107
+pyspider,tests\test_processor.py,test_6_catch_status_code,self,111,118,reference,116
+pyspider,tests\test_processor.py,test_6_catch_status_code,self,111,118,reference,116
+pyspider,tests\test_processor.py,test_4_saved,self,97,102,reference,100
+pyspider,tests\test_processor.py,test_4_saved,self,97,102,reference,100
+pyspider,tests\test_processor.py,test_20_get_info,self,175,195,reference,190
+pyspider,tests\test_processor.py,test_20_get_info,self,175,195,reference,190
+pyspider,tests\test_processor.py,test_50_timeout,self,214,229,reference,223
+pyspider,tests\test_processor.py,test_50_timeout,self,214,229,reference,223
+pyspider,tests\test_processor.py,test_40_sleep,self,204,212,reference,211
+pyspider,tests\test_processor.py,test_40_sleep,self,204,212,reference,211
+pyspider,tests\test_processor.py,test_2_hello,self,83,88,reference,86
+pyspider,tests\test_processor.py,test_2_hello,self,83,88,reference,86
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,156
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,156
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,163
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,163
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,170
+pyspider,tests\test_processor.py,test_10_cronjob,self,138,173,reference,170
+pyspider,tests\test_processor.py,test_8_add_task,self,130,136,reference,133
+pyspider,tests\test_processor.py,test_8_add_task,self,130,136,reference,133
+pyspider,tests\test_processor.py,test_30_generator,self,197,202,reference,200
+pyspider,tests\test_processor.py,test_30_generator,self,197,202,reference,200
+pyspider,tests\test_processor.py,test_7_raise_exception,self,120,128,reference,123
+pyspider,tests\test_processor.py,test_7_raise_exception,self,120,128,reference,123
+pyspider,tests\test_processor.py,test_60_timeout_in_thread,self,231,241,reference,239
+pyspider,tests\test_processor.py,test_60_timeout_in_thread,self,231,241,reference,239
+pyspider,pyspider\database\local\projectdb.py,load_scripts,self,25,40,delsubscript,40
+pyspider,pyspider\database\mongodb\mongodbbase.py,projects,self,20,25,getattr,22
+pyspider,pyspider\database\mongodb\projectdb.py,get_all,"self, fields=None",49,53,delsubscript,52
+pyspider,pyspider\database\mongodb\projectdb.py,get,"self, name, fields=None",55,59,delsubscript,58
+pyspider,pyspider\database\mongodb\taskdb.py,_parse,"self, data",40,51,delsubscript,42
+pyspider,pyspider\database\mysql\mysqlbase.py,projects,self,36,41,getattr,38
+pyspider,pyspider\database\redis\taskdb.py,projects,self,67,73,getattr,69
+pyspider,pyspider\database\sqlalchemy\projectdb.py,get_all,"self, fields=None",74,78,getattr,75
+pyspider,pyspider\database\sqlalchemy\projectdb.py,get,"self, name, fields=None",80,86,getattr,81
+pyspider,pyspider\database\sqlalchemy\projectdb.py,check_update,"self, timestamp, fields=None",92,97,getattr,93
+pyspider,pyspider\database\sqlalchemy\resultdb.py,save,"self, project, taskid, url, result",76,94,delsubscript,88
+pyspider,pyspider\database\sqlalchemy\resultdb.py,select,"self, project, fields=None, offset='0', limit=None",96,109,getattr,103
+pyspider,pyspider\database\sqlalchemy\resultdb.py,get,"self, project, taskid, fields=None",121,133,getattr,128
+pyspider,pyspider\database\sqlalchemy\sqlalchemybase.py,projects,self,27,32,getattr,29
+pyspider,pyspider\database\sqlalchemy\taskdb.py,load_tasks,"self, status, project=None, fields=None",88,103,getattr,97
+pyspider,pyspider\database\sqlalchemy\taskdb.py,get_task,"self, project, taskid, fields=None",105,117,getattr,112
+pyspider,pyspider\database\sqlite\sqlitebase.py,projects,self,34,39,getattr,36
+pyspider,pyspider\libs\base_handler.py,__new__,"cls, name, bases, attrs",102,119,getattr,113
+pyspider,pyspider\libs\base_handler.py,_run_task,"self, task, response",160,176,getattr,170
+pyspider,pyspider\libs\base_handler.py,_run_task,"self, task, response",160,176,getattr,172
+pyspider,pyspider\libs\base_handler.py,_run_task,"self, task, response",160,176,getattr,174
+pyspider,pyspider\libs\counter.py,to_dict,"self, get_value=None",316,326,getattr,322
+pyspider,pyspider\libs\counter.py,trim,self,366,370,delsubscript,370
+pyspider,pyspider\libs\counter.py,__delitem__,"self, key",389,396,delsubscript,396
+pyspider,pyspider\libs\counter.py,to_dict,"self, get_value=None",410,421,getattr,416
+pyspider,pyspider\libs\utils.py,load_object,name,359,370,getattr,370
+pyspider,pyspider\libs\wsgi_xmlrpc.py,handle_POST,"self, environ, start_response",57,92,getattr,81
+pyspider,pyspider\processor\processor.py,on_task,"self, task, response",102,203,getattr,146
+pyspider,pyspider\scheduler\scheduler.py,_check_delete,self,602,620,delsubscript,614
+pyspider,pyspider\scheduler\scheduler.py,_check_delete,self,602,620,delsubscript,620
+pyspider,pyspider\scheduler\scheduler.py,xmlrpc_run,"self, port='23333', bind='127.0.0.1', logRequests=False",677,783,delsubscript,741
+pyspider,pyspider\scheduler\scheduler.py,xmlrpc_run,"self, port='23333', bind='127.0.0.1', logRequests=False",677,783,delsubscript,744
+pyspider,pyspider\scheduler\scheduler.py,xmlrpc_run,"self, port='23333', bind='127.0.0.1', logRequests=False",677,783,delsubscript,747
+pyspider,pyspider\scheduler\scheduler.py,on_task_done,"self, task",886,907,delsubscript,898
+pyspider,pyspider\scheduler\scheduler.py,on_select_task,"self, task",962,980,getattr,975
+pyspider,pyspider\scheduler\task_queue.py,done,"self, taskid",212,220,delsubscript,217
+pyspider,pyspider\scheduler\task_queue.py,delete,"self, taskid",222,235,delsubscript,227
+pyspider,pyspider\scheduler\task_queue.py,delete,"self, taskid",222,235,delsubscript,231
+pyspider,pyspider\webui\webdav.py,endWrite,"self, withErrors",109,130,getattr,120
+pyspider,tests\test_counter.py,test_020_delete,self,42,54,delsubscript,51
+pyspider,tests\test_database.py,test_z20_update_projects,self,148,154,getattr,149
+pyspider,tests\test_database.py,tearDownClass,self,336,338,delattribute,338
+pyspider,tests\test_database.py,tearDownClass,self,347,349,delattribute,349
+pyspider,tests\test_database.py,tearDownClass,self,358,360,delattribute,360
+pyspider,tests\test_database.py,tearDownClass,self,505,507,delattribute,507
+pyspider,tests\test_database.py,tearDownClass,self,518,520,delattribute,520
+pyspider,tests\test_database.py,tearDownClass,self,531,533,delattribute,533
+pyspider,tests\test_message_queue.py,tearDownClass,self,92,98,delattribute,96
+pyspider,tests\test_message_queue.py,tearDownClass,self,92,98,delattribute,97
+pyspider,tests\test_message_queue.py,tearDownClass,self,92,98,delattribute,98
+pyspider,tests\test_message_queue.py,tearDownClass,self,136,142,delattribute,140
+pyspider,tests\test_message_queue.py,tearDownClass,self,136,142,delattribute,141
+pyspider,tests\test_message_queue.py,tearDownClass,self,136,142,delattribute,142
+pyspider,tests\test_run.py,test_10_cli,self,50,59,getattr,55
+pyspider,tests\test_run.py,test_10_cli,self,50,59,getattr,58
+pyspider,tests\test_run.py,test_40_cli_env,self,94,104,delsubscript,104
+pyspider,tests\test_run.py,test_50_docker_rabbitmq,self,106,123,delsubscript,121
+pyspider,tests\test_run.py,test_50_docker_rabbitmq,self,106,123,delsubscript,122
+pyspider,tests\test_run.py,test_50_docker_rabbitmq,self,106,123,delsubscript,123
+pyspider,tests\test_run.py,test_60_docker_mongodb,self,125,140,delsubscript,138
+pyspider,tests\test_run.py,test_60_docker_mongodb,self,125,140,delsubscript,139
+pyspider,tests\test_run.py,test_60_docker_mongodb,self,125,140,delsubscript,140
+pyspider,tests\test_run.py,test_70_docker_mysql,self,142,158,delsubscript,156
+pyspider,tests\test_run.py,test_70_docker_mysql,self,142,158,delsubscript,157
+pyspider,tests\test_run.py,test_70_docker_mysql,self,142,158,delsubscript,158
+pyspider,tests\test_run.py,test_80_docker_phantomjs,self,160,172,delsubscript,171
+pyspider,tests\test_run.py,test_80_docker_phantomjs,self,160,172,delsubscript,172
+pyspider,tests\test_run.py,test_90_docker_scheduler,self,174,190,delsubscript,189
+pyspider,tests\test_run.py,test_90_docker_scheduler,self,174,190,delsubscript,190

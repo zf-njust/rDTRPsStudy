@@ -1,0 +1,53 @@
+requests,file,method,params,startlineno,endlineno,type,lineno
+requests,requests\models.py,register_hook,"self, event, hook",175,184,argument,181
+requests,requests\models.py,register_hook,"self, event, hook",175,184,argument,184
+requests,requests\models.py,content,self,815,833,assignment,828
+requests,tests\test_requests.py,test_links,self,1021,1043,assignment,1023
+requests,tests\test_requests.py,test_response_decode_unicode,self,1212,1229,assignment,1218
+requests,tests\test_requests.py,test_transport_adapter_ordering,self,1372,1408,assignment,1405
+requests,requests\adapters.py,cert_verify,"self, conn, url, verify, cert",203,253,reference,242
+requests,requests\auth.py,_basic_auth_str,"username, password",28,69,reference,38
+requests,requests\auth.py,_basic_auth_str,"username, password",28,69,reference,48
+requests,requests\models.py,_encode_params,data,82,107,reference,98
+requests,requests\models.py,prepare_url,"self, url, params",355,439,reference,438
+requests,requests\models.py,prepare_body,"self, data, files, json=None",452,519,reference,472
+requests,requests\models.py,prepare_body,"self, data, files, json=None",452,519,reference,508
+requests,requests\models.py,prepare_body,"self, data, files, json=None",452,519,getattr,483
+requests,requests\models.py,_encode_files,"files, data",109,171,reference,121
+requests,requests\models.py,_encode_files,"files, data",109,171,reference,129
+requests,requests\models.py,prepare_auth,"self, auth, url=''",534,554,reference,548
+requests,requests\sessions.py,prepare_request,"self, request",426,464,reference,444
+requests,requests\sessions.py,resolve_redirects,"self, resp, req, stream=False, timeout=None, verify=True, cert=None, proxies=None, yield_requests=False, **adapter_kwargs",143,254,reference,213
+requests,requests\sessions.py,resolve_redirects,"self, resp, req, stream=False, timeout=None, verify=True, cert=None, proxies=None, yield_requests=False, **adapter_kwargs",143,254,reference,250
+requests,requests\sessions.py,resolve_redirects,"self, resp, req, stream=False, timeout=None, verify=True, cert=None, proxies=None, yield_requests=False, **adapter_kwargs",143,254,delsubscript,205
+requests,requests\utils.py,guess_filename,obj,219,224,reference,222
+requests,requests\utils.py,guess_filename,obj,219,224,getattr,221
+requests,requests\utils.py,guess_json_utf,data,857,886,reference,875
+requests,requests\utils.py,guess_json_utf,data,857,886,reference,877
+requests,requests\utils.py,guess_json_utf,data,857,886,reference,881
+requests,requests\utils.py,guess_json_utf,data,857,886,reference,883
+requests,requests\adapters.py,__getstate__,self,131,132,getattr,132
+requests,requests\adapters.py,build_response,"self, req, resp",255,290,getattr,268
+requests,requests\adapters.py,build_response,"self, req, resp",255,290,getattr,271
+requests,requests\auth.py,__eq__,"self, other",86,89,getattr,88
+requests,requests\auth.py,__eq__,"self, other",86,89,getattr,89
+requests,requests\auth.py,__eq__,"self, other",298,301,getattr,300
+requests,requests\auth.py,__eq__,"self, other",298,301,getattr,301
+requests,requests\help.py,info,,59,108,getattr,86
+requests,requests\help.py,info,,59,108,getattr,89
+requests,requests\models.py,__getstate__,self,649,655,getattr,655
+requests,requests\models.py,close,self,942,953,getattr,951
+requests,requests\sessions.py,merge_setting,"request_setting, session_setting, dict_class=OrderedDict",49,77,delsubscript,75
+requests,requests\sessions.py,rebuild_auth,"self, prepared_request, response",256,274,delsubscript,267
+requests,requests\sessions.py,rebuild_proxies,"self, prepared_request, proxies",276,315,delsubscript,305
+requests,requests\sessions.py,__getstate__,self,749,751,getattr,750
+requests,requests\structures.py,__delitem__,"self, key",54,55,delsubscript,55
+requests,requests\utils.py,set_environ,"env_name, value",672,691,delsubscript,689
+requests,requests\utils.py,rewind_body,prepared_request,965,977,getattr,969
+requests,tests\test_requests.py,test_post_with_custom_mapping,"self, httpbin",749,772,delsubscript,755
+requests,tests\test_requests.py,test_delitem,self,1987,1992,delsubscript,1990
+requests,tests\test_requests.py,test_equality,self,2033,2040,delsubscript,2037
+requests,tests\test_requests.py,test_prepared_copy,kwargs,2329,2356,getattr,2356
+requests,tests\test_requests.py,test_prepared_copy,kwargs,2329,2356,getattr,2356
+requests,tests\test_structures.py,test_delitem,"self, key",25,28,delsubscript,27
+requests,tests\utils.py,override_environ,**kwargs,7,19,delsubscript,12

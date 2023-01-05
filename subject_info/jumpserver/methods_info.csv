@@ -1,0 +1,1665 @@
+file,method,params,startlineno,endlineno
+apps\applications\forms\remote_app.py,__init__,"self, *args, **kwargs",87,94
+apps\applications\forms\remote_app.py,_clean_params,self,111,119
+apps\applications\forms\remote_app.py,_save_params,"self, instance",121,125
+apps\applications\forms\remote_app.py,save,"self, commit=True",127,130
+apps\applications\models\remote_app.py,__str__,self,57,58
+apps\applications\models\remote_app.py,parameters,self,60,75
+apps\applications\models\remote_app.py,asset_info,self,77,81
+apps\applications\models\remote_app.py,system_user_info,self,84,88
+apps\applications\serializers\remote_app.py,filter_attribute,"attribute, instance",23,37
+apps\applications\serializers\remote_app.py,get_attribute,"self, instance",39,45
+apps\applications\serializers\remote_app.py,filter_value,"dictionary, value",47,58
+apps\applications\serializers\remote_app.py,get_value,"self, dictionary",60,66
+apps\applications\serializers\remote_app.py,get_parameter_remote_app,obj,96,103
+apps\applications\views\remote_app.py,get_context_data,"self, **kwargs",29,35
+apps\applications\views\remote_app.py,get_context_data,"self, **kwargs",45,52
+apps\applications\views\remote_app.py,get_success_message,"self, cleaned_data",54,55
+apps\applications\views\remote_app.py,get_initial,self,65,66
+apps\applications\views\remote_app.py,get_context_data,"self, **kwargs",68,75
+apps\applications\views\remote_app.py,get_success_message,"self, cleaned_data",77,78
+apps\applications\views\remote_app.py,get_context_data,"self, **kwargs",87,93
+apps\applications\views\remote_app.py,get_context_data,"self, **kwargs",100,105
+apps\assets\apps.py,ready,self,9,11
+apps\assets\signals_handler.py,update_asset_hardware_info_on_created,asset,20,22
+apps\assets\signals_handler.py,test_asset_conn_on_created,asset,25,27
+apps\assets\signals_handler.py,on_asset_created_or_update,"sender, instance=None, created=False, **kwargs",30,42
+apps\assets\signals_handler.py,on_asset_delete,"sender, instance=None, **kwargs",45,49
+apps\assets\signals_handler.py,on_system_user_update,"sender, instance=None, created=True, **kwargs",52,57
+apps\assets\signals_handler.py,on_system_user_nodes_change,"sender, instance=None, **kwargs",60,68
+apps\assets\signals_handler.py,on_system_user_assets_change,"sender, instance=None, **kwargs",71,75
+apps\assets\signals_handler.py,on_asset_node_changed,"sender, instance=None, **kwargs",78,95
+apps\assets\signals_handler.py,on_node_assets_changed,"sender, instance=None, **kwargs",98,109
+apps\assets\signals_handler.py,on_node_update_or_created,"sender, instance=None, created=False, **kwargs",112,115
+apps\assets\signals_handler.py,on_auth_book_created,"sender, instance=None, created=False, **kwargs",118,122
+apps\assets\tasks.py,check_asset_can_run_ansible,asset,31,40
+apps\assets\tasks.py,clean_hosts,assets,43,51
+apps\assets\tasks.py,clean_hosts_by_protocol,"system_user, assets",54,62
+apps\assets\tasks.py,set_assets_hardware_info,"assets, result, **kwargs",65,123
+apps\assets\tasks.py,update_assets_hardware_info_util,"assets, task_name=None",126,148
+apps\assets\tasks.py,update_asset_hardware_info_manual,asset,151,155
+apps\assets\tasks.py,update_assets_hardware_info_period,,159,167
+apps\assets\tasks.py,test_asset_connectivity_util,"assets, task_name=None",173,227
+apps\assets\tasks.py,test_asset_connectivity_manual,asset,230,238
+apps\assets\tasks.py,test_admin_user_connectivity_util,"admin_user, task_name",241,254
+apps\assets\tasks.py,test_admin_user_connectivity_period,,257,276
+apps\assets\tasks.py,test_admin_user_connectivity_manual,admin_user,279,283
+apps\assets\tasks.py,test_system_user_connectivity_util,"system_user, assets, task_name",289,344
+apps\assets\tasks.py,test_system_user_connectivity_manual,system_user,347,351
+apps\assets\tasks.py,test_system_user_connectivity_a_asset,"system_user, asset",354,359
+apps\assets\tasks.py,test_system_user_connectivity_period,,362,371
+apps\assets\tasks.py,get_push_linux_system_user_tasks,system_user,376,444
+apps\assets\tasks.py,get_push_windows_system_user_tasks,system_user,447,468
+apps\assets\tasks.py,get_push_system_user_tasks,"host, system_user",471,483
+apps\assets\tasks.py,push_system_user_util,"system_user, assets, task_name",486,519
+apps\assets\tasks.py,push_system_user_to_assets_manual,system_user,522,526
+apps\assets\tasks.py,push_system_user_a_asset_manual,"system_user, asset",529,534
+apps\assets\tasks.py,push_system_user_to_assets,"system_user, assets",537,540
+apps\assets\tasks.py,test_system_user_connectability_period,,543,546
+apps\assets\tasks.py,test_admin_user_connectability_period,,549,552
+apps\assets\tasks.py,get_test_asset_user_connectivity_tasks,asset,557,569
+apps\assets\tasks.py,test_asset_user_connectivity_util,"asset_user, task_name, run_as_admin=False",572,602
+apps\assets\tasks.py,test_asset_users_connectivity_manual,"asset_users, run_as_admin=False",605,612
+apps\assets\utils.py,get_system_user_by_name,name,15,17
+apps\assets\utils.py,get_system_user_by_id,id,20,22
+apps\assets\utils.py,get_filter_labels_ids,self,26,42
+apps\assets\utils.py,filter_queryset,"self, queryset",46,53
+apps\assets\utils.py,__init__,"self, with_assets_amount=False, debug=False",57,62
+apps\assets\utils.py,sorted_by,node,64,66
+apps\assets\utils.py,get_queryset,self,68,77
+apps\assets\utils.py,get_all_nodes,self,79,85
+apps\assets\utils.py,push_to_stack,"self, node",87,104
+apps\assets\utils.py,pop_from_stack,self,107,118
+apps\assets\utils.py,init,self,120,227
+apps\assets\utils.py,get_nodes_by_queryset,"self, queryset",132,139
+apps\assets\utils.py,get_node_by_key,"self, key",141,142
+apps\assets\utils.py,debug,"self, msg",144,145
+apps\assets\utils.py,set_assets_amount,self,147,149
+apps\assets\utils.py,set_full_value,self,151,153
+apps\assets\utils.py,nodes,self,155,157
+apps\assets\utils.py,get_family_by_key,"self, key",159,167
+apps\assets\utils.py,get_family,"self, node",172,173
+apps\assets\utils.py,get_family_keys_by_key,"self, key",175,177
+apps\assets\utils.py,get_some_nodes_family_by_keys,"self, keys",179,183
+apps\assets\utils.py,get_some_nodes_family_keys_by_keys,"self, keys",185,187
+apps\assets\utils.py,get_nodes_parents_by_key,"self, key, with_self=True",189,197
+apps\assets\utils.py,get_node_parents,"self, node, with_self=True",199,200
+apps\assets\utils.py,get_nodes_parents_keys_by_key,"self, key, with_self=True",202,204
+apps\assets\utils.py,get_all_children_by_key,"self, key, with_self=True",206,214
+apps\assets\utils.py,get_all_children,"self, node, with_self=True",216,217
+apps\assets\utils.py,get_all_children_keys_by_key,"self, key, with_self=True",219,221
+apps\assets\utils.py,test_node_tree,,224,249
+apps\assets\api\admin_user.py,get_queryset,self,51,53
+apps\assets\api\admin_user.py,update,"self, request, *args, **kwargs",67,81
+apps\assets\api\admin_user.py,retrieve,"self, request, *args, **kwargs",92,95
+apps\assets\api\admin_user.py,get_object,self,106,108
+apps\assets\api\admin_user.py,get_queryset,self,110,112
+apps\assets\api\asset.py,set_assets_node,"self, assets",53,62
+apps\assets\api\asset.py,perform_create,"self, serializer",64,66
+apps\assets\api\asset.py,filter_node,"self, queryset",68,88
+apps\assets\api\asset.py,filter_admin_user_id,"self, queryset",90,96
+apps\assets\api\asset.py,filter_queryset,"self, queryset",98,102
+apps\assets\api\asset.py,post,"self, request, *args, **kwargs",117,126
+apps\assets\api\asset.py,retrieve,"self, request, *args, **kwargs",137,141
+apps\assets\api\asset.py,retrieve,"self, request, *args, **kwargs",152,156
+apps\assets\api\asset.py,retrieve,"self, request, *args, **kwargs",164,174
+apps\assets\api\asset_user.py,filter_queryset,"self, request, queryset, view",30,39
+apps\assets\api\asset_user.py,filter_queryset,"self, request, queryset, view",43,52
+apps\assets\api\asset_user.py,get_queryset,self,70,105
+apps\assets\api\asset_user.py,retrieve,"self, request, *args, **kwargs",118,124
+apps\assets\api\asset_user.py,get_object,self,126,139
+apps\assets\api\asset_user.py,get_asset_users,self,149,156
+apps\assets\api\asset_user.py,retrieve,"self, request, *args, **kwargs",158,165
+apps\assets\api\asset_user.py,create,"self, request, *args, **kwargs",175,180
+apps\assets\api\cmd_filter.py,get_queryset,self,32,37
+apps\assets\api\domain.py,get_queryset,self,25,27
+apps\assets\api\domain.py,get_serializer_class,self,29,32
+apps\assets\api\domain.py,get_permissions,self,34,37
+apps\assets\api\domain.py,post,"self, request, *args, **kwargs",54,61
+apps\assets\api\label.py,list,"self, request, *args, **kwargs",37,41
+apps\assets\api\label.py,get_queryset,self,43,45
+apps\assets\api\node.py,perform_create,"self, serializer",49,52
+apps\assets\api\node.py,update,"self, request, *args, **kwargs",54,64
+apps\assets\api\node.py,get_queryset,self,82,87
+apps\assets\api\node.py,refresh_nodes,queryset,89,93
+apps\assets\api\node.py,get_queryset,self,114,127
+apps\assets\api\node.py,filter_assets,"self, queryset",129,138
+apps\assets\api\node.py,filter_queryset,"self, queryset",140,142
+apps\assets\api\node.py,check_need_refresh_nodes,self,144,146
+apps\assets\api\node.py,get,"self, request, *args, **kwargs",155,156
+apps\assets\api\node.py,post,"self, request, *args, **kwargs",158,162
+apps\assets\api\node.py,create,"self, request, *args, **kwargs",164,174
+apps\assets\api\node.py,get_object,self,176,182
+apps\assets\api\node.py,get_queryset,self,184,199
+apps\assets\api\node.py,get_queryset,self,206,213
+apps\assets\api\node.py,put,"self, request, *args, **kwargs",222,230
+apps\assets\api\node.py,perform_update,"self, serializer",239,242
+apps\assets\api\node.py,perform_update,"self, serializer",251,258
+apps\assets\api\node.py,perform_update,"self, serializer",267,271
+apps\assets\api\node.py,get,"self, request, *args, **kwargs",278,285
+apps\assets\api\node.py,get,"self, request, *args, **kwargs",292,299
+apps\assets\api\node.py,get,"self, request, *args, **kwargs",306,308
+apps\assets\api\system_user.py,get_queryset,self,54,56
+apps\assets\api\system_user.py,destroy,"self, request, *args, **kwargs",67,70
+apps\assets\api\system_user.py,get_object,self,81,86
+apps\assets\api\system_user.py,retrieve,"self, request, *args, **kwargs",96,102
+apps\assets\api\system_user.py,retrieve,"self, request, *args, **kwargs",112,115
+apps\assets\api\system_user.py,get_object,self,126,128
+apps\assets\api\system_user.py,get_queryset,self,130,132
+apps\assets\api\system_user.py,retrieve,"self, request, *args, **kwargs",140,145
+apps\assets\api\system_user.py,retrieve,"self, request, *args, **kwargs",153,158
+apps\assets\api\system_user.py,get_serializer_class,self,164,166
+apps\assets\api\system_user.py,get_queryset,self,168,171
+apps\assets\backends\asset_user.py,filter_queryset_more,"cls, queryset",10,12
+apps\assets\backends\asset_user.py,filter,"cls, username=None, assets=None, **kwargs",14,28
+apps\assets\backends\asset_user.py,construct_authbook_objects,"cls, asset_users, assets",30,40
+apps\assets\backends\base.py,filter,"cls, username=None, assets=None, latest=True, prefer=None, prefer_id=None",8,19
+apps\assets\backends\base.py,order_by,"self, *ordering",23,32
+apps\assets\backends\base.py,filter_in,"self, kwargs",34,61
+apps\assets\backends\base.py,filter_equal,"self, kwargs",63,78
+apps\assets\backends\base.py,filter_it,obj,64,73
+apps\assets\backends\base.py,filter,"self, **kwargs",80,82
+apps\assets\backends\base.py,__or__,"self, other",84,86
+apps\assets\backends\db.py,filter,"cls, username=None, assets=None, latest=True, **kwargs",9,18
+apps\assets\backends\db.py,create,"cls, **kwargs",20,29
+apps\assets\backends\manager.py,filter,"self, username=None, assets=None, latest=True, prefer=None, prefer_id=None",34,67
+apps\assets\backends\manager.py,get,"self, username, asset, **kwargs",69,76
+apps\assets\backends\manager.py,raise_does_not_exist,"self, name",78,79
+apps\assets\backends\manager.py,raise_multiple_return,"self, name, length",81,82
+apps\assets\backends\manager.py,create,**kwargs,84,87
+apps\assets\backends\manager.py,all,self,89,90
+apps\assets\backends\manager.py,prefer,"self, s",92,94
+apps\assets\backends\manager.py,none,,96,98
+apps\assets\backends\manager.py,_merge_instances,*args,100,110
+apps\assets\backends\system_user.py,filter_queryset_more,"cls, queryset",14,17
+apps\assets\backends\system_user.py,_distinct_system_users_by_username,"cls, system_users",19,28
+apps\assets\backends\utils.py,get_backend,,10,16
+apps\assets\backends\vault.py,filter,"cls, username=None, asset=None, latest=True",9,11
+apps\assets\forms\asset.py,__init__,"self, *args, **kwargs",30,34
+apps\assets\forms\asset.py,__init__,"self, *args, **kwargs",132,137
+apps\assets\forms\asset.py,save,"self, commit=True",139,159
+apps\assets\forms\cmd_filter.py,clean_content,self,34,40
+apps\assets\forms\domain.py,__init__,"self, *args, **kwargs",25,38
+apps\assets\forms\domain.py,save,"self, commit=True",40,44
+apps\assets\forms\domain.py,__init__,"self, *args, **kwargs",48,53
+apps\assets\forms\domain.py,save,"self, commit=True",55,61
+apps\assets\forms\label.py,__init__,"self, *args, **kwargs",23,36
+apps\assets\forms\label.py,save,"self, commit=True",38,42
+apps\assets\forms\user.py,clean_private_key,self,31,44
+apps\assets\forms\user.py,validate_password_key,self,46,52
+apps\assets\forms\user.py,gen_keys,self,55,63
+apps\assets\forms\user.py,save,"self, commit=True",67,68
+apps\assets\forms\user.py,save,"self, commit=True",83,84
+apps\assets\migrations\0001_initial.py,add_default_group,"apps, schema_editor",11,15
+apps\assets\migrations\0001_initial.py,add_default_cluster,"apps, schema_editor",19,23
+apps\assets\migrations\0010_auto_20180307_1749_squashed_0019_auto_20180816_1320.py,migrate_win_to_ssh_protocol,"apps, schema_editor",15,18
+apps\assets\migrations\0034_auto_20190705_1348.py,migrate_assets_protocol,"apps, schema_editor",9,18
+apps\assets\models\asset.py,default_cluster,,22,29
+apps\assets\models\asset.py,default_node,,32,38
+apps\assets\models\asset.py,active,self,42,43
+apps\assets\models\asset.py,valid,self,45,46
+apps\assets\models\asset.py,has_protocol,"self, name",48,49
+apps\assets\models\asset.py,protocols_as_list,self,65,69
+apps\assets\models\asset.py,protocols_as_dict,self,71,82
+apps\assets\models\asset.py,protocols_as_json,self,84,88
+apps\assets\models\asset.py,has_protocol,"self, name",91,92
+apps\assets\models\asset.py,ssh_port,self,94,96
+apps\assets\models\asset.py,get_all_nodes_keys,cls,106,123
+apps\assets\models\asset.py,expire_all_nodes_keys_cache,cls,125,128
+apps\assets\models\asset.py,get_nodes,self,130,133
+apps\assets\models\asset.py,get_all_nodes,"self, flat=False",135,142
+apps\assets\models\asset.py,__str__,self,204,205
+apps\assets\models\asset.py,is_valid,self,207,214
+apps\assets\models\asset.py,is_windows,self,216,220
+apps\assets\models\asset.py,is_unixlike,self,222,226
+apps\assets\models\asset.py,is_support_ansible,self,228,229
+apps\assets\models\asset.py,cpu_info,self,231,238
+apps\assets\models\asset.py,hardware_info,self,240,248
+apps\assets\models\asset.py,connectivity,self,250,257
+apps\assets\models\asset.py,connectivity,"self, value",259,263
+apps\assets\models\asset.py,get_auth_info,self,265,275
+apps\assets\models\asset.py,as_node,self,277,285
+apps\assets\models\asset.py,as_tree_node,"self, parent_node",287,314
+apps\assets\models\asset.py,generate_fake,"cls, count='100'",320,352
+apps\assets\models\authbook.py,latest_version,self,15,16
+apps\assets\models\authbook.py,_set_latest,self,37,40
+apps\assets\models\authbook.py,_get_pre_obj,self,42,46
+apps\assets\models\authbook.py,_remove_pre_obj_latest,self,48,52
+apps\assets\models\authbook.py,_set_version,self,54,60
+apps\assets\models\authbook.py,set_version_and_latest,self,62,64
+apps\assets\models\authbook.py,get_related_assets,self,66,67
+apps\assets\models\authbook.py,generate_id_with_asset,"self, asset",69,70
+apps\assets\models\authbook.py,connectivity,self,72,74
+apps\assets\models\authbook.py,keyword,self,76,78
+apps\assets\models\authbook.py,hostname,self,80,82
+apps\assets\models\authbook.py,ip,self,84,86
+apps\assets\models\authbook.py,__str__,self,88,89
+apps\assets\models\base.py,private_key_obj,self,45,50
+apps\assets\models\base.py,private_key_file,self,52,63
+apps\assets\models\base.py,public_key_obj,self,65,72
+apps\assets\models\base.py,part_id,self,74,77
+apps\assets\models\base.py,get_related_assets,self,79,81
+apps\assets\models\base.py,set_auth,"self, password=None, private_key=None, public_key=None",83,96
+apps\assets\models\base.py,set_connectivity,"self, summary",98,113
+apps\assets\models\base.py,connectivity,self,115,133
+apps\assets\models\base.py,connectivity_amount,self,135,142
+apps\assets\models\base.py,assets_amount,self,144,151
+apps\assets\models\base.py,expire_assets_amount,self,153,155
+apps\assets\models\base.py,get_asset_connectivity,"self, asset",157,159
+apps\assets\models\base.py,get_asset_connectivity_key,"self, asset",161,162
+apps\assets\models\base.py,set_asset_connectivity,"self, asset, c",164,166
+apps\assets\models\base.py,get_asset_user,"self, asset",168,176
+apps\assets\models\base.py,load_specific_asset_auth,"self, asset",178,181
+apps\assets\models\base.py,_merge_auth,"self, other",183,189
+apps\assets\models\base.py,clear_auth,self,191,195
+apps\assets\models\base.py,gen_password,,197,199
+apps\assets\models\base.py,gen_key,username,201,206
+apps\assets\models\base.py,auto_gen_auth,self,208,215
+apps\assets\models\base.py,auto_gen_auth_password,self,218,220
+apps\assets\models\base.py,_to_secret_json,self,222,229
+apps\assets\models\base.py,generate_id_with_asset,"self, asset",232,236
+apps\assets\models\base.py,construct_to_authbook,"self, asset",238,250
+apps\assets\models\cluster.py,__str__,self,31,32
+apps\assets\models\cluster.py,initial,cls,34,36
+apps\assets\models\cluster.py,generate_fake,"cls, count='5'",42,64
+apps\assets\models\cmd_filter.py,__str__,self,27,28
+apps\assets\models\cmd_filter.py,_pattern,self,66,78
+apps\assets\models\cmd_filter.py,match,"self, data",80,88
+apps\assets\models\cmd_filter.py,__str__,self,90,91
+apps\assets\models\domain.py,__str__,self,28,29
+apps\assets\models\domain.py,has_gateway,self,31,32
+apps\assets\models\domain.py,gateways,self,34,36
+apps\assets\models\domain.py,random_gateway,self,38,39
+apps\assets\models\domain.py,__str__,self,56,57
+apps\assets\models\domain.py,test_connective,"self, local_port=None",63,97
+apps\assets\models\group.py,__str__,self,25,26
+apps\assets\models\group.py,initial,cls,32,35
+apps\assets\models\group.py,generate_fake,"cls, count='100'",37,53
+apps\assets\models\label.py,get_queryset_group_by_name,cls,28,32
+apps\assets\models\label.py,__str__,self,34,35
+apps\assets\models\node.py,delete,self,20,21
+apps\assets\models\node.py,children,self,30,35
+apps\assets\models\node.py,children,"self, value",37,39
+apps\assets\models\node.py,all_children,self,41,47
+apps\assets\models\node.py,get_children,"self, with_self=False",50,54
+apps\assets\models\node.py,get_all_children,"self, with_self=False",56,61
+apps\assets\models\node.py,parents,self,63,71
+apps\assets\models\node.py,parents,"self, value",73,75
+apps\assets\models\node.py,get_ancestor,"self, with_self=False",77,82
+apps\assets\models\node.py,parent,self,84,94
+apps\assets\models\node.py,parent,"self, parent",96,108
+apps\assets\models\node.py,get_sibling,"self, with_self=False",110,118
+apps\assets\models\node.py,get_family,self,120,123
+apps\assets\models\node.py,get_ancestor_keys,"self, with_self=False",125,133
+apps\assets\models\node.py,is_children,"self, other",135,137
+apps\assets\models\node.py,is_parent,"self, other",139,141
+apps\assets\models\node.py,parent_key,self,143,146
+apps\assets\models\node.py,parents_keys,"self, with_self=False",148,157
+apps\assets\models\node.py,full_value,self,165,178
+apps\assets\models\node.py,full_value,"self, value",180,184
+apps\assets\models\node.py,expire_full_value,self,186,188
+apps\assets\models\node.py,expire_nodes_full_value,"cls, nodes=None",190,193
+apps\assets\models\node.py,assets_amount,self,202,216
+apps\assets\models\node.py,assets_amount,"self, value",218,222
+apps\assets\models\node.py,expire_assets_amount,self,224,228
+apps\assets\models\node.py,expire_nodes_assets_amount,"cls, nodes=None",230,233
+apps\assets\models\node.py,refresh_nodes,cls,235,240
+apps\assets\models\node.py,__str__,self,258,259
+apps\assets\models\node.py,__eq__,"self, other",261,264
+apps\assets\models\node.py,__gt__,"self, other",266,283
+apps\assets\models\node.py,__lt__,"self, other",285,286
+apps\assets\models\node.py,name,self,288,290
+apps\assets\models\node.py,level,self,292,294
+apps\assets\models\node.py,get_next_child_key,self,296,300
+apps\assets\models\node.py,get_next_child_preset_name,self,302,311
+apps\assets\models\node.py,create_child,"self, value, _id=None",313,317
+apps\assets\models\node.py,get_assets,self,319,325
+apps\assets\models\node.py,get_valid_assets,self,327,328
+apps\assets\models\node.py,get_all_assets,self,330,340
+apps\assets\models\node.py,get_all_valid_assets,self,342,343
+apps\assets\models\node.py,is_default_node,self,345,346
+apps\assets\models\node.py,is_root,self,348,352
+apps\assets\models\node.py,create_root_node,cls,354,368
+apps\assets\models\node.py,root,cls,370,376
+apps\assets\models\node.py,default_node,cls,378,382
+apps\assets\models\node.py,as_tree_node,self,384,406
+apps\assets\models\node.py,delete,"self, using=None, keep_parents=False",408,411
+apps\assets\models\node.py,get_queryset,cls,413,417
+apps\assets\models\node.py,generate_fake,"cls, count='100'",419,428
+apps\assets\models\user.py,__str__,self,38,39
+apps\assets\models\user.py,become_pass,self,41,47
+apps\assets\models\user.py,become_pass,"self, password",49,51
+apps\assets\models\user.py,become_info,self,53,63
+apps\assets\models\user.py,generate_fake,"cls, count='10'",70,88
+apps\assets\models\user.py,__str__,self,120,121
+apps\assets\models\user.py,login_mode_display,self,123,125
+apps\assets\models\user.py,is_need_push,self,127,131
+apps\assets\models\user.py,cmd_filter_rules,self,133,139
+apps\assets\models\user.py,is_command_can_run,"self, command",141,148
+apps\assets\models\user.py,get_all_assets,self,150,161
+apps\assets\models\user.py,generate_fake,"cls, count='10'",168,186
+apps\assets\models\utils.py,init_model,,18,22
+apps\assets\models\utils.py,generate_fake,,25,29
+apps\assets\models\utils.py,private_key_validator,value,32,36
+apps\assets\models\utils.py,__init__,"self, status, datetime",51,53
+apps\assets\models\utils.py,display,self,55,56
+apps\assets\models\utils.py,is_reachable,self,58,59
+apps\assets\models\utils.py,is_unreachable,self,61,62
+apps\assets\models\utils.py,is_unknown,self,64,65
+apps\assets\models\utils.py,unreachable,cls,67,69
+apps\assets\models\utils.py,reachable,cls,71,73
+apps\assets\models\utils.py,unknown,cls,75,77
+apps\assets\models\utils.py,set,"cls, key, value, ttl='0'",79,81
+apps\assets\models\utils.py,get,"cls, key",83,88
+apps\assets\models\utils.py,set_unreachable,"cls, key, ttl='0'",90,92
+apps\assets\models\utils.py,set_reachable,"cls, key, ttl='0'",94,96
+apps\assets\models\utils.py,__eq__,"self, other",98,99
+apps\assets\models\utils.py,__gt__,"self, other",101,102
+apps\assets\models\utils.py,__lt__,"self, other",104,105
+apps\assets\models\utils.py,__str__,self,107,108
+apps\assets\serializers\asset.py,__init__,"self, *args, **kwargs",25,26
+apps\assets\serializers\asset.py,validate_duplicate_protocols,values,29,42
+apps\assets\serializers\asset.py,__init__,"self, *args, **kwargs",48,54
+apps\assets\serializers\asset.py,to_representation,"self, value",56,59
+apps\assets\serializers\asset.py,setup_eager_loading,"cls, queryset",94,101
+apps\assets\serializers\asset.py,compatible_with_old_protocol,"self, validated_data",103,116
+apps\assets\serializers\asset.py,create,"self, validated_data",118,121
+apps\assets\serializers\asset.py,update,"self, instance, validated_data",123,125
+apps\assets\serializers\asset_user.py,create,"self, validated_data",52,56
+apps\assets\serializers\asset_user.py,create,"self, validated_data",84,85
+apps\assets\serializers\asset_user.py,update,"self, instance, validated_data",87,88
+apps\assets\serializers\base.py,gen_keys,"self, private_key=None, password=None",14,18
+apps\assets\serializers\base.py,save,"self, **kwargs",20,28
+apps\assets\serializers\base.py,validate_password,"self, password",37,38
+apps\assets\serializers\base.py,validate_private_key,"self, private_key",40,51
+apps\assets\serializers\base.py,validate_public_key,"self, public_key",53,54
+apps\assets\serializers\base.py,clean_auth_fields,validated_data,56,61
+apps\assets\serializers\base.py,create,"self, validated_data",66,68
+apps\assets\serializers\base.py,update,"self, instance, validated_data",70,72
+apps\assets\serializers\domain.py,get_asset_count,obj,25,27
+apps\assets\serializers\domain.py,get_gateway_count,obj,29,31
+apps\assets\serializers\domain.py,get_field_names,"self, declared_fields, info",46,51
+apps\assets\serializers\label.py,get_asset_count,obj,25,27
+apps\assets\serializers\label.py,get_field_names,"self, declared_fields, info",29,32
+apps\assets\serializers\label.py,get_value,obj,42,45
+apps\assets\serializers\node.py,validate_value,"self, data",27,35
+apps\assets\serializers\system_user.py,validate_auto_push,"self, value",36,44
+apps\assets\serializers\system_user.py,validate_auto_generate_key,"self, value",46,58
+apps\assets\serializers\system_user.py,validate_username,"self, username",60,69
+apps\assets\serializers\system_user.py,validate_password,"self, password",71,79
+apps\assets\serializers\system_user.py,validate,"self, attrs",81,100
+apps\assets\serializers\system_user.py,setup_eager_loading,"cls, queryset",102,106
+apps\assets\templatetags\asset_tags.py,group_labels,queryset,7,12
+apps\assets\views\admin_user.py,get_context_data,"self, **kwargs",28,34
+apps\assets\views\admin_user.py,get_context_data,"self, **kwargs",47,54
+apps\assets\views\admin_user.py,get_context_data,"self, **kwargs",65,72
+apps\assets\views\admin_user.py,get_context_data,"self, **kwargs",82,89
+apps\assets\views\admin_user.py,get,"self, request, *args, **kwargs",99,101
+apps\assets\views\admin_user.py,get_queryset,self,103,105
+apps\assets\views\admin_user.py,get_context_data,"self, **kwargs",107,113
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",35,44
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",53,59
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",66,73
+apps\assets\views\asset.py,get_form,"self, form_class=None",83,91
+apps\assets\views\asset.py,get_protocol_formset,self,93,99
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",101,109
+apps\assets\views\asset.py,get_protocol_formset,self,119,126
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",128,136
+apps\assets\views\asset.py,get,"self, request, *args, **kwargs",149,158
+apps\assets\views\asset.py,post,"self, request, *args, **kwargs",160,167
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",169,177
+apps\assets\views\asset.py,get_queryset,self,193,196
+apps\assets\views\asset.py,get_context_data,"self, **kwargs",198,208
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",29,35
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",46,53
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",64,71
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",79,89
+apps\assets\views\cmd_filter.py,get,"self, request, *args, **kwargs",98,100
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",102,109
+apps\assets\views\cmd_filter.py,get_success_url,self,120,122
+apps\assets\views\cmd_filter.py,get_form,"self, form_class=None",125,129
+apps\assets\views\cmd_filter.py,dispatch,"self, request, *args, **kwargs",131,134
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",136,144
+apps\assets\views\cmd_filter.py,get_success_url,self,155,157
+apps\assets\views\cmd_filter.py,get_form,"self, form_class=None",160,164
+apps\assets\views\cmd_filter.py,dispatch,"self, request, *args, **kwargs",166,169
+apps\assets\views\cmd_filter.py,get_context_data,"self, **kwargs",171,180
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",28,34
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",45,52
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",63,70
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",78,84
+apps\assets\views\domain.py,get,"self, request, *args, **kwargs",100,102
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",104,111
+apps\assets\views\domain.py,get_success_url,self,121,123
+apps\assets\views\domain.py,get_form,"self, form_class=None",125,131
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",133,140
+apps\assets\views\domain.py,get_success_url,self,150,152
+apps\assets\views\domain.py,get_context_data,"self, **kwargs",154,161
+apps\assets\views\label.py,get_context_data,"self, **kwargs",25,31
+apps\assets\views\label.py,get_context_data,"self, **kwargs",43,50
+apps\assets\views\label.py,form_valid,"self, form",52,60
+apps\assets\views\label.py,get_context_data,"self, **kwargs",71,78
+apps\assets\views\system_user.py,get_context_data,"self, **kwargs",27,33
+apps\assets\views\system_user.py,get_context_data,"self, **kwargs",44,50
+apps\assets\views\system_user.py,get_context_data,"self, **kwargs",61,67
+apps\assets\views\system_user.py,get_context_data,"self, **kwargs",76,84
+apps\assets\views\system_user.py,get_context_data,"self, **kwargs",100,111
+apps\audits\apps.py,ready,self,7,8
+apps\audits\models.py,__str__,self,44,45
+apps\audits\models.py,__str__,self,55,56
+apps\audits\models.py,get_login_logs,"cls, date_form=None, date_to=None, user=None, keyword=None",104,119
+apps\audits\signals_handler.py,create_operate_log,"action, sender, resource",23,41
+apps\audits\signals_handler.py,on_object_created_or_update,"sender, instance=None, created=False, **kwargs",44,50
+apps\audits\signals_handler.py,on_object_delete,"sender, instance=None, **kwargs",53,55
+apps\audits\signals_handler.py,on_user_change_password,"sender, instance=None, **kwargs",58,66
+apps\audits\tasks.py,clean_login_log_period,,12,21
+apps\audits\utils.py,get_excel_response,filename,6,11
+apps\audits\utils.py,write_content_to_excel,"response, header=None, login_logs=None, fields=None",14,22
+apps\audits\views.py,get_resource_type_list,,28,41
+apps\audits\views.py,get_queryset,self,52,72
+apps\audits\views.py,get_context_data,"self, **kwargs",74,89
+apps\audits\views.py,get_queryset,self,101,118
+apps\audits\views.py,get_context_data,"self, **kwargs",120,133
+apps\audits\views.py,get_queryset,self,144,158
+apps\audits\views.py,get_context_data,"self, **kwargs",160,170
+apps\audits\views.py,get_org_users,,181,184
+apps\audits\views.py,get_queryset,self,186,207
+apps\audits\views.py,get_context_data,"self, **kwargs",209,220
+apps\audits\views.py,get_queryset,self,226,234
+apps\audits\views.py,get_user_list,self,236,238
+apps\audits\views.py,get_context_data,"self, **kwargs",240,251
+apps\audits\views.py,get,"self, request",258,271
+apps\audits\views.py,post,"self, request",273,287
+apps\authentication\apps.py,ready,self,7,9
+apps\authentication\forms.py,confirm_login_allowed,"self, user",35,39
+apps\authentication\forms.py,get_limit_login_error_message,"self, username, ip",41,54
+apps\authentication\forms.py,add_limit_login_error,"self, username, ip",56,58
+apps\authentication\models.py,get_id,self,16,17
+apps\authentication\models.py,get_secret,self,19,20
+apps\authentication\models.py,get_full_value,self,22,23
+apps\authentication\models.py,__str__,self,25,26
+apps\authentication\signals_handlers.py,on_user_logged_out,"sender, request, user, **kwargs",18,33
+apps\authentication\signals_handlers.py,on_post_create_openid_user,"sender, user=None, **kwargs",36,40
+apps\authentication\signals_handlers.py,on_openid_login_success,"sender, user=None, request=None, **kwargs",43,45
+apps\authentication\signals_handlers.py,on_ldap_create_user,"sender, user, ldap_user, **kwargs",48,52
+apps\authentication\signals_handlers.py,generate_data,"username, request",55,72
+apps\authentication\signals_handlers.py,on_user_auth_success,"sender, user, request, **kwargs",75,79
+apps\authentication\signals_handlers.py,on_user_auth_failed,"sender, username, request, reason, **kwargs",82,86
+apps\authentication\tasks.py,write_login_log_async,"*args, **kwargs",12,14
+apps\authentication\tasks.py,clean_django_sessions,,17,20
+apps\authentication\utils.py,write_login_log,"*args, **kwargs",7,17
+apps\authentication\api\auth.py,post,"self, request",42,91
+apps\authentication\api\auth.py,check_user_valid,request,94,103
+apps\authentication\api\auth.py,send_auth_signal,"self, success=True, user=None, username='', reason=''",105,111
+apps\authentication\api\auth.py,post,"self, request",118,135
+apps\authentication\api\auth.py,get,"self, request",137,148
+apps\authentication\api\auth.py,get_permissions,self,150,153
+apps\authentication\api\auth.py,post,"self, request",160,175
+apps\authentication\api\auth.py,send_auth_signal,"self, success=True, user=None, username='', reason=''",177,183
+apps\authentication\api\auth.py,create,"self, request, *args, **kwargs",191,200
+apps\authentication\backends\api.py,get_request_date_header,request,20,25
+apps\authentication\backends\api.py,authenticate,"self, request",46,78
+apps\authentication\backends\api.py,authenticate_credentials,"request, access_key_id, request_signature",81,106
+apps\authentication\backends\api.py,authenticate,"self, request",114,133
+apps\authentication\backends\api.py,authenticate_credentials,"self, token",135,142
+apps\authentication\backends\api.py,authenticate,"self, request",150,169
+apps\authentication\backends\ldap.py,user_can_authenticate,user,21,28
+apps\authentication\backends\ldap.py,authenticate,"self, request=None, username=None, password=None, **kwargs",30,38
+apps\authentication\backends\ldap.py,get_user,"self, user_id",40,47
+apps\authentication\backends\ldap.py,get_group_permissions,"self, user, obj=None",49,56
+apps\authentication\backends\ldap.py,populate_user,"self, username",58,61
+apps\authentication\backends\ldap.py,_search_for_user_dn,self,66,93
+apps\authentication\backends\ldap.py,_populate_user_from_attributes,self,95,116
+apps\authentication\backends\radius.py,get_django_user,"self, username, password=None",12,26
+apps\authentication\backends\openid\backends.py,user_can_authenticate,user,23,30
+apps\authentication\backends\openid\backends.py,get_user,"self, user_id",32,38
+apps\authentication\backends\openid\backends.py,authenticate,"self, request, **kwargs",42,61
+apps\authentication\backends\openid\backends.py,authenticate,"self, request, username=None, password=None, **kwargs",65,81
+apps\authentication\backends\openid\decorator.py,no_ssl_verification,,18,48
+apps\authentication\backends\openid\decorator.py,merge_environment_settings,"self, url, proxies, stream, verify, cert",26,35
+apps\authentication\backends\openid\decorator.py,ssl_verification,func,51,57
+apps\authentication\backends\openid\decorator.py,wrapper,"*args, **kwargs",52,56
+apps\authentication\backends\openid\middleware.py,process_request,"self, request",22,41
+apps\authentication\backends\openid\models.py,__init__,"self, redirect_uri, next_path",20,24
+apps\authentication\backends\openid\models.py,__init__,"self, user, access_token, refresh_token",28,36
+apps\authentication\backends\openid\models.py,__str__,self,38,39
+apps\authentication\backends\openid\models.py,__init__,"self, server_url, realm_name, client_id, client_secret",43,50
+apps\authentication\backends\openid\models.py,realm,self,52,60
+apps\authentication\backends\openid\models.py,openid_connect_client,self,62,72
+apps\authentication\backends\openid\models.py,openid_client,self,74,86
+apps\authentication\backends\openid\models.py,get_url,"self, name",88,90
+apps\authentication\backends\openid\models.py,get_url_end_session_endpoint,self,92,93
+apps\authentication\backends\openid\models.py,get_authorization_url,"self, redirect_uri, scope, state",95,100
+apps\authentication\backends\openid\models.py,get_userinfo,"self, token",102,105
+apps\authentication\backends\openid\models.py,authorization_code,"self, code, redirect_uri",107,112
+apps\authentication\backends\openid\models.py,authorization_password,"self, username, password",114,119
+apps\authentication\backends\openid\models.py,update_or_create_from_code,"self, code, redirect_uri",121,131
+apps\authentication\backends\openid\models.py,update_or_create_from_password,"self, username, password",133,141
+apps\authentication\backends\openid\models.py,_update_or_create,"self, token_response",143,174
+apps\authentication\backends\openid\models.py,__str__,self,176,177
+apps\authentication\backends\openid\utils.py,new_client,,10,18
+apps\authentication\backends\openid\views.py,get_redirect_url,"self, *args, **kwargs",27,41
+apps\authentication\backends\openid\views.py,get,"self, request, *args, **kwargs",45,69
+apps\authentication\views\login.py,get_template_names,self,45,55
+apps\authentication\views\login.py,get,"self, request, *args, **kwargs",57,68
+apps\authentication\views\login.py,post,"self, request, *args, **kwargs",70,76
+apps\authentication\views\login.py,form_valid,"self, form",78,93
+apps\authentication\views\login.py,form_invalid,"self, form",95,111
+apps\authentication\views\login.py,get_form_class,self,113,118
+apps\authentication\views\login.py,get_success_url,self,120,133
+apps\authentication\views\login.py,get_context_data,"self, **kwargs",135,141
+apps\authentication\views\login.py,send_auth_signal,"self, success=True, user=None, username='', reason=''",143,149
+apps\authentication\views\login.py,form_valid,"self, form",158,175
+apps\authentication\views\login.py,get_success_url,self,177,178
+apps\authentication\views\login.py,send_auth_signal,"self, success=True, user=None, username='', reason=''",180,186
+apps\authentication\views\login.py,get,"self, request, *args, **kwargs",194,200
+apps\authentication\views\login.py,get_context_data,"self, **kwargs",202,211
+apps\common\api.py,is_file_finish_write,self,35,36
+apps\common\api.py,get_log_path,self,38,39
+apps\common\api.py,get_no_file_message,"self, request",41,42
+apps\common\api.py,filter_line,"self, line",44,50
+apps\common\api.py,read_from_file,self,52,69
+apps\common\api.py,get,"self, request, *args, **kwargs",71,80
+apps\common\api.py,post,"self, request, *args, **kwargs",84,90
+apps\common\api.py,redirect_plural_name_api,"request, *args, **kwargs",93,98
+apps\common\apps.py,on_db_connection_ready,"sender, **kwargs",9,14
+apps\common\apps.py,ready,self,20,21
+apps\common\compat.py,to_bytes,data,23,28
+apps\common\compat.py,to_string,data,30,32
+apps\common\compat.py,to_unicode,data,34,39
+apps\common\compat.py,stringify,input,41,49
+apps\common\compat.py,to_bytes,data,58,63
+apps\common\compat.py,to_string,data,65,70
+apps\common\compat.py,to_unicode,data,72,74
+apps\common\compat.py,stringify,input,76,77
+apps\common\decorator.py,on_transaction_commit,func,6,12
+apps\common\decorator.py,inner,"*args, **kwargs",10,11
+apps\common\drfmetadata.py,determine_actions,"self, request, view",26,50
+apps\common\drfmetadata.py,get_field_info,"self, field",52,82
+apps\common\drfmetadata.py,get_filters_fields,"self, request, view",84,90
+apps\common\drfmetadata.py,get_ordering_fields,"self, request, view",92,98
+apps\common\drfmetadata.py,determine_metadata,"self, request, view",100,111
+apps\common\filters.py,filter_queryset,"self, request, queryset, view",12,42
+apps\common\http.py,__init__,"self, redirect_to",10,12
+apps\common\local.py,_find,attr,8,9
+apps\common\permissions.py,has_permission,"self, request, view",17,19
+apps\common\permissions.py,has_permission,"self, request, view",25,27
+apps\common\permissions.py,has_permission,"self, request, view",31,33
+apps\common\permissions.py,has_permission,"self, request, view",37,39
+apps\common\permissions.py,has_permission,"self, request, view",43,45
+apps\common\permissions.py,has_permission,"self, request, view",51,55
+apps\common\permissions.py,has_permission,"self, request, view",61,65
+apps\common\permissions.py,has_permission,"self, request, view",69,74
+apps\common\permissions.py,has_object_permission,"self, request, view, obj",78,81
+apps\common\permissions.py,test_func,self,85,89
+apps\common\permissions.py,test_func,self,93,99
+apps\common\permissions.py,dispatch,"self, request, *args, **kwargs",101,112
+apps\common\permissions.py,test_func,self,116,118
+apps\common\permissions.py,has_permission,"self, request, view",122,127
+apps\common\permissions.py,get_permissions,self,133,134
+apps\common\permissions.py,test_func,self,136,141
+apps\common\permissions.py,has_permission,"self, request, view",145,146
+apps\common\permissions.py,has_permission,"self, request, view",150,151
+apps\common\permissions.py,has_permission,"self, request, view",155,159
+apps\common\permissions.py,has_object_permission,"self, request, view, obj",163,172
+apps\common\signals_handlers.py,__init__,self,20,22
+apps\common\signals_handlers.py,__gt__,"self, other",24,25
+apps\common\signals_handlers.py,__lt__,"self, other",27,28
+apps\common\signals_handlers.py,__eq__,"self, other",30,31
+apps\common\signals_handlers.py,on_request_finished_logging_db_query,"sender, **kwargs",34,51
+apps\common\signals_handlers.py,on_request_finished_release_local,"sender, **kwargs",55,57
+apps\common\struct.py,is_empty,self,6,7
+apps\common\struct.py,top,self,9,13
+apps\common\struct.py,bottom,self,15,19
+apps\common\struct.py,size,self,21,22
+apps\common\struct.py,push,"self, item",24,25
+apps\common\tasks.py,send_mail_async,"*args, **kwargs",10,34
+apps\common\tests.py,test_signer_len,,8,16
+apps\common\tree.py,__init__,"self, **kwargs",20,22
+apps\common\tree.py,root,cls,24,26
+apps\common\tree.py,get_parent,self,28,29
+apps\common\tree.py,get_parents,self,31,37
+apps\common\tree.py,add_child,"self, child",39,40
+apps\common\tree.py,__str__,self,42,43
+apps\common\tree.py,__gt__,"self, other",47,56
+apps\common\tree.py,__le__,"self, other",58,59
+apps\common\tree.py,__eq__,"self, other",61,62
+apps\common\tree.py,__init__,self,66,69
+apps\common\tree.py,add_node,"self, node, parent=None",71,82
+apps\common\tree.py,get_nodes,self,84,85
+apps\common\tree.py,get_node,"self, tid",87,88
+apps\common\validators.py,__call__,"self, attrs",15,24
+apps\common\fields\form.py,to_python,"self, value",22,36
+apps\common\fields\form.py,validate,"self, value",38,42
+apps\common\fields\form.py,has_changed,"self, initial, data",44,47
+apps\common\fields\model.py,json_decode,data,22,27
+apps\common\fields\model.py,json_encode,data,29,31
+apps\common\fields\model.py,from_db_value,"self, value, expression, connection, context",33,36
+apps\common\fields\model.py,to_python,"self, value",38,45
+apps\common\fields\model.py,get_prep_value,"self, value",47,50
+apps\common\fields\model.py,from_db_value,"self, value, expression, connection, context",56,60
+apps\common\fields\model.py,to_python,"self, value",62,66
+apps\common\fields\model.py,get_prep_value,"self, value",68,71
+apps\common\fields\model.py,from_db_value,"self, value, expression, connection, context",111,114
+apps\common\fields\model.py,get_prep_value,"self, value",116,119
+apps\common\fields\model.py,change_max_length,kwargs,127,134
+apps\common\fields\model.py,__init__,"self, *args, **kwargs",136,138
+apps\common\fields\model.py,deconstruct,self,140,146
+apps\common\fields\serializer.py,to_representation,"self, value",12,13
+apps\common\fields\serializer.py,to_representation,"self, value",17,18
+apps\common\fields\serializer.py,__init__,"self, *args, **kwargs",22,25
+apps\common\fields\serializer.py,to_representation,"self, value",28,33
+apps\common\fields\serializer.py,to_representation,"self, value",38,41
+apps\common\mixins\api.py,render_json_response,context,18,20
+apps\common\mixins\api.py,filter_queryset,"self, queryset",24,35
+apps\common\mixins\api.py,filter_queryset,"self, queryset",40,49
+apps\common\mixins\api.py,filter_queryset,"self, queryset",53,58
+apps\common\mixins\api.py,get_success_message,"self, cleaned_data",65,75
+apps\common\mixins\api.py,dispatch,"self, request, *args, **kwargs",77,86
+apps\common\mixins\models.py,delete,self,14,15
+apps\common\mixins\models.py,get_all,self,20,21
+apps\common\mixins\models.py,get_queryset,self,23,24
+apps\common\mixins\models.py,get_deleted,self,26,27
+apps\common\mixins\models.py,delete,self,39,42
+apps\common\mixins\serializers.py,to_internal_value,"self, data",18,37
+apps\common\mixins\serializers.py,to_internal_value,"self, data",48,103
+apps\common\mixins\views.py,get_date_range,self,15,34
+apps\common\mixins\views.py,get,"self, request, *args, **kwargs",36,38
+apps\common\parsers\csv.py,_universal_newlines,stream,24,30
+apps\common\parsers\csv.py,_gen_rows,"csv_data, charset='utf-8', **kwargs",32,38
+apps\common\parsers\csv.py,_get_fields_map,serializer,40,46
+apps\common\parsers\csv.py,_process_row,row,48,62
+apps\common\parsers\csv.py,_process_row_data,row_data,64,74
+apps\common\parsers\csv.py,parse,"self, stream, media_type=None, parser_context=None",76,105
+apps\common\renders\csv.py,_get_show_fields,"fields, template",22,27
+apps\common\renders\csv.py,_gen_table,"data, fields",29,35
+apps\common\renders\csv.py,set_response_disposition,"self, serializer, context",37,45
+apps\common\renders\csv.py,render,"self, data, media_type=None, renderer_context=None",47,80
+apps\common\templatetags\common_tags.py,join_queryset_attr,"queryset, attr, delimiter=', '",12,14
+apps\common\templatetags\common_tags.py,pagination_range,"total_page, current_num='1', display='5'",17,41
+apps\common\templatetags\common_tags.py,join_attr,"seq, attr=None, sep=None",44,50
+apps\common\templatetags\common_tags.py,int_to_str,value,53,55
+apps\common\templatetags\common_tags.py,ts_to_date,ts,58,66
+apps\common\templatetags\common_tags.py,to_html,s,69,71
+apps\common\templatetags\common_tags.py,time_util_with_seconds,"date_from, date_to",74,89
+apps\common\templatetags\common_tags.py,is_bool_field,field,92,97
+apps\common\templatetags\common_tags.py,is_image_field,field,100,105
+apps\common\templatetags\common_tags.py,to_dict,data,108,110
+apps\common\templatetags\common_tags.py,sort,data,113,115
+apps\common\templatetags\common_tags.py,subtract,"value, arg",118,120
+apps\common\templatetags\common_tags.py,state_show,state,123,130
+apps\common\utils\common.py,combine_seq,"s1, s2, callback=None",19,27
+apps\common\utils\common.py,get_logger,name=None,30,31
+apps\common\utils\common.py,timesince,"dt, since='', default='just now'",34,61
+apps\common\utils\common.py,setattr_bulk,"seq, key, value",64,68
+apps\common\utils\common.py,set_attr,obj,65,67
+apps\common\utils\common.py,set_or_append_attr_bulk,"seq, key, value",71,76
+apps\common\utils\common.py,capacity_convert,"size, expect='auto', rate='1000'",79,117
+apps\common\utils\common.py,sum_capacity,cap_list,120,126
+apps\common\utils\common.py,get_short_uuid_str,,129,130
+apps\common\utils\common.py,is_uuid,seq,133,140
+apps\common\utils\common.py,get_request_ip,request,143,150
+apps\common\utils\common.py,validate_ip,ip,153,159
+apps\common\utils\common.py,with_cache,func,162,174
+apps\common\utils\common.py,wrapper,"*args, **kwargs",166,173
+apps\common\utils\common.py,random_string,length,177,182
+apps\common\utils\common.py,timeit,func,188,197
+apps\common\utils\common.py,wrapper,"*args, **kwargs",189,196
+apps\common\utils\django.py,reverse,"view_name, urlconf=None, args=None, kwargs=None, current_app=None, external=False",12,20
+apps\common\utils\django.py,get_object_or_none,"model, **kwargs",23,28
+apps\common\utils\django.py,date_expired_default,,31,36
+apps\common\utils\django.py,get_command_storage_setting,,39,45
+apps\common\utils\django.py,get_replay_storage_setting,,48,54
+apps\common\utils\encode.py,__init__,"cls, *args, **kwargs",26,28
+apps\common\utils\encode.py,__call__,"cls, *args, **kwargs",30,35
+apps\common\utils\encode.py,__init__,"self, secret_key=None",40,41
+apps\common\utils\encode.py,sign,"self, value",43,45
+apps\common\utils\encode.py,unsign,"self, value",47,54
+apps\common\utils\encode.py,sign_t,"self, value, expires_in='3600'",56,58
+apps\common\utils\encode.py,unsign_t,"self, value",60,65
+apps\common\utils\encode.py,ssh_key_string_to_obj,"text, password=None",68,79
+apps\common\utils\encode.py,ssh_pubkey_gen,"private_key=None, username='jumpserver', hostname='localhost', password=None",82,96
+apps\common\utils\encode.py,ssh_key_gen,"length='2048', type='rsa', password=None, username='jumpserver', hostname=None",99,122
+apps\common\utils\encode.py,validate_ssh_private_key,"text, password=None",125,136
+apps\common\utils\encode.py,validate_ssh_public_key,text,139,147
+apps\common\utils\encode.py,content_md5,data,150,158
+apps\common\utils\encode.py,make_signature,"access_key_secret, date=None",161,172
+apps\common\utils\encode.py,encrypt_password,"password, salt=None",175,179
+apps\common\utils\encode.py,get_signer,,182,184
+apps\common\utils\http.py,to_unixtime,"time_string, format_string",14,17
+apps\common\utils\http.py,http_date,timeval=None,20,24
+apps\common\utils\http.py,http_to_unixtime,time_string,27,32
+apps\common\utils\http.py,iso8601_to_unixtime,time_string,35,37
+apps\common\utils\ipip\ipdb.py,get_ip_city,ip,10,18
+apps\jumpserver\conf.py,import_string,dotted_path,16,29
+apps\jumpserver\conf.py,__init__,"self, root_path=None, defaults=None",76,79
+apps\jumpserver\conf.py,from_envvar,"self, variable_name, silent=False",81,102
+apps\jumpserver\conf.py,from_pyfile,"self, filename, silent=False",104,131
+apps\jumpserver\conf.py,from_object,"self, obj",133,165
+apps\jumpserver\conf.py,from_json,"self, filename, silent=False",167,190
+apps\jumpserver\conf.py,from_yaml,"self, filename, silent=False",192,205
+apps\jumpserver\conf.py,from_mapping,"self, *mapping, **kwargs",207,228
+apps\jumpserver\conf.py,get_namespace,"self, namespace, lowercase=True, trim_namespace=True",230,269
+apps\jumpserver\conf.py,convert_type,"self, k, v",271,296
+apps\jumpserver\conf.py,__repr__,self,298,299
+apps\jumpserver\conf.py,__getitem__,"self, item",301,313
+apps\jumpserver\conf.py,__getattr__,"self, item",315,316
+apps\jumpserver\conf.py,load_from_object,config,386,393
+apps\jumpserver\conf.py,load_from_yml,config,396,403
+apps\jumpserver\conf.py,load_user_config,,406,421
+apps\jumpserver\context_processor.py,jumpserver_processor,request,8,22
+apps\jumpserver\error_views.py,handler404,"request, *args, **argv",7,12
+apps\jumpserver\error_views.py,handler500,"request, *args, **argv",15,20
+apps\jumpserver\middleware.py,__init__,"self, get_response",14,15
+apps\jumpserver\middleware.py,__call__,"self, request",17,24
+apps\jumpserver\middleware.py,__init__,"self, get_response",38,42
+apps\jumpserver\middleware.py,__call__,"self, request",44,50
+apps\jumpserver\middleware.py,__init__,"self, get_response",54,55
+apps\jumpserver\middleware.py,__call__,"self, request",57,64
+apps\jumpserver\swagger.py,get_tags,"self, operation_keys",9,12
+apps\jumpserver\swagger.py,get_swagger_view,version='v1',15,34
+apps\jumpserver\utils.py,set_current_request,request,8,9
+apps\jumpserver\utils.py,_find,attr,12,13
+apps\jumpserver\utils.py,get_current_request,,16,17
+apps\jumpserver\views.py,dispatch,"self, request, *args, **kwargs",35,44
+apps\jumpserver\views.py,get_user_count,,46,48
+apps\jumpserver\views.py,get_asset_count,,50,52
+apps\jumpserver\views.py,get_online_user_count,,54,56
+apps\jumpserver\views.py,get_online_session_count,,58,60
+apps\jumpserver\views.py,get_top5_user_a_week,self,62,63
+apps\jumpserver\views.py,get_week_login_user_count,self,65,66
+apps\jumpserver\views.py,get_week_login_asset_count,self,68,69
+apps\jumpserver\views.py,get_month_day_metrics,self,71,73
+apps\jumpserver\views.py,get_month_login_metrics,self,75,83
+apps\jumpserver\views.py,get_month_active_user_metrics,self,85,90
+apps\jumpserver\views.py,get_month_active_asset_metrics,self,92,97
+apps\jumpserver\views.py,get_month_active_user_total,self,99,100
+apps\jumpserver\views.py,get_month_inactive_user_total,self,102,106
+apps\jumpserver\views.py,get_month_active_asset_total,self,108,109
+apps\jumpserver\views.py,get_month_inactive_asset_total,self,111,115
+apps\jumpserver\views.py,get_user_disabled_total,,117,119
+apps\jumpserver\views.py,get_asset_disabled_total,,121,123
+apps\jumpserver\views.py,get_week_top10_asset,self,125,130
+apps\jumpserver\views.py,get_week_top10_user,self,132,138
+apps\jumpserver\views.py,get_last10_sessions,self,140,147
+apps\jumpserver\views.py,get_context_data,"self, **kwargs",149,193
+apps\jumpserver\views.py,get,"self, request",197,200
+apps\jumpserver\views.py,get,"self, request, lang",204,208
+apps\jumpserver\views.py,redirect_format_api,"request, *args, **kwargs",214,226
+apps\jumpserver\views.py,get,"self, request",232,233
+apps\ops\apps.py,ready,self,9,14
+apps\ops\forms.py,__init__,"self, *args, **kwargs",14,17
+apps\ops\inventory.py,convert_to_ansible,"self, asset, run_as_admin=False",18,49
+apps\ops\inventory.py,make_proxy_command,asset,51,71
+apps\ops\inventory.py,__init__,"self, assets, run_as_admin=False, run_as=None, become_info=None",80,103
+apps\ops\inventory.py,get_run_user_info,"self, host",105,119
+apps\ops\inventory.py,__init__,"self, assets, username, password=None, public_key=None, private_key=None",128,145
+apps\ops\inventory.py,get_run_user_info,self,147,152
+apps\ops\serializers.py,get_field_names,"self, declared_fields, info",30,33
+apps\ops\serializers.py,get_adhoc_short_id,obj,45,47
+apps\ops\serializers.py,get_task,obj,49,51
+apps\ops\serializers.py,get_stat,obj,53,58
+apps\ops\serializers.py,get_field_names,"self, declared_fields, info",61,64
+apps\ops\serializers.py,get_log_url,obj,82,84
+apps\ops\tasks.py,rerun_task,,22,23
+apps\ops\tasks.py,run_ansible_task,"tid, callback=None, **kwargs",26,40
+apps\ops\tasks.py,run_command_execution,"cid, **kwargs",43,52
+apps\ops\tasks.py,clean_tasks_adhoc_period,,55,65
+apps\ops\tasks.py,clean_celery_tasks_period,,68,90
+apps\ops\tasks.py,create_or_update_registered_periodic_tasks,,93,98
+apps\ops\tasks.py,hello,"name, callback=None",101,105
+apps\ops\tasks.py,hello123,,108,112
+apps\ops\tasks.py,hello_callback,result,115,118
+apps\ops\test_utils.py,setUp,self,13,23
+apps\ops\test_utils.py,test_run,self,26,27
+apps\ops\utils.py,get_task_by_id,task_id,10,11
+apps\ops\utils.py,update_or_create_ansible_task,"task_name, hosts, tasks, created_by, interval=None, crontab=None, is_periodic=False, callback=None, pattern='all', options=None, run_as_admin=False, run_as=None, become_info=None",14,56
+apps\ops\ansible\callback.py,__init__,"self, display=None",14,44
+apps\ops\ansible\callback.py,display,"self, msg",46,47
+apps\ops\ansible\callback.py,gather_result,"self, t, result",49,56
+apps\ops\ansible\callback.py,clean_result,"self, t, host, task_name, task_result",63,90
+apps\ops\ansible\callback.py,v2_runner_on_failed,"self, result, ignore_errors=False",92,102
+apps\ops\ansible\callback.py,v2_runner_on_ok,"self, result",105,110
+apps\ops\ansible\callback.py,v2_runner_on_skipped,"self, result",112,114
+apps\ops\ansible\callback.py,v2_runner_on_unreachable,"self, result",116,119
+apps\ops\ansible\callback.py,display_skipped_hosts,self,121,122
+apps\ops\ansible\callback.py,display_ok_hosts,self,124,125
+apps\ops\ansible\callback.py,display_failed_stderr,self,127,128
+apps\ops\ansible\callback.py,__init__,"self, display=None, **kwargs",143,146
+apps\ops\ansible\callback.py,gather_result,"self, t, res",148,150
+apps\ops\ansible\callback.py,v2_playbook_on_play_start,"self, play",152,156
+apps\ops\ansible\callback.py,v2_runner_on_unreachable,"self, result",158,167
+apps\ops\ansible\callback.py,v2_runner_on_failed,"self, result, ignore_errors=False",169,184
+apps\ops\ansible\callback.py,_print_task_banner,"self, task",186,187
+apps\ops\ansible\callback.py,gather_cmd,"self, t, res",189,200
+apps\ops\ansible\callback.py,__init__,"self, display=None",214,218
+apps\ops\ansible\callback.py,_new_play,"self, play",220,226
+apps\ops\ansible\callback.py,_new_task,"self, task",229,234
+apps\ops\ansible\callback.py,v2_playbook_on_no_hosts_matched,self,237,238
+apps\ops\ansible\callback.py,v2_playbook_on_no_hosts_remaining,self,240,241
+apps\ops\ansible\callback.py,v2_playbook_on_task_start,"self, task, is_conditional",243,244
+apps\ops\ansible\callback.py,v2_playbook_on_play_start,"self, play",246,247
+apps\ops\ansible\callback.py,v2_playbook_on_stats,"self, stats",249,261
+apps\ops\ansible\callback.py,gather_result,"self, res",264,269
+apps\ops\ansible\callback.py,v2_runner_on_ok,"self, res, **kwargs",271,275
+apps\ops\ansible\callback.py,v2_runner_on_failed,"self, res, **kwargs",277,278
+apps\ops\ansible\callback.py,v2_runner_on_unreachable,"self, res, **kwargs",280,281
+apps\ops\ansible\callback.py,v2_runner_on_skipped,"self, res, **kwargs",283,284
+apps\ops\ansible\callback.py,gather_item_result,"self, res",286,287
+apps\ops\ansible\callback.py,v2_runner_item_on_ok,"self, res",289,290
+apps\ops\ansible\callback.py,v2_runner_item_on_failed,"self, res",292,293
+apps\ops\ansible\callback.py,v2_runner_item_on_skipped,"self, res",295,296
+apps\ops\ansible\inventory.py,__init__,"self, host_data",14,39
+apps\ops\ansible\inventory.py,__set_required_variables,self,41,63
+apps\ops\ansible\inventory.py,__set_extra_variables,self,65,67
+apps\ops\ansible\inventory.py,__repr__,self,69,70
+apps\ops\ansible\inventory.py,__init__,"self, host_list=None, group_list=None",81,111
+apps\ops\ansible\inventory.py,get_groups,self,113,114
+apps\ops\ansible\inventory.py,get_group,"self, name",116,117
+apps\ops\ansible\inventory.py,get_or_create_group,"self, name",119,125
+apps\ops\ansible\inventory.py,parse_groups,self,127,132
+apps\ops\ansible\inventory.py,parse_hosts,self,134,147
+apps\ops\ansible\inventory.py,parse_sources,"self, cache=False",149,151
+apps\ops\ansible\inventory.py,get_matched_hosts,"self, pattern",153,154
+apps\ops\ansible\runner.py,get_default_options,,38,55
+apps\ops\ansible\runner.py,__init__,"self, inventory=None, options=None",70,86
+apps\ops\ansible\runner.py,__check,self,88,95
+apps\ops\ansible\runner.py,run,self,97,111
+apps\ops\ansible\runner.py,__init__,"self, inventory, options=None",125,130
+apps\ops\ansible\runner.py,get_result_callback,"self, file_obj=None",133,134
+apps\ops\ansible\runner.py,check_module_args,"module_name, module_args=''",136,140
+apps\ops\ansible\runner.py,check_pattern,"self, pattern",142,149
+apps\ops\ansible\runner.py,clean_args,"self, module, args",152,166
+apps\ops\ansible\runner.py,clean_tasks,"self, tasks",168,177
+apps\ops\ansible\runner.py,update_options,"self, options",179,183
+apps\ops\ansible\runner.py,run,"self, tasks, pattern, play_name='Ansible Ad-hoc', gather_facts='no'",185,226
+apps\ops\ansible\runner.py,execute,"self, cmd, pattern, module='shell'",233,240
+apps\ops\ansible\test_inventory.py,setUp,self,13,44
+apps\ops\ansible\test_inventory.py,test_hosts,self,46,49
+apps\ops\ansible\test_inventory.py,test_groups,self,51,54
+apps\ops\ansible\test_inventory.py,test_group_all,self,56,59
+apps\ops\ansible\test_runner.py,setUp,self,14,25
+apps\ops\ansible\test_runner.py,test_run,self,27,34
+apps\ops\ansible\test_runner.py,setUp,self,38,49
+apps\ops\ansible\test_runner.py,test_execute,self,51,54
+apps\ops\api\adhoc.py,get_queryset,self,25,31
+apps\ops\api\adhoc.py,retrieve,"self, request, *args, **kwargs",39,42
+apps\ops\api\adhoc.py,get_queryset,self,50,55
+apps\ops\api\adhoc.py,get_queryset,self,63,74
+apps\ops\api\celery.py,get,"self, request, *args, **kwargs",27,30
+apps\ops\api\celery.py,filter_line,"self, line",32,35
+apps\ops\api\celery.py,get_log_path,self,37,45
+apps\ops\api\celery.py,is_file_finish_write,self,47,48
+apps\ops\api\celery.py,get_no_file_message,"self, request",50,54
+apps\ops\api\celery.py,get_object,self,61,63
+apps\ops\api\command.py,get_queryset,self,18,20
+apps\ops\api\command.py,check_permissions,"self, request",23,26
+apps\ops\api\command.py,perform_create,"self, serializer",28,33
+apps\ops\celery\decorator.py,add_register_period_task,task,10,11
+apps\ops\celery\decorator.py,get_register_period_tasks,,18,21
+apps\ops\celery\decorator.py,add_after_app_shutdown_clean_task,name,24,29
+apps\ops\celery\decorator.py,get_after_app_shutdown_clean_tasks,,32,35
+apps\ops\celery\decorator.py,add_after_app_ready_task,name,38,43
+apps\ops\celery\decorator.py,get_after_app_ready_tasks,,46,49
+apps\ops\celery\decorator.py,register_as_period_task,"crontab=None, interval=None",52,83
+apps\ops\celery\decorator.py,decorate,func,62,82
+apps\ops\celery\decorator.py,wrapper,"*args, **kwargs",79,81
+apps\ops\celery\decorator.py,after_app_ready_start,func,86,96
+apps\ops\celery\decorator.py,decorate,"*args, **kwargs",93,95
+apps\ops\celery\decorator.py,after_app_shutdown_clean_periodic,func,99,109
+apps\ops\celery\decorator.py,decorate,"*args, **kwargs",106,108
+apps\ops\celery\logger.py,__init__,self,17,18
+apps\ops\celery\logger.py,get_consumers,"self, Consumer, channel",20,23
+apps\ops\celery\logger.py,handle_task_start,"self, task_id, message",26,27
+apps\ops\celery\logger.py,handle_task_end,"self, task_id, message",29,30
+apps\ops\celery\logger.py,handle_task_log,"self, task_id, msg, message",32,33
+apps\ops\celery\logger.py,process_task,"self, body, message",35,44
+apps\ops\celery\logger.py,__init__,self,50,51
+apps\ops\celery\logger.py,producer,self,53,55
+apps\ops\celery\logger.py,publish,"self, payload",57,60
+apps\ops\celery\logger.py,log,"self, task_id, msg",63,65
+apps\ops\celery\logger.py,read,self,67,68
+apps\ops\celery\logger.py,flush,self,70,71
+apps\ops\celery\logger.py,task_end,"self, task_id",73,75
+apps\ops\celery\logger.py,task_start,"self, task_id",77,79
+apps\ops\celery\logger.py,__init__,"self, *args, **kwargs",85,88
+apps\ops\celery\logger.py,get_current_task_id,,90,95
+apps\ops\celery\logger.py,on_task_start,"self, sender, task_id, **kwargs",97,98
+apps\ops\celery\logger.py,on_start_end,"self, sender, task_id, **kwargs",100,101
+apps\ops\celery\logger.py,after_task_publish,"self, sender, body, **kwargs",103,104
+apps\ops\celery\logger.py,emit,"self, record",106,114
+apps\ops\celery\logger.py,write_task_log,"self, task_id, msg",116,117
+apps\ops\celery\logger.py,handle_task_start,"self, task_id",119,120
+apps\ops\celery\logger.py,handle_task_end,"self, task_id",122,123
+apps\ops\celery\logger.py,__init__,self,127,129
+apps\ops\celery\logger.py,write_task_log,"self, task_id, record",131,133
+apps\ops\celery\logger.py,flush,self,135,136
+apps\ops\celery\logger.py,__init__,self,140,142
+apps\ops\celery\logger.py,emit,"self, record",144,150
+apps\ops\celery\logger.py,flush,self,152,153
+apps\ops\celery\logger.py,handle_task_start,"self, task_id",155,157
+apps\ops\celery\logger.py,handle_task_end,"self, task_id",159,160
+apps\ops\celery\signal_handler.py,on_app_ready,"sender=None, headers=None, **kwargs",21,30
+apps\ops\celery\signal_handler.py,after_app_shutdown_periodic_tasks,"sender=None, **kwargs",33,41
+apps\ops\celery\signal_handler.py,add_celery_logger_handler,"sender=None, logger=None, loglevel=None, format=None, **kwargs",44,52
+apps\ops\celery\utils.py,create_or_update_celery_periodic_tasks,tasks,12,78
+apps\ops\celery\utils.py,disable_celery_periodic_task,task_name,81,83
+apps\ops\celery\utils.py,delete_celery_periodic_task,task_name,86,88
+apps\ops\celery\utils.py,get_celery_task_log_path,task_id,91,96
+apps\ops\models\adhoc.py,short_id,self,49,51
+apps\ops\models\adhoc.py,latest_adhoc,self,53,57
+apps\ops\models\adhoc.py,latest_adhoc,"self, item",59,61
+apps\ops\models\adhoc.py,latest_history,self,63,68
+apps\ops\models\adhoc.py,get_latest_adhoc,self,70,74
+apps\ops\models\adhoc.py,history_summary,self,76,82
+apps\ops\models\adhoc.py,get_run_history,self,84,85
+apps\ops\models\adhoc.py,run,"self, record=True",87,92
+apps\ops\models\adhoc.py,save,"self, force_insert=False, force_update=False, using=None, update_fields=None",94,123
+apps\ops\models\adhoc.py,delete,"self, using=None, keep_parents=False",125,127
+apps\ops\models\adhoc.py,schedule,self,129,134
+apps\ops\models\adhoc.py,__str__,self,136,137
+apps\ops\models\adhoc.py,tasks,self,169,174
+apps\ops\models\adhoc.py,tasks,"self, item",176,181
+apps\ops\models\adhoc.py,inventory,self,183,198
+apps\ops\models\adhoc.py,become,self,200,205
+apps\ops\models\adhoc.py,run,"self, record=True",207,212
+apps\ops\models\adhoc.py,_run_and_record,self,214,242
+apps\ops\models\adhoc.py,_run_only,self,244,255
+apps\ops\models\adhoc.py,become,"self, item",257,268
+apps\ops\models\adhoc.py,options,self,270,276
+apps\ops\models\adhoc.py,options,"self, item",278,280
+apps\ops\models\adhoc.py,short_id,self,282,284
+apps\ops\models\adhoc.py,latest_history,self,286,291
+apps\ops\models\adhoc.py,save,"self, force_insert=False, force_update=False, using=None, update_fields=None",293,296
+apps\ops\models\adhoc.py,__str__,self,298,299
+apps\ops\models\adhoc.py,__eq__,"self, other",301,311
+apps\ops\models\adhoc.py,short_id,self,333,335
+apps\ops\models\adhoc.py,log_path,self,337,343
+apps\ops\models\adhoc.py,result,self,345,350
+apps\ops\models\adhoc.py,result,"self, item",352,354
+apps\ops\models\adhoc.py,summary,self,356,361
+apps\ops\models\adhoc.py,summary,"self, item",363,365
+apps\ops\models\adhoc.py,success_hosts,self,367,369
+apps\ops\models\adhoc.py,failed_hosts,self,371,373
+apps\ops\models\adhoc.py,__str__,self,375,376
+apps\ops\models\celery.py,__str__,self,28,29
+apps\ops\models\celery.py,is_finished,self,31,32
+apps\ops\models\celery.py,full_log_path,self,34,38
+apps\ops\models\command.py,__str__,self,29,30
+apps\ops\models\command.py,inventory,self,32,34
+apps\ops\models\command.py,result,self,36,41
+apps\ops\models\command.py,result,"self, item",43,45
+apps\ops\models\command.py,is_success,self,47,51
+apps\ops\models\command.py,get_hosts_names,self,53,54
+apps\ops\models\command.py,run,self,56,78
+apps\ops\views\adhoc.py,get_queryset,self,29,41
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",43,52
+apps\ops\views\adhoc.py,get_queryset,self,60,67
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",69,75
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",83,89
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",97,103
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",111,117
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",125,131
+apps\ops\views\adhoc.py,get_context_data,"self, **kwargs",139,145
+apps\ops\views\celery.py,get_context_data,"self, **kwargs",15,18
+apps\ops\views\command.py,_get_queryset,self,30,39
+apps\ops\views\command.py,get_queryset,self,41,43
+apps\ops\views\command.py,get_context_data,"self, **kwargs",45,54
+apps\ops\views\command.py,get_permissions,self,62,65
+apps\ops\views\command.py,get_user_system_users,self,67,72
+apps\ops\views\command.py,get_context_data,"self, **kwargs",74,83
+apps\ops\views\command.py,get_form,self,85,86
+apps\orgs\api.py,get_serializer_class,self,28,32
+apps\orgs\api.py,get_data_from_model,"self, model",34,39
+apps\orgs\api.py,destroy,"self, request, *args, **kwargs",41,56
+apps\orgs\apps.py,ready,self,7,8
+apps\orgs\context_processor.py,org_processor,request,8,14
+apps\orgs\middleware.py,__init__,"self, get_response",9,10
+apps\orgs\middleware.py,set_permed_org_if_need,request,12,23
+apps\orgs\middleware.py,__call__,"self, request",25,32
+apps\orgs\models.py,__str__,self,29,30
+apps\orgs\models.py,set_to_cache,self,32,35
+apps\orgs\models.py,expire_cache,self,37,38
+apps\orgs\models.py,get_instance_from_cache,"cls, oid",40,44
+apps\orgs\models.py,get_instance,"cls, id_or_name, default=False",46,67
+apps\orgs\models.py,get_org_users,"self, include_app=False",69,77
+apps\orgs\models.py,get_org_admins,self,79,82
+apps\orgs\models.py,can_admin_by,"self, user",84,89
+apps\orgs\models.py,is_real,self,91,92
+apps\orgs\models.py,get_user_admin_orgs,"cls, user",94,104
+apps\orgs\models.py,default,cls,106,108
+apps\orgs\models.py,root,cls,110,112
+apps\orgs\models.py,is_root,self,114,118
+apps\orgs\models.py,is_default,self,120,124
+apps\orgs\models.py,change_to,self,126,128
+apps\orgs\serializers.py,get_data_from_model,"obj, model",37,46
+apps\orgs\serializers.py,get_user_groups,"self, obj",48,49
+apps\orgs\serializers.py,get_assets,"self, obj",51,52
+apps\orgs\serializers.py,get_domains,"self, obj",54,55
+apps\orgs\serializers.py,get_admin_users,"self, obj",57,58
+apps\orgs\serializers.py,get_system_users,"self, obj",60,61
+apps\orgs\serializers.py,get_labels,"self, obj",63,64
+apps\orgs\serializers.py,get_perms,"self, obj",66,67
+apps\orgs\signals_handler.py,on_org_create_or_update,"sender, instance=None, created=False, **kwargs",14,26
+apps\orgs\signals_handler.py,on_org_user_changed,"sender, instance=None, **kwargs",29,43
+apps\orgs\signals_handler.py,on_org_admin_change,"sender, **kwargs",46,48
+apps\orgs\utils.py,get_org_from_request,request,9,16
+apps\orgs\utils.py,set_current_org,org,19,20
+apps\orgs\utils.py,set_to_default_org,,23,24
+apps\orgs\utils.py,set_to_root_org,,27,28
+apps\orgs\utils.py,_find,attr,31,32
+apps\orgs\utils.py,get_current_org,,35,40
+apps\orgs\utils.py,get_current_org_id,,43,45
+apps\orgs\utils.py,get_current_org_id_for_serializer,,48,52
+apps\orgs\views.py,get,"self, request, *args, **kwargs",14,25
+apps\orgs\views.py,get,"self, request, *args, **kwargs",29,38
+apps\orgs\mixins\api.py,dispatch,"self, request, *args, **kwargs",18,20
+apps\orgs\mixins\api.py,get_queryset,self,24,25
+apps\orgs\mixins\api.py,get_queryset,self,29,35
+apps\orgs\mixins\api.py,dispatch,"self, request, *args, **kwargs",45,47
+apps\orgs\mixins\api.py,get_serializer_context,self,49,52
+apps\orgs\mixins\api.py,get_queryset,self,54,56
+apps\orgs\mixins\forms.py,__init__,"self, *args, **kwargs",10,16
+apps\orgs\mixins\models.py,get_queryset,self,24,43
+apps\orgs\mixins\models.py,all,self,45,50
+apps\orgs\mixins\models.py,set_current_org,"self, org",52,56
+apps\orgs\mixins\models.py,save,"self, *args, **kwargs",66,69
+apps\orgs\mixins\models.py,org,self,71,75
+apps\orgs\mixins\models.py,org_name,self,77,79
+apps\orgs\mixins\models.py,fullname,"self, attr=None",81,93
+apps\orgs\mixins\models.py,validate_unique,"self, exclude=None",95,113
+apps\orgs\mixins\serializers.py,get_validators,self,28,37
+apps\orgs\mixins\serializers.py,get_field_names,"self, declared_fields, info",39,42
+apps\orgs\mixins\serializers.py,run_validation,"self, initial_data=None",54,56
+apps\perms\apps.py,ready,self,10,14
+apps\perms\mixins.py,filter_queryset,"self, queryset",16,20
+apps\perms\mixins.py,search_assets,"self, queryset",22,28
+apps\perms\mixins.py,sort_assets,"self, queryset",30,43
+apps\perms\mixins.py,filter_labels,"self, queryset",45,68
+apps\perms\mixins.py,filter_queryset,"self, queryset",76,79
+apps\perms\mixins.py,search_remote_apps,"self, queryset",81,88
+apps\perms\mixins.py,sort_remote_apps,"self, queryset",90,103
+apps\perms\mixins.py,change_org_if_need,"request, kwargs",108,113
+apps\perms\mixins.py,get,"self, request, *args, **kwargs",115,117
+apps\perms\signals_handler.py,on_transaction_commit,func,15,21
+apps\perms\signals_handler.py,inner,"*args, **kwargs",19,20
+apps\perms\signals_handler.py,on_permission_created,"sender, instance=None, created=False, **kwargs",24,27
+apps\perms\signals_handler.py,on_permission_update,"sender, **kwargs",30,32
+apps\perms\signals_handler.py,on_permission_delete,"sender, **kwargs",35,37
+apps\perms\signals_handler.py,on_permission_nodes_changed,"sender, instance=None, **kwargs",40,48
+apps\perms\signals_handler.py,on_permission_assets_changed,"sender, instance=None, **kwargs",51,59
+apps\perms\signals_handler.py,on_permission_system_users_changed,"sender, instance=None, **kwargs",62,72
+apps\perms\api\asset_permission.py,get_serializer_class,self,38,42
+apps\perms\api\asset_permission.py,filter_valid,"self, queryset",44,63
+apps\perms\api\asset_permission.py,filter_system_user,"self, queryset",65,77
+apps\perms\api\asset_permission.py,filter_node,"self, queryset",79,92
+apps\perms\api\asset_permission.py,filter_asset,"self, queryset",94,113
+apps\perms\api\asset_permission.py,filter_user,"self, queryset",115,134
+apps\perms\api\asset_permission.py,filter_user_group,"self, queryset",136,148
+apps\perms\api\asset_permission.py,filter_keyword,"self, queryset",150,155
+apps\perms\api\asset_permission.py,filter_queryset,"self, queryset",157,166
+apps\perms\api\asset_permission.py,get_queryset,self,168,170
+apps\perms\api\asset_permission.py,update,"self, request, *args, **kwargs",182,191
+apps\perms\api\asset_permission.py,update,"self, request, *args, **kwargs",199,208
+apps\perms\api\asset_permission.py,update,"self, request, *args, **kwargs",219,228
+apps\perms\api\asset_permission.py,update,"self, request, *args, **kwargs",236,245
+apps\perms\api\asset_permission.py,get_object,self,255,257
+apps\perms\api\asset_permission.py,get_queryset,self,259,264
+apps\perms\api\mixin.py,get_etag,"request, *args, **kwargs",27,37
+apps\perms\api\mixin.py,get_object,self,47,48
+apps\perms\api\mixin.py,_get_object,self,51,54
+apps\perms\api\mixin.py,get_object_id,self,56,60
+apps\perms\api\mixin.py,get_request_md5,self,62,68
+apps\perms\api\mixin.py,get_meta_cache_id,self,70,74
+apps\perms\api\mixin.py,get_response_cache_id,self,76,81
+apps\perms\api\mixin.py,get_response_from_cache,self,83,97
+apps\perms\api\mixin.py,expire_response_cache,self,99,103
+apps\perms\api\mixin.py,get_response_key,self,105,108
+apps\perms\api\mixin.py,set_response_to_cache,"self, response",110,113
+apps\perms\api\mixin.py,get,"self, request, *args, **kwargs",115,139
+apps\perms\api\mixin.py,get_ungrouped_node,ungroup_key,145,148
+apps\perms\api\mixin.py,get_empty_node,,150,153
+apps\perms\api\mixin.py,add_ungrouped_nodes,"self, node_map, node_keys",155,164
+apps\perms\api\mixin.py,get_serializer_queryset,"self, queryset",170,203
+apps\perms\api\mixin.py,get_serializer,"self, queryset_list, many=True",205,207
+apps\perms\api\mixin.py,filter_queryset_by_id,"self, assets_items",209,221
+apps\perms\api\mixin.py,search_queryset,"self, assets_items",223,232
+apps\perms\api\mixin.py,filter_queryset_by_label,"self, assets_items",234,244
+apps\perms\api\mixin.py,sort_queryset,"self, assets_items",246,255
+apps\perms\api\mixin.py,filter_queryset,"self, assets_items",257,262
+apps\perms\api\remote_app_permission.py,update,"self, request, *args, **kwargs",40,49
+apps\perms\api\remote_app_permission.py,update,"self, request, *args, **kwargs",57,66
+apps\perms\api\remote_app_permission.py,update,"self, request, *args, **kwargs",74,83
+apps\perms\api\remote_app_permission.py,update,"self, request, *args, **kwargs",91,100
+apps\perms\api\user_group_permission.py,get_object,self,24,27
+apps\perms\api\user_group_permission.py,get_object,self,31,34
+apps\perms\api\user_group_permission.py,get_object,self,38,41
+apps\perms\api\user_group_permission.py,get_object,self,48,51
+apps\perms\api\user_group_permission.py,get_object,self,55,58
+apps\perms\api\user_group_permission.py,get_object,self,65,68
+apps\perms\api\user_permission.py,get_object,self,45,51
+apps\perms\api\user_permission.py,get_queryset,self,53,57
+apps\perms\api\user_permission.py,get_permissions,self,59,62
+apps\perms\api\user_permission.py,get_object,self,72,79
+apps\perms\api\user_permission.py,get_node_key,self,81,90
+apps\perms\api\user_permission.py,get_queryset,self,92,110
+apps\perms\api\user_permission.py,get_permissions,self,112,115
+apps\perms\api\user_permission.py,get_object,self,127,133
+apps\perms\api\user_permission.py,get_nodes,"self, nodes_with_assets",135,149
+apps\perms\api\user_permission.py,get_serializer,"self, nodes_with_assets, many=True",151,153
+apps\perms\api\user_permission.py,get_queryset,self,155,159
+apps\perms\api\user_permission.py,get_permissions,self,161,164
+apps\perms\api\user_permission.py,get_serializer,"self, nodes_with_assets, many=True",171,177
+apps\perms\api\user_permission.py,get_object,self,192,198
+apps\perms\api\user_permission.py,get_maps,"self, nodes_items",200,228
+apps\perms\api\user_permission.py,get_serializer_queryset,"self, nodes_items",230,272
+apps\perms\api\user_permission.py,get_serializer,"self, nodes_items, many=True",274,276
+apps\perms\api\user_permission.py,get_queryset,self,278,287
+apps\perms\api\user_permission.py,get_permissions,self,289,292
+apps\perms\api\user_permission.py,get_serializer,"self, nodes_items, many=True",303,315
+apps\perms\api\user_permission.py,get,"self, request, *args, **kwargs",321,343
+apps\perms\api\user_permission.py,get_object,self,350,370
+apps\perms\api\user_permission.py,retrieve,"self, request, *args, **kwargs",376,379
+apps\perms\api\user_remote_app_permission.py,get_object,self,31,37
+apps\perms\api\user_remote_app_permission.py,get_queryset,self,39,43
+apps\perms\api\user_remote_app_permission.py,get_permissions,self,45,48
+apps\perms\api\user_remote_app_permission.py,get_object,self,55,61
+apps\perms\api\user_remote_app_permission.py,get_queryset,self,63,75
+apps\perms\api\user_remote_app_permission.py,get_permissions,self,77,80
+apps\perms\api\user_remote_app_permission.py,get,"self, request, *args, **kwargs",86,96
+apps\perms\api\user_remote_app_permission.py,get_queryset,self,105,113
+apps\perms\forms\asset_permission.py,__init__,"self, *args, **kwargs",18,23
+apps\perms\forms\asset_permission.py,to_python,"self, value",25,27
+apps\perms\forms\asset_permission.py,prepare_value,"self, value",29,33
+apps\perms\forms\asset_permission.py,__init__,"self, *args, **kwargs",39,54
+apps\perms\forms\asset_permission.py,clean_user_groups,self,86,93
+apps\perms\forms\asset_permission.py,clean_asset_groups,self,95,103
+apps\perms\forms\remote_app_permission.py,__init__,"self, *args, **kwargs",18,22
+apps\perms\forms\remote_app_permission.py,clean_user_groups,self,41,49
+apps\perms\migrations\0002_auto_20171228_0025_squashed_0009_auto_20180903_1132.py,migrate_node_permissions,"apps, schema_editor",16,35
+apps\perms\migrations\0002_auto_20171228_0025_squashed_0009_auto_20180903_1132.py,migrate_system_assets_relation,"apps, schema_editor",38,44
+apps\perms\migrations\0006_auto_20190628_1921.py,migrate_old_actions,"apps, schema_editor",7,27
+apps\perms\models\asset_permission.py,value_to_choices,"cls, value",49,53
+apps\perms\models\asset_permission.py,choices_to_value,"cls, value",55,70
+apps\perms\models\asset_permission.py,to_choices,"x, y",66,67
+apps\perms\models\asset_permission.py,choices,cls,72,74
+apps\perms\models\asset_permission.py,get_queryset_with_prefetch,cls,88,93
+apps\perms\models\asset_permission.py,get_all_assets,self,96,107
+apps\perms\models\asset_permission.py,__str__,self,121,122
+apps\perms\models\base.py,active,self,20,21
+apps\perms\models\base.py,valid,self,23,25
+apps\perms\models\base.py,valid,self,29,30
+apps\perms\models\base.py,__str__,self,50,51
+apps\perms\models\base.py,id_str,self,53,55
+apps\perms\models\base.py,is_expired,self,57,61
+apps\perms\models\base.py,is_valid,self,63,67
+apps\perms\models\base.py,get_all_users,self,69,75
+apps\perms\models\remote_app_permission.py,get_all_remote_apps,self,22,23
+apps\perms\serializers\asset_permission.py,__init__,"self, *args, **kwargs",19,21
+apps\perms\serializers\asset_permission.py,to_representation,"self, value",23,24
+apps\perms\serializers\asset_permission.py,to_internal_value,"self, data",26,29
+apps\perms\serializers\asset_permission.py,to_representation,"self, value",33,36
+apps\perms\serializers\user_permission.py,get_system_users_join,obj,52,55
+apps\perms\utils\asset_permission.py,__init__,self,34,62
+apps\perms\utils\asset_permission.py,node_util,self,64,68
+apps\perms\utils\asset_permission.py,key_sort,key,70,73
+apps\perms\utils\asset_permission.py,root_key,self,75,85
+apps\perms\utils\asset_permission.py,all_assets_nodes_keys,self,87,91
+apps\perms\utils\asset_permission.py,ungrouped_key,self,93,102
+apps\perms\utils\asset_permission.py,add_assets_without_system_users,"self, assets_ids",104,107
+apps\perms\utils\asset_permission.py,add_assets,"self, assets_ids_with_system_users",109,112
+apps\perms\utils\asset_permission.py,add_asset,"self, asset_id, system_users_ids=None",115,146
+apps\perms\utils\asset_permission.py,add_node,"self, node_key, system_users_ids=None",148,156
+apps\perms\utils\asset_permission.py,add_nodes,"self, nodes_keys_with_system_users_ids",159,169
+apps\perms\utils\asset_permission.py,get_assets,self,171,181
+apps\perms\utils\asset_permission.py,set_ungrouped_assets_nodes_if_need,self,183,194
+apps\perms\utils\asset_permission.py,get_nodes_with_assets,self,196,233
+apps\perms\utils\asset_permission.py,get_nodes,self,235,240
+apps\perms\utils\asset_permission.py,get_user_permissions,"user, include_group=True",243,249
+apps\perms\utils\asset_permission.py,get_user_group_permissions,user_group,252,254
+apps\perms\utils\asset_permission.py,get_asset_permissions,"asset, include_node=True",258,264
+apps\perms\utils\asset_permission.py,get_node_permissions,node,267,268
+apps\perms\utils\asset_permission.py,get_system_user_permissions,system_user,271,273
+apps\perms\utils\asset_permission.py,is_not_using_cache,"cls, cache_policy",286,288
+apps\perms\utils\asset_permission.py,is_using_cache,"cls, cache_policy",290,292
+apps\perms\utils\asset_permission.py,is_refresh_cache,"cls, cache_policy",294,296
+apps\perms\utils\asset_permission.py,_is_not_using_cache,self,298,299
+apps\perms\utils\asset_permission.py,_is_using_cache,self,301,302
+apps\perms\utils\asset_permission.py,_is_refresh_cache,self,304,305
+apps\perms\utils\asset_permission.py,get_cache_key,"self, resource",308,312
+apps\perms\utils\asset_permission.py,node_asset_key,self,315,317
+apps\perms\utils\asset_permission.py,node_key,self,319,321
+apps\perms\utils\asset_permission.py,asset_key,self,323,326
+apps\perms\utils\asset_permission.py,system_key,self,328,330
+apps\perms\utils\asset_permission.py,get_resource_from_cache,"self, resource",332,348
+apps\perms\utils\asset_permission.py,get_resource,"self, resource",350,361
+apps\perms\utils\asset_permission.py,get_resource_without_cache,"self, resource",363,365
+apps\perms\utils\asset_permission.py,get_nodes_with_assets,self,367,368
+apps\perms\utils\asset_permission.py,get_assets,self,370,371
+apps\perms\utils\asset_permission.py,get_nodes,self,373,374
+apps\perms\utils\asset_permission.py,get_system_users,self,376,377
+apps\perms\utils\asset_permission.py,get_meta_cache_key,self,379,384
+apps\perms\utils\asset_permission.py,cache_meta,self,386,392
+apps\perms\utils\asset_permission.py,update_cache,self,394,403
+apps\perms\utils\asset_permission.py,set_meta_to_cache,self,405,414
+apps\perms\utils\asset_permission.py,expire_cache_meta,self,416,419
+apps\perms\utils\asset_permission.py,expire_cache,self,421,430
+apps\perms\utils\asset_permission.py,expire_all_cache,cls,432,437
+apps\perms\utils\asset_permission.py,__init__,"self, obj, cache_policy='0'",453,468
+apps\perms\utils\asset_permission.py,change_org_if_need,,470,472
+apps\perms\utils\asset_permission.py,permissions,self,474,482
+apps\perms\utils\asset_permission.py,filter_permissions,"self, **filters",484,488
+apps\perms\utils\asset_permission.py,get_nodes_direct,self,490,524
+apps\perms\utils\asset_permission.py,get_nodes_without_cache,self,526,528
+apps\perms\utils\asset_permission.py,get_assets_direct,self,530,550
+apps\perms\utils\asset_permission.py,get_assets_without_cache,self,552,566
+apps\perms\utils\asset_permission.py,get_nodes_with_assets_without_cache,self,568,572
+apps\perms\utils\asset_permission.py,get_system_users_without_cache,self,574,579
+apps\perms\utils\asset_permission.py,is_obj_attr_has,"obj, val, attrs=('hostname', 'ip', 'comment')",582,592
+apps\perms\utils\asset_permission.py,sort_assets,"assets, order_by='hostname', reverse=False",595,600
+apps\perms\utils\asset_permission.py,parse_node_to_tree_node,node,610,630
+apps\perms\utils\asset_permission.py,parse_asset_to_tree_node,"node, asset, system_users",632,671
+apps\perms\utils\remote_app_permission.py,get_user_remote_app_permissions,"user, include_group=True",19,25
+apps\perms\utils\remote_app_permission.py,get_user_group_remote_app_permissions,user_group,28,30
+apps\perms\utils\remote_app_permission.py,__init__,"self, obj",40,42
+apps\perms\utils\remote_app_permission.py,change_org_if_need,,44,46
+apps\perms\utils\remote_app_permission.py,permissions,self,48,53
+apps\perms\utils\remote_app_permission.py,get_remote_apps,self,55,59
+apps\perms\utils\remote_app_permission.py,construct_remote_apps_tree_root,,62,73
+apps\perms\utils\remote_app_permission.py,parse_remote_app_to_tree_node,"parent, remote_app",76,87
+apps\perms\utils\stack.py,__init__,"self, debug=False",10,13
+apps\perms\utils\stack.py,sorted_by,node_dict,15,17
+apps\perms\utils\stack.py,is_children,"item1, item2",19,25
+apps\perms\utils\stack.py,debug,"self, msg",27,28
+apps\perms\utils\stack.py,get_nodes_family_and_system_users,"self, nodes_with_system_users",35,72
+apps\perms\utils\stack.py,push_to_stack_system_users,"self, item",74,86
+apps\perms\utils\stack.py,pop_from_stack_system_users,self,89,96
+apps\perms\utils\stack.py,push_to_stack_nodes_amount,"self, item",96,98
+apps\perms\utils\stack.py,pop_from_stack_nodes_amount,self,100,112
+apps\perms\utils\stack.py,compute_nodes_assets_amount,"self, nodes_with_assets",114,137
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",32,38
+apps\perms\views\asset_permission.py,get_form,"self, form_class=None",48,61
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",63,70
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",80,87
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",97,106
+apps\perms\views\asset_permission.py,get,"self, request, *args, **kwargs",125,127
+apps\perms\views\asset_permission.py,get_queryset,self,129,131
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",133,146
+apps\perms\views\asset_permission.py,get,"self, request, *args, **kwargs",158,160
+apps\perms\views\asset_permission.py,get_queryset,self,162,164
+apps\perms\views\asset_permission.py,get_context_data,"self, **kwargs",166,178
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",31,37
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",47,54
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",64,71
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",79,85
+apps\perms\views\remote_app_permission.py,get,"self, request, *args, **kwargs",97,100
+apps\perms\views\remote_app_permission.py,get_queryset,self,102,104
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",106,118
+apps\perms\views\remote_app_permission.py,get,"self, request, *args, **kwargs",130,134
+apps\perms\views\remote_app_permission.py,get_queryset,self,136,138
+apps\perms\views\remote_app_permission.py,get_context_data,"self, **kwargs",140,150
+apps\settings\api.py,post,"self, request",30,48
+apps\settings\api.py,get_ldap_util,serializer,56,76
+apps\settings\api.py,post,"self, request",78,93
+apps\settings\api.py,get_queryset,self,100,110
+apps\settings\api.py,filter_queryset,"self, queryset",112,124
+apps\settings\api.py,sort_queryset,"self, queryset",126,136
+apps\settings\api.py,list,"self, request, *args, **kwargs",138,144
+apps\settings\api.py,post,"self, request",150,163
+apps\settings\api.py,post,"self, request",169,188
+apps\settings\api.py,is_valid,storage_data,190,197
+apps\settings\api.py,post,"self, request",203,206
+apps\settings\api.py,post,"self, request",212,224
+apps\settings\api.py,is_valid,storage_data,226,235
+apps\settings\api.py,post,"self, request",241,244
+apps\settings\apps.py,ready,self,7,8
+apps\settings\forms.py,__init__,"self, *args, **kwargs",15,28
+apps\settings\forms.py,save,"self, category='default'",30,55
+apps\settings\models.py,__getattr__,"self, item",15,20
+apps\settings\models.py,get_queryset,self,24,25
+apps\settings\models.py,__str__,self,38,39
+apps\settings\models.py,__getattr__,"self, item",41,42
+apps\settings\models.py,cleaned_value,self,44,55
+apps\settings\models.py,cleaned_value,"self, item",57,65
+apps\settings\models.py,save_storage,"cls, name, data",67,87
+apps\settings\models.py,delete_storage,"cls, name, storage_name",89,103
+apps\settings\models.py,refresh_all_settings,cls,105,112
+apps\settings\models.py,refresh_setting,self,114,124
+apps\settings\signals_handler.py,refresh_settings_on_changed,"sender, instance=None, **kwargs",19,22
+apps\settings\signals_handler.py,monkey_patch_settings,"sender, **kwargs",25,75
+apps\settings\signals_handler.py,monkey_patch_getattr,"self, name",42,51
+apps\settings\signals_handler.py,monkey_patch_setattr,"self, name, value",53,60
+apps\settings\signals_handler.py,monkey_patch_delattr,"self, name",62,66
+apps\settings\signals_handler.py,auto_generate_terminal_host_key,"sender, **kwargs",78,87
+apps\settings\signals_handler.py,on_create_set_created_by,"sender, instance=None, **kwargs",90,96
+apps\settings\utils.py,__init__,"self, use_settings_config=True, server_uri=None, bind_dn=None, password=None, use_ssl=None, search_ougroup=None, search_filter=None, attr_map=None, auth_ldap=None",25,39
+apps\settings\utils.py,_load_config_from_settings,self,41,49
+apps\settings\utils.py,connection,self,51,58
+apps\settings\utils.py,get_user_by_username,username,60,67
+apps\settings\utils.py,_ldap_entry_to_user_item,"self, entry",69,80
+apps\settings\utils.py,search_user_items,self,82,97
+apps\settings\utils.py,search_filter_user_items,"self, username_list",99,103
+apps\settings\utils.py,save_user,"user, user_item",105,115
+apps\settings\utils.py,update_user,"self, user_item",117,128
+apps\settings\utils.py,create_user,"self, user_item",130,138
+apps\settings\utils.py,construct_user_email,user_item,140,145
+apps\settings\utils.py,create_or_update_users,"self, user_items, force_update=True",147,161
+apps\settings\utils.py,sync_users,"self, username_list",163,166
+apps\settings\views.py,get_context_data,"self, **kwargs",17,24
+apps\settings\views.py,post,"self, request",26,36
+apps\settings\views.py,get_context_data,"self, **kwargs",44,51
+apps\settings\views.py,post,"self, request",53,63
+apps\settings\views.py,get_context_data,"self, **kwargs",71,78
+apps\settings\views.py,post,"self, request",80,90
+apps\settings\views.py,get_context_data,"self, **kwargs",98,110
+apps\settings\views.py,post,"self, request",112,122
+apps\settings\views.py,get_context_data,"self, **kwargs",129,135
+apps\settings\views.py,get_context_data,"self, **kwargs",142,148
+apps\settings\views.py,get_context_data,"self, **kwargs",156,163
+apps\settings\views.py,post,"self, request",165,175
+apps\settings\views.py,get_context_data,"self, **kwargs",183,190
+apps\settings\views.py,post,"self, request",192,202
+apps\terminal\apps.py,ready,self,9,11
+apps\terminal\forms.py,get_all_command_storage,,10,14
+apps\terminal\forms.py,get_all_replay_storage,,17,21
+apps\terminal\models.py,is_alive,self,35,38
+apps\terminal\models.py,is_alive,"self, value",40,43
+apps\terminal\models.py,is_active,self,45,49
+apps\terminal\models.py,is_active,"self, active",51,55
+apps\terminal\models.py,get_command_storage_setting,self,57,63
+apps\terminal\models.py,get_replay_storage_setting,self,65,71
+apps\terminal\models.py,config,self,73,85
+apps\terminal\models.py,service_account,self,87,89
+apps\terminal\models.py,create_app_user,self,91,98
+apps\terminal\models.py,delete,"self, using=None, keep_parents=False",100,106
+apps\terminal\models.py,__str__,self,108,116
+apps\terminal\models.py,__str__,self,138,139
+apps\terminal\models.py,get_rel_replay_path,"self, version='2'",172,182
+apps\terminal\models.py,get_local_path,"self, version='2'",184,190
+apps\terminal\models.py,_date_start_first_has_replay_rdp_session,self,192,203
+apps\terminal\models.py,can_replay,self,205,210
+apps\terminal\models.py,save_to_storage,"self, f",212,218
+apps\terminal\models.py,set_sessions_active,"cls, sessions_id",220,223
+apps\terminal\models.py,get_active_sessions,cls,225,227
+apps\terminal\models.py,is_active,self,229,233
+apps\terminal\models.py,command_amount,self,235,238
+apps\terminal\models.py,login_from_display,self,240,242
+apps\terminal\models.py,__str__,self,248,249
+apps\terminal\tasks.py,delete_terminal_status_period,,24,30
+apps\terminal\tasks.py,clean_orphan_session,,33,44
+apps\terminal\tasks.py,clean_expired_session_period,,47,69
+apps\terminal\utils.py,get_session_asset_list,,11,12
+apps\terminal\utils.py,get_session_user_list,,15,16
+apps\terminal\utils.py,get_session_system_user_list,,19,20
+apps\terminal\utils.py,get_user_list_from_cache,,23,24
+apps\terminal\utils.py,get_asset_list_from_cache,,27,28
+apps\terminal\utils.py,get_system_user_list_from_cache,,31,32
+apps\terminal\api\command.py,get_queryset,self,33,42
+apps\terminal\api\command.py,filter_queryset,"self, queryset",44,45
+apps\terminal\api\command.py,get_filter_fields,self,47,50
+apps\terminal\api\command.py,get_date_range,self,52,60
+apps\terminal\api\command.py,create,"self, request, *args, **kwargs",79,90
+apps\terminal\api\command.py,list,"self, request, *args, **kwargs",94,108
+apps\terminal\api\session.py,filter_queryset,"self, queryset",41,46
+apps\terminal\api\session.py,filter_backends,self,48,52
+apps\terminal\api\session.py,perform_create,"self, serializer",54,62
+apps\terminal\api\session.py,create,"self, request, *args, **kwargs",70,87
+apps\terminal\api\session.py,retrieve,"self, request, *args, **kwargs",89,127
+apps\terminal\api\task.py,post,"self, request, *args, **kwargs",27,37
+apps\terminal\api\terminal.py,create,"self, request, *args, **kwargs",31,57
+apps\terminal\api\terminal.py,get_permissions,self,59,62
+apps\terminal\api\terminal.py,get,"self, request, *args, **kwargs",69,92
+apps\terminal\api\terminal.py,create,"self, request, *args, **kwargs",102,107
+apps\terminal\api\terminal.py,handle_status,"self, request",109,110
+apps\terminal\api\terminal.py,handle_sessions,self,112,114
+apps\terminal\api\terminal.py,get_queryset,self,116,121
+apps\terminal\api\terminal.py,perform_create,"self, serializer",123,125
+apps\terminal\api\terminal.py,get_permissions,self,127,130
+apps\terminal\api\terminal.py,get,"self, request",136,140
+apps\terminal\api_v2\terminal.py,create,"self, request, *args, **kwargs",27,36
+apps\terminal\backends\__init__.py,get_command_storage,,12,16
+apps\terminal\backends\__init__.py,get_terminal_command_storages,,19,33
+apps\terminal\backends\__init__.py,get_multi_command_storage,,36,40
+apps\terminal\backends\command\base.py,save,"self, command",8,10
+apps\terminal\backends\command\base.py,bulk_save,"self, commands",12,14
+apps\terminal\backends\command\base.py,filter,"self, date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",16,20
+apps\terminal\backends\command\base.py,count,"self, date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",22,26
+apps\terminal\backends\command\db.py,__init__,"self, params",13,15
+apps\terminal\backends\command\db.py,save,"self, command",17,26
+apps\terminal\backends\command\db.py,bulk_save,"self, commands",29,58
+apps\terminal\backends\command\db.py,make_filter_kwargs,"date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",60,92
+apps\terminal\backends\command\db.py,filter,"self, date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",94,103
+apps\terminal\backends\command\db.py,count,"self, date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",105,114
+apps\terminal\backends\command\es.py,__init__,"self, params",10,11
+apps\terminal\backends\command\es.py,filter,"self, date_from=None, date_to=None, user=None, asset=None, system_user=None, input=None, session=None",13,21
+apps\terminal\backends\command\models.py,from_dict,"cls, d",23,28
+apps\terminal\backends\command\models.py,from_multi_dict,"cls, l",30,36
+apps\terminal\backends\command\models.py,to_dict,self,38,42
+apps\terminal\backends\command\models.py,__str__,self,44,45
+apps\terminal\backends\command\multi.py,__init__,"self, storage_list",8,9
+apps\terminal\backends\command\multi.py,filter,"self, **kwargs",11,20
+apps\terminal\backends\command\multi.py,count,"self, **kwargs",22,26
+apps\terminal\backends\command\multi.py,save,"self, command",28,29
+apps\terminal\backends\command\multi.py,bulk_save,"self, commands",31,32
+apps\terminal\serializers\v1.py,get_session_online,obj,23,25
+apps\terminal\serializers_v2\terminal.py,is_valid,"self, raise_exception=False",27,40
+apps\terminal\serializers_v2\terminal.py,save,"self, **kwargs",42,47
+apps\terminal\serializers_v2\terminal.py,create,"self, validated_data",49,56
+apps\terminal\templatetags\terminal_tags.py,get_session_command_amount,session_id,10,13
+apps\terminal\views\command.py,get_context_data,"self, **kwargs",18,27
+apps\terminal\views\session.py,get_context_data,"self, **kwargs",30,37
+apps\terminal\views\session.py,get_context_data,"self, **kwargs",41,48
+apps\terminal\views\session.py,get_context_data,"self, **kwargs",52,59
+apps\terminal\views\session.py,get,"self, request, *args, **kwargs",68,70
+apps\terminal\views\session.py,get_queryset,self,72,74
+apps\terminal\views\session.py,get_context_data,"self, **kwargs",76,82
+apps\terminal\views\terminal.py,get_context_data,"self, **kwargs",29,36
+apps\terminal\views\terminal.py,get_context_data,"self, **kwargs",46,49
+apps\terminal\views\terminal.py,get_context_data,"self, **kwargs",58,64
+apps\terminal\views\terminal.py,form_valid,"self, form",80,90
+apps\terminal\views\terminal.py,form_invalid,"self, form",92,97
+apps\terminal\views\terminal.py,get_context_data,"self, **kwargs",108,127
+apps\terminal\views\terminal.py,get,"self, request, *args, **kwargs",131,133
+apps\terminal\views\terminal.py,get,"self, request, *args, **kwargs",137,138
+apps\users\apps.py,ready,self,9,11
+apps\users\forms.py,__init__,"self, *args, **kwargs",57,80
+apps\users\forms.py,clean_public_key,self,82,92
+apps\users\forms.py,clean_password,self,94,106
+apps\users\forms.py,save,"self, commit=True",108,121
+apps\users\forms.py,__init__,"self, *args, **kwargs",206,208
+apps\users\forms.py,clean_old_password,self,210,214
+apps\users\forms.py,clean_confirm_password,self,216,222
+apps\users\forms.py,save,self,224,227
+apps\users\forms.py,__init__,"self, *args, **kwargs",238,243
+apps\users\forms.py,clean_public_key,self,245,253
+apps\users\forms.py,save,self,255,260
+apps\users\forms.py,save,"self, commit=True",291,306
+apps\users\forms.py,user_limit_to,,309,310
+apps\users\forms.py,__init__,"self, **kwargs",327,338
+apps\users\forms.py,save,"self, commit=True",340,344
+apps\users\signals_handler.py,on_user_create,"sender, user=None, **kwargs",24,30
+apps\users\tasks.py,check_password_expired,,18,28
+apps\users\tasks.py,check_password_expired_periodic,,31,42
+apps\users\tasks.py,check_user_expired,,45,53
+apps\users\tasks.py,check_user_expired_periodic,,56,67
+apps\users\utils.py,construct_user_created_email_body,user,27,58
+apps\users\utils.py,send_user_created_mail,user,61,84
+apps\users\utils.py,send_reset_password_mail,user,87,117
+apps\users\utils.py,send_password_expiration_reminder_mail,user,120,155
+apps\users\utils.py,send_user_expiration_reminder_mail,user,158,176
+apps\users\utils.py,send_reset_ssh_key_mail,user,179,198
+apps\users\utils.py,check_user_valid,**kwargs,201,230
+apps\users\utils.py,get_user_or_tmp_user,request,233,241
+apps\users\utils.py,get_tmp_user_from_cache,request,244,248
+apps\users\utils.py,set_tmp_user_to_cache,"request, user",251,252
+apps\users\utils.py,redirect_user_first_login_or_index,"request, redirect_field_name",255,260
+apps\users\utils.py,generate_otp_uri,"request, issuer='Jumpserver'",263,271
+apps\users\utils.py,check_otp_code,"otp_secret_key, otp_code",274,279
+apps\users\utils.py,get_password_check_rules,,282,290
+apps\users\utils.py,check_password_rules,password,293,306
+apps\users\utils.py,increase_login_failed_count,"username, ip",314,320
+apps\users\utils.py,get_login_failed_count,"username, ip",323,326
+apps\users\utils.py,clean_failed_count,"username, ip",329,333
+apps\users\utils.py,is_block_login,"username, ip",336,346
+apps\users\utils.py,is_need_unblock,key_block,349,352
+apps\users\utils.py,construct_user_email,"username, email",355,361
+apps\users\api\group.py,get_serializer_class,self,29,33
+apps\users\api\user.py,send_created_signal,"self, users",44,48
+apps\users\api\user.py,perform_create,"self, serializer",50,56
+apps\users\api\user.py,get_queryset,self,58,60
+apps\users\api\user.py,get_permissions,self,62,65
+apps\users\api\user.py,_deny_permission,"self, instance",67,74
+apps\users\api\user.py,_bulk_deny_permission,"self, instances",76,81
+apps\users\api\user.py,allow_bulk_destroy,"self, qs, filtered",83,86
+apps\users\api\user.py,perform_bulk_update,"self, serializer",88,95
+apps\users\api\user.py,perform_update,"self, serializer",103,106
+apps\users\api\user.py,perform_update,"self, serializer",120,127
+apps\users\api\user.py,perform_update,"self, serializer",135,140
+apps\users\api\user.py,perform_update,"self, serializer",149,152
+apps\users\api\user.py,perform_update,"self, serializer",162,168
+apps\users\api\user.py,get_object,self,175,176
+apps\users\api\user.py,retrieve,"self, request, *args, **kwargs",178,181
+apps\users\api\user.py,retrieve,"self, request, *args, **kwargs",188,197
+apps\users\migrations\0001_initial.py,add_default_group,"apps, schema_editor",15,19
+apps\users\migrations\0001_initial.py,add_default_admin,"apps, schema_editor",23,33
+apps\users\migrations\0002_auto_20171225_1157_squashed_0019_auto_20190304_1459.py,remove_deleted_group,"apps, schema_editor",14,17
+apps\users\migrations\0010_auto_20180606_1505.py,remove_deleted_group,"apps, schema_editor",9,12
+apps\users\models\group.py,__str__,self,20,21
+apps\users\models\group.py,initial,cls,28,36
+apps\users\models\group.py,generate_fake,"cls, count='100'",38,53
+apps\users\models\user.py,password_raw,self,31,33
+apps\users\models\user.py,password_raw,"self, password_raw_",40,42
+apps\users\models\user.py,set_password,"self, raw_password",44,52
+apps\users\models\user.py,can_update_password,self,54,55
+apps\users\models\user.py,can_update_ssh_key,self,57,58
+apps\users\models\user.py,can_use_ssh_key_login,self,60,61
+apps\users\models\user.py,check_otp,"self, code",63,65
+apps\users\models\user.py,is_public_key_valid,self,67,74
+apps\users\models\user.py,public_key_obj,self,76,88
+apps\users\models\user.py,__getattr__,"self, item",79,80
+apps\users\models\user.py,reset_password,"self, new_password",90,92
+apps\users\models\user.py,date_password_expired,self,94,99
+apps\users\models\user.py,password_expired_remain_days,self,101,104
+apps\users\models\user.py,password_has_expired,self,106,110
+apps\users\models\user.py,password_will_expired,self,112,116
+apps\users\models\user.py,role_display,self,133,135
+apps\users\models\user.py,is_superuser,self,137,142
+apps\users\models\user.py,is_superuser,"self, value",144,149
+apps\users\models\user.py,admin_orgs,self,151,154
+apps\users\models\user.py,is_org_admin,self,156,161
+apps\users\models\user.py,is_auditor,self,163,165
+apps\users\models\user.py,is_common_user,self,167,175
+apps\users\models\user.py,is_app,self,177,179
+apps\users\models\user.py,is_staff,self,181,186
+apps\users\models\user.py,is_staff,"self, value",188,190
+apps\users\models\user.py,create_app_user,"cls, name, comment",192,200
+apps\users\models\user.py,private_token,self,208,215
+apps\users\models\user.py,create_private_token,self,217,220
+apps\users\models\user.py,refresh_private_token,self,222,224
+apps\users\models\user.py,create_bearer_token,"self, request=None",226,241
+apps\users\models\user.py,refresh_bearer_token,"self, token",243,244
+apps\users\models\user.py,create_access_key,self,246,248
+apps\users\models\user.py,access_key,self,250,252
+apps\users\models\user.py,generate_reset_token,self,254,258
+apps\users\models\user.py,validate_reset_password_token,"cls, token",260,271
+apps\users\models\user.py,set_cache,"self, token",273,275
+apps\users\models\user.py,expired_reset_password_token,"cls, token",277,280
+apps\users\models\user.py,otp_enabled,self,292,294
+apps\users\models\user.py,otp_force_enabled,self,296,300
+apps\users\models\user.py,enable_otp,self,302,304
+apps\users\models\user.py,force_enable_otp,self,306,307
+apps\users\models\user.py,disable_otp,self,309,311
+apps\users\models\user.py,__str__,self,384,385
+apps\users\models\user.py,get_absolute_url,self,387,388
+apps\users\models\user.py,groups_display,self,390,392
+apps\users\models\user.py,source_display,self,394,396
+apps\users\models\user.py,is_expired,self,398,403
+apps\users\models\user.py,expired_remain_days,self,405,408
+apps\users\models\user.py,will_expired,self,410,415
+apps\users\models\user.py,is_valid,self,417,421
+apps\users\models\user.py,is_local,self,423,425
+apps\users\models\user.py,save,"self, *args, **kwargs",427,433
+apps\users\models\user.py,is_member_of,"self, user_group",435,438
+apps\users\models\user.py,avatar_url,self,440,448
+apps\users\models\user.py,delete,"self, using=None, keep_parents=False",450,453
+apps\users\models\user.py,initial,cls,460,471
+apps\users\models\user.py,generate_fake,"cls, count='100'",473,496
+apps\users\models\utils.py,init_model,,9,12
+apps\users\models\utils.py,generate_fake,,15,18
+apps\users\serializers\v1.py,validate_role,"self, value",51,57
+apps\users\serializers\v1.py,validate_password,"self, password",59,69
+apps\users\serializers\v1.py,change_password_to_raw,validated_data,71,76
+apps\users\serializers\v1.py,create,"self, validated_data",78,80
+apps\users\serializers\v1.py,update,"self, instance, validated_data",82,84
+apps\users\serializers\v1.py,validate_public_key,value,92,96
+apps\users\serializers_v2\user.py,get_username,self,20,21
+apps\users\serializers_v2\user.py,get_email,self,23,25
+apps\users\serializers_v2\user.py,validate_name,"self, name",27,37
+apps\users\serializers_v2\user.py,save,"self, **kwargs",39,43
+apps\users\serializers_v2\user.py,create,"self, validated_data",45,48
+apps\users\views\group.py,get_context_data,"self, **kwargs",26,32
+apps\users\views\group.py,get_context_data,"self, **kwargs",43,50
+apps\users\views\group.py,get_context_data,"self, **kwargs",61,69
+apps\users\views\group.py,get_context_data,"self, **kwargs",78,86
+apps\users\views\group.py,get_context_data,"self, **kwargs",96,102
+apps\users\views\login.py,post,"self, request",39,51
+apps\users\views\login.py,get_context_data,"self, **kwargs",57,65
+apps\users\views\login.py,get_context_data,"self, **kwargs",71,79
+apps\users\views\login.py,get,"self, request, *args, **kwargs",85,93
+apps\users\views\login.py,post,"self, request, *args, **kwargs",95,119
+apps\users\views\login.py,dispatch,"self, request, *args, **kwargs",133,136
+apps\users\views\login.py,done,"self, form_list, **kwargs",138,150
+apps\users\views\login.py,get_context_data,"self, **kwargs",152,155
+apps\users\views\login.py,get_form_initial,"self, step",157,167
+apps\users\views\login.py,get_form,"self, step=None, data=None, files=None",169,182
+apps\users\views\user.py,get_context_data,"self, **kwargs",57,63
+apps\users\views\user.py,get_context_data,"self, **kwargs",74,82
+apps\users\views\user.py,form_valid,"self, form",84,91
+apps\users\views\user.py,get_form_kwargs,self,93,97
+apps\users\views\user.py,_deny_permission,self,109,111
+apps\users\views\user.py,get,"self, request, *args, **kwargs",113,116
+apps\users\views\user.py,get_context_data,"self, **kwargs",118,126
+apps\users\views\user.py,get_form_kwargs,self,128,132
+apps\users\views\user.py,get,"self, request, *args, **kwargs",145,154
+apps\users\views\user.py,post,"self, request, *args, **kwargs",156,163
+apps\users\views\user.py,get_context_data,"self, **kwargs",165,173
+apps\users\views\user.py,get_context_data,"self, **kwargs",183,194
+apps\users\views\user.py,get_queryset,self,196,200
+apps\users\views\user.py,get_context_data,"self, **kwargs",208,214
+apps\users\views\user.py,get_context_data,"self, **kwargs",221,228
+apps\users\views\user.py,get_object,"self, queryset=None",238,239
+apps\users\views\user.py,get_context_data,"self, **kwargs",241,247
+apps\users\views\user.py,get_object,"self, queryset=None",257,258
+apps\users\views\user.py,get_context_data,"self, **kwargs",260,268
+apps\users\views\user.py,get_success_url,self,270,272
+apps\users\views\user.py,form_valid,"self, form",274,283
+apps\users\views\user.py,get_object,"self, queryset=None",293,294
+apps\users\views\user.py,get_context_data,"self, **kwargs",296,302
+apps\users\views\user.py,get,"self, request, *args, **kwargs",308,315
+apps\users\views\user.py,get_form,"self, form_class=None",322,326
+apps\users\views\user.py,get_context_data,"self, **kwargs",328,334
+apps\users\views\user.py,form_valid,"self, form",336,343
+apps\users\views\user.py,get_success_url,self,345,346
+apps\users\views\user.py,get_context_data,"self, **kwargs",352,358
+apps\users\views\user.py,get_context_data,"self, **kwargs",366,375
+apps\users\views\user.py,form_valid,"self, form",377,387
+apps\users\views\user.py,save_otp,"self, otp_secret_key",389,393
+apps\users\views\user.py,form_valid,"self, form",401,412
+apps\users\views\user.py,get_context_data,"self, **kwargs",425,435
+apps\users\views\user.py,get_title_describe,self,437,447
+utils\clean_duplicate_user_groups.py,clean_group,interactive=True,23,72
+utils\reupload_guacamole_replays.py,find_replays,,27,42
+utils\reupload_guacamole_replays.py,upload_to_local,session,45,58
+utils\sync_node.py,sync_node,"src, target, cut=False",21,43
+utils\create_assets_user\bulk_create_user.py,__init__,"self, username, password, domain",14,17
+utils\create_assets_user\bulk_create_user.py,auth,self,19,30
+utils\create_assets_user\bulk_create_user.py,get_user_detail,"self, name, url",32,42
+utils\create_assets_user\bulk_create_user.py,get_system_user_detail,"self, name",44,46
+utils\create_assets_user\bulk_create_user.py,create_system_user,"self, info",48,58
+utils\create_assets_user\bulk_create_user.py,set_system_user_auth,"self, system_user, info",60,71
+utils\create_assets_user\bulk_create_user.py,get_admin_user_detail,"self, name",73,75
+utils\create_assets_user\bulk_create_user.py,create_admin_user,"self, info",77,97
+utils\create_assets_user\bulk_create_user.py,set_admin_user_auth,"self, admin_user, info",89,100
+utils\create_assets_user\bulk_create_user.py,create_system_users,self,102,127
+utils\create_assets_user\bulk_create_user.py,create_admin_users,self,126,144
+utils\create_assets_user\bulk_create_user.py,main,,147,153

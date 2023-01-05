@@ -1,0 +1,80 @@
+transformers,file,method,params,startlineno,endlineno,type,lineno
+transformers,pytorch_pretrained_bert\tokenization_gpt2.py,bpe,"self, token",149,188,assignment,186
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_iterator,"self, split, *args, **kwargs",587,601,assignment,593
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_iterator,"self, split, *args, **kwargs",587,601,assignment,599
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_lm_corpus,"datadir, dataset",604,633,assignment,619
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_lm_corpus,"datadir, dataset",604,633,assignment,622
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_lm_corpus,"datadir, dataset",604,633,assignment,625
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,get_lm_corpus,"datadir, dataset",604,633,assignment,626
+transformers,pytorch_pretrained_bert\tokenization_openai.py,bpe,"self, token",163,204,assignment,200
+transformers,pytorch_pretrained_bert\tokenization_openai.py,bpe,"self, token",163,204,assignment,202
+transformers,examples\extract_features.py,main,,191,293,assignment,285
+transformers,examples\extract_features.py,main,,191,293,assignment,292
+transformers,examples\run_openai_gpt.py,load_rocstories_dataset,dataset_path,47,55,assignment,50
+transformers,examples\extract_features.py,convert_examples_to_features,"examples, seq_length, tokenizer",59,147,reference,124
+transformers,examples\extract_features.py,convert_examples_to_features,"examples, seq_length, tokenizer",59,147,reference,128
+transformers,examples\extract_features.py,convert_examples_to_features,"examples, seq_length, tokenizer",59,147,reference,136
+transformers,examples\extract_features.py,convert_examples_to_features,"examples, seq_length, tokenizer",59,147,reference,145
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,243
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,253
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,254
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,254
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,255
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,255
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,257
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,258
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,259
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,267
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,268
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,270
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,274
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,275
+transformers,examples\run_classifier.py,convert_examples_to_features,"examples, label_list, max_seq_length, tokenizer",199,278,reference,276
+transformers,examples\run_lm_finetuning.py,convert_example_to_features,"example, max_seq_length, tokenizer",309,400,reference,374
+transformers,examples\run_lm_finetuning.py,convert_example_to_features,"example, max_seq_length, tokenizer",309,400,reference,379
+transformers,examples\run_lm_finetuning.py,convert_example_to_features,"example, max_seq_length, tokenizer",309,400,reference,389
+transformers,examples\run_lm_finetuning.py,convert_example_to_features,"example, max_seq_length, tokenizer",309,400,reference,396
+transformers,examples\run_squad.py,read_squad_examples,"input_file, is_training, version_2_with_negative",125,200,reference,196
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,294
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,298
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,309
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,317
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,335
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,341
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,342
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,356
+transformers,examples\run_squad.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, doc_stride, max_query_length, is_training",203,363,reference,358
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,181
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,182
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,182
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,183
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,183
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,185
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,186
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,187
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,189
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,189
+transformers,examples\run_swag.py,convert_examples_to_features,"examples, tokenizer, max_seq_length, is_training",136,212,reference,189
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,forward,"self, input_ids, position_ids=None, token_type_ids=None, past=None",524,552,reference,547
+transformers,pytorch_pretrained_bert\modeling_transfo_xl.py,__init__,"self, vocab_size_or_config_json_file='267735', cutoffs=['20000', '40000', '200000'], d_model='1024', d_embed='1024', n_head='16', d_head='64', d_inner='4096', div_val='4', pre_lnorm=False, n_layer='18', tgt_len='128', ext_len='0', mem_len='1600', clamp_len='1000', same_length=True, proj_share_all_but_first=True, attn_type='0', sample_softmax=(- '1'), adaptive=True, tie_weight=True, dropout='0.1', dropatt='0.0', untie_r=True, init='normal', init_range='0.01', proj_init_std='0.01', init_std='0.02'",186,287,reference,262
+transformers,pytorch_pretrained_bert\modeling_transfo_xl.py,build_tf_to_pytorch_map,"model, config",55,125,reference,69
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,whitespace_tokenize,"self, text",294,303,reference,303
+transformers,pytorch_pretrained_bert\tokenization_transfo_xl.py,tokenize,"self, line, add_eos=False, add_double_eos=False",305,323,reference,312
+transformers,pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110,getattr,89
+transformers,pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110,getattr,91
+transformers,pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110,getattr,93
+transformers,pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110,getattr,95
+transformers,pytorch_pretrained_bert\modeling.py,load_tf_weights_in_bert,"model, tf_checkpoint_path",52,110,getattr,100
+transformers,pytorch_pretrained_bert\modeling.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",515,636,getattr,611
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97,getattr,79
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97,getattr,81
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97,getattr,83
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97,getattr,84
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,load_tf_weights_in_gpt2,"model, gpt2_checkpoint_path",46,97,getattr,86
+transformers,pytorch_pretrained_bert\modeling_gpt2.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",360,477,getattr,443
+transformers,pytorch_pretrained_bert\modeling_openai.py,load_tf_weights_in_openai_gpt,"model, openai_checkpoint_folder_path",46,113,getattr,91
+transformers,pytorch_pretrained_bert\modeling_openai.py,load_tf_weights_in_openai_gpt,"model, openai_checkpoint_folder_path",46,113,getattr,93
+transformers,pytorch_pretrained_bert\modeling_openai.py,load_tf_weights_in_openai_gpt,"model, openai_checkpoint_folder_path",46,113,getattr,95
+transformers,pytorch_pretrained_bert\modeling_openai.py,load_tf_weights_in_openai_gpt,"model, openai_checkpoint_folder_path",46,113,getattr,97
+transformers,pytorch_pretrained_bert\modeling_openai.py,from_pretrained,"cls, pretrained_model_name_or_path, num_special_tokens=None, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",415,533,getattr,498
+transformers,pytorch_pretrained_bert\modeling_transfo_xl.py,from_pretrained,"cls, pretrained_model_name_or_path, state_dict=None, cache_dir=None, from_tf=False, *inputs, **kwargs",884,980,getattr,950

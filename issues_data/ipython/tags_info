@@ -1,0 +1,129 @@
+e9b2ec3bc; (tag: refs/tags/8.1.1);Matthias Bussonnier;2022-03-03 11:46:27 +0100;release 8.1.1
+bd470fe8c; (tag: refs/tags/8.1.0);Matthias Bussonnier;2022-02-25 16:08:21 +0100;release 8.1.0
+e84cee846; (tag: refs/tags/7.32.0);Matthias Bussonnier;2022-02-25 16:00:22 +0100;release 7.32.0
+d43c7c79c; (tag: refs/tags/7.16.3);Matthias Bussonnier;2022-01-19 14:37:30 +0100;release 7.16.3
+e321e760a; (tag: refs/tags/7.31.1);Matthias Bussonnier;2022-01-19 14:32:13 +0100;release 7.31.1
+325262d1d; (tag: refs/tags/8.0.1);Matthias Bussonnier;2022-01-19 14:25:12 +0100;release 8.0.1
+b8d7dfa8d; (tag: refs/tags/8.0.0);Matthias Bussonnier;2022-01-12 14:22:44 +0100;release 8.0.0
+8209e4bff; (tag: refs/tags/8.0.0rc1);Matthias Bussonnier;2022-01-05 10:48:51 +0100;release 8.0.0rc1
+be343e755; (tag: refs/tags/7.31.0);Matthias Bussonnier;2022-01-05 10:23:04 +0100;release 7.31.0
+d999c0b60; (tag: refs/tags/8.0.0b1);Matthias Bussonnier;2021-12-26 17:51:11 +0100;release 8.0.0b1
+0837a2cb7; (tag: refs/tags/8.0.0a1);Matthias Bussonnier;2021-12-10 16:11:50 -0800;release 8.0.0a1
+44cd8b1e6; (tag: refs/tags/7.30.1);Matthias Bussonnier;2021-12-02 09:25:38 -0800;release 7.30.1
+f013a8ae6; (tag: refs/tags/7.30.0);Matthias Bussonnier;2021-11-26 14:51:19 -0800;release 7.30.0
+9f477b701; (tag: refs/tags/7.16.2);Matthias Bussonnier;2021-11-26 14:39:42 -0800;release 7.16.2
+3813660de; (tag: refs/tags/7.29.0);Matthias Bussonnier;2021-10-29 17:52:42 -0700;release 7.29.0
+e76fa004a; (tag: refs/tags/7.28.0);Matthias Bussonnier;2021-09-24 17:32:53 -0700;release 7.28.0
+24512bd29; (tag: refs/tags/7.27.0);Matthias Bussonnier;2021-08-27 15:38:34 -0700;release 7.27.0
+9cc5c342c; (tag: refs/tags/7.26.0);Matthias Bussonnier;2021-08-01 16:11:27 +0200;release 7.26.0
+63a5c09ed; (tag: refs/tags/7.25.0);Matthias Bussonnier;2021-06-25 17:45:54 +0200;release 7.25.0
+30cd45eb7; (tag: refs/tags/7.24.1);Matthias Bussonnier;2021-06-02 22:46:46 +0200;release 7.24.1
+14f49efe3; (tag: refs/tags/7.24.0);Matthias Bussonnier;2021-05-28 18:53:53 +0200;release 7.24.0
+9ca5c4454; (tag: refs/tags/7.23.1);Matthias Bussonnier;2021-05-05 08:41:17 -0700;release 7.23.1
+a0c0411c4; (tag: refs/tags/7.23.0);Matthias Bussonnier;2021-04-30 16:09:27 -0700;release 7.23.0
+8648ed8d7; (tag: refs/tags/7.22.0);Matthias Bussonnier;2021-03-26 17:48:52 -0700;release 7.22.0
+0dcb1debc; (tag: refs/tags/7.21.0);Matthias Bussonnier;2021-02-26 14:10:26 -0800;release 7.21.0
+ebfd01dae; (tag: refs/tags/7.20.0);Matthias Bussonnier;2021-02-01 11:15:15 -0800;release 7.20.0
+223e783c4; (tag: refs/tags/7.19.0);Matthias Bussonnier;2020-10-30 11:12:26 -0700;release 7.19.0
+95d2b79a2; (tag: refs/tags/7.18.1);Matthias Bussonnier;2020-08-29 14:38:49 -0700;release 7.18.1
+62779a198; (tag: refs/tags/7.18.0);Matthias Bussonnier;2020-08-28 12:35:24 -0700;release 7.18.0
+05c1664fb; (tag: refs/tags/7.17.0);Matthias Bussonnier;2020-07-31 18:45:16 -0700;release 7.17.0
+2486838d9; (tag: refs/tags/7.16.1);Matthias Bussonnier;2020-06-26 15:42:20 -0700;release 7.16.1
+329684047; (tag: refs/tags/7.16.0);Matthias Bussonnier;2020-06-26 15:03:46 -0700;release 7.16.0
+2922831ac; (tag: refs/tags/7.15.0);Matthias Bussonnier;2020-05-29 15:46:12 -0700;release 7.15.0
+e78905a3c; (tag: refs/tags/7.14.0);Matthias Bussonnier;2020-05-01 12:05:31 -0700;release 7.14.0
+818206a23; (tag: refs/tags/5.10.0);Matthias Bussonnier;2020-05-01 11:16:00 -0700;release 5.10.0
+d0b255042; (tag: refs/tags/7.13.0);Matthias Bussonnier;2020-02-28 16:45:41 -0800;release 7.13.0
+2348ebbe4; (tag: refs/tags/5.9.0);Matthias Bussonnier;2020-02-01 11:41:51 -0800;release 5.9.0
+8bda98619; (tag: refs/tags/7.12.0);Matthias Bussonnier;2020-01-31 17:37:48 -0800;release 7.12.0
+3544c180b; (tag: refs/tags/7.11.1);Matthias Bussonnier;2020-01-01 18:31:34 +0100;release 7.11.1
+c6839ecd8; (tag: refs/tags/7.11.0);Matthias Bussonnier;2019-12-27 19:38:24 +0100;release 7.11.0
+f7f2eae63; (tag: refs/tags/7.10.2);Matthias Bussonnier;2019-12-14 10:26:17 -0800;release 7.10.2
+b93782e53; (tag: refs/tags/7.10.1);Matthias Bussonnier;2019-12-01 09:49:46 -0800;release 7.10.1
+cd9f5228d; (tag: refs/tags/7.10.0);Matthias Bussonnier;2019-11-27 15:18:18 -0800;release 7.10.0
+2eec187d3; (tag: refs/tags/7.9.0);Matthias Bussonnier;2019-10-25 11:10:16 -0700;release 7.9.0
+c233c25ab; (tag: refs/tags/7.8.0);Matthias Bussonnier;2019-08-30 09:49:34 -0700;release 7.8.0
+741169a00; (tag: refs/tags/7.7.0);Matthias Bussonnier;2019-07-26 15:12:26 -0700;release 7.7.0
+3a0e83735; (tag: refs/tags/7.6.1);Matthias Bussonnier;2019-07-03 09:42:21 -0700;release 7.6.1
+edbca8cd1; (tag: refs/tags/7.6.0);Matthias Bussonnier;2019-06-28 16:30:51 -0700;release 7.6.0
+8c47bbcb3; (tag: refs/tags/7.5.0);Matthias Bussonnier;2019-04-24 15:18:01 -0700;release 7.5.0
+d774f565b; (tag: refs/tags/7.4.0);Akshay Paropkari;2019-03-21 14:12:17 -0700;release 7.4.0
+2e1cca5bc; (tag: refs/tags/7.3.0);Matthias Bussonnier;2019-02-18 13:56:25 -0800;release 7.3.0
+523ed2fe5; (tag: refs/tags/7.2.0);Matthias Bussonnier;2018-11-29 17:13:09 -0800;release 7.2.0
+59a7834d2; (tag: refs/tags/7.1.1);Matthias Bussonnier;2018-10-27 21:51:19 -0700;release 7.1.1
+de31a74af; (tag: refs/tags/7.1.0);Matthias Bussonnier;2018-10-27 13:27:47 -0700;release 7.1.0
+3772d25df; (tag: refs/tags/7.0.1);Matthias Bussonnier;2018-09-27 10:07:21 -0700;release 7.0.1
+9d8832490; (tag: refs/tags/7.0.0-doc);Matthias Bussonnier;2018-09-27 08:56:22 -0700;Use readthedocs.yaml file as we need a recent version of sphinx
+6e37b96b9; (tag: refs/tags/7.0.0);Matthias Bussonnier;2018-09-27 08:02:39 -0700;release 7.0.0
+07fe08d3d; (tag: refs/tags/7.0.0rc1);Matthias Bussonnier;2018-09-21 09:44:36 +0200;release 7.0.0rc1
+2a62b70ca; (tag: refs/tags/7.0.0b1);Paul Ivanov;2018-09-10 14:20:32 -0700;release 7.0.0b1
+dd83a2163; (tag: refs/tags/6.5.0);Matthias Bussonnier;2018-07-29 14:43:34 -0700;release 6.5.0
+033ab93c7; (tag: refs/tags/5.8.0);Matthias Bussonnier;2018-07-28 18:02:44 -0700;release 5.8.0
+7f10f7bb3; (tag: refs/tags/6.4.0);Matthias Bussonnier;2018-05-10 12:04:12 -0700;release 6.4.0
+a0d6ad545; (tag: refs/tags/5.7.0);Matthias Bussonnier;2018-05-10 11:52:13 -0700;release 5.7.0
+e1aef1899; (tag: refs/tags/6.3.1);Thomas Kluyver;2018-04-06 11:58:17 +0200;release 6.3.1
+c6262119c; (tag: refs/tags/6.3.0);Thomas Kluyver;2018-04-02 12:32:07 +0200;release 6.3.0
+64a584802; (tag: refs/tags/5.6.0);Thomas Kluyver;2018-04-02 12:24:06 +0200;release 5.6.0
+ca5443062; (tag: refs/tags/6.2.1);Matthias Bussonnier;2017-09-29 11:58:59 -0700;release 6.2.1
+80cec70fc; (tag: refs/tags/6.2.0);Matthias Bussonnier;2017-09-15 10:44:17 -0700;release 6.2.0
+b467d487e; (tag: refs/tags/5.5.0);Matthias Bussonnier;2017-09-15 10:00:30 -0700;release 5.5.0
+1149d1700; (tag: refs/tags/5.4.1);Matthias Bussonnier;2017-05-31 18:24:04 -0700;release 5.4.1
+d86648c5d; (tag: refs/tags/6.1.0);Matthias Bussonnier;2017-05-31 15:36:22 -0700;release 6.1.0
+bd8ef10fd; (tag: refs/tags/5.4.0);Matthias Bussonnier;2017-05-31 15:16:19 -0700;release 5.4.0
+51ce9d73b; (tag: refs/tags/6.0.0);Matthias Bussonnier;2017-04-19 14:26:50 -0700;release 6.0.0
+eae27b5af; (tag: refs/tags/6.0.0rc1);Matthias Bussonnier;2017-04-10 14:48:03 -0700;Release IPython 6.0.0rc1
+5a894b9f0; (tag: refs/tags/5.3.0);Thomas Kluyver;2017-02-24 15:13:34 +0000;release 5.3.0
+5be56c736; (tag: refs/tags/5.2.2);Thomas Kluyver;2017-02-03 14:37:19 +0000;Release 5.2.2
+be4827bd7; (tag: refs/tags/5.2.1);Thomas Kluyver;2017-01-31 14:01:48 +0000;Release 5.2.1
+2b2522a03; (tag: refs/tags/5.2.0);Matthias Bussonnier;2017-01-29 15:32:34 -0800;release 5.2.0
+5c9c918bc; (tag: refs/tags/5.1.0);Thomas Kluyver;2016-08-13 13:54:18 +0100;Release 5.1.0
+1ba246d74; (tag: refs/tags/5.0.0);Fernando Perez;2016-07-07 19:41:15 -0700;Update final release number (5.0.0) and fix stats header.
+192b3e4c7; (tag: refs/tags/5.0.0rc1);Matthias Bussonnier;2016-07-05 09:27:28 -0700;release 5.0.0rc1
+4d977eb02; (tag: refs/tags/4.2.1);michaelpacer;2016-07-01 14:46:27 -0700;Release 4.2.1
+1b487f7af; (tag: refs/tags/5.0.0b4);Matthias Bussonnier;2016-06-16 15:25:59 -0700;Release 5.0.0b4
+7f5f1ce79; (tag: refs/tags/5.0.0b3);Matthias Bussonnier;2016-06-09 14:48:27 -0700;release 5.0.0b3
+97bd1ea32; (tag: refs/tags/5.0.0b2);Matthias Bussonnier;2016-06-07 16:04:21 -0700;release 5.0.0b2
+171a542f2; (tag: refs/tags/5.0.0b1);Matthias Bussonnier;2016-06-03 11:58:16 -0700;release 5.0.0b1
+c963f6b44; (tag: refs/tags/4.2.0);Min RK;2016-04-20 14:02:39 +0200;release 4.2
+b5734353b; (tag: refs/tags/rel-4.1.2, tag: refs/tags/4.1.2);Min RK;2016-03-01 12:33:09 +0100;release 4.1.2
+86d685f39; (tag: refs/tags/rel-4.1.1, tag: refs/tags/4.1.1);Thomas Kluyver;2016-02-03 17:14:19 +0000;Release 4.1.1
+9cbb74758; (tag: refs/tags/rel-4.1.0, tag: refs/tags/4.1.0);Matthias Bussonnier;2016-02-02 17:03:04 -0800;release 4.1.0
+1f5cea7de; (tag: refs/tags/rel-4.1.0rc2, tag: refs/tags/4.1.0rc2);Matthias Bussonnier;2016-01-29 15:11:02 -0800;release 4.1.0rc2
+fce837c72; (tag: refs/tags/4.1.0rc1);Matthias Bussonnier;2016-01-26 11:34:55 -0800;Release 4.1.rc1
+8ff8693cd; (tag: refs/tags/rel-4.0.3, tag: refs/tags/4.0.3);Min RK;2016-01-19 19:57:03 +0100;release 4.0.3
+e20c72609; (tag: refs/tags/rel-4.0.2, tag: refs/tags/4.0.2);Min RK;2016-01-13 15:18:28 +0100;release 4.0.2
+d296ce3fa; (tag: refs/tags/rel-3.2.3, tag: refs/tags/3.2.3);Min RK;2015-11-25 15:20:34 +0100;release 3.2.3
+03b638570; (tag: refs/tags/rel-4.0.1, tag: refs/tags/4.0.1);Min RK;2015-11-25 15:05:11 +0100;release 4.0.1
+6333a49b8; (tag: refs/tags/rel-3.2.2, tag: refs/tags/3.2.2);Min RK;2015-09-22 10:20:08 +0200;release 3.2.2
+f534027be; (tag: refs/tags/rel-4.0.0, tag: refs/tags/4.0.0);Min RK;2015-08-11 17:52:39 -0700;release 4.0
+2d9597556; (tag: refs/tags/rel-3.2.1);Min RK;2015-07-12 10:40:20 -0500;release 3.2.1
+8137f8f0d; (tag: refs/tags/rel-4.0.0b1);Min RK;2015-07-11 15:00:41 -0500;4.0.0b1
+8b0eef4cb; (tag: refs/tags/rel-3.2.0);Min RK;2015-06-21 18:09:14 -0700;release 3.2.0
+cbccb682f; (tag: refs/tags/rel-3.1.0);Min RK;2015-04-03 13:36:20 -0700;release 3.1.0
+f75fda4de; (tag: refs/tags/rel-3.0.0);Thomas Kluyver;2015-02-27 15:46:17 -0800;Release 3.0
+af1755878; (tag: refs/tags/rel-2.4.1);Min RK;2015-02-09 14:58:28 -0800;release 2.4.1
+b11c1c3e2; (tag: refs/tags/rel-2.4.0);Min RK;2015-01-30 12:41:28 -0800;release 2.4.0
+1c0eb685d; (tag: refs/tags/rel-2.3.1);Min RK;2014-11-12 15:07:33 -0800;release 2.3.1
+be0cc2b10; (tag: refs/tags/rel-2.3.0);Thomas Kluyver;2014-10-01 16:53:44 -0700;release 2.3.0
+d87a8cd75; (tag: refs/tags/rel-2.2.0);Thomas Kluyver;2014-08-06 15:54:34 -0700;release 2.2.0
+681fd77d0; (tag: refs/tags/rel-2.1.0);MinRK;2014-05-21 12:11:30 -0700;release 2.1.0
+a9897bb8e; (tag: refs/tags/3.0.0-dev);MinRK;2014-04-09 13:42:45 -0700;master is 3.0.0-dev
+6f62d6917; (tag: refs/tags/rel-2.0.0);MinRK;2014-04-01 22:19:46 -0700;release 2.0.0
+9c4f59ddd; (tag: refs/tags/rel-1.2.1);MinRK;2014-02-24 12:03:54 -0800;release 1.2.1
+1b14e0b2e; (tag: refs/tags/rel-1.2.0);MinRK;2014-02-10 13:50:37 -0800;release 1.2.0
+7c2ea3abc; (tag: refs/tags/rel-1.1.0);MinRK;2013-09-09 14:36:03 -0700;release 1.1.0
+02da31ca5; (tag: refs/tags/rel-1.0.0);MinRK;2013-08-08 18:01:36 -0700;1.0.0 final
+29e6a32ab; (tag: refs/tags/1.0.0a1);MinRK;2013-07-21 18:01:35 -0700;mark 1.0.0a1
+858d539be; (tag: refs/tags/rel-0.13.2, refs/remotes/origin/0.13.x);MinRK;2013-04-05 12:15:45 -0700;release 0.13.2
+177894e7f; (tag: refs/tags/rel-0.13.1);MinRK;2012-10-19 16:17:18 -0700;remove rc for 0.13.1 final
+2255c2b87; (tag: refs/tags/rel-0.13);MinRK;2012-06-30 01:21:29 -0700;add missing parentheses on formerly excluded doctest example
+ea199a6dd; (tag: refs/tags/rel-0.12.1, refs/remotes/origin/0.12.1);Fernando Perez;2012-04-20 23:33:24 -0700;Update release number to 0.12.1.
+698e9abeb; (tag: refs/tags/rel-0.12);Fernando Perez;2011-12-19 01:02:39 -0800;Fix HTML import in tour notebook and add video credit to W. Stein.
+464280a07; (tag: refs/tags/rel-0.11);Fernando Perez;2011-07-31 10:18:38 -0500;Fix backup URL.  Final commit before 0.11 release.
+528a43e77; (tag: refs/tags/rel-0.10.2);Fernando Perez;2011-04-08 23:17:32 -0700;Version changes for final 0.10.2 release.
+5d37858cc; (tag: refs/tags/rel-0.10.1);Fernando Perez;2010-10-11 22:46:45 -0700;Releasing version 0.10.1.
+0bb5689d5; (tag: refs/tags/rel-0.10);Fernando Perez;2009-08-04 18:28:33 -0700;Final revnum update for static backups.  Releasing now (finally!)
+31ce543b1; (tag: refs/tags/dev-0.11);Fernando Perez;2009-08-04 16:38:35 -0700;Opening trunk for 0.11 and development.
+fab347b98; (tag: refs/tags/rel-0.9.1);Fernando Perez;2008-09-14 20:37:31 -0700;Merge: Final doc updates for release 0.9.1.
+76706c415; (tag: refs/tags/rel-0.9);Fernando Perez;2008-09-13 21:42:07 -0700;Cut release 0.9.  This revision will be tagged as 0.9.
+6eb49afa1; (tag: refs/tags/rel-0.8.4);Fernando Perez;2008-05-31 16:44:55 -0700;Release IPython 0.8.4.

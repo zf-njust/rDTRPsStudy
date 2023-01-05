@@ -1,0 +1,13 @@
+c350f62; (tag: refs/tags/v0.3.10);binux;2018-04-17 20:47:33 -0700;using reserved ip address for testing
+124b9f2; (tag: refs/tags/v0.3.9);binux;2017-03-05 23:32:22 +0000;fix docker build
+7c57cbb; (tag: refs/tags/v0.3.8);binux;2016-08-18 20:41:52 +0100;g cannot copy.copy in python3.4+
+c8d4558; (tag: refs/tags/v0.3.7);binux;2016-04-20 21:07:20 +0100;fix typo last_modif{,i}ed
+60dc0da; (tag: refs/tags/v0.3.6);Roy Binux;2015-11-09 22:19:11 +0000;Merge pull request #327 from xyb/phantomjs_log
+708b004; (tag: refs/tags/v0.3.5);binux;2015-05-22 23:34:53 +0800;use high level interface kumbu to connect to multipul queues
+d660696; (tag: refs/tags/v0.3.4);binux;2015-04-21 22:32:34 +0800;v0.3.4
+95aabe1; (tag: refs/tags/v0.3.3);binux;2015-03-08 21:31:44 +0800;v0.3.3
+0cde22f; (tag: refs/tags/v0.3.2);binux;2015-02-11 23:41:16 +0800;release new version 0.3.2
+b2e6f00; (tag: refs/tags/v0.3.1);binux;2015-01-22 23:27:07 +0800;update readme, mark task done
+d40e908; (tag: refs/tags/v0.3.0);binux;2015-01-11 12:45:52 +0800;v0.3.0 release
+4b33143; (tag: refs/tags/v0.2.0);binux;2014-11-11 21:07:43 +0800;improve test coverage
+c260081; (tag: refs/tags/v0.1.0);binux;2014-03-09 00:52:52 +0800;wait for size change

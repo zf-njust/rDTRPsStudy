@@ -1,0 +1,100 @@
+b4f47c4f; (tag: refs/tags/jax-v0.3.4);jax authors;2022-03-18 11:50:34 -0700;Merge pull request #9959 from mattjj:fix-9923
+5d7f6397; (tag: refs/tags/jax-v0.3.3);Qiao Zhang;2022-03-17 14:47:02 -0700;Add small and big matmul to api_benchmarks.
+2c23c947; (tag: refs/tags/jax-v0.3.2);jax authors;2022-03-16 12:55:19 -0700;Merge pull request #9920 from skye:release
+f47ce791; (tag: refs/tags/jaxlib-v0.3.2);jax authors;2022-03-15 14:56:00 -0700;Merge pull request #9901 from jakevdp:fix-int-x64
+d1b6f5d9; (tag: refs/tags/jax-v0.3.1);Yash Katariya;2022-02-18 14:23:49 -0800;Revert back to adding aval on Device buffers inside local_shards and convert the cached property to just the normal property.
+1ad3551e; (tag: refs/tags/jaxlib-v0.3.0, tag: refs/tags/jax-v0.3.0);Yash Katariya;2022-02-10 11:58:30 -0800;Release jax and jaxlib 0.3.0 as per the new release process.
+45d96c49; (tag: refs/tags/test-jaxlib);jax authors;2022-02-03 18:03:33 -0800;Merge pull request #4671 from romanngg:conv_local
+3acbd449; (tag: refs/tags/jax-v0.2.28);Yash Katariya;2022-02-01 16:38:12 -0800;Remove isinstance checks
+18a66149; (tag: refs/tags/jaxlib-v0.1.76);jax authors;2022-01-27 06:40:54 -0800;Merge pull request #9353 from hawkinsp:jaxlib
+4c423c36; (tag: refs/tags/jax-v0.2.27);Peter Hawkins;2022-01-18 10:41:43 -0800;Speed up check_jaxpr().
+1b5630ee; (tag: refs/tags/jax-v0.2.26);Yash Katariya;2021-12-08 11:13:37 -0800;Update jaxlib version number to 0.1.76
+2f4bd118; (tag: refs/tags/jaxlib-v0.1.75);jax authors;2021-12-07 07:11:44 -0800;Merge pull request #8842 from google:yashk2810-patch-3
+b53a1740; (tag: refs/tags/jaxlib-v0.1.74);jax authors;2021-11-16 17:17:01 -0800;Merge pull request #8564 from hawkinsp:testfix
+821fcaa7; (tag: refs/tags/jax-v0.2.25);Yash Katariya;2021-10-25 09:36:45 -0700;Make the pjit docs clear about who does local and global communication
+a7c9b6d1; (tag: refs/tags/jax-v0.2.24);Yash Katariya;2021-10-19 08:04:59 -0700;Update jax version number for jax release.
+4d8bce1b; (tag: refs/tags/jax-v0.2.23);Yash Katariya;2021-10-18 19:55:51 -0700;Add a default cuda installation path and more explicit installation paths for CUDA jaxlib.
+fbdeff0a; (tag: refs/tags/jaxlib-v0.1.73);Yash Katariya;2021-10-18 15:26:04 -0700;Update the workspace file
+75062c1a; (tag: refs/tags/jax-v0.2.22);jax authors;2021-10-12 19:04:46 -0700;Merge pull request #8188 from skye:version
+d8b7bd54; (tag: refs/tags/jaxlib-v0.1.72);jax authors;2021-10-12 12:51:39 -0700;Merge pull request #8181 from skye:workspace
+dbeb97d3; (tag: refs/tags/jax-v0.2.21);Yash Katariya;2021-09-23 10:58:55 -0700;Create 0.2.21 jax release
+a7b61c0e; (tag: refs/tags/jax-v0.2.20);jax authors;2021-09-03 09:17:37 -0700;Merge pull request #7793 from yashk2810:update_pypi
+63a7ad9e; (tag: refs/tags/jaxlib-v0.1.71);jax authors;2021-09-01 08:10:14 -0700;Merge pull request #7774 from yashk2810:workspace
+563e08fa; (tag: refs/tags/jax-v0.2.19);jax authors;2021-08-12 21:24:27 -0700;Merge pull request #7614 from google:update-pypi
+40ccad8c; (tag: refs/tags/jaxlib-v0.1.70);Skye Wanderman-Milne;2021-08-05 15:21:58 -0700;Update WORKSPACE
+fba32c32; (tag: refs/tags/jax-v0.2.18);jax authors;2021-07-21 16:16:08 -0700;Merge pull request #7349 from colemanliyah:cache_size_change
+fa758bcf; (tag: refs/tags/jaxlib-v0.1.69);jax authors;2021-07-09 13:06:13 -0700;Merge pull request #7233 from zhangqiaorjc:update_xla_2
+83368aa4; (tag: refs/tags/jax-v0.2.17);jax authors;2021-07-09 12:53:25 -0700;Merge pull request #7230 from hawkinsp:jaxrelease
+c5097314; (tag: refs/tags/jax-v0.2.16);jax authors;2021-06-23 15:07:35 -0700;Merge pull request #7084 from skye:version
+eaaaa110; (tag: refs/tags/jax-v0.2.15);jax authors;2021-06-23 12:20:31 -0700;Merge pull request #7077 from skye:version
+cdfbd9dd; (tag: refs/tags/jaxlib-v0.1.68);jax authors;2021-06-22 18:11:45 -0700;Merge pull request #7061 from skye:libtpu_init
+3d1a6a30; (tag: refs/tags/jax-v0.2.14);jax authors;2021-06-10 16:11:49 -0700;Merge pull request #6945 from skye:version
+bea18073; (tag: refs/tags/jaxlib-v0.1.67);jax authors;2021-05-17 12:40:25 -0700;Merge pull request #6767 from skye:workspace
+f7717c89; (tag: refs/tags/jaxlib-v0.1.66);jax authors;2021-05-11 14:34:02 -0700;Merge pull request #6724 from hawkinsp:dispatch
+67fad64c; (tag: refs/tags/jax-v0.2.13);jax authors;2021-05-03 17:51:13 -0700;Merge pull request #6632 from skye:version
+05e4a99d; (tag: refs/tags/jaxlib-v0.1.65);jax authors;2021-04-05 14:48:16 -0700;Merge pull request #6348 from skye:workspace
+8691244f; (tag: refs/tags/jax-v0.2.12);jax authors;2021-04-01 10:32:05 -0700;Merge pull request #6319 from skye:version
+fafa06db; (tag: refs/tags/jax-v0.2.11);jax authors;2021-03-23 20:09:29 -0700;Merge pull request #6197 from google:update-pypi
+2947f562; (tag: refs/tags/jaxlib-v0.1.64);jax authors;2021-03-18 09:01:57 -0700;Merge pull request #6120 from skye:workspace
+7ad51264; (tag: refs/tags/jaxlib-v0.1.63);Skye Wanderman-Milne;2021-03-16 18:26:27 -0700;Update WORKSPACE for jaxlib 0.1.63 release, take 2
+a61c43c3; (tag: refs/tags/jaxlib-v0.1.62);jax authors;2021-03-08 17:13:52 -0800;Merge pull request #5983 from skye:enable_tpu
+6ec90461; (tag: refs/tags/jax-v0.2.10);jax authors;2021-03-05 10:21:11 -0800;Merge pull request #5950 from google:update-pypi
+8c3371ca; (tag: refs/tags/jaxlib-v0.1.61);jax authors;2021-02-11 09:16:19 -0800;Merge pull request #5708 from skye:workspace
+7495f71e; (tag: refs/tags/jaxlib-v0.1.60);jax authors;2021-02-03 09:15:38 -0800;Merge pull request #5614 from hawkinsp:jaxlib
+10947403; (tag: refs/tags/jax-v0.2.9);jax authors;2021-01-26 20:47:13 -0800;Merge pull request #5528 from google:update-pypi
+c5d6281b; (tag: refs/tags/jaxlib-v0.1.59);jax authors;2021-01-14 16:25:33 -0800;Merge pull request #5430 from skye:fix
+c42fc286; (tag: refs/tags/jax-v0.2.8);jax authors;2021-01-12 08:40:36 -0800;Merge pull request #5379 from hawkinsp:jaxrelease2
+d9cd5e31; (tag: refs/tags/jaxlib-v0.1.58);jax authors;2021-01-11 10:01:27 -0800;Merge pull request #5369 from skye:workspace
+27a4c888; (tag: refs/tags/jax-v0.2.7);jax authors;2020-12-04 22:15:14 -0800;Merge pull request #5112 from google:update-pypi
+0978ccbd; (tag: refs/tags/jax-v0.2.6);jax authors;2020-11-18 14:43:14 -0800;Merge pull request #4946 from jakevdp:jax-026
+a3a55a91; (tag: refs/tags/jaxlib-v0.1.57);jax authors;2020-11-09 15:10:35 -0800;Merge pull request #4847 from hawkinsp:py39
+25b40702; (tag: refs/tags/jax-v0.2.5);jax authors;2020-10-26 15:17:45 -0700;Merge pull request #4707 from google:traceback-register
+4b8334ab; (tag: refs/tags/jax-v0.2.4);jax authors;2020-10-19 19:13:29 -0700;Merge pull request #4647 from google:update-pypi
+20b74840; (tag: refs/tags/jax-v0.2.3);jax authors;2020-10-14 08:41:54 -0700;Merge pull request #4577 from google:update-pypi
+6d95b6cd; (tag: refs/tags/jax-v0.2.2);jax authors;2020-10-13 23:25:32 -0700;Merge pull request #4573 from google:update-pypi
+639cda29; (tag: refs/tags/jaxlib-v0.1.56);jax authors;2020-10-12 12:05:27 -0700;Merge pull request #4554 from skye:workspace
+2dfc5f96; (tag: refs/tags/jax-v0.2.1);jax authors;2020-10-06 22:59:09 -0700;Merge pull request #4467 from google:update-pypi
+bdcefbd3; (tag: refs/tags/jax-v0.2.0);jax authors;2020-09-23 21:49:39 -0700;Merge pull request #4401 from google:update-pypi
+6af47690; (tag: refs/tags/jax-v0.1.77);Matthew Johnson;2020-09-15 08:00:47 -0700;update version and changelog for pypi (#4294)
+82af356b; (tag: refs/tags/jaxlib-v0.1.55);Qiao Zhang;2020-09-10 10:10:33 -0700;Bump TF hash to get an upstream LLVM GCC fix. (#4251)
+7f3078b7; (tag: refs/tags/jax-v0.1.76);Matthew Johnson;2020-09-08 08:54:13 -0700;updtate version and changelog for pypi (#4224)
+81631f9b; (tag: refs/tags/jax-v0.1.75, tag: refs/tags/jax-v0.1.74);Matthew Johnson;2020-07-29 22:27:34 -0700;update version and changelog for pypi
+17c21a79; (tag: refs/tags/jaxlib-v0.1.52);Jake Vanderplas;2020-07-22 15:21:30 -0700;update jaxlib version and changelog for pypi (#3824)
+edff6933; (tag: refs/tags/jax-v0.1.73);Jake Vanderplas;2020-07-22 14:20:34 -0700;update jax version and changelog for pypi (#3823)
+bfe8f873; (tag: refs/tags/jaxlib-v0.1.51);George Necula;2020-07-02 12:47:22 +0300;Change the version of tensorflow, the one in jaxlib 0.1.51 does not build (#3637)
+f461f32c; (tag: refs/tags/jax-v0.1.72);Matthew Johnson;2020-06-28 14:29:57 -0700;bump version for pypi
+b576417e; (tag: refs/tags/jaxlib-v0.1.50);Peter Hawkins;2020-06-26 13:20:59 -0400;Update README for jaxlib 0.1.50 release. (#3574)
+1545a29e; (tag: refs/tags/jax-v0.1.71);Matthew Johnson;2020-06-25 17:42:17 -0700;update version and changelog for pypi
+a088c023; (tag: refs/tags/jaxlib-v0.1.49);Skye Wanderman-Milne;2020-06-19 13:27:12 -0700;Bump jaxlib version to 0.1.49 and update WORKSPACE (#3495)
+dd040de1; (tag: refs/tags/jaxlib-v0.1.48);Peter Hawkins;2020-06-12 14:46:45 -0400;Bump XLA version. (#3424)
+3e4210c3; (tag: refs/tags/jax-v0.1.70);Skye Wanderman-Milne;2020-06-09 09:55:05 -0700;Update jax version to 0.1.70 (#3383)
+f8bab4ae; (tag: refs/tags/jax-v0.1.69);Matthew Johnson;2020-06-03 07:45:53 -0700;update version and changelog for pypi
+4747205e; (tag: refs/tags/jax-v0.1.68);Skye Wanderman-Milne;2020-05-21 10:36:28 -0700;Update jax version to 0.1.68
+ef4debca; (tag: refs/tags/jax-v0.1.67);Skye Wanderman-Milne;2020-05-12 11:17:22 -0700;Update jax version to 0.1.67 (#3065)
+e1cb0324; (tag: refs/tags/jaxlib-v0.1.47);George Necula;2020-05-08 10:01:28 +0300;Prepare version 0.1.47 for jaxlib (#3008)
+fedf7fb8; (tag: refs/tags/jax-v0.1.66);Skye Wanderman-Milne;2020-05-05 11:57:11 -0700;Update jax version to 0.1.66 (#2970)
+61a34f59; (tag: refs/tags/jaxlib-v0.1.46);Peter Hawkins;2020-05-05 12:18:55 -0400;Update README for jaxlib 0.1.46 release. (#2968)
+3aa953d8; (tag: refs/tags/jax-v0.1.65);Skye Wanderman-Milne;2020-04-30 15:31:42 -0700;Update jax version to 0.1.65 (#2909)
+29e8c4c1; (tag: refs/tags/jaxlib-v0.1.45);Skye Wanderman-Milne;2020-04-21 12:00:22 -0700;Bump jaxlib version to 0.1.45 and update WORKSPACE and CHANGELOG.
+4433ddfb; (tag: refs/tags/jax-v0.1.64);Matthew Johnson;2020-04-21 08:31:40 -0700;update version and changelog for pypi
+d356c41f; (tag: refs/tags/jaxlib-v0.1.44);Peter Hawkins;2020-04-16 11:31:05 -0400;Release jaxlib 0.1.44. (#2740)
+d8c75da8; (tag: refs/tags/jax-v0.1.63);Matthew Johnson;2020-04-12 19:30:05 -0700;update version and changelog for pypi
+bd1708c7; (tag: refs/tags/jaxlib-v0.1.43);Peter Hawkins;2020-03-31 10:02:38 -0400;Update changelog and README for jaxlib 0.1.43. (#2556)
+909fee6a; (tag: refs/tags/test-docs);Matthew Johnson;2020-03-30 20:22:04 -0700;try adding sphinx-autodoc-typehints
+15c8d4c2; (tag: refs/tags/jax-v0.1.62);Matthew Johnson;2020-03-21 20:57:25 -0700;update version and changelog for pypi
+c3f89090; (tag: refs/tags/jaxlib-v0.1.42);Peter Hawkins;2020-03-19 12:41:19 -0400;Update jaxlib version in README.md. (#2461)
+75813f46; (tag: refs/tags/jax-v0.1.61);Peter Hawkins;2020-03-17 17:15:59 -0400;Update jax version number. (#2444)
+42c77aa2; (tag: refs/tags/jax-v0.1.60);Peter Hawkins;2020-03-17 10:03:10 -0400;Update jax version to 0.1.60.
+7243ddf0; (tag: refs/tags/jaxlib-v0.1.40);Peter Hawkins;2020-03-04 16:23:48 -0500;Bump XLA version. (#2353)
+2ff70199; (tag: refs/tags/jaxlib-v0.1.39);Skye Wanderman-Milne;2020-02-13 18:09:53 -0800;Update WORKSPACE
+9e6fe64a; (tag: refs/tags/jax-v0.1.59);Matthew Johnson;2020-02-11 07:21:17 -0800;bump version and update changelog for pypi
+6aaf257d; (tag: refs/tags/jaxlib-v0.1.38);Skye Wanderman-Milne;2020-01-28 18:04:52 -0800;Update WORKSPACE
+21551c23; (tag: refs/tags/jax-v0.1.58);Peter Hawkins;2020-01-28 09:24:26 -0500;Bump JAX version to 0.1.58.
+eabe77e2; (tag: refs/tags/jax-v0.1.55);Peter Hawkins;2019-12-06 19:24:05 -0500;Update JAX version. (#1828)
+1da950d0; (tag: refs/tags/jaxlib-v0.1.37);Skye Wanderman-Milne;2019-12-05 21:38:59 -0800;Update WORKSPACE
+1314fb7c; (tag: refs/tags/jaxlib-v0.1.36);Skye Wanderman-Milne;2019-11-21 18:34:28 -0800;Bump jaxlib version to 0.1.36 and update WORKSPACE.
+b7d11ab9; (tag: refs/tags/jaxlib-v0.1.35);Skye Wanderman-Milne;2019-11-20 15:58:22 -0800;Bump jaxlib version to 0.1.35
+b1888881; (tag: refs/tags/jaxlib-v0.1.34);Skye Wanderman-Milne;2019-11-19 15:30:05 -0800;Bump jaxlib version to 0.1.33 and update WORKSPACE.
+84437839; (tag: refs/tags/jaxlib-v0.1.33);Skye Wanderman-Milne;2019-11-12 18:14:42 -0800;Bump jaxlib version to 0.1.33 and update WORKSPACE.
+fbd307ed; (tag: refs/tags/jaxlib-v0.1.32, tag: refs/tags/jax-v0.1.49);Peter Hawkins;2019-10-31 11:44:38 -0400;Update jaxlib build scripts to build Python 3.8.0 wheels.
+2308d0f2; (tag: refs/tags/workflow_test);Skye Wanderman-Milne;2019-10-08 14:20:40 -0700;Revert "Remove build_mac_jaxlib.yml for now to see if that's causing spurious workflows."

@@ -1,0 +1,254 @@
+magenta,file,method,params,startlineno,endlineno,type,lineno
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,149
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,150
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,151
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,152
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,153
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,154
+magenta,magenta\pipelines\performance_pipeline.py,get_pipeline,"config, min_events, max_events, eval_ratio",104,157,assignment,155
+magenta,magenta\pipelines\pianoroll_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",49,92,assignment,86
+magenta,magenta\pipelines\pianoroll_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",49,92,assignment,87
+magenta,magenta\pipelines\pianoroll_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",49,92,assignment,88
+magenta,magenta\pipelines\pianoroll_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",49,92,assignment,89
+magenta,magenta\pipelines\pianoroll_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",49,92,assignment,90
+magenta,magenta\models\shared\events_rnn_graph.py,get_build_graph_fn,"mode, config, sequence_example_file_paths=None",68,276,assignment,146
+magenta,magenta\interfaces\midi\midi_hub_test.py,testStartPlayback_NoUpdates,self,154,183,assignment,175
+magenta,magenta\interfaces\midi\midi_hub_test.py,testStartPlayback_NoUpdates,self,154,183,delsubscript,173
+magenta,magenta\interfaces\midi\midi_hub_test.py,testStartPlayback_Updates,self,198,238,assignment,229
+magenta,magenta\interfaces\midi\midi_hub_test.py,testStartPlayback_Updates,self,198,238,delsubscript,225
+magenta,magenta\models\drums_rnn\drums_rnn_pipeline.py,get_pipeline,"config, eval_ratio",25,59,assignment,54
+magenta,magenta\models\drums_rnn\drums_rnn_pipeline.py,get_pipeline,"config, eval_ratio",25,59,assignment,55
+magenta,magenta\models\drums_rnn\drums_rnn_pipeline.py,get_pipeline,"config, eval_ratio",25,59,assignment,56
+magenta,magenta\models\drums_rnn\drums_rnn_pipeline.py,get_pipeline,"config, eval_ratio",25,59,assignment,57
+magenta,magenta\models\improv_rnn\improv_rnn_pipeline.py,get_pipeline,"config, eval_ratio",71,105,assignment,100
+magenta,magenta\models\improv_rnn\improv_rnn_pipeline.py,get_pipeline,"config, eval_ratio",71,105,assignment,101
+magenta,magenta\models\improv_rnn\improv_rnn_pipeline.py,get_pipeline,"config, eval_ratio",71,105,assignment,102
+magenta,magenta\models\improv_rnn\improv_rnn_pipeline.py,get_pipeline,"config, eval_ratio",71,105,assignment,103
+magenta,magenta\models\latent_transfer\local_mnist.py,next_batch,"self, batch_size, fake_data=False, shuffle=True",159,202,assignment,166
+magenta,magenta\models\latent_transfer\local_mnist.py,next_batch,"self, batch_size, fake_data=False, shuffle=True",159,202,reference,167
+magenta,magenta\models\latent_transfer\local_mnist.py,next_batch,"self, batch_size, fake_data=False, shuffle=True",159,202,reference,168
+magenta,magenta\models\latent_transfer\common_joint.py,__init__,"self, config_name, exp_uid, config_name_classifier, exp_uid_classifier",747,770,assignment,762
+magenta,magenta\models\latent_transfer\common_joint.py,__init__,"self, config_name, exp_uid, config_name_classifier, exp_uid_classifier",747,770,assignment,763
+magenta,magenta\models\melody_rnn\melody_rnn_pipeline.py,get_pipeline,"config, transposition_range=('0', ), eval_ratio='0.0'",56,93,assignment,87
+magenta,magenta\models\melody_rnn\melody_rnn_pipeline.py,get_pipeline,"config, transposition_range=('0', ), eval_ratio='0.0'",56,93,assignment,88
+magenta,magenta\models\melody_rnn\melody_rnn_pipeline.py,get_pipeline,"config, transposition_range=('0', ), eval_ratio='0.0'",56,93,assignment,89
+magenta,magenta\models\melody_rnn\melody_rnn_pipeline.py,get_pipeline,"config, transposition_range=('0', ), eval_ratio='0.0'",56,93,assignment,90
+magenta,magenta\models\melody_rnn\melody_rnn_pipeline.py,get_pipeline,"config, transposition_range=('0', ), eval_ratio='0.0'",56,93,assignment,91
+magenta,magenta\models\piano_genie\gold.py,gold_iterator,"transpose_range=('0', '1')",60,72,assignment,65
+magenta,magenta\models\piano_genie\gold.py,gold_iterator,"transpose_range=('0', '1')",60,72,assignment,66
+magenta,magenta\models\piano_genie\gold.py,gold_iterator,"transpose_range=('0', '1')",60,72,reference,72
+magenta,magenta\models\piano_genie\gold.py,gold_iterator,"transpose_range=('0', '1')",60,72,reference,72
+magenta,magenta\models\polyphony_rnn\polyphony_rnn_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",46,90,assignment,84
+magenta,magenta\models\polyphony_rnn\polyphony_rnn_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",46,90,assignment,85
+magenta,magenta\models\polyphony_rnn\polyphony_rnn_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",46,90,assignment,86
+magenta,magenta\models\polyphony_rnn\polyphony_rnn_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",46,90,assignment,87
+magenta,magenta\models\polyphony_rnn\polyphony_rnn_pipeline.py,get_pipeline,"config, min_steps, max_steps, eval_ratio",46,90,assignment,88
+magenta,magenta\models\score2perf\datagen_beam.py,generate_conditional_examples,"input_transform, output_dir, problem_name, splits, min_pitch, max_pitch, melody, noisy, encode_performance_fn, encode_score_fns=None, augment_fns=None, num_replications=None",599,692,argument,678
+magenta,magenta\models\score2perf\datagen_beam.py,generate_conditional_examples,"input_transform, output_dir, problem_name, splits, min_pitch, max_pitch, melody, noisy, encode_performance_fn, encode_score_fns=None, augment_fns=None, num_replications=None",599,692,reference,681
+magenta,magenta\models\svg_vae\svg_utils.py,zoom_out,"path_list, add_baseline='0.0', per='22'",552,670,assignment,613
+magenta,magenta\pipelines\pipeline_test.py,testPipelineKey,self,138,163,assignment,158
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,103
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,112
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,115
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,115
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,117
+magenta,magenta\common\concurrency.py,sleep_until,"self, wake_time",95,120,reference,117
+magenta,magenta\contrib\rnn_test.py,_createStackBidirectionalDynamicRNN,"self, use_gpu, use_shape, use_state_tuple, initial_states_fw=None, initial_states_bw=None, scope=None",260,317,reference,296
+magenta,magenta\contrib\rnn_test.py,_createStackBidirectionalDynamicRNN,"self, use_gpu, use_shape, use_state_tuple, initial_states_fw=None, initial_states_bw=None, scope=None",260,317,reference,317
+magenta,magenta\contrib\rnn_test.py,_testStackBidirectionalDynamicRNN,"self, use_gpu, use_shape, use_state_tuple",319,371,reference,329
+magenta,magenta\contrib\rnn_test.py,_testStackBidirectionalDynamicRNNStates,"self, use_gpu",373,437,reference,407
+magenta,magenta\contrib\rnn_test.py,_testStackBidirectionalDynamicRNNStates,"self, use_gpu",373,437,reference,418
+magenta,magenta\contrib\rnn_test.py,_testStackBidirectionalDynamicRNNStates,"self, use_gpu",373,437,reference,428
+magenta,magenta\contrib\rnn_test.py,testCompatibleNames,self,542,565,reference,547
+magenta,magenta\contrib\rnn_test.py,testCompatibleNames,self,542,565,reference,548
+magenta,magenta\contrib\rnn_test.py,testCompatibleNames,self,542,565,reference,558
+magenta,magenta\contrib\rnn_test.py,testCompatibleNames,self,542,565,reference,559
+magenta,magenta\interfaces\midi\midi_clock.py,main,unused_argv,48,71,reference,63
+magenta,magenta\interfaces\midi\midi_hub.py,stop,"self, stop_time=None, block=True",574,597,reference,593
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_mobilenet_model.py,build_mobilenet_model,"content_input_, style_input_, mobilenet_trainable=True, style_params_trainable=False, transformer_trainable=False, reuse=None, mobilenet_end_point='layer_19', transformer_alpha='0.25', style_prediction_bottleneck='100', adds_losses=True, content_weights=None, style_weights=None, total_variation_weight=None",31,115,reference,83
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_mobilenet_model.py,style_prediction_mobilenet,"style_input_, activation_names, activation_depths, mobilenet_end_point='layer_19', mobilenet_trainable=True, style_params_trainable=False, style_prediction_bottleneck='100', reuse=None",118,202,reference,179
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_mobilenet_model.py,style_prediction_mobilenet,"style_input_, activation_names, activation_depths, mobilenet_end_point='layer_19', mobilenet_trainable=True, style_params_trainable=False, style_prediction_bottleneck='100', reuse=None",118,202,reference,189
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_mobilenet_model.py,style_prediction_mobilenet,"style_input_, activation_names, activation_depths, mobilenet_end_point='layer_19', mobilenet_trainable=True, style_params_trainable=False, style_prediction_bottleneck='100', reuse=None",118,202,reference,197
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_model.py,build_model,"content_input_, style_input_, trainable, is_training, reuse=None, inception_end_point='Mixed_6e', style_prediction_bottleneck='100', adds_losses=True, content_weights=None, style_weights=None, total_variation_weight=None",26,101,reference,73
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_model.py,style_prediction,"style_input_, activation_names, activation_depths, is_training=True, trainable=True, inception_end_point='Mixed_6e', style_prediction_bottleneck='100', reuse=None",104,191,reference,167
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_model.py,style_prediction,"style_input_, activation_names, activation_depths, is_training=True, trainable=True, inception_end_point='Mixed_6e', style_prediction_bottleneck='100', reuse=None",104,191,reference,178
+magenta,magenta\models\arbitrary_image_stylization\arbitrary_image_stylization_build_model.py,style_prediction,"style_input_, activation_names, activation_depths, is_training=True, trainable=True, inception_end_point='Mixed_6e', style_prediction_bottleneck='100', reuse=None",104,191,reference,186
+magenta,magenta\models\arbitrary_image_stylization\nza_model.py,style_normalization_activations,"pre_name='transformer', post_name='StyleNorm', alpha='1.0'",83,116,reference,116
+magenta,magenta\models\coconet\coconet_sample.py,run_generation,"self, midi_in=None, pianorolls_in=None, masks=None, gen_batch_size='3', piece_length='16', sample_steps='0', current_step='0', total_gibbs_steps='0', temperature='0.99'",218,273,reference,258
+magenta,magenta\models\coconet\coconet_sample.py,run_generation,"self, midi_in=None, pianorolls_in=None, masks=None, gen_batch_size='3', piece_length='16', sample_steps='0', current_step='0', total_gibbs_steps='0', temperature='0.99'",218,273,reference,262
+magenta,magenta\models\coconet\coconet_sample.py,run_generation,"self, midi_in=None, pianorolls_in=None, masks=None, gen_batch_size='3', piece_length='16', sample_steps='0', current_step='0', total_gibbs_steps='0', temperature='0.99'",218,273,reference,264
+magenta,magenta\models\coconet\coconet_sample.py,parse_art_to_pianoroll,"art, tt=None",627,684,reference,675
+magenta,magenta\models\coconet\coconet_sample.py,parse_art_to_pianoroll,"art, tt=None",627,684,reference,677
+magenta,magenta\models\coconet\coconet_sample.py,parse_art_to_pianoroll,"art, tt=None",627,684,reference,682
+magenta,magenta\models\coconet\lib_graph.py,get_convnet_input,self,117,129,reference,129
+magenta,magenta\models\coconet\lib_graph.py,get_convnet_input,self,117,129,reference,129
+magenta,magenta\models\coconet\lib_graph.py,apply_convolution,"self, x, layer, layer_idx",249,311,reference,276
+magenta,magenta\models\coconet\lib_graph.py,compute_loss,"self, unreduced_loss",164,215,reference,187
+magenta,magenta\models\coconet\lib_graph.py,compute_loss,"self, unreduced_loss",164,215,reference,204
+magenta,magenta\models\coconet\lib_graph.py,compute_loss,"self, unreduced_loss",164,215,reference,211
+magenta,magenta\models\coconet\lib_pianoroll.py,encode_midi_to_pianoroll,"self, midi, requested_shape",168,204,reference,172
+magenta,magenta\models\coconet\lib_pianoroll.py,encode_midi_to_pianoroll,"self, midi, requested_shape",168,204,reference,174
+magenta,magenta\models\coconet\lib_pianoroll.py,encode_midi_to_pianoroll,"self, midi, requested_shape",168,204,reference,184
+magenta,magenta\models\coconet\lib_pianoroll.py,encode_midi_to_pianoroll,"self, midi, requested_shape",168,204,reference,201
+magenta,magenta\models\coconet\lib_pianoroll.py,get_instr_pianoroll,"self, midi_instr, requested_shape",206,226,reference,208
+magenta,magenta\models\gansynth\lib\layers.py,custom_conv2d,"x, filters, kernel_size, strides=('1', '1'), padding='SAME', activation=None, he_initializer_slope='1.0', use_weight_scaling=True, scope='custom_conv2d', reuse=None",239,293,reference,274
+magenta,magenta\models\gansynth\lib\model.py,generate_samples_from_z,"self, z, pitches, max_audio_length='64000'",507,545,reference,535
+magenta,magenta\models\gansynth\lib\train_util.py,get_batch_size,"stage_id, **kwargs",74,99,reference,99
+magenta,magenta\models\gansynth\lib\train_util.py,get_stage_info,"stage_id, **kwargs",102,141,reference,124
+magenta,magenta\models\gansynth\lib\train_util.py,get_stage_info,"stage_id, **kwargs",102,141,reference,137
+magenta,magenta\models\latent_transfer\interpolate_joint.py,main,unused_argv,73,213,reference,151
+magenta,magenta\models\latent_transfer\interpolate_joint.py,main,unused_argv,73,213,reference,152
+magenta,magenta\models\latent_transfer\interpolate_joint.py,main,unused_argv,73,213,reference,157
+magenta,magenta\models\latent_transfer\interpolate_joint.py,main,unused_argv,73,213,reference,158
+magenta,magenta\models\latent_transfer\model_joint.py,__init__,"self, input_size, output_size, layers=(('2048', ) * '4'), name='DecoderLatentFull', residual=True",92,102,reference,99
+magenta,magenta\models\latent_transfer\model_joint.py,_build,"self, z",104,110,reference,106
+magenta,magenta\models\latent_transfer\model_joint.py,__init__,"self, input_size, output_size, layers=(('2048', ) * '4'), name='EncoderLatentFull', residual=True",66,76,reference,73
+magenta,magenta\models\latent_transfer\nn.py,__init__,"self, output_size='1', layers=(('2048', ) * '4'), name='D'",185,188,reference,187
+magenta,magenta\models\latent_transfer\nn.py,_build,"self, x",190,194,reference,191
+magenta,magenta\models\latent_transfer\nn.py,__init__,"self, n_latent='64', layers=(('1024', ) * '3'), name='encoder'",56,59,reference,59
+magenta,magenta\models\latent_transfer\nn.py,__init__,"self, layers=(('1024', ) * '3'), n_out='784', name='decoder'",73,76,reference,75
+magenta,magenta\models\latent_transfer\nn.py,__init__,"self, n_latent, layers=(('2048', ) * '4'), name='generator'",166,169,reference,168
+magenta,magenta\models\latent_transfer\sample_wavegan.py,main,unused_argv,45,175,reference,108
+magenta,magenta\models\latent_transfer\sample_wavegan.py,main,unused_argv,45,175,reference,126
+magenta,magenta\models\latent_transfer\configs\joint_exp_mnist100_2wavegan_parameterized.py,make_Encoder_B,n_latent,57,62,reference,62
+magenta,magenta\models\latent_transfer\configs\joint_exp_mnist100_2wavegan_parameterized.py,make_Decoder_B,n_latent,66,71,reference,71
+magenta,magenta\models\latent_transfer\configs\joint_exp_mnist2wavegan_parameterized.py,make_Encoder_B,n_latent,57,62,reference,62
+magenta,magenta\models\latent_transfer\configs\joint_exp_mnist2wavegan_parameterized.py,make_Decoder_B,n_latent,66,71,reference,71
+magenta,magenta\models\music_vae\data.py,to_tensors,"self, note_sequence",913,917,reference,916
+magenta,magenta\models\music_vae\data_test.py,setUp,self,520,617,reference,609
+magenta,magenta\models\music_vae\data_test.py,setUp,self,520,617,reference,609
+magenta,magenta\models\music_vae\data_test.py,setUp,self,520,617,reference,613
+magenta,magenta\models\music_vae\data_test.py,setUp,self,520,617,reference,613
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,946
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,947
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,948
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,949
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,950
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,951
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,955
+magenta,magenta\models\music_vae\data_test.py,setUp,self,883,962,reference,955
+magenta,magenta\models\music_vae\lstm_models.py,sample,"self, n, max_length=None, z=None, c_input=None, temperature='1.0', start_inputs=None, **core_sampler_kwargs",742,774,reference,769
+magenta,magenta\models\music_vae\trained_model.py,encode_tensors,"self, input_tensors, lengths, control_tensors=None",231,283,reference,259
+magenta,magenta\models\music_vae\trained_model.py,encode_tensors,"self, input_tensors, lengths, control_tensors=None",231,283,reference,261
+magenta,magenta\models\music_vae\trained_model.py,encode_tensors,"self, input_tensors, lengths, control_tensors=None",231,283,reference,262
+magenta,magenta\models\music_vae\trained_model.py,encode_tensors,"self, input_tensors, lengths, control_tensors=None",231,283,reference,267
+magenta,magenta\models\music_vae\trained_model.py,encode_tensors,"self, input_tensors, lengths, control_tensors=None",231,283,reference,270
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,276
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,284
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,293
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,306
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,307
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,317
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,319
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,322
+magenta,magenta\models\onsets_frames_transcription\create_dataset.py,pipeline,"config_map, dataset_config_map, preprocess_example_fn, input_tensors_to_example_fn",179,325,reference,323
+magenta,magenta\models\onsets_frames_transcription\realtime\audio_recorder.py,get_audio,"self, num_audio_frames",188,239,reference,215
+magenta,magenta\models\performance_rnn\performance_model.py,performance_log_likelihood,"self, sequence, control_values, disable_conditioning",83,107,reference,107
+magenta,magenta\models\polyphony_rnn\polyphony_lib.py,to_sequence,"self, velocity='100', instrument='0', program='0', qpm=constants.DEFAULT_QUARTERS_PER_MINUTE, base_note_sequence=None",307,409,reference,382
+magenta,magenta\models\polyphony_rnn\polyphony_lib.py,to_sequence,"self, velocity='100', instrument='0', program='0', qpm=constants.DEFAULT_QUARTERS_PER_MINUTE, base_note_sequence=None",307,409,reference,383
+magenta,magenta\models\polyphony_rnn\polyphony_lib.py,to_sequence,"self, velocity='100', instrument='0', program='0', qpm=constants.DEFAULT_QUARTERS_PER_MINUTE, base_note_sequence=None",307,409,reference,405
+magenta,magenta\models\polyphony_rnn\polyphony_sequence_generator.py,_generate,"self, input_sequence, generator_options",49,186,reference,151
+magenta,magenta\models\polyphony_rnn\polyphony_sequence_generator.py,_generate,"self, input_sequence, generator_options",49,186,reference,173
+magenta,magenta\models\polyphony_rnn\polyphony_sequence_generator.py,_generate,"self, input_sequence, generator_options",49,186,reference,175
+magenta,magenta\models\rl_tuner\rl_tuner.py,get_priming_melodies,self,333,359,reference,357
+magenta,magenta\models\rl_tuner\rl_tuner.py,get_priming_melodies,self,333,359,reference,359
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,871
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,872
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,873
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,879
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,880
+magenta,magenta\models\rl_tuner\rl_tuner.py,evaluate_model,"self, num_trials='100', sample_next_obs=True",835,881,reference,881
+magenta,magenta\models\score2perf\datagen_beam.py,generate_examples,"input_transform, output_dir, problem_name, splits, min_hop_size_seconds, max_hop_size_seconds, num_replications, min_pitch, max_pitch, encode_performance_fn, encode_score_fns=None, augment_fns=None, absolute_timing=False, random_crop_length=None",340,455,reference,433
+magenta,magenta\models\score2perf\datagen_beam.py,__init__,"self, min_hop_size_seconds, max_hop_size_seconds, num_replications, encode_performance_fn, encode_score_fns, augment_fns, absolute_timing, random_crop_length, *unused_args, **unused_kwargs",103,158,reference,153
+magenta,magenta\models\score2perf\modalities.py,_get_weights,"model_hparams, vocab_size, hidden_dim=None",25,46,reference,37
+magenta,magenta\models\score2perf\music_encoders.py,encode_note_sequence,"self, ns",228,251,reference,249
+magenta,magenta\models\score2perf\music_encoders.py,encode_note_sequence,"self, ns",228,251,reference,251
+magenta,magenta\models\score2perf\music_encoders.py,_encode_chord_symbols,"self, chords",224,226,reference,226
+magenta,magenta\models\score2perf\music_encoders_test.py,testVocabSize,self,305,310,reference,310
+magenta,magenta\models\shared\events_rnn_model.py,_evaluate_log_likelihood,"self, event_sequences, control_events=None",418,493,reference,474
+magenta,magenta\models\shared\events_rnn_model.py,_evaluate_log_likelihood,"self, event_sequences, control_events=None",418,493,reference,488
+magenta,magenta\models\shared\events_rnn_model.py,_generate_step,"self, event_sequences, model_states, logliks, temperature, extend_control_events_callback=None, modify_events_callback=None",163,263,reference,230
+magenta,magenta\models\shared\events_rnn_model.py,_generate_step,"self, event_sequences, model_states, logliks, temperature, extend_control_events_callback=None, modify_events_callback=None",163,263,reference,231
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,422
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,426
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,428
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,430
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,431
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,433
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,434
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,435
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,436
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,438
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,439
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,440
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,441
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,442
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,443
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,445
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,446
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,448
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,449
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,451
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,452
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,454
+magenta,magenta\models\svg_vae\svg_utils.py,cmd_to_vector,"cmd_list, categorical=False",409,454,reference,454
+magenta,magenta\models\svg_vae\svg_utils.py,grouper,"iterable, batch_size, fill_value=None",46,50,reference,50
+magenta,magenta\pipelines\dag_pipeline.py,_get_inputs_for_unit,"self, unit, results, list_operation=itertools.product",546,575,reference,569
+magenta,magenta\pipelines\dag_pipeline.py,_get_inputs_for_unit,"self, unit, results, list_operation=itertools.product",546,575,reference,570
+magenta,magenta\pipelines\dag_pipeline.py,_get_inputs_for_unit,"self, unit, results, list_operation=itertools.product",546,575,reference,571
+magenta,magenta\pipelines\dag_pipeline.py,_get_inputs_for_unit,"self, unit, results, list_operation=itertools.product",546,575,reference,575
+magenta,magenta\pipelines\dag_pipeline.py,transform,"self, input_object",477,517,reference,506
+magenta,magenta\pipelines\dag_pipeline.py,transform,"self, input_object",477,517,reference,512
+magenta,magenta\pipelines\dag_pipeline.py,transform,"self, input_object",477,517,reference,491
+magenta,magenta\pipelines\dag_pipeline.py,transform,"self, input_object",477,517,reference,514
+magenta,magenta\pipelines\dag_pipeline.py,_join_lists_or_dicts,"self, outputs, unit",577,640,reference,640
+magenta,magenta\pipelines\dag_pipeline_test.py,testInvalidTransformOutputError,self,764,843,reference,839
+magenta,magenta\pipelines\dag_pipeline_test.py,testInvalidTransformOutputError,self,764,843,reference,839
+magenta,magenta\pipelines\dag_pipeline_test.py,testInvalidTransformOutputError,self,764,843,reference,840
+magenta,magenta\pipelines\pipeline_test.py,testInvalidTypeSignatureError,self,165,181,reference,179
+magenta,magenta\pipelines\pipeline_test.py,testInvalidTypeSignatureError,self,165,181,reference,181
+magenta,magenta\common\concurrency.py,serialized,func,22,31,getattr,27
+magenta,magenta\contrib\rnn.py,_hasattr,"obj, attr_name",31,37,getattr,33
+magenta,magenta\contrib\seq2seq.py,dynamic_decode,"decoder, output_time_major=False, impute_finished=False, maximum_iterations=None, parallel_iterations='32', swap_memory=False, scope=None, **kwargs",303,516,getattr,431
+magenta,magenta\interfaces\midi\midi_hub.py,__init__,"self, msg=None, **kwargs",111,151,delsubscript,118
+magenta,magenta\interfaces\midi\midi_hub.py,start_time,"self, value",473,483,delsubscript,483
+magenta,magenta\interfaces\midi\midi_hub.py,captured_sequence,"self, end_time=None",599,640,delsubscript,631
+magenta,magenta\interfaces\midi\midi_hub.py,cancel_callback,"self, name",762,773,delsubscript,773
+magenta,magenta\interfaces\midi\midi_hub.py,_capture_message,"self, msg",824,845,delsubscript,837
+magenta,magenta\interfaces\midi\midi_hub.py,_handle_message,"self, msg",972,1036,delsubscript,989
+magenta,magenta\interfaces\midi\midi_hub.py,_handle_message,"self, msg",972,1036,delsubscript,997
+magenta,magenta\interfaces\midi\midi_hub.py,wake_signal_waiters,"self, signal=None",1128,1140,delsubscript,1138
+magenta,magenta\models\coconet\coconet_train.py,_hparams_from_flags,,364,377,getattr,376
+magenta,magenta\models\coconet\lib_data.py,update_hparams,"self, hparams",128,131,getattr,131
+magenta,magenta\models\coconet\lib_hparams.py,_filter_and_check_legacy_hparams,"self, dikt",134,141,delsubscript,139
+magenta,magenta\models\coconet\lib_hparams.py,__str__,self,200,223,getattr,222
+magenta,magenta\models\coconet\lib_pianoroll.py,merge_held,notes,229,240,delsubscript,237
+magenta,magenta\models\latent_transfer\common_joint.py,restore_best,"self, saver_name, save_path, ckpt_filename_template",545,552,getattr,550
+magenta,magenta\models\music_vae\data.py,_extract_instrument,"note_sequence, instrument",94,99,delsubscript,96
+magenta,magenta\models\music_vae\data.py,_to_tensors_fn,"self, note_sequence",736,745,delsubscript,743
+magenta,magenta\models\music_vae\data.py,_to_tensors_fn,"self, note_sequence",840,911,delsubscript,860
+magenta,magenta\models\music_vae\data_test.py,filter_instrument,"sequence, instrument",40,46,delsubscript,43
+magenta,magenta\models\onsets_frames_transcription\audio_label_data_utils.py,mix_sequences,"individual_samples, sample_rate, individual_sequences",328,395,delsubscript,386
+magenta,magenta\models\onsets_frames_transcription\audio_transform.py,apply,"self, transformer",131,140,getattr,140
+magenta,magenta\models\onsets_frames_transcription\audio_transform.py,construct_pipeline,"hparams, pipeline",143,168,getattr,162
+magenta,magenta\models\onsets_frames_transcription\audio_transform.py,construct_pipeline,"hparams, pipeline",143,168,getattr,164
+magenta,magenta\models\performance_rnn\performance_sequence_generator.py,_generate,"self, input_sequence, generator_options",88,255,delsubscript,217
+magenta,magenta\models\performance_rnn\performance_sequence_generator.py,_generate,"self, input_sequence, generator_options",88,255,delsubscript,224
+magenta,magenta\models\piano_genie\configs.py,get_named_config,"name, overrides=None",424,453,getattr,440
+magenta,magenta\models\polyphony_rnn\polyphony_lib.py,trim_trailing_end_events,self,112,118,delsubscript,118
+magenta,magenta\models\polyphony_rnn\polyphony_lib.py,_trim_steps,"self, num_steps",126,138,delsubscript,132
+magenta,magenta\models\score2perf\datagen_beam.py,filter_invalid_notes,"min_pitch, max_pitch, kv",82,92,delsubscript,89
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",160,337,delsubscript,175
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",160,337,delsubscript,271
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",160,337,delsubscript,279
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",160,337,delsubscript,283
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",160,337,delsubscript,284
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",502,596,delsubscript,517
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",502,596,delsubscript,562
+magenta,magenta\models\score2perf\datagen_beam.py,process,"self, kv",502,596,delsubscript,589
+magenta,magenta\models\score2perf\music_encoders_test.py,testDecode,self,146,174,delsubscript,162
+magenta,magenta\models\score2perf\music_encoders_test.py,testDecode,self,146,174,delsubscript,163
+magenta,magenta\models\score2perf\score2perf.py,preprocess_example,"self, example, mode, hparams",224,268,delsubscript,230
+magenta,magenta\models\score2perf\transformer_autoencoder.py,_slow_greedy_infer,"self, features, decode_length",488,680,getattr,558
+magenta,magenta\models\svg_vae\glyphazzn.py,preprocess_example,"self, example, unused_mode, hparams",192,223,delsubscript,213
+magenta,magenta\pipelines\drum_pipelines_test.py,testExtractDrumTracksTooShort,self,125,150,delsubscript,137

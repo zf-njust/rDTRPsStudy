@@ -1,0 +1,10 @@
+1eed11b; (tag: refs/tags/v1.0);Sean Taylor;2021-03-29 10:11:38 -0700;Remove organization field from license
+77da5b8; (tag: refs/tags/v0.7);Ben Letham;2020-09-03 17:21:30 -0700;Update test to match Py
+8306ae3; (tag: refs/tags/0.6);Sean Taylor;2020-03-03 11:33:52 -0800;Updated changelog
+a087eae; (tag: refs/tags/v0.5);Ben Letham;2019-05-14 15:26:55 -0700;Fix FutureWarning in plotting by deregistering matplotlib converters (the future behavior). Also fix bad date formatting in non-daily plot that started came with change in matplotlib default in 3.0.2
+4345a90; (tag: refs/tags/v0.4);Sean J. Taylor;2018-12-21 09:31:10 -0800;Merge branch 'master' of github.com:facebook/prophet
+bd2542e; (tag: refs/tags/v0.3);Sean J. Taylor;2018-06-02 09:31:15 -0700;Post-release version due to bad package upload
+19b89c7; (tag: refs/tags/v0.2.1);Ben Letham;2017-11-09 11:31:02 -0800;Update README for new version
+a50da5e; (tag: refs/tags/v0.2);Sean J. Taylor;2017-09-12 12:36:07 -0700;Make paper link point to PeerJ instead of PDF + update Gems
+719d380; (tag: refs/tags/v0.1.1);Sean J. Taylor;2017-04-17 17:37:33 -0700;Add to the changelog / style change.
+e51b42b; (tag: refs/tags/v0.1);Sean J. Taylor;2017-02-22 15:59:43 -0800;Initial commit

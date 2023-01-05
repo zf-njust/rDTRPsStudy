@@ -1,0 +1,861 @@
+6395acf6; (tag: refs/tags/1.7.1.dev20220321);Streamlit Bot;2022-03-22 06:34:19 +0000;Update version and project name in files
+1a077677; (tag: refs/tags/1.7.1.dev20220320);Streamlit Bot;2022-03-21 06:34:19 +0000;Update version and project name in files
+4b0f39e6; (tag: refs/tags/1.7.1.dev20220319);Streamlit Bot;2022-03-20 06:34:58 +0000;Update version and project name in files
+bb1177f4; (tag: refs/tags/1.7.1.dev20220318);Streamlit Bot;2022-03-19 06:34:13 +0000;Update version and project name in files
+8663af5e; (tag: refs/tags/1.7.1.dev20220317);Streamlit Bot;2022-03-18 06:34:34 +0000;Update version and project name in files
+1a007665; (tag: refs/tags/1.7.1.dev20220316);Streamlit Bot;2022-03-17 06:33:50 +0000;Update version and project name in files
+0e7fac10; (tag: refs/tags/1.7.1.dev20220315);Streamlit Bot;2022-03-16 06:33:54 +0000;Update version and project name in files
+19700dc5; (tag: refs/tags/1.7.1.dev20220314);Streamlit Bot;2022-03-15 06:34:12 +0000;Update version and project name in files
+94ee9881; (tag: refs/tags/1.7.1.dev20220313);Streamlit Bot;2022-03-14 06:34:14 +0000;Update version and project name in files
+6ed5fc95; (tag: refs/tags/1.7.1.dev20220312);Streamlit Bot;2022-03-13 06:34:48 +0000;Update version and project name in files
+1de07888; (tag: refs/tags/1.7.1.dev20220311);Streamlit Bot;2022-03-12 06:33:54 +0000;Update version and project name in files
+0c5438ed; (tag: refs/tags/1.7.1.dev20220310);Streamlit Bot;2022-03-11 06:34:24 +0000;Update version and project name in files
+f8862fe5; (tag: refs/tags/1.7.1.dev20220309);Streamlit Bot;2022-03-10 06:34:18 +0000;Update version and project name in files
+302fd390; (tag: refs/tags/1.7.1.dev20220308);Streamlit Bot;2022-03-09 06:34:05 +0000;Update version and project name in files
+26c6de8d; (tag: refs/tags/1.7.1.dev20220307);Streamlit Bot;2022-03-08 06:34:47 +0000;Update version and project name in files
+ac9f5b15; (tag: refs/tags/1.7.1.dev20220306);Streamlit Bot;2022-03-07 06:34:24 +0000;Update version and project name in files
+c28a3ace; (tag: refs/tags/1.7.1.dev20220305);Streamlit Bot;2022-03-06 06:34:58 +0000;Update version and project name in files
+1aef202b; (tag: refs/tags/1.7.1.dev20220304);Streamlit Bot;2022-03-05 06:35:10 +0000;Update version and project name in files
+6aeda86a; (tag: refs/tags/1.7.1.dev20220303);Streamlit Bot;2022-03-04 06:35:44 +0000;Update version and project name in files
+54208f39; (tag: refs/tags/1.7.1.dev20220302);Streamlit Bot;2022-03-03 06:34:57 +0000;Update version and project name in files
+a3f1cef8; (tag: refs/tags/1.7.0);Emily Morehouse;2022-03-01 11:13:03 -0700;[STLT-25] 🔄 (CircleCI Test Pipeline) Add cli-regression to default CI runs (#4450)
+7ade3b3b; (tag: refs/tags/1.6.1.dev20220301);Streamlit Bot;2022-03-02 06:34:38 +0000;Update version and project name in files
+6aca775c; (tag: refs/tags/1.6.1.dev20220228);Streamlit Bot;2022-03-01 06:35:16 +0000;Update version and project name in files
+556376f5; (tag: refs/tags/1.6.0);Emily Morehouse;2022-02-24 14:54:15 -0700;[STLT-13] 🚑 (CircleCI Release Pipeline) Update required job deps to run on release tag... again again
+68c16b35; (tag: refs/tags/1.5.2.dev20220223);Streamlit Bot;2022-02-24 06:34:38 +0000;Update version and project name in files
+be879731; (tag: refs/tags/1.5.2.dev20220222);Streamlit Bot;2022-02-23 06:35:40 +0000;Update version and project name in files
+3bd39128; (tag: refs/tags/1.5.2.dev20220221);Streamlit Bot;2022-02-22 06:34:24 +0000;Update version and project name in files
+e4299df1; (tag: refs/tags/1.5.2.dev20220220);Streamlit Bot;2022-02-21 06:34:12 +0000;Update version and project name in files
+92a01d68; (tag: refs/tags/1.5.2.dev20220219);Streamlit Bot;2022-02-20 06:34:47 +0000;Update version and project name in files
+1d366df8; (tag: refs/tags/1.5.2.dev20220218);Streamlit Bot;2022-02-19 06:34:30 +0000;Update version and project name in files
+7478df09; (tag: refs/tags/1.5.2.dev20220217);Streamlit Bot;2022-02-18 06:37:20 +0000;Update version and project name in files
+3708464e; (tag: refs/tags/1.5.2.dev20220216);Streamlit Bot;2022-02-17 06:34:56 +0000;Update version and project name in files
+e466a50d; (tag: refs/tags/1.5.2.dev20220215);Streamlit Bot;2022-02-16 06:34:22 +0000;Update version and project name in files
+8326f3b3; (tag: refs/tags/1.5.2.dev20220214);Streamlit Bot;2022-02-15 06:34:35 +0000;Update version and project name in files
+c5602683; (tag: refs/tags/1.5.2.dev20220213);Streamlit Bot;2022-02-14 06:34:53 +0000;Update version and project name in files
+e7d21cc7; (tag: refs/tags/1.5.2.dev20220212);Streamlit Bot;2022-02-13 06:34:18 +0000;Update version and project name in files
+f7275c39; (tag: refs/tags/1.5.2.dev20220211);Streamlit Bot;2022-02-12 06:34:08 +0000;Update version and project name in files
+01df7db1; (tag: refs/tags/1.5.2.dev20220210);Streamlit Bot;2022-02-11 06:34:24 +0000;Update version and project name in files
+8896d4bb; (tag: refs/tags/1.5.2.dev20220209);Streamlit Bot;2022-02-10 06:34:58 +0000;Update version and project name in files
+fcd70b55; (tag: refs/tags/1.5.1.dev20220208);Streamlit Bot;2022-02-09 06:35:24 +0000;Update version and project name in files
+c245469a; (tag: refs/tags/1.5.1);Ken McGrady;2022-02-08 07:56:22 -0800;Merge branch 'develop' into release/1.5.1
+e444687d; (tag: refs/tags/1.5.1.dev20220207);Streamlit Bot;2022-02-08 06:34:27 +0000;Update version and project name in files
+09eacd84; (tag: refs/tags/1.5.1.dev20220206);Streamlit Bot;2022-02-07 06:34:35 +0000;Update version and project name in files
+b166d817; (tag: refs/tags/1.5.1.dev20220205);Streamlit Bot;2022-02-06 06:37:11 +0000;Update version and project name in files
+1d93ed26; (tag: refs/tags/1.5.1.dev20220204);Streamlit Bot;2022-02-05 06:36:26 +0000;Update version and project name in files
+c5efb060; (tag: refs/tags/1.5.1.dev20220203);Streamlit Bot;2022-02-04 06:35:28 +0000;Update version and project name in files
+e80bbe21; (tag: refs/tags/1.5.1.dev20220202);Streamlit Bot;2022-02-03 06:34:23 +0000;Update version and project name in files
+252477a2; (tag: refs/tags/1.5.1.dev20220201);Streamlit Bot;2022-02-02 06:35:51 +0000;Update version and project name in files
+e359c167; (tag: refs/tags/1.5.1.dev20220131);Streamlit Bot;2022-02-01 06:34:29 +0000;Update version and project name in files
+9f7ef6d9; (tag: refs/tags/1.5.1.dev20220130);Streamlit Bot;2022-01-31 06:34:37 +0000;Update version and project name in files
+877f31cb; (tag: refs/tags/1.5.1.dev20220129);Streamlit Bot;2022-01-30 06:34:04 +0000;Update version and project name in files
+dafb466a; (tag: refs/tags/1.5.1.dev20220128);Streamlit Bot;2022-01-29 06:34:18 +0000;Update version and project name in files
+31cedcc7; (tag: refs/tags/1.5.1.dev20220127);Streamlit Bot;2022-01-28 06:34:51 +0000;Update version and project name in files
+f2782089; (tag: refs/tags/1.4.1.dev20220126);Streamlit Bot;2022-01-27 06:34:27 +0000;Update version and project name in files
+845e15ef; (tag: refs/tags/1.4.1.dev20220125);Streamlit Bot;2022-01-26 06:34:41 +0000;Update version and project name in files
+7c7a5f39; (tag: refs/tags/1.5.0);Ken McGrady;2022-01-25 17:34:53 -0800;Up version to 1.5.0
+263a8cfd; (tag: refs/tags/1.4.1.dev20220124);Streamlit Bot;2022-01-25 06:34:37 +0000;Update version and project name in files
+9d344e3f; (tag: refs/tags/1.4.1.dev20220123);Streamlit Bot;2022-01-24 06:35:03 +0000;Update version and project name in files
+58d020d7; (tag: refs/tags/1.4.1.dev20220122);Streamlit Bot;2022-01-23 06:37:08 +0000;Update version and project name in files
+10227d92; (tag: refs/tags/1.4.1.dev20220121);Streamlit Bot;2022-01-22 06:36:24 +0000;Update version and project name in files
+b84c5ef1; (tag: refs/tags/1.4.1.dev20220120);Streamlit Bot;2022-01-21 06:34:33 +0000;Update version and project name in files
+509548d7; (tag: refs/tags/1.4.1.dev20220119);Streamlit Bot;2022-01-20 06:34:46 +0000;Update version and project name in files
+b29cd37c; (tag: refs/tags/1.4.1.dev20220118);Streamlit Bot;2022-01-19 06:34:33 +0000;Update version and project name in files
+3c9182c3; (tag: refs/tags/1.4.1.dev20220117);Streamlit Bot;2022-01-18 06:35:12 +0000;Update version and project name in files
+ccea08f4; (tag: refs/tags/1.4.1.dev20220116);Streamlit Bot;2022-01-17 06:34:06 +0000;Update version and project name in files
+6c8e6523; (tag: refs/tags/1.4.1.dev20220115);Streamlit Bot;2022-01-16 06:35:30 +0000;Update version and project name in files
+4f262d6f; (tag: refs/tags/1.4.1.dev20220114);Streamlit Bot;2022-01-15 06:34:35 +0000;Update version and project name in files
+7f4c8b4b; (tag: refs/tags/1.4.1.dev20220113);Streamlit Bot;2022-01-14 06:34:58 +0000;Update version and project name in files
+84d8b591; (tag: refs/tags/1.3.2.dev20220112);Streamlit Bot;2022-01-13 06:35:08 +0000;Update version and project name in files
+4c136b89; (tag: refs/tags/1.3.2.dev20220111);Streamlit Bot;2022-01-12 06:34:22 +0000;Update version and project name in files
+ab7c3396; (tag: refs/tags/1.4.0);Tim Conkling;2022-01-11 11:00:50 -0800;st.memo.clear() and st.singleton.clear() public APIs (#4263)
+18447dea; (tag: refs/tags/1.3.2.dev20220110);Streamlit Bot;2022-01-11 06:34:25 +0000;Update version and project name in files
+af88572c; (tag: refs/tags/1.3.2.dev20220109);Streamlit Bot;2022-01-10 06:34:11 +0000;Update version and project name in files
+a3d22d7a; (tag: refs/tags/1.3.2.dev20220108);Streamlit Bot;2022-01-09 06:34:09 +0000;Update version and project name in files
+968e63ab; (tag: refs/tags/1.3.2.dev20220107);Streamlit Bot;2022-01-08 06:37:30 +0000;Update version and project name in files
+e63a31cc; (tag: refs/tags/1.3.2.dev20220106);Streamlit Bot;2022-01-07 06:34:37 +0000;Update version and project name in files
+b9fd400f; (tag: refs/tags/1.3.2.dev20220105);Streamlit Bot;2022-01-06 06:34:38 +0000;Update version and project name in files
+67e77dc9; (tag: refs/tags/1.3.2.dev20220104);Streamlit Bot;2022-01-05 06:34:42 +0000;Update version and project name in files
+e3887fcd; (tag: refs/tags/1.3.2.dev20220103);CircleCI;2022-01-04 06:34:45 +0000;Update version and project name in files
+3bf7f4d1; (tag: refs/tags/1.3.2.dev20220102);CircleCI;2022-01-03 06:36:17 +0000;Update version and project name in files
+b54e4f96; (tag: refs/tags/1.3.2.dev20220101);CircleCI;2022-01-02 06:37:13 +0000;Update version and project name in files
+4b4859b6; (tag: refs/tags/1.3.2.dev20211231);CircleCI;2022-01-01 06:36:13 +0000;Update version and project name in files
+eedf9e72; (tag: refs/tags/1.3.2.dev20211230);CircleCI;2021-12-31 06:34:21 +0000;Update version and project name in files
+fdc53445; (tag: refs/tags/1.3.2.dev20211229);CircleCI;2021-12-30 06:34:48 +0000;Update version and project name in files
+d218bf24; (tag: refs/tags/1.3.2.dev20211228);CircleCI;2021-12-29 06:34:48 +0000;Update version and project name in files
+212b8462; (tag: refs/tags/1.3.1.dev20211227);CircleCI;2021-12-28 06:34:39 +0000;Update version and project name in files
+a1019c04; (tag: refs/tags/1.3.1);Ken McGrady;2021-12-27 15:08:30 -0800;Up version to 1.3.1
+655e6f37; (tag: refs/tags/1.3.1.dev20211226);CircleCI;2021-12-27 06:35:13 +0000;Update version and project name in files
+5bd7c85b; (tag: refs/tags/1.3.1.dev20211225);CircleCI;2021-12-26 06:34:32 +0000;Update version and project name in files
+77357bc7; (tag: refs/tags/1.3.1.dev20211224);CircleCI;2021-12-25 06:35:17 +0000;Update version and project name in files
+547a3289; (tag: refs/tags/1.3.1.dev20211223);CircleCI;2021-12-24 06:34:52 +0000;Update version and project name in files
+0fe36432; (tag: refs/tags/1.3.1.dev20211222);CircleCI;2021-12-23 06:34:25 +0000;Update version and project name in files
+b2bb0b8b; (tag: refs/tags/1.3.1.dev20211221);CircleCI;2021-12-22 06:34:59 +0000;Update version and project name in files
+dd9dbee5; (tag: refs/tags/1.3.1.dev20211220);CircleCI;2021-12-21 06:34:30 +0000;Update version and project name in files
+c3fe05c2; (tag: refs/tags/1.3.1.dev20211219);CircleCI;2021-12-20 06:35:16 +0000;Update version and project name in files
+c6f3dfcb; (tag: refs/tags/1.3.1.dev20211218);CircleCI;2021-12-19 06:36:00 +0000;Update version and project name in files
+fa50d096; (tag: refs/tags/1.3.1.dev20211217);CircleCI;2021-12-18 06:34:12 +0000;Update version and project name in files
+52b44310; (tag: refs/tags/1.3.1.dev20211216);CircleCI;2021-12-17 06:34:31 +0000;Update version and project name in files
+6db9de2c; (tag: refs/tags/1.3.0);Ken McGrady;2021-12-16 12:00:26 -0800;Up version to 1.3.0
+38fc326c; (tag: refs/tags/1.2.1.dev20211215);CircleCI;2021-12-16 06:34:36 +0000;Update version and project name in files
+c7081eec; (tag: refs/tags/1.2.1.dev20211214);CircleCI;2021-12-15 06:34:45 +0000;Update version and project name in files
+b316f702; (tag: refs/tags/1.2.1.dev20211213);CircleCI;2021-12-14 06:32:12 +0000;Update version and project name in files
+605dae2d; (tag: refs/tags/1.2.1.dev20211212);CircleCI;2021-12-13 06:34:24 +0000;Update version and project name in files
+f24aeba4; (tag: refs/tags/1.2.1.dev20211211);CircleCI;2021-12-12 06:34:35 +0000;Update version and project name in files
+64dfb768; (tag: refs/tags/1.2.1.dev20211210);CircleCI;2021-12-11 06:32:13 +0000;Update version and project name in files
+a5087d79; (tag: refs/tags/1.2.1.dev20211209);CircleCI;2021-12-10 06:32:19 +0000;Update version and project name in files
+440a1f3c; (tag: refs/tags/1.2.1.dev20211208);CircleCI;2021-12-09 06:34:42 +0000;Update version and project name in files
+3308d974; (tag: refs/tags/1.2.1.dev20211207);CircleCI;2021-12-08 06:32:31 +0000;Update version and project name in files
+9252e8c5; (tag: refs/tags/1.2.1.dev202112062);Amanda Walker;2021-12-07 13:41:00 -0800;Revert "Revert "Run CI release build only on nightly tag pushes""
+e9ae4c6d; (tag: refs/tags/1.2.1.dev20211206-citest);Amanda Walker;2021-12-07 13:05:53 -0800;Run CI release build only on nightly tag pushes
+b8473240; (tag: refs/tags/1.2.1.dev20211206);CircleCI;2021-12-07 06:32:30 +0000;Update version and project name in files
+033c34d1; (tag: refs/tags/1.2.1.dev20211205);CircleCI;2021-12-06 06:32:30 +0000;Update version and project name in files
+da304e9a; (tag: refs/tags/1.2.1.dev20211204);CircleCI;2021-12-05 06:35:33 +0000;Update version and project name in files
+5fe3607f; (tag: refs/tags/1.2.1.dev20211203);CircleCI;2021-12-04 06:32:37 +0000;Update version and project name in files
+ebe63b13; (tag: refs/tags/1.2.1.dev20211202);CircleCI;2021-12-03 06:33:08 +0000;Update version and project name in files
+e024b713; (tag: refs/tags/1.2.1.dev20211201);CircleCI;2021-12-02 06:34:58 +0000;Update version and project name in files
+45d67dd6; (tag: refs/tags/1.2.1.dev20211130);CircleCI;2021-12-01 06:34:38 +0000;Update version and project name in files
+2805a710; (tag: refs/tags/1.2.1.dev20211129);CircleCI;2021-11-30 06:33:34 +0000;Update version and project name in files
+dbe36b4c; (tag: refs/tags/1.2.1.dev20211128);CircleCI;2021-11-29 06:33:03 +0000;Update version and project name in files
+b97a8f31; (tag: refs/tags/1.2.1.dev20211127);CircleCI;2021-11-28 06:34:05 +0000;Update version and project name in files
+44bf8626; (tag: refs/tags/1.2.1.dev20211126);CircleCI;2021-11-27 06:33:26 +0000;Update version and project name in files
+0411a889; (tag: refs/tags/1.2.1.dev20211125);CircleCI;2021-11-26 06:34:47 +0000;Update version and project name in files
+004c08ac; (tag: refs/tags/1.2.1.dev20211124);CircleCI;2021-11-25 06:33:27 +0000;Update version and project name in files
+2a434fba; (tag: refs/tags/1.2.1.dev20211123);CircleCI;2021-11-24 06:35:22 +0000;Update version and project name in files
+958b51c6; (tag: refs/tags/1.2.1.dev20211122);CircleCI;2021-11-23 06:33:15 +0000;Update version and project name in files
+3b63c518; (tag: refs/tags/1.2.1.dev20211121);CircleCI;2021-11-22 06:32:15 +0000;Update version and project name in files
+b13d5d95; (tag: refs/tags/1.2.1.dev20211120);CircleCI;2021-11-21 06:34:23 +0000;Update version and project name in files
+2d3808d3; (tag: refs/tags/1.2.1.dev20211119);CircleCI;2021-11-20 06:32:23 +0000;Update version and project name in files
+f36a1efb; (tag: refs/tags/1.2.1.dev20211118);CircleCI;2021-11-19 06:34:13 +0000;Update version and project name in files
+dcde3f8b; (tag: refs/tags/1.2.1.dev20211117);CircleCI;2021-11-18 06:35:00 +0000;Update version and project name in files
+4b3a106f; (tag: refs/tags/1.2.1.dev20211116);CircleCI;2021-11-17 06:32:24 +0000;Update version and project name in files
+8e453862; (tag: refs/tags/1.2.1.dev20211115);CircleCI;2021-11-16 06:36:39 +0000;Update version and project name in files
+dd06fa0c; (tag: refs/tags/1.2.1.dev20211114);CircleCI;2021-11-15 06:34:02 +0000;Update version and project name in files
+a36d0c84; (tag: refs/tags/1.2.1.dev20211113);CircleCI;2021-11-14 06:34:49 +0000;Update version and project name in files
+89fe088b; (tag: refs/tags/1.2.1.dev20211112);CircleCI;2021-11-13 06:34:29 +0000;Update version and project name in files
+595dc5dc; (tag: refs/tags/1.2.1.dev20211111);CircleCI;2021-11-12 06:32:11 +0000;Update version and project name in files
+ff5b6e08; (tag: refs/tags/1.1.1.dev20211110);CircleCI;2021-11-11 06:35:07 +0000;Update version and project name in files
+1ddddb20; (tag: refs/tags/1.2.0);Ken McGrady;2021-11-10 15:55:04 -0800;Up version to 1.2.0
+47b91495; (tag: refs/tags/1.1.1.dev20211109);CircleCI;2021-11-10 06:32:24 +0000;Update version and project name in files
+45b51250; (tag: refs/tags/1.1.1.dev20211108);CircleCI;2021-11-09 06:32:18 +0000;Update version and project name in files
+835986be; (tag: refs/tags/1.1.1.dev20211107);CircleCI;2021-11-08 06:34:06 +0000;Update version and project name in files
+ba4abec9; (tag: refs/tags/1.1.1.dev20211106);CircleCI;2021-11-07 06:36:06 +0000;Update version and project name in files
+1c527093; (tag: refs/tags/1.1.1.dev20211105);CircleCI;2021-11-06 06:35:09 +0000;Update version and project name in files
+cc4cfc19; (tag: refs/tags/1.1.1.dev20211104);CircleCI;2021-11-05 06:32:09 +0000;Update version and project name in files
+3864dabf; (tag: refs/tags/1.1.1.dev20211103);CircleCI;2021-11-04 06:32:26 +0000;Update version and project name in files
+a1e3a74d; (tag: refs/tags/1.1.1.dev20211102);CircleCI;2021-11-03 06:32:13 +0000;Update version and project name in files
+2670d0c2; (tag: refs/tags/1.1.1.dev20211101);CircleCI;2021-11-02 06:35:04 +0000;Update version and project name in files
+49682c64; (tag: refs/tags/1.1.1.dev20211031);CircleCI;2021-11-01 06:35:28 +0000;Update version and project name in files
+f52c69b6; (tag: refs/tags/1.1.1.dev20211030);CircleCI;2021-10-31 06:35:15 +0000;Update version and project name in files
+751b0c65; (tag: refs/tags/1.1.1.dev20211029);CircleCI;2021-10-30 06:36:28 +0000;Update version and project name in files
+3d154b4c; (tag: refs/tags/1.1.1.dev20211028);CircleCI;2021-10-29 06:34:36 +0000;Update version and project name in files
+91328ebe; (tag: refs/tags/1.1.1.dev20211027);CircleCI;2021-10-28 06:34:52 +0000;Update version and project name in files
+065ffce6; (tag: refs/tags/1.1.1.dev20211026);CircleCI;2021-10-27 06:33:04 +0000;Update version and project name in files
+2ab2a862; (tag: refs/tags/1.1.1.dev20211025);CircleCI;2021-10-26 06:33:39 +0000;Update version and project name in files
+32ab51fb; (tag: refs/tags/1.1.1.dev20211024);CircleCI;2021-10-25 06:34:58 +0000;Update version and project name in files
+733ac408; (tag: refs/tags/1.1.1.dev20211023);CircleCI;2021-10-24 06:36:32 +0000;Update version and project name in files
+1d76c920; (tag: refs/tags/1.1.1.dev20211022);CircleCI;2021-10-23 06:32:26 +0000;Update version and project name in files
+3d11e535; (tag: refs/tags/1.1.1.dev20211021);CircleCI;2021-10-22 06:33:32 +0000;Update version and project name in files
+e6cd0894; (tag: refs/tags/1.1.0);Ken McGrady;2021-10-21 10:05:30 -0700;Up version of component-lib
+37e7edec; (tag: refs/tags/1.0.1.dev20211020);CircleCI;2021-10-21 06:32:32 +0000;Update version and project name in files
+4502d994; (tag: refs/tags/1.0.1.dev20211019);CircleCI;2021-10-20 06:32:08 +0000;Update version and project name in files
+f7eb1a73; (tag: refs/tags/1.0.1.dev20211018);CircleCI;2021-10-19 06:31:59 +0000;Update version and project name in files
+468c05cb; (tag: refs/tags/1.0.1.dev20211017);CircleCI;2021-10-18 06:35:11 +0000;Update version and project name in files
+8e57917a; (tag: refs/tags/1.0.1.dev20211016);CircleCI;2021-10-17 06:34:36 +0000;Update version and project name in files
+f77f818d; (tag: refs/tags/1.0.1.dev20211015);CircleCI;2021-10-16 06:31:53 +0000;Update version and project name in files
+e0739efb; (tag: refs/tags/1.0.1.dev20211014);CircleCI;2021-10-15 06:34:54 +0000;Update version and project name in files
+a328e75a; (tag: refs/tags/1.0.1.dev20211013);CircleCI;2021-10-14 06:32:36 +0000;Update version and project name in files
+5f12483d; (tag: refs/tags/1.0.1.dev20211012);CircleCI;2021-10-13 06:32:24 +0000;Update version and project name in files
+9d0a6691; (tag: refs/tags/1.0.1.dev20211011);CircleCI;2021-10-12 06:34:58 +0000;Update version and project name in files
+785407fd; (tag: refs/tags/1.0.1.dev20211010);CircleCI;2021-10-11 06:35:15 +0000;Update version and project name in files
+28433dfa; (tag: refs/tags/1.0.1.dev20211009);CircleCI;2021-10-10 06:34:12 +0000;Update version and project name in files
+37baf9d6; (tag: refs/tags/1.0.1.dev20211008);CircleCI;2021-10-09 06:34:05 +0000;Update version and project name in files
+92804e34; (tag: refs/tags/1.0.1.dev20211007);CircleCI;2021-10-08 06:35:04 +0000;Update version and project name in files
+83be810d; (tag: refs/tags/1.0.1.dev20211006);CircleCI;2021-10-07 06:32:30 +0000;Update version and project name in files
+314b724e; (tag: refs/tags/1.0.1.dev20211005);CircleCI;2021-10-06 06:32:43 +0000;Update version and project name in files
+67c90f7f; (tag: refs/tags/1.0.1.dev20211004);CircleCI;2021-10-05 06:32:35 +0000;Update version and project name in files
+e819062f; (tag: refs/tags/1.0.0);Ken McGrady;2021-10-04 16:56:02 -0700;Update change log
+204f1531; (tag: refs/tags/0.89.1.dev20211003);CircleCI;2021-10-04 06:36:32 +0000;Update version and project name in files
+c051ea34; (tag: refs/tags/0.89.1.dev20211002);CircleCI;2021-10-03 06:38:13 +0000;Update version and project name in files
+2e42e1a1; (tag: refs/tags/0.89.1.dev20211001);CircleCI;2021-10-02 06:34:47 +0000;Update version and project name in files
+cd4af6fe; (tag: refs/tags/0.89.1.dev20210930);CircleCI;2021-10-01 06:34:10 +0000;Update version and project name in files
+4a1530b7; (tag: refs/tags/0.89.1.dev20210929);CircleCI;2021-09-30 06:34:58 +0000;Update version and project name in files
+d0548cff; (tag: refs/tags/0.89.1.dev20210928);CircleCI;2021-09-29 06:34:35 +0000;Update version and project name in files
+77b7c74c; (tag: refs/tags/0.89.1.dev20210927);CircleCI;2021-09-27 11:41:31 +0000;Update version and project name in files
+ce9b00dd; (tag: refs/tags/0.89.1.dev20210925);CircleCI;2021-09-26 06:35:49 +0000;Update version and project name in files
+cee9d46a; (tag: refs/tags/0.89.1.dev20210924);CircleCI;2021-09-25 06:35:44 +0000;Update version and project name in files
+54857293; (tag: refs/tags/0.89.1.dev20210923);CircleCI;2021-09-24 06:32:14 +0000;Update version and project name in files
+18846e07; (tag: refs/tags/0.89.1.dev20210922);CircleCI;2021-09-23 06:32:24 +0000;Update version and project name in files
+4b964af5; (tag: refs/tags/0.89.0);Ken McGrady;2021-09-22 09:14:19 -0700;Update component-lib version
+f62f4eca; (tag: refs/tags/0.88.1.dev20210921);CircleCI;2021-09-22 06:32:30 +0000;Update version and project name in files
+83bad633; (tag: refs/tags/0.88.1.dev20210920);CircleCI;2021-09-21 06:32:17 +0000;Update version and project name in files
+c001ef16; (tag: refs/tags/0.88.1.dev20210919);CircleCI;2021-09-20 06:34:48 +0000;Update version and project name in files
+d7445cec; (tag: refs/tags/0.88.1.dev20210918);CircleCI;2021-09-19 06:35:09 +0000;Update version and project name in files
+803a702a; (tag: refs/tags/0.88.1.dev20210917);CircleCI;2021-09-18 06:32:27 +0000;Update version and project name in files
+2d6bd056; (tag: refs/tags/0.88.1.dev20210916);CircleCI;2021-09-17 06:32:18 +0000;Update version and project name in files
+1772044e; (tag: refs/tags/0.88.1.dev20210915);CircleCI;2021-09-16 06:32:20 +0000;Update version and project name in files
+92ff6ec6; (tag: refs/tags/0.88.1.dev20210914);CircleCI;2021-09-15 06:33:04 +0000;Update version and project name in files
+cc21af3d; (tag: refs/tags/0.88.1.dev20210913);CircleCI;2021-09-14 06:32:27 +0000;Update version and project name in files
+fa0d3343; (tag: refs/tags/0.88.1.dev20210912);CircleCI;2021-09-13 06:34:32 +0000;Update version and project name in files
+716048de; (tag: refs/tags/0.88.1.dev20210911);CircleCI;2021-09-12 06:36:35 +0000;Update version and project name in files
+8ac3cfd9; (tag: refs/tags/0.88.1.dev20210910);CircleCI;2021-09-11 06:32:21 +0000;Update version and project name in files
+d906e3b6; (tag: refs/tags/0.88.1.dev20210909);CircleCI;2021-09-10 06:32:34 +0000;Update version and project name in files
+c366d79d; (tag: refs/tags/0.88.1.dev20210908);CircleCI;2021-09-09 06:32:37 +0000;Update version and project name in files
+3861d8b2; (tag: refs/tags/0.88.1.dev20210907);CircleCI;2021-09-08 06:32:20 +0000;Update version and project name in files
+50a37ccf; (tag: refs/tags/0.88.1.dev20210906);CircleCI;2021-09-07 06:35:18 +0000;Update version and project name in files
+debbe131; (tag: refs/tags/0.88.1.dev20210905);CircleCI;2021-09-06 06:35:11 +0000;Update version and project name in files
+b108c95b; (tag: refs/tags/0.88.1.dev20210904);CircleCI;2021-09-05 06:35:58 +0000;Update version and project name in files
+f5a418be; (tag: refs/tags/0.88.1.dev20210903);CircleCI;2021-09-04 06:35:35 +0000;Update version and project name in files
+98c81c49; (tag: refs/tags/0.88.1.dev20210902);CircleCI;2021-09-03 06:33:24 +0000;Update version and project name in files
+f66c53a3; (tag: refs/tags/0.88.0);Ken McGrady;2021-09-02 15:20:19 -0700;Up version to 0.88.0
+37a8cdfc; (tag: refs/tags/0.87.1.dev20210901);CircleCI;2021-09-02 06:32:47 +0000;Update version and project name in files
+8da68d98; (tag: refs/tags/0.87.1.dev20210831);CircleCI;2021-09-01 06:35:28 +0000;Update version and project name in files
+6f793e43; (tag: refs/tags/0.87.1.dev20210830);CircleCI;2021-08-31 06:32:34 +0000;Update version and project name in files
+ae8ce98e; (tag: refs/tags/0.87.1.dev20210829);CircleCI;2021-08-30 06:35:15 +0000;Update version and project name in files
+712dd671; (tag: refs/tags/0.87.1.dev20210828);CircleCI;2021-08-29 06:34:49 +0000;Update version and project name in files
+3b63275e; (tag: refs/tags/0.87.1.dev20210827);CircleCI;2021-08-28 06:32:31 +0000;Update version and project name in files
+e8b1481c; (tag: refs/tags/0.87.1.dev20210826);CircleCI;2021-08-27 06:35:12 +0000;Update version and project name in files
+ab21ea1e; (tag: refs/tags/0.87.1.dev20210825);CircleCI;2021-08-26 06:33:21 +0000;Update version and project name in files
+b21e7f0a; (tag: refs/tags/0.87.1.dev20210824);CircleCI;2021-08-25 06:32:41 +0000;Update version and project name in files
+4cd22c14; (tag: refs/tags/0.87.1.dev20210823);CircleCI;2021-08-24 06:31:51 +0000;Update version and project name in files
+e01da1b3; (tag: refs/tags/0.87.0);Snehan Kekre;2021-08-23 18:33:45 +0530;Adds static embedded apps for st.metric to docs (#3725)
+8feea357; (tag: refs/tags/0.87.1.dev20210822);CircleCI;2021-08-23 06:32:20 +0000;Update version and project name in files
+921876f4; (tag: refs/tags/0.87.1.dev20210821);CircleCI;2021-08-22 06:34:01 +0000;Update version and project name in files
+e06b29ca; (tag: refs/tags/0.87.1.dev20210820);CircleCI;2021-08-21 06:34:08 +0000;Update version and project name in files
+e2ef2a3d; (tag: refs/tags/0.87.1.dev20210819);CircleCI;2021-08-20 06:35:41 +0000;Update version and project name in files
+0e1d8e59; (tag: refs/tags/0.86.1.dev20210818);CircleCI;2021-08-19 06:34:17 +0000;Update version and project name in files
+531407da; (tag: refs/tags/0.86.1.dev20210817);CircleCI;2021-08-18 06:34:14 +0000;Update version and project name in files
+fbe40f43; (tag: refs/tags/0.86.1.dev20210816);CircleCI;2021-08-17 06:32:14 +0000;Update version and project name in files
+50be346d; (tag: refs/tags/0.86.1.dev20210813);CircleCI;2021-08-14 06:31:59 +0000;Update version and project name in files
+522ae05a; (tag: refs/tags/0.86.1.dev20210812);CircleCI;2021-08-13 06:36:52 +0000;Update version and project name in files
+727c719e; (tag: refs/tags/0.86.1.dev20210811);CircleCI;2021-08-12 06:32:24 +0000;Update version and project name in files
+8bce8368; (tag: refs/tags/0.86.1.dev20210810);CircleCI;2021-08-11 06:32:45 +0000;Update version and project name in files
+5d9e0c70; (tag: refs/tags/0.86.1.dev20210809);CircleCI;2021-08-10 06:35:50 +0000;Update version and project name in files
+cd82322d; (tag: refs/tags/0.86.1.dev20210808);CircleCI;2021-08-09 06:32:29 +0000;Update version and project name in files
+51485c0e; (tag: refs/tags/0.86.1.dev20210807);CircleCI;2021-08-08 06:34:37 +0000;Update version and project name in files
+66f7b553; (tag: refs/tags/0.86.1.dev20210806);CircleCI;2021-08-07 06:32:44 +0000;Update version and project name in files
+5e9697e4; (tag: refs/tags/0.86.1.dev20210805);CircleCI;2021-08-06 06:32:49 +0000;Update version and project name in files
+594ed389; (tag: refs/tags/0.86.0);Ken McGrady;2021-08-05 15:53:14 -0700;Up version to 0.86.0
+62471a86; (tag: refs/tags/0.85.2.dev20210804);CircleCI;2021-08-05 06:32:49 +0000;Update version and project name in files
+c6f00cc0; (tag: refs/tags/0.85.2.dev20210803);CircleCI;2021-08-04 06:34:27 +0000;Update version and project name in files
+9879d92b; (tag: refs/tags/0.85.2.dev20210802);CircleCI;2021-08-03 06:32:31 +0000;Update version and project name in files
+abe5a78e; (tag: refs/tags/0.85.2.dev20210801);CircleCI;2021-08-02 06:34:32 +0000;Update version and project name in files
+5838ca66; (tag: refs/tags/0.85.2.dev20210731);CircleCI;2021-08-01 06:34:43 +0000;Update version and project name in files
+2e3b46cf; (tag: refs/tags/0.85.2.dev20210730);CircleCI;2021-07-31 06:35:12 +0000;Update version and project name in files
+32b022c2; (tag: refs/tags/0.85.2.dev20210729);CircleCI;2021-07-30 06:32:54 +0000;Update version and project name in files
+bfe7d1a4; (tag: refs/tags/0.85.2.dev20210728);CircleCI;2021-07-29 06:32:11 +0000;Update version and project name in files
+e185a26b; (tag: refs/tags/0.85.2.dev20210727);CircleCI;2021-07-28 06:34:48 +0000;Update version and project name in files
+9a56c857; (tag: refs/tags/0.85.1.dev20210726);CircleCI;2021-07-27 06:32:11 +0000;Update version and project name in files
+580b6b99; (tag: refs/tags/0.85.1);Ken McGrady;2021-07-26 17:22:07 -0700;Up version to 0.85.1
+515e6b61; (tag: refs/tags/0.85.1.dev20210725);CircleCI;2021-07-26 06:34:43 +0000;Update version and project name in files
+f5aa8d4e; (tag: refs/tags/0.85.1.dev20210724);CircleCI;2021-07-25 06:34:08 +0000;Update version and project name in files
+ce32dab4; (tag: refs/tags/0.85.1.dev20210723);CircleCI;2021-07-24 06:32:42 +0000;Update version and project name in files
+260ae440; (tag: refs/tags/0.85.1.dev20210722);CircleCI;2021-07-23 06:34:20 +0000;Update version and project name in files
+af751153; (tag: refs/tags/0.85.0);Henrikh Kantuni;2021-07-22 15:20:11 -0400;Add global.dataFrameSerialization to streamlit_configuration.md (#3595)
+729a7daa; (tag: refs/tags/0.84.3.dev20210721);CircleCI;2021-07-22 06:32:00 +0000;Update version and project name in files
+5de8978c; (tag: refs/tags/0.84.3.dev20210720);CircleCI;2021-07-21 06:33:48 +0000;Update version and project name in files
+da969f95; (tag: refs/tags/0.84.3.dev20210719);CircleCI;2021-07-20 06:32:14 +0000;Update version and project name in files
+dedfbe1d; (tag: refs/tags/0.84.2.dev20210718);CircleCI;2021-07-19 06:32:09 +0000;Update version and project name in files
+795e30f2; (tag: refs/tags/0.84.2.dev20210717);CircleCI;2021-07-18 06:34:03 +0000;Update version and project name in files
+e9a85dbb; (tag: refs/tags/0.84.2);Ken McGrady;2021-07-17 15:19:10 -0700;Up version to 0.84.2
+274b4395; (tag: refs/tags/0.84.2.dev20210716);CircleCI;2021-07-17 06:32:22 +0000;Update version and project name in files
+fc17f637; (tag: refs/tags/0.84.2.dev20210715);CircleCI;2021-07-16 06:32:01 +0000;Update version and project name in files
+74c40a75; (tag: refs/tags/0.84.2.dev20210714);CircleCI;2021-07-15 06:33:00 +0000;Update version and project name in files
+3b0acfab; (tag: refs/tags/0.84.2.dev20210713);CircleCI;2021-07-14 06:32:38 +0000;Update version and project name in files
+8b0bacb2; (tag: refs/tags/0.84.2.dev20210712);CircleCI;2021-07-13 06:33:07 +0000;Update version and project name in files
+22038f13; (tag: refs/tags/0.84.1.dev20210711);CircleCI;2021-07-12 06:34:38 +0000;Update version and project name in files
+c7ee3685; (tag: refs/tags/0.84.1.dev20210710);CircleCI;2021-07-11 06:36:44 +0000;Update version and project name in files
+59fb19b1; (tag: refs/tags/0.84.1.dev20210709);CircleCI;2021-07-10 06:35:28 +0000;Update version and project name in files
+45b20d4e; (tag: refs/tags/0.84.1);Ken McGrady;2021-07-09 15:38:08 -0700;Up version to 0.84.1
+aef52f4b; (tag: refs/tags/0.84.1.dev20210708);CircleCI;2021-07-09 06:32:03 +0000;Update version and project name in files
+7c24debe; (tag: refs/tags/0.84.1.dev20210707);CircleCI;2021-07-08 06:32:19 +0000;Update version and project name in files
+4a5dae38; (tag: refs/tags/0.84.1.dev20210706);CircleCI;2021-07-07 06:35:05 +0000;Update version and project name in files
+c2c2ad3a; (tag: refs/tags/0.84.1.dev20210705);CircleCI;2021-07-06 06:34:36 +0000;Update version and project name in files
+36b30240; (tag: refs/tags/0.84.1.dev20210704);CircleCI;2021-07-05 06:36:54 +0000;Update version and project name in files
+1f2d208e; (tag: refs/tags/0.84.1.dev20210703);CircleCI;2021-07-04 06:34:12 +0000;Update version and project name in files
+192086ff; (tag: refs/tags/0.84.1.dev20210702);CircleCI;2021-07-03 06:34:15 +0000;Update version and project name in files
+dab192b3; (tag: refs/tags/0.84.1.dev20210701);CircleCI;2021-07-02 06:35:45 +0000;Update version and project name in files
+93038a29; (tag: refs/tags/0.84.0);Ken McGrady;2021-07-01 11:09:34 -0700;Update change log
+61481c71; (tag: refs/tags/0.83.1.dev20210630);CircleCI;2021-07-01 06:32:13 +0000;Update version and project name in files
+5e0d22ad; (tag: refs/tags/0.83.1.dev20210629);CircleCI;2021-06-30 06:34:11 +0000;Update version and project name in files
+7ddff783; (tag: refs/tags/0.83.1.dev20210628);CircleCI;2021-06-29 07:20:39 +0000;Update version and project name in files
+6783e65b; (tag: refs/tags/0.83.1.dev20210627);CircleCI;2021-06-28 04:28:48 +0000;Update version and project name in files
+c7595a6b; (tag: refs/tags/0.83.1.dev20210625);CircleCI;2021-06-26 06:33:59 +0000;Update version and project name in files
+445def83; (tag: refs/tags/0.83.1.dev20210624);CircleCI;2021-06-25 06:35:04 +0000;Update version and project name in files
+295c3c3a; (tag: refs/tags/0.83.1.dev20210623);CircleCI;2021-06-24 06:34:19 +0000;Update version and project name in files
+a5e3316c; (tag: refs/tags/0.83.1.dev20210622);CircleCI;2021-06-23 06:33:59 +0000;Update version and project name in files
+36f05ff4; (tag: refs/tags/0.83.1.dev20210621);CircleCI;2021-06-22 06:33:57 +0000;Update version and project name in files
+14382197; (tag: refs/tags/0.83.0);Snehan Kekre;2021-06-21 22:06:31 +0530;Exclude rent tutorial until polished (#3442)
+58c1951e; (tag: refs/tags/0.83.1.dev20210620);CircleCI;2021-06-21 06:34:24 +0000;Update version and project name in files
+a55bf64e; (tag: refs/tags/0.83.1.dev20210619);CircleCI;2021-06-20 06:34:19 +0000;Update version and project name in files
+a438f928; (tag: refs/tags/0.83.1.dev20210618);CircleCI;2021-06-19 06:34:48 +0000;Update version and project name in files
+d6fde122; (tag: refs/tags/0.83.1.dev20210617);CircleCI;2021-06-18 06:32:51 +0000;Update version and project name in files
+fa61076e; (tag: refs/tags/0.82.1.dev20210616);CircleCI;2021-06-17 06:35:19 +0000;Update version and project name in files
+5466a87d; (tag: refs/tags/0.82.1.dev20210615);CircleCI;2021-06-16 06:35:15 +0000;Update version and project name in files
+72503930; (tag: refs/tags/0.82.1.dev20210614);CircleCI;2021-06-15 06:34:58 +0000;Update version and project name in files
+7fc41ead; (tag: refs/tags/0.82.1.dev20210613);CircleCI;2021-06-14 06:32:18 +0000;Update version and project name in files
+4ffce9a3; (tag: refs/tags/0.82.1.dev20210612);CircleCI;2021-06-13 06:37:42 +0000;Update version and project name in files
+57800a9c; (tag: refs/tags/0.82.1.dev20210611);CircleCI;2021-06-12 06:35:25 +0000;Update version and project name in files
+032cc50d; (tag: refs/tags/0.82.1.dev20210610);CircleCI;2021-06-11 06:35:11 +0000;Update version and project name in files
+3e26b783; (tag: refs/tags/0.82.1.dev20210609);CircleCI;2021-06-10 06:34:20 +0000;Update version and project name in files
+7db1413c; (tag: refs/tags/0.82.1.dev20210608);CircleCI;2021-06-09 06:35:11 +0000;Update version and project name in files
+4858faf4; (tag: refs/tags/0.82.1.dev20210607);CircleCI;2021-06-08 06:35:00 +0000;Update version and project name in files
+130ecc75; (tag: refs/tags/0.82.1.dev20210606);CircleCI;2021-06-07 06:34:47 +0000;Update version and project name in files
+d6ba7a03; (tag: refs/tags/0.82.1.dev20210605);CircleCI;2021-06-06 06:35:40 +0000;Update version and project name in files
+11203e66; (tag: refs/tags/0.82.1.dev20210604);CircleCI;2021-06-05 06:34:48 +0000;Update version and project name in files
+addb771f; (tag: refs/tags/0.82.1.dev20210603);CircleCI;2021-06-04 06:35:03 +0000;Update version and project name in files
+66ed4690; (tag: refs/tags/0.82.1.dev20210602);CircleCI;2021-06-03 06:36:28 +0000;Update version and project name in files
+a80f8617; (tag: refs/tags/0.82.1.dev20210601);CircleCI;2021-06-02 06:34:37 +0000;Update version and project name in files
+3e031844; (tag: refs/tags/0.82.1.dev20210531);CircleCI;2021-06-01 06:34:47 +0000;Update version and project name in files
+89658b65; (tag: refs/tags/0.82.1.dev20210530);CircleCI;2021-05-31 06:35:01 +0000;Update version and project name in files
+dff495cb; (tag: refs/tags/0.82.1.dev20210529);CircleCI;2021-05-30 06:34:48 +0000;Update version and project name in files
+42dff2bb; (tag: refs/tags/0.82.1.dev20210528);CircleCI;2021-05-29 06:34:04 +0000;Update version and project name in files
+c58dddc2; (tag: refs/tags/0.82.1.dev20210527);CircleCI;2021-05-28 06:33:21 +0000;Update version and project name in files
+385e584e; (tag: refs/tags/0.82.1.dev20210526);CircleCI;2021-05-27 06:34:52 +0000;Update version and project name in files
+e2e1ad9a; (tag: refs/tags/0.82.1.dev20210525);CircleCI;2021-05-26 06:32:05 +0000;Update version and project name in files
+97837745; (tag: refs/tags/0.82.1.dev20210524);CircleCI;2021-05-25 06:31:52 +0000;Update version and project name in files
+7f7b662c; (tag: refs/tags/0.82.1.dev20210523);CircleCI;2021-05-24 06:32:00 +0000;Update version and project name in files
+ed20b1d6; (tag: refs/tags/0.82.1.dev20210522);CircleCI;2021-05-23 06:34:29 +0000;Update version and project name in files
+ef46b407; (tag: refs/tags/0.82.1.dev20210521);CircleCI;2021-05-22 06:34:32 +0000;Update version and project name in files
+59cf460f; (tag: refs/tags/0.82.1.dev20210520);CircleCI;2021-05-21 06:35:20 +0000;Update version and project name in files
+3cefbaed; (tag: refs/tags/0.82.1.dev20210519);CircleCI;2021-05-20 06:32:02 +0000;Update version and project name in files
+2712b8d3; (tag: refs/tags/0.82.1.dev20210518);CircleCI;2021-05-19 06:31:51 +0000;Update version and project name in files
+110b3369; (tag: refs/tags/0.82.1.dev20210517);CircleCI;2021-05-18 06:32:47 +0000;Update version and project name in files
+edd65095; (tag: refs/tags/0.82.1.dev20210516);CircleCI;2021-05-17 06:34:47 +0000;Update version and project name in files
+42c41b60; (tag: refs/tags/0.82.1.dev20210515);CircleCI;2021-05-16 06:36:54 +0000;Update version and project name in files
+03eba6e1; (tag: refs/tags/0.82.1.dev20210514);CircleCI;2021-05-15 06:31:40 +0000;Update version and project name in files
+c5c95214; (tag: refs/tags/0.82.1.dev20210513);CircleCI;2021-05-14 06:31:55 +0000;Update version and project name in files
+79dffa6a; (tag: refs/tags/0.82.0);Tim Conkling;2021-05-12 10:44:03 -0700;pin click to < 8.0 (#3256)
+22f02d5c; (tag: refs/tags/0.81.2.dev20210512);CircleCI;2021-05-13 06:31:45 +0000;Update version and project name in files
+db63af27; (tag: refs/tags/0.81.2.dev20210511);CircleCI;2021-05-12 06:33:57 +0000;Update version and project name in files
+968f3bfa; (tag: refs/tags/0.81.2.dev20210510);CircleCI;2021-05-11 06:33:00 +0000;Update version and project name in files
+0e2014a9; (tag: refs/tags/0.81.2.dev20210509);CircleCI;2021-05-10 06:35:12 +0000;Update version and project name in files
+6576bd67; (tag: refs/tags/0.81.2.dev20210508);CircleCI;2021-05-09 06:34:54 +0000;Update version and project name in files
+2c8858d7; (tag: refs/tags/0.81.2.dev20210507);CircleCI;2021-05-08 06:32:07 +0000;Update version and project name in files
+8785f4ff; (tag: refs/tags/0.81.2.dev20210506);CircleCI;2021-05-07 06:34:36 +0000;Update version and project name in files
+e258b201; (tag: refs/tags/0.81.2.dev20210505);CircleCI;2021-05-06 06:34:44 +0000;Update version and project name in files
+b6f1e86e; (tag: refs/tags/0.81.2.dev20210504);CircleCI;2021-05-05 06:32:15 +0000;Update version and project name in files
+902571dd; (tag: refs/tags/0.81.1);Ken McGrady;2021-05-04 10:15:38 -0700;Up version to 0.81.1
+f5c415ed; (tag: refs/tags/0.81.1.dev20210503);CircleCI;2021-05-04 06:32:45 +0000;Update version and project name in files
+1de89145; (tag: refs/tags/0.81.0);Ken McGrady;2021-04-29 10:04:53 -0700;update change log
+ed7cb802; (tag: refs/tags/0.81);Thiago Teixeira;2021-04-28 09:55:05 -0700;Visual fixes for forms, captions, images, and expanders (#3188)
+84d519d3; (tag: refs/tags/0.80.1.dev20210426);CircleCI;2021-04-27 06:32:57 +0000;Update version and project name in files
+569cc86d; (tag: refs/tags/0.80.1.dev20210425);CircleCI;2021-04-26 06:35:31 +0000;Update version and project name in files
+10ae8dfa; (tag: refs/tags/0.80.1.dev20210424);CircleCI;2021-04-25 06:38:03 +0000;Update version and project name in files
+4122b23d; (tag: refs/tags/0.80.1.dev20210423);CircleCI;2021-04-24 06:38:29 +0000;Update version and project name in files
+85f7756f; (tag: refs/tags/0.80.1.dev20210422);CircleCI;2021-04-23 06:32:14 +0000;Update version and project name in files
+71bc74a1; (tag: refs/tags/0.80.1.dev20210421);CircleCI;2021-04-22 06:32:31 +0000;Update version and project name in files
+edd0230b; (tag: refs/tags/0.80.1.dev20210420);CircleCI;2021-04-21 06:31:43 +0000;Update version and project name in files
+a3228eca; (tag: refs/tags/0.80.1.dev20210419);CircleCI;2021-04-20 06:31:40 +0000;Update version and project name in files
+3bec140c; (tag: refs/tags/0.80.1.dev20210418);CircleCI;2021-04-19 06:35:28 +0000;Update version and project name in files
+532d71e8; (tag: refs/tags/0.80.1.dev20210417);CircleCI;2021-04-18 06:34:53 +0000;Update version and project name in files
+f1a745d4; (tag: refs/tags/0.80.1.dev20210416);CircleCI;2021-04-17 06:34:01 +0000;Update version and project name in files
+e9a3183d; (tag: refs/tags/0.80.1.dev20210415);CircleCI;2021-04-16 06:32:22 +0000;Update version and project name in files
+b8c699ae; (tag: refs/tags/0.80.1.dev20210414);CircleCI;2021-04-15 06:31:46 +0000;Update version and project name in files
+74d7625a; (tag: refs/tags/0.80.1.dev20210413);CircleCI;2021-04-14 06:33:13 +0000;Update version and project name in files
+16c07d87; (tag: refs/tags/0.80.0);Ken McGrady;2021-04-13 16:09:48 -0700;Remove fail on warning
+1d3c8c1c; (tag: refs/tags/0.80.1.dev20210412);CircleCI;2021-04-13 06:31:48 +0000;Update version and project name in files
+b679016e; (tag: refs/tags/0.80.1.dev20210411);CircleCI;2021-04-12 06:35:40 +0000;Update version and project name in files
+5d9e1063; (tag: refs/tags/0.80.1.dev20210410);CircleCI;2021-04-11 06:34:36 +0000;Update version and project name in files
+08408469; (tag: refs/tags/0.80.1.dev20210409);CircleCI;2021-04-10 06:33:19 +0000;Update version and project name in files
+52fdf80f; (tag: refs/tags/0.80.1.dev20210408);CircleCI;2021-04-09 06:33:40 +0000;Update version and project name in files
+1a226c4a; (tag: refs/tags/0.79.1.dev20210407);CircleCI;2021-04-08 06:35:11 +0000;Update version and project name in files
+4eb64616; (tag: refs/tags/0.79.1.dev20210406);CircleCI;2021-04-07 06:32:25 +0000;Update version and project name in files
+828f2f86; (tag: refs/tags/0.79.1.dev20210405);CircleCI;2021-04-06 06:31:57 +0000;Update version and project name in files
+f84a6fb3; (tag: refs/tags/0.79.1.dev20210404);CircleCI;2021-04-05 06:34:55 +0000;Update version and project name in files
+ec3eaa2f; (tag: refs/tags/0.79.1.dev20210403);CircleCI;2021-04-04 06:34:42 +0000;Update version and project name in files
+80c46511; (tag: refs/tags/0.79.1.dev20210402);CircleCI;2021-04-03 06:34:36 +0000;Update version and project name in files
+60cffc82; (tag: refs/tags/0.79.1.dev20210401);CircleCI;2021-04-02 06:32:01 +0000;Update version and project name in files
+9a4dcbd9; (tag: refs/tags/0.79.1.dev20210331);CircleCI;2021-04-01 06:32:16 +0000;Update version and project name in files
+3c6f5d5e; (tag: refs/tags/0.79.1.dev20210330);CircleCI;2021-03-31 06:32:13 +0000;Update version and project name in files
+dc922ac3; (tag: refs/tags/0.79.1.dev20210329);CircleCI;2021-03-30 06:31:50 +0000;Update version and project name in files
+7b42d528; (tag: refs/tags/0.79.1.dev20210328);CircleCI;2021-03-29 06:34:57 +0000;Update version and project name in files
+a82fb58a; (tag: refs/tags/0.79.1.dev20210327);CircleCI;2021-03-28 06:35:07 +0000;Update version and project name in files
+1896a449; (tag: refs/tags/0.79.1.dev20210326);CircleCI;2021-03-27 06:32:05 +0000;Update version and project name in files
+4576fe27; (tag: refs/tags/0.79.1.dev20210325);CircleCI;2021-03-26 06:32:05 +0000;Update version and project name in files
+95439e4d; (tag: refs/tags/0.79.1.dev20210324);CircleCI;2021-03-25 06:34:59 +0000;Update version and project name in files
+4606e4cf; (tag: refs/tags/0.79.1.dev20210323);CircleCI;2021-03-24 06:31:46 +0000;Update version and project name in files
+e11bec19; (tag: refs/tags/0.79.1.dev20210322);CircleCI;2021-03-23 06:31:51 +0000;Update version and project name in files
+df18086e; (tag: refs/tags/0.79.1.dev20210321);CircleCI;2021-03-22 06:33:53 +0000;Update version and project name in files
+4b1a13d9; (tag: refs/tags/0.79.1.dev20210320);CircleCI;2021-03-21 06:34:40 +0000;Update version and project name in files
+32440a8c; (tag: refs/tags/0.79.1.dev20210319);CircleCI;2021-03-20 06:31:48 +0000;Update version and project name in files
+dfda3615; (tag: refs/tags/0.79.1.dev20210318);CircleCI;2021-03-19 06:32:09 +0000;Update version and project name in files
+5aa3d2d5; (tag: refs/tags/0.78.1.dev20210317);CircleCI;2021-03-18 06:32:05 +0000;Update version and project name in files
+843775e4; (tag: refs/tags/0.79.0);Ken McGrady;2021-03-17 18:06:29 -0700;Up version to 0.79.0
+9baaa871; (tag: refs/tags/0.78.1.dev20210316);CircleCI;2021-03-17 06:35:10 +0000;Update version and project name in files
+5944d1df; (tag: refs/tags/0.78.1.dev20210315);CircleCI;2021-03-16 06:31:53 +0000;Update version and project name in files
+46a6c643; (tag: refs/tags/0.78.1.dev20210314);CircleCI;2021-03-15 06:32:43 +0000;Update version and project name in files
+89a7b5bb; (tag: refs/tags/0.78.1.dev20210313);CircleCI;2021-03-14 06:35:05 +0000;Update version and project name in files
+a58c19f1; (tag: refs/tags/0.78.1.dev20210312);CircleCI;2021-03-13 06:35:35 +0000;Update version and project name in files
+78750bcd; (tag: refs/tags/0.78.1.dev20210311);CircleCI;2021-03-12 06:32:09 +0000;Update version and project name in files
+86ef02fe; (tag: refs/tags/0.78.1.dev20210310);CircleCI;2021-03-11 06:32:07 +0000;Update version and project name in files
+6fe6d7df; (tag: refs/tags/0.78.1.dev20210309);CircleCI;2021-03-10 06:31:44 +0000;Update version and project name in files
+4b29ca00; (tag: refs/tags/0.78.1.dev20210308);CircleCI;2021-03-09 06:37:03 +0000;Update version and project name in files
+43ea6536; (tag: refs/tags/0.78.1.dev20210307);CircleCI;2021-03-08 06:35:00 +0000;Update version and project name in files
+103160c3; (tag: refs/tags/0.78.1.dev20210306);CircleCI;2021-03-07 06:34:39 +0000;Update version and project name in files
+e7972822; (tag: refs/tags/0.78.1.dev20210305);CircleCI;2021-03-06 06:31:42 +0000;Update version and project name in files
+7746a7ce; (tag: refs/tags/0.78.1.dev20210304);CircleCI;2021-03-05 06:32:11 +0000;Update version and project name in files
+7b03261a; (tag: refs/tags/0.78.0);Brandon Hsiao;2021-03-04 12:04:32 -0800;Up version to 0.78.0
+084a8729; (tag: refs/tags/0.77.1.dev20210303);CircleCI;2021-03-04 06:32:07 +0000;Update version and project name in files
+5b6e0b67; (tag: refs/tags/0.77.1.dev20210302);CircleCI;2021-03-03 06:34:53 +0000;Update version and project name in files
+c26312f7; (tag: refs/tags/0.77.1.dev20210301);CircleCI;2021-03-02 06:32:28 +0000;Update version and project name in files
+0c222ac3; (tag: refs/tags/0.77.1.dev20210228);CircleCI;2021-03-01 06:34:26 +0000;Update version and project name in files
+ca9dd10a; (tag: refs/tags/0.77.1.dev20210227);CircleCI;2021-02-28 06:34:58 +0000;Update version and project name in files
+3569c493; (tag: refs/tags/0.77.1.dev20210226);CircleCI;2021-02-27 06:32:07 +0000;Update version and project name in files
+3fd9c628; (tag: refs/tags/0.77.1.dev20210225);CircleCI;2021-02-26 06:31:56 +0000;Update version and project name in files
+ff2436da; (tag: refs/tags/0.77.1.dev20210224);CircleCI;2021-02-25 06:32:05 +0000;Update version and project name in files
+d8e59240; (tag: refs/tags/0.77.1.dev20210223);CircleCI;2021-02-24 06:31:43 +0000;Update version and project name in files
+68918af0; (tag: refs/tags/0.77.0);Tim Conkling;2021-02-23 13:08:34 -0800;Update "showErrorDetails" config description and docs (#2841)
+24ecfe9b; (tag: refs/tags/0.76.1.dev20210222);CircleCI;2021-02-23 06:31:59 +0000;Update version and project name in files
+8f3d5953; (tag: refs/tags/0.76.1.dev20210221);CircleCI;2021-02-22 06:34:12 +0000;Update version and project name in files
+94af22e1; (tag: refs/tags/0.76.1.dev20210220);CircleCI;2021-02-21 06:31:45 +0000;Update version and project name in files
+38e0a6dd; (tag: refs/tags/0.76.1.dev20210219);CircleCI;2021-02-20 06:34:19 +0000;Update version and project name in files
+5595c882; (tag: refs/tags/0.76.1.dev20210218);CircleCI;2021-02-19 06:31:56 +0000;Update version and project name in files
+c184046e; (tag: refs/tags/0.76.1.dev20210217);CircleCI;2021-02-18 06:32:32 +0000;Update version and project name in files
+e9533c93; (tag: refs/tags/0.76.1.dev20210216);CircleCI;2021-02-17 06:33:16 +0000;Update version and project name in files
+ab0050f4; (tag: refs/tags/0.76.1.dev20210215);CircleCI;2021-02-16 06:34:23 +0000;Update version and project name in files
+edf972cc; (tag: refs/tags/0.76.1.dev20210214);CircleCI;2021-02-15 06:34:27 +0000;Update version and project name in files
+41c5aafc; (tag: refs/tags/0.76.1.dev20210213);CircleCI;2021-02-14 06:34:13 +0000;Update version and project name in files
+2b155725; (tag: refs/tags/0.76.1.dev20210212);CircleCI;2021-02-13 06:31:33 +0000;Update version and project name in files
+42cb2c6e; (tag: refs/tags/0.76.1.dev20210211);CircleCI;2021-02-12 06:32:02 +0000;Update version and project name in files
+4876be48; (tag: refs/tags/0.76.1.dev20210210);CircleCI;2021-02-11 06:31:47 +0000;Update version and project name in files
+feb0f59d; (tag: refs/tags/0.76.1.dev20210209);CircleCI;2021-02-10 06:31:57 +0000;Update version and project name in files
+92aed498; (tag: refs/tags/0.76.1.dev20210208);CircleCI;2021-02-09 06:32:32 +0000;Update version and project name in files
+61c77aec; (tag: refs/tags/0.76.1.dev20210207);CircleCI;2021-02-08 06:36:10 +0000;Update version and project name in files
+0ad171ff; (tag: refs/tags/0.76.1.dev20210206);CircleCI;2021-02-07 06:43:32 +0000;Update version and project name in files
+df911b33; (tag: refs/tags/0.76.1.dev20210205);CircleCI;2021-02-06 06:37:08 +0000;Update version and project name in files
+d6266c07; (tag: refs/tags/0.76.1.dev20210204);CircleCI;2021-02-05 06:32:47 +0000;Update version and project name in files
+ea4b18a0; (tag: refs/tags/0.76.0);karrie;2021-02-02 11:43:07 -0500;Up version to 0.76.0
+3fe28cc3; (tag: refs/tags/0.75.1.dev20210203);CircleCI;2021-02-04 06:32:42 +0000;Update version and project name in files
+def21939; (tag: refs/tags/0.75.1.dev20210202);CircleCI;2021-02-03 06:33:08 +0000;Update version and project name in files
+95653b76; (tag: refs/tags/0.75.1.dev20210201);CircleCI;2021-02-02 06:31:55 +0000;Update version and project name in files
+3477408a; (tag: refs/tags/0.75.1.dev20210131);CircleCI;2021-02-01 06:36:30 +0000;Update version and project name in files
+ef5ee809; (tag: refs/tags/0.75.1.dev20210130);CircleCI;2021-01-31 06:36:58 +0000;Update version and project name in files
+2afd9132; (tag: refs/tags/0.75.1.dev20210129);CircleCI;2021-01-30 06:34:24 +0000;Update version and project name in files
+ce3436e3; (tag: refs/tags/0.75.1.dev20210128);CircleCI;2021-01-29 06:32:04 +0000;Update version and project name in files
+52e4d920; (tag: refs/tags/0.75.1.dev20210127);CircleCI;2021-01-28 06:31:55 +0000;Update version and project name in files
+03f9c5de; (tag: refs/tags/0.75.1.dev20210126);CircleCI;2021-01-27 06:33:09 +0000;Update version and project name in files
+a66bdb6d; (tag: refs/tags/0.75.1.dev20210125);CircleCI;2021-01-26 06:32:05 +0000;Update version and project name in files
+4406a582; (tag: refs/tags/0.75.1.dev20210124);CircleCI;2021-01-25 06:33:41 +0000;Update version and project name in files
+228ded67; (tag: refs/tags/0.75.1.dev20210123);CircleCI;2021-01-24 06:34:56 +0000;Update version and project name in files
+579b9724; (tag: refs/tags/0.75.1.dev20210122);CircleCI;2021-01-23 06:33:03 +0000;Update version and project name in files
+272add3d; (tag: refs/tags/0.75.1.dev20210121);CircleCI;2021-01-22 06:33:59 +0000;Update version and project name in files
+e5a2c420; (tag: refs/tags/0.75.0);karrie;2021-01-21 15:21:28 -0500;Update change log
+6b0de1b9; (tag: refs/tags/0.74.2.dev20210120);CircleCI;2021-01-21 06:32:49 +0000;Update version and project name in files
+f433e79a; (tag: refs/tags/0.74.2.dev20210119);CircleCI;2021-01-20 06:34:25 +0000;Update version and project name in files
+9aed4c74; (tag: refs/tags/0.74.2.dev20210118);CircleCI;2021-01-19 06:34:54 +0000;Update version and project name in files
+69aa6c5c; (tag: refs/tags/0.74.2.dev20210117);CircleCI;2021-01-18 06:36:38 +0000;Update version and project name in files
+9a2ddca5; (tag: refs/tags/0.74.2.dev20210116);CircleCI;2021-01-17 06:35:32 +0000;Update version and project name in files
+892d7c86; (tag: refs/tags/0.74.2.dev20210115);CircleCI;2021-01-16 06:34:42 +0000;Update version and project name in files
+6b1b29f6; (tag: refs/tags/0.74.2.dev20210114);CircleCI;2021-01-15 06:34:34 +0000;Update version and project name in files
+cb98185b; (tag: refs/tags/0.74.2.dev20210113);CircleCI;2021-01-14 06:33:08 +0000;Update version and project name in files
+22271e2c; (tag: refs/tags/0.74.2.dev20210112);CircleCI;2021-01-13 06:33:19 +0000;Update version and project name in files
+8269d664; (tag: refs/tags/0.74.2.dev20210111);CircleCI;2021-01-12 06:36:34 +0000;Update version and project name in files
+d558e782; (tag: refs/tags/0.74.2.dev20210110);CircleCI;2021-01-11 06:34:00 +0000;Update version and project name in files
+d6293acf; (tag: refs/tags/0.74.2.dev20210109);CircleCI;2021-01-10 06:40:40 +0000;Update version and project name in files
+a6ff11bd; (tag: refs/tags/0.74.2.dev20210108);CircleCI;2021-01-09 06:34:51 +0000;Update version and project name in files
+54e20871; (tag: refs/tags/0.74.2.dev20210107);CircleCI;2021-01-08 06:34:56 +0000;Update version and project name in files
+2848af0e; (tag: refs/tags/0.74.1);karrie;2021-01-07 15:51:59 -0500;Up version to 0.74.1
+f4b47cca; (tag: refs/tags/0.74.1.dev20210106);CircleCI;2021-01-07 06:33:49 +0000;Update version and project name in files
+3c5884dc; (tag: refs/tags/0.74.0);karrie;2021-01-06 20:22:41 -0500;Revert "Deploy button py (#2535)"
+f9b5a329; (tag: refs/tags/0.73.2.dev20210105);CircleCI;2021-01-06 06:34:12 +0000;Update version and project name in files
+d44bb321; (tag: refs/tags/0.73.2.dev20210104);CircleCI;2021-01-05 06:32:44 +0000;Update version and project name in files
+487a0056; (tag: refs/tags/0.73.2.dev20210103);CircleCI;2021-01-04 06:35:52 +0000;Update version and project name in files
+4eaee532; (tag: refs/tags/0.73.2.dev20210102);CircleCI;2021-01-03 06:41:15 +0000;Update version and project name in files
+dfe7c82d; (tag: refs/tags/0.73.2.dev20210101);CircleCI;2021-01-02 06:34:25 +0000;Update version and project name in files
+27d1c105; (tag: refs/tags/0.73.2.dev20201231);CircleCI;2021-01-01 06:32:24 +0000;Update version and project name in files
+0a236cf0; (tag: refs/tags/0.73.2.dev20201230);CircleCI;2020-12-31 06:35:51 +0000;Update version and project name in files
+8d80d20d; (tag: refs/tags/0.73.2.dev20201229);CircleCI;2020-12-30 06:32:06 +0000;Update version and project name in files
+1d8f54ba; (tag: refs/tags/0.73.2.dev20201228);CircleCI;2020-12-29 06:36:01 +0000;Update version and project name in files
+fbbe3d29; (tag: refs/tags/0.73.2.dev20201227);CircleCI;2020-12-28 06:36:55 +0000;Update version and project name in files
+c4ba3748; (tag: refs/tags/0.73.2.dev20201226);CircleCI;2020-12-27 06:35:38 +0000;Update version and project name in files
+089a2410; (tag: refs/tags/0.73.2.dev20201225);CircleCI;2020-12-26 06:35:50 +0000;Update version and project name in files
+77a8a34c; (tag: refs/tags/0.73.2.dev20201224);CircleCI;2020-12-25 06:34:25 +0000;Update version and project name in files
+55a02966; (tag: refs/tags/0.73.2.dev20201223);CircleCI;2020-12-24 06:36:08 +0000;Update version and project name in files
+a0ae81dc; (tag: refs/tags/0.73.2.dev20201222);CircleCI;2020-12-23 06:35:45 +0000;Update version and project name in files
+18601135; (tag: refs/tags/0.73.2.dev20201221);CircleCI;2020-12-22 06:33:22 +0000;Update version and project name in files
+24a00a8e; (tag: refs/tags/0.73.1);karrie;2020-12-21 17:38:34 -0500;Up version to 0.73.1
+225931c4; (tag: refs/tags/0.73.1.dev20201220);CircleCI;2020-12-21 06:36:29 +0000;Update version and project name in files
+bb709548; (tag: refs/tags/0.73.1.dev20201219);CircleCI;2020-12-20 06:36:14 +0000;Update version and project name in files
+2bd37e4f; (tag: refs/tags/0.73.1.dev20201218);CircleCI;2020-12-19 06:32:49 +0000;Update version and project name in files
+1b39b9cf; (tag: refs/tags/0.73.1.dev20201217);CircleCI;2020-12-18 06:35:36 +0000;Update version and project name in files
+a1fa662d; (tag: refs/tags/0.73.0);karrie;2020-12-17 10:08:57 -0500;Update change log
+fd5ccb56; (tag: refs/tags/0.72.1.dev20201216);CircleCI;2020-12-17 06:33:38 +0000;Update version and project name in files
+620f1738; (tag: refs/tags/0.72.1.dev20201215);CircleCI;2020-12-15 12:30:59 +0000;Update version and project name in files
+4617fede; (tag: refs/tags/0.72.1.dev20201213);CircleCI;2020-12-14 06:35:48 +0000;Update version and project name in files
+2269f712; (tag: refs/tags/0.72.1.dev20201212);CircleCI;2020-12-13 06:34:55 +0000;Update version and project name in files
+5c2c66fe; (tag: refs/tags/0.72.1.dev20201211);CircleCI;2020-12-12 06:35:13 +0000;Update version and project name in files
+3c641699; (tag: refs/tags/0.72.1.dev20201210);CircleCI;2020-12-11 06:32:03 +0000;Update version and project name in files
+e8cdcd5e; (tag: refs/tags/0.72.1.dev20201209);CircleCI;2020-12-10 06:35:15 +0000;Update version and project name in files
+b0a806fd; (tag: refs/tags/0.72.1.dev20201208);CircleCI;2020-12-09 06:32:42 +0000;Update version and project name in files
+ea216a31; (tag: refs/tags/0.72.1.dev20201207);CircleCI;2020-12-08 06:35:24 +0000;Update version and project name in files
+9a258af9; (tag: refs/tags/0.72.1.dev20201206);CircleCI;2020-12-07 06:35:47 +0000;Update version and project name in files
+ef514e0a; (tag: refs/tags/0.72.1.dev20201205);CircleCI;2020-12-06 06:32:25 +0000;Update version and project name in files
+b149e20a; (tag: refs/tags/0.72.1.dev20201204);CircleCI;2020-12-05 06:35:37 +0000;Update version and project name in files
+727bf69e; (tag: refs/tags/0.72.1.dev20201203);CircleCI;2020-12-04 06:37:27 +0000;Update version and project name in files
+96d8e899; (tag: refs/tags/0.72.1.dev20201202);CircleCI;2020-12-03 06:35:08 +0000;Update version and project name in files
+c8fd535a; (tag: refs/tags/0.72.0);karrie;2020-12-02 16:51:47 -0500;Update notices
+c1b0577f; (tag: refs/tags/0.71.1.dev20201201);CircleCI;2020-12-02 06:36:44 +0000;Update version and project name in files
+6ba3a1f9; (tag: refs/tags/0.71.1.dev20201130);CircleCI;2020-12-01 06:33:35 +0000;Update version and project name in files
+1f345713; (tag: refs/tags/0.71.1.dev20201129);CircleCI;2020-11-30 06:35:57 +0000;Update version and project name in files
+6d69c6c6; (tag: refs/tags/0.71.1.dev20201128);CircleCI;2020-11-29 06:36:30 +0000;Update version and project name in files
+a6ba5fd4; (tag: refs/tags/0.71.1.dev20201127);CircleCI;2020-11-28 06:35:54 +0000;Update version and project name in files
+a4953ed5; (tag: refs/tags/0.71.1.dev20201126);CircleCI;2020-11-27 06:35:08 +0000;Update version and project name in files
+f3e30a0e; (tag: refs/tags/0.71.1.dev20201125);CircleCI;2020-11-26 06:36:52 +0000;Update version and project name in files
+4513698a; (tag: refs/tags/0.71.1.dev20201124);CircleCI;2020-11-25 06:36:03 +0000;Update version and project name in files
+a06a860f; (tag: refs/tags/0.71.1.dev20201123);CircleCI;2020-11-24 06:35:04 +0000;Update version and project name in files
+5771b9a2; (tag: refs/tags/0.71.1.dev20201122);CircleCI;2020-11-23 06:34:56 +0000;Update version and project name in files
+92dcb3b1; (tag: refs/tags/0.71.1.dev20201121);CircleCI;2020-11-22 06:35:12 +0000;Update version and project name in files
+857ecaf2; (tag: refs/tags/0.71.1.dev20201120);CircleCI;2020-11-21 06:35:35 +0000;Update version and project name in files
+0a2560b6; (tag: refs/tags/0.71.1.dev20201119);CircleCI;2020-11-20 06:37:14 +0000;Update version and project name in files
+7c4b41e0; (tag: refs/tags/0.71.1.dev20201118);CircleCI;2020-11-19 06:36:10 +0000;Update version and project name in files
+54e4fdab; (tag: refs/tags/0.71.1.dev20201117);CircleCI;2020-11-18 06:34:09 +0000;Update version and project name in files
+1c842f99; (tag: refs/tags/0.71.1.dev20201116);CircleCI;2020-11-17 06:32:32 +0000;Update version and project name in files
+5e87d5e7; (tag: refs/tags/0.71.1.dev20201115);CircleCI;2020-11-16 06:36:06 +0000;Update version and project name in files
+83def8d9; (tag: refs/tags/0.71.1.dev20201114);CircleCI;2020-11-15 06:36:17 +0000;Update version and project name in files
+1bace44d; (tag: refs/tags/0.71.1.dev20201113);CircleCI;2020-11-14 06:32:16 +0000;Update version and project name in files
+7243d32f; (tag: refs/tags/0.71.1.dev20201112);CircleCI;2020-11-13 06:35:45 +0000;Update version and project name in files
+59f0e542; (tag: refs/tags/0.71.1.dev20201111);CircleCI;2020-11-12 06:33:07 +0000;Update version and project name in files
+09f8c818; (tag: refs/tags/0.71.0);karrie;2020-11-11 16:46:17 -0500;Update change log
+f210be94; (tag: refs/tags/0.70.1.dev20201110);CircleCI;2020-11-11 06:34:05 +0000;Update version and project name in files
+d8bf9b60; (tag: refs/tags/0.70.1.dev20201109);CircleCI;2020-11-10 06:32:44 +0000;Update version and project name in files
+66dcdf49; (tag: refs/tags/0.70.1.dev20201108);CircleCI;2020-11-09 06:36:21 +0000;Update version and project name in files
+7f16dcd8; (tag: refs/tags/0.70.1.dev20201107);CircleCI;2020-11-08 06:36:38 +0000;Update version and project name in files
+26f253c9; (tag: refs/tags/0.70.1.dev20201106);CircleCI;2020-11-07 06:34:59 +0000;Update version and project name in files
+f37bf7bd; (tag: refs/tags/0.70.1.dev20201105);CircleCI;2020-11-06 06:35:59 +0000;Update version and project name in files
+3d52e5bf; (tag: refs/tags/0.70.1.dev20201104);CircleCI;2020-11-05 06:36:28 +0000;Update version and project name in files
+6ed3473b; (tag: refs/tags/0.70.1.dev20201103);CircleCI;2020-11-04 06:36:32 +0000;Update version and project name in files
+fa38eb83; (tag: refs/tags/0.70.1.dev20201102);CircleCI;2020-11-03 06:33:30 +0000;Update version and project name in files
+f1f8a357; (tag: refs/tags/0.70.1.dev20201101);CircleCI;2020-11-02 06:35:35 +0000;Update version and project name in files
+8ab576d1; (tag: refs/tags/0.70.1.dev20201031);CircleCI;2020-11-01 06:34:49 +0000;Update version and project name in files
+eebb3a8f; (tag: refs/tags/0.70.1.dev20201030);CircleCI;2020-10-31 06:35:11 +0000;Update version and project name in files
+3aee52f9; (tag: refs/tags/0.70.1.dev20201029);CircleCI;2020-10-30 06:33:46 +0000;Update version and project name in files
+416092c5; (tag: refs/tags/0.70.1.dev20201028);CircleCI;2020-10-29 06:33:31 +0000;Update version and project name in files
+8e103de4; (tag: refs/tags/0.70.0);karrie;2020-10-28 15:51:18 -0400;Update change log
+a7497eee; (tag: refs/tags/0.69.3.dev20201027);CircleCI;2020-10-28 06:32:25 +0000;Update version and project name in files
+0867bc63; (tag: refs/tags/0.69.3.dev20201026);CircleCI;2020-10-27 06:32:44 +0000;Update version and project name in files
+b833f2c8; (tag: refs/tags/0.69.3.dev20201025);CircleCI;2020-10-26 06:32:27 +0000;Update version and project name in files
+30db4f2a; (tag: refs/tags/0.69.3.dev20201024);CircleCI;2020-10-25 06:36:52 +0000;Update version and project name in files
+8fe8918a; (tag: refs/tags/0.69.3.dev20201023);CircleCI;2020-10-24 06:36:33 +0000;Update version and project name in files
+6c2fc013; (tag: refs/tags/0.69.3.dev20201022);CircleCI;2020-10-23 06:32:25 +0000;Update version and project name in files
+482480c3; (tag: refs/tags/0.69.3.dev20201021);CircleCI;2020-10-22 06:35:39 +0000;Update version and project name in files
+3e996584; (tag: refs/tags/0.69.3.dev20201020);CircleCI;2020-10-21 06:33:12 +0000;Update version and project name in files
+4c9a698a; (tag: refs/tags/0.69.3.dev20201019);CircleCI;2020-10-20 06:40:32 +0000;Update version and project name in files
+9b8ab174; (tag: refs/tags/0.69.3.dev20201018);CircleCI;2020-10-19 06:36:32 +0000;Update version and project name in files
+869e4ef8; (tag: refs/tags/0.69.3.dev20201017);CircleCI;2020-10-18 06:35:28 +0000;Update version and project name in files
+3a8e3f56; (tag: refs/tags/0.69.3.dev20201016);CircleCI;2020-10-17 06:35:37 +0000;Update version and project name in files
+c7b38e1b; (tag: refs/tags/0.69.2);karrie;2020-10-16 17:00:21 -0400;Up version to 0.69.2
+8a2519a6; (tag: refs/tags/0.69.2.dev20201015);CircleCI;2020-10-16 06:32:01 +0000;Update version and project name in files
+7eae3ac2; (tag: refs/tags/0.69.0);karrie;2020-10-14 15:30:50 -0400;Update change log
+2e77d61a; (tag: refs/tags/0.69.2.dev20201014);CircleCI;2020-10-15 06:32:16 +0000;Update version and project name in files
+36db9695; (tag: refs/tags/0.69.1);karrie;2020-10-14 22:30:05 -0400;Up version to 0.69.1
+6324516d; (tag: refs/tags/0.68.2.dev20201013);CircleCI;2020-10-14 06:34:15 +0000;Update version and project name in files
+071c9b87; (tag: refs/tags/0.68.2.dev20201012);CircleCI;2020-10-13 06:32:14 +0000;Update version and project name in files
+081ea4e9; (tag: refs/tags/0.68.1);karrie;2020-10-12 20:00:00 -0400;Up version to 0.68.1
+f1cd7d93; (tag: refs/tags/0.68.1.dev20201011);CircleCI;2020-10-12 06:35:33 +0000;Update version and project name in files
+08e9356b; (tag: refs/tags/0.68.1.dev20201010);CircleCI;2020-10-11 06:32:39 +0000;Update version and project name in files
+e02cd842; (tag: refs/tags/0.68.1.dev20201009);karrie;2020-10-09 20:34:48 -0400;Update version and project name in files
+0237daaa; (tag: refs/tags/0.68.0);karrie;2020-10-08 15:09:16 -0400;Update change log
+ef1b4ac6; (tag: refs/tags/0.67.2.dev20201007);CircleCI;2020-10-08 06:32:54 +0000;Update version and project name in files
+b1490a4e; (tag: refs/tags/0.67.2.dev20201006);CircleCI;2020-10-07 06:35:24 +0000;Update version and project name in files
+7fe11d1e; (tag: refs/tags/0.67.2.dev20201005);CircleCI;2020-10-06 06:33:29 +0000;Update version and project name in files
+a556ae71; (tag: refs/tags/0.67.2.dev20201004);CircleCI;2020-10-05 06:35:34 +0000;Update version and project name in files
+f250ebef; (tag: refs/tags/0.67.2.dev20201003);CircleCI;2020-10-04 06:35:25 +0000;Update version and project name in files
+ab1c9f53; (tag: refs/tags/0.67.2.dev20201002);CircleCI;2020-10-03 06:37:01 +0000;Update version and project name in files
+49d20099; (tag: refs/tags/0.67.2.dev20201001);CircleCI;2020-10-02 06:32:52 +0000;Update version and project name in files
+3a3ff7e9; (tag: refs/tags/0.67.2.dev20200930);CircleCI;2020-10-01 06:40:50 +0000;Update version and project name in files
+ffcb8330; (tag: refs/tags/0.67.2.dev20200929);CircleCI;2020-09-30 06:35:55 +0000;Update version and project name in files
+cdb848b1; (tag: refs/tags/0.67.2.dev20200928);CircleCI;2020-09-29 06:37:04 +0000;Update version and project name in files
+e9f5e0b2; (tag: refs/tags/0.67.2.dev20200927);CircleCI;2020-09-28 06:38:30 +0000;Update version and project name in files
+a4e64001; (tag: refs/tags/0.67.2.dev20200926);CircleCI;2020-09-27 06:36:02 +0000;Update version and project name in files
+88519451; (tag: refs/tags/0.67.2.dev20200925);CircleCI;2020-09-26 06:38:47 +0000;Update version and project name in files
+62de28df; (tag: refs/tags/0.67.2.dev20200924);CircleCI;2020-09-25 06:42:20 +0000;Update version and project name in files
+34362e2a; (tag: refs/tags/0.67.2.dev20200923);CircleCI;2020-09-24 06:35:32 +0000;Update version and project name in files
+13795307; (tag: refs/tags/0.67.2.dev20200922);CircleCI;2020-09-23 06:39:34 +0000;Update version and project name in files
+e5c53066; (tag: refs/tags/0.67.1);karrie;2020-09-22 18:53:52 -0400;Up version to 0.67.1
+a9b2c0a1; (tag: refs/tags/0.67.1.dev20200921);CircleCI;2020-09-22 06:33:30 +0000;Update version and project name in files
+65e07a9c; (tag: refs/tags/0.67.1.dev20200920);CircleCI;2020-09-21 06:38:43 +0000;Update version and project name in files
+07d726da; (tag: refs/tags/0.67.1.dev20200919);CircleCI;2020-09-20 06:38:49 +0000;Update version and project name in files
+b5ab8ca7; (tag: refs/tags/0.67.1.dev20200918);CircleCI;2020-09-19 06:34:49 +0000;Update version and project name in files
+97932aeb; (tag: refs/tags/0.67.1.dev20200917);CircleCI;2020-09-18 06:39:40 +0000;Update version and project name in files
+6846b0b8; (tag: refs/tags/0.67.0);karrie;2020-09-16 17:41:35 -0400;Update change log
+3876bbe3; (tag: refs/tags/0.66.1.dev20200916);CircleCI;2020-09-17 06:35:11 +0000;Update version and project name in files
+d9e93a6a; (tag: refs/tags/0.66.1.dev20200915);CircleCI;2020-09-16 06:38:46 +0000;Update version and project name in files
+c727bb4d; (tag: refs/tags/0.66.1.dev20200914);CircleCI;2020-09-15 06:35:45 +0000;Update version and project name in files
+38993c23; (tag: refs/tags/0.66.1.dev20200913);CircleCI;2020-09-14 06:36:29 +0000;Update version and project name in files
+30f6b346; (tag: refs/tags/0.66.1.dev20200912);CircleCI;2020-09-13 06:32:47 +0000;Update version and project name in files
+0520c488; (tag: refs/tags/0.66.1.dev20200911);CircleCI;2020-09-12 06:35:20 +0000;Update version and project name in files
+4beb4bdc; (tag: refs/tags/0.66.1.dev20200910);CircleCI;2020-09-11 06:35:43 +0000;Update version and project name in files
+f9bc90d5; (tag: refs/tags/0.66.1.dev20200909);CircleCI;2020-09-10 06:34:38 +0000;Update version and project name in files
+a57e3d09; (tag: refs/tags/0.66.1.dev20200908);CircleCI;2020-09-09 06:33:54 +0000;Update version and project name in files
+338b7625; (tag: refs/tags/0.66.1.dev20200907);CircleCI;2020-09-08 06:38:31 +0000;Update version and project name in files
+3f5c97e6; (tag: refs/tags/0.66.1.dev20200906);CircleCI;2020-09-07 06:34:51 +0000;Update version and project name in files
+c57100f3; (tag: refs/tags/0.66.1.dev20200905);CircleCI;2020-09-06 06:35:39 +0000;Update version and project name in files
+c20c792c; (tag: refs/tags/0.66.1.dev20200904);CircleCI;2020-09-05 06:36:15 +0000;Update version and project name in files
+1b5e85f4; (tag: refs/tags/0.66.1.dev20200903);CircleCI;2020-09-04 06:36:12 +0000;Update version and project name in files
+51e92a01; (tag: refs/tags/0.66.1.dev20200902);CircleCI;2020-09-03 06:32:50 +0000;Update version and project name in files
+5eca4015; (tag: refs/tags/0.66.1.dev20200901);CircleCI;2020-09-02 06:39:29 +0000;Update version and project name in files
+5acfca16; (tag: refs/tags/0.66.0);karrie;2020-09-01 19:41:59 -0400;Update change log
+0436084b; (tag: refs/tags/0.65.3.dev20200831);CircleCI;2020-09-01 06:32:58 +0000;Update version and project name in files
+d6d28388; (tag: refs/tags/0.65.3.dev20200830);CircleCI;2020-08-31 06:36:35 +0000;Update version and project name in files
+051de69c; (tag: refs/tags/0.65.3.dev20200829);CircleCI;2020-08-30 06:34:59 +0000;Update version and project name in files
+0399a62f; (tag: refs/tags/0.65.3.dev20200828);CircleCI;2020-08-29 06:34:43 +0000;Update version and project name in files
+24591f31; (tag: refs/tags/0.65.3.dev20200827);CircleCI;2020-08-28 06:38:57 +0000;Update version and project name in files
+a330586d; (tag: refs/tags/0.65.3.dev20200826);CircleCI;2020-08-27 06:36:17 +0000;Update version and project name in files
+beb164a1; (tag: refs/tags/v0.0.3);Tim Conkling;2020-08-26 12:18:16 -0700;v0.0.3
+6865070e; (tag: refs/tags/v0.0.2);Tim Conkling;2020-08-26 11:19:47 -0700;v0.0.2
+4af92a40; (tag: refs/tags/0.65.3.dev20200825);CircleCI;2020-08-26 06:33:17 +0000;Update version and project name in files
+d35de1a4; (tag: refs/tags/0.65.3.dev20200824);CircleCI;2020-08-25 06:35:07 +0000;Update version and project name in files
+700c1357; (tag: refs/tags/0.65.3.dev20200823);CircleCI;2020-08-24 06:35:50 +0000;Update version and project name in files
+226ea8c1; (tag: refs/tags/0.65.3.dev20200822);CircleCI;2020-08-23 06:34:43 +0000;Update version and project name in files
+5b01fdf5; (tag: refs/tags/0.65.3.dev20200821);CircleCI;2020-08-22 06:33:07 +0000;Update version and project name in files
+36926da8; (tag: refs/tags/0.65.3.dev20200820);CircleCI;2020-08-21 06:37:26 +0000;Update version and project name in files
+b57f5f57; (tag: refs/tags/0.65.3.dev20200819);CircleCI;2020-08-20 06:36:14 +0000;Update version and project name in files
+fd050471; (tag: refs/tags/0.65.3.dev20200818);CircleCI;2020-08-19 06:33:17 +0000;Update version and project name in files
+bd9543b8; (tag: refs/tags/0.65.3.dev20200817);CircleCI;2020-08-18 06:35:13 +0000;Update version and project name in files
+3466de37; (tag: refs/tags/0.65.3.dev20200816);CircleCI;2020-08-17 06:34:08 +0000;Update version and project name in files
+40b02d1e; (tag: refs/tags/0.65.3.dev20200815);CircleCI;2020-08-16 06:35:36 +0000;Update version and project name in files
+55fbb136; (tag: refs/tags/0.65.3.dev20200814);CircleCI;2020-08-15 06:32:36 +0000;Update version and project name in files
+d58a4e4c; (tag: refs/tags/0.65.2);karrie;2020-08-14 19:18:58 -0400;Up version to 0.65.2
+ae9edac3; (tag: refs/tags/0.65.2.dev20200813);CircleCI;2020-08-14 06:32:04 +0000;Update version and project name in files
+46cbe94a; (tag: refs/tags/0.65.1);karrie;2020-08-13 22:11:58 -0400;Up version to 0.65.1
+09439892; (tag: refs/tags/0.65.1.dev20200812);CircleCI;2020-08-13 06:37:46 +0000;Update version and project name in files
+5eeffb21; (tag: refs/tags/0.65.0);karrie;2020-08-12 18:03:51 -0400;Update change log
+2ed2d1df; (tag: refs/tags/0.64.1.dev20200811);CircleCI;2020-08-12 06:33:47 +0000;Update version and project name in files
+f65c5170; (tag: refs/tags/0.64.1.dev20200810);CircleCI;2020-08-11 06:34:59 +0000;Update version and project name in files
+36b02c55; (tag: refs/tags/0.64.1.dev20200809);CircleCI;2020-08-10 06:37:20 +0000;Update version and project name in files
+f796cae4; (tag: refs/tags/0.64.1.dev20200808);CircleCI;2020-08-09 06:35:31 +0000;Update version and project name in files
+268df493; (tag: refs/tags/0.64.1.dev20200807);CircleCI;2020-08-08 06:42:37 +0000;Update version and project name in files
+b95ad70c; (tag: refs/tags/0.64.1.dev20200806);CircleCI;2020-08-07 06:35:57 +0000;Update version and project name in files
+a56436e6; (tag: refs/tags/0.64.1.dev20200805);CircleCI;2020-08-06 06:37:05 +0000;Update version and project name in files
+f818e43c; (tag: refs/tags/0.64.1.dev20200804);CircleCI;2020-08-05 06:35:48 +0000;Update version and project name in files
+20ebd560; (tag: refs/tags/0.64.1.dev20200803);CircleCI;2020-08-04 06:33:10 +0000;Update version and project name in files
+0b046aac; (tag: refs/tags/0.64.1.dev20200802);CircleCI;2020-08-03 06:35:35 +0000;Update version and project name in files
+a44b6145; (tag: refs/tags/0.64.1.dev20200801);CircleCI;2020-08-02 06:37:27 +0000;Update version and project name in files
+a4c85c1e; (tag: refs/tags/0.64.1.dev20200731);CircleCI;2020-08-01 06:36:23 +0000;Update version and project name in files
+64d6b585; (tag: refs/tags/0.64.1.dev20200730);CircleCI;2020-07-31 06:32:44 +0000;Update version and project name in files
+623d705f; (tag: refs/tags/0.64.1.dev20200729);CircleCI;2020-07-30 06:34:00 +0000;Update version and project name in files
+54afb01d; (tag: refs/tags/0.64.1.dev20200728);CircleCI;2020-07-29 06:36:56 +0000;Update version and project name in files
+f4ffa235; (tag: refs/tags/0.64.1.dev20200727);CircleCI;2020-07-28 06:38:45 +0000;Update version and project name in files
+578e4458; (tag: refs/tags/0.64.1.dev20200726);CircleCI;2020-07-27 06:38:09 +0000;Update version and project name in files
+059b9643; (tag: refs/tags/0.64.1.dev20200725);CircleCI;2020-07-26 06:37:22 +0000;Update version and project name in files
+9fb6dbb0; (tag: refs/tags/0.64.1.dev20200724);CircleCI;2020-07-25 06:36:19 +0000;Update version and project name in files
+46d6a06a; (tag: refs/tags/0.64.1.dev20200723);CircleCI;2020-07-24 06:36:32 +0000;Update version and project name in files
+0dfdc318; (tag: refs/tags/0.64.0);karrie;2020-07-23 15:44:12 -0400;Update change log
+9f1d6fbf; (tag: refs/tags/0.63.2.dev20200722);CircleCI;2020-07-23 06:36:35 +0000;Update version and project name in files
+111fdec1; (tag: refs/tags/0.63.2.dev20200721);CircleCI;2020-07-22 06:38:32 +0000;Update version and project name in files
+5cdbc81d; (tag: refs/tags/0.63.2.dev20200720);CircleCI;2020-07-21 06:37:23 +0000;Update version and project name in files
+ae4ff53f; (tag: refs/tags/0.63.2.dev20200719);CircleCI;2020-07-20 06:38:11 +0000;Update version and project name in files
+b9b22133; (tag: refs/tags/0.63.2.dev20200718);CircleCI;2020-07-19 06:37:05 +0000;Update version and project name in files
+083ac8cc; (tag: refs/tags/0.63.2.dev20200717);CircleCI;2020-07-18 06:37:57 +0000;Update version and project name in files
+8e5ef071; (tag: refs/tags/0.63.1.dev20200716);CircleCI;2020-07-17 06:37:03 +0000;Update version and project name in files
+c0c3ad3d; (tag: refs/tags/0.63.1);Thiago Teixeira;2020-07-16 17:22:23 -0700;Fix assets by moving them back to src/
+8a6aa88c; (tag: refs/tags/0.63.1.dev20200715);CircleCI;2020-07-16 06:33:20 +0000;Update version and project name in files
+084ba664; (tag: refs/tags/0.63.1.dev20200713);karrie;2020-07-15 18:53:34 -0400;Manual nightly release for 7/13
+417b5011; (tag: refs/tags/0.63.0);Thiago Teixeira;2020-07-13 17:25:28 -0700;Update changelog
+498abf77; (tag: refs/tags/0.62.2.dev20200712);CircleCI;2020-07-13 06:38:40 +0000;Update version and project name in files
+a7f0a0a9; (tag: refs/tags/0.62.2.dev20200711);CircleCI;2020-07-12 06:40:38 +0000;Update version and project name in files
+78ee3fd2; (tag: refs/tags/0.62.2.dev20200710);CircleCI;2020-07-11 06:38:59 +0000;Update version and project name in files
+9f4206be; (tag: refs/tags/0.62.2.dev20200709);CircleCI;2020-07-10 06:36:40 +0000;Update version and project name in files
+3835fbf0; (tag: refs/tags/0.62.2.dev20200708);CircleCI;2020-07-09 06:42:12 +0000;Update version and project name in files
+56db2325; (tag: refs/tags/0.62.2.dev20200707);CircleCI;2020-07-08 06:33:37 +0000;Update version and project name in files
+711f86f9; (tag: refs/tags/0.62.2.dev20200706);CircleCI;2020-07-07 06:33:21 +0000;Update version and project name in files
+2351c85d; (tag: refs/tags/0.62.2.dev20200705);CircleCI;2020-07-06 06:41:26 +0000;Update version and project name in files
+bb7593be; (tag: refs/tags/0.62.2.dev20200704);CircleCI;2020-07-05 06:34:34 +0000;Update version and project name in files
+59405d57; (tag: refs/tags/0.62.2.dev20200703);CircleCI;2020-07-04 06:32:26 +0000;Update version and project name in files
+e5f076e9; (tag: refs/tags/0.62.2.dev20200702);CircleCI;2020-07-03 06:39:17 +0000;Update version and project name in files
+96f230f1; (tag: refs/tags/0.62.2.dev20200701);CircleCI;2020-07-02 06:34:40 +0000;Update version and project name in files
+dbd4f103; (tag: refs/tags/0.62.2.dev20200630);CircleCI;2020-07-01 06:38:07 +0000;Update version and project name in files
+aa52b840; (tag: refs/tags/0.62.2.dev20200629);CircleCI;2020-06-30 06:36:26 +0000;Update version and project name in files
+6f2fb207; (tag: refs/tags/0.62.1);Thiago Teixeira;2020-06-29 16:26:02 -0700;Fix token correctly this time.
+b005375d; (tag: refs/tags/0.62.1.dev20200628);CircleCI;2020-06-29 06:39:26 +0000;Update version and project name in files
+87e09aca; (tag: refs/tags/0.62.1.dev20200627);CircleCI;2020-06-28 06:40:22 +0000;Update version and project name in files
+9477b9cb; (tag: refs/tags/0.62.1.dev20200626);CircleCI;2020-06-27 06:36:37 +0000;Update version and project name in files
+4f1567b9; (tag: refs/tags/0.62.1.dev20200625);CircleCI;2020-06-26 06:32:32 +0000;Update version and project name in files
+0abed689; (tag: refs/tags/0.62.1.dev20200624);CircleCI;2020-06-25 06:38:31 +0000;Update version and project name in files
+06bd0152; (tag: refs/tags/0.62.1.dev20200623);CircleCI;2020-06-24 06:39:34 +0000;Update version and project name in files
+ed13dbea; (tag: refs/tags/0.62.1.dev20200622);CircleCI;2020-06-23 06:32:54 +0000;Update version and project name in files
+4b8e1692; (tag: refs/tags/0.62.1.dev20200621);CircleCI;2020-06-22 06:35:59 +0000;Update version and project name in files
+c4ace8cf; (tag: refs/tags/0.62.0);Thiago Teixeira;2020-06-21 00:23:43 -0700;Update troubleshoting doc.
+2554e53e; (tag: refs/tags/0.61.1.dev20200620);CircleCI;2020-06-21 06:42:08 +0000;Update version and project name in files
+d81f24a4; (tag: refs/tags/0.61.1.dev20200619);CircleCI;2020-06-20 06:32:32 +0000;Update version and project name in files
+4002229e; (tag: refs/tags/0.61.1.dev20200618);CircleCI;2020-06-19 06:41:52 +0000;Update version and project name in files
+c52aa366; (tag: refs/tags/0.61.1.dev20200617);CircleCI;2020-06-18 06:32:15 +0000;Update version and project name in files
+5b3bd40d; (tag: refs/tags/0.61.1.dev20200616);CircleCI;2020-06-17 06:39:22 +0000;Update version and project name in files
+5635405a; (tag: refs/tags/0.61.1.dev20200615);CircleCI;2020-06-16 06:33:16 +0000;Update version and project name in files
+182fd40a; (tag: refs/tags/0.61.1.dev20200614);CircleCI;2020-06-15 06:34:28 +0000;Update version and project name in files
+45a43c01; (tag: refs/tags/0.61.1.dev20200613);CircleCI;2020-06-14 06:37:15 +0000;Update version and project name in files
+e01f0bf6; (tag: refs/tags/0.61.1.dev20200612);CircleCI;2020-06-13 06:33:32 +0000;Update version and project name in files
+d14e1dba; (tag: refs/tags/0.61.1.dev20200611);CircleCI;2020-06-12 06:36:17 +0000;Update version and project name in files
+7e00feed; (tag: refs/tags/0.61.1.dev20200610);CircleCI;2020-06-11 06:34:24 +0000;Update version and project name in files
+f15d10eb; (tag: refs/tags/0.61.1.dev20200609);CircleCI;2020-06-10 06:38:44 +0000;Update version and project name in files
+9d073358; (tag: refs/tags/0.61.1.dev20200608);CircleCI;2020-06-09 06:36:40 +0000;Update version and project name in files
+f3652265; (tag: refs/tags/0.61.1.dev20200607);CircleCI;2020-06-08 06:38:55 +0000;Update version and project name in files
+1607194e; (tag: refs/tags/0.61.1.dev20200606);CircleCI;2020-06-07 06:32:30 +0000;Update version and project name in files
+162f95ee; (tag: refs/tags/0.61.1.dev20200605);CircleCI;2020-06-06 06:41:40 +0000;Update version and project name in files
+4b1428db; (tag: refs/tags/0.61.1.dev20200604);CircleCI;2020-06-05 06:37:00 +0000;Update version and project name in files
+77122309; (tag: refs/tags/0.61.1.dev20200603);CircleCI;2020-06-04 06:34:21 +0000;Update version and project name in files
+91e2f7bd; (tag: refs/tags/0.61.0);Thiago Teixeira;2020-06-03 16:24:41 -0700;Update protobuf version in Python
+fc77c84b; (tag: refs/tags/0.60.1.dev20200602);CircleCI;2020-06-03 06:32:47 +0000;Update version and project name in files
+532f47d4; (tag: refs/tags/0.60.1.dev20200601);CircleCI;2020-06-02 06:34:47 +0000;Update version and project name in files
+dc2df4e5; (tag: refs/tags/0.60.1.dev20200531);CircleCI;2020-06-01 06:39:02 +0000;Update version and project name in files
+e2fcb0d3; (tag: refs/tags/0.60.1.dev20200530);CircleCI;2020-05-31 06:38:54 +0000;Update version and project name in files
+db51737e; (tag: refs/tags/0.60.1.dev20200529);CircleCI;2020-05-30 06:34:56 +0000;Update version and project name in files
+601234cc; (tag: refs/tags/0.60.1.dev20200528);CircleCI;2020-05-29 06:38:13 +0000;Update version and project name in files
+edc7f16f; (tag: refs/tags/0.60.1.dev20200527);CircleCI;2020-05-28 06:33:04 +0000;Update version and project name in files
+53e7c01b; (tag: refs/tags/0.60.1.dev20200526);CircleCI;2020-05-27 06:37:02 +0000;Update version and project name in files
+0e4be1a2; (tag: refs/tags/0.60.1.dev20200525);CircleCI;2020-05-26 06:35:17 +0000;Update version and project name in files
+67f5db8d; (tag: refs/tags/0.60.1.dev20200524);CircleCI;2020-05-25 06:35:09 +0000;Update version and project name in files
+c1b7affd; (tag: refs/tags/0.60.1.dev20200523);CircleCI;2020-05-24 06:39:32 +0000;Update version and project name in files
+4d022c04; (tag: refs/tags/0.60.1.dev20200522);CircleCI;2020-05-23 06:34:13 +0000;Update version and project name in files
+e3625295; (tag: refs/tags/0.60.1.dev20200521);CircleCI;2020-05-22 06:32:23 +0000;Update version and project name in files
+a1912721; (tag: refs/tags/0.60.1.dev20200520);CircleCI;2020-05-21 06:39:01 +0000;Update version and project name in files
+637f621d; (tag: refs/tags/0.60.1.dev20200519);CircleCI;2020-05-20 06:35:05 +0000;Update version and project name in files
+d37285af; (tag: refs/tags/0.60.1.dev20200518);CircleCI;2020-05-19 06:36:15 +0000;Update version and project name in files
+a371c341; (tag: refs/tags/0.59.1.dev20200517);CircleCI;2020-05-18 06:34:34 +0000;Update version and project name in files
+8bfaf5cd; (tag: refs/tags/0.60.0);Thiago Teixeira;2020-05-17 00:31:17 -0700;Update changelog
+9f36bb67; (tag: refs/tags/0.59.1.dev20200516);CircleCI;2020-05-17 06:34:07 +0000;Update version and project name in files
+c6ef81a6; (tag: refs/tags/0.59.1.dev20200515);CircleCI;2020-05-16 06:34:55 +0000;Update version and project name in files
+f1d9fb2a; (tag: refs/tags/0.59.1.dev20200514);CircleCI;2020-05-15 06:37:02 +0000;Update version and project name in files
+bf30d8ab; (tag: refs/tags/0.59.1.dev20200513);CircleCI;2020-05-14 06:32:49 +0000;Update version and project name in files
+94f95adc; (tag: refs/tags/0.59.1.dev20200512);CircleCI;2020-05-13 06:33:04 +0000;Update version and project name in files
+2159e2cb; (tag: refs/tags/0.59.1.dev20200511);CircleCI;2020-05-12 06:32:25 +0000;Update version and project name in files
+e9286c2b; (tag: refs/tags/0.59.1.dev20200510);CircleCI;2020-05-11 06:32:47 +0000;Update version and project name in files
+55ba9106; (tag: refs/tags/0.59.1.dev20200509);CircleCI;2020-05-10 06:34:57 +0000;Update version and project name in files
+1d7f6a23; (tag: refs/tags/0.59.1.dev20200508);CircleCI;2020-05-09 06:33:54 +0000;Update version and project name in files
+66e2f3d5; (tag: refs/tags/0.59.1.dev20200507);CircleCI;2020-05-08 06:33:47 +0000;Update version and project name in files
+e66d363f; (tag: refs/tags/0.59.1.dev20200506);CircleCI;2020-05-07 06:34:28 +0000;Update version and project name in files
+b7bca406; (tag: refs/tags/0.59.1.dev20200505);CircleCI;2020-05-06 06:33:25 +0000;Update version and project name in files
+bec3506a; (tag: refs/tags/0.59.0);Thiago Teixeira;2020-05-05 12:27:36 -0700;Change date in changelog
+8f626437; (tag: refs/tags/0.58.1.dev20200504);CircleCI;2020-05-05 06:33:26 +0000;Update version and project name in files
+fe675614; (tag: refs/tags/0.58.1.dev20200503);CircleCI;2020-05-04 06:33:33 +0000;Update version and project name in files
+e7a98ce9; (tag: refs/tags/0.58.1.dev20200502);CircleCI;2020-05-03 06:33:05 +0000;Update version and project name in files
+f7915a43; (tag: refs/tags/0.58.1.dev20200501);CircleCI;2020-05-02 06:32:14 +0000;Update version and project name in files
+59be364c; (tag: refs/tags/0.58.1.dev20200430);CircleCI;2020-05-01 06:33:36 +0000;Update version and project name in files
+5f8ae35c; (tag: refs/tags/0.58.1.dev20200429);CircleCI;2020-04-30 06:32:18 +0000;Update version and project name in files
+1e750fb6; (tag: refs/tags/0.58.1.dev20200428);CircleCI;2020-04-29 06:31:56 +0000;Update version and project name in files
+02dcd3fa; (tag: refs/tags/0.58.1.dev20200427);CircleCI;2020-04-28 06:32:38 +0000;Update version and project name in files
+84a9a0fc; (tag: refs/tags/0.58.1.dev20200426);CircleCI;2020-04-27 06:31:44 +0000;Update version and project name in files
+f9a7de1b; (tag: refs/tags/0.58.1.dev20200425);CircleCI;2020-04-26 06:32:34 +0000;Update version and project name in files
+d9e5feae; (tag: refs/tags/0.58.1.dev20200424);CircleCI;2020-04-25 06:33:03 +0000;Update version and project name in files
+0d532928; (tag: refs/tags/0.58.1.dev20200423);CircleCI;2020-04-24 06:33:09 +0000;Update version and project name in files
+41678848; (tag: refs/tags/0.58.0);nthmost;2020-04-23 13:38:53 -0700;Merge branch 'release' of github.com:nthmost/streamlit into release
+f1a3002f; (tag: refs/tags/0.58.1.dev20200422);CircleCI;2020-04-23 06:36:53 +0000;Update version and project name in files
+7559d042; (tag: refs/tags/0.57.4.dev20200421);CircleCI;2020-04-22 06:31:34 +0000;Update version and project name in files
+7bb4a524; (tag: refs/tags/0.57.4.dev20200420);CircleCI;2020-04-21 06:33:19 +0000;Update version and project name in files
+8e4c708b; (tag: refs/tags/0.57.4.dev20200419);CircleCI;2020-04-20 06:31:53 +0000;Update version and project name in files
+6033032f; (tag: refs/tags/0.57.4.dev20200418);CircleCI;2020-04-19 06:32:19 +0000;Update version and project name in files
+a9f610b1; (tag: refs/tags/0.57.4.dev20200417);CircleCI;2020-04-18 06:32:00 +0000;Update version and project name in files
+f1b1f033; (tag: refs/tags/0.57.4.dev20200416);CircleCI;2020-04-17 06:32:40 +0000;Update version and project name in files
+6a719696; (tag: refs/tags/0.57.4.dev20200415);CircleCI;2020-04-16 06:32:26 +0000;Update version and project name in files
+29d45789; (tag: refs/tags/0.57.4.dev20200414);CircleCI;2020-04-15 06:32:00 +0000;Update version and project name in files
+3f2d395d; (tag: refs/tags/0.57.4.dev20200413);CircleCI;2020-04-14 06:31:56 +0000;Update version and project name in files
+b85c7a6e; (tag: refs/tags/0.57.4.dev20200412);CircleCI;2020-04-13 06:32:57 +0000;Update version and project name in files
+4fae7f6e; (tag: refs/tags/0.57.4.dev20200411);CircleCI;2020-04-12 06:32:22 +0000;Update version and project name in files
+fce5a174; (tag: refs/tags/0.57.4.dev20200410);CircleCI;2020-04-11 06:33:18 +0000;Update version and project name in files
+57693af2; (tag: refs/tags/0.57.4.dev20200409);CircleCI;2020-04-10 06:32:01 +0000;Update version and project name in files
+1457c469; (tag: refs/tags/0.57.4.dev20200408);CircleCI;2020-04-09 06:33:01 +0000;Update version and project name in files
+3a9cb8c6; (tag: refs/tags/0.57.4.dev20200407);CircleCI;2020-04-08 06:32:32 +0000;Update version and project name in files
+80b06810; (tag: refs/tags/0.57.4.dev20200406);CircleCI;2020-04-07 06:32:49 +0000;Update version and project name in files
+c5c9e6cc; (tag: refs/tags/0.57.4.dev20200405);CircleCI;2020-04-06 06:32:56 +0000;Update version and project name in files
+cd5f0731; (tag: refs/tags/0.57.4.dev20200404);CircleCI;2020-04-05 06:32:09 +0000;Update version and project name in files
+99d1ffa6; (tag: refs/tags/0.57.3.dev20200403);CircleCI;2020-04-04 06:33:20 +0000;Update version and project name in files
+908827b8; (tag: refs/tags/0.57.3);Thiago Teixeira;2020-04-03 23:27:48 -0700;Version 0.57.3
+4045f687; (tag: refs/tags/0.57.3.dev20200402);CircleCI;2020-04-03 06:32:36 +0000;Update version and project name in files
+fc48b1e2; (tag: refs/tags/0.57.3.dev20200401);CircleCI;2020-04-02 06:32:01 +0000;Update version and project name in files
+67449265; (tag: refs/tags/0.57.3.dev20200331);CircleCI;2020-04-01 06:33:45 +0000;Update version and project name in files
+31689f64; (tag: refs/tags/0.57.2);Thiago Teixeira;2020-03-31 11:19:21 -0700;Version 0.57.2
+ba0d6625; (tag: refs/tags/0.57.2.dev20200330);CircleCI;2020-03-31 06:33:02 +0000;Update version and project name in files
+3cf5b30b; (tag: refs/tags/0.57.2.dev20200329);CircleCI;2020-03-30 06:32:37 +0000;Update version and project name in files
+5cf943bc; (tag: refs/tags/0.57.2.dev20200328);CircleCI;2020-03-29 06:34:12 +0000;Update version and project name in files
+ba8f13aa; (tag: refs/tags/0.57.1);Thiago Teixeira;2020-03-28 00:12:20 -0700;Version 0.57.1
+1bf1abdc; (tag: refs/tags/0.57.1.dev20200327);CircleCI;2020-03-28 06:32:43 +0000;Update version and project name in files
+0d46bb26; (tag: refs/tags/0.57.1.dev20200326);CircleCI;2020-03-27 06:32:17 +0000;Update version and project name in files
+a9043f7d; (tag: refs/tags/0.57.0);Thiago Teixeira;2020-03-26 19:15:33 -0700;Remove multiple file support from file uploader.
+1ff59a4e; (tag: refs/tags/0.56.1.dev20200325);CircleCI;2020-03-26 06:31:45 +0000;Update version and project name in files
+937c5251; (tag: refs/tags/0.56.1.dev20200324);CircleCI;2020-03-25 06:32:16 +0000;Update version and project name in files
+845436f8; (tag: refs/tags/0.56.1.dev20200323);CircleCI;2020-03-24 06:32:02 +0000;Update version and project name in files
+b6694318; (tag: refs/tags/0.56.1.dev20200322);CircleCI;2020-03-23 06:32:01 +0000;Update version and project name in files
+323668f2; (tag: refs/tags/0.56.1.dev20200321);CircleCI;2020-03-22 06:32:17 +0000;Update version and project name in files
+73f24c67; (tag: refs/tags/0.56.1.dev20200320);CircleCI;2020-03-21 06:33:04 +0000;Update version and project name in files
+e9f95335; (tag: refs/tags/0.56.1.dev20200319);CircleCI;2020-03-20 06:32:03 +0000;Update version and project name in files
+02259dc0; (tag: refs/tags/0.56.1.dev20200318);CircleCI;2020-03-19 06:34:39 +0000;Update version and project name in files
+e6ad1ff5; (tag: refs/tags/0.56.1.dev20200317);CircleCI;2020-03-18 06:33:15 +0000;Update version and project name in files
+0fbfe8f9; (tag: refs/tags/0.56.1.dev20200316);CircleCI;2020-03-17 06:33:40 +0000;Update version and project name in files
+b17bd464; (tag: refs/tags/0.56.1.dev20200315);CircleCI;2020-03-16 06:33:49 +0000;Update version and project name in files
+4dcbaf8c; (tag: refs/tags/0.56.1.dev20200314);CircleCI;2020-03-15 06:32:47 +0000;Update version and project name in files
+09b436d6; (tag: refs/tags/0.56.1.dev20200313);CircleCI;2020-03-14 06:35:32 +0000;Update version and project name in files
+83809398; (tag: refs/tags/0.56.1.dev20200312);CircleCI;2020-03-13 06:32:58 +0000;Update version and project name in files
+95a72ef4; (tag: refs/tags/0.56.1.dev20200311);CircleCI;2020-03-12 06:32:14 +0000;Update version and project name in files
+b91f19a1; (tag: refs/tags/0.56.1.dev20200310);CircleCI;2020-03-11 06:33:51 +0000;Update version and project name in files
+b2a75542; (tag: refs/tags/0.56.1.dev20200309);CircleCI;2020-03-10 06:33:24 +0000;Update version and project name in files
+55db1bb4; (tag: refs/tags/0.56.1.dev20200308);CircleCI;2020-03-09 06:33:32 +0000;Update version and project name in files
+d6e98ec8; (tag: refs/tags/0.56.1.dev20200307);CircleCI;2020-03-08 06:32:30 +0000;Update version and project name in files
+46455613; (tag: refs/tags/0.56.1.dev20200306);CircleCI;2020-03-06 17:57:34 +0000;Update version and project name in files
+5c101272; (tag: refs/tags/0.56.1.dev20200302);Jonathan Rhone;2020-03-02 12:43:31 -0300;try medium resource class
+43d7dcd8; (tag: refs/tags/0.56.1.dev20200301);CircleCI;2020-03-01 00:38:36 +0000;Update version and project name in files
+a41a4bc2; (tag: refs/tags/0.56.1.dev20200229);CircleCI;2020-02-29 15:36:58 +0000;Update version and project name in files
+55e98298; (tag: refs/tags/0.56.1.dev20200227);Jonathan Rhone;2020-02-27 22:59:12 -0300;set resource class, lower memory to 8gb
+1986e5a8; (tag: refs/tags/0.56.2.dev20200225);Jonathan Rhone;2020-02-25 21:16:20 -0300;Update version in files
+64ca69d0; (tag: refs/tags/0.56.2.dev20200224);Jonathan Rhone;2020-02-24 20:58:40 -0300;Update version in files
+1a5f1f71; (tag: refs/tags/0.55.2);Thiago Teixeira;2020-02-15 15:41:17 -0800;Version 0.55.2 for Python 2 users with deprecation text
+0a216e2e; (tag: refs/tags/0.56.0);Thiago Teixeira;2020-02-15 14:56:00 -0800;Update changelog
+15974027; (tag: refs/tags/0.55.1);Thiago Teixeira;2020-02-12 04:03:50 -0800;Remove old advanced caching section from advanced_concepts.md
+a799a0fd; (tag: refs/tags/0.55.0);Thiago Teixeira;2020-02-04 23:31:12 -0800;Up version to 0.55.0
+b84fb5af; (tag: refs/tags/0.54.0);Thiago Teixeira;2020-01-29 15:19:51 -0800;Add password field to highlights
+7f15c0f2; (tag: refs/tags/0.53.0);Thiago Teixeira;2020-01-14 10:19:34 -0800;Fix Pydeck fullscreen css.
+74ae7f30; (tag: refs/tags/0.52.2);Thiago Teixeira;2019-12-24 07:26:35 -0800;Version 0.52.2
+8be030b5; (tag: refs/tags/0.52.0);Thiago Teixeira;2019-12-20 00:02:24 -0800;Fix release date on changelog
+2c03bb1a; (tag: refs/tags/0.51.0);Thiago Teixeira;2019-11-30 23:35:23 -0800;Version 0.51.0
+8a52619d; (tag: refs/tags/0.50.2);Thiago Teixeira;2019-11-10 21:19:31 -0800;Fix date in changelog :D
+9d90c61e; (tag: refs/tags/0.50.1);Thiago Teixeira;2019-11-10 20:31:37 -0800;Version 0.50.1
+dbead45b; (tag: refs/tags/0.50.0);Thiago Teixeira;2019-11-09 21:00:40 -0800;Version 0.50.0
+09c2e9e8; (tag: refs/tags/0.49.0);Thiago Teixeira;2019-10-23 02:02:50 -0700;Update changelog
+37f84eef; (tag: refs/tags/0.48.0);Thiago Teixeira;2019-10-12 23:20:29 -0700;Version 0.48.0
+06967112; (tag: refs/tags/0.47.4);Thiago Teixeira;2019-10-05 01:34:55 -0700;Version 0.47.4
+128373c7; (tag: refs/tags/0.47.3);Thiago Teixeira;2019-10-04 01:30:23 -0700;Version 0.47.3
+1f90d4ff; (tag: refs/tags/0.47.1);Thiago Teixeira;2019-10-01 13:45:45 -0700;Fix link in docs.
+7e43ede8; (tag: refs/tags/0.47.0);Thiago Teixeira;2019-09-30 15:59:10 -0700;Update snapshots
+2c50c8fd; (tag: refs/tags/0.46.0);Thiago Teixeira;2019-09-22 17:28:02 -0700;Remove conda from docs
+1269f60e; (tag: refs/tags/0.45.0);Thiago Teixeira;2019-08-28 14:42:21 -0700;Up version to 0.45.0
+83bade2d; (tag: refs/tags/0.44.0);Thiago Teixeira;2019-07-26 22:52:14 -0700;Update pipfiles
+7c16aacd; (tag: refs/tags/0.43.2);Thiago Teixeira;2019-07-11 01:28:00 +0200;Version 0.43.2 Disable preheating until it's fixed (#1060)
+4f725d8e; (tag: refs/tags/0.43.1);Thiago Teixeira;2019-07-09 19:57:05 +0200;Version 0.43.1
+c96ee588; (tag: refs/tags/0.43.0);Thiago Teixeira;2019-07-09 19:39:36 +0200;Set version to 0.43.0
+0dd3bdc3; (tag: refs/tags/0.42.0);Thiago Teixeira;2019-07-01 23:54:41 -0700;Make update_version.py include dockerfiles
+2a149b42; (tag: refs/tags/0.41.0);Thiago Teixeira;2019-06-24 13:33:17 -0700;Up version to 0.41.0
+f1728d26; (tag: refs/tags/0.40.1);Thiago Teixeira;2019-06-13 13:52:39 -0700;Remove TF dependency and set version to 0.40.1
+9df2e97d; (tag: refs/tags/0.40.0);Thiago Teixeira;2019-06-10 23:53:41 -0700;Release 0.40.0 (zeropx!!!!) (#831)
+3912c4c0; (tag: refs/tags/0.37.0);Thiago Teixeira;2019-05-11 00:05:38 -0700;version 0.37.0
+3f09face; (tag: refs/tags/0.36.0);Thiago Teixeira;2019-05-03 18:09:06 -0700;version 0.36.0
+624e8602; (tag: refs/tags/0.35.0);Thiago Teixeira;2019-04-26 22:18:16 -0700;version 0.35.0
+3bd74e88; (tag: refs/tags/0.34.0);Thiago Teixeira;2019-04-19 15:51:18 -0700;version 0.34.0
+4a25d663; (tag: refs/tags/0.33.0);Thiago Teixeira;2019-04-12 15:57:53 -0700;version 0.33.0
+88401dab; (tag: refs/tags/0.32.0);Thiago Teixeira;2019-03-28 23:19:15 -0700;version 0.32.0
+c3ea5db4; (tag: refs/tags/0.31.0);Thiago Teixeira;2019-03-21 15:16:21 -0700;Version 0.31.0
+86797767; (tag: refs/tags/0.30.0);Thiago Teixeira;2019-03-14 20:55:59 -0700;version 0.30.0
+fa88ee2c; (tag: refs/tags/0.28.0);Thiago Teixeira;2019-02-28 00:47:31 -0800;version 0.28.0
+bd9e794a; (tag: refs/tags/0.27.0);Thiago Teixeira;2019-02-20 17:50:31 -0800;version 0.27.0
+980cf092; (tag: refs/tags/0.26.1);Thiago Teixeira;2019-02-15 22:32:29 -0800;version 0.26.1
+84ef8025; (tag: refs/tags/0.25.0);Thiago Teixeira;2019-01-30 17:56:44 -0800;version 0.25.0
+b9226f3d; (tag: refs/tags/0.24.0);Thiago Teixeira;2019-01-16 11:57:03 -0800;version 0.24.0
+a7fdb8a1; (tag: refs/tags/0.19.1);Adrien Treuille;2018-11-24 08:32:59 -0800;Using EXAMPLE_DIR throughout test_streamlit.py. All tests pass in 2.7 and 3.6.
+0eb5f096; (tag: refs/tags/0.19.0);Adrien Treuille;2018-11-20 22:49:44 -0800;Fixed a typo in examples/syntax_error.py.
+511c1f6a; (tag: refs/tags/0.17.2);Adrien Treuille;2018-10-31 08:45:25 -0700;Version bump to 0.17.2.
+f1335328; (tag: refs/tags/0.16.3);Thiago Teixeira;2018-10-12 19:06:58 -0700;[site] Change title "Configuration" to "Setup" in remote-operation
+f5730738; (tag: refs/tags/0.16.0);Adrien Treuille;2018-10-02 21:14:27 -0700;Updated the release notes.
+910c8b4a; (tag: refs/tags/0.15.4);Adrien Treuille;2018-09-17 17:52:57 -0700;fixed typo in install_requirements.txt for hte future version
+39622ea6; (tag: refs/tags/0.14.2);Adrien Treuille;2018-08-16 15:08:10 -0700;Added release notes for 0.14.
+a2ca16f7; (tag: refs/tags/0.13.5);Adrien Treuille;2018-08-03 17:01:44 -0700;Updated CONTRIBUTING to emphasize that testing should be done in a fresh install.
+8d278472; (tag: refs/tags/0.13.3);Adrien Treuille;2018-07-04 23:46:58 -0700;0.13.3
+50ab33f8; (tag: refs/tags/0.12.4);Adrien Treuille;2018-06-25 18:26:11 -0700;version 0.12.4
+0f533276; (tag: refs/tags/0.11.0);Adrien Treuille;2018-06-09 13:29:22 -0700;version 0.11.0
+a34c2c92; (tag: refs/tags/0.10.1);Thiago Teixeira;2018-05-31 15:12:55 -0700;version 0.10.1
+4ad2a4a1; (tag: refs/tags/0.10.0);Thiago Teixeira;2018-05-31 14:00:28 -0700;Bump version to 0.10.0
+bcb15cca; (tag: refs/tags/0.9.0);Adrien Treuille;2018-05-18 10:01:52 -0700;Cleaned up the examples folder.
+c4763374; (tag: refs/tags/0.8.0);Adrien Treuille;2018-04-23 14:57:20 -0400;Bumped version to 0.8
+0574dc33; (tag: refs/tags/0.6.0);Adrien Treuille;2018-04-10 05:09:40 -0700;Version 0.6 of Streamlit has been uploaded.
+cee12ffc; (tag: refs/tags/0.5.0);Adrien Treuille;2018-04-05 11:11:34 -0700;Finished v0.5 commit.
+75bf7e12; (tag: refs/tags/0.3.0);Adrien Treuille;2018-04-02 16:11:23 -0700;v0.3
+f4fe2711; (tag: refs/tags/0.2.0);Adrien Treuille;2018-03-29 13:24:00 -0700;Version 0.2
+b22b239e; (tag: refs/tags/0.1.0);Adrien Treuille;2018-03-26 19:12:01 -0700;Got rid of extraneous code in the datetime index example.

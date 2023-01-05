@@ -1,0 +1,39 @@
+prophet,file,method,params,startlineno,endlineno,type,lineno
+prophet,python\setup.py,build_stan_model,"target_dir, model_dir=MODEL_DIR",26,34,argument,34
+prophet,python\fbprophet\diagnostics.py,rolling_mean_by_h,"x, h, w, name",269,319,reference,308
+prophet,python\fbprophet\diagnostics.py,rolling_mean_by_h,"x, h, w, name",269,319,reference,315
+prophet,python\fbprophet\forecaster.py,logistic_growth_init,df,977,1017,reference,1008
+prophet,python\fbprophet\forecaster.py,logistic_growth_init,df,977,1017,reference,1010
+prophet,python\fbprophet\forecaster.py,fourier_series,"dates, period, series_order",383,407,reference,399
+prophet,python\fbprophet\forecaster.py,fourier_series,"dates, period, series_order",383,407,reference,405
+prophet,python\fbprophet\forecaster.py,predict_seasonal_components,"self, df",1278,1310,reference,1292
+prophet,python\fbprophet\forecaster.py,predict_seasonal_components,"self, df",1278,1310,reference,1293
+prophet,python\fbprophet\forecaster.py,predict_seasonal_components,"self, df",1278,1310,reference,1305
+prophet,python\fbprophet\forecaster.py,predict_seasonal_components,"self, df",1278,1310,reference,1308
+prophet,python\fbprophet\forecaster.py,sample_model,"self, df, seasonal_features, iteration, s_a, s_m",1392,1418,reference,1407
+prophet,python\fbprophet\forecaster.py,sample_model,"self, df, seasonal_features, iteration, s_a, s_m",1392,1418,reference,1417
+prophet,python\fbprophet\forecaster.py,sample_model,"self, df, seasonal_features, iteration, s_a, s_m",1392,1418,reference,1418
+prophet,python\fbprophet\forecaster.py,predict_uncertainty,"self, df",1367,1390,reference,1380
+prophet,python\fbprophet\forecaster.py,predict_uncertainty,"self, df",1367,1390,reference,1381
+prophet,python\fbprophet\forecaster.py,predict_uncertainty,"self, df",1367,1390,reference,1386
+prophet,python\fbprophet\forecaster.py,predict_uncertainty,"self, df",1367,1390,reference,1388
+prophet,python\fbprophet\forecaster.py,predict_trend,"self, df",1253,1276,reference,1276
+prophet,python\fbprophet\forecaster.py,sample_predictive_trend,"self, df, iteration",1421,1470,reference,1460
+prophet,python\fbprophet\forecaster.py,sample_predictive_trend,"self, df, iteration",1421,1470,reference,1470
+prophet,python\fbprophet\hdays.py,_populate,"self, year",833,895,reference,869
+prophet,python\fbprophet\hdays.py,_populate,"self, year",833,895,reference,870
+prophet,python\fbprophet\hdays.py,_populate,"self, year",833,895,reference,871
+prophet,python\fbprophet\hdays.py,_populate,"self, year",915,959,reference,949
+prophet,python\fbprophet\hdays.py,_populate,"self, year",915,959,reference,950
+prophet,python\fbprophet\hdays.py,_populate,"self, year",915,959,reference,951
+prophet,python\fbprophet\plot.py,plot_cross_validation_metric,"df_cv, metric, rolling_window='0.1', ax=None, figsize=('10', '6')",445,520,reference,491
+prophet,python\fbprophet\plot.py,plot_cross_validation_metric,"df_cv, metric, rolling_window='0.1', ax=None, figsize=('10', '6')",445,520,reference,508
+prophet,python\fbprophet\tests\test_prophet.py,test_custom_seasonality,self,538,588,reference,581
+prophet,python\fbprophet\tests\test_prophet.py,test_custom_seasonality,self,538,588,reference,585
+prophet,python\fbprophet\tests\test_prophet.py,test_custom_seasonality,self,538,588,reference,588
+prophet,python\fbprophet\make_holidays.py,get_holiday_names,country,20,42,getattr,35
+prophet,python\fbprophet\make_holidays.py,get_holiday_names,country,20,42,getattr,38
+prophet,python\fbprophet\make_holidays.py,make_holidays_df,"year_list, country",45,69,getattr,59
+prophet,python\fbprophet\make_holidays.py,make_holidays_df,"year_list, country",45,69,getattr,62
+prophet,python\scripts\generate_holidays_file.py,generate_holidays_file,,24,73,getattr,40
+prophet,python\scripts\generate_holidays_file.py,generate_holidays_file,,24,73,getattr,52

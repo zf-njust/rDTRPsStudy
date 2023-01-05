@@ -1,0 +1,313 @@
+file,method,params,startlineno,endlineno
+proxy_extension.py,create_proxy_extension,proxy,5,78
+setup.py,readall,*args,19,21
+instapy\browser.py,get_geckodriver,,27,37
+instapy\browser.py,create_firefox_extension,,40,50
+instapy\browser.py,set_selenium_local_session,"proxy_address, proxy_port, proxy_username, proxy_password, headless_browser, browser_profile_path, disable_image_load, page_delay, geckodriver_path, logger",53,135
+instapy\browser.py,proxy_authentication,"browser, logger, proxy_username, proxy_password",138,160
+instapy\browser.py,close_browser,"browser, threaded_session, logger",163,182
+instapy\browser.py,retry,"max_retry_count='3', start_page=None",186,250
+instapy\browser.py,real_decorator,org_func,193,248
+instapy\browser.py,wrapper,"*args, **kwargs",194,246
+instapy\browser.py,find_element_by_xpath,"self, *args, **kwargs",256,259
+instapy\browser.py,wait_for_valid_connection,"self, username, logger",261,270
+instapy\browser.py,wait_for_valid_authorization,"self, username, logger",272,289
+instapy\browser.py,convert_selenium_browser,driver,292,295
+instapy\clarifai_util.py,check_image,"browser, clarifai_api_key, img_tags, img_tags_skip_if_contain, logger, clarifai_models, workflow, probability, full_match=False, check_video=False, proxy=None, picture_url=None",10,101
+instapy\clarifai_util.py,given_tags_in_result,"search_tags, clarifai_tags, full_match=False",104,109
+instapy\clarifai_util.py,get_source_link,browser,112,138
+instapy\clarifai_util.py,get_clarifai_response,"clarifai_api, clarifai_model, source_link, check_video",141,185
+instapy\clarifai_util.py,get_clarifai_tags,"clarifai_response, probability",188,251
+instapy\commenters_util.py,check_exists_by_xpath,"browser, xpath",31,36
+instapy\commenters_util.py,remove_duplicates_preserving_order,seq,39,42
+instapy\commenters_util.py,extract_post_info,browser,45,95
+instapy\commenters_util.py,extract_information,"browser, username, daysold, max_pic",98,283
+instapy\commenters_util.py,users_liked,"browser, photo_url, amount='100'",286,295
+instapy\commenters_util.py,likers_from_photo,"browser, amount='20'",298,399
+instapy\commenters_util.py,get_photo_urls_from_profile,"browser, username, links_to_return_amount='1', randomize=True",402,435
+instapy\comment_util.py,get_comment_input,browser,27,37
+instapy\comment_util.py,open_comment_section,"browser, logger",40,58
+instapy\comment_util.py,comment_image,"browser, username, comments, blacklist, logger, logfolder",61,138
+instapy\comment_util.py,verify_commenting,"browser, maximum, minimum, mand_words, logger",141,203
+instapy\comment_util.py,get_comments_on_post,"browser, owner, poster, amount, post_link, ignore_users, randomize, logger",206,311
+instapy\comment_util.py,is_commenting_enabled,"browser, logger",314,343
+instapy\comment_util.py,get_comments_count,"browser, logger",346,377
+instapy\database_engine.py,get_database,make=False,55,69
+instapy\database_engine.py,create_database,"address, logger, name",72,103
+instapy\database_engine.py,create_tables,"cursor, tables",106,123
+instapy\database_engine.py,verify_database_directories,address,126,129
+instapy\database_engine.py,validate_database_address,,132,140
+instapy\database_engine.py,get_profile,"name, address, logger",143,172
+instapy\database_engine.py,add_profile,"conn, cursor, name",175,178
+instapy\database_engine.py,select_profile_by_username,"cursor, name",181,185
+instapy\event.py,__new__,"cls, *args, **kwargs",12,15
+instapy\event.py,__init__,self,17,18
+instapy\event.py,fire_callbacks,"self, function_name, *args, **kwargs",20,24
+instapy\event.py,add_callback,"self, function_name, callback",26,30
+instapy\event.py,profile_data_updated,"self, username, followers_count, following_count",33,38
+instapy\event.py,commented,"self, username",41,42
+instapy\event.py,liked,"self, username",44,45
+instapy\event.py,followed,"self, username",47,48
+instapy\event.py,unfollowed,"self, username",50,51
+instapy\feed_util.py,get_like_on_feed,"browser, amount",9,49
+instapy\file_manager.py,use_workspace,,16,20
+instapy\file_manager.py,use_assets,,23,27
+instapy\file_manager.py,get_workspace,,30,46
+instapy\file_manager.py,set_workspace,path=None,49,90
+instapy\file_manager.py,update_workspace,latest_path,94,99
+instapy\file_manager.py,move_workspace,"old_path, new_path",102,103
+instapy\file_manager.py,update_locations,,107,120
+instapy\file_manager.py,get_home_path,,123,136
+instapy\file_manager.py,slashen,"path, direction='forward'",139,152
+instapy\file_manager.py,remove_last_slash,path,155,161
+instapy\file_manager.py,verify_workspace_name,path,164,181
+instapy\file_manager.py,differ_paths,"old, new",184,195
+instapy\file_manager.py,validate_path,path,198,210
+instapy\file_manager.py,get_logfolder,"username, multi_logs",213,220
+instapy\instapy.py,__init__,"self, username: str=None, password: str=None, nogui: bool=False, selenium_local_session: bool=True, browser_profile_path: str=None, page_delay: int='25', show_logs: bool=True, headless_browser: bool=False, proxy_username: str=None, proxy_password: str=None, proxy_address: str=None, proxy_port: str=None, disable_image_load: bool=False, multi_logs: bool=True, log_handler=None, geckodriver_path: str=None, split_db: bool=False, bypass_security_challenge_using: str='email'",103,324
+instapy\instapy.py,get_instapy_logger,"self, show_logs: bool, log_handler=None",326,363
+instapy\instapy.py,set_selenium_remote_session,"self, logger, selenium_url: str='', selenium_driver=None",365,392
+instapy\instapy.py,login,self,394,443
+instapy\instapy.py,set_sleep_reduce,"self, percentage: int",445,447
+instapy\instapy.py,set_action_delays,"self, enabled: bool=False, like: int=None, comment: int=None, follow: int=None, unfollow: int=None, story: int=None, randomize: bool=False, random_range_from: int=None, random_range_to: int=None, safety_match: bool=True",449,473
+instapy\instapy.py,set_do_comment,"self, enabled: bool=False, percentage: int='0'",477,489
+instapy\instapy.py,set_comments,"self, comments: list=[], media: str=None",491,511
+instapy\instapy.py,set_do_follow,"self, enabled: bool=False, percentage: int='0', times: int='1'",513,522
+instapy\instapy.py,set_do_like,"self, enabled: bool=False, percentage: int='0'",524,531
+instapy\instapy.py,set_do_story,"self, enabled: bool=False, percentage: int='0', simulate: bool=False",533,550
+instapy\instapy.py,set_dont_like,"self, tags: list=[]",552,565
+instapy\instapy.py,set_mandatory_words,"self, tags: list=[]",567,581
+instapy\instapy.py,set_user_interact,"self, amount: int='10', percentage: int='100', randomize: bool=False, media: str=None",583,599
+instapy\instapy.py,set_ignore_users,"self, users: list=[]",601,609
+instapy\instapy.py,set_ignore_if_contains,"self, words: list=[]",611,619
+instapy\instapy.py,set_dont_include,"self, friends: list=None",621,629
+instapy\instapy.py,set_switch_language,"self, option: bool=True",631,633
+instapy\instapy.py,set_use_clarifai,"self, enabled: bool=False, api_key: str=None, models: list=['general'], workflow: list=[], probability: float='0.5', full_match: bool=False, check_video: bool=False, proxy: str=None",635,675
+instapy\instapy.py,set_smart_hashtags,"self, tags: list=None, limit: int='3', sort: str='top', log_tags: bool=True",677,726
+instapy\instapy.py,set_smart_location_hashtags,"self, locations: list, radius: int='10', limit: int='3', log_tags: bool=True",728,773
+instapy\instapy.py,set_mandatory_language,"self, enabled: bool=False, character_set: list=['LATIN']",775,813
+instapy\instapy.py,clarifai_check_img_for,"self, tags: list=None, tags_skip: list=None, comment: bool=False, comments: list=None",815,832
+instapy\instapy.py,query_clarifai,self,834,848
+instapy\instapy.py,follow_commenters,"self, usernames: list, amount: int='10', daysold: int='365', max_pic: int='50', sleep_delay: int='600', interact: bool=False",851,967
+instapy\instapy.py,follow_likers,"self, usernames: list, photos_grab_amount: int='3', follow_likers_per_photo: int='3', randomize: bool=True, sleep_delay: int='600', interact: bool=False",969,1090
+instapy\instapy.py,follow_by_list,"self, followlist: list, times: int='1', sleep_delay: int='600', interact: bool=False",1092,1268
+instapy\instapy.py,set_relationship_bounds,"self, enabled: bool=False, potency_ratio: float=None, delimit_by_numbers: bool=None, min_posts: int=None, max_posts: int=None, max_followers: int=None, max_following: int=None, min_followers: int=None, min_following: int=None",1270,1295
+instapy\instapy.py,validate_user_call,"self, user_name: str",1297,1326
+instapy\instapy.py,fetch_smart_comments,"self, is_video: bool, temp_comments: list",1328,1337
+instapy\instapy.py,set_skip_users,"self, skip_private: bool=True, private_percentage: int='100', skip_no_profile_pic: bool=False, no_profile_pic_percentage: int='100', skip_business: bool=False, business_percentage: int='100', skip_business_categories: list=[], skip_bio_keyword: list=[], dont_skip_business_categories: list=[], skip_non_business: bool=False",1339,1371
+instapy\instapy.py,set_delimit_liking,"self, enabled: bool=False, max_likes: int=None, min_likes: int=None",1377,1383
+instapy\instapy.py,set_delimit_commenting,"self, enabled: bool=False, max_comments: int=None, min_comments: int=None, comments_mandatory_words: list=[]",1385,1399
+instapy\instapy.py,set_simulation,"self, enabled: bool=True, percentage: int='100'",1401,1414
+instapy\instapy.py,like_by_locations,"self, locations: list=None, amount: int='50', media: str=None, skip_top_posts: bool=True",1416,1641
+instapy\instapy.py,comment_by_locations,"self, locations: list=None, amount: int='50', media: str=None, skip_top_posts: bool=True",1643,1842
+instapy\instapy.py,like_by_tags,"self, tags: list=None, amount: int='50', skip_top_posts: bool=True, use_smart_hashtags: bool=False, use_smart_location_hashtags: bool=False, interact: bool=False, randomize: bool=False, media: str=None",1844,2100
+instapy\instapy.py,like_by_users,"self, usernames: list, amount: int='10', randomize: bool=False, media: str=None",2102,2356
+instapy\instapy.py,interact_by_users,"self, usernames: list, amount: int='10', randomize: bool=False, media: str=None",2358,2691
+instapy\instapy.py,interact_by_users_tagged_posts,"self, usernames: list, amount: int='10', randomize: bool=False, media: str=None",2693,3017
+instapy\instapy.py,like_from_image,"self, url: str, amount: int='50', media: str=None",3019,3039
+instapy\instapy.py,interact_user_followers,"self, usernames: list, amount: int='10', randomize: bool=False",3041,3224
+instapy\instapy.py,interact_user_following,"self, usernames: list, amount: int='10', randomize: bool=False",3226,3401
+instapy\instapy.py,follow_user_followers,"self, usernames: list, amount: int='10', randomize: bool=False, interact: bool=False, sleep_delay: int='600'",3403,3589
+instapy\instapy.py,follow_user_following,"self, usernames: list, amount: int='10', randomize: bool=False, interact: bool=False, sleep_delay: int='600'",3591,3775
+instapy\instapy.py,unfollow_users,"self, amount: int='10', custom_list_enabled: bool=False, custom_list: list=[], custom_list_param: str='all', instapy_followed_enabled: bool=False, instapy_followed_param: str='all', nonFollowers: bool=False, allFollowing: bool=False, style: str='FIFO', unfollow_after: int=None, delay_followbackers: int='0', sleep_delay: int='600'",3777,3849
+instapy\instapy.py,remove_follow_requests,"self, amount: int='200', sleep_delay: int='600'",3851,3890
+instapy\instapy.py,like_by_feed,"self, **kwargs",3892,3901
+instapy\instapy.py,like_by_feed_generator,"self, amount: int='50', randomize: bool=False, unfollow: bool=False, interact: bool=False",3903,4217
+instapy\instapy.py,set_dont_unfollow_active_users,"self, enabled: bool=False, posts: int='4', boundary: int='500'",4219,4238
+instapy\instapy.py,set_blacklist,"self, enabled: bool, campaign: str",4240,4261
+instapy\instapy.py,grab_followers,"self, username: str=None, amount: int=None, live_match: bool=False, store_locally: bool=True",4263,4309
+instapy\instapy.py,grab_following,"self, username: str=None, amount: int=None, live_match: bool=False, store_locally: bool=True",4311,4357
+instapy\instapy.py,pick_unfollowers,"self, username: str=None, compare_by: str='latest', compare_track: str='first', live_match: bool=False, store_locally: bool=True, print_out: bool=True",4359,4391
+instapy\instapy.py,pick_nonfollowers,"self, username: str=None, live_match: bool=False, store_locally: bool=True",4393,4412
+instapy\instapy.py,pick_fans,"self, username: str=None, live_match: bool=False, store_locally: bool=True",4414,4436
+instapy\instapy.py,pick_mutual_following,"self, username: str=None, live_match: bool=False, store_locally: bool=True",4438,4460
+instapy\instapy.py,end,"self, threaded_session: bool=False",4462,4485
+instapy\instapy.py,follow_by_locations,"self, locations: list=[], amount: int='50', media: str=None, skip_top_posts: bool=True",4487,4596
+instapy\instapy.py,follow_by_tags,"self, tags: list=[], amount: int='50', skip_top_posts: bool=True, use_smart_hashtags: bool=False, use_smart_location_hashtags: bool=False, randomize: bool=False, media: str=None, interact: bool=False",4598,4748
+instapy\instapy.py,interact_by_URL,"self, urls: list=[], randomize: bool=False, interact: bool=False",4750,4968
+instapy\instapy.py,set_quota_supervisor,"self, enabled: bool=False, sleep_after: list=[], sleepyhead: bool=False, stochastic_flow: bool=False, notify_me: bool=False, peak_likes_hourly: int=None, peak_likes_daily: int=None, peak_comments_hourly: int=None, peak_comments_daily: int=None, peak_follows_hourly: int=None, peak_follows_daily: int=None, peak_unfollows_hourly: int=None, peak_unfollows_daily: int=None, peak_server_calls_hourly: int=None, peak_server_calls_daily: int=None",4970,5034
+instapy\instapy.py,feature_in_feature,"self, feature, validate_users",5038,5052
+instapy\instapy.py,live_report,self,5054,5123
+instapy\instapy.py,set_do_reply_to_comments,"self, enabled: bool=False, percentage: int='0'",5126,5132
+instapy\instapy.py,set_comment_replies,"self, replies: list=[], media: str=None",5134,5155
+instapy\instapy.py,set_use_meaningcloud,"self, enabled: bool=False, license_key: str=None, polarity: str='P', agreement: str=None, subjectivity: str=None, confidence: bool='100'",5157,5192
+instapy\instapy.py,set_use_yandex,"self, enabled: bool=False, API_key: str=None, match_language: bool=False, language_code: str='en'",5194,5230
+instapy\instapy.py,interact_by_comments,"self, usernames: list=None, posts_amount: int='10', comments_per_post: int='1', reply: bool=False, interact: bool=False, randomize: bool=False, media: str=None",5232,5592
+instapy\instapy.py,is_mandatory_character,"self, uchr",5594,5604
+instapy\instapy.py,run_time,self,5608,5615
+instapy\instapy.py,check_character_set,"self, unistr",5617,5622
+instapy\instapy.py,accept_follow_requests,"self, amount: int='100', sleep_delay: int='1'",5625,5660
+instapy\instapy.py,join_pods,"self, topic: str='general', engagement_mode: str='normal'",5662,5777
+instapy\instapy.py,engage_with_posts,"self, pod_posts, modespecific_comment_percentage",5779,5855
+instapy\instapy.py,story_by_tags,"self, tags: list=None",5857,5887
+instapy\instapy.py,story_by_users,"self, users: list=None",5889,5919
+instapy\like_util.py,get_links_from_feed,"browser, amount, num_of_search, logger",29,62
+instapy\like_util.py,get_main_element,"browser, link_elems, skip_top_posts",65,80
+instapy\like_util.py,get_links_for_location,"browser, location, amount, logger, media=None, skip_top_posts=True",83,234
+instapy\like_util.py,get_links_for_tag,"browser, tag, amount, skip_top_posts, randomize, media, logger",237,405
+instapy\like_util.py,get_links_for_username,"browser, username, person, amount, logger, logfolder, randomize=False, media=None, taggedImages=False",408,509
+instapy\like_util.py,get_media_edge_comment_string,media,512,520
+instapy\like_util.py,check_link,"browser, post_link, dont_like, mandatory_words, mandatory_language, mandatory_character, is_mandatory_character, check_character_set, ignore_if_contains, logger",523,731
+instapy\like_util.py,like_image,"browser, username, blacklist, logger, logfolder, total_liked_img",734,790
+instapy\like_util.py,verify_liked_image,"browser, logger",793,806
+instapy\like_util.py,get_tags,"browser, url",809,840
+instapy\like_util.py,get_links,"browser, page, logger, media, element",843,879
+instapy\like_util.py,verify_liking,"browser, maximum, minimum, logger",882,931
+instapy\like_util.py,like_comment,"browser, original_comment_text, logger",934,987
+instapy\login_util.py,bypass_suspicious_login,"browser, logger, logfolder, bypass_security_challenge_using",27,151
+instapy\login_util.py,check_browser,"browser, logfolder, logger, proxy_address",154,258
+instapy\login_util.py,login_user,"browser, username, password, logger, logfolder, proxy_address, security_code_to_phone",261,485
+instapy\login_util.py,dismiss_get_app_offer,"browser, logger",488,500
+instapy\login_util.py,dismiss_notification_offer,"browser, logger",503,517
+instapy\login_util.py,dismiss_this_was_me,browser,520,531
+instapy\monkey_patcher.py,patch_move_to_element,,4,14
+instapy\monkey_patcher.py,override_move_to_element,"self, to_element",8,11
+instapy\monkey_patcher.py,patch_all,,17,18
+instapy\pods_util.py,get_server_endpoint,topic,7,19
+instapy\pods_util.py,get_recent_posts_from_pods,"topic, logger",22,36
+instapy\pods_util.py,group_posts,"posts, logger",39,59
+instapy\pods_util.py,share_my_post_with_pods,"postid, topic, engagement_mode, logger",62,76
+instapy\pods_util.py,share_with_pods_restriction,"operation, postid, limit, logger",79,144
+instapy\pods_util.py,comment_restriction,"operation, postid, limit, logger",147,212
+instapy\print_log_writer.py,get_log_time,,12,16
+instapy\print_log_writer.py,log_follower_num,"browser, username, logfolder",19,49
+instapy\print_log_writer.py,log_following_num,"browser, username, logfolder",52,84
+instapy\print_log_writer.py,log_followed_pool,"login, followed, logger, logfolder, logtime, user_id",87,101
+instapy\print_log_writer.py,log_uncertain_unfollowed_pool,"login, person, logger, logfolder, logtime, user_id",104,114
+instapy\print_log_writer.py,log_record_all_unfollowed,"login, unfollowed, logger, logfolder",117,127
+instapy\print_log_writer.py,log_record_all_followed,"login, followed, logger, logfolder, logtime, user_id",130,139
+instapy\quota_supervisor.py,quota_supervisor,"job, update=False",17,42
+instapy\quota_supervisor.py,controller,job,45,90
+instapy\quota_supervisor.py,inspector,"job, peaks",93,135
+instapy\quota_supervisor.py,stochasticity,peaks,138,179
+instapy\quota_supervisor.py,stochast_values,"peaks, orig_peaks, interval, percent",182,194
+instapy\quota_supervisor.py,stoch_randomizer,"value, percent",197,201
+instapy\quota_supervisor.py,remaining_time,"sleepyhead, interval",204,223
+instapy\quota_supervisor.py,send_message,"job, action, interval, nap",226,271
+instapy\quota_supervisor.py,toast_notification,"notify, alert, job, interval",274,309
+instapy\quota_supervisor.py,get_icons,,312,350
+instapy\quota_supervisor.py,load_records,,353,392
+instapy\quota_supervisor.py,get_record,"job, interval",395,408
+instapy\quota_supervisor.py,update_record,job,411,424
+instapy\relationship_tools.py,get_followers,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",18,294
+instapy\relationship_tools.py,get_following,"browser, username, grab, relationship_data, live_match, store_locally, logger, logfolder",297,574
+instapy\relationship_tools.py,get_unfollowers,"browser, username, compare_by, compare_track, relationship_data, live_match, store_locally, print_out, logger, logfolder",577,679
+instapy\relationship_tools.py,get_nonfollowers,"browser, username, relationship_data, live_match, store_locally, logger, logfolder",682,739
+instapy\relationship_tools.py,get_fans,"browser, username, relationship_data, live_match, store_locally, logger, logfolder",742,793
+instapy\relationship_tools.py,get_mutual_following,"browser, username, relationship_data, live_match, store_locally, logger, logfolder",796,853
+instapy\relationship_tools.py,store_followers_data,"username, grab, grabbed_followers, logger, logfolder",856,884
+instapy\relationship_tools.py,store_following_data,"username, grab, grabbed_following, logger, logfolder",889,916
+instapy\relationship_tools.py,store_all_unfollowers,"username, all_unfollowers, logger, logfolder",921,950
+instapy\relationship_tools.py,store_active_unfollowers,"username, active_unfollowers, logger, logfolder",954,986
+instapy\relationship_tools.py,store_nonfollowers,"username, followers_size, following_size, nonfollowers, logger, logfolder",990,1023
+instapy\relationship_tools.py,store_fans,"username, followers_size, following_size, fans, logger, logfolder",1027,1056
+instapy\relationship_tools.py,store_mutual_following,"username, followers_size, following_size, mutual_following, logger, logfolder",1061,1100
+instapy\relationship_tools.py,load_followers_data,"username, compare_by, compare_track, logger, logfolder",1104,1257
+instapy\settings.py,localize_path,*args,22,30
+instapy\story_util.py,get_story_data,"browser, elem, action_type, logger, simulate=False",16,171
+instapy\story_util.py,watch_story,"browser, elem, logger, action_type, simulate=False",174,215
+instapy\text_analytics.py,text_analysis,"text, text_type, logger",33,233
+instapy\text_analytics.py,sentiment_analysis,"text, language_of_text, logger",236,284
+instapy\text_analytics.py,detect_language,text,287,322
+instapy\text_analytics.py,yandex_supported_languages,language_code='en',325,363
+instapy\text_analytics.py,translate_text,"translation_direction, text_to_translate",366,413
+instapy\text_analytics.py,lift_yandex_request,request,416,458
+instapy\text_analytics.py,lift_meaningcloud_request,request,461,623
+instapy\time_util.py,randomize_time,mean,14,22
+instapy\time_util.py,set_sleep_percentage,percentage,25,28
+instapy\time_util.py,sleep,"t, custom_percentage=None",31,35
+instapy\time_util.py,sleep_actual,t,38,39
+instapy\time_util.py,get_time,labels,42,62
+instapy\unfollow_util.py,set_automated_followed_pool,"username, unfollow_after, logger, logfolder, delay_followbackers, pool='followedPool'",49,143
+instapy\unfollow_util.py,get_following_status,"browser, track, username, person, person_id, logger, logfolder",146,213
+instapy\unfollow_util.py,unfollow,"browser, username, amount, customList, InstapyFollowed, nonFollowers, allFollowing, style, automatedFollowedPool, relationship_data, dont_include, white_list, sleep_delay, jumps, delay_followbackers, logger, logfolder",216,762
+instapy\unfollow_util.py,follow_user,"browser, track, login, user_name, button, blacklist, logger, logfolder",765,854
+instapy\unfollow_util.py,scroll_to_bottom_of_followers_list,browser,857,859
+instapy\unfollow_util.py,get_users_through_dialog_with_graphql,"browser, login, user_name, amount, users_count, randomize, dont_include, blacklist, follow_times, simulation, channel, jumps, logger, logfolder",862,1016
+instapy\unfollow_util.py,dialog_username_extractor,buttons,1019,1045
+instapy\unfollow_util.py,follow_through_dialog,"browser, login, person_list, buttons, amount, dont_include, blacklist, follow_times, jumps, logger, logfolder",1048,1117
+instapy\unfollow_util.py,get_given_user_followers,"browser, login, user_name, amount, dont_include, randomize, blacklist, follow_times, simulation, jumps, logger, logfolder",1120,1207
+instapy\unfollow_util.py,get_given_user_following,"browser, login, user_name, amount, dont_include, randomize, blacklist, follow_times, simulation, jumps, logger, logfolder",1210,1333
+instapy\unfollow_util.py,dump_follow_restriction,"profile_name, logger, logfolder",1336,1379
+instapy\unfollow_util.py,follow_restriction,"operation, username, limit, logger",1382,1449
+instapy\unfollow_util.py,unfollow_user,"browser, track, username, person, person_id, button, relationship_data, logger, logfolder",1452,1565
+instapy\unfollow_util.py,confirm_unfollow,browser,1568,1592
+instapy\unfollow_util.py,post_unfollow_cleanup,"state, username, person, relationship_data, person_id, logger, logfolder",1595,1621
+instapy\unfollow_util.py,get_buttons_from_dialog,"dialog, channel",1624,1639
+instapy\unfollow_util.py,get_user_id,"browser, track, username, logger",1642,1650
+instapy\unfollow_util.py,verify_username_by_id,"browser, username, person, person_id, logger, logfolder",1653,1678
+instapy\unfollow_util.py,verify_action,"browser, action, track, username, person, person_id, logger, logfolder",1681,1749
+instapy\unfollow_util.py,post_unfollow_actions,"browser, person, logger",1752,1753
+instapy\unfollow_util.py,get_follow_requests,"browser, amount, sleep_delay, logger, logfolder",1756,1811
+instapy\unfollow_util.py,set_followback_in_pool,"username, person, person_id, logtime, logger, logfolder",1814,1821
+instapy\unfollow_util.py,refresh_follow_time_in_pool,"username, person, person_id, extra_secs, logger, logfolder",1824,1838
+instapy\util.py,is_private_profile,"browser, logger, following=True",65,95
+instapy\util.py,validate_username,"browser, username_or_link, own_username, ignore_users, blacklist, potency_ratio, delimit_by_numbers, max_followers, max_following, min_followers, min_following, min_posts, max_posts, skip_private, skip_private_percentage, skip_no_profile_pic, skip_no_profile_pic_percentage, skip_business, skip_non_business, skip_business_percentage, skip_business_categories, dont_skip_business_categories, skip_bio_keyword, logger, logfolder",98,428
+instapy\util.py,getUserData,"query, browser, basequery='return window.__additionalData[Object.keys(window.__additionalData)[0]].data.'",431,446
+instapy\util.py,update_activity,"browser=None, action='server_calls', state=None, logfolder=None, logger=None",449,553
+instapy\util.py,add_user_to_blacklist,"username, campaign, action, logger, logfolder",556,579
+instapy\util.py,get_active_users,"browser, username, posts, boundary, logger",584,838
+instapy\util.py,delete_line_from_file,"filepath, userToDelete, logger",841,904
+instapy\util.py,scroll_bottom,"browser, element, range_int",907,919
+instapy\util.py,click_element,"browser, element, tryNum='0'",922,996
+instapy\util.py,format_number,number,999,1016
+instapy\util.py,username_url_to_username,username_url,1019,1022
+instapy\util.py,get_number_of_posts,browser,1025,1048
+instapy\util.py,get_relationship_counts,"browser, username, logger",1051,1158
+instapy\util.py,web_address_navigator,"browser, link",1161,1201
+instapy\util.py,interruption_handler,"threaded=False, SIG_type=signal.SIGINT, handler=signal.SIG_IGN, notify=None, logger=None",1204,1225
+instapy\util.py,highlight_print,"username=None, message=None, priority=None, level=None, logger=None",1228,1299
+instapy\util.py,remove_duplicates,"container, keep_order, logger",1302,1323
+instapy\util.py,dump_record_activity,"profile_name, logger, logfolder",1326,1391
+instapy\util.py,ping_server,"host, logger",1394,1428
+instapy\util.py,emergency_exit,"browser, username, logger",1431,1445
+instapy\util.py,load_user_id,"username, person, logger, logfolder",1448,1477
+instapy\util.py,check_authorization,"browser, username, method, logger, notify=True",1480,1538
+instapy\util.py,get_username,"browser, track, logger",1541,1572
+instapy\util.py,find_user_id,"browser, track, username, logger",1575,1626
+instapy\util.py,new_tab,browser,1629,1648
+instapy\util.py,explicit_wait,"browser, track, ec_params, logger, timeout='35', notify=True",1651,1714
+instapy\util.py,get_current_url,browser,1717,1729
+instapy\util.py,get_username_from_id,"browser, user_id, logger",1732,1807
+instapy\util.py,is_page_available,"browser, logger",1810,1833
+instapy\util.py,smart_run,"session, threaded=False",1836,1858
+instapy\util.py,reload_webpage,browser,1861,1867
+instapy\util.py,get_page_title,"browser, logger",1870,1892
+instapy\util.py,click_visibly,"browser, element",1895,1913
+instapy\util.py,get_action_delay,action,1916,1964
+instapy\util.py,deform_emojis,text,1967,1994
+instapy\util.py,extract_text_from_element,elem,1997,2004
+instapy\util.py,truncate_float,"number, precision, round=False",2007,2029
+instapy\util.py,get_time_until_next_month,,2032,2041
+instapy\util.py,remove_extra_spaces,text,2044,2048
+instapy\util.py,has_any_letters,text,2051,2058
+instapy\util.py,save_account_progress,"browser, username, logger",2061,2092
+instapy\util.py,get_epoch_time_diff,"time_stamp, logger",2095,2108
+instapy\util.py,is_follow_me,"browser, person=None",2111,2117
+instapy\util.py,get_users_from_dialog,"old_data, dialog",2120,2135
+instapy\util.py,progress_tracker,"current_value, highest_value, initial_time, logger",2138,2199
+instapy\util.py,close_dialog_box,browser,2203,2214
+instapy\util.py,parse_cli_args,,2217,2306
+instapy\util.py,get_cord_location,"browser, location",2309,2321
+instapy\util.py,get_bounding_box,"latitude_in_degrees, longitude_in_degrees, half_side_in_miles, logger",2324,2361
+instapy\util.py,take_rotative_screenshot,"browser, logfolder",2364,2380
+instapy\util.py,get_query_hash,"browser, logger",2383,2394
+instapy\util.py,_get_option_tuples,"self, option_string",2406,2418
+instapy\xpath.py,read_xpath,"function_name, xpath_name",4,5
+instapy\plugins\telegram_util.py,__init__,"self, token='', telegram_username='', instapy_session=None, debug=True, proxy=None",32,78
+instapy\plugins\telegram_util.py,debug,self,80,86
+instapy\plugins\telegram_util.py,debug,"self, value",88,100
+instapy\plugins\telegram_util.py,telegram_bot,self,102,153
+instapy\plugins\telegram_util.py,send_message,"self, text=''",156,167
+instapy\plugins\telegram_util.py,telegram_delete_session,session,169,176
+instapy\plugins\telegram_util.py,_start,"self, update, context",178,193
+instapy\plugins\telegram_util.py,_report,"self, update, context",196,206
+instapy\plugins\telegram_util.py,_stop,"self, update, context",209,220
+instapy\plugins\telegram_util.py,_unknown,"self, update, context",223,238
+instapy\plugins\telegram_util.py,_check_authorized,"self, update, context",241,258
+instapy\plugins\telegram_util.py,_clean_web_hooks,self,260,271
+instapy\plugins\telegram_util.py,_error_callback,"self, update, error",273,291
+instapy\plugins\telegram_util.py,_live_report,self,294,357
+instapy\plugins\telegram_util.py,end,self,360,379
+tests\test_action_delays.py,test_default_values_returned,,4,8
+tests\test_settings.py,test_settings,,4,5
