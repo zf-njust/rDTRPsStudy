@@ -1,25 +1,32 @@
-# Dataset
+# Analysis of Type Smell Detection using Large Language Models
 
-the samples having no type smells: 300
-the samples having each type of type smells：100
-Total: 900 samples
-m
-# Data Processing
+## Introduction
 
-The labels consist of 0, 1, 2, 3, 4, 5, 6, 7. 0 indicates no type smell, and 1-6 indicate the type id of type smells. 
-All the samples in the dataset is uniformly divided into training set, verification set, and test set with a ratio of 8:1:1.
+Type smells are indicators of poor code quality that can lead to various problems such as maintenance issues, poor performance, and even security vulnerabilities. In recent years, large language models such as GPT-3 and GPT4 have shown remarkable performance in various natural language processing tasks. Here we present an analysis of type smell detection using large language models.
 
-# Experiment
+## Data
 
-In the experiment, multi-classification accuracy, recall, and F1-measure are used to evaluate the performance of the model. The experiment is repeated three times and the average value is used as the final result.
+We collected a dataset of 900 code samples, which were labeled as having either one of six types of type smells or no type smell at all. Among the samples, 300 had no type smell, and the remaining 600 had different type smells (100 samples for each type smell).
 
-## ChatGPT
+## Data Processing
 
-We select gpt-3.5-turbo-16k-0613 model of OpenAI. The context length of the model is set as 16K to prevent code from getting too long beyond the context length.
+To prepare the data for training, we shuffled the dataset and split it into training, validation, and test sets in the 8:1:1 ratio uniformly. Next, we process the code and type smell labels into a format suitable for the large language model to read.
 
-Hints For the Model：
+First, we need a system prompt to instruct the large language model to play a certain role in the dialogue. Here, we use the prompt "Now you are a programming expert with extensive python coding experience." Next, we assemble the code snippets to be detected in markdown format and give the task prompt, which is to detect type smells. In addition, to further improve the model's few-shot learning ability, we provide example code snippets for each type of type smell.
 
-A type smell is any dynamic typing practice in the source code of a Python program that possibly indicates a deeper problem.
+## Model and Experiment
+
+To compare the performance of different large language models in type smell detection, we selected two models as our experimental objects: ChatGPT and Llama2. ChatGPT is a state-of-the-art online language model developed by OpenAI. Llama2 is a new generation large language model released by Meta.
+
+We treat the type smell detection problem as a 7-class classification task, where label 0 represents no type smell, and label 1 ot 6 represent the six types of type smells. We evaluated the performance of the models using multi-class accuracy, recall, and F1 score.
+
+## Model1 - ChatGPT
+
+We used the GPT-3.5-turbo-16k-0613 model from OpenAI to detect type smells, which has a maximum context length of 16K. This context length is sufficient to prevent code samples from exceeding the maximum length.
+
+Here is the specific prompt template we used for ChatGPT to detect type smells:
+
+A type smell is any dynamic typing related characteristic in the source code of a Python program that possibly indicates a deeper problem.
 Here we have six types of type smells:
 
 1. The variable is redefined with an inconsistent type object.
@@ -82,7 +89,7 @@ Type 6 (Dynamic Attribute Access): One attribute is visited based on a dynamical
 dep_value = getattr(dep, attr)
 ```
 
-Please determine which of the following codes contains a code smell or no code smell:
+Please determine which of the following codes contains a type smell or no type smell:
 
 ```python
 {{CODE_PLACEHOLDER}}
@@ -101,7 +108,8 @@ Please return the result as json:
 }
 ```
 
-Experiment Result：
+## ChatGPT-Results
+
 Macro Precision on all data: 0.3143460154533386
 
 Micro Precision on all data: 0.3636363744735718
@@ -110,37 +118,38 @@ Macro Recall on all data: 0.18203464150428772
 
 Micro Recall on all data: 0.3636363744735718
 
-Multi class Precision on all data ([0, Type 1, Type 2, Type 3, Type 4, Type 5, Type6]): 
+Multi class Precision on all data:
 
 [0.3671, 0.0000, 0.0000, 1.0000, 0.3333, 0.0000, 0.5000]
 
-Multi class Recall on all data ([0, Type 1, Type 2, Type 3, Type 4, Type 5, Type6]):
+Multi class Recall on all data:
 
- [1.0000, 0.0000, 0.0000, 0.0909, 0.0833, 0.0000, 0.1000]
+[1.0000, 0.0000, 0.0000, 0.0909, 0.0833, 0.0000, 0.1000]
 
-Multi class F1 on all data ([0, Type 1, Type 2, Type 3, Type 4, Type 5, Type6]):
+Multi class F1 on all data:
 
- [0.5370, 0.0000, 0.0000, 0.1667, 0.1333, 0.0000, 0.1667]
+[0.5370, 0.0000, 0.0000, 0.1667, 0.1333, 0.0000, 0.1667]
 
-## LLAMA2
+## Model2-Llama2
 
-Llama2是由meta于2023年7月19日发布的新一代大语言模型，相比于上一代Llama其增加了40%的预训练数据，拓展至4096的上下文长度，分为7B，13B，70B三个版本。
-Llama 2在许多基准测试中表现优异，包括推理、编码、熟练度测试和知识测试。
-实验环境：l两张显卡NVIDIA TESLA A800 80G。batch size 32，学习率2e-5，最大context长度1024.
-由于实验资源所限，我们选择7B版本的Llama2进行微调，采用LORA策略，lora维度为128。
+The recent release of Llama2, a new generation large language model by Meta, has opened up new possibilities for type smell detection. Compared to its predecessor, Llama, Llama2 has a 40% increase in pre-training data and extends to a context length of 4096, available in three versions - 7B, 13B, and 70B. Llama2 has demonstrated superior performance in many benchmark tests, including inference, encoding, proficiency, and knowledge testing.
 
-一共训练了200个epoch，3900个step，每20步保存一个检查点
+Fine-tuning is a technique used in machine learning to adapt a pre-trained model to a specific task by further training on a smaller labeled dataset. Fine-tuning allows the pre-trained model to leverage its knowledge of the language to learn task-specific features from the labeled data and improve its performance on the target task.
 
-实验过程loss变化：
+The fine-tuning process involves initializing the pre-trained language model with its weights, adding a task-specific layer in the model, and then training the model on the labeled dataset. During training, the model updates its parameters to minimize the loss function to adapt to downstream tasks such as type smell detection.
 
-![](C:\Users\wangjun\Desktop\20230725code%20smell实验\学习率.png)
+Due to limited local computational resources, we had access to only two NVIDIA TESLA A100 80G graphics cards. Therefore, we selected the 7B version of the Llama2 model for our experiments. To further optimize our computational efficiency, we used the LORA (Low-Rank Adaptation of Large Language Models) method and set the LORA dimension was set to 128.
 
-![](C:\Users\wangjun\Desktop\20230725code%20smell实验\train_loss_epoch.png)
+LoRA (Low-Rank Adaptation) is a technique proposed for natural language processing that allows for efficient adaptation of pre-trained language models to specific tasks or domains. The approach involves freezing the weights of a pre-trained model and introducing trainable rank decomposition matrices into each layer of the Transformer architecture used in the model. By doing so, the number of trainable parameters for downstream tasks is greatly reduced, making it more feasible to fine-tune larger models.
 
-![](C:\Users\wangjun\Desktop\20230725code%20smell实验\trainb_loss_step.png)
+We use a batch size of 32, a learning rate of 2e-5, and a maximum context length of 1024. The model is trained for a total of 200 epochs with 3900 steps, and checkpoints are saved every 20 steps. We evaluate the model on the test set every 100 steps.
 
-![](C:\Users\wangjun\Desktop\20230725code%20smell实验\val_loss_epoch.png)
 
-![](C:\Users\wangjun\Desktop\20230725code%20smell实验\val_loss_step.png)
+## Llama2-Results
 
-实验结果：
+Precision, recall, and F-measure are shown in the csv files.
+
+
+
+
+
