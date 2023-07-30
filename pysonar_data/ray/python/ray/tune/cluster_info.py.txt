@@ -1,0 +1,5 @@
+<<get_ssh_user>> <<9:149-161>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_ssh_key>> <<17:363-374>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<20:446-450>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<21:522-526>> <<str>> <<VARIABLE>> <<LINK>>
+<<path>> <<22:545-549>> <<str>> <<VARIABLE>> <<LINK>>

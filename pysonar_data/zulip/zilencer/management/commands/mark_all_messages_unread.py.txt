@@ -1,0 +1,14 @@
+<<zerver>> <<8:182-188>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<8:189-195>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Command>> <<10:235-242>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<11:261-265>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<13:322-328>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:329-332>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<13:332-333>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<UserProfile>> <<8:203-214>> <<type>> <<VARIABLE>> <<LINK>>
+<<UserMessage>> <<8:216-227>> <<type>> <<VARIABLE>> <<LINK>>
+<<UserMessage>> <<16:436-447>> <<type>> <<VARIABLE>> <<LINK>>
+<<UserMessage>> <<16:494-505>> <<type>> <<VARIABLE>> <<LINK>>
+<<flags>> <<16:506-511>> <<?>> <<VARIABLE>> <<LINK>>
+<<UserProfile>> <<17:527-538>> <<type>> <<VARIABLE>> <<LINK>>
+<<objects>> <<17:539-546>> <<?>> <<VARIABLE>> <<LINK>>

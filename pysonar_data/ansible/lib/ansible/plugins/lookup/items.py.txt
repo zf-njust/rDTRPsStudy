@@ -1,0 +1,8 @@
+<<__metaclass__>> <<18:792-805>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<LookupModule>> <<22:871-883>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<24:908-911>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:912-915>> <<LookupModule>> <<PARAMETER>> <<ANCHOR>>
+<<terms>> <<24:918-921>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ms>> <<24:921-923>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:954-958>> <<LookupModule>> <<VARIABLE>> <<LINK>>
+<<terms>> <<26:968-973>> <<?>> <<VARIABLE>> <<LINK>>

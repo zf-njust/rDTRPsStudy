@@ -1,0 +1,16 @@
+<<test_cache_download>> <<5:25-44>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<encoding>> <<13:208-216>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<pandas_csvs>> <<15:252-263>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<cache_file>> <<22:423-433>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<size>> <<22:435-439>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<23:472-473>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<enc>> <<25:558-561>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<df>> <<26:606-608>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<pandas_csvs>> <<22:443-454>> <<dict>> <<VARIABLE>> <<LINK>>
+<<f>> <<24:547-548>> <<?>> <<VARIABLE>> <<LINK>>
+<<encoding>> <<25:564-572>> <<dict>> <<VARIABLE>> <<LINK>>
+<<cache_file>> <<25:577-587>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<26:623-624>> <<?>> <<VARIABLE>> <<LINK>>
+<<enc>> <<26:635-638>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<27:659-661>> <<?>> <<VARIABLE>> <<LINK>>
+<<size>> <<27:666-670>> <<?>> <<VARIABLE>> <<LINK>>

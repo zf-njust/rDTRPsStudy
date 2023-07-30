@@ -1,0 +1,12 @@
+<<manimlib>> <<4:35-43>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<manimlib>> <<5:82-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CUSTOMIZATION>> <<8:124-137>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<get_customization>> <<11:152-169>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<directories>> <<14:260-271>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<CUSTOMIZATION>> <<12:185-198>> <<dict>> <<VARIABLE>> <<LINK>>
+<<CUSTOMIZATION>> <<13:209-222>> <<dict>> <<VARIABLE>> <<LINK>>
+<<CUSTOMIZATION>> <<14:274-287>> <<dict>> <<VARIABLE>> <<LINK>>
+<<directories>> <<17:458-469>> <<?>> <<VARIABLE>> <<LINK>>
+<<directories>> <<18:505-516>> <<?>> <<VARIABLE>> <<LINK>>
+<<directories>> <<21:638-649>> <<?>> <<VARIABLE>> <<LINK>>
+<<CUSTOMIZATION>> <<24:752-765>> <<dict>> <<VARIABLE>> <<LINK>>

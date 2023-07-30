@@ -1,0 +1,6 @@
+<<__future__>> <<15:436-446>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<template_name>> <<20:549-562>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<22:615-626>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<unicode_literals>> <<15:454-470>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<template_name>> <<23:666-679>> <<dict>> <<VARIABLE>> <<LINK>>
+<<template_name>> <<24:733-746>> <<dict>> <<VARIABLE>> <<LINK>>

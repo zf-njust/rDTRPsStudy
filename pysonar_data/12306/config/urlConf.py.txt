@@ -1,0 +1,8 @@
+<<TickerConfig>> <<3:38-50>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urls>> <<6:67-71>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<TickerConfig>> <<571:17870-17882>> <<module>> <<VARIABLE>> <<LINK>>
+<<REQ_URL>> <<571:17883-17890>> <<str>> <<VARIABLE>> <<LINK>>
+<<TickerConfig>> <<574:17962-17974>> <<module>> <<VARIABLE>> <<LINK>>
+<<HOST>> <<574:17975-17979>> <<str>> <<VARIABLE>> <<LINK>>
+<<TickerConfig>> <<580:18128-18140>> <<module>> <<VARIABLE>> <<LINK>>
+<<HTTP_TYPE>> <<580:18141-18150>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def test_unicode(self):\\n\\n        class X(object):\\n\\n            def __unicode__(self):\\n                return 'UNICODE'\\n            __str__ = __unicode__\\n\\n            def __repr__(self):\\n                return 'REPR'\\n\\n        x = Proxy(lambda: X())\\n        self.assertEqual(string(x), 'UNICODE')\\n        del(X.__unicode__)\\n        del(X.__str__)\\n        self.assertEqual(string(x), 'REPR')",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 15,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

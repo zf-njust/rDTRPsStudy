@@ -1,0 +1,11 @@
+<<typing>> <<18:648-654>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<attach>> <<21:695-701>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<package_name>> <<21:702-705>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<submodules>> <<21:721-724>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<__getattr__>> <<36:1052-1063>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__dir__>> <<41:1263-1270>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<36:1064-1067>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<__getattr__>> <<44:1319-1330>> <<function>> <<VARIABLE>> <<LINK>>
+<<__dir__>> <<44:1332-1339>> <<function>> <<VARIABLE>> <<LINK>>
+<<name>> <<37:1091-1095>> <<?>> <<VARIABLE>> <<LINK>>
+<<submodules>> <<37:1099-1109>> <<list>> <<VARIABLE>> <<LINK>>

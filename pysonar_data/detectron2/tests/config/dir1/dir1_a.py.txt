@@ -1,0 +1,2 @@
+<<dir1a_str>> <<2:52-61>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<dir1a_dict>> <<3:76-86>> <<dict>> <<SCOPE>> <<ANCHOR>>

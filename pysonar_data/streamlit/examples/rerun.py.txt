@@ -1,0 +1,3 @@
+<<n>> <<6:68-69>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<n>> <<7:116-117>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<8:148-149>> <<int>> <<VARIABLE>> <<LINK>>

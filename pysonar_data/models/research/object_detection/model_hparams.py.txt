@@ -1,0 +1,14 @@
+<<__future__>> <<20:858-868>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<21:898-908>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<22:931-941>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<create_hparams>> <<33:1189-1203>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<hparams_overrides>> <<33:1204-1207>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<hparams>> <<43:1515-1522>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<hparams>> <<49:1784-1791>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<20:876-891>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<21:916-924>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<22:949-963>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<hparams_overrides>> <<48:1760-1777>> <<?>> <<VARIABLE>> <<LINK>>
+<<hparams>> <<49:1794-1801>> <<?>> <<VARIABLE>> <<LINK>>
+<<hparams_overrides>> <<49:1808-1825>> <<?>> <<VARIABLE>> <<LINK>>
+<<hparams>> <<50:1837-1844>> <<?>> <<VARIABLE>> <<LINK>>

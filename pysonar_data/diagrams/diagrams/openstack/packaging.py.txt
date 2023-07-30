@@ -1,0 +1,12 @@
+<<_Packaging>> <<6:108-118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:137-142>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:162-171>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<LOCI>> <<11:217-221>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:240-245>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Puppet>> <<15:270-276>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:295-300>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RPM>> <<19:327-330>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:349-354>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Packaging>> <<11:222-232>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Packaging>> <<15:277-287>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Packaging>> <<19:331-341>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<Model>> <<6:122-127>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get_feed_dict>> <<20:636-649>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<20:650-653>> <<Model>> <<PARAMETER>> <<ANCHOR>>

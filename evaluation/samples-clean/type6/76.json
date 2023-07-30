@@ -1,0 +1,10 @@
+{
+  "code": "def test_talib_with_default_params(self):\n        BLACKLIST = ['make_transform', 'BatchTransform',\n                     # TODO: Figure out why MAVP generates a KeyError\n                     'MAVP']\n        names = [name for name in dir(ta)\n                 if name[0].isupper() and name not in BLACKLIST]\n\n        for name in names:\n            print(name)\n            zipline_transform = getattr(ta, name)(sid=0)\n            talib_fn = getattr(talib.abstract, name)\n\n            start = datetime(1990, 1, 1, tzinfo=pytz.utc)\n            end = start + timedelta(days=zipline_transform.lookback + 10)\n            sim_params = factory.create_simulation_parameters(\n                start=start, end=end)\n            source, panel = \\\n                factory.create_test_panel_ohlc_source(sim_params, self.env)\n\n            algo = TALIBAlgorithm(talib=zipline_transform)\n            algo.run(source)\n\n            zipline_result = np.array(\n                algo.talib_results[zipline_transform][-1])\n\n            talib_data = dict()\n            data = zipline_transform.window\n            # TODO: Figure out if we are clobbering the tests by this\n            # protection against empty windows\n            if not data:\n                continue\n            for key in ['open', 'high', 'low', 'volume']:\n                if key in data:\n                    talib_data[key] = data[key][0].values\n            talib_data['close'] = data['price'][0].values\n            expected_result = talib_fn(talib_data)\n\n            if isinstance(expected_result, list):\n                expected_result = np.array([e[-1] for e in expected_result])\n            else:\n                expected_result = np.array(expected_result[-1])\n            if not (np.all(np.isnan(zipline_result)) and\n                    np.all(np.isnan(expected_result))):\n                self.assertTrue(np.allclose(zipline_result, expected_result))\n            else:\n                print('--- NAN')",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 11,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

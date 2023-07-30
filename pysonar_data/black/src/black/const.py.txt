@@ -1,0 +1,4 @@
+<<DEFAULT_LINE_LENGTH>> <<1:0-19>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<DEFAULT_EXCLUDES>> <<2:26-42>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DEFAULT_INCLUDES>> <<3:236-252>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<STDIN_PLACEHOLDER>> <<4:277-294>> <<str>> <<SCOPE>> <<ANCHOR>>

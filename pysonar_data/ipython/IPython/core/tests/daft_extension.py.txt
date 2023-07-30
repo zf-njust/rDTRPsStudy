@@ -1,0 +1,9 @@
+<<some_vars>> <<5:105-114>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<load_ipython_extension>> <<7:137-159>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unload_ipython_extension>> <<11:236-260>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<11:261-264>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ip>> <<7:160-163>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ip>> <<12:271-273>> <<?>> <<VARIABLE>> <<LINK>>
+<<some_vars>> <<12:285-294>> <<dict>> <<VARIABLE>> <<LINK>>
+<<ip>> <<9:210-212>> <<?>> <<VARIABLE>> <<LINK>>
+<<some_vars>> <<9:218-227>> <<dict>> <<VARIABLE>> <<LINK>>

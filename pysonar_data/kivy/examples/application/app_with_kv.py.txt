@@ -1,0 +1,10 @@
+<<kivy>> <<14:485-489>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<17:521-525>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<17:526-529>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestApp>> <<20:552-559>> <<type>> <<CLASS>> <<ANCHOR>>
+<<kivy>> <<15:491-495>> <<module>> <<VARIABLE>> <<LINK>>
+<<require>> <<15:496-503>> <<function>> <<VARIABLE>> <<LINK>>
+<<App>> <<17:537-540>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<20:560-563>> <<type>> <<VARIABLE>> <<LINK>>
+<<TestApp>> <<25:613-620>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<25:623-626>> <<function>> <<VARIABLE>> <<LINK>>

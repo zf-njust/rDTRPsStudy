@@ -1,0 +1,14 @@
+<<L2Normalization>> <<20:779-794>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<23:872-880>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<call>> <<29:1060-1064>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:1065-1068>> <<L2Normalization>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<29:1071-1074>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<axis>> <<29:1074-1077>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<23:881-884>> <<L2Normalization>> <<PARAMETER>> <<ANCHOR>>
+<<eps>> <<27:1040-1043>> <<float>> <<ATTRIBUTE>> <<ANCHOR>>
+<<x>> <<40:1360-1361>> <<?>> <<VARIABLE>> <<LINK>>
+<<axis>> <<40:1363-1367>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:1377-1381>> <<L2Normalization>> <<VARIABLE>> <<LINK>>
+<<L2Normalization>> <<25:955-970>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<25:972-976>> <<L2Normalization>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:1035-1039>> <<L2Normalization>> <<VARIABLE>> <<LINK>>

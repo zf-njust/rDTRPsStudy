@@ -1,0 +1,9 @@
+<<_Aggregator>> <<6:105-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:132-137>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Fluentd>> <<11:211-218>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:238-243>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Vector>> <<15:271-277>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:297-302>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Aggregator>> <<11:219-230>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Aggregator>> <<15:278-289>> <<type>> <<VARIABLE>> <<LINK>>

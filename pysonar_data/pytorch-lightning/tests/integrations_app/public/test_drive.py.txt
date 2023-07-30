@@ -1,0 +1,11 @@
+<<test_drive_example_cloud>> <<11:196-220>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<13:312-313>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<14:324-325>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<15:336-346>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<16:357-358>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<18:377-385>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<20:440-443>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<has_logs>> <<22:537-545>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<19:413-421>> <<?>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<20:447-457>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<21:511-514>> <<?>> <<VARIABLE>> <<LINK>>

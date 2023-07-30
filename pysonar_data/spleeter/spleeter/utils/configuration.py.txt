@@ -1,0 +1,14 @@
+<<__email__>> <<13:279-288>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<14:314-324>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<15:346-357>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<load_configuration>> <<20:436-454>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<descriptor>> <<20:455-458>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<42:1149-1153>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stream>> <<46:1406-1412>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stream>> <<51:1624-1630>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<descriptor>> <<41:1085-1095>> <<?>> <<VARIABLE>> <<LINK>>
+<<descriptor>> <<42:1156-1166>> <<?>> <<VARIABLE>> <<LINK>>
+<<stream>> <<47:1444-1450>> <<?>> <<VARIABLE>> <<LINK>>
+<<descriptor>> <<49:1501-1511>> <<?>> <<VARIABLE>> <<LINK>>
+<<descriptor>> <<50:1604-1614>> <<?>> <<VARIABLE>> <<LINK>>
+<<stream>> <<-1:1658-1664>> <<file>> <<VARIABLE>> <<LINK>>

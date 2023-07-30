@@ -1,0 +1,16 @@
+<<redash>> <<4:63-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tasks>> <<4:70-75>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestRefreshSchemas>> <<7:110-128>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_calls_refresh_of_all_data_sources>> <<8:153-191>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_skips_paused_data_sources>> <<16:453-483>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:484-487>> <<TestRefreshSchemas>> <<PARAMETER>> <<ANCHOR>>
+<<refresh_job>> <<21:639-650>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<refresh_job>> <<29:879-890>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<8:192-195>> <<TestRefreshSchemas>> <<PARAMETER>> <<ANCHOR>>
+<<refresh_job>> <<12:357-368>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<17:500-504>> <<TestRefreshSchemas>> <<VARIABLE>> <<LINK>>
+<<refresh_job>> <<23:696-707>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<25:739-743>> <<TestRefreshSchemas>> <<VARIABLE>> <<LINK>>
+<<refresh_job>> <<31:936-947>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:208-212>> <<TestRefreshSchemas>> <<VARIABLE>> <<LINK>>
+<<refresh_job>> <<14:414-425>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<hard_sigmoid>> <<21:757-769>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<features>> <<21:770-773>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<features>> <<30:957-965>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<features>> <<30:989-997>> <<list>> <<VARIABLE>> <<LINK>>
+<<features>> <<31:1021-1029>> <<?>> <<VARIABLE>> <<LINK>>
+<<features>> <<31:1044-1052>> <<?>> <<VARIABLE>> <<LINK>>

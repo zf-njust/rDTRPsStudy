@@ -1,0 +1,13 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:41-50>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:94-103>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TContentView>> <<6:133-145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<7:171-175>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__call__>> <<9:201-209>> <<function>> <<METHOD>> <<ANCHOR>>
+<<render_priority>> <<12:306-321>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:322-325>> <<TContentView>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<12:328-331>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<12:331-332>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:210-213>> <<TContentView>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<9:216-219>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<9:219-220>> <<?>> <<PARAMETER>> <<ANCHOR>>

@@ -1,0 +1,14 @@
+<<STATECMD>> <<17:572-580>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<original_addr>> <<20:637-650>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<csock>> <<20:651-654>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<peer>> <<21:664-668>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<insufficient_priv>> <<26:919-936>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stxt>> <<23:710-714>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<insufficient_priv>> <<30:1052-1069>> <<bool>> <<VARIABLE>> <<ANCHOR>>
+<<csock>> <<21:671-676>> <<?>> <<VARIABLE>> <<LINK>>
+<<STATECMD>> <<23:741-749>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<stxt>> <<30:1106-1110>> <<?>> <<VARIABLE>> <<LINK>>
+<<insufficient_priv>> <<34:1170-1187>> <<bool>> <<VARIABLE>> <<LINK>>
+<<peer>> <<39:1399-1403>> <<?>> <<VARIABLE>> <<LINK>>
+<<peer>> <<39:1408-1412>> <<?>> <<VARIABLE>> <<LINK>>
+<<stxt>> <<39:1417-1421>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<hflip>> <<3:60-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<to_mask>> <<4:95-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<to_chart_result>> <<5:133-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<segm_to_mask>> <<6:225-237>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chart_output_hflip>> <<15:569-587>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HFlipConverter>> <<3:73-87>> <<type>> <<VARIABLE>> <<LINK>>
+<<ToMaskConverter>> <<4:110-125>> <<type>> <<VARIABLE>> <<LINK>>
+<<ToChartResultConverter>> <<5:156-178>> <<type>> <<VARIABLE>> <<LINK>>
+<<ToChartResultConverterWithConfidences>> <<5:180-217>> <<type>> <<VARIABLE>> <<LINK>>
+<<predictor_output_with_fine_and_coarse_segm_to_mask>> <<7:252-302>> <<function>> <<VARIABLE>> <<LINK>>
+<<predictor_output_with_coarse_segm_to_mask>> <<8:309-350>> <<function>> <<VARIABLE>> <<LINK>>
+<<resample_fine_and_coarse_segm_to_bbox>> <<9:357-394>> <<function>> <<VARIABLE>> <<LINK>>
+<<densepose_chart_predictor_output_hflip>> <<15:595-633>> <<function>> <<VARIABLE>> <<LINK>>

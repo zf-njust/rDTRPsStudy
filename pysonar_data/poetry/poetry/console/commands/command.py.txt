@@ -1,0 +1,8 @@
+<<Command>> <<4:51-58>> <<type>> <<CLASS>> <<ANCHOR>>
+<<loggers>> <<6:80-87>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<poetry>> <<9:119-125>> <<function>> <<METHOD>> <<ANCHOR>>
+<<reset_poetry>> <<12:184-196>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:197-200>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:126-129>> <<Builder>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:233-237>> <<Command>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:149-153>> <<Builder>> <<VARIABLE>> <<LINK>>

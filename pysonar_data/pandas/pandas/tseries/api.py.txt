@@ -1,0 +1,14 @@
+<<pandas>> <<6:21-27>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<6:28-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<7:94-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<7:101-108>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<8:145-151>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<8:152-159>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<9:220-226>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<9:227-234>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<10:295-301>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<10:302-309>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<11:344-350>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tseries>> <<11:351-358>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<12:396-402>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<13:426-432>> <<module>> <<VARIABLE>> <<ANCHOR>>

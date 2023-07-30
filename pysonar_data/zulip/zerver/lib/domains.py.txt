@@ -1,0 +1,13 @@
+<<validate_domain>> <<7:142-157>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<domain>> <<7:158-161>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<subdomain>> <<15:528-537>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<domain>> <<9:201-207>> <<str>> <<VARIABLE>> <<LINK>>
+<<domain>> <<9:223-229>> <<str>> <<VARIABLE>> <<LINK>>
+<<domain>> <<11:314-320>> <<str>> <<VARIABLE>> <<LINK>>
+<<domain>> <<13:403-409>> <<str>> <<VARIABLE>> <<LINK>>
+<<domain>> <<13:423-429>> <<str>> <<VARIABLE>> <<LINK>>
+<<domain>> <<15:541-547>> <<str>> <<VARIABLE>> <<LINK>>
+<<subdomain>> <<16:575-584>> <<str>> <<VARIABLE>> <<LINK>>
+<<subdomain>> <<18:670-679>> <<str>> <<VARIABLE>> <<LINK>>
+<<subdomain>> <<18:693-702>> <<str>> <<VARIABLE>> <<LINK>>
+<<subdomain>> <<20:838-847>> <<str>> <<VARIABLE>> <<LINK>>

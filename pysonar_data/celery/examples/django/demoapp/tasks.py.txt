@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<3:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<add>> <<7:96-99>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mul>> <<12:148-151>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<xsum>> <<17:200-204>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<7:100-103>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<7:103-106>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<numbers>> <<17:205-208>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<12:152-155>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<12:155-158>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<x>> <<8:119-120>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<8:123-124>> <<?>> <<VARIABLE>> <<LINK>>
+<<numbers>> <<18:231-238>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<13:171-172>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<13:175-176>> <<?>> <<VARIABLE>> <<LINK>>

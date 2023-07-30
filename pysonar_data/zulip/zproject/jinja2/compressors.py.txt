@@ -1,0 +1,10 @@
+<<zerver>> <<10:186-192>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<templatetags>> <<10:193-205>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<minified_js>> <<10:206-217>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<minified_js>> <<13:246-257>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sourcefile>> <<13:258-261>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MinifiedJSNode>> <<10:225-239>> <<type>> <<VARIABLE>> <<LINK>>
+<<sourcefile>> <<15:304-314>> <<?>> <<VARIABLE>> <<LINK>>
+<<MinifiedJSNode>> <<19:454-468>> <<type>> <<VARIABLE>> <<LINK>>
+<<sourcefile>> <<19:469-479>> <<?>> <<VARIABLE>> <<LINK>>
+<<render>> <<19:481-487>> <<function>> <<VARIABLE>> <<LINK>>

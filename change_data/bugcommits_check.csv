@@ -1,0 +1,101 @@
+project,commit,author,time,commit message,bug id,True or False
+ansible,19a6000d97,Nathaniel Case,2017/8/14 15:18,Fix nxos_bgp_af networks parameter (#28169),28169,1
+ansible,0bb3545333,Adrian Likins,2017/3/23 12:24,Remove ununsed Connection.log method (#22837),22837,1
+ansible,390a08c781,Jean-Bernard Jansen,2018/8/28 11:33,azure_rm_virtualmachine : fix support for existing machines provisioned with a managed image (#32984),32984,1
+ansible,9735a70059,Matt Clay,2017/11/21 10:24,Fix invalid string escape sequences.,,1
+ansible,dd0189839e,Adrian Likins,2016/11/7 10:07, Fix bug (#18355) where encrypted inventories fail 18355 (#18373),,1
+ansible,97b6e99479,Brian Coca,2018/2/12 10:21,fixes to virtual facts,,1
+ansible,a6f0a279a9,Matthew Krupcale,2016/12/4 5:44,FreeIPA module polymorphic restructuring and small fixes. (#3485),,1
+ansible,11cfa96797,thetuxkeeper,2018/9/12 15:59,fixing bytes <-> str regexp issue in cloudengine (#45285),45285,1
+ansible,b4bd6c80de,Brian Coca,2016/12/17 0:03,fixes to facts timeout,,1
+ansible,a48532de5f,arnonki,2017/10/10 17:08,Use default values for object returned from aws to prevent TypeError  (#31455),31455,1
+ansible,24c6de7c49,Martin Krizek,2018/2/2 17:17,Use value of delegated transport for var lookup (#35658),35658,1
+ansible,2405c0bbef,Nathaniel Case,2016/12/15 17:07,Hopefully clear up some junos issues. (#17616),17616,1
+ansible,bc432b4001,Andreas Mosti,2017/1/30 19:20,Example of usage in znode documentation #20816,20816,1
+ansible,04868c22b7,Brian Coca,2017/7/15 0:19,fixed issue with null host vars,,1
+ansible,e9c57e732f,Ryan Brown,2018/2/20 8:56,Add AWSRetry when describing VPCs to help stabilize integration tests (#36264),36264,1
+ansible,dfd68e4966,Ganesh Nalawade,2017/12/6 19:37,Fix persistent reset_connection issue (#33590),33590,1
+ansible,b06003e5d2,Nijin Ashok,2016/11/17 19:54,Fix issue in adding RAW disk in block storage domain (#3432),,1
+ansible,ae148d1a21,Toshio Kuratomi,2017/11/15 16:53,Make everything in default callback use display (#32811),32811,1
+ansible,8743e6ae2e,Brian Coca,2018/10/10 15:10,remove default from delegate_facts to inherit (#45492),45492,1
+ansible,aca1950150,Sloane Hertel,2017/8/12 4:44,iam certificate facts (duplicate): add iam_cert_facts as alias for iam_server_certificate_facts (#25387),25387,1
+ansible,d2094cd611,JimFicarra,2017/1/26 20:56,win_feature fix issue #20433 - source param not found on win2k8 (#20435),20433,1
+ansible,04dd21dabb,Milosz Galazka,2018/10/26 3:35,Update proxysql_manage_config.py (#47613),47613,1
+ansible,134852e686,Ton Kersten,2017/7/24 15:33,#14634: symbolic permissions error (#14994),14634,1
+ansible,208208ab8f,Mike Wiebe,2017/11/16 1:17,Fix nxos_snmp_host bug (#32916),32916,1
+ansible,5065bf169d,Pat McClory,2017/8/28 12:25,Fix bug where ansible_lvm facts silently fails if a PV isn't in an VG (#28684),28684,1
+ansible,b83565958e,Chris Archibald,2018/8/16 5:15,Bug fixes for ontap_export_policy.py (#44194),44194,1
+ansible,30ef83c1c0,Zim Kalinowski,2018/7/27 5:20,fixing bug in storage account sample (#43308),,1
+ansible,e5ff8e3407,Nihlaeth,2017/8/17 21:38,"Don't remove comment from public key, and improve error message for duplicate keys (github_key) (#22282)",22282,1
+ansible,1cc86167dd,Prasad Katti,2017/11/30 5:59,fix the return value of route53_zone (#33403),,1
+ansible,9008e8017b,Jiri Tyr,2017/2/14 17:09,Fixing mounting of multiple sources to the same dest (#21413),21413,1
+ansible,c1bf74283e,Nathaniel Case,2017/8/9 9:43,Network load_config: Capture configuration output and display as warnings (#27851),27851,1
+ansible,fd4a6cf7ad,Jacek Tomasiak,2017/11/27 22:52,Add python level locale handling back (#31339),31339,1
+ansible,9d8c1923ab,Kamil Boratyński,2017/1/26 19:28,[redhat_subscription]: fixed force option. (#20667),20667,1
+ansible,d877c146ab,Sloane Hertel,2017/12/20 14:57,[cloud] ec2_group fix CIDR with host bits set - fixes #25403 (#29605),25403,1
+ansible,80ba7b7402,Dag Wieers,2018/3/12 21:50,Various module doc fixes (#37256),37256,1
+ansible,4618583f2f,Ganesh Nalawade,2018/8/8 15:11,Update eos clcionf plugin (#43809),43809,1
+ansible,0e36854213,John R Barker,2017/10/25 14:39,consul_kv: Fix name & formatting (#32132),32132,1
+ansible,390f65bd6a,René Moser,2018/1/23 0:51,[cloud] iam_role: fix docs & default state to present (#35184),,1
+ansible,af3e8950d6,Sebastien Boyron,2017/9/22 13:50,[fix] issue #30516 : take care about autoremove in upgrade function,30516,1
+ansible,741fa025a0,Abhijeet Kasurde,2018/8/6 11:40,delegate_to: accept only string for delegation host (#43473),43473,1
+ansible,b2b0938aff,Matt Kunkel,2017/6/6 9:43,Check / Skip cores for AIX5 Series (#25364),25364,1
+ansible,b51a1e9045,Ricardo Carrillo Cruz,2017/8/5 17:07,Fix junos_netconf idempotency issues (#27804),,1
+ansible,5d0340a9e3,Sebastian Kornehl,2017/6/2 23:36,datadog_monitor: Idempotence fix (#19217),19217,1
+ansible,00143d806c,Chris Archibald,2018/8/22 8:59,Bug Fixes for ontap_snapshot.py (#44216),44216,1
+ansible,3b0d864683,Brian Coca,2018/2/7 16:11,fix keep remote files,,1
+ansible,6522d703a1,Matt Clay,2017/5/3 23:19,Fix ansible-test pylint and pep8 issues. (#24245),24245,1
+ansible,716e170821,Fabian von Feilitzsch,2018/3/19 15:00,Auth method for the k8s lookup plugin now matches other modules (#37533),37533,1
+dash,cea5aba0,Marc-André Rivet,2020/9/24 9:49,`setProps` and `rendered` event ordering causing unsent callbacks (#1415),1415,1
+dash,39932891,Ryan Patrick Kyle,2020/4/15 1:11,:necktie: fix silly paren lint err,,1
+dash,ca58cc4c,Jose Diaz-Gonzalez,2020/1/29 13:03,feat: disable cookie access under restricted sandboxes (#1080),1080,1
+dash,8186fa57,alexcjohnson,2020/2/6 12:44,backward compatibility fix for callback_context.triggered,,1
+InstaPy,50a7f17,elulcao,2020/9/19 23:25,Subject: Log rotation and minor changes to make readable code,,1
+InstaPy,d9c2bbd,elulcao,2020/9/19 23:37,"Subject: Log rotation and minor changes to make readable code Problem: general.log now is rotated each 10MB, this is important if InstaPy is executed in env with reduced storage (ie Cloud Intstances) geckodriver.log is now saved in USER directory instead of src directeory. Fixed lines that can be formated to 80 chars, to reduce the alerts triggered by pycodestyle.",,1
+jax,80d8f2d5,Jake VanderPlas,2021/6/10 9:14,jnp.sinc: fix NaNs at x=0,,1
+jax,4fe9c1d6,Erich Elsen,2020/6/28 20:14,fix other branch,,1
+jax,2ff59374,George Necula,2020/9/17 11:45,[jax2tf] Change precision of test_conv to fix TPU tests (#4317),,1
+jax,4ed8cce9,Matthew Johnson,2020/6/8 15:11,fix mypy error,,1
+jax,9f8e3df3,Roy Frostig,2021/8/10 10:31,fix advi example: pass tuples rather than lists to jitted function,,1
+jax,72a3036b,James Bradbury,2021/3/10 16:08,Hotfix for another assertion that's too strict about named shapes,,1
+jax,b573b2a0,Jake VanderPlas,2021/6/14 17:12,[sparse] fix bug in tuple concatenation,,1
+jumpserver,adf5c4a7b,xinwen,2021/3/19 17:18,fix: LDAP 自动创建的用户有多余的空�?,,1
+jumpserver,5e779e654,xinwen,2020/10/28 19:13,fix(systemuser): 系统用户添加 ad_domain 字段,,1
+jumpserver,067a70463,xinwen,2021/6/16 11:07,fix: 高危命令邮件收不�?,,1
+jumpserver,ec393c144,ibuler,2021/4/20 11:27,fix(task): 修复推送过期的问题,,1
+jumpserver,f04e2fa09,ibuler,2021/1/14 10:10,fix: bug,,1
+jumpserver,061592fa6,xinwen,2020/7/14 19:11,fix(terminal): 移除`CommandQueryMixin.get_filter_fields`,,1
+jumpserver,de6908e5a,ibuler,2021/6/9 10:39,perf: rdp file添加domain,,1
+keras,643778ae,Scott Zhu,2022/2/8 16:53,Fix the Efficientnet input normalization issue.,,1
+locust,f6db44ee,Lars Holmberg,2020/9/15 22:57,"Fix #1552 by using separate greenlets to call .stop(), to allow them to run in parallel.",1552,1
+luigi,69cb1c3a,Ruslan Altynnikov,2019/11/21 11:32,Add Python version-agnostic get_writer_schema. (#2827),2827,1
+poetry,5fcdb369,Arun Babu Neelicattu,2020/10/2 6:31,exporter: handle dev extras correctly (#3038),3038,1
+ray,d76578700,Sven Mika,2020/5/20 22:29,[RLlib] `Policy.compute_single_action()` broken for nested actions (Issue 8411). (#8514),8411,1
+scrapy,386e2a51,Adrián Chaves,2021/2/24 10:41,tests/test_downloader_handlers_http2.py: fix style issue,,0
+tornado,95725c9c,Gareth T,2019/12/24 7:30,Fix syntax error in nested routing example,,1
+tornado,f3bb9fa1,Ben Darnell,2018/9/17 8:53,queues_test: Fix comment,,0
+transformers,995a958dd,Boris Dayma,2020/9/7 2:03,feat: allow prefix for any generative model (#5885),5885,1
+transformers,329fe2746,Sylvain Gugger,2021/1/14 10:38,Upstream (and rename) sortish sampler (#9574),9574,1
+transformers,7d40901ce,Bharat Raghunathan,2020/4/21 12:38,Fix Documentation issue in BertForMaskedLM forward (#3855),3855,0
+transformers,34de670db,Patrick von Platen,2020/3/4 17:25,fix sklearn release circle ci [temporary] (#3123),3123,1
+transformers,935e34695,Cola,2020/12/11 18:40,:art: Change nn.dropout to layer.Dropout (#9047),9047,1
+transformers,1e51bb717,Denis,2020/5/13 14:32,"Fix for #3865. PretrainedTokenizer mapped "" do not"" into "" don't"" when .decode(...) is called. Removed the "" do not"" --> "" don't"" mapping from clean_up_tokenization(...). (#4024)",3865,1
+transformers,20686b78f,lukovnikov,2019/4/3 18:13,schedule fix,,1
+transformers,608d5a7c4,Funtowicz Morgan,2020/7/1 17:27,Raises PipelineException on FillMaskPipeline when there are != 1 mask_token in the input (#5389),5389,1
+transformers,f7cd7392f,thomwolf,2019/7/15 12:32,fixed tests,,1
+transformers,8f98faf93,Sylvain Gugger,2020/8/24 12:15,Lat fix for Ray HP search (#6691),6691,1
+transformers,ed1845ef4,lewtun,2020/12/15 15:00,Clarify use of TrainingArguments.disable_tqdm in Jupyter Notebooks   (#9076),9076,1
+transformers,7e662e6a3,Sylvain Gugger,2021/1/19 17:11,Fix model templates and use less than 119 chars (#9684),9684,1
+transformers,74d8d69bd,Sam Shleifer,2020/9/28 23:20,[s2s] consistent output format across eval scripts (#7435),7435,0
+transformers,022e8fab9,Patrick von Platen,2020/3/26 13:50,Adds translation pipeline (#3419),3419,1
+transformers,c314b1fd3,Sam Shleifer,2020/11/10 10:18,[docs] improve bart/marian/mBART/pegasus docs (#8421),8421,0
+transformers,b0cbcdb05,Stas Bekman,2020/9/15 1:01,[logging] remove no longer needed verbosity override (#7100),7100,1
+transformers,1b4ce76c3,lukovnikov,2019/4/3 17:40,schedule fix,,1
+transformers,893120fac,Sylvain Gugger,2021/1/27 9:31,Allow --arg Value for booleans in HfArgumentParser (#9823),9823,1
+transformers,850afb422,Lysandre Debut,2020/11/10 7:29,Patch token classification pipeline (#8364),8364,1
+transformers,ac9702c28,Funtowicz Morgan,2020/8/25 19:24,Fix ONNX test_quantize unittest (#6716),6716,1
+transformers,7ac911071,Thomas Wolf,2020/6/24 21:53,Add more tests on tokenizers serialization - fix bugs  (#5056),5056,1
+transformers,03d8527de,Suraj Patil,2020/5/25 22:13,Longformer for question answering (#4500),4500,1
+zulip,ef741bf317,Udit107710,2020/3/26 22:16,messages: Return shallow copy of message object.,,1
+zulip,db86043195,Mateusz Mandera,2019/5/22 20:24,test_retention: Quick fix for the remaining test failure.,,1
+zulip,6317064210,Tim Abbott,2018/7/30 16:46,unminify: Fix source map extraction for hash-named files.,,1

@@ -1,0 +1,10 @@
+{
+  "code": "def _remove_dummy_master(self) -> None:\\n        \"\"\" Destroy the dummy master widget on Linux systems. \"\"\"\\n        if platform.system().lower() != \"linux\" or self._dummy_master is None:\\n            return\\n        self._dummy_master.destroy()\\n        del self._dummy_master\\n        self._dummy_master = None",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 6,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

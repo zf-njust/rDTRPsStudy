@@ -1,0 +1,10 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<3:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<4:80-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<4:87-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_revoked>> <<7:124-136>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_is_working>> <<9:158-173>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:174-177>> <<test_revoked>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:224-228>> <<test_revoked>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:309-313>> <<test_revoked>> <<VARIABLE>> <<LINK>>

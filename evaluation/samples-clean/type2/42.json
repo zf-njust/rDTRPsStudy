@@ -1,0 +1,10 @@
+{
+  "code": "def test_train_and_eval(self, is_training):\n    exp_config = exp_factory.get_exp_config('pointpillars_baseline')\n    task_config = exp_config.task\n    # modify config to suit local testing\n    task_config.model.image.height = 32\n    task_config.model.image.width = 32\n    task_config.model.pillars.num_pillars = 2\n    task_config.model.pillars.num_points_per_pillar = 3\n    task_config.model.pillars.num_features_per_point = 4\n    task_config.model.anchors = [cfg.Anchor(length=2.1, width=1.2)]\n\n    task_config.train_data.global_batch_size = 1\n    task_config.train_data.shuffle_buffer_size = 2\n    task_config.validation_data.global_batch_size = 1\n    task_config.validation_data.shuffle_buffer_size = 2\n    task_config.use_wod_metrics = False\n\n    task = pointpillars.PointPillarsTask(task_config)\n    inputs = _mock_inputs(task_config.model)\n    model = task.build_model()\n    opt_factory = optimization.OptimizerFactory(\n        exp_config.trainer.optimizer_config)\n    optimizer = opt_factory.build_optimizer(opt_factory.build_learning_rate())\n    metrics = task.build_metrics(training=is_training)\n\n    if is_training:\n      logs = task.train_step(inputs, model, optimizer, metrics=metrics)\n    else:\n      logs = task.validation_step(inputs, model, metrics=metrics)\n    self.assertIn('loss', logs)\n  def __init__(self,\n               params: cfg.PointPillarsTask,\n               logging_dir: Optional[str] = None,\n               name: Optional[str] = None):\n    super().__init__(params, logging_dir, name)\n    self._model = None\n    self._attribute_heads = self.task_config.model.head.attribute_heads",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 18,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

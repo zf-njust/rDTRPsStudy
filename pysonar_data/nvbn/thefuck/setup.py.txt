@@ -1,0 +1,14 @@
+<<long_description>> <<9:158-174>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<11:226-242>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<13:251-258>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<23:596-603>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<25:615-631>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<extras_require>> <<26:678-692>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<14:286-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<16:404-411>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<18:447-454>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<20:565-572>> <<?>> <<VARIABLE>> <<LINK>>
+<<VERSION>> <<29:774-781>> <<str>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<31:890-906>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<40:1257-1273>> <<list>> <<VARIABLE>> <<LINK>>
+<<extras_require>> <<41:1297-1311>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<package>> <<6:127-134>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<vendored_package>> <<7:174-190>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<mod>> <<11:427-430>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<unprefixed_mod>> <<13:543-557>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<package>> <<7:225-232>> <<str>> <<VARIABLE>> <<LINK>>
+<<vendored_package>> <<8:268-284>> <<str>> <<VARIABLE>> <<LINK>>
+<<package>> <<8:246-253>> <<str>> <<VARIABLE>> <<LINK>>
+<<mod>> <<12:464-467>> <<type>> <<VARIABLE>> <<LINK>>
+<<vendored_package>> <<12:471-487>> <<str>> <<VARIABLE>> <<LINK>>
+<<mod>> <<12:491-494>> <<type>> <<VARIABLE>> <<LINK>>
+<<vendored_package>> <<12:506-522>> <<str>> <<VARIABLE>> <<LINK>>
+<<mod>> <<13:560-563>> <<type>> <<VARIABLE>> <<LINK>>
+<<mod>> <<14:705-708>> <<type>> <<VARIABLE>> <<LINK>>
+<<unprefixed_mod>> <<14:675-689>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<covtype>> <<18:575-582>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mldata>> <<26:893-899>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<olivetti_faces>> <<50:2093-2107>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<species_distributions>> <<51:2143-2164>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<california_housing>> <<52:2207-2225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rcv1>> <<53:2265-2269>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<56:2293-2300>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<fetch_covtype>> <<18:590-603>> <<function>> <<VARIABLE>> <<LINK>>
+<<fetch_mldata>> <<26:907-919>> <<function>> <<VARIABLE>> <<LINK>>
+<<mldata_filename>> <<26:921-936>> <<function>> <<VARIABLE>> <<LINK>>
+<<fetch_olivetti_faces>> <<50:2115-2135>> <<function>> <<VARIABLE>> <<LINK>>
+<<fetch_species_distributions>> <<51:2172-2199>> <<function>> <<VARIABLE>> <<LINK>>
+<<fetch_california_housing>> <<52:2233-2257>> <<function>> <<VARIABLE>> <<LINK>>
+<<fetch_rcv1>> <<53:2277-2287>> <<function>> <<VARIABLE>> <<LINK>>

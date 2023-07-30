@@ -1,0 +1,16 @@
+<<urllib>> <<6:130-136>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<notebooks>> <<8:140-149>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<tpl>> <<10:184-187>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<idx>> <<13:313-316>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<nb>> <<32:1254-1256>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<34:1305-1306>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<idx>> <<31:1172-1175>> <<list>> <<VARIABLE>> <<LINK>>
+<<notebooks>> <<32:1260-1269>> <<?>> <<VARIABLE>> <<LINK>>
+<<nb>> <<32:1254-1256>> <<?>> <<VARIABLE>> <<LINK>>
+<<tpl>> <<31:1183-1186>> <<str>> <<VARIABLE>> <<LINK>>
+<<nb>> <<31:1194-1196>> <<?>> <<VARIABLE>> <<LINK>>
+<<urllib>> <<31:1219-1225>> <<module>> <<VARIABLE>> <<LINK>>
+<<nb>> <<31:1232-1234>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<35:1313-1314>> <<file>> <<VARIABLE>> <<LINK>>
+<<idx>> <<35:1331-1334>> <<list>> <<VARIABLE>> <<LINK>>
+<<f>> <<36:1342-1343>> <<file>> <<VARIABLE>> <<LINK>>

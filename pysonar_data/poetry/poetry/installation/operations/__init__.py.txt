@@ -1,0 +1,6 @@
+<<install>> <<1:6-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uninstall>> <<2:36-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<update>> <<3:70-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Install>> <<1:21-28>> <<type>> <<VARIABLE>> <<LINK>>
+<<Uninstall>> <<2:53-62>> <<type>> <<VARIABLE>> <<LINK>>
+<<Update>> <<3:84-90>> <<type>> <<VARIABLE>> <<LINK>>

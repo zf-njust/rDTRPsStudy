@@ -1,0 +1,10 @@
+{
+  "code": "    def __call__(self, value, loader_context=None):\n        if loader_context:\n            context = ChainMap(loader_context, self.default_loader_context)\n        else:\n            context = self.default_loader_context\n        wrapped_funcs = [wrap_loader_context(f, context) for f in self.functions]\n        for func in wrapped_funcs:\n            if value is None and self.stop_on_none:\n                break\n            try:\n                value = func(value)\n            except Exception as e:\n                raise ValueError(\"Error in Compose with \"\n                                 \"%s value=%r error='%s: %s'\" %\n                                 (str(func), value, type(e).__name__, str(e)))\n        return value",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 5,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

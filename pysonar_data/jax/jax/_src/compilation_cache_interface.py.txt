@@ -1,0 +1,14 @@
+<<abc>> <<15:601-604>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<17:640-643>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<17:644-648>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CacheInterface>> <<20:683-697>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get>> <<24:755-758>> <<function>> <<METHOD>> <<ANCHOR>>
+<<put>> <<28:814-817>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:759-762>> <<CacheInterface>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<24:765-768>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:818-821>> <<CacheInterface>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<28:824-827>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<28:834-837>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<15:612-615>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<15:617-631>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<20:698-701>> <<type>> <<VARIABLE>> <<LINK>>

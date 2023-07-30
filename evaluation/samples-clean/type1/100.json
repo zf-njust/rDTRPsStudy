@@ -1,0 +1,10 @@
+{
+  "code": "def _check_targets(y_true, y_pred):\n    \"\"\"Check that y_true and y_pred belong to the same classification task\n\n    This converts multiclass or binary types to a common shape, and raises a\n    ValueError for a mix of multilabel and multiclass targets, a mix of\n    multilabel formats, for the presence of continuous-valued or multioutput\n    targets, or for targets of different lengths.\n\n    Column vectors are squeezed to 1d, while multilabel formats are returned\n    as CSR sparse label indicators.\n\n    Parameters\n    ----------\n    y_true : array-like\n\n    y_pred : array-like\n\n    Returns\n    -------\n    type_true : one of {'multilabel-indicator', 'multiclass', 'binary'}\n        The type of the true target data, as output by\n        ``utils.multiclass.type_of_target``\n\n    y_true : array or indicator matrix\n\n    y_pred : array or indicator matrix\n    \"\"\"\n    check_consistent_length(y_true, y_pred)\n    type_true = type_of_target(y_true)\n    type_pred = type_of_target(y_pred)\n\n    y_type = set([type_true, type_pred])\n    if y_type == set([\"binary\", \"multiclass\"]):\n        y_type = set([\"multiclass\"])\n\n    if len(y_type) > 1:\n        raise ValueError(\"Can't handle mix of {0} and {1}\"\n                         \"\".format(type_true, type_pred))\n\n    # We can't have more than one value on y_type => The set is no more needed\n    y_type = y_type.pop()\n\n    # No metrics support \"multiclass-multioutput\" format\n    if (y_type not in [\"binary\", \"multiclass\", \"multilabel-indicator\"]):\n        raise ValueError(\"{0} is not supported\".format(y_type))\n\n    if y_type in [\"binary\", \"multiclass\"]:\n        y_true = column_or_1d(y_true)\n        y_pred = column_or_1d(y_pred)\n\n    if y_type.startswith('multilabel'):\n        y_true = csr_matrix(y_true)\n        y_pred = csr_matrix(y_pred)\n        y_type = 'multilabel-indicator'\n\n    return y_type, y_true, y_pred",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 54,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<<pipenv>> <<3:16-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<3:23-30>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<3:31-34>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<3:35-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_type_checking>> <<6:84-100>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<REQUIREMENTSLIB_CACHE_DIR>> <<14:226-251>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MYPY_RUNNING>> <<17:325-337>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<is_type_checking>> <<17:371-387>> <<function>> <<VARIABLE>> <<LINK>>

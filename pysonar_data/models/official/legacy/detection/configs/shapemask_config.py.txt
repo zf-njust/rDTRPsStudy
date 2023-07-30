@@ -1,0 +1,15 @@
+<<official>> <<17:672-680>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<legacy>> <<17:681-687>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detection>> <<17:688-697>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<17:698-705>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<18:731-739>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<18:740-748>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<18:749-760>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SHAPEMASK_RESNET_FROZEN_VAR_PREFIX>> <<20:783-817>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SHAPEMASK_CFG>> <<22:885-898>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<SHAPEMASK_RESTRICTIONS>> <<91:3014-3036>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<base_config>> <<17:713-724>> <<module>> <<VARIABLE>> <<LINK>>
+<<base_config>> <<22:924-935>> <<module>> <<VARIABLE>> <<LINK>>
+<<BASE_CFG>> <<22:936-944>> <<dict>> <<VARIABLE>> <<LINK>>
+<<SHAPEMASK_CFG>> <<23:947-960>> <<?>> <<VARIABLE>> <<LINK>>
+<<SHAPEMASK_RESNET_FROZEN_VAR_PREFIX>> <<36:1346-1380>> <<str>> <<VARIABLE>> <<LINK>>

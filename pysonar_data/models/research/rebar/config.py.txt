@@ -1,0 +1,10 @@
+<<__future__>> <<18:732-742>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:772-782>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<20:805-815>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DATA_DIR>> <<22:841-849>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MNIST_BINARIZED>> <<23:860-875>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MNIST_FLOAT>> <<24:916-927>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<OMNIGLOT>> <<25:963-971>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<18:750-765>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:790-798>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<20:823-837>> <<_Feature>> <<VARIABLE>> <<LINK>>

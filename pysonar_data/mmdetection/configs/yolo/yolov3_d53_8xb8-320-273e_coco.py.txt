@@ -1,0 +1,14 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<input_size>> <<3:52-62>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<4:77-91>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_pipeline>> <<18:671-684>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<27:1027-1043>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<28:1091-1105>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<29:1152-1167>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<5:147-153>> <<str>> <<VARIABLE>> <<LINK>>
+<<input_size>> <<13:524-534>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<19:740-746>> <<str>> <<VARIABLE>> <<LINK>>
+<<input_size>> <<20:795-805>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<27:1073-1087>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<28:1135-1148>> <<list>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<29:1170-1184>> <<dict>> <<VARIABLE>> <<LINK>>

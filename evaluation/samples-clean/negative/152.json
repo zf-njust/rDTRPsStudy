@@ -1,0 +1,4 @@
+{
+    "code": "def _async_config_entries_for_ids(\n    hass: HomeAssistant, entity_ids: list[str] | None, device_ids: list[str] | None\n) -> set[str]:\n    \"\"\"Find the config entry ids for a set of entities or devices.\"\"\"\n    config_entry_ids: set[str] = set()\n    if entity_ids:\n        eng_reg = er.async_get(hass)\n        for entity_id in entity_ids:\n            if (entry := eng_reg.async_get(entity_id)) and entry.config_entry_id:\n                config_entry_ids.add(entry.config_entry_id)\n    if device_ids:\n        dev_reg = dr.async_get(hass)\n        for device_id in device_ids:\n            if (device := dev_reg.async_get(device_id)) and device.config_entries:\n                config_entry_ids |= device.config_entries\n    return config_entry_ids",
+    "smell": []
+}

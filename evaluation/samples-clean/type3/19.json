@@ -1,0 +1,10 @@
+{
+  "code": "    @staticmethod\n    def logistic_growth_init(df):\n        \"\"\"Initialize logistic growth.\n\n        Provides a strong initialization for logistic growth by calculating the\n        growth and offset parameters that pass the function through the first\n        and last points in the time series.\n\n        Parameters\n        ----------\n        df: pd.DataFrame with columns ds (date), cap_scaled (scaled capacity),\n            y_scaled (scaled time series), and t (scaled time).\n\n        Returns\n        -------\n        A tuple (k, m) with the rate (k) and offset (m) of the logistic growth\n        function.\n        \"\"\"\n        i0, i1 = df['ds'].idxmin(), df['ds'].idxmax()\n        T = df['t'].iloc[i1] - df['t'].iloc[i0]\n\n        # Force valid values, in case y > cap or y < 0\n        C0 = df['cap_scaled'].iloc[i0]\n        C1 = df['cap_scaled'].iloc[i1]\n        y0 = max(0.01 * C0, min(0.99 * C0, df['y_scaled'].iloc[i0]))\n        y1 = max(0.01 * C1, min(0.99 * C1, df['y_scaled'].iloc[i1]))\n\n        r0 = C0 / y0\n        r1 = C1 / y1\n\n        if abs(r0 - r1) <= 0.01:\n            r0 = 1.05 * r0\n\n        L0 = np.log(r0 - 1)\n        L1 = np.log(r1 - 1)\n\n        # Initialize the offset\n        m = L0 * T / (L0 - L1)\n        # And the rate\n        k = (L0 - L1) / T\n        return (k, m)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 32,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

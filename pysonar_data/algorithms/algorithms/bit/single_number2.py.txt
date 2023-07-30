@@ -1,0 +1,17 @@
+<<single_number2>> <<22:629-643>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<nums>> <<22:644-647>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ones>> <<23:656-660>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<twos>> <<23:662-666>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<24:683-684>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<ones>> <<25:715-719>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<twos>> <<26:756-760>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<nums>> <<24:698-702>> <<?>> <<VARIABLE>> <<LINK>>
+<<ones>> <<25:723-727>> <<int>> <<VARIABLE>> <<LINK>>
+<<nums>> <<25:730-734>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<25:735-736>> <<int>> <<VARIABLE>> <<LINK>>
+<<twos>> <<25:742-746>> <<int>> <<VARIABLE>> <<LINK>>
+<<twos>> <<26:764-768>> <<int>> <<VARIABLE>> <<LINK>>
+<<nums>> <<26:771-775>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<26:776-777>> <<int>> <<VARIABLE>> <<LINK>>
+<<ones>> <<26:783-787>> <<int>> <<VARIABLE>> <<LINK>>
+<<ones>> <<27:800-804>> <<int>> <<VARIABLE>> <<LINK>>

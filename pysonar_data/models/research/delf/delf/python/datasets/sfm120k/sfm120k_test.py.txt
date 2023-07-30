@@ -1,0 +1,12 @@
+<<Sfm120kTest>> <<23:853-864>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testId2Filename>> <<26:936-951>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<26:952-955>> <<Sfm120kTest>> <<PARAMETER>> <<ANCHOR>>
+<<image_id>> <<28:1026-1034>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<prefix>> <<29:1077-1083>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<30:1123-1127>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<expected_path>> <<31:1173-1186>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<image_id>> <<30:1150-1158>> <<str>> <<VARIABLE>> <<LINK>>
+<<prefix>> <<30:1160-1166>> <<str>> <<VARIABLE>> <<LINK>>
+<<self>> <<33:1293-1297>> <<Sfm120kTest>> <<VARIABLE>> <<LINK>>
+<<path>> <<33:1310-1314>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected_path>> <<33:1316-1329>> <<str>> <<VARIABLE>> <<LINK>>

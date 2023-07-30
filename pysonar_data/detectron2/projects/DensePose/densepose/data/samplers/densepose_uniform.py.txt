@@ -1,0 +1,16 @@
+<<densepose_base>> <<6:91-105>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseUniformSampler>> <<9:145-168>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<16:381-389>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<_produce_index_sample>> <<26:663-684>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<26:685-688>> <<DensePoseUniformSampler>> <<PARAMETER>> <<ANCHOR>>
+<<values>> <<26:691-694>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<count>> <<26:713-716>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<k>> <<40:1265-1266>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<16:390-393>> <<DensePoseUniformSampler>> <<PARAMETER>> <<ANCHOR>>
+<<count_per_class>> <<16:396-399>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<DensePoseBaseSampler>> <<6:113-133>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseBaseSampler>> <<9:169-189>> <<type>> <<VARIABLE>> <<LINK>>
+<<values>> <<40:1269-1275>> <<?>> <<VARIABLE>> <<LINK>>
+<<k>> <<41:1321-1322>> <<?>> <<VARIABLE>> <<LINK>>
+<<count>> <<41:1325-1330>> <<?>> <<VARIABLE>> <<LINK>>
+<<count_per_class>> <<24:635-650>> <<int>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:40-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<11:300-303>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bp>> <<12:324-326>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<38:876-880>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<38:881-884>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<1:25-33>> <<module>> <<VARIABLE>> <<LINK>>
+<<app>> <<42:967-970>> <<?>> <<VARIABLE>> <<LINK>>
+<<bp>> <<42:981-983>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<45:1020-1023>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<39:903-911>> <<module>> <<VARIABLE>> <<LINK>>
+<<text>> <<39:912-916>> <<function>> <<VARIABLE>> <<LINK>>
+<<request>> <<39:917-924>> <<?>> <<VARIABLE>> <<LINK>>

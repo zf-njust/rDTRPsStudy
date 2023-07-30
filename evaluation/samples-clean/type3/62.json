@@ -1,0 +1,10 @@
+{
+  "code": "def test_property_matches_basic_types(capsys):\n    p = bcpb.Property()\n    for x in [1, 1.2, \"a\", np.arange(4), None, False, True, {}, []]:\n        assert p.matches(x, x) is True\n        assert p.matches(x, \"junk\") is False\n    out, err = capsys.readouterr()\n    assert err == \"\"",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 4,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

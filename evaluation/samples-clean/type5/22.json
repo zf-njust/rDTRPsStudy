@@ -1,0 +1,10 @@
+{
+  "code": "def _reset(self):\\n        \"\"\"Reset internal data-dependent state of the scaler, if necessary.\\n\\n        __init__ parameters are not touched.\\n        \"\"\"\\n\\n        # Checking one attribute is enough, becase they are all set together\\n        # in partial_fit\\n        if hasattr(self, 'scale_'):\\n            del self.scale_\\n            del self.n_samples_seen_\\n            del self.mean_\\n            del self.var_",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 13,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

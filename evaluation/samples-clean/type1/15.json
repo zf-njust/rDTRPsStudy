@@ -1,0 +1,10 @@
+{
+  "code": "def on_request_finished_logging_db_query(sender, **kwargs):\n    queries = connection.queries\n    counters = defaultdict(Counter)\n    for query in queries:\n        if not query['sql'].startswith('SELECT'):\n            continue\n        tables = pattern.findall(query['sql'])\n        table_name = ''.join(tables)\n        time = query['time']\n        counters[table_name].counter += 1\n        counters[table_name].time += float(time)\n        counters['total'].counter += 1\n        counters['total'].time += float(time)\n\n    counters = sorted(counters.items(), key=lambda x: x[1])\n    for name, counter in counters:\n        logger.debug(\"Query {:3} times using {:.2f}s {}\".format(\n            counter.counter, counter.time, name)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 15,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

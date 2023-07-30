@@ -1,0 +1,8 @@
+<<lists>> <<5:48-53>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<16:286-287>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<l>> <<16:289-290>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lists>> <<16:304-309>> <<list>> <<VARIABLE>> <<LINK>>
+<<i>> <<17:339-340>> <<?>> <<VARIABLE>> <<LINK>>
+<<l>> <<20:389-390>> <<?>> <<VARIABLE>> <<LINK>>
+<<l>> <<23:437-438>> <<?>> <<VARIABLE>> <<LINK>>
+<<l>> <<26:495-496>> <<?>> <<VARIABLE>> <<LINK>>

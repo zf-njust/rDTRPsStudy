@@ -1,0 +1,15 @@
+<<kivy>> <<11:429-433>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<11:434-437>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<13:452-456>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<UnicodeIssueSetting>> <<33:768-787>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build_config>> <<34:803-815>> <<function>> <<METHOD>> <<ANCHOR>>
+<<build>> <<39:986-991>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<34:816-819>> <<UnicodeIssueSetting>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<34:822-825>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<App>> <<11:445-448>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<33:788-791>> <<type>> <<VARIABLE>> <<LINK>>
+<<UnicodeIssueSetting>> <<47:1190-1209>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<47:1212-1215>> <<function>> <<VARIABLE>> <<LINK>>
+<<config>> <<35:840-846>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<36:876-882>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<37:936-942>> <<?>> <<VARIABLE>> <<LINK>>

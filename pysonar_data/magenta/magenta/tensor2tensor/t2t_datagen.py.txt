@@ -1,0 +1,12 @@
+<<magenta>> <<19:720-727>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tensor2tensor>> <<19:728-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<19:749-755>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<magenta>> <<20:795-802>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tensor2tensor>> <<20:803-816>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<problems>> <<20:824-832>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<25:953-957>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<console_entry_point>> <<29:1000-1019>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<argv>> <<25:958-961>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<console_entry_point>> <<36:1151-1170>> <<function>> <<VARIABLE>> <<LINK>>
+<<main>> <<32:1110-1114>> <<function>> <<VARIABLE>> <<LINK>>
+<<argv>> <<26:985-989>> <<?>> <<VARIABLE>> <<LINK>>

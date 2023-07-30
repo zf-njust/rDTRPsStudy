@@ -1,0 +1,9 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<1:15-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<console>> <<1:21-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:61-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:71-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_emoji>> <<5:99-109>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<emoji>> <<2:84-89>> <<module>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<6:125-130>> <<module>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<6:131-136>> <<dict>> <<VARIABLE>> <<LINK>>

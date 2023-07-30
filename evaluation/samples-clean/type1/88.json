@@ -1,0 +1,10 @@
+{
+  "code": "def process_sentence(\n        self,\n        sample: Dict[str, Any],\n        hypo: Dict[str, Any],\n        sid: int,\n        batch_id: int,\n    ) -> Tuple[int, int]:\n        speaker = None  # Speaker can't be parsed from dataset.\n\n        if \"target_label\" in sample:\n            toks = sample[\"target_label\"]\n        else:\n            toks = sample[\"target\"]\n        toks = toks[batch_id, :]\n\n        # Processes hypothesis.\n        hyp_pieces = self.tgt_dict.string(hypo[\"tokens\"].int().cpu())\n        if \"words\" in hypo:\n            hyp_words = \" \".join(hypo[\"words\"])\n        else:\n            hyp_words = post_process(hyp_pieces, self.cfg.common_eval.post_process)\n\n        # Processes target.\n        target_tokens = utils.strip_pad(toks, self.tgt_dict.pad())\n        tgt_pieces = self.tgt_dict.string(target_tokens.int().cpu())\n        tgt_words = post_process(tgt_pieces, self.cfg.common_eval.post_process)\n\n        if self.cfg.decoding.results_path is not None:\n            print(f\"{hyp_pieces} ({speaker}-{sid})\", file=self.hypo_units_file)\n            print(f\"{hyp_words} ({speaker}-{sid})\", file=self.hypo_words_file)\n            print(f\"{tgt_pieces} ({speaker}-{sid})\", file=self.ref_units_file)\n            print(f\"{tgt_words} ({speaker}-{sid})\", file=self.ref_words_file)\n\n        if not self.cfg.common_eval.quiet:\n            logger.info(f\"HYPO: {hyp_words}\")\n            logger.info(f\"REF: {tgt_words}\")\n            logger.info(\"---------------------\")\n\n        hyp_words, tgt_words = hyp_words.split(), tgt_words.split()\n\n        return editdistance.eval(hyp_words, tgt_words), len(tgt_words)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 39,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

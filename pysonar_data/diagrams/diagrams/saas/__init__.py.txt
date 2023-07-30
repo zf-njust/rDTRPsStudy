@@ -1,0 +1,4 @@
+<<_Saas>> <<8:96-101>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:114-123>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:138-147>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:174-183>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

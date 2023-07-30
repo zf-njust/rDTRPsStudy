@@ -1,0 +1,9 @@
+<<pandas>> <<2:40-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<3:73-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<6:113-114>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<11:262-263>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<9:186-187>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<9:195-196>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<10:215-216>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<10:231-232>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<12:277-278>> <<?>> <<VARIABLE>> <<LINK>>

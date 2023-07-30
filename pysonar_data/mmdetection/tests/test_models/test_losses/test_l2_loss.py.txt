@@ -1,0 +1,12 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<6:103-108>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<6:109-115>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestL2Loss>> <<9:141-151>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_l2_loss>> <<11:174-186>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:187-190>> <<TestL2Loss>> <<PARAMETER>> <<ANCHOR>>
+<<pred>> <<12:203-207>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<target>> <<13:257-263>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<loss>> <<15:315-319>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<loss>> <<21:505-509>> <<?>> <<VARIABLE>> <<LINK>>
+<<pred>> <<21:510-514>> <<?>> <<VARIABLE>> <<LINK>>
+<<target>> <<21:516-522>> <<?>> <<VARIABLE>> <<LINK>>

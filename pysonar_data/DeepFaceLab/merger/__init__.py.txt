@@ -1,0 +1,4 @@
+<<FrameInfo>> <<1:6-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MergeAvatar>> <<4:162-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FrameInfo>> <<1:6-15>> <<type>> <<VARIABLE>> <<LINK>>
+<<MergeFaceAvatar>> <<4:181-196>> <<function>> <<VARIABLE>> <<LINK>>

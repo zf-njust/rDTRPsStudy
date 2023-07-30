@@ -1,0 +1,10 @@
+{
+  "code": "def setup_ext(app: Sanic, *, fail: bool = False, **kwargs):\n    if not app.config.AUTO_EXTEND:\n        return\n\n    sanic_ext = None\n    with suppress(ModuleNotFoundError):\n        sanic_ext = import_module(\"sanic_ext\")\n\n    if not sanic_ext:  # no cov\n        if fail:\n            raise RuntimeError(\n                \"Sanic Extensions is not installed. You can add it to your \"\n                \"environment using:\\n$ pip install sanic[ext]\\nor\\n$ pip \"\n                \"install sanic-ext\"\n            )\n\n        return\n\n    if not getattr(app, \"_ext\", None):\n        Ext = getattr(sanic_ext, \"Extend\")\n        app._ext = Ext(app, **kwargs)\n\n        return app.ext",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 20,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

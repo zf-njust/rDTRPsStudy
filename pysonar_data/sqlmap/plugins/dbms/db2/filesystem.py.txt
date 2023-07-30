@@ -1,0 +1,6 @@
+<<plugins>> <<8:150-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<8:158-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Filesystem>> <<10:223-233>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<11:262-270>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<11:271-274>> <<Filesystem>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:313-317>> <<Filesystem>> <<VARIABLE>> <<LINK>>

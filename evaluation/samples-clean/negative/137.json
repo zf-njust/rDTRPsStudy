@@ -1,0 +1,4 @@
+{
+    "code": "def _format_marker(marker, first=True):\n    assert isinstance(marker, (list, tuple, str))\n\n    # Sometimes we have a structure like [[...]] which is a single item list\n    # where the single item is itself it's own list. In that case we want skip\n    # the rest of this function so that we don't get extraneous () on the\n    # outside.\n    if (\n        isinstance(marker, list)\n        and len(marker) == 1\n        and isinstance(marker[0], (list, tuple))\n    ):\n        return _format_marker(marker[0])\n\n    if isinstance(marker, list):\n        inner = (_format_marker(m, first=False) for m in marker)\n        if first:\n            return \" \".join(inner)\n        else:\n            return \"(\" + \" \".join(inner) + \")\"\n    elif isinstance(marker, tuple):\n        return \" \".join([m.serialize() for m in marker])\n    else:\n        return marker",
+    "smell": []
+}

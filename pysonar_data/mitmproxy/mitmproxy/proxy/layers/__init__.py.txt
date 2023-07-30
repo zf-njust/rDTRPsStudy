@@ -1,0 +1,5 @@
+<<dns>> <<2:27-30>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<websocket>> <<12:340-349>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<14:375-382>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DNSLayer>> <<2:38-46>> <<type>> <<VARIABLE>> <<LINK>>
+<<WebsocketLayer>> <<12:357-371>> <<type>> <<VARIABLE>> <<LINK>>

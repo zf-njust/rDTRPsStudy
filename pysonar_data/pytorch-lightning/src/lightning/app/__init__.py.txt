@@ -1,0 +1,17 @@
+<<_root_logger>> <<7:139-151>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_logger>> <<8:175-182>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_console>> <<11:248-256>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<formatter>> <<14:319-328>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__package_name__>> <<45:1739-1755>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_PACKAGE_ROOT>> <<47:1791-1804>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_PROJECT_ROOT>> <<48:1834-1847>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<50:1901-1908>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_logger>> <<9:214-221>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<12:284-292>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<15:380-388>> <<?>> <<VARIABLE>> <<LINK>>
+<<formatter>> <<15:402-411>> <<?>> <<VARIABLE>> <<LINK>>
+<<_root_logger>> <<19:544-556>> <<?>> <<VARIABLE>> <<LINK>>
+<<_logger>> <<20:577-584>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<20:596-604>> <<?>> <<VARIABLE>> <<LINK>>
+<<_logger>> <<21:611-618>> <<?>> <<VARIABLE>> <<LINK>>
+<<_PACKAGE_ROOT>> <<48:1882-1895>> <<str>> <<VARIABLE>> <<LINK>>

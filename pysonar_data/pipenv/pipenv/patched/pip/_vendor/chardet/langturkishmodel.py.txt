@@ -1,0 +1,13 @@
+<<pipenv>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<1:12-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<1:20-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<1:24-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardet>> <<1:32-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sbcharsetprober>> <<1:40-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TURKISH_LANG_MODEL>> <<8:142-160>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<ISO_8859_9_TURKISH_CHAR_TO_ORDER>> <<4153:89532-89564>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<ISO_8859_9_TURKISH_MODEL>> <<-1:95020-95044>> <<SingleByteCharSetModel>> <<SCOPE>> <<ANCHOR>>
+<<SingleByteCharSetModel>> <<1:63-85>> <<type>> <<VARIABLE>> <<LINK>>
+<<SingleByteCharSetModel>> <<-1:95047-95069>> <<type>> <<VARIABLE>> <<LINK>>
+<<ISO_8859_9_TURKISH_CHAR_TO_ORDER>> <<-1:95148-95180>> <<dict>> <<VARIABLE>> <<LINK>>
+<<TURKISH_LANG_MODEL>> <<-1:95201-95219>> <<dict>> <<VARIABLE>> <<LINK>>

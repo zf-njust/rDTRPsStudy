@@ -1,0 +1,12 @@
+<<JsonifyExtension>> <<10:114-130>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<13:218-226>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<13:227-230>> <<JsonifyExtension>> <<PARAMETER>> <<ANCHOR>>
+<<environment>> <<13:233-236>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<jsonify>> <<17:391-398>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<17:399-402>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<JsonifyExtension>> <<15:330-346>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:348-352>> <<JsonifyExtension>> <<VARIABLE>> <<LINK>>
+<<environment>> <<15:363-374>> <<?>> <<VARIABLE>> <<LINK>>
+<<jsonify>> <<20:511-518>> <<function>> <<VARIABLE>> <<LINK>>
+<<environment>> <<20:478-489>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<18:436-439>> <<?>> <<VARIABLE>> <<LINK>>

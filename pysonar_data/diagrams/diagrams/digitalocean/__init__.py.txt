@@ -1,0 +1,4 @@
+<<_DigitalOcean>> <<8:117-130>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:143-152>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:175-184>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:219-228>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

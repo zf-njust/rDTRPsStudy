@@ -1,0 +1,10 @@
+<<utils>> <<1:6-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<appdirs>> <<1:12-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:49-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<appdirs>> <<2:55-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CACHE_DIR>> <<5:91-100>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONFIG_DIR>> <<6:131-141>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<user_cache_dir>> <<1:27-41>> <<function>> <<VARIABLE>> <<LINK>>
+<<user_config_dir>> <<2:70-85>> <<function>> <<VARIABLE>> <<LINK>>
+<<user_cache_dir>> <<5:103-117>> <<function>> <<VARIABLE>> <<LINK>>
+<<user_config_dir>> <<6:144-159>> <<function>> <<VARIABLE>> <<LINK>>

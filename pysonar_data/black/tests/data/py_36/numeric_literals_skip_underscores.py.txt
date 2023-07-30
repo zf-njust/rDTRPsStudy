@@ -1,0 +1,16 @@
+<<x>> <<3:28-29>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<4:43-44>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<5:62-63>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<6:72-73>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<7:85-86>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<8:102-103>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<9:118-119>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<10:128-129>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<16:180-181>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<17:195-196>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<18:214-215>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<19:223-224>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<20:236-237>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<21:253-254>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<22:269-270>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<-1:280-281>> <<float>> <<SCOPE>> <<ANCHOR>>

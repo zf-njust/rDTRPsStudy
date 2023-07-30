@@ -1,0 +1,15 @@
+<<test_recursive_detach>> <<20:685-706>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<device>> <<21:715-721>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<22:776-777>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<23:895-896>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<device>> <<22:811-817>> <<str>> <<VARIABLE>> <<LINK>>
+<<device>> <<22:860-866>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<23:916-917>> <<dict>> <<VARIABLE>> <<LINK>>
+<<x>> <<25:946-947>> <<dict>> <<VARIABLE>> <<LINK>>
+<<device>> <<25:970-976>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<26:989-990>> <<dict>> <<VARIABLE>> <<LINK>>
+<<device>> <<26:1020-1026>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<27:1039-1040>> <<dict>> <<VARIABLE>> <<LINK>>
+<<y>> <<29:1083-1084>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<30:1125-1126>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<31:1178-1179>> <<?>> <<VARIABLE>> <<LINK>>

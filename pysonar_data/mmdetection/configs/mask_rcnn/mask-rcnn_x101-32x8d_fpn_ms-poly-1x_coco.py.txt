@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:46-51>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<24:707-721>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<40:1188-1204>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<25:777-783>> <<str>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<40:1234-1248>> <<list>> <<VARIABLE>> <<LINK>>

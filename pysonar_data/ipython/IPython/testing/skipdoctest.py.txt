@@ -1,0 +1,8 @@
+<<skip_doctest>> <<25:1069-1081>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<skip_doctest_py3>> <<35:1381-1397>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<25:1082-1085>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<35:1398-1401>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<31:1336-1337>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<32:1370-1371>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<37:1463-1464>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<38:1519-1520>> <<?>> <<VARIABLE>> <<LINK>>

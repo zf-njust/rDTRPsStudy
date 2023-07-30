@@ -1,0 +1,7 @@
+<<MainHandler>> <<7:96-107>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get>> <<8:138-141>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app>> <<12:203-206>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<8:142-145>> <<MainHandler>> <<PARAMETER>> <<ANCHOR>>
+<<MainHandler>> <<13:239-250>> <<type>> <<VARIABLE>> <<LINK>>
+<<app>> <<19:337-340>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:158-162>> <<MainHandler>> <<VARIABLE>> <<LINK>>

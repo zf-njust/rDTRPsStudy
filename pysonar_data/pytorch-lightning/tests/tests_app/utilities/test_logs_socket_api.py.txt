@@ -1,0 +1,15 @@
+<<unittest>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_cluster_logs_socket_url1>> <<6:112-141>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_cluster_logs_socket_url2>> <<16:467-496>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_cluster_logs_socket_api>> <<23:761-789>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<api_client>> <<24:798-808>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cluster_logs_api>> <<27:941-957>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<on_message_func>> <<29:1005-1020>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<web_socket_app>> <<32:1052-1066>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<api_client>> <<25:828-838>> <<?>> <<VARIABLE>> <<LINK>>
+<<api_client>> <<26:887-897>> <<?>> <<VARIABLE>> <<LINK>>
+<<api_client>> <<27:982-992>> <<?>> <<VARIABLE>> <<LINK>>
+<<cluster_logs_api>> <<32:1069-1085>> <<?>> <<VARIABLE>> <<LINK>>
+<<on_message_func>> <<33:1165-1180>> <<function>> <<VARIABLE>> <<LINK>>
+<<web_socket_app>> <<36:1202-1216>> <<?>> <<VARIABLE>> <<LINK>>
+<<on_message_func>> <<36:1231-1246>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<__future__>> <<2:14-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<WorkerSettings>> <<19:472-486>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<20:504-522>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<21:546-557>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<from_node>> <<31:768-777>> <<function>> <<METHOD>> <<ANCHOR>>
+<<node>> <<31:778-781>> <<WorkerSettings>> <<PARAMETER>> <<ANCHOR>>
+<<annotations>> <<2:32-43>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<WorkerSettings>> <<32:822-836>> <<type>> <<VARIABLE>> <<LINK>>
+<<node>> <<33:853-857>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>
+<<node>> <<34:879-883>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>
+<<node>> <<35:912-916>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>
+<<node>> <<36:952-956>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>
+<<node>> <<37:1004-1008>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>
+<<node>> <<38:1064-1068>> <<WorkerSettings>> <<VARIABLE>> <<LINK>>

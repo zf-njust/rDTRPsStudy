@@ -1,0 +1,10 @@
+{
+  "code": "    def bind_unix_socket(file, mode=0o600, backlog=_DEFAULT_BACKLOG):\n        \"\"\"Creates a listening unix socket.\n\n        If a socket with the given name already exists, it will be deleted.\n        If any other file with that name exists, an exception will be\n        raised.\n\n        Returns a socket object (not a list of socket objects like\n        `bind_sockets`)\n        \"\"\"\n        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)\n        set_close_exec(sock.fileno())\n        sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)\n        sock.setblocking(0)\n        try:\n            st = os.stat(file)\n        except OSError as err:\n            if errno_from_exception(err) != errno.ENOENT:\n                raise\n        else:\n            if stat.S_ISSOCK(st.st_mode):\n                os.remove(file)\n            else:\n                raise ValueError(\"File %s exists and is not a socket\", file)\n        sock.bind(file)\n        os.chmod(file, mode)\n        sock.listen(backlog)\n        return sock",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 14,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

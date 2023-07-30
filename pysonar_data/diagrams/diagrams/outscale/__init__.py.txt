@@ -1,0 +1,4 @@
+<<_Outscale>> <<4:37-46>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<5:59-68>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<6:87-96>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<8:127-136>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

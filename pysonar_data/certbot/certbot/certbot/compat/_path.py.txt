@@ -1,0 +1,15 @@
+<<__future__>> <<11:308-318>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<20:860-871>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sys>> <<21:925-932>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ourselves>> <<23:934-943>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<attribute>> <<24:976-985>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<realpath>> <<36:1547-1555>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unused_kwargs>> <<36:1572-1585>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unused_args>> <<36:1557-1568>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<11:326-341>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ourselves>> <<28:1255-1264>> <<?>> <<VARIABLE>> <<LINK>>
+<<attribute>> <<28:1266-1275>> <<str>> <<VARIABLE>> <<LINK>>
+<<ourselves>> <<29:1294-1303>> <<?>> <<VARIABLE>> <<LINK>>
+<<attribute>> <<29:1305-1314>> <<str>> <<VARIABLE>> <<LINK>>
+<<attribute>> <<29:1337-1346>> <<str>> <<VARIABLE>> <<LINK>>
+<<ourselves>> <<32:1431-1440>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def test_def_method_forwarding_all_permutations(self):\n    for wraps in it.permutations([\n        jax.custom_jvp, jax.custom_transpose.custom_transpose, jax.custom_batching.custom_vmap]):\n      f = lambda x: x + 1.\n      for wrap in wraps:\n        f = wrap(f)\n      for methods in it.permutations(['defjvp', 'def_vmap', 'def_transpose']):\n        for method in methods:\n          self.assertIsInstance(getattr(f, method), Callable)\n\n    for decorators in it.permutations([\n        jax.custom_vjp, jax.custom_transpose.custom_transpose, jax.custom_batching.custom_vmap]):\n      f = lambda x: x + 1.\n      for decorator in decorators:\n        f = decorator(f)\n      for methods in it.permutations(['defvjp', 'def_vmap', 'def_transpose']):\n        for method in methods:\n          self.assertIsInstance(getattr(f, method), Callable)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 9,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

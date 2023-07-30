@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:46-51>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<10:333-346>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<15:476-492>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<20:680-693>> <<dict>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,14 @@
+<<count_flips_to_convert>> <<10:199-221>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<a>> <<10:222-225>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<b>> <<10:225-228>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<diff>> <<12:236-240>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<count>> <<15:292-297>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<diff>> <<17:328-332>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<count>> <<18:356-361>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<12:243-244>> <<int>> <<VARIABLE>> <<LINK>>
+<<b>> <<12:247-248>> <<int>> <<VARIABLE>> <<LINK>>
+<<diff>> <<16:313-317>> <<int>> <<VARIABLE>> <<LINK>>
+<<diff>> <<17:328-332>> <<int>> <<VARIABLE>> <<LINK>>
+<<diff>> <<17:337-341>> <<int>> <<VARIABLE>> <<LINK>>
+<<count>> <<18:356-361>> <<int>> <<VARIABLE>> <<LINK>>
+<<count>> <<19:379-384>> <<int>> <<VARIABLE>> <<LINK>>

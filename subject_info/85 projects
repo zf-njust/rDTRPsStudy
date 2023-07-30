@@ -1,0 +1,14 @@
+Domain_Dict = {
+    'Cryptography':('magic-wormhole','Ciphey','PySyft','RsaCtfTool','pycrypto','laravel-hashids','paramiko'),
+    'Data Processing': ('algorithms','redash','numpy','pandas','scikit-learn','bokeh','dash','ipython','diagrams'),
+    'Web':('django-rest-framework','flask','sanic','streamlit','zulip','sherlock','pyspider','scrapy','requests','tornado'),
+    'Security Tool':('jumpserver','certbot','mitmproxy','sqlmap','hosts','XX-Net'),
+    'Command-line Tool':('cookiecutter','python-fire','httpie','glances','nvbn','you-get','12306','tqdm','autojump'),
+    'Computer Vision':('pytorch-CycleGAN-and-pix2pix','Mask_RCNN','mmdetection','labelImg'),
+    'Machine Learning':('face_recognition','avatarify-python','Real-Time-Voice-Cloning','faceswap','spleeter','ML-From-Scratch',
+                        'prophet','Detectron','detectron2','jax','DeepFaceLab','keras','magenta','gym','PaddleOCR','examples','fairseq','models','pytorch-tutorial'),
+    'Python Management':('black','pipenv','poetry','YouCompleteMe','PySnooper'),
+    'NLP':('bert','HanLP','transformers'),
+    'Application Development':('zipline','ray','kivy','ItChat','ansible','fabric','InstaPy','wechat_jump_game'),
+    'Others':('celery','locust','manim','compose','luigi')
+}

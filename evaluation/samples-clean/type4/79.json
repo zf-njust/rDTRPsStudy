@@ -1,0 +1,10 @@
+{
+  "code": "def set_cookie(self, name, value, domain=None, expires=None, path=\"/\",\n                   expires_days=None, **kwargs):\n        \"\"\"Sets the given cookie name/value with the given options.\n\n        Additional keyword arguments are set on the Cookie.Morsel\n        directly.\n        See http://docs.python.org/library/cookie.html#morsel-objects\n        for available attributes.\n        \"\"\"\n        # The cookie library only accepts type str, in both python 2 and 3\n        name = escape.native_str(name)\n        value = escape.native_str(value)\n        if re.search(r\"[\\x00-\\x20]\", name + value):\n            # Don't let us accidentally inject bad stuff\n            raise ValueError(\"Invalid cookie %r: %r\" % (name, value))\n        if not hasattr(self, \"_new_cookie\"):\n            self._new_cookie = Cookie.SimpleCookie()\n        if name in self._new_cookie:\n            del self._new_cookie[name]\n        self._new_cookie[name] = value\n        morsel = self._new_cookie[name]\n        if domain:\n            morsel[\"domain\"] = domain\n        if expires_days is not None and not expires:\n            expires = datetime.datetime.utcnow() + datetime.timedelta(\n                days=expires_days)\n        if expires:\n            morsel[\"expires\"] = httputil.format_timestamp(expires)\n        if path:\n            morsel[\"path\"] = path\n        for k, v in kwargs.items():\n            if k == 'max_age':\n                k = 'max-age'\n\n            # skip falsy values for httponly and secure flags because\n            # SimpleCookie sets them regardless\n            if k in ['httponly', 'secure'] and not v:\n                continue\n\n            morsel[k] = v",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 19,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

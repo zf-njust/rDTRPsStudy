@@ -1,0 +1,10 @@
+{
+  "code": "def set_transit_key(self, key):\\n        assert isinstance(key, type(b\"\")), type(key)\\n        # We use pubsub to protect against the race where the sender knows\\n        # the hints and the key, and connects to the receiver's transit\\n        # socket before the receiver gets the relay message (and thus the\\n        # key).\\n        self._transit_key = key\\n        waiters = self._waiting_for_transit_key\\n        del self._waiting_for_transit_key\\n        for d in waiters:\\n            # We don't need eventual-send here. It's safer in general, but\\n            # set_transit_key() is only called once, and _get_transit_key()\\n            # won't touch the subscribers list once the key is set.\\n            d.callback(key)",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 9,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

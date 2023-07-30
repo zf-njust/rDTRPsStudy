@@ -1,0 +1,10 @@
+{
+  "code": "def digest_from_file(self, filename, algorithm):\n        ''' Return hex digest of local file for a digest_method specified by name, or None if file is not present. '''\n        if not os.path.exists(filename):\n            return None\n        if os.path.isdir(filename):\n            self.fail_json(msg=\"attempted to take checksum of directory: %s\" % filename)\n\n        # preserve old behaviour where the third parameter was a hash algorithm object\n        if hasattr(algorithm, 'hexdigest'):\n            digest_method = algorithm\n        else:\n            try:\n                digest_method = AVAILABLE_HASH_ALGORITHMS[algorithm]()\n            except KeyError:\n                self.fail_json(msg=\"Could not hash file '%s' with algorithm '%s'. Available algorithms: %s\" %\n                                   (filename, algorithm, ', '.join(AVAILABLE_HASH_ALGORITHMS)))\n\n        blocksize = 64 * 1024\n        infile = open(filename, 'rb')\n        block = infile.read(blocksize)\n        while block:\n            digest_method.update(block)\n            block = infile.read(blocksize)\n        infile.close()\n        return digest_method.hexdigest()",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 25,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<<LOCAL_ENCLAVE_PORT>> <<13:227-245>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<load_dataset>> <<17:343-355>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_manual_code_submission_enclave>> <<44:1044-1079>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<canada_root>> <<46:1120-1131>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<italy_root>> <<48:1209-1219>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<domain_client>> <<17:356-359>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<load_dataset>> <<51:1336-1348>> <<function>> <<VARIABLE>> <<LINK>>
+<<canada_root>> <<51:1349-1360>> <<?>> <<VARIABLE>> <<LINK>>

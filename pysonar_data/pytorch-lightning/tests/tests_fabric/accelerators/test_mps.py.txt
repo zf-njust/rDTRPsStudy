@@ -1,0 +1,12 @@
+<<_MAYBE_MPS>> <<21:812-822>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_auto_device_count>> <<24:931-953>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_mps_availability>> <<29:1036-1057>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_init_device_with_wrong_device_type>> <<33:1112-1151>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_parallel_devices>> <<48:1571-1596>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_parallel_devices_invalid_request>> <<54:1775-1816>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<devices>> <<48:1597-1600>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<48:1606-1609>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<devices>> <<54:1817-1820>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<devices>> <<49:1665-1672>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<49:1677-1685>> <<?>> <<VARIABLE>> <<LINK>>
+<<devices>> <<56:1959-1966>> <<?>> <<VARIABLE>> <<LINK>>

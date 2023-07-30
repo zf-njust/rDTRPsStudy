@@ -1,0 +1,7 @@
+<<context>> <<16:614-621>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<get_algo_instance>> <<19:651-668>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_algo_instance>> <<23:729-746>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<algo>> <<23:747-750>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<algo>> <<24:779-783>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<24:759-766>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<20:692-699>> <<?>> <<VARIABLE>> <<LINK>>

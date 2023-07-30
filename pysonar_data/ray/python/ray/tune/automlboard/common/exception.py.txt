@@ -1,0 +1,2 @@
+<<CollectorError>> <<6:122-136>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DatabaseError>> <<12:224-237>> <<type>> <<CLASS>> <<ANCHOR>>

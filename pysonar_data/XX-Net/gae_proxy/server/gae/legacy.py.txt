@@ -1,0 +1,10 @@
+<<application>> <<7:114-125>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<environ>> <<7:126-129>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<start_response>> <<8:135-138>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<timestamp>> <<12:357-366>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<ctime>> <<13:434-439>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<start_response>> <<8:157-171>> <<?>> <<VARIABLE>> <<LINK>>
+<<environ>> <<9:239-246>> <<?>> <<VARIABLE>> <<LINK>>
+<<environ>> <<12:374-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<timestamp>> <<14:489-498>> <<int>> <<VARIABLE>> <<LINK>>
+<<ctime>> <<-1:607-612>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def _update_rows_cols_sizes(self, changed):\n        cols_count, rows_count = self._cols_count, self._rows_count\n        cols, rows = self._cols, self._rows\n        remove_view = self.remove_view\n        n_cols = len(cols_count)\n\n        # this can be further improved to reduce re-comp, but whatever...\n        for index, widget, (w, h), (wn, hn), sh, shn, sh_min, shn_min, \\\n                sh_max, shn_max, _, _ in changed:\n            if sh != shn or sh_min != shn_min or sh_max != shn_max:\n                return True\n            elif (sh[0] is not None and w != wn and\n                  (h == hn or sh[1] is not None) or\n                  sh[1] is not None and h != hn and\n                  (w == wn or sh[0] is not None)):\n                remove_view(widget, index)\n            else:  # size hint is None, so check if it can be resized inplace\n                row, col = divmod(index, n_cols)\n\n                if w != wn:\n                    col_w = cols[col]\n                    cols_count[col][w] -= 1\n                    cols_count[col][wn] += 1\n                    was_last_w = cols_count[col][w] <= 0\n                    if was_last_w and col_w == w or wn > col_w:\n                        return True\n                    if was_last_w:\n                        del cols_count[col][w]\n\n                if h != hn:\n                    row_h = rows[row]\n                    rows_count[row][h] -= 1\n                    rows_count[row][hn] += 1\n                    was_last_h = rows_count[row][h] <= 0\n                    if was_last_h and row_h == h or hn > row_h:\n                        return True\n                    if was_last_h:\n                        del rows_count[row][h]\n\n        return False",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 38,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

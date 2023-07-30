@@ -1,0 +1,7 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<albu_train_transforms>> <<3:56-77>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<43:1179-1193>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<66:1956-1972>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<44:1249-1255>> <<str>> <<VARIABLE>> <<LINK>>
+<<albu_train_transforms>> <<49:1455-1476>> <<list>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<66:2002-2016>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def simple_format(s, keys, pattern=RE_FORMAT, expand=r'\\1'):\n    if s:\n        keys.setdefault('%', '%')\n\n        def resolve(match):\n            resolver = keys[match.expand(expand)]\n            if isinstance(resolver, Callable):\n                return resolver()\n            return resolver\n\n        return pattern.sub(resolve, s)\n    return s\ndef isinstance(x, A_tuple): # real signature unknown; restored from __doc__\n    \"\"\"\n    Return whether an object is an instance of a class or of a subclass thereof.\n    \n    A tuple, as in ``isinstance(x, (A, B, ...))``, may be given as the target to\n    check against. This is equivalent to ``isinstance(x, A) or isinstance(x, B)\n    or ...`` etc.\n    \"\"\"\n    pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 7,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

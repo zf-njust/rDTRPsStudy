@@ -1,0 +1,13 @@
+<<__future__>> <<6:140-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<code_generators>> <<10:239-254>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<genapi>> <<10:255-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<code_generators>> <<11:288-303>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy_api>> <<11:304-313>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<curdir>> <<14:365-371>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<6:158-166>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<6:168-183>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<6:185-199>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<fullapi_hash>> <<10:269-281>> <<function>> <<VARIABLE>> <<LINK>>
+<<full_api>> <<11:321-329>> <<{tuple||tuple}>> <<VARIABLE>> <<LINK>>
+<<fullapi_hash>> <<15:403-415>> <<function>> <<VARIABLE>> <<LINK>>
+<<full_api>> <<15:416-424>> <<{tuple||tuple}>> <<VARIABLE>> <<LINK>>

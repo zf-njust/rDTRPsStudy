@@ -1,0 +1,10 @@
+<<starred_return>> <<4:34-48>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<starred_yield>> <<9:128-141>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<t>> <<18:400-401>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<starred_return>> <<28:484-498>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<starred_yield>> <<33:578-591>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<t>> <<44:849-850>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<my_list>> <<5:57-64>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<my_list>> <<10:150-157>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<my_list>> <<6:111-118>> <<list>> <<VARIABLE>> <<LINK>>
+<<my_list>> <<11:203-210>> <<list>> <<VARIABLE>> <<LINK>>

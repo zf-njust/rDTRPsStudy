@@ -1,0 +1,17 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<conv_cfg>> <<2:54-62>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<3:86-94>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<4:149-154>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<19:671-681>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<20:688-697>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<23:748-763>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<conv_cfg>> <<6:201-209>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<7:229-237>> <<dict>> <<VARIABLE>> <<LINK>>
+<<conv_cfg>> <<10:367-375>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<10:386-394>> <<dict>> <<VARIABLE>> <<LINK>>
+<<conv_cfg>> <<15:544-552>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<16:576-584>> <<dict>> <<VARIABLE>> <<LINK>>
+<<conv_cfg>> <<17:620-628>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<17:639-647>> <<dict>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<20:716-726>> <<int>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<29:931-941>> <<int>> <<VARIABLE>> <<LINK>>

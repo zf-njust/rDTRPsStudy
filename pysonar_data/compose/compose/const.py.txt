@@ -1,0 +1,9 @@
+<<DEFAULT_TIMEOUT>> <<4:25-40>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<HTTP_TIMEOUT>> <<5:47-59>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<IS_WINDOWS_PLATFORM>> <<6:152-171>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_CONTAINER_NUMBER>> <<7:201-223>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_ONE_OFF>> <<8:265-278>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_PROJECT>> <<9:310-323>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_SERVICE>> <<10:356-369>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_VERSION>> <<11:402-415>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LABEL_CONFIG_HASH>> <<12:448-465>> <<str>> <<SCOPE>> <<ANCHOR>>

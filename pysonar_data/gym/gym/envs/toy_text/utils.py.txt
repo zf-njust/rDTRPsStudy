@@ -1,0 +1,9 @@
+<<categorical_sample>> <<4:28-46>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<prob_n>> <<4:47-50>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<np_random>> <<4:55-58>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<prob_n>> <<6:187-193>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<csprob_n>> <<7:220-228>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<prob_n>> <<6:207-213>> <<?>> <<VARIABLE>> <<LINK>>
+<<prob_n>> <<7:241-247>> <<?>> <<VARIABLE>> <<LINK>>
+<<csprob_n>> <<8:271-279>> <<?>> <<VARIABLE>> <<LINK>>
+<<np_random>> <<8:282-291>> <<?>> <<VARIABLE>> <<LINK>>

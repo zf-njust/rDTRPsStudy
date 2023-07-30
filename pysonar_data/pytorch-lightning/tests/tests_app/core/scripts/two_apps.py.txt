@@ -1,0 +1,7 @@
+<<EmptyFlow>> <<4:65-74>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<5:100-103>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app_1>> <<9:130-135>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app_2>> <<10:165-170>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<5:104-107>> <<EmptyFlow>> <<PARAMETER>> <<ANCHOR>>
+<<EmptyFlow>> <<9:151-160>> <<type>> <<VARIABLE>> <<LINK>>
+<<EmptyFlow>> <<10:186-195>> <<type>> <<VARIABLE>> <<LINK>>

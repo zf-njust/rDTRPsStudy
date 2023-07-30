@@ -1,0 +1,4 @@
+{
+    "code": "def generate_scripts(self, scripts):\n        new_scripts = []\n        func_scripts = []\n        for script in scripts:\n            if is_string(script):\n                new_scripts.append(script)\n            else:\n                func_scripts.append(script)\n        if not func_scripts:\n            return new_scripts\n\n        build_dir = self.build_dir\n        self.mkpath(build_dir)\n        for func in func_scripts:\n            script = func(build_dir)\n            if not script:\n                continue\n            if is_string(script):\n                log.info(\"  adding '%s' to scripts\" % (script,))\n                new_scripts.append(script)\n            else:\n                [log.info(\"  adding '%s' to scripts\" % (s,)) for s in script]\n                new_scripts.extend(list(script))\n        return new_scripts",
+    "smell": []
+}

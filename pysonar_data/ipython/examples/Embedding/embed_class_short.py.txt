@@ -1,0 +1,10 @@
+<<exit_msg>> <<13:495-503>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<banner>> <<13:488-494>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<banner>> <<15:519-525>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<exit_msg>> <<16:562-570>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ipshell>> <<22:808-815>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ipshell>> <<40:1492-1499>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ipshell>> <<45:1702-1709>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<exit_msg>> <<13:495-503>> <<str>> <<VARIABLE>> <<LINK>>
+<<banner>> <<22:848-854>> <<str>> <<VARIABLE>> <<LINK>>
+<<exit_msg>> <<22:865-873>> <<str>> <<VARIABLE>> <<LINK>>

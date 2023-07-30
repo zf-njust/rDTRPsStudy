@@ -1,0 +1,7 @@
+<<request_stash>> <<15:376-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<authed_context_guest_domain_client>> <<20:506-540>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<guest_domain_client>> <<21:546-549>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<worker>> <<21:579-582>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<document_store>> <<15:390-393>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<worker>> <<24:757-763>> <<?>> <<VARIABLE>> <<LINK>>
+<<document_store>> <<16:468-482>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<message>> <<19:675-682>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup_tpu>> <<37:1468-1477>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tpu_driver_version>> <<37:1478-1481>> <<?>> <<PARAMETER>> <<ANCHOR>>

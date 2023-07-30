@@ -1,0 +1,10 @@
+{
+  "code": "def get_train_actions(\n    params: config_definitions.ExperimentConfig, trainer: base_trainer.Trainer,\n    model_dir: str,\n    checkpoint_manager: tf.train.CheckpointManager) -> List[orbit.Action]:\n  \"\"\"Gets train actions for TFM trainer.\"\"\"\n  train_actions = []\n  # Adds pruning callback actions.\n  if hasattr(params.task, 'pruning') and params.task.pruning:\n    train_actions.append(\n        PruningAction(\n            export_dir=model_dir,\n            model=trainer.model,\n            optimizer=trainer.optimizer))\n\n  if params.trainer.recovery_max_trials >= 0:\n    recovery_condition = RecoveryCondition(\n        global_step=trainer.global_step,\n        loss_upper_bound=params.trainer.loss_upper_bound,\n        recovery_begin_steps=params.trainer.recovery_begin_steps,\n        recovery_max_trials=params.trainer.recovery_max_trials,\n    )\n    recover_action = orbit.actions.ConditionalAction(\n        condition=recovery_condition,\n        action=RecoveryAction(checkpoint_manager),\n    )\n    train_actions.append(recover_action)\n\n  if (\n      params.trainer.preemption_on_demand_checkpoint\n      and trainer.strategy.cluster_resolver\n  ):\n    on_demand_checkpoint_action = orbit.actions.SaveCheckpointIfPreempted(\n        trainer.strategy.cluster_resolver,\n        checkpoint_manager,\n        trainer.global_step,\n        keep_running_after_save=True,\n    )\n    train_actions.append(on_demand_checkpoint_action)\n  return train_actions\n    def append(self, *args, **kwargs): # real signature unknown\n        \"\"\" Append object to the end of the list. \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 26,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

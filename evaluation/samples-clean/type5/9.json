@@ -1,0 +1,10 @@
+{
+  "code": "def tearDown(self):\\n        rmtree(self.tmpdir)\\n        del self.ds",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 3,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

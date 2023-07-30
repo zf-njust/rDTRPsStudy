@@ -1,0 +1,10 @@
+{
+  "code": "def parse_json(json_file):\n    \"\"\"Parse a whole json record from the given file.\n\n    Return None if the json file does not exists or exception occurs.\n\n    Args:\n        json_file (str): File path to be parsed.\n\n    Returns:\n        A dict of json info.\n    \"\"\"\n    if not os.path.exists(json_file):\n        return None\n\n    try:\n        with open(json_file, 'r') as f:\n            info_str = f.readlines()\n            info_str = \"\".join(info_str)\n            json_info = json.loads(info_str)\n            return unicode2str(json_info)\n    except BaseException as e:\n        logging.error(e.message)\n        return None",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 18,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

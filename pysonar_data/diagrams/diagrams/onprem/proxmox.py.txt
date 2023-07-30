@@ -1,0 +1,8 @@
+<<_Proxmox>> <<6:105-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:129-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Pve>> <<11:202-205>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:222-227>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ProxmoxVE>> <<17:258-267>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Proxmox>> <<11:206-214>> <<type>> <<VARIABLE>> <<LINK>>
+<<Pve>> <<17:270-273>> <<type>> <<VARIABLE>> <<LINK>>

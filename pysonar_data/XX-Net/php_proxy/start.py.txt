@@ -1,0 +1,9 @@
+<<__file__>> <<7:86-94>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__file__>> <<9:158-166>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<current_path>> <<11:219-231>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<11:200-203>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<__file__>> <<9:142-150>> <<str>> <<VARIABLE>> <<LINK>>
+<<__file__>> <<11:206-214>> <<str>> <<VARIABLE>> <<LINK>>
+<<__file__>> <<12:266-274>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<current_path>> <<13:294-306>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<11:203-204>> <<?>> <<VARIABLE>> <<LINK>>

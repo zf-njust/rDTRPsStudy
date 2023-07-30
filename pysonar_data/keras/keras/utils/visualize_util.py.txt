@@ -1,0 +1,5 @@
+<<plot>> <<6:127-131>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model>> <<6:132-135>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<to_file>> <<6:139-142>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<graph>> <<8:168-173>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<9:221-226>> <<?>> <<VARIABLE>> <<LINK>>

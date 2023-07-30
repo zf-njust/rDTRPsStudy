@@ -1,0 +1,17 @@
+<<trigger_visualization_hook>> <<2:53-79>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cfg>> <<2:80-83>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<2:85-88>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<default_hooks>> <<3:97-110>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<visualization_hook>> <<5:182-200>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cfg>> <<3:113-116>> <<?>> <<VARIABLE>> <<LINK>>
+<<default_hooks>> <<4:158-171>> <<?>> <<VARIABLE>> <<LINK>>
+<<default_hooks>> <<5:203-216>> <<?>> <<VARIABLE>> <<LINK>>
+<<visualization_hook>> <<7:276-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<8:322-326>> <<?>> <<VARIABLE>> <<LINK>>
+<<visualization_hook>> <<9:346-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<10:427-431>> <<?>> <<VARIABLE>> <<LINK>>
+<<visualization_hook>> <<10:393-411>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<11:454-458>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<12:519-523>> <<?>> <<VARIABLE>> <<LINK>>
+<<visualization_hook>> <<12:482-500>> <<?>> <<VARIABLE>> <<LINK>>
+<<cfg>> <<19:751-754>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<test_match>> <<6:121-131>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<20:510-524>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<24:575-595>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<20:525-528>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<21:557-564>> <<?>> <<VARIABLE>> <<LINK>>

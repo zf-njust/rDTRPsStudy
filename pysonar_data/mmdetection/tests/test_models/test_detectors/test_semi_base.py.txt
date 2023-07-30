@@ -1,0 +1,13 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<7:168-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<7:174-181>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<8:212-217>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<8:218-223>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestSemiBase>> <<13:289-301>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_init>> <<19:459-468>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<19:469-472>> <<TestSemiBase>> <<PARAMETER>> <<ANCHOR>>
+<<cfg_file>> <<19:475-478>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<20:495-500>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cfg_file>> <<20:520-528>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<22:579-584>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<23:623-628>> <<?>> <<VARIABLE>> <<LINK>>

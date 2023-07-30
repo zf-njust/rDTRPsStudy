@@ -1,0 +1,10 @@
+<<kivy>> <<9:110-114>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<9:115-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<layout>> <<9:119-125>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UixLayoutTest>> <<12:151-164>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_instantiation>> <<14:196-214>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:215-218>> <<UixLayoutTest>> <<PARAMETER>> <<ANCHOR>>
+<<layout>> <<16:279-285>> <<Layout>> <<VARIABLE>> <<ANCHOR>>
+<<Layout>> <<9:133-139>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:236-240>> <<UixLayoutTest>> <<VARIABLE>> <<LINK>>
+<<Layout>> <<16:288-294>> <<type>> <<VARIABLE>> <<LINK>>

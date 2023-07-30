@@ -1,0 +1,13 @@
+<<factorial>> <<15:332-341>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_recursion>> <<21:438-452>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<15:342-345>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<factorial>> <<22:476-485>> <<function>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<23:522-531>> <<function>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<24:568-577>> <<function>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<25:614-623>> <<function>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<26:660-669>> <<function>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<27:707-716>> <<function>> <<VARIABLE>> <<LINK>>
+<<n>> <<16:354-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<18:392-393>> <<?>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<18:404-413>> <<function>> <<VARIABLE>> <<LINK>>
+<<n>> <<18:421-422>> <<?>> <<VARIABLE>> <<LINK>>

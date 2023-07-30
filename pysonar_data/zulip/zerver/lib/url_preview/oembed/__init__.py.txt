@@ -1,0 +1,11 @@
+<<get_oembed_data>> <<5:92-107>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<url>> <<5:108-111>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<maxwidth>> <<5:113-116>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<maxheight>> <<5:127-130>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<8:216-220>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<url>> <<8:230-233>> <<?>> <<VARIABLE>> <<LINK>>
+<<maxwidth>> <<8:244-252>> <<int>> <<VARIABLE>> <<LINK>>
+<<maxheight>> <<8:264-273>> <<int>> <<VARIABLE>> <<LINK>>
+<<data>> <<12:346-350>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<12:330-334>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<13:383-387>> <<?>> <<VARIABLE>> <<LINK>>

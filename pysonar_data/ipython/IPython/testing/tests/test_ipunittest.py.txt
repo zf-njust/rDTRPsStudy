@@ -1,0 +1,8 @@
+<<simple_dt>> <<56:2380-2389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipdt_flush>> <<65:2483-2493>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipdt_indented_test>> <<86:2697-2715>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Foo>> <<105:2936-2939>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ipdt_method>> <<114:3212-3223>> <<function>> <<METHOD>> <<ANCHOR>>
+<<normaldt_method>> <<133:3533-3548>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<133:3549-3552>> <<Foo>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<114:3224-3227>> <<Foo>> <<PARAMETER>> <<ANCHOR>>

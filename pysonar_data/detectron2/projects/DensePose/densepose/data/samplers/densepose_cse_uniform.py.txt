@@ -1,0 +1,7 @@
+<<densepose_cse_base>> <<3:60-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<densepose_uniform>> <<4:117-134>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseCSEUniformSampler>> <<7:177-203>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DensePoseCSEBaseSampler>> <<3:86-109>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseUniformSampler>> <<4:142-165>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseCSEBaseSampler>> <<7:204-227>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseUniformSampler>> <<7:229-252>> <<type>> <<VARIABLE>> <<LINK>>

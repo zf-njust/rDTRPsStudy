@@ -1,0 +1,13 @@
+<<scrapy>> <<4:46-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:53-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<8:150-157>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_xpathselector_css>> <<11:259-277>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<XPathSelector>> <<16:475-488>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<XmlXPathSelector>> <<28:762-778>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<HtmlXPathSelector>> <<39:1034-1051>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<XPathSelectorList>> <<50:1310-1327>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<11:278-281>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<11:281-282>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_xpathselector_css>> <<22:636-654>> <<function>> <<VARIABLE>> <<LINK>>
+<<XPathSelector>> <<30:836-849>> <<?>> <<VARIABLE>> <<LINK>>
+<<XPathSelector>> <<41:1110-1123>> <<?>> <<VARIABLE>> <<LINK>>

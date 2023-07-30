@@ -1,0 +1,10 @@
+{
+  "code": "    @property\n    def content(self):\n        \"\"\"Content of the response, in bytes.\"\"\"\n\n        if self._content is False:\n            # Read the contents.\n            if self._content_consumed:\n                raise RuntimeError(\n                    'The content for this response was already consumed')\n\n            if self.status_code == 0 or self.raw is None:\n                self._content = None\n            else:\n                self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''\n\n        self._content_consumed = True\n        # don't need to release the connection; that's been handled by urllib3\n        # since we exhausted the data.\n        return self._content",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 14,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

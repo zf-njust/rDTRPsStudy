@@ -1,0 +1,11 @@
+<<result>> <<24:804-810>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<pipe>> <<27:839-843>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<28:951-952>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<25:817-823>> <<dict>> <<VARIABLE>> <<LINK>>
+<<pipe>> <<28:956-960>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:951-952>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:940-941>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<28:914-920>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<29:982-988>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<30:1010-1016>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<33:1139-1145>> <<dict>> <<VARIABLE>> <<LINK>>

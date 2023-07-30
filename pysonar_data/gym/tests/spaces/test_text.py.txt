@@ -1,0 +1,10 @@
+<<gym>> <<6:55-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<spaces>> <<6:59-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_sample_mask>> <<9:87-103>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<space>> <<10:112-117>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<sample>> <<13:190-196>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<space>> <<13:199-204>> <<?>> <<VARIABLE>> <<LINK>>
+<<sample>> <<14:240-246>> <<?>> <<VARIABLE>> <<LINK>>
+<<space>> <<14:250-255>> <<?>> <<VARIABLE>> <<LINK>>
+<<sample>> <<15:272-278>> <<?>> <<VARIABLE>> <<LINK>>
+<<space>> <<17:301-306>> <<?>> <<VARIABLE>> <<LINK>>

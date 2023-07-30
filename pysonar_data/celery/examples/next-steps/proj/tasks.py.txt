@@ -1,0 +1,15 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<add>> <<7:90-93>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mul>> <<12:139-142>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<xsum>> <<17:188-192>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<numbers>> <<17:193-196>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<7:94-97>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<7:97-100>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<12:143-146>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<12:146-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<numbers>> <<18:219-226>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<8:113-114>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<8:117-118>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<13:162-163>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<13:166-167>> <<?>> <<VARIABLE>> <<LINK>>

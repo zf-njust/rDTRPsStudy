@@ -1,0 +1,17 @@
+<<detect_os>> <<5:60-69>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<syst>> <<12:274-278>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<13:303-305>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<16:355-357>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<18:406-408>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<20:453-455>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<23:604-605>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<25:681-683>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<28:752-754>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<os>> <<30:801-803>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<syst>> <<15:340-344>> <<?>> <<VARIABLE>> <<LINK>>
+<<syst>> <<17:391-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<syst>> <<19:438-442>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<24:642-643>> <<file>> <<VARIABLE>> <<LINK>>
+<<syst>> <<27:737-741>> <<?>> <<VARIABLE>> <<LINK>>
+<<syst>> <<29:786-790>> <<?>> <<VARIABLE>> <<LINK>>
+<<os>> <<32:826-828>> <<str>> <<VARIABLE>> <<LINK>>

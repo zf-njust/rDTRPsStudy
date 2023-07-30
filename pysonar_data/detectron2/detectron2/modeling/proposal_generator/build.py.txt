@@ -1,0 +1,14 @@
+<<detectron2>> <<2:57-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:68-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PROPOSAL_GENERATOR_REGISTRY>> <<4:102-129>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<build_proposal_generator>> <<15:472-496>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cfg>> <<15:497-500>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<input_shape>> <<15:502-505>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<20:687-691>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<PROPOSAL_GENERATOR_REGISTRY>> <<5:164-191>> <<?>> <<VARIABLE>> <<LINK>>
+<<cfg>> <<20:694-697>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<21:736-740>> <<?>> <<VARIABLE>> <<LINK>>
+<<PROPOSAL_GENERATOR_REGISTRY>> <<24:803-830>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<24:835-839>> <<?>> <<VARIABLE>> <<LINK>>
+<<cfg>> <<24:841-844>> <<?>> <<VARIABLE>> <<LINK>>
+<<input_shape>> <<24:846-857>> <<?>> <<VARIABLE>> <<LINK>>

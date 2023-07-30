@@ -1,0 +1,9 @@
+<<log>> <<54:2257-2260>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<70:2725-2732>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<PropertyDescriptorFactory>> <<82:3133-3158>> <<type>> <<CLASS>> <<ANCHOR>>
+<<autocreate>> <<117:4139-4149>> <<function>> <<METHOD>> <<ANCHOR>>
+<<make_descriptors>> <<131:4516-4532>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<117:4150-4153>> <<PropertyDescriptorFactory>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<131:4533-4536>> <<PropertyDescriptorFactory>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<131:4539-4542>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<cls>> <<129:4499-4502>> <<PropertyDescriptorFactory>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<_dir>> <<3:13-17>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<has_trailing_space>> <<6:72-90>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<expected_table_component_doc>> <<10:166-194>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<6:91-94>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<line>> <<7:137-141>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<7:145-146>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<7:137-141>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<7:111-115>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<7:119-123>> <<?>> <<VARIABLE>> <<LINK>>

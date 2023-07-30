@@ -1,0 +1,5 @@
+<<celery>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hello_world>> <<5:42-53>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<to>> <<5:54-57>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<task>> <<1:19-23>> <<module>> <<VARIABLE>> <<LINK>>
+<<to>> <<6:98-100>> <<str>> <<VARIABLE>> <<LINK>>

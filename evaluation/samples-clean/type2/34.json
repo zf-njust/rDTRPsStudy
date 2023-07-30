@@ -1,0 +1,10 @@
+{
+  "code": "    def dump(self):\n        try:\n            with open(self._state_path, 'wb') as fobj:\n                pickle.dump(self.get_state(), fobj)\n        except IOError:\n            logger.warning(\"Failed saving scheduler state\", exc_info=1)\n        else:\n            logger.info(\"Saved state in %s\", self._state_path)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 6,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

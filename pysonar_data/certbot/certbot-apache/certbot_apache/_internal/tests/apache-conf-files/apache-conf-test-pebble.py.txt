@@ -1,0 +1,14 @@
+<<SCRIPT_DIRNAME>> <<12:313-327>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<main>> <<15:362-366>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<args>> <<16:381-385>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<acme_xdist>> <<17:457-467>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<environ>> <<18:477-484>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<20:569-576>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<26:754-758>> <<function>> <<VARIABLE>> <<LINK>>
+<<acme_xdist>> <<19:533-543>> <<?>> <<VARIABLE>> <<LINK>>
+<<environ>> <<19:513-520>> <<?>> <<VARIABLE>> <<LINK>>
+<<SCRIPT_DIRNAME>> <<20:593-607>> <<str>> <<VARIABLE>> <<LINK>>
+<<command>> <<21:638-645>> <<list>> <<VARIABLE>> <<LINK>>
+<<args>> <<21:653-657>> <<list>> <<VARIABLE>> <<LINK>>
+<<command>> <<22:690-697>> <<list>> <<VARIABLE>> <<LINK>>
+<<environ>> <<22:703-710>> <<?>> <<VARIABLE>> <<LINK>>

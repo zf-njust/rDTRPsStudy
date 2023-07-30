@@ -1,0 +1,15 @@
+<<_deserialize>> <<8:103-115>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<blob>> <<9:121-124>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<from_proto>> <<10:136-139>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<from_bytes>> <<11:165-168>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<from_bytes>> <<18:321-331>> <<?>> <<VARIABLE>> <<LINK>>
+<<blob>> <<18:351-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_proto>> <<20:390-400>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_bytes>> <<21:421-431>> <<?>> <<VARIABLE>> <<LINK>>
+<<blob>> <<22:463-467>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_bytes>> <<24:518-528>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_proto>> <<24:532-542>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_bytes>> <<28:616-626>> <<?>> <<VARIABLE>> <<LINK>>
+<<blob>> <<29:659-663>> <<?>> <<VARIABLE>> <<LINK>>
+<<from_proto>> <<31:673-683>> <<?>> <<VARIABLE>> <<LINK>>
+<<blob>> <<32:716-720>> <<?>> <<VARIABLE>> <<LINK>>

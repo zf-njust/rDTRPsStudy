@@ -1,0 +1,17 @@
+<<f>> <<4:39-40>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<11:108-109>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<16:224-225>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<31:466-467>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<41:632-633>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<72:1515-1516>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<80:1619-1620>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<86:1698-1702>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<result>> <<107:2105-2111>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<AAAAAAAAAAAAA>> <<111:2217-2230>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<aaaaaaaaaaaaa>> <<118:2484-2497>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bbbbbbbbb>> <<118:2499-2508>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<a>> <<87:1709-1712>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<c>> <<89:1766-1767>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<c>> <<102:1975-1976>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<5:47-50>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<99:1938-1939>> <<?>> <<VARIABLE>> <<LINK>>

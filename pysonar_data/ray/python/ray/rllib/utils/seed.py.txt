@@ -1,0 +1,7 @@
+<<seed>> <<10:182-186>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<np_seed>> <<10:187-190>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<random_seed>> <<10:198-201>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<tf_seed>> <<10:213-216>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<np_seed>> <<11:245-252>> <<int>> <<VARIABLE>> <<LINK>>
+<<random_seed>> <<12:271-282>> <<int>> <<VARIABLE>> <<LINK>>
+<<tf_seed>> <<13:308-315>> <<int>> <<VARIABLE>> <<LINK>>

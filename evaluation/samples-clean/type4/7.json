@@ -1,0 +1,10 @@
+{
+  "code": "def drop_by_id(self, variables):\n        \"\"\"Remove a dict of variables from the user namespace, if they are the\n        same as the values in the dictionary.\n        \n        This is intended for use by extensions: variables that they've added can\n        be taken back out if they are unloaded, without removing any that the\n        user has overwritten.\n        \n        Parameters\n        ----------\n        variables : dict\n          A dictionary mapping object names (as strings) to the objects.\n        \"\"\"\n        for name, obj in iteritems(variables):\n            if name in self.user_ns and self.user_ns[name] is obj:\n                del self.user_ns[name]\n                self.user_ns_hidden.pop(name, None)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 16,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

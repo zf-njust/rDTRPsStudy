@@ -1,0 +1,6 @@
+<<_version_re>> <<50:835-846>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<52:930-931>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<53:938-945>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_version_re>> <<53:969-980>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<54:998-999>> <<file>> <<VARIABLE>> <<LINK>>
+<<version>> <<59:1079-1086>> <<str>> <<VARIABLE>> <<LINK>>

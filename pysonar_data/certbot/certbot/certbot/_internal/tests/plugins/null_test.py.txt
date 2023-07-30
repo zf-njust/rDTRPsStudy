@@ -1,0 +1,13 @@
+<<unittest>> <<3:66-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<4:80-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InstallerTest>> <<9:124-137>> <<type>> <<CLASS>> <<ANCHOR>>
+<<setUp>> <<12:229-234>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_it>> <<16:385-392>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:393-396>> <<InstallerTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:235-238>> <<InstallerTest>> <<PARAMETER>> <<ANCHOR>>
+<<installer>> <<14:316-325>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<unittest>> <<9:138-146>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:426-430>> <<InstallerTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:480-484>> <<InstallerTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<19:532-536>> <<InstallerTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:311-315>> <<InstallerTest>> <<VARIABLE>> <<LINK>>

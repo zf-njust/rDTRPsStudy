@@ -1,0 +1,10 @@
+{
+  "code": "    def _find_install_requires(\n        self, call, body\n    ):  # type: (ast.Call, Iterable[Any]) -> List[str]\n        install_requires = []\n        value = self._find_in_call(call, \"install_requires\")\n        if value is None:\n            # Trying to find in kwargs\n            kwargs = self._find_call_kwargs(call)\n\n            if kwargs is None or not isinstance(kwargs, ast.Name):\n                return install_requires\n\n            variable = self._find_variable_in_body(body, kwargs.id)\n            if not isinstance(variable, (ast.Dict, ast.Call)):\n                return install_requires\n\n            if isinstance(variable, ast.Call):\n                if not isinstance(variable.func, ast.Name):\n                    return install_requires\n\n                if variable.func.id != \"dict\":\n                    return install_requires\n\n                value = self._find_in_call(variable, \"install_requires\")\n            else:\n                value = self._find_in_dict(variable, \"install_requires\")\n\n        if value is None:\n            return install_requires\n\n        if isinstance(value, ast.List):\n            for el in value.elts:\n                install_requires.append(el.s)\n        elif isinstance(value, ast.Name):\n            variable = self._find_variable_in_body(body, value.id)\n\n            if variable is not None and isinstance(variable, ast.List):\n                for el in variable.elts:\n                    install_requires.append(el.s)\n\n        return install_requires",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 26,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

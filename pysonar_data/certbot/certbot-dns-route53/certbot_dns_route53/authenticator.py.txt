@@ -1,0 +1,5 @@
+<<Authenticator>> <<8:194-207>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hidden>> <<12:358-364>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<14:381-389>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<14:390-393>> <<Authenticator>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<14:393-394>> <<?>> <<PARAMETER>> <<ANCHOR>>

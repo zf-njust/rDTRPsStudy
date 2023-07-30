@@ -1,0 +1,10 @@
+{
+  "code": "def subnotebook_hide(self) -> None:\\n        \"\"\" Override default subnotebook hide action to also remove the embedded option bar\\n        control and reset the training image buffer \"\"\"\\n        if self.subnotebook and self.subnotebook.winfo_ismapped():\\n            logger.debug(\"Removing preview controls from options bar\")\\n            if self._display is not None:\\n                self._display.remove_option_controls()\\n            super().subnotebook_hide()\\n            del self._display\\n            self._display = None\\n            self._preview.reset()",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 9,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

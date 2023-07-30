@@ -1,0 +1,10 @@
+{
+  "code": "def __delattr__(self, k):\n    \"\"\"Deletes the key and removes its values.\n\n    Args:\n      k: the key string.\n\n    Raises:\n      AttributeError: if k is reserverd or not defined in the ParamsDict.\n      ValueError: if the ParamsDict instance has been locked.\n    \"\"\"\n    if k in ParamsDict.RESERVED_ATTR:\n      raise AttributeError(\n          'The key `{}` is reserved. No change is allowes. '.format(k))\n    if k not in self.__dict__.keys():\n      raise AttributeError('The key `{}` does not exist. '.format(k))\n    if self._locked:\n      raise ValueError('The ParamsDict has been locked. No change is allowed.')\n    del self.__dict__[k]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<<ciphey>> <<3:42-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<3:49-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Hexadecimal>> <<7:136-147>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<8:172-178>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<20:504-512>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<23:558-566>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<27:654-663>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<31:752-761>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<23:567-570>> <<Hexadecimal>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<23:573-576>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:179-182>> <<Hexadecimal>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<8:185-188>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctext_decoded>> <<12:285-298>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<ctext_decoded>> <<14:331-344>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<24:616-622>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<14:365-370>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext_decoded>> <<15:408-421>> <<?>> <<VARIABLE>> <<LINK>>

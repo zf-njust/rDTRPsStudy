@@ -1,0 +1,10 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:54-59>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<metainfo>> <<3:114-122>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<10:212-228>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<11:270-284>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<12:326-341>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<load_from>> <<14:385-394>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<metainfo>> <<10:258-266>> <<dict>> <<VARIABLE>> <<LINK>>
+<<metainfo>> <<11:314-322>> <<dict>> <<VARIABLE>> <<LINK>>
+<<metainfo>> <<12:371-379>> <<dict>> <<VARIABLE>> <<LINK>>

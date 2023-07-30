@@ -1,0 +1,17 @@
+<<cookiecutter>> <<4:47-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_identify_known_repo>> <<42:1411-1435>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unknown_repo_type_url>> <<53:1917-1938>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_identify_raise_on_unknown_repo>> <<57:1984-2019>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<repo_url>> <<42:1436-1439>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exp_repo_type>> <<42:1446-1449>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exp_repo_url>> <<42:1461-1464>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unknown_repo_type_url>> <<57:2020-2023>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<53:1939-1942>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exceptions>> <<4:67-77>> <<module>> <<VARIABLE>> <<LINK>>
+<<repo_url>> <<43:1506-1514>> <<?>> <<VARIABLE>> <<LINK>>
+<<exp_repo_type>> <<43:1520-1533>> <<?>> <<VARIABLE>> <<LINK>>
+<<exp_repo_url>> <<43:1535-1547>> <<?>> <<VARIABLE>> <<LINK>>
+<<exceptions>> <<58:2068-2078>> <<module>> <<VARIABLE>> <<LINK>>
+<<UnknownRepoType>> <<58:2079-2094>> <<type>> <<VARIABLE>> <<LINK>>
+<<unknown_repo_type_url>> <<59:2124-2145>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<54:1961-1968>> <<?>> <<VARIABLE>> <<LINK>>

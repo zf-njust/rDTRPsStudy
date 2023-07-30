@@ -1,0 +1,10 @@
+{
+  "code": "def test_instance_methods(self):\n        a = matrix([1.0], dtype='f8')\n        methodargs = {\n            'astype': ('intc',),\n            'clip': (0.0, 1.0),\n            'compress': ([1],),\n            'repeat': (1,),\n            'reshape': (1,),\n            'swapaxes': (0, 0),\n            'dot': np.array([1.0]),\n            }\n        excluded_methods = [\n            'argmin', 'choose', 'dump', 'dumps', 'fill', 'getfield',\n            'getA', 'getA1', 'item', 'nonzero', 'put', 'putmask', 'resize',\n            'searchsorted', 'setflags', 'setfield', 'sort',\n            'partition', 'argpartition',\n            'take', 'tofile', 'tolist', 'tostring', 'tobytes', 'all', 'any',\n            'sum', 'argmax', 'argmin', 'min', 'max', 'mean', 'var', 'ptp',\n            'prod', 'std', 'ctypes', 'itemset',\n            ]\n        for attrib in dir(a):\n            if attrib.startswith('_') or attrib in excluded_methods:\n                continue\n            f = getattr(a, attrib)\n            if isinstance(f, collections.Callable):\n                # reset contents of a\n                a.astype('f8')\n                a.fill(1.0)\n                if attrib in methodargs:\n                    args = methodargs[attrib]\n                else:\n                    args = ()\n                b = f(*args)\n                assert_(type(b) is matrix, \"%s\" % attrib)\n        assert_(type(a.real) is matrix)\n        assert_(type(a.imag) is matrix)\n        c, d = matrix([0.0]).nonzero()\n        assert_(type(c) is np.ndarray)\n        assert_(type(d) is np.ndarray)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 24,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

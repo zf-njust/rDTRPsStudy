@@ -1,0 +1,10 @@
+{
+  "code": "def check_event(widget, event_name, testcase):\n        '''Check that the names are added as expected for this event.\n        '''\n        events = getattr(widget, 'kv_{}_events'.format(event_name))\n        should_be_in = getattr(widget, 'events_in_{}'.format(event_name))\n\n        counter = defaultdict(int)\n        for name in events:\n            counter[name] += 1\n\n        for name, value in counter.items():\n            testcase.assertEqual(\n                value, 1,\n                '\"{}\" was present \"{}\" times for event \"{}\" for widget \"{} '\n                '({})\"'.format(name, value, event_name, widget.name, widget))\n\n        testcase.assertEqual(\n            set(should_be_in), set(events),\n            'Expected and actual event callbacks do not match for event \"{}\" '\n            'for widget \"{} ({})\"'.format(\n                event_name, widget.name, widget))",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 4,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

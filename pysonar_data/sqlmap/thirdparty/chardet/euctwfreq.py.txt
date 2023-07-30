@@ -1,0 +1,3 @@
+<<EUCTW_TYPICAL_DISTRIBUTION_RATIO>> <<44:1591-1623>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<EUCTW_TABLE_SIZE>> <<47:1660-1676>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<EUCTWCharToFreqOrder>> <<49:1685-1705>> <<tuple>> <<SCOPE>> <<ANCHOR>>

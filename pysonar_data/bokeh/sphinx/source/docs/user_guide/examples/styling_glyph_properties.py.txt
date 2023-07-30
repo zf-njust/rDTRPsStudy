@@ -1,0 +1,15 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plotting>> <<1:11-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<p>> <<5:84-85>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<r>> <<6:129-130>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<glyph>> <<8:171-176>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<figure>> <<1:27-33>> <<module>> <<VARIABLE>> <<LINK>>
+<<figure>> <<5:88-94>> <<module>> <<VARIABLE>> <<LINK>>
+<<p>> <<6:133-134>> <<?>> <<VARIABLE>> <<LINK>>
+<<r>> <<8:179-180>> <<?>> <<VARIABLE>> <<LINK>>
+<<glyph>> <<9:188-193>> <<?>> <<VARIABLE>> <<LINK>>
+<<glyph>> <<10:205-210>> <<?>> <<VARIABLE>> <<LINK>>
+<<glyph>> <<11:229-234>> <<?>> <<VARIABLE>> <<LINK>>
+<<glyph>> <<12:261-266>> <<?>> <<VARIABLE>> <<LINK>>
+<<glyph>> <<13:287-292>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<15:316-317>> <<?>> <<VARIABLE>> <<LINK>>

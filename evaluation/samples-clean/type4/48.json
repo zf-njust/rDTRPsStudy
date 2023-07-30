@@ -1,0 +1,10 @@
+{
+  "code": "def __init__(self, target, on_delete=None):\n        \"\"\"Return a weak-reference-like instance for a bound method\n\n        :param target: the instance-method target for the weak\n            reference, must have `__self__` and `__func__` attributes\n            and be reconstructable via::\n\n                target.__func__.__get__(target.__self__)\n\n            which is true of built-in instance methods.\n\n        :keyword on_delete: optional callback which will be called\n            when this weak reference ceases to be valid\n            (i.e. either the object or the function is garbage\n            collected).  Should take a single argument,\n            which will be passed a pointer to this object.\n\n        \"\"\"\n        def remove(weak, self=self):\n            \"\"\"Set self.is_dead to true when method or instance is destroyed\"\"\"\n            methods = self.deletion_methods[:]\n            del(self.deletion_methods[:])\n            try:\n                del(self.__class__._all_instances[self.key])\n            except KeyError:\n                pass\n            for function in methods:\n                try:\n                    if callable(function):\n                        function(self)\n                except Exception as exc:\n                    try:\n                        traceback.print_exc()\n                    except AttributeError:\n                        print('Exception during saferef {0} cleanup function '\n                              '{1}: {2}'.format(self, function, exc))\n\n        self.deletion_methods = [on_delete]\n        self.key = self.calculate_key(target)\n        self.weak_self = weakref.ref(target.__self__, remove)\n        self.weak_fun = weakref.ref(target.__func__, remove)\n        self.self_name = str(target.__self__)\n        self.fun_name = str(target.__func__.__name__)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 24,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+<<__version__>> <<3:40-51>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<6:101-112>> <<str>> <<VARIABLE>> <<LINK>>

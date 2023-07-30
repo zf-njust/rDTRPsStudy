@@ -1,0 +1,11 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<img_scale>> <<6:109-118>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<8:153-158>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_pipeline>> <<16:386-399>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<31:864-878>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<37:1074-1089>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_evaluator>> <<44:1285-1299>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<20:532-538>> <<list>> <<VARIABLE>> <<LINK>>
+<<img_scale>> <<21:593-602>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<36:1057-1070>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<42:1266-1279>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<report>> <<16:604-610>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cumulative>> <<18:677-687>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<21:723-730>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<RiskReport>> <<16:619-629>> <<type>> <<VARIABLE>> <<LINK>>
+<<RiskMetricsCumulative>> <<18:696-717>> <<type>> <<VARIABLE>> <<LINK>>

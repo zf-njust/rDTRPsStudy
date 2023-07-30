@@ -1,0 +1,9 @@
+<<test_get_filesystem_custom_filesystem>> <<22:754-791>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_filesystem_local_filesystem>> <<33:1120-1156>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_DUMMY_PRFEIX>> <<23:800-813>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<DummyFileSystem>> <<25:837-852>> <<type>> <<CLASS>> <<ANCHOR>>
+<<output_file>> <<29:973-984>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<_DUMMY_PRFEIX>> <<28:922-935>> <<str>> <<VARIABLE>> <<LINK>>
+<<DummyFileSystem>> <<28:937-952>> <<type>> <<VARIABLE>> <<LINK>>
+<<output_file>> <<30:1080-1091>> <<str>> <<VARIABLE>> <<LINK>>
+<<DummyFileSystem>> <<30:1094-1109>> <<type>> <<VARIABLE>> <<LINK>>

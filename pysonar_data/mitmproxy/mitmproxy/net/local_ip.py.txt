@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_local_ip>> <<6:61-73>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_local_ip6>> <<23:658-671>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<reachable>> <<23:672-675>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<29:953-954>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<reachable>> <<6:74-77>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<13:440-441>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<s>> <<31:1026-1027>> <<?>> <<VARIABLE>> <<LINK>>
+<<reachable>> <<31:1037-1046>> <<str>> <<VARIABLE>> <<LINK>>
+<<s>> <<32:1069-1070>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<36:1153-1154>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<15:512-513>> <<?>> <<VARIABLE>> <<LINK>>
+<<reachable>> <<15:523-532>> <<str>> <<VARIABLE>> <<LINK>>
+<<s>> <<16:555-556>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<20:639-640>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def search_member(self, name=None, userName=None, remarkName=None, nickName=None,\n            wechatAccount=None):\n        with self.core.storageClass.updateLock:\n            if (name or userName or remarkName or nickName or wechatAccount) is None:\n                return None\n            elif userName: # return the only userName match\n                for m in self.memberList:\n                    if m.userName == userName:\n                        return copy.deepcopy(m)\n            else:\n                matchDict = {\n                    'RemarkName' : remarkName,\n                    'NickName'   : nickName,\n                    'Alias'      : wechatAccount, }\n                for k in ('RemarkName', 'NickName', 'Alias'):\n                    if matchDict[k] is None:\n                        del matchDict[k]\n                if name: # select based on name\n                    contact = []\n                    for m in self.memberList:\n                        if any([m.get(k) == name for k in ('RemarkName', 'NickName', 'Alias')]):\n                            contact.append(m)\n                else:\n                    contact = self.memberList[:]\n                if matchDict: # select again based on matchDict\n                    friendList = []\n                    for m in contact:\n                        if all([m.get(k) == v for k, v in matchDict.items()]):\n                            friendList.append(m)\n                    return copy.deepcopy(friendList)\n                else:\n                    return copy.deepcopy(contact)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 17,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

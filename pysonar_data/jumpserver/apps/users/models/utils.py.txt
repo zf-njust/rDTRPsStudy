@@ -1,0 +1,15 @@
+<<user>> <<6:85-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<group>> <<8:109-114>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<init_model>> <<10:141-151>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<generate_fake>> <<16:263-276>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cls>> <<10:164-167>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<cls>> <<16:289-292>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<UserGroup>> <<10:153-162>> <<type>> <<VARIABLE>> <<LINK>>
+<<UserGroup>> <<11:178-187>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls>> <<12:210-213>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls>> <<15:240-243>> <<type>> <<VARIABLE>> <<LINK>>
+<<initial>> <<15:244-251>> <<function>> <<VARIABLE>> <<LINK>>
+<<UserGroup>> <<17:303-312>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls>> <<18:335-338>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls>> <<-1:371-374>> <<type>> <<VARIABLE>> <<LINK>>
+<<generate_fake>> <<-1:375-388>> <<function>> <<VARIABLE>> <<LINK>>

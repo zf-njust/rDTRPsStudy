@@ -1,0 +1,13 @@
+<<threading>> <<14:599-608>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ThreadExceptionHandler>> <<17:634-656>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<20:739-747>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<24:857-860>> <<function>> <<METHOD>> <<ANCHOR>>
+<<join>> <<30:984-988>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<20:748-751>> <<ThreadExceptionHandler>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<20:751-752>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<24:861-864>> <<ThreadExceptionHandler>> <<PARAMETER>> <<ANCHOR>>
+<<exception>> <<28:959-968>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<30:989-992>> <<ThreadExceptionHandler>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:954-958>> <<ThreadExceptionHandler>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1032-1036>> <<ThreadExceptionHandler>> <<VARIABLE>> <<LINK>>
+<<exception>> <<32:1037-1046>> <<?>> <<VARIABLE>> <<LINK>>

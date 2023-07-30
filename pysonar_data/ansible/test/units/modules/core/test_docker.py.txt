@@ -1,0 +1,13 @@
+<<DockerSplitImageTagTestCase>> <<7:133-160>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_trivial>> <<9:192-204>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_with_org_name>> <<12:298-316>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_with_tag>> <<15:448-461>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_with_tag_and_org_name>> <<18:560-586>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<18:587-590>> <<DockerSplitImageTagTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<15:462-465>> <<DockerSplitImageTagTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:317-320>> <<DockerSplitImageTagTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:205-208>> <<DockerSplitImageTagTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:603-607>> <<DockerSplitImageTagTestCase>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:478-482>> <<DockerSplitImageTagTestCase>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:333-337>> <<DockerSplitImageTagTestCase>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:221-225>> <<DockerSplitImageTagTestCase>> <<VARIABLE>> <<LINK>>

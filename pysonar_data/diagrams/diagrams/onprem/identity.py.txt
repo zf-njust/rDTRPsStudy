@@ -1,0 +1,6 @@
+<<_Identity>> <<6:105-114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:130-135>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:154-163>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Dex>> <<11:205-208>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:226-231>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Identity>> <<11:209-218>> <<type>> <<VARIABLE>> <<LINK>>

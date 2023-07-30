@@ -1,0 +1,10 @@
+{
+  "code": "def __delitem__(self, key: Union[int, slice]):\n        length = len(self)\n        list.__delitem__(self, key)\n\n        if isinstance(key, slice):\n            indices_to_remove = list(\n                range(key.start or 0, key.stop or length, key.step or 1)\n            )\n        else:\n            indices_to_remove = [length + key if key < 0 else key]\n        for i in sorted(indices_to_remove, reverse=True):\n            try:\n                idx = self._index_map[i]\n            except KeyError as e:\n                if not isinstance(key, slice):\n                    raise IndexError(\"list index out of range\") from e\n            else:\n                del self._value[idx]\n                if (\n                    idx == 0\n                    and len(self._value) > 0\n                    and \"\\n\" not in self._value[idx].indent.s\n                ):\n                    # Remove the indentation of the first item if not newline\n                    self._value[idx].indent = None\n        if len(self._value) > 0:\n            v = self._value[-1]\n            if not v.is_whitespace():\n                # remove the comma of the last item\n                v.comma = None\n\n        self._reindex()",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

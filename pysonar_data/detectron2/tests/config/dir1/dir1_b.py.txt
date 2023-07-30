@@ -1,0 +1,9 @@
+<<detectron2>> <<2:57-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<2:68-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dir1a_str>> <<5:129-138>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dir1a_dict>> <<5:140-150>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dir1b_str>> <<7:218-227>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<dir1b_dict>> <<8:253-263>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dir1a_str>> <<7:230-239>> <<?>> <<VARIABLE>> <<LINK>>
+<<dir1a_dict>> <<8:266-276>> <<?>> <<VARIABLE>> <<LINK>>
+<<dir1a_dict>> <<11:351-361>> <<?>> <<VARIABLE>> <<LINK>>

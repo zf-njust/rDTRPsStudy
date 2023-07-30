@@ -1,0 +1,17 @@
+<<cookiecutter>> <<5:49-61>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<environment>> <<5:62-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cookiecutter>> <<6:105-117>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exceptions>> <<6:118-128>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_env_should_raise_for_unknown_extension>> <<9:162-205>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_env_should_come_with_jinja2_time_extension>> <<22:504-551>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<context>> <<10:214-221>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<err>> <<16:357-360>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<env>> <<23:560-563>> <<StrictEnvironment>> <<VARIABLE>> <<ANCHOR>>
+<<StrictEnvironment>> <<5:81-98>> <<type>> <<VARIABLE>> <<LINK>>
+<<UnknownExtension>> <<6:136-152>> <<type>> <<VARIABLE>> <<LINK>>
+<<UnknownExtension>> <<16:336-352>> <<type>> <<VARIABLE>> <<LINK>>
+<<StrictEnvironment>> <<17:371-388>> <<type>> <<VARIABLE>> <<LINK>>
+<<context>> <<17:397-404>> <<dict>> <<VARIABLE>> <<LINK>>
+<<err>> <<19:484-487>> <<?>> <<VARIABLE>> <<LINK>>
+<<StrictEnvironment>> <<23:566-583>> <<type>> <<VARIABLE>> <<LINK>>
+<<env>> <<24:667-670>> <<StrictEnvironment>> <<VARIABLE>> <<LINK>>

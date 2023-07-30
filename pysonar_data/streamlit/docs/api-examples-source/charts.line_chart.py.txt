@@ -1,0 +1,2 @@
+<<chart_data>> <<5:67-77>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<chart_data>> <<9:170-180>> <<?>> <<VARIABLE>> <<LINK>>

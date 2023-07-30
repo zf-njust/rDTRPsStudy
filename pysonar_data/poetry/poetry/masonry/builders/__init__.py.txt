@@ -1,0 +1,8 @@
+<<complete>> <<1:6-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<editable>> <<2:45-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sdist>> <<3:84-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<wheel>> <<4:117-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CompleteBuilder>> <<1:22-37>> <<type>> <<VARIABLE>> <<LINK>>
+<<EditableBuilder>> <<2:61-76>> <<type>> <<VARIABLE>> <<LINK>>
+<<SdistBuilder>> <<3:97-109>> <<type>> <<VARIABLE>> <<LINK>>
+<<WheelBuilder>> <<4:130-142>> <<type>> <<VARIABLE>> <<LINK>>

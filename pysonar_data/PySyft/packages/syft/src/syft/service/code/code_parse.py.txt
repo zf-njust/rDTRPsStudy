@@ -1,0 +1,7 @@
+<<GlobalsVisitor>> <<5:28-42>> <<type>> <<CLASS>> <<ANCHOR>>
+<<generic_visit>> <<6:69-82>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<6:83-86>> <<GlobalsVisitor>> <<PARAMETER>> <<ANCHOR>>
+<<node>> <<6:89-92>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<node>> <<7:118-122>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:224-228>> <<GlobalsVisitor>> <<VARIABLE>> <<LINK>>
+<<node>> <<9:230-234>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:57-62>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<grounding_scale>> <<5:102-117>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<test_pipeline>> <<7:127-140>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<23:561-575>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<24:622-637>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<11:249-255>> <<str>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<23:605-618>> <<list>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<24:640-654>> <<dict>> <<VARIABLE>> <<LINK>>

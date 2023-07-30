@@ -1,0 +1,10 @@
+{
+  "code": "def clear(self) -> None:\\n        \"\"\" Clear the graph plots from RAM \"\"\"\\n        logger.debug(\"Clearing graph from RAM: %s\", self)\\n        self._fig.clf()\\n        del self._fig",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 5,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "code": "def notify_owners_mock(*args, **kw):\n            notify_owners_stuff['args'] = args\n            notify_owners_stuff['kw'] = kw",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 3,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

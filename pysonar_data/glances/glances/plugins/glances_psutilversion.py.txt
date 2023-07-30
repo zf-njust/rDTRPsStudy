@@ -1,0 +1,16 @@
+<<glances>> <<20:785-792>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plugins>> <<20:793-800>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Plugin>> <<25:902-908>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<32:1030-1038>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<reset>> <<38:1173-1178>> <<function>> <<METHOD>> <<ANCHOR>>
+<<update>> <<42:1261-1267>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<38:1179-1182>> <<Plugin>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<32:1039-1042>> <<Plugin>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<32:1045-1048>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<42:1268-1271>> <<Plugin>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1121-1125>> <<Plugin>> <<VARIABLE>> <<LINK>>
+<<args>> <<34:1132-1136>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1149-1153>> <<Plugin>> <<VARIABLE>> <<LINK>>
+<<reset>> <<36:1154-1159>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<45:1340-1344>> <<Plugin>> <<VARIABLE>> <<LINK>>
+<<reset>> <<45:1345-1350>> <<function>> <<VARIABLE>> <<LINK>>

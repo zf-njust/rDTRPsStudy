@@ -1,0 +1,13 @@
+<<pipenv>> <<6:61-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<6:68-75>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<6:76-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_internal>> <<6:80-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<6:90-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<WHEEL_EXTENSION>> <<8:118-133>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ARCHIVE_EXTENSIONS>> <<19:428-446>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<is_archive_file>> <<22:520-535>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<22:536-539>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ext>> <<24:628-631>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<24:643-647>> <<?>> <<VARIABLE>> <<LINK>>
+<<ext>> <<25:667-670>> <<?>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_EXTENSIONS>> <<25:674-692>> <<?>> <<VARIABLE>> <<LINK>>

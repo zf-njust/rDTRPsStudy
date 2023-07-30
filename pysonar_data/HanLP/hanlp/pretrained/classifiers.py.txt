@@ -1,0 +1,5 @@
+<<CHNSENTICORP_BERT_BASE_ZH>> <<6:115-140>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SST2_ALBERT_BASE_EN>> <<7:216-235>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LID_176_FASTTEXT_BASE>> <<9:307-328>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LID_176_FASTTEXT_SMALL>> <<13:517-539>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ALL>> <<18:730-733>> <<dict>> <<SCOPE>> <<ANCHOR>>

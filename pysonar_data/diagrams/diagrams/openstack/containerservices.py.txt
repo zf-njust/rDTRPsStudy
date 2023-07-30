@@ -1,0 +1,6 @@
+<<_Containerservices>> <<6:108-126>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:145-150>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:178-187>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Kuryr>> <<11:241-246>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:273-278>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Containerservices>> <<11:247-265>> <<type>> <<VARIABLE>> <<LINK>>

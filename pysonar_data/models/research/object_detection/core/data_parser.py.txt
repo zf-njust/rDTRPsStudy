@@ -1,0 +1,15 @@
+<<__future__>> <<23:1065-1075>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<24:1105-1115>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<25:1138-1148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<abc>> <<26:1177-1180>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<abc>> <<27:1202-1205>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DataToNumpyParser>> <<31:1251-1268>> <<type>> <<CLASS>> <<ANCHOR>>
+<<parse>> <<35:1407-1412>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1413-1416>> <<DataToNumpyParser>> <<PARAMETER>> <<ANCHOR>>
+<<input_data>> <<35:1419-1422>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<23:1083-1098>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<24:1123-1131>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<25:1156-1170>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ABCMeta>> <<26:1188-1195>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<27:1213-1227>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABCMeta>> <<31:1288-1295>> <<type>> <<VARIABLE>> <<LINK>>

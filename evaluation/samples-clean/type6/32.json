@@ -1,0 +1,10 @@
+{
+  "code": "def set_from_json(self, obj, json, models=None, setter=None):\n        ''' Sets the value of this property from a JSON value.\n\n        This method first\n\n        Args:\n            obj (HasProps) :\n\n            json (JSON-dict) :\n\n            models(seq[Model], optional) :\n\n            setter (ClientSession or ServerSession or None, optional) :\n                This is used to prevent \"boomerang\" updates to Bokeh apps.\n                (default: None)\n\n                In the context of a Bokeh server application, incoming updates\n                to properties will be annotated with the session that is\n                doing the updating. This value is propagated through any\n                subsequent change notifications that the update triggers.\n                The session can compare the event setter to itself, and\n                suppress any updates that originate from itself.\n\n        Returns:\n            None\n\n        '''\n        if isinstance(json, dict):\n            # we want to try to keep the \"format\" of the data spec as string, dict, or number,\n            # assuming the serialized dict is compatible with that.\n            old = getattr(obj, self.name)\n            if old is not None:\n                try:\n                    self.property._type.validate(old, False)\n                    if 'value' in json:\n                        json = json['value']\n                except ValueError:\n                    if isinstance(old, string_types) and 'field' in json:\n                        json = json['field']\n                # leave it as a dict if 'old' was a dict\n\n        super(DataSpecPropertyDescriptor, self).set_from_json(obj, json, models, setter)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 31,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

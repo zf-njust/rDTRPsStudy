@@ -1,0 +1,17 @@
+<<lib>> <<8:150-153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<8:154-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<settings>> <<8:159-167>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__product__>> <<10:195-206>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<detect>> <<12:244-250>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_page>> <<12:251-254>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<retval>> <<13:266-272>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<vector>> <<15:290-296>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<page>> <<16:328-332>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<headers>> <<16:334-341>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<code>> <<16:343-347>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<retval>> <<17:379-385>> <<bool>> <<VARIABLE>> <<ANCHOR>>
+<<get_page>> <<16:350-358>> <<?>> <<VARIABLE>> <<LINK>>
+<<vector>> <<16:363-369>> <<?>> <<VARIABLE>> <<LINK>>
+<<page>> <<17:410-414>> <<?>> <<VARIABLE>> <<LINK>>
+<<retval>> <<18:426-432>> <<bool>> <<VARIABLE>> <<LINK>>
+<<retval>> <<21:464-470>> <<bool>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<T>> <<6:57-58>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<L>> <<7:65-66>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<N>> <<8:75-76>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<10:86-87>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<12:196-200>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<N>> <<10:100-101>> <<int>> <<VARIABLE>> <<LINK>>
+<<L>> <<10:103-104>> <<int>> <<VARIABLE>> <<LINK>>
+<<L>> <<11:139-140>> <<int>> <<VARIABLE>> <<LINK>>
+<<T>> <<11:168-169>> <<int>> <<VARIABLE>> <<LINK>>
+<<T>> <<11:175-176>> <<int>> <<VARIABLE>> <<LINK>>
+<<N>> <<11:178-179>> <<int>> <<VARIABLE>> <<LINK>>
+<<N>> <<11:189-190>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<11:117-118>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<12:210-211>> <<?>> <<VARIABLE>> <<LINK>>
+<<T>> <<12:220-221>> <<int>> <<VARIABLE>> <<LINK>>
+<<data>> <<13:253-257>> <<?>> <<VARIABLE>> <<LINK>>

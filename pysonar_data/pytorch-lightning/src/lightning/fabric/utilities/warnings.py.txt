@@ -1,0 +1,3 @@
+<<warnings>> <<15:635-643>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PossibleUserWarning>> <<23:832-851>> <<type>> <<CLASS>> <<ANCHOR>>
+<<warnings>> <<20:750-758>> <<module>> <<VARIABLE>> <<LINK>>

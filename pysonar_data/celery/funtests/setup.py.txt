@@ -1,0 +1,7 @@
+<<suite>> <<27:672-677>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<no_install>> <<23:503-513>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<23:535-538>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:539-542>> <<no_install>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<24:542-543>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<no_install>> <<51:1214-1224>> <<type>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<26:596-602>> <<?>> <<VARIABLE>> <<LINK>>

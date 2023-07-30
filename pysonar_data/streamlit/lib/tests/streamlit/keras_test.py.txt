@@ -1,0 +1,14 @@
+<<KerasTest>> <<15:350-359>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_model>> <<18:441-451>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<18:452-455>> <<KerasTest>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<20:524-529>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<graphviz_chart>> <<26:810-824>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<dot>> <<29:870-873>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<21:554-559>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<22:637-642>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<23:688-693>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<24:718-723>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<27:848-853>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<29:899-904>> <<?>> <<VARIABLE>> <<LINK>>
+<<graphviz_chart>> <<30:919-933>> <<?>> <<VARIABLE>> <<LINK>>
+<<dot>> <<30:958-961>> <<?>> <<VARIABLE>> <<LINK>>

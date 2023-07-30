@@ -1,0 +1,5 @@
+<<win1255_CharToOrderMap>> <<37:1468-1490>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<HebrewLangModel>> <<62:2752-2767>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Win1255HebrewModel>> <<193:11095-11113>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<win1255_CharToOrderMap>> <<194:11138-11160>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<HebrewLangModel>> <<195:11184-11199>> <<tuple>> <<VARIABLE>> <<LINK>>

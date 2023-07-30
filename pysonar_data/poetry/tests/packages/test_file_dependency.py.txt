@@ -1,0 +1,13 @@
+<<poetry>> <<3:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<packages>> <<3:29-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<poetry>> <<4:66-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_compat>> <<4:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DIST_PATH>> <<6:102-111>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_file_dependency_wrong_path>> <<9:183-214>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_file_dependency_dir>> <<14:329-353>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<FileDependency>> <<3:45-59>> <<type>> <<VARIABLE>> <<LINK>>
+<<FileDependency>> <<16:403-417>> <<type>> <<VARIABLE>> <<LINK>>
+<<DIST_PATH>> <<16:426-435>> <<str>> <<VARIABLE>> <<LINK>>
+<<FileDependency>> <<11:264-278>> <<type>> <<VARIABLE>> <<LINK>>
+<<DIST_PATH>> <<11:287-296>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<configuration>> <<4:33-46>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<parent_package>> <<4:47-50>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<top_path>> <<4:66-69>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<6:144-150>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<parent_package>> <<6:180-194>> <<?>> <<VARIABLE>> <<LINK>>
+<<top_path>> <<6:196-204>> <<str>> <<VARIABLE>> <<LINK>>
+<<config>> <<7:211-217>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<9:257-263>> <<?>> <<VARIABLE>> <<LINK>>

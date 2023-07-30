@@ -1,0 +1,2 @@
+<<celery>> <<5:58-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<6:81-88>> <<module>> <<VARIABLE>> <<ANCHOR>>

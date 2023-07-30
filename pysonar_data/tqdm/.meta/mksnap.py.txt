@@ -1,0 +1,14 @@
+<<io>> <<6:80-82>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tqdm>> <<11:236-240>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<src_dir>> <<13:250-257>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<snap_yml>> <<14:297-305>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<fname>> <<68:2034-2039>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<fd>> <<71:2176-2178>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<tqdm>> <<66:1927-1931>> <<module>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<66:1932-1943>> <<?>> <<VARIABLE>> <<LINK>>
+<<src_dir>> <<68:2065-2072>> <<str>> <<VARIABLE>> <<LINK>>
+<<fname>> <<71:2138-2143>> <<str>> <<VARIABLE>> <<LINK>>
+<<fd>> <<72:2188-2190>> <<file>> <<VARIABLE>> <<LINK>>
+<<snap_yml>> <<72:2230-2238>> <<str>> <<VARIABLE>> <<LINK>>
+<<snap_yml>> <<72:2197-2205>> <<str>> <<VARIABLE>> <<LINK>>
+<<snap_yml>> <<72:2255-2263>> <<str>> <<VARIABLE>> <<LINK>>

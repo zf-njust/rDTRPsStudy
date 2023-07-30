@@ -1,0 +1,10 @@
+{
+  "code": "def gt_label(self):\\n        del self._gt_label",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

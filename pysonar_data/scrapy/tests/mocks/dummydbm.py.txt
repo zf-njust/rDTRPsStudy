@@ -1,0 +1,12 @@
+<<DummyDB>> <<5:59-66>> <<type>> <<CLASS>> <<ANCHOR>>
+<<close>> <<7:128-133>> <<function>> <<METHOD>> <<ANCHOR>>
+<<error>> <<11:160-165>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_DATABASES>> <<14:182-192>> <<defaultdict>> <<SCOPE>> <<ANCHOR>>
+<<open>> <<16:235-239>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<file>> <<16:240-243>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<flag>> <<16:246-249>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<mode>> <<16:256-259>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<7:134-137>> <<DummyDB>> <<PARAMETER>> <<ANCHOR>>
+<<DummyDB>> <<14:219-226>> <<type>> <<VARIABLE>> <<LINK>>
+<<_DATABASES>> <<22:441-451>> <<defaultdict>> <<VARIABLE>> <<LINK>>
+<<file>> <<22:452-456>> <<?>> <<VARIABLE>> <<LINK>>

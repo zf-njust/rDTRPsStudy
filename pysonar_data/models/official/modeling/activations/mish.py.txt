@@ -1,0 +1,6 @@
+<<mish>> <<21:778-782>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<21:783-786>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<35:1096-1097>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<35:1121-1122>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<36:1134-1135>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<36:1161-1162>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<log>> <<21:800-803>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<38:1312-1319>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<fertility>> <<61:2104-2113>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<life_expectancy>> <<62:2215-2230>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<population>> <<63:2332-2342>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<regions>> <<64:2444-2451>> <<?>> <<SCOPE>> <<ANCHOR>>

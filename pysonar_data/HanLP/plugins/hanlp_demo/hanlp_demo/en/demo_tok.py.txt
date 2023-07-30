@@ -1,0 +1,2 @@
+<<text>> <<6:138-142>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<text>> <<9:218-222>> <<str>> <<VARIABLE>> <<LINK>>

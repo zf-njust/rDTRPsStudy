@@ -1,0 +1,10 @@
+<<cookiecutter>> <<13:135-147>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<find>> <<13:155-159>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<repo_dir>> <<17:230-238>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_find_template>> <<21:307-325>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<repo_dir>> <<21:326-329>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<17:239-242>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<find>> <<22:353-357>> <<module>> <<VARIABLE>> <<LINK>>
+<<find_template>> <<22:358-371>> <<function>> <<VARIABLE>> <<LINK>>
+<<repo_dir>> <<22:381-389>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<18:283-290>> <<?>> <<VARIABLE>> <<LINK>>

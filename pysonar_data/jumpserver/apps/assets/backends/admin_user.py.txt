@@ -1,0 +1,3 @@
+<<AdminUserBackend>> <<8:114-130>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<9:155-160>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<backend>> <<10:178-185>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

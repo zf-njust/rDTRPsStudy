@@ -1,0 +1,6 @@
+<<version>> <<3:96-103>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<3:82-93>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_tuple>> <<4:134-147>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<__version_tuple__>> <<4:114-131>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<3:96-103>> <<str>> <<VARIABLE>> <<LINK>>
+<<version_tuple>> <<4:134-147>> <<tuple>> <<VARIABLE>> <<LINK>>

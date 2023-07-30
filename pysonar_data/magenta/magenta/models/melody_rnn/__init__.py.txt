@@ -1,0 +1,2 @@
+<<melody_rnn_model>> <<21:754-770>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MelodyRnnModel>> <<21:778-792>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<io>> <<10:122-124>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<12:143-150>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<readme_file>> <<23:513-524>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<readme>> <<23:531-537>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<requirements>> <<26:562-574>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<19:389-396>> <<str>> <<VARIABLE>> <<LINK>>
+<<version>> <<19:398-405>> <<str>> <<VARIABLE>> <<LINK>>
+<<io>> <<22:466-468>> <<module>> <<VARIABLE>> <<LINK>>
+<<readme_file>> <<25:540-551>> <<?>> <<VARIABLE>> <<LINK>>
+<<readme>> <<39:812-818>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<44:887-894>> <<str>> <<VARIABLE>> <<LINK>>
+<<readme>> <<48:1130-1136>> <<?>> <<VARIABLE>> <<LINK>>
+<<requirements>> <<64:1668-1680>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def standalone_docs_json_and_render_items(models, suppress_callback_warning=False):\n    '''\n\n    '''\n    if isinstance(models, (Model, Document)):\n        models = [models]\n\n    if not (isinstance(models, collections_abc.Sequence) and all(isinstance(x, (Model, Document)) for x in models)):\n        raise ValueError(\"Expected a Model, Document, or Sequence of Models or Documents\")\n\n    if submodel_has_python_callbacks(models) and not suppress_callback_warning:\n        log.warning(_CALLBACKS_WARNING)\n\n    docs = {}\n    for model_or_doc in models:\n        if isinstance(model_or_doc, Document):\n            model = None\n            doc = model_or_doc\n        else:\n            model = model_or_doc\n            doc = model.document\n\n            if doc is None:\n                raise ValueError(\"A Bokeh Model must be part of a Document to render as standalone content\")\n\n        if doc not in docs:\n            docs[doc] = (make_globally_unique_id(), OrderedDict())\n\n        (docid, roots) = docs[doc]\n\n        if model is not None:\n            roots[model] = make_globally_unique_id()\n        else:\n            for model in doc.roots:\n                roots[model] = make_globally_unique_id()\n\n    docs_json = {}\n    for doc, (docid, _) in docs.items():\n        docs_json[docid] = doc.to_json()\n\n    render_items = []\n    for _, (docid, roots) in docs.items():\n        render_items.append(RenderItem(docid, roots=roots))\n\n    return (docs_json, render_items)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 8,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

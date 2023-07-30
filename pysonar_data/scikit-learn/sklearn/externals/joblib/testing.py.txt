@@ -1,0 +1,16 @@
+<<warnings_to_stdout>> <<10:86-104>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<showwarning_orig>> <<13:164-180>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<showwarning>> <<15:215-226>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<msg>> <<15:227-230>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cat>> <<15:232-235>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fname>> <<15:237-240>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lno>> <<15:244-247>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<file>> <<15:249-252>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<line>> <<15:260-263>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<showwarning>> <<18:378-389>> <<function>> <<VARIABLE>> <<LINK>>
+<<showwarning_orig>> <<16:278-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<16:295-298>> <<?>> <<VARIABLE>> <<LINK>>
+<<cat>> <<16:300-303>> <<?>> <<VARIABLE>> <<LINK>>
+<<fname>> <<16:322-327>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<16:330-334>> <<int>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<16:340-346>> <<?>> <<VARIABLE>> <<LINK>>

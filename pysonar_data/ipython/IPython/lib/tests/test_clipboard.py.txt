@@ -1,0 +1,3 @@
+<<test_clipboard_get>> <<9:245-263>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<a>> <<14:477-478>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<22:720-721>> <<?>> <<VARIABLE>> <<LINK>>

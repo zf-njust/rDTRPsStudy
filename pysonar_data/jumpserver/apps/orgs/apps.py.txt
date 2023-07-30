@@ -1,0 +1,4 @@
+<<OrgsConfig>> <<4:45-55>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:73-77>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<7:98-103>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:104-107>> <<OrgsConfig>> <<PARAMETER>> <<ANCHOR>>

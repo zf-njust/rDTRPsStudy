@@ -1,0 +1,13 @@
+<<Prefix>> <<5:111-117>> <<type>> <<CLASS>> <<ANCHOR>>
+<<func>> <<6:136-140>> <<function>> <<METHOD>> <<ANCHOR>>
+<<MockMetaEstimator>> <<10:169-186>> <<type>> <<CLASS>> <<ANCHOR>>
+<<a_prefix>> <<12:242-250>> <<Prefix>> <<ATTRIBUTE>> <<ANCHOR>>
+<<func>> <<15:323-327>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_delegated_docstring>> <<20:407-431>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<15:328-331>> <<MockMetaEstimator>> <<PARAMETER>> <<ANCHOR>>
+<<Prefix>> <<12:253-259>> <<type>> <<VARIABLE>> <<LINK>>
+<<MockMetaEstimator>> <<22:512-529>> <<type>> <<VARIABLE>> <<LINK>>
+<<MockMetaEstimator>> <<24:634-651>> <<type>> <<VARIABLE>> <<LINK>>
+<<func>> <<24:652-656>> <<function>> <<VARIABLE>> <<LINK>>
+<<MockMetaEstimator>> <<26:744-761>> <<type>> <<VARIABLE>> <<LINK>>
+<<func>> <<26:764-768>> <<function>> <<VARIABLE>> <<LINK>>

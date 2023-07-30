@@ -1,0 +1,15 @@
+<<PAD>> <<6:81-84>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<UNK>> <<8:118-121>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CLS>> <<10:155-158>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BOS>> <<11:170-173>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<EOS>> <<12:185-188>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ROOT>> <<13:200-204>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<IDX>> <<14:212-215>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<HANLP_URL>> <<16:249-258>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<HANLP_VERBOSE>> <<18:340-353>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<NULL>> <<20:456-460>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PRED>> <<21:473-477>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<IPYTHON>> <<23:490-497>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<IPYTHON>> <<29:747-754>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<BOS>> <<13:207-210>> <<str>> <<VARIABLE>> <<LINK>>
+<<IPYTHON>> <<24:610-617>> <<bool>> <<VARIABLE>> <<LINK>>

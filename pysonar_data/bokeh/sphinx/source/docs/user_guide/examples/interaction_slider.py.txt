@@ -1,0 +1,13 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<1:11-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bokeh>> <<2:45-50>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<2:51-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widgets>> <<2:58-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<slider>> <<6:113-119>> <<Slider>> <<SCOPE>> <<ANCHOR>>
+<<output_file>> <<1:21-32>> <<function>> <<VARIABLE>> <<LINK>>
+<<show>> <<1:34-38>> <<function>> <<VARIABLE>> <<LINK>>
+<<Slider>> <<2:73-79>> <<type>> <<VARIABLE>> <<LINK>>
+<<output_file>> <<4:83-94>> <<function>> <<VARIABLE>> <<LINK>>
+<<Slider>> <<6:122-128>> <<type>> <<VARIABLE>> <<LINK>>
+<<show>> <<8:182-186>> <<function>> <<VARIABLE>> <<LINK>>
+<<slider>> <<8:187-193>> <<Slider>> <<VARIABLE>> <<LINK>>

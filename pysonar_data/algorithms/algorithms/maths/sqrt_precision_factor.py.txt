@@ -1,0 +1,14 @@
+<<square_root>> <<12:281-292>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<12:293-296>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<epsilon>> <<12:296-299>> <<float>> <<PARAMETER>> <<ANCHOR>>
+<<guess>> <<14:389-394>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<guess>> <<17:459-464>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<14:397-398>> <<?>> <<VARIABLE>> <<LINK>>
+<<guess>> <<16:420-425>> <<int>> <<VARIABLE>> <<LINK>>
+<<guess>> <<16:428-433>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<16:436-437>> <<?>> <<VARIABLE>> <<LINK>>
+<<epsilon>> <<16:441-448>> <<float>> <<VARIABLE>> <<LINK>>
+<<guess>> <<17:468-473>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<17:477-478>> <<?>> <<VARIABLE>> <<LINK>>
+<<guess>> <<17:481-486>> <<int>> <<VARIABLE>> <<LINK>>
+<<guess>> <<19:507-512>> <<int>> <<VARIABLE>> <<LINK>>

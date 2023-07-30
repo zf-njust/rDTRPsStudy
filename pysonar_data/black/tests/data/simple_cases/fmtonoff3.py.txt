@@ -1,0 +1,6 @@
+<<x>> <<2:12-13>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<9:69-70>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<15:114-115>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<22:166-167>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<29:223-224>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<35:268-269>> <<list>> <<SCOPE>> <<ANCHOR>>

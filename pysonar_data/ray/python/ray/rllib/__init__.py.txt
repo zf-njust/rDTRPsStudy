@@ -1,0 +1,14 @@
+<<_setup_logger>> <<21:813-826>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_register_all>> <<32:1133-1146>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<logger>> <<22:835-841>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<handler>> <<23:880-887>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<key>> <<34:1161-1164>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<46:1513-1520>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_setup_logger>> <<43:1477-1490>> <<function>> <<VARIABLE>> <<LINK>>
+<<handler>> <<24:919-926>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<28:1067-1073>> <<?>> <<VARIABLE>> <<LINK>>
+<<handler>> <<28:1085-1092>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<29:1099-1105>> <<?>> <<VARIABLE>> <<LINK>>
+<<_register_all>> <<44:1494-1507>> <<function>> <<VARIABLE>> <<LINK>>
+<<key>> <<40:1445-1448>> <<str>> <<VARIABLE>> <<LINK>>
+<<key>> <<40:1466-1469>> <<str>> <<VARIABLE>> <<LINK>>

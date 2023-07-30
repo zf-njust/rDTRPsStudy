@@ -1,0 +1,17 @@
+<<ciphey>> <<7:125-131>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<7:132-137>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Z85>> <<11:219-222>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<12:247-253>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<28:719-727>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<32:843-851>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<36:939-948>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<40:1037-1046>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<32:852-855>> <<Z85>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<32:858-861>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:254-257>> <<Z85>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<12:260-263>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctext_len>> <<16:352-361>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<33:901-907>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<16:368-373>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext_len>> <<17:387-396>> <<int>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<23:614-619>> <<?>> <<VARIABLE>> <<LINK>>

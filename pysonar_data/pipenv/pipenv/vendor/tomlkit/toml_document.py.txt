@@ -1,0 +1,4 @@
+<<pipenv>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<1:12-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tomlkit>> <<1:19-26>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TOMLDocument>> <<4:62-74>> <<type>> <<CLASS>> <<ANCHOR>>

@@ -1,0 +1,2 @@
+<<enabled_by_default>> <<5:59-77>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<get_brew_path_prefix>> <<9:119-139>> <<function>> <<FUNCTION>> <<ANCHOR>>

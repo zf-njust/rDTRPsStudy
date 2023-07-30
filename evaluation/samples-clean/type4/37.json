@@ -1,0 +1,10 @@
+{
+  "code": "def remove_trailing_semicolon(src: str) -> Tuple[str, bool]:\n    \"\"\"Remove trailing semicolon from Jupyter notebook cell.\n\n    For example,\n\n        fig, ax = plt.subplots()\n        ax.plot(x_data, y_data);  # plot data\n\n    would become\n\n        fig, ax = plt.subplots()\n        ax.plot(x_data, y_data)  # plot data\n\n    Mirrors the logic in `quiet` from `IPython.core.displayhook`, but uses\n    ``tokenize_rt`` so that round-tripping works fine.\n    \"\"\"\n    from tokenize_rt import reversed_enumerate, src_to_tokens, tokens_to_src\n\n    tokens = src_to_tokens(src)\n    trailing_semicolon = False\n    for idx, token in reversed_enumerate(tokens):\n        if token.name in TOKENS_TO_IGNORE:\n            continue\n        if token.name == \"OP\" and token.src == \";\":\n            del tokens[idx]\n            trailing_semicolon = True\n        break\n    if not trailing_semicolon:\n        return src, False\n    return tokens_to_src(tokens), True",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 25,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

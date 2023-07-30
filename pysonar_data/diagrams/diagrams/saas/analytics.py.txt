@@ -1,0 +1,12 @@
+<<_Analytics>> <<6:103-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:127-132>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Dataform>> <<11:202-210>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:229-234>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Snowflake>> <<15:263-272>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:291-296>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Stitch>> <<19:326-332>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:351-356>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Analytics>> <<11:211-221>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Analytics>> <<15:273-283>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Analytics>> <<19:333-343>> <<type>> <<VARIABLE>> <<LINK>>

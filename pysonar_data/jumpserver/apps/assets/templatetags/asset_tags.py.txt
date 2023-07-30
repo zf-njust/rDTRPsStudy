@@ -1,0 +1,16 @@
+<<register>> <<4:68-76>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<group_labels>> <<8:125-137>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<queryset>> <<8:138-141>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<grouped>> <<9:154-161>> <<defaultdict>> <<VARIABLE>> <<ANCHOR>>
+<<label>> <<10:191-196>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<name>> <<12:285-289>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<labels>> <<12:291-297>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<queryset>> <<10:200-208>> <<?>> <<VARIABLE>> <<LINK>>
+<<grouped>> <<11:219-226>> <<defaultdict>> <<VARIABLE>> <<LINK>>
+<<label>> <<11:227-232>> <<?>> <<VARIABLE>> <<LINK>>
+<<label>> <<11:246-251>> <<?>> <<VARIABLE>> <<LINK>>
+<<grouped>> <<12:301-308>> <<defaultdict>> <<VARIABLE>> <<LINK>>
+<<name>> <<12:285-289>> <<?>> <<VARIABLE>> <<LINK>>
+<<labels>> <<12:291-297>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<12:267-271>> <<?>> <<VARIABLE>> <<LINK>>
+<<labels>> <<12:273-279>> <<?>> <<VARIABLE>> <<LINK>>

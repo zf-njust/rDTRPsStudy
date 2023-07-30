@@ -1,0 +1,10 @@
+{
+  "code": "def tearDownClass(cls):\\n        super(TestClipboard, cls).tearDownClass()\\n        del cls.data_types, cls.data",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 3,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

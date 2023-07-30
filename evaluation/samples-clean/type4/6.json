@@ -1,0 +1,10 @@
+{
+  "code": "def checkcache(filename=None):\n    \"\"\"Discard cache entries that are out of date.\n    (This is not checked upon each call!)\"\"\"\n\n    if filename is None:\n        filenames = cache.keys()\n    else:\n        if filename in cache:\n            filenames = [filename]\n        else:\n            return\n\n    for filename in filenames:\n        size, mtime, lines, fullname = cache[filename]\n        if mtime is None:\n            continue   # no-op for files loaded via a __loader__\n        try:\n            stat = os.stat(fullname)\n        except os.error:\n            del cache[filename]\n            continue\n        if size != stat.st_size or mtime != stat.st_mtime:\n            del cache[filename]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 20,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

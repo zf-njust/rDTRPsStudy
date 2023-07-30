@@ -1,0 +1,16 @@
+<<count_ones_recur>> <<17:557-573>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<count_ones_iter>> <<25:733-748>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<17:574-577>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<25:749-752>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<count>> <<28:827-832>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<30:860-861>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<count>> <<31:880-885>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<20:659-660>> <<int>> <<VARIABLE>> <<LINK>>
+<<count_ones_recur>> <<22:696-712>> <<function>> <<VARIABLE>> <<LINK>>
+<<n>> <<22:713-714>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<22:718-719>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<29:848-849>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<30:860-861>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<30:866-867>> <<?>> <<VARIABLE>> <<LINK>>
+<<count>> <<31:880-885>> <<int>> <<VARIABLE>> <<LINK>>
+<<count>> <<32:903-908>> <<int>> <<VARIABLE>> <<LINK>>

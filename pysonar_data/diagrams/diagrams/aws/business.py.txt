@@ -1,0 +1,17 @@
+<<_Business>> <<6:102-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:124-129>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:148-157>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<AlexaForBusiness>> <<11:196-212>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:230-235>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<BusinessApplications>> <<15:274-294>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:312-317>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Chime>> <<19:359-364>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:382-387>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Workmail>> <<23:413-421>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:439-444>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<A4B>> <<29:480-483>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Business>> <<11:213-222>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Business>> <<15:295-304>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Business>> <<19:365-374>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Business>> <<23:422-431>> <<type>> <<VARIABLE>> <<LINK>>
+<<AlexaForBusiness>> <<29:486-502>> <<type>> <<VARIABLE>> <<LINK>>

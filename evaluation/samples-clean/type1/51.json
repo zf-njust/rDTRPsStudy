@@ -1,0 +1,10 @@
+{
+  "code": "def pad_sequence(\n    sequence: Tensor,\n    time_axis: int,\n    extra_left_context: int = 0,\n    extra_right_context: int = 0,\n) -> Tensor:\n    \"\"\"Pad extra left/right contexts to the sequence.\"\"\"\n\n    if extra_left_context == 0 and extra_right_context == 0:\n        return sequence\n\n    tensors_to_concat = []\n\n    if extra_left_context:\n        size = (extra_left_context,)\n        fill_value = 0\n        indices = torch.full(\n            size=size,\n            fill_value=fill_value,\n            dtype=torch.long,\n            device=sequence.device,\n        )\n        left_padding = torch.index_select(sequence, time_axis, indices)\n        tensors_to_concat.append(left_padding)\n\n    tensors_to_concat.append(sequence)\n\n    # NOTE(cfyeh): for efficiency reason we pad 0 instead of the last frame for\n    #              extra right contexts.\n    if extra_right_context:\n        size = list(sequence.shape)\n        size[time_axis] = extra_right_context\n        right_padding = torch.zeros(size, dtype=sequence.dtype, device=sequence.device)\n        tensors_to_concat.append(right_padding)\n\n    padded_sequence = torch.cat(tensors_to_concat, dim=time_axis)\n    return padded_sequence",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 31,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

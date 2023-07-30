@@ -1,0 +1,11 @@
+<<MethodRequest>> <<10:167-180>> <<type>> <<CLASS>> <<ANCHOR>>
+<<set_method>> <<15:285-295>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_method>> <<18:357-367>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:296-299>> <<MethodRequest>> <<PARAMETER>> <<ANCHOR>>
+<<method>> <<15:302-305>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<method>> <<16:324-330>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<18:368-371>> <<MethodRequest>> <<PARAMETER>> <<ANCHOR>>
+<<method>> <<16:333-339>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:319-323>> <<MethodRequest>> <<VARIABLE>> <<LINK>>
+<<self>> <<19:398-402>> <<MethodRequest>> <<VARIABLE>> <<LINK>>
+<<self>> <<19:441-445>> <<MethodRequest>> <<VARIABLE>> <<LINK>>

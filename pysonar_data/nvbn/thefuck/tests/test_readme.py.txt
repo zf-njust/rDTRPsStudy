@@ -1,0 +1,14 @@
+<<test_readme>> <<1:4-15>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<source_root>> <<1:16-19>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<2:84-85>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<readme>> <<3:96-102>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bundled>> <<5:125-132>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<rule>> <<9:279-283>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<source_root>> <<2:40-51>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<3:105-106>> <<?>> <<VARIABLE>> <<LINK>>
+<<source_root>> <<5:135-146>> <<?>> <<VARIABLE>> <<LINK>>
+<<bundled>> <<9:287-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<rule>> <<10:312-316>> <<?>> <<VARIABLE>> <<LINK>>
+<<rule>> <<11:361-365>> <<?>> <<VARIABLE>> <<LINK>>
+<<readme>> <<11:374-380>> <<?>> <<VARIABLE>> <<LINK>>
+<<rule>> <<12:444-448>> <<?>> <<VARIABLE>> <<LINK>>

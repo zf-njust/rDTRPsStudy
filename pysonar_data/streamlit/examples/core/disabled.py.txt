@@ -1,0 +1,13 @@
+<<options>> <<5:80-87>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<w1>> <<7:112-114>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w2>> <<9:152-154>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w3>> <<12:218-220>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w4>> <<14:280-282>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w5>> <<16:310-312>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w6>> <<18:349-351>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w7>> <<20:406-408>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w8>> <<22:450-452>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w9>> <<24:505-507>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<w2>> <<10:211-213>> <<?>> <<VARIABLE>> <<LINK>>
+<<options>> <<16:334-341>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<options>> <<20:435-442>> <<tuple>> <<VARIABLE>> <<LINK>>

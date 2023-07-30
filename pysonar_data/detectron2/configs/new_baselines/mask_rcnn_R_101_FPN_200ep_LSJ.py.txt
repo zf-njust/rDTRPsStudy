@@ -1,0 +1,8 @@
+<<mask_rcnn_R_101_FPN_100ep_LSJ>> <<1:6-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<milestone>> <<12:231-240>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lr_multiplier>> <<3:67-80>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<12:244-257>> <<?>> <<VARIABLE>> <<LINK>>
+<<milestone>> <<12:231-240>> <<?>> <<VARIABLE>> <<LINK>>
+<<milestone>> <<12:213-222>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<11:169-182>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<14:283-296>> <<?>> <<VARIABLE>> <<LINK>>

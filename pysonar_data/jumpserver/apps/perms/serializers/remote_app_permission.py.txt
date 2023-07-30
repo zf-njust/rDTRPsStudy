@@ -1,0 +1,15 @@
+<<__all__>> <<11:225-232>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<RemoteAppPermissionSerializer>> <<18:390-419>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<19:464-468>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<20:479-484>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_serializer_class>> <<21:516-537>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<22:575-581>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<read_only_fields>> <<27:794-810>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RemoteAppPermissionUpdateUserSerializer>> <<30:855-894>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<31:936-940>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<32:951-956>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<33:988-994>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RemoteAppPermissionUpdateRemoteAppSerializer>> <<36:1024-1068>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<37:1110-1114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<38:1125-1130>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<39:1162-1168>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

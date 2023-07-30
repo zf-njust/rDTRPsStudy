@@ -1,0 +1,15 @@
+<<kivy>> <<9:199-203>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<12:235-239>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<12:240-243>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<13:261-265>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<13:266-269>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<button>> <<13:270-276>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestApp>> <<16:302-309>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<18:327-332>> <<function>> <<METHOD>> <<ANCHOR>>
+<<kivy>> <<10:205-209>> <<module>> <<VARIABLE>> <<LINK>>
+<<require>> <<10:210-217>> <<function>> <<VARIABLE>> <<LINK>>
+<<App>> <<12:251-254>> <<type>> <<VARIABLE>> <<LINK>>
+<<Button>> <<13:284-290>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<16:310-313>> <<type>> <<VARIABLE>> <<LINK>>
+<<TestApp>> <<24:466-473>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<24:476-479>> <<function>> <<VARIABLE>> <<LINK>>

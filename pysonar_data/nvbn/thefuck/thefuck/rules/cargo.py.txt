@@ -1,0 +1,5 @@
+<<match>> <<1:4-9>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<5:67-82>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<5:83-86>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<1:10-13>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<2:32-39>> <<?>> <<VARIABLE>> <<LINK>>

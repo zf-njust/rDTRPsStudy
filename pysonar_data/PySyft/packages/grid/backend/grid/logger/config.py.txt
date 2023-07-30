@@ -1,0 +1,11 @@
+<<LogLevel>> <<18:475-483>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TRACE>> <<21:531-536>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DEBUG>> <<22:551-556>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<INFO>> <<23:571-575>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SUCCESS>> <<24:589-596>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<WARNING>> <<25:613-620>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR>> <<26:637-642>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CRITICAL>> <<27:657-665>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<LogConfig>> <<30:687-696>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get_log_config>> <<60:1658-1672>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<LogConfig>> <<66:1836-1845>> <<type>> <<VARIABLE>> <<LINK>>

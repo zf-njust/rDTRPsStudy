@@ -1,0 +1,15 @@
+<<synthesizer>> <<1:5-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:59-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pathlib>> <<3:98-105>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<8:172-178>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<args>> <<21:1079-1083>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<3:113-117>> <<type>> <<VARIABLE>> <<LINK>>
+<<parser>> <<12:378-384>> <<?>> <<VARIABLE>> <<LINK>>
+<<Path>> <<12:423-427>> <<type>> <<VARIABLE>> <<LINK>>
+<<parser>> <<15:636-642>> <<?>> <<VARIABLE>> <<LINK>>
+<<Path>> <<15:692-696>> <<type>> <<VARIABLE>> <<LINK>>
+<<parser>> <<18:823-829>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<21:1086-1092>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<24:1154-1158>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<24:1160-1166>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<25:1198-1202>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<redash>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ConfiguredSession>> <<11:246-263>> <<type>> <<CLASS>> <<ANCHOR>>
+<<request>> <<12:304-311>> <<function>> <<METHOD>> <<ANCHOR>>
+<<requests_session>> <<18:496-512>> <<ConfiguredSession>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<12:312-315>> <<ConfiguredSession>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<12:315-316>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ConfiguredSession>> <<18:515-532>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def __call__(self, some_token: Union[str, Iterable[str], Iterable[Iterable[str]]]) \\\n            -> Union[int, List[int], List[List[int]]]:\n        \"\"\"It supports 3D arrays of tokens.\n\n        Args:\n            some_token: Tokens of 1D to 3D\n\n        Returns:\n            A list of indices.\n\n        \"\"\"\n        if isinstance(some_token, (list, tuple, set)):\n            indices = []\n            if len(some_token) and isinstance(some_token[0], (list, tuple, set)):\n                for sent in some_token:\n                    inside = []\n                    for token in sent:\n                        inside.append(self.get_idx(token))\n                    indices.append(inside)\n                return indices\n            for token in some_token:\n                if isinstance(token, str):\n                    indices.append(self.get_idx(token))\n                else:\n                    indices.append([self.get_idx(x) for x in token])\n            return indices\n        else:\n            return self.get_idx(some_token)\n    def append(self, *args, **kwargs): # real signature unknown\n        \"\"\" Append object to the end of the list. \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 23,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

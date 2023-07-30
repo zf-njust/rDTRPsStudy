@@ -1,0 +1,10 @@
+{
+  "code": "    def run(self):\n        name = self.arguments[0]\n\n        try:\n            module = importlib.import_module(self.options['module'])\n        except ImportError:\n            raise SphinxError(\"Could not generate reference docs for %r: could not import module %r\" % (self.arguments[0], self.options['module']))\n\n        enum = getattr(module, name, None)\n\n        fullrepr = repr(enum)\n        if len(fullrepr) > 180:\n            shortrepr = fullrepr[:40] + \" .... \" + fullrepr[-40:]\n            fullrepr = _wrapper.wrap(fullrepr)\n        else:\n            shortrepr = fullrepr\n            fullrepr = None\n\n        rst_text = ENUM_DETAIL.render(\n            name=name,\n            module=self.options['module'],\n            noindex=self.options.get('noindex', False),\n            content=self.content,\n            shortrepr=shortrepr,\n            fullrepr=fullrepr,\n        )\n\n        return self._parse(rst_text, \"<bokeh-enum>\")",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 17,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

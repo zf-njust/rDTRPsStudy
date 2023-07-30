@@ -1,0 +1,14 @@
+<<abc>> <<15:601-604>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Frontend>> <<22:753-761>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<28:931-939>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<start_server>> <<32:1040-1052>> <<function>> <<METHOD>> <<ANCHOR>>
+<<stop_server>> <<54:2024-2035>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<28:940-943>> <<Frontend>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<54:2036-2039>> <<Frontend>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<32:1053-1056>> <<Frontend>> <<PARAMETER>> <<ANCHOR>>
+<<host>> <<32:1059-1062>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<port>> <<32:1070-1073>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<root_path>> <<32:1081-1084>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<15:612-615>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<15:617-631>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<22:762-765>> <<type>> <<VARIABLE>> <<LINK>>

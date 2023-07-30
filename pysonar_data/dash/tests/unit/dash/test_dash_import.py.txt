@@ -1,0 +1,7 @@
+<<test_dddi001_dash_import_is_correct>> <<5:40-75>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<imported>> <<6:84-92>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fp>> <<9:243-245>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<imported>> <<7:150-158>> <<?>> <<VARIABLE>> <<LINK>>
+<<imported>> <<10:263-271>> <<?>> <<VARIABLE>> <<LINK>>
+<<fp>> <<10:287-289>> <<file>> <<VARIABLE>> <<LINK>>
+<<imported>> <<13:355-363>> <<?>> <<VARIABLE>> <<LINK>>

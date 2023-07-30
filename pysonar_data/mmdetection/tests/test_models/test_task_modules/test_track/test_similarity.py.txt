@@ -1,0 +1,11 @@
+<<mmdet>> <<3:21-26>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<3:27-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<task_modules>> <<3:34-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_embed_similarity>> <<6:80-101>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<embeds>> <<8:144-150>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<similarity>> <<9:175-185>> <<float>> <<VARIABLE>> <<ANCHOR>>
+<<embed_similarity>> <<3:54-70>> <<function>> <<VARIABLE>> <<LINK>>
+<<embed_similarity>> <<9:188-204>> <<function>> <<VARIABLE>> <<LINK>>
+<<embeds>> <<9:205-211>> <<?>> <<VARIABLE>> <<LINK>>
+<<embeds>> <<9:213-219>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity>> <<10:233-243>> <<float>> <<VARIABLE>> <<LINK>>

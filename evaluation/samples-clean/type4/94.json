@@ -1,0 +1,10 @@
+{
+  "code": "def popitem(self, last=True):\n            '''od.popitem() -> (k, v), return and remove a (key, value) pair.\n            Pairs are returned in LIFO order if last is true or FIFO order if false.\n\n            '''\n            if not self:\n                raise KeyError('dictionary is empty')\n            root = self.__root\n            if last:\n                link = root[0]\n                link_prev = link[0]\n                link_prev[1] = root\n                root[0] = link_prev\n            else:\n                link = root[1]\n                link_next = link[1]\n                root[1] = link_next\n                link_next[0] = root\n            key = link[2]\n            del self.__map[key]\n            value = dict.pop(self, key)\n            return key, value",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 20,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

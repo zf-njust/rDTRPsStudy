@@ -1,0 +1,11 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rest_framework>> <<3:48-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rest_framework>> <<4:102-116>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rest_framework>> <<5:148-162>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MockView>> <<8:195-203>> <<type>> <<CLASS>> <<ANCHOR>>
+<<authentication_classes>> <<10:221-243>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<renderer_classes>> <<11:291-307>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get>> <<13:355-358>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:359-362>> <<MockView>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<13:365-368>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>

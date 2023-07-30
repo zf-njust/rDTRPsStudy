@@ -1,0 +1,8 @@
+<<mask_rcnn_BNhead>> <<1:6-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<1:30-35>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<1:37-47>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<1:49-62>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<1:64-73>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<1:75-80>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<3:121-126>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<3:84-89>> <<?>> <<VARIABLE>> <<LINK>>

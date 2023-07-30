@@ -1,0 +1,9 @@
+<<no_such_subcommand>> <<6:119-137>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_match>> <<14:311-321>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<20:493-513>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<14:322-325>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<20:514-517>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<new_command>> <<20:523-526>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<15:350-357>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<21:565-572>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_command>> <<21:577-588>> <<?>> <<VARIABLE>> <<LINK>>

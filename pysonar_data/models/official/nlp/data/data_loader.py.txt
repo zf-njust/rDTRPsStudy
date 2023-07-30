@@ -1,0 +1,5 @@
+<<abc>> <<17:694-697>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DataLoader>> <<23:765-775>> <<type>> <<CLASS>> <<ANCHOR>>
+<<load>> <<27:905-909>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<28:918-921>> <<DataLoader>> <<PARAMETER>> <<ANCHOR>>
+<<input_context>> <<29:931-934>> <<?>> <<PARAMETER>> <<ANCHOR>>

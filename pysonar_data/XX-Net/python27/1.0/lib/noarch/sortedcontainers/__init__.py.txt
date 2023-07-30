@@ -1,0 +1,7 @@
+<<__title__>> <<43:1318-1327>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<44:1350-1361>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__build__>> <<45:1373-1382>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<46:1395-1405>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<47:1423-1434>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__copyright__>> <<48:1451-1464>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<55:1657-1664>> <<list>> <<SCOPE>> <<ANCHOR>>

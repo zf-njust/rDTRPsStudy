@@ -1,0 +1,4 @@
+<<SimpleTest>> <<11:235-245>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_basic_addition>> <<12:266-285>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:286-289>> <<SimpleTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<16:371-375>> <<SimpleTest>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,11 @@
+<<_Podconfig>> <<6:102-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:125-130>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CM>> <<11:199-201>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:220-225>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Secret>> <<15:248-254>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:273-278>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ConfigMap>> <<21:312-321>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Podconfig>> <<11:202-212>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Podconfig>> <<15:255-265>> <<type>> <<VARIABLE>> <<LINK>>
+<<CM>> <<21:324-326>> <<type>> <<VARIABLE>> <<LINK>>

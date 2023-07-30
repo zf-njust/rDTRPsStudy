@@ -1,0 +1,16 @@
+<<__copyright__>> <<2:34-47>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ImageProtoTest>> <<6:131-145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_PIL_to_png_bytes>> <<9:216-237>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_BytesIO_to_bytes>> <<13:330-351>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_np_array_to_png_bytes>> <<17:444-470>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_verify_np_shape>> <<21:568-588>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_bytes_to_b64>> <<31:866-883>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_clip_image>> <<39:1079-1094>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_marshall_images>> <<50:1323-1343>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<50:1344-1347>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<21:589-592>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<39:1095-1098>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<17:471-474>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:352-355>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:884-887>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:238-241>> <<ImageProtoTest>> <<PARAMETER>> <<ANCHOR>>

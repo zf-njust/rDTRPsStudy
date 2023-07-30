@@ -1,0 +1,16 @@
+<<match>> <<6:94-99>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<11:254-269>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<6:100-103>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<11:270-273>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<broken_cmd>> <<12:285-295>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_cmd>> <<13:372-379>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_cmd>> <<15:482-489>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<7:148-155>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<8:220-227>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<12:348-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<13:436-443>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_cmd>> <<14:464-471>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:554-561>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<16:599-606>> <<?>> <<VARIABLE>> <<LINK>>
+<<broken_cmd>> <<16:615-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_cmd>> <<16:627-634>> <<?>> <<VARIABLE>> <<LINK>>

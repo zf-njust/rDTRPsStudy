@@ -1,0 +1,2 @@
+<<install_requires>> <<19:781-797>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<35:1152-1168>> <<list>> <<VARIABLE>> <<LINK>>

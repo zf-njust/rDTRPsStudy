@@ -1,0 +1,9 @@
+<<_Social>> <<6:103-110>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:124-129>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:146-155>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Facebook>> <<11:193-201>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:217-222>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Twitter>> <<15:251-258>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:274-279>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Social>> <<11:202-209>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Social>> <<15:259-266>> <<type>> <<VARIABLE>> <<LINK>>

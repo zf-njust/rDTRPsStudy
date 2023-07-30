@@ -1,0 +1,12 @@
+<<__future__>> <<17:785-795>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:825-835>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:858-868>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ContextManagerTest>> <<25:991-1009>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_identity_context_manager>> <<27:1038-1067>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<27:1068-1071>> <<ContextManagerTest>> <<PARAMETER>> <<ANCHOR>>
+<<identity_context>> <<28:1129-1145>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<17:803-818>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<18:843-851>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:876-890>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:1154-1158>> <<ContextManagerTest>> <<VARIABLE>> <<LINK>>
+<<identity_context>> <<29:1172-1188>> <<?>> <<VARIABLE>> <<LINK>>

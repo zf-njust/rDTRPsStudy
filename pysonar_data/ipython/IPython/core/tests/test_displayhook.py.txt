@@ -1,0 +1,7 @@
+<<ip>> <<3:67-69>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_output_displayed>> <<5:93-114>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_output_quiet>> <<14:382-399>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<9:217-219>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<12:302-304>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<18:502-504>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<21:591-593>> <<?>> <<VARIABLE>> <<LINK>>

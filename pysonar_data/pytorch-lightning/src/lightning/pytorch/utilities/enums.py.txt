@@ -1,0 +1,17 @@
+<<__future__>> <<15:628-638>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<GradClipAlgorithmType>> <<20:731-752>> <<type>> <<CLASS>> <<ANCHOR>>
+<<VALUE>> <<30:1266-1271>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<NORM>> <<31:1287-1291>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<supported_type>> <<34:1331-1345>> <<function>> <<METHOD>> <<ANCHOR>>
+<<supported_types>> <<38:1462-1477>> <<function>> <<METHOD>> <<ANCHOR>>
+<<val>> <<34:1346-1349>> <<GradClipAlgorithmType>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<35:1404-1405>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<39:1523-1524>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<annotations>> <<15:646-657>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<GradClipAlgorithmType>> <<35:1409-1430>> <<type>> <<VARIABLE>> <<LINK>>
+<<x>> <<35:1404-1405>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<35:1385-1386>> <<?>> <<VARIABLE>> <<LINK>>
+<<val>> <<35:1396-1399>> <<GradClipAlgorithmType>> <<VARIABLE>> <<LINK>>
+<<GradClipAlgorithmType>> <<39:1528-1549>> <<type>> <<VARIABLE>> <<LINK>>
+<<x>> <<39:1523-1524>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<39:1511-1512>> <<?>> <<VARIABLE>> <<LINK>>

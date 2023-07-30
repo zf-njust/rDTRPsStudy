@@ -1,0 +1,2 @@
+<<tornado>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hello>> <<4:47-52>> <<function>> <<FUNCTION>> <<ANCHOR>>

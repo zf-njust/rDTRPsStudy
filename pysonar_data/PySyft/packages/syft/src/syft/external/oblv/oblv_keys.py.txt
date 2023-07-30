@@ -1,0 +1,5 @@
+<<OblvKeys>> <<8:181-189>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<10:221-239>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<11:257-268>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__attr_searchable__>> <<18:385-404>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__attr_unique__>> <<19:441-456>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

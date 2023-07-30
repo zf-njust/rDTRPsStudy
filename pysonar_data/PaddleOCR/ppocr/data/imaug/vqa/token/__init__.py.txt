@@ -1,0 +1,6 @@
+<<vqa_token_pad>> <<16:693-706>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vqa_token_relation>> <<17:733-751>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vqa_re_convert>> <<-1:785-799>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VQATokenPad>> <<16:714-725>> <<type>> <<VARIABLE>> <<LINK>>
+<<VQAReTokenRelation>> <<17:759-777>> <<type>> <<VARIABLE>> <<LINK>>
+<<TensorizeEntitiesRelations>> <<-1:807-833>> <<type>> <<VARIABLE>> <<LINK>>

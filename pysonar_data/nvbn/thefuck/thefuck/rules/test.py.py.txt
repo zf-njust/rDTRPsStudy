@@ -1,0 +1,7 @@
+<<match>> <<1:4-9>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<5:103-118>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<priority>> <<10:203-211>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<5:119-122>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<1:10-13>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<2:32-39>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<2:79-86>> <<?>> <<VARIABLE>> <<LINK>>

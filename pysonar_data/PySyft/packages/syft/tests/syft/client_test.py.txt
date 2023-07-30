@@ -1,0 +1,10 @@
+<<test_client_logged_in_user>> <<1:4-30>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<worker>> <<1:31-34>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<guest_client>> <<2:44-56>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<worker>> <<2:59-65>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<3:90-102>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<5:129-141>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<6:210-222>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<8:267-279>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<12:373-385>> <<?>> <<VARIABLE>> <<LINK>>
+<<guest_client>> <<14:453-465>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<info>> <<2:37-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<resolve>> <<3:73-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DebugCommand>> <<6:119-131>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:149-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<description>> <<9:169-180>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<commands>> <<11:226-234>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DebugInfoCommand>> <<2:49-65>> <<type>> <<VARIABLE>> <<LINK>>
+<<DebugResolveCommand>> <<3:88-107>> <<type>> <<VARIABLE>> <<LINK>>
+<<DebugInfoCommand>> <<11:238-254>> <<type>> <<VARIABLE>> <<LINK>>
+<<DebugResolveCommand>> <<11:268-287>> <<type>> <<VARIABLE>> <<LINK>>

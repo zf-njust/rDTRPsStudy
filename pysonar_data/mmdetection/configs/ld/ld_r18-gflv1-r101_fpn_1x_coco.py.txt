@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<teacher_ckpt>> <<5:134-146>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<6:299-304>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<68:2305-2318>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<teacher_ckpt>> <<15:649-661>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<unittest>> <<3:32-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<redash>> <<5:65-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestCassandra>> <<8:134-147>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_generate_ssl_options_dict_creates_plain_protocol_dict>> <<10:170-228>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_generate_ssl_options_dict_creates_certificate_dict>> <<15:417-472>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:229-232>> <<TestCassandra>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<11:245-253>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<actual>> <<12:303-309>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<15:473-476>> <<TestCassandra>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<16:489-497>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<actual>> <<21:655-661>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<13:367-371>> <<TestCassandra>> <<VARIABLE>> <<LINK>>
+<<expected>> <<13:388-396>> <<dict>> <<VARIABLE>> <<LINK>>
+<<actual>> <<13:398-404>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:732-736>> <<TestCassandra>> <<VARIABLE>> <<LINK>>
+<<expected>> <<22:753-761>> <<dict>> <<VARIABLE>> <<LINK>>
+<<actual>> <<22:763-769>> <<?>> <<VARIABLE>> <<LINK>>

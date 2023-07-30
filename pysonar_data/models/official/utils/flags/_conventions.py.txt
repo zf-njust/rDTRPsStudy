@@ -1,0 +1,10 @@
+<<_help_wrap>> <<28:1078-1088>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_stdout_utf8>> <<33:1262-1274>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<help_wrap>> <<42:1439-1448>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<help_wrap>> <<45:1478-1487>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<text>> <<45:1488-1491>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<t>> <<45:1491-1492>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_stdout_utf8>> <<41:1420-1432>> <<function>> <<VARIABLE>> <<LINK>>
+<<_help_wrap>> <<42:1451-1461>> <<?>> <<VARIABLE>> <<LINK>>
+<<_help_wrap>> <<46:1524-1534>> <<?>> <<VARIABLE>> <<LINK>>
+<<text>> <<46:1535-1539>> <<str>> <<VARIABLE>> <<LINK>>

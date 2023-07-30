@@ -1,0 +1,2 @@
+<<python_requirement_solution>> <<1:6-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PythonRequirementSolution>> <<1:41-66>> <<type>> <<VARIABLE>> <<LINK>>

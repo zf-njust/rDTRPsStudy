@@ -1,0 +1,11 @@
+<<model>> <<8:161-166>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<param>> <<11:249-254>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<resnet18>> <<15:355-363>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example_input>> <<17:419-432>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<script_module>> <<18:463-476>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<11:258-263>> <<?>> <<VARIABLE>> <<LINK>>
+<<param>> <<12:280-285>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<15:392-397>> <<?>> <<VARIABLE>> <<LINK>>
+<<resnet18>> <<18:495-503>> <<?>> <<VARIABLE>> <<LINK>>
+<<example_input>> <<18:505-518>> <<?>> <<VARIABLE>> <<LINK>>
+<<script_module>> <<19:521-534>> <<?>> <<VARIABLE>> <<LINK>>

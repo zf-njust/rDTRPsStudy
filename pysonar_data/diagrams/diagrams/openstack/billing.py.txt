@@ -1,0 +1,8 @@
+<<_Billing>> <<6:108-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:135-140>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Cloudkitty>> <<11:211-221>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:238-243>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CloudKitty>> <<17:281-291>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Billing>> <<11:222-230>> <<type>> <<VARIABLE>> <<LINK>>
+<<Cloudkitty>> <<17:294-304>> <<type>> <<VARIABLE>> <<LINK>>

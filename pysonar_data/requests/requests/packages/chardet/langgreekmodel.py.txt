@@ -1,0 +1,9 @@
+<<Latin7_CharToOrderMap>> <<34:1401-1422>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<win1253_CharToOrderMap>> <<53:2585-2607>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<GreekLangModel>> <<78:3940-3954>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Latin7GreekModel>> <<209:12413-12429>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Win1253GreekModel>> <<217:12623-12640>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Latin7_CharToOrderMap>> <<210:12455-12476>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<GreekLangModel>> <<211:12501-12515>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<win1253_CharToOrderMap>> <<218:12666-12688>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<GreekLangModel>> <<219:12713-12727>> <<tuple>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+<<ServiceAccountRegistrationViewSet>> <<9:174-207>> <<type>> <<CLASS>> <<ANCHOR>>
+<<serializer_class>> <<10:237-253>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<11:298-316>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<http_method_names>> <<12:346-363>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

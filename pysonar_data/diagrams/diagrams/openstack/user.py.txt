@@ -1,0 +1,8 @@
+<<_User>> <<6:108-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:132-137>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Openstackclient>> <<11:202-217>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:231-236>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<OpenStackClient>> <<17:279-294>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_User>> <<11:218-223>> <<type>> <<VARIABLE>> <<LINK>>
+<<Openstackclient>> <<17:297-312>> <<type>> <<VARIABLE>> <<LINK>>

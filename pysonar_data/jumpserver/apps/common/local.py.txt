@@ -1,0 +1,5 @@
+<<thread_local>> <<5:64-76>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_find>> <<8:96-101>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<attr>> <<8:102-105>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<thread_local>> <<9:129-141>> <<?>> <<VARIABLE>> <<LINK>>
+<<attr>> <<9:143-147>> <<?>> <<VARIABLE>> <<LINK>>

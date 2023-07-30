@@ -1,0 +1,14 @@
+<<__author__>> <<3:12-22>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<4:48-55>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<tqdm_pandas>> <<7:80-91>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tclass>> <<7:92-95>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ass>> <<7:95-98>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tqdm>> <<12:245-249>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tclass>> <<14:299-305>> <<?>> <<VARIABLE>> <<LINK>>
+<<tclass>> <<14:325-331>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<18:595-601>> <<?>> <<VARIABLE>> <<LINK>>
+<<tclass>> <<19:618-624>> <<?>> <<VARIABLE>> <<LINK>>
+<<tclass>> <<23:800-806>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<23:824-830>> <<?>> <<VARIABLE>> <<LINK>>
+<<tclass>> <<24:852-858>> <<?>> <<VARIABLE>> <<LINK>>
+<<tclass>> <<24:880-886>> <<?>> <<VARIABLE>> <<LINK>>

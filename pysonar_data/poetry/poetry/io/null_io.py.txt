@@ -1,0 +1,6 @@
+<<NullIO>> <<5:92-98>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<10:189-197>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<10:198-201>> <<NullIO>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:201-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<NullIO>> <<11:237-243>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:245-249>> <<NullIO>> <<VARIABLE>> <<LINK>>

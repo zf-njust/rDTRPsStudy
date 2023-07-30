@@ -1,0 +1,4 @@
+{
+    "code": "def spiral_traversal(matrix):\n    res = []\n    if len(matrix) == 0:\n        return res\n    row_begin = 0\n    row_end = len(matrix) - 1\n    col_begin = 0\n    col_end = len(matrix[0]) - 1\n\n    while row_begin <= row_end and col_begin <= col_end:\n        for i in range(col_begin, col_end+1):\n            res.append(matrix[row_begin][i])\n        row_begin += 1\n\n        for i in range(row_begin, row_end+1):\n            res.append(matrix[i][col_end])\n        col_end -= 1\n\n        if row_begin <= row_end:\n            for i in range(col_end, col_begin-1, -1):\n                res.append(matrix[row_end][i])\n        row_end -= 1\n\n        if col_begin <= col_end:\n            for i in range(row_end, row_begin-1, -1):\n                res.append(matrix[i][col_begin])\n        col_begin += 1\n\n    return res",
+    "smell": []
+}

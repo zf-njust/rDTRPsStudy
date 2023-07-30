@@ -1,0 +1,16 @@
+<<tests>> <<6:215-220>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<save_dir>> <<9:248-256>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<parser>> <<10:299-305>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sentence>> <<23:1038-1046>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<6:228-234>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdroot>> <<8:238-244>> <<function>> <<VARIABLE>> <<LINK>>
+<<parser>> <<11:346-352>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<11:427-435>> <<str>> <<VARIABLE>> <<LINK>>
+<<parser>> <<22:944-950>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<22:956-964>> <<str>> <<VARIABLE>> <<LINK>>
+<<parser>> <<25:1196-1202>> <<?>> <<VARIABLE>> <<LINK>>
+<<sentence>> <<25:1211-1219>> <<list>> <<VARIABLE>> <<LINK>>
+<<parser>> <<26:1223-1229>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<26:1278-1286>> <<str>> <<VARIABLE>> <<LINK>>
+<<parser>> <<27:1289-1295>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<27:1345-1353>> <<str>> <<VARIABLE>> <<LINK>>

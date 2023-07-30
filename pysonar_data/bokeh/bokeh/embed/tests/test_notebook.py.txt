@@ -1,0 +1,8 @@
+<<test_plot>> <<36:1272-1281>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<bokeh>> <<37:1295-1300>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plotting>> <<37:1301-1309>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_plot>> <<38:1329-1338>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<figure>> <<37:1317-1323>> <<module>> <<VARIABLE>> <<LINK>>
+<<figure>> <<38:1341-1347>> <<module>> <<VARIABLE>> <<LINK>>
+<<test_plot>> <<39:1355-1364>> <<?>> <<VARIABLE>> <<LINK>>
+<<test_plot>> <<40:1400-1409>> <<?>> <<VARIABLE>> <<LINK>>

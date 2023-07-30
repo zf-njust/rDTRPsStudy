@@ -1,0 +1,12 @@
+<<_Security>> <<6:105-114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:130-135>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:154-163>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Bitwarden>> <<11:205-214>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:232-237>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Trivy>> <<15:267-272>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:290-295>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Vault>> <<19:321-326>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:344-349>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Security>> <<11:215-224>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Security>> <<15:273-282>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Security>> <<19:327-336>> <<type>> <<VARIABLE>> <<LINK>>

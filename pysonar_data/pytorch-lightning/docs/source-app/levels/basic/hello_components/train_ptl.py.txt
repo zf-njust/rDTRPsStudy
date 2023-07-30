@@ -1,0 +1,9 @@
+<<YourComponent>> <<6:70-83>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<7:110-113>> <<function>> <<METHOD>> <<ANCHOR>>
+<<compute>> <<13:195-202>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<worker>> <<14:228-234>> <<YourComponent>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<15:275-278>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<7:114-117>> <<YourComponent>> <<PARAMETER>> <<ANCHOR>>
+<<YourComponent>> <<14:237-250>> <<type>> <<VARIABLE>> <<LINK>>
+<<compute>> <<14:265-272>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<15:296-302>> <<YourComponent>> <<VARIABLE>> <<LINK>>

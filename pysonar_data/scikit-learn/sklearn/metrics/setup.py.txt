@@ -1,0 +1,16 @@
+<<configuration>> <<10:154-167>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<parent_package>> <<10:168-171>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<top_path>> <<10:187-190>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<11:208-214>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cblas_libs>> <<13:275-285>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<blas_info>> <<13:287-296>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<configuration>> <<31:1028-1041>> <<function>> <<VARIABLE>> <<LINK>>
+<<parent_package>> <<11:242-256>> <<?>> <<VARIABLE>> <<LINK>>
+<<top_path>> <<11:258-266>> <<str>> <<VARIABLE>> <<LINK>>
+<<cblas_libs>> <<15:352-362>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<17:382-388>> <<?>> <<VARIABLE>> <<LINK>>
+<<blas_info>> <<21:652-661>> <<?>> <<VARIABLE>> <<LINK>>
+<<cblas_libs>> <<22:724-734>> <<?>> <<VARIABLE>> <<LINK>>
+<<blas_info>> <<23:781-790>> <<?>> <<VARIABLE>> <<LINK>>
+<<blas_info>> <<25:909-918>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<27:934-940>> <<?>> <<VARIABLE>> <<LINK>>

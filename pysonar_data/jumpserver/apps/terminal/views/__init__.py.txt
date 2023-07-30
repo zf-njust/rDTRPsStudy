@@ -1,0 +1,3 @@
+<<terminal>> <<3:34-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<session>> <<4:59-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<5:83-90>> <<module>> <<VARIABLE>> <<ANCHOR>>

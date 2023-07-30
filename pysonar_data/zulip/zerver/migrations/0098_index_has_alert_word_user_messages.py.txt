@@ -1,0 +1,8 @@
+<<zerver>> <<4:63-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<4:70-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<migrate>> <<4:74-81>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Migration>> <<7:133-142>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<9:171-183>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<13:248-258>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<create_index_if_not_exist>> <<4:89-114>> <<function>> <<VARIABLE>> <<LINK>>
+<<create_index_if_not_exist>> <<15:302-327>> <<function>> <<VARIABLE>> <<LINK>>

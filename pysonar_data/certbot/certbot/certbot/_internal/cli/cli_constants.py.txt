@@ -1,0 +1,10 @@
+<<cli_command>> <<2:37-48>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SHORT_USAGE>> <<9:242-253>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<COMMAND_OVERVIEW>> <<18:621-637>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<HELP_AND_VERSION_USAGE>> <<54:2303-2325>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ARGPARSE_PARAMS_TO_REMOVE>> <<68:2852-2877>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<EXIT_ACTIONS>> <<72:2977-2989>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ZERO_ARG_ACTIONS>> <<75:3015-3031>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<VAR_MODIFIERS>> <<82:3354-3367>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<DEPRECATED_OPTIONS>> <<90:3783-3801>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<cli_command>> <<14:487-498>> <<str>> <<VARIABLE>> <<LINK>>

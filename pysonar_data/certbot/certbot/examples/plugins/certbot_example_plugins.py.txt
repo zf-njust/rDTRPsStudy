@@ -1,0 +1,4 @@
+<<Authenticator>> <<10:150-163>> <<type>> <<CLASS>> <<ANCHOR>>
+<<description>> <<13:244-255>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Installer>> <<19:423-432>> <<type>> <<CLASS>> <<ANCHOR>>
+<<description>> <<22:505-516>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

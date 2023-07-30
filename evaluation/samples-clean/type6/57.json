@@ -1,0 +1,10 @@
+{
+  "code": "def document_lexers(self):\n        from pipenv.patched.pip._vendor.pygments.lexers._mapping import LEXERS\n        out = []\n        modules = {}\n        moduledocstrings = {}\n        for classname, data in sorted(LEXERS.items(), key=lambda x: x[0]):\n            module = data[0]\n            mod = __import__(module, None, None, [classname])\n            self.filenames.add(mod.__file__)\n            cls = getattr(mod, classname)\n            if not cls.__doc__:\n                print(\"Warning: %s does not have a docstring.\" % classname)\n            docstring = cls.__doc__\n            if isinstance(docstring, bytes):\n                docstring = docstring.decode('utf8')\n            modules.setdefault(module, []).append((\n                classname,\n                ', '.join(data[2]) or 'None',\n                ', '.join(data[3]).replace('*', '\\\\*').replace('_', '\\\\') or 'None',\n                ', '.join(data[4]) or 'None',\n                docstring))\n            if module not in moduledocstrings:\n                moddoc = mod.__doc__\n                if isinstance(moddoc, bytes):\n                    moddoc = moddoc.decode('utf8')\n                moduledocstrings[module] = moddoc\n\n        for module, lexers in sorted(modules.items(), key=lambda x: x[0]):\n            if moduledocstrings[module] is None:\n                raise Exception(\"Missing docstring for %s\" % (module,))\n            heading = moduledocstrings[module].splitlines()[4].strip().rstrip('.')\n            out.append(MODULEDOC % (module, heading, '-'*len(heading)))\n            for data in lexers:\n                out.append(LEXERDOC % data)\n\n        return ''.join(out)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 10,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

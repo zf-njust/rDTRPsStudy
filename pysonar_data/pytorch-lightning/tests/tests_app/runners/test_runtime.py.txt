@@ -1,0 +1,8 @@
+<<unittest>> <<3:31-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_dispatch>> <<22:560-573>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runtime_type>> <<22:574-577>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<monkeypatch>> <<22:588-591>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<runtime>> <<33:1047-1054>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<monkeypatch>> <<24:697-708>> <<?>> <<VARIABLE>> <<LINK>>
+<<runtime_type>> <<29:982-994>> <<?>> <<VARIABLE>> <<LINK>>
+<<runtime_type>> <<33:1057-1069>> <<?>> <<VARIABLE>> <<LINK>>

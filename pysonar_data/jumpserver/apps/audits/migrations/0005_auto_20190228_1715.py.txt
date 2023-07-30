@@ -1,0 +1,5 @@
+<<Migration>> <<8:158-167>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<10:198-210>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<state_operations>> <<14:345-361>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<53:2340-2350>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<state_operations>> <<54:2417-2433>> <<list>> <<VARIABLE>> <<LINK>>

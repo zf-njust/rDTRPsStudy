@@ -1,0 +1,11 @@
+<<kivy>> <<16:512-516>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<19:548-552>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<19:553-556>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestApp>> <<22:579-586>> <<type>> <<CLASS>> <<ANCHOR>>
+<<kv_directory>> <<23:598-610>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<kivy>> <<17:518-522>> <<module>> <<VARIABLE>> <<LINK>>
+<<require>> <<17:523-530>> <<function>> <<VARIABLE>> <<LINK>>
+<<App>> <<19:564-567>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<22:587-590>> <<type>> <<VARIABLE>> <<LINK>>
+<<TestApp>> <<27:662-669>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<27:672-675>> <<function>> <<VARIABLE>> <<LINK>>

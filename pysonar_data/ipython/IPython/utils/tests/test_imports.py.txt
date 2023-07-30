@@ -1,0 +1,7 @@
+<<test_import_coloransi>> <<3:25-46>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_generics>> <<6:98-118>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_ipstruct>> <<9:169-189>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_PyColorize>> <<12:240-262>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_rlineimpl>> <<15:315-336>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_strdispatch>> <<18:388-411>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_wildcard>> <<21:465-485>> <<function>> <<FUNCTION>> <<ANCHOR>>

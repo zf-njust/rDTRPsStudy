@@ -1,0 +1,16 @@
+<<log>> <<19:689-692>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<37:1250-1257>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<_read_data>> <<53:1819-1829>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ic>> <<57:1858-1860>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<59:2034-2035>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<60:2046-2050>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<comp>> <<62:2161-2165>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<us_holidays>> <<68:2380-2391>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<_read_data>> <<68:2394-2404>> <<function>> <<VARIABLE>> <<LINK>>
+<<ic>> <<60:2053-2055>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<60:2075-2076>> <<file>> <<VARIABLE>> <<LINK>>
+<<data>> <<62:2169-2173>> <<?>> <<VARIABLE>> <<LINK>>
+<<comp>> <<62:2184-2188>> <<?>> <<VARIABLE>> <<LINK>>
+<<comp>> <<62:2161-2165>> <<?>> <<VARIABLE>> <<LINK>>
+<<comp>> <<62:2107-2111>> <<?>> <<VARIABLE>> <<LINK>>
+<<comp>> <<62:2135-2139>> <<?>> <<VARIABLE>> <<LINK>>

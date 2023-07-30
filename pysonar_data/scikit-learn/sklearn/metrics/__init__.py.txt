@@ -1,0 +1,13 @@
+<<cluster>> <<34:1225-1232>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<35:1274-1281>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<36:1316-1323>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<37:1357-1364>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<38:1395-1402>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<39:1452-1459>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<40:1492-1499>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<41:1532-1539>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<42:1583-1590>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<43:1624-1631>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<44:1663-1670>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<62:2244-2251>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<consensus_score>> <<37:1372-1387>> <<function>> <<VARIABLE>> <<LINK>>

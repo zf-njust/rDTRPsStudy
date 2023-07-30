@@ -1,0 +1,9 @@
+<<luigi>> <<10:224-229>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HelloWorldTask>> <<13:241-255>> <<type>> <<CLASS>> <<ANCHOR>>
+<<task_namespace>> <<14:274-288>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<run>> <<16:313-316>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:317-320>> <<HelloWorldTask>> <<PARAMETER>> <<ANCHOR>>
+<<luigi>> <<13:256-261>> <<module>> <<VARIABLE>> <<LINK>>
+<<luigi>> <<21:442-447>> <<module>> <<VARIABLE>> <<LINK>>
+<<run>> <<21:448-451>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:379-383>> <<HelloWorldTask>> <<VARIABLE>> <<LINK>>

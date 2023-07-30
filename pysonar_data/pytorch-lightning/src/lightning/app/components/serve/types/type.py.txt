@@ -1,0 +1,10 @@
+<<abc>> <<15:603-606>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BaseType>> <<19:642-650>> <<type>> <<CLASS>> <<ANCHOR>>
+<<serialize>> <<23:734-743>> <<function>> <<METHOD>> <<ANCHOR>>
+<<deserialize>> <<27:888-899>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<27:900-903>> <<BaseType>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<27:903-904>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<23:744-747>> <<BaseType>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<23:750-753>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<abc>> <<19:651-654>> <<module>> <<VARIABLE>> <<LINK>>
+<<ABCMeta>> <<19:655-662>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<base_str>> <<25:991-999>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<base_str>> <<27:1029-1037>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<wrap_ord>> <<30:1062-1070>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<a>> <<30:1071-1074>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<31:1124-1125>> <<?>> <<VARIABLE>> <<LINK>>
+<<base_str>> <<31:1127-1135>> <<{tuple||tuple}>> <<VARIABLE>> <<LINK>>
+<<a>> <<32:1158-1159>> <<?>> <<VARIABLE>> <<LINK>>
+<<a>> <<34:1188-1189>> <<?>> <<VARIABLE>> <<LINK>>

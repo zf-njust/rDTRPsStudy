@@ -1,0 +1,15 @@
+<<close>> <<18:327-332>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<display>> <<21:393-400>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<resize>> <<25:505-511>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<interactive>> <<33:754-765>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<interactive>> <<39:959-970>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<width>> <<25:512-515>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<height>> <<25:518-521>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<display>> <<42:1038-1045>> <<function>> <<VARIABLE>> <<LINK>>
+<<resize>> <<43:1069-1075>> <<function>> <<VARIABLE>> <<LINK>>
+<<close>> <<47:1265-1270>> <<function>> <<VARIABLE>> <<LINK>>
+<<interactive>> <<50:1308-1319>> <<?>> <<VARIABLE>> <<LINK>>
+<<width>> <<26:552-557>> <<?>> <<VARIABLE>> <<LINK>>
+<<height>> <<26:559-565>> <<?>> <<VARIABLE>> <<LINK>>
+<<width>> <<29:652-657>> <<?>> <<VARIABLE>> <<LINK>>
+<<height>> <<29:662-668>> <<?>> <<VARIABLE>> <<LINK>>

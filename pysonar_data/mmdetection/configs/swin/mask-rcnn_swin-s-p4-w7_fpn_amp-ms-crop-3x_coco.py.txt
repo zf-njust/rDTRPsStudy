@@ -1,0 +1,4 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pretrained>> <<2:64-74>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:190-195>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<pretrained>> <<6:308-318>> <<str>> <<VARIABLE>> <<LINK>>

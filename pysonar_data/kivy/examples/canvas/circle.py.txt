@@ -1,0 +1,12 @@
+<<kivy>> <<13:442-446>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<13:447-450>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<14:468-472>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<14:473-477>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kv>> <<16:496-498>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CircleApp>> <<79:2137-2146>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<80:2162-2167>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<13:458-461>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<14:485-492>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<79:2147-2150>> <<type>> <<VARIABLE>> <<LINK>>
+<<CircleApp>> <<84:2220-2229>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<84:2232-2235>> <<function>> <<VARIABLE>> <<LINK>>

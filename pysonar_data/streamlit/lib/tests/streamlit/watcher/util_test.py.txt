@@ -1,0 +1,12 @@
+<<UtilTest>> <<7:100-108>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_md5_calculation_succeeds_with_bytes_input>> <<8:138-184>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_md5_calculation_opens_file_with_rb>> <<14:444-483>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:484-487>> <<UtilTest>> <<PARAMETER>> <<ANCHOR>>
+<<m>> <<19:812-813>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<md5>> <<20:828-831>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<8:185-188>> <<UtilTest>> <<PARAMETER>> <<ANCHOR>>
+<<m>> <<10:297-298>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<md5>> <<11:313-316>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<m>> <<21:890-891>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:375-379>> <<UtilTest>> <<VARIABLE>> <<LINK>>
+<<md5>> <<12:392-395>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<_base_>> <<2:20-26>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<dataset_type>> <<3:54-66>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<4:86-95>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<6:117-133>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<13:348-362>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<19:535-550>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_evaluator>> <<21:571-584>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_evaluator>> <<22:646-660>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<dataset_type>> <<9:202-214>> <<str>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<10:239-248>> <<str>> <<VARIABLE>> <<LINK>>
+<<dataset_type>> <<15:404-416>> <<str>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<16:437-446>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<19:553-567>> <<dict>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<21:601-610>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_evaluator>> <<22:663-676>> <<dict>> <<VARIABLE>> <<LINK>>

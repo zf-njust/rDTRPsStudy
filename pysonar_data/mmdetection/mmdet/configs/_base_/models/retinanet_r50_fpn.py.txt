@@ -1,0 +1,14 @@
+<<mmdet>> <<5:116-121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:122-128>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<7:246-251>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<7:252-258>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<task_modules>> <<7:259-271>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<11:409-414>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<FPN>> <<5:137-140>> <<type>> <<VARIABLE>> <<LINK>>
+<<RetinaHead>> <<6:217-227>> <<type>> <<VARIABLE>> <<LINK>>
+<<RetinaNet>> <<6:229-238>> <<type>> <<VARIABLE>> <<LINK>>
+<<PseudoSampler>> <<8:373-386>> <<type>> <<VARIABLE>> <<LINK>>
+<<RetinaNet>> <<12:433-442>> <<type>> <<VARIABLE>> <<LINK>>
+<<FPN>> <<30:1013-1016>> <<type>> <<VARIABLE>> <<LINK>>
+<<RetinaHead>> <<37:1208-1218>> <<type>> <<VARIABLE>> <<LINK>>
+<<PseudoSampler>> <<68:2201-2214>> <<type>> <<VARIABLE>> <<LINK>>

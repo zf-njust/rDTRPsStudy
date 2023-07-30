@@ -1,0 +1,15 @@
+<<__metaclass__>> <<20:824-837>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<_BUNDLED_METADATA>> <<26:1002-1019>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_system_six>> <<33:1149-1160>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_system_six>> <<47:1626-1637>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<six>> <<50:1670-1673>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<six_py_file>> <<53:1727-1738>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_system_six>> <<35:1174-1185>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<40:1363-1374>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<42:1459-1470>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<43:1512-1523>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<44:1570-1581>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<49:1652-1663>> <<?>> <<VARIABLE>> <<LINK>>
+<<_system_six>> <<50:1676-1687>> <<?>> <<VARIABLE>> <<LINK>>
+<<six>> <<53:1774-1777>> <<?>> <<VARIABLE>> <<LINK>>
+<<six_py_file>> <<54:1803-1814>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<explained_variance>> <<8:147-165>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<y>> <<8:166-169>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pred>> <<8:169-172>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<9:181-182>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<y_var>> <<9:184-189>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<10:224-225>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<diff_var>> <<10:227-235>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<9:206-207>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<10:252-253>> <<?>> <<VARIABLE>> <<LINK>>
+<<pred>> <<10:256-260>> <<?>> <<VARIABLE>> <<LINK>>
+<<diff_var>> <<11:306-314>> <<?>> <<VARIABLE>> <<LINK>>
+<<y_var>> <<11:317-322>> <<?>> <<VARIABLE>> <<LINK>>

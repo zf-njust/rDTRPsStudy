@@ -1,0 +1,16 @@
+<<zerver>> <<9:240-246>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Migration>> <<12:269-278>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<14:307-319>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<18:394-404>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<zerver>> <<33:1195-1201>> <<module>> <<VARIABLE>> <<LINK>>
+<<lib>> <<33:1202-1205>> <<module>> <<VARIABLE>> <<LINK>>
+<<str_utils>> <<33:1206-1215>> <<module>> <<VARIABLE>> <<LINK>>
+<<ModelReprMixin>> <<33:1216-1230>> <<type>> <<VARIABLE>> <<LINK>>
+<<zerver>> <<57:2789-2795>> <<module>> <<VARIABLE>> <<LINK>>
+<<lib>> <<57:2796-2799>> <<module>> <<VARIABLE>> <<LINK>>
+<<str_utils>> <<57:2800-2809>> <<module>> <<VARIABLE>> <<LINK>>
+<<ModelReprMixin>> <<57:2810-2824>> <<type>> <<VARIABLE>> <<LINK>>
+<<zerver>> <<71:3786-3792>> <<module>> <<VARIABLE>> <<LINK>>
+<<lib>> <<71:3793-3796>> <<module>> <<VARIABLE>> <<LINK>>
+<<str_utils>> <<71:3797-3806>> <<module>> <<VARIABLE>> <<LINK>>
+<<ModelReprMixin>> <<71:3807-3821>> <<type>> <<VARIABLE>> <<LINK>>

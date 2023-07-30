@@ -1,0 +1,11 @@
+<<_sourceroot>> <<18:546-557>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<unittest>> <<25:895-903>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests_datadir>> <<29:958-971>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<get_testdata>> <<31:1053-1065>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<paths>> <<31:1067-1072>> <<tuple>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<33:1108-1112>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<_sourceroot>> <<20:705-716>> <<str>> <<VARIABLE>> <<LINK>>
+<<_sourceroot>> <<21:781-792>> <<str>> <<VARIABLE>> <<LINK>>
+<<tests_datadir>> <<33:1128-1141>> <<str>> <<VARIABLE>> <<LINK>>
+<<paths>> <<33:1144-1149>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<path>> <<34:1168-1172>> <<str>> <<VARIABLE>> <<LINK>>

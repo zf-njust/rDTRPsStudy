@@ -1,0 +1,8 @@
+<<unittest>> <<3:28-36>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_cd>> <<13:320-327>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<monkeypatch>> <<13:328-331>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ls>> <<15:402-404>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<monkeypatch>> <<16:429-440>> <<?>> <<VARIABLE>> <<LINK>>
+<<ls>> <<16:459-461>> <<?>> <<VARIABLE>> <<LINK>>
+<<ls>> <<20:525-527>> <<?>> <<VARIABLE>> <<LINK>>
+<<ls>> <<23:626-628>> <<?>> <<VARIABLE>> <<LINK>>

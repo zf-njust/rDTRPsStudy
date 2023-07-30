@@ -1,0 +1,11 @@
+<<flask>> <<11:248-253>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<12:303-306>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<add_numbers>> <<16:363-374>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<index>> <<24:589-594>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<a>> <<18:446-447>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<b>> <<19:490-491>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<jsonify>> <<11:268-275>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<28:675-678>> <<?>> <<VARIABLE>> <<LINK>>
+<<jsonify>> <<20:541-548>> <<?>> <<VARIABLE>> <<LINK>>
+<<a>> <<20:556-557>> <<?>> <<VARIABLE>> <<LINK>>
+<<b>> <<20:560-561>> <<?>> <<VARIABLE>> <<LINK>>

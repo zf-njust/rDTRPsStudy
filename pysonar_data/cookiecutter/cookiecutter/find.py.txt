@@ -1,0 +1,7 @@
+<<logger>> <<10:189-195>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<find_template>> <<13:235-248>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<repo_dir>> <<13:249-252>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<repo_dir_contents>> <<21:561-578>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<19:482-488>> <<?>> <<VARIABLE>> <<LINK>>
+<<repo_dir>> <<19:543-551>> <<str>> <<VARIABLE>> <<LINK>>
+<<repo_dir>> <<21:592-600>> <<str>> <<VARIABLE>> <<LINK>>

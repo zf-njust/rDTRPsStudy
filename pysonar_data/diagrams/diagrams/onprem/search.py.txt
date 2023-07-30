@@ -1,0 +1,6 @@
+<<_Search>> <<6:105-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:128-133>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Solr>> <<11:199-203>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:219-224>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Search>> <<11:204-211>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<1:15-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<comment>> <<1:22-29>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:51-60>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:87-96>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_comment>> <<6:124-136>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<c>> <<7:145-146>> <<Comment>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<8:164-165>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<Comment>> <<1:37-44>> <<type>> <<VARIABLE>> <<LINK>>
+<<Comment>> <<7:149-156>> <<type>> <<VARIABLE>> <<LINK>>
+<<c>> <<11:222-223>> <<Comment>> <<VARIABLE>> <<LINK>>
+<<comment>> <<11:224-231>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<11:233-234>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<13:258-259>> <<?>> <<VARIABLE>> <<LINK>>

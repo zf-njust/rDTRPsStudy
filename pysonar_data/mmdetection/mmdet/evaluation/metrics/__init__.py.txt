@@ -1,0 +1,13 @@
+<<coco_occluded_metric>> <<6:241-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<coco_video_metric>> <<8:358-375>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dump_det_results>> <<10:455-471>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<refseg_metric>> <<15:691-704>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<reid_metric>> <<16:732-743>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<voc_metric>> <<18:811-821>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<21:892-899>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<CocoOccludedSeparatedMetric>> <<6:269-296>> <<type>> <<VARIABLE>> <<LINK>>
+<<CocoVideoMetric>> <<8:383-398>> <<type>> <<VARIABLE>> <<LINK>>
+<<DumpDetResults>> <<10:479-493>> <<type>> <<VARIABLE>> <<LINK>>
+<<RefSegMetric>> <<15:712-724>> <<type>> <<VARIABLE>> <<LINK>>
+<<ReIDMetrics>> <<16:751-762>> <<type>> <<VARIABLE>> <<LINK>>
+<<VOCMetric>> <<18:829-838>> <<type>> <<VARIABLE>> <<LINK>>

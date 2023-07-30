@@ -1,0 +1,5 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<1:15-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<server_side_events>> <<1:22-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:71-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ServerSideEvents>> <<1:48-64>> <<type>> <<VARIABLE>> <<LINK>>

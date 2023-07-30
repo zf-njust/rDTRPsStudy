@@ -1,0 +1,6 @@
+<<detectron2>> <<3:21-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<3:32-38>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<4:66-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<solver>> <<4:77-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SGD>> <<6:129-132>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<AdamW>> <<18:415-420>> <<?>> <<SCOPE>> <<ANCHOR>>

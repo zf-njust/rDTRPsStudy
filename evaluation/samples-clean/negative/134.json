@@ -1,0 +1,4 @@
+{
+    "code": "def _simple_sgd_step(actors):\n    if len(actors) == 1:\n        return {\"loss\": ray.get(actors[0].compute_apply.remote())}\n\n    start = time.time()\n    fetches = ray.get([a.compute_gradients.remote() for a in actors])\n    losses = [f[0] for f in fetches]\n    grads = [f[1] for f in fetches]\n    logger.debug(\"compute all grads time {}\".format(time.time() - start))\n    start = time.time()\n    if len(actors) == 1:\n        assert len(grads) == 1\n        avg_grad = grads[0]\n    else:\n        avg_grad = _average_gradients(grads)\n        logger.debug(\"grad reduce time {}\".format(time.time() - start))\n    start = time.time()\n    ray.get([a.apply_gradients.remote(avg_grad) for a in actors])\n    logger.debug(\"apply all grads time {}\".format(time.time() - start))\n    return {\"loss\": np.mean(losses)}",
+    "smell": []
+}

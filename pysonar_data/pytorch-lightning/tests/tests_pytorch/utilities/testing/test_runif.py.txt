@@ -1,0 +1,4 @@
+<<test_always_skip>> <<7:96-112>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_wrapper>> <<13:214-226>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<arg1>> <<13:227-230>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<arg1>> <<14:253-257>> <<?>> <<VARIABLE>> <<LINK>>

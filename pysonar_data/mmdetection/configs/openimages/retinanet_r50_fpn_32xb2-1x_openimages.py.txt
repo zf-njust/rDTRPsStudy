@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<7:188-193>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<10:254-269>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<27:574-587>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<35:898-911>> <<dict>> <<SCOPE>> <<ANCHOR>>

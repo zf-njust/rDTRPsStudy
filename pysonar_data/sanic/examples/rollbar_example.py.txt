@@ -1,0 +1,17 @@
+<<sanic>> <<5:48-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<6:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:118-123>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<handlers>> <<7:124-132>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RollbarExceptionHandler>> <<13:209-232>> <<type>> <<CLASS>> <<ANCHOR>>
+<<default>> <<14:257-264>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app>> <<19:397-400>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<create_error>> <<23:492-504>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<23:505-508>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:265-268>> <<RollbarExceptionHandler>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<14:271-274>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exception>> <<14:280-283>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<RollbarExceptionHandler>> <<19:434-457>> <<type>> <<VARIABLE>> <<LINK>>
+<<app>> <<28:620-623>> <<?>> <<VARIABLE>> <<LINK>>
+<<exception>> <<15:328-337>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<16:372-379>> <<?>> <<VARIABLE>> <<LINK>>
+<<exception>> <<16:381-390>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def __call__(self, *args, **params):\n        methodname = self.__name__\n        instance = self.obj\n        # Fallback : if the instance has not been initialized, use the first\n        # arg\n        if instance is None:\n            args = list(args)\n            instance = args.pop(0)\n        data = instance._data\n        mask = instance._mask\n        cls = type(instance)\n        result = getattr(data, methodname)(*args, **params).view(cls)\n        result._update_from(instance)\n        if result.ndim:\n            if not self._onmask:\n                result.__setmask__(mask)\n            elif mask is not nomask:\n                result.__setmask__(getattr(mask, methodname)(*args, **params))\n        else:\n            if mask.ndim and (not mask.dtype.names and mask.all()):\n                return masked\n        return result",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 12,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

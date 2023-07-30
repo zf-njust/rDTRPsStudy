@@ -1,0 +1,14 @@
+<<ciphey>> <<4:55-61>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<4:62-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Gzip>> <<8:149-153>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<9:180-186>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<19:453-461>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<23:577-585>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<27:673-682>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<31:771-780>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:187-190>> <<Gzip>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<9:193-196>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<23:586-589>> <<Gzip>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<23:592-595>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<14:327-332>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<24:635-641>> <<?>> <<VARIABLE>> <<LINK>>

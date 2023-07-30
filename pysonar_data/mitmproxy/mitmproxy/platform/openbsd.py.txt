@@ -1,0 +1,3 @@
+<<original_addr>> <<1:4-17>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<csock>> <<1:18-21>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<csock>> <<2:38-43>> <<?>> <<VARIABLE>> <<LINK>>

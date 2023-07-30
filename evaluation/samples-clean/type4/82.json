@@ -1,0 +1,10 @@
+{
+  "code": "def backtrack(self, decision_level):  # type: (int) -> None\n        \"\"\"\n        Resets the current decision level to decision_level, and removes all\n        assignments made after that level.\n        \"\"\"\n        self._backtracking = True\n\n        packages = set()\n        while self._assignments[-1].decision_level > decision_level:\n            removed = self._assignments.pop(-1)\n            packages.add(removed.dependency.name)\n            if removed.is_decision():\n                del self._decisions[removed.dependency.name]\n\n        # Re-compute _positive and _negative for the packages that were removed.\n        for package in packages:\n            if package in self._positive:\n                del self._positive[package]\n\n            if package in self._negative:\n                del self._negative[package]\n\n        for assignment in self._assignments:\n            if assignment.dependency.name in packages:\n                self._register(assignment)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 21,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

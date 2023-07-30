@@ -1,0 +1,11 @@
+<<common_setup>> <<3:42-54>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup>> <<9:225-230>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<stmt>> <<13:320-324>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<getattr_dataframe_index>> <<15:347-370>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<stmt>> <<18:468-472>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setattr_dataframe_index>> <<19:499-522>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<common_setup>> <<9:233-245>> <<str>> <<VARIABLE>> <<LINK>>
+<<stmt>> <<15:383-387>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<15:389-394>> <<str>> <<VARIABLE>> <<LINK>>
+<<stmt>> <<19:535-539>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<19:541-546>> <<str>> <<VARIABLE>> <<LINK>>

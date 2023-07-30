@@ -1,0 +1,15 @@
+<<magenta>> <<21:746-753>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<21:754-760>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<onsets_frames_transcription>> <<21:761-788>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<InferUtilTest>> <<29:903-916>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testProbsToPianorollViterbi>> <<31:945-972>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<31:973-976>> <<InferUtilTest>> <<PARAMETER>> <<ANCHOR>>
+<<frame_probs>> <<32:985-996>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<onset_probs>> <<33:1063-1074>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<pianoroll>> <<34:1141-1150>> <<None>> <<VARIABLE>> <<ANCHOR>>
+<<infer_util>> <<21:796-806>> <<module>> <<VARIABLE>> <<LINK>>
+<<infer_util>> <<34:1153-1163>> <<module>> <<VARIABLE>> <<LINK>>
+<<probs_to_pianoroll_viterbi>> <<34:1164-1190>> <<function>> <<VARIABLE>> <<LINK>>
+<<frame_probs>> <<34:1191-1202>> <<?>> <<VARIABLE>> <<LINK>>
+<<onset_probs>> <<34:1204-1215>> <<?>> <<VARIABLE>> <<LINK>>
+<<pianoroll>> <<37:1335-1344>> <<None>> <<VARIABLE>> <<LINK>>

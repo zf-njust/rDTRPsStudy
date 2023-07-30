@@ -1,0 +1,12 @@
+<<cascade_mask_rcnn_vitdet_b_100ep>> <<3:39-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lr_multiplier>> <<5:103-116>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<6:123-128>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<7:135-140>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<8:147-156>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<12:192-197>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<16:319-324>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<17:356-361>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<18:387-392>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<19:422-427>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<21:501-506>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<25:639-648>> <<?>> <<VARIABLE>> <<LINK>>

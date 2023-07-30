@@ -1,0 +1,6 @@
+<<test_layout_example>> <<9:165-184>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runner>> <<10:193-199>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<11:219-225>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<runner>> <<11:228-234>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<22:516-522>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<23:549-555>> <<?>> <<VARIABLE>> <<LINK>>

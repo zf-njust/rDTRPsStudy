@@ -1,0 +1,10 @@
+{
+  "code": "def import_mac_ca(common_name, certfile):\n        commonname = \"PHP_proxy XX-Net\"\n        ca_hash = CertUtil.ca_thumbprint.replace(':', '')\n\n        def get_exist_ca_sha1():\n            args = ['security', 'find-certificate', '-Z', '-a', '-c', commonname]\n            output = subprocess.check_output(args)\n            for line in output.splitlines(True):\n                if len(line) == 53 and line.startswith(\"SHA-1 hash:\"):\n                    sha1_hash = line[12:52]\n                    return sha1_hash\n\n        exist_ca_sha1 = get_exist_ca_sha1()\n        if exist_ca_sha1 == ca_hash:\n            logging.info(\"PHP_proxy CA exist\")\n            return\n\n        import_command = 'security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ../../data/php_proxy/CA.crt'# % certfile.decode('utf-8')\n        if exist_ca_sha1:\n            delete_ca_command = 'security delete-certificate -Z %s' % exist_ca_sha1\n            exec_command = \"%s;%s\" % (delete_ca_command, import_command)\n        else:\n            exec_command = import_command\n\n        admin_command = \"\"\"osascript -e 'do shell script \"%s\" with administrator privileges' \"\"\" % exec_command\n        cmd = admin_command.encode('utf-8')\n        logging.info(\"try auto import CA command:%s\", cmd)\n        os.system(cmd)\n    def startswith(self, prefix, start=None, end=None): # real signature unknown; restored from __doc__\n        \"\"\"\n        B.startswith(prefix[, start[, end]]) -> bool\n        \n        Return True if B starts with the specified prefix, False otherwise.\n        With optional start, test B beginning at that position.\n        With optional end, stop comparing B at that position.\n        prefix can also be a tuple of bytes to try.\n        \"\"\"\n        return False",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 9,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

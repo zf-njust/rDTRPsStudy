@@ -1,0 +1,4 @@
+<<_Generic>> <<8:127-135>> <<type>> <<CLASS>> <<ANCHOR>>
+<<provider>> <<9:148-156>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:174-183>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:213-222>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

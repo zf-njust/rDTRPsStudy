@@ -1,0 +1,2 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:51-56>> <<dict>> <<SCOPE>> <<ANCHOR>>

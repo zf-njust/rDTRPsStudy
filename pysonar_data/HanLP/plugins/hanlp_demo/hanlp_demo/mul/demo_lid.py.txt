@@ -1,0 +1,9 @@
+<<lid>> <<6:84-87>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lang>> <<9:272-276>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<prob>> <<9:278-282>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<text>> <<14:557-561>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<lid>> <<8:162-165>> <<?>> <<VARIABLE>> <<LINK>>
+<<lid>> <<9:285-288>> <<?>> <<VARIABLE>> <<LINK>>
+<<lid>> <<11:420-423>> <<?>> <<VARIABLE>> <<LINK>>
+<<lid>> <<19:724-727>> <<?>> <<VARIABLE>> <<LINK>>
+<<text>> <<19:728-732>> <<str>> <<VARIABLE>> <<LINK>>

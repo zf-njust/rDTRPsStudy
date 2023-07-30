@@ -1,0 +1,13 @@
+<<log>> <<33:959-962>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bokeh>> <<44:1243-1248>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sampledata>> <<44:1256-1266>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<52:1496-1503>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Sampledata>> <<60:1716-1726>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<66:1847-1851>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<help>> <<68:1874-1878>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<args>> <<70:1926-1930>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<invoke>> <<73:1953-1959>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<73:1960-1963>> <<Sampledata>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<73:1966-1969>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<sampledata>> <<77:2010-2020>> <<module>> <<VARIABLE>> <<LINK>>
+<<download>> <<77:2021-2029>> <<function>> <<VARIABLE>> <<LINK>>

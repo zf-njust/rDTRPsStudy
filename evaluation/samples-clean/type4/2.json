@@ -1,0 +1,10 @@
+{
+  "code": "def reset_selective(self, regex=None):\n        \"\"\"Clear selective variables from internal namespaces based on a\n        specified regular expression.\n\n        Parameters\n        ----------\n        regex : string or compiled pattern, optional\n            A regular expression pattern that will be used in searching\n            variable names in the users namespaces.\n        \"\"\"\n        if regex is not None:\n            try:\n                m = re.compile(regex)\n            except TypeError:\n                raise TypeError('regex must be a string or compiled pattern')\n            # Search for keys in each namespace that match the given regex\n            # If a match is found, delete the key/value pair.\n            for ns in self.all_ns_refs:\n                for var in ns:\n                    if m.search(var):\n                        del ns[var]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 21,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

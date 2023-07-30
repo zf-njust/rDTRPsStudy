@@ -1,0 +1,11 @@
+<<VERSION>> <<8:113-120>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<v>> <<10:170-171>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<10:136-147>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version_full__>> <<11:185-201>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<get_html_theme_path>> <<14:225-244>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cur_dir>> <<16:297-304>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<VERSION>> <<10:175-182>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<v>> <<10:170-171>> <<int>> <<VARIABLE>> <<LINK>>
+<<v>> <<10:163-164>> <<int>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<11:204-215>> <<str>> <<VARIABLE>> <<LINK>>
+<<cur_dir>> <<17:379-386>> <<str>> <<VARIABLE>> <<LINK>>

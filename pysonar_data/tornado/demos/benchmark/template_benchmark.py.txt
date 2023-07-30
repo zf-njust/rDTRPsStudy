@@ -1,0 +1,17 @@
+<<tornado>> <<9:204-211>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<10:269-276>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<17:565-566>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<context>> <<15:442-449>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<tmpl>> <<20:589-593>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<render>> <<54:1309-1315>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<main>> <<57:1356-1360>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<t>> <<62:1464-1465>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<results>> <<63:1487-1494>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<17:565-566>> <<int>> <<VARIABLE>> <<LINK>>
+<<main>> <<67:1622-1626>> <<function>> <<VARIABLE>> <<LINK>>
+<<tmpl>> <<60:1427-1431>> <<?>> <<VARIABLE>> <<LINK>>
+<<render>> <<62:1474-1480>> <<function>> <<VARIABLE>> <<LINK>>
+<<t>> <<63:1497-1498>> <<?>> <<VARIABLE>> <<LINK>>
+<<results>> <<64:1572-1579>> <<?>> <<VARIABLE>> <<LINK>>
+<<tmpl>> <<55:1324-1328>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<55:1340-1347>> <<dict>> <<VARIABLE>> <<LINK>>

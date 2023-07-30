@@ -1,0 +1,10 @@
+<<pandas>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<2:27-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<4:82-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pid>> <<8:137-140>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<proc>> <<9:156-160>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<11:186-188>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<12:228-229>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<pid>> <<9:178-181>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<13:251-253>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<13:254-255>> <<int>> <<VARIABLE>> <<LINK>>

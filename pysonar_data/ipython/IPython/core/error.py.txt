@@ -1,0 +1,8 @@
+<<IPythonCoreError>> <<30:875-891>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TryNext>> <<34:925-932>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UsageError>> <<41:1127-1137>> <<type>> <<CLASS>> <<ANCHOR>>
+<<StdinNotImplementedError>> <<48:1347-1371>> <<type>> <<CLASS>> <<ANCHOR>>
+<<InputRejected>> <<55:1595-1608>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IPythonCoreError>> <<34:933-949>> <<type>> <<VARIABLE>> <<LINK>>
+<<IPythonCoreError>> <<41:1138-1154>> <<type>> <<VARIABLE>> <<LINK>>
+<<IPythonCoreError>> <<48:1372-1388>> <<type>> <<VARIABLE>> <<LINK>>

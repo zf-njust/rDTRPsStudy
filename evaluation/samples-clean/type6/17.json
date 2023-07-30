@@ -1,0 +1,10 @@
+{
+  "code": "def _reduce_pred_densepose(self, outputs, tfms):\n        # Should apply inverse transforms on densepose preds.\n        # We assume only rotation, resize & flip are used. pred_masks is a scale-invariant\n        # representation, so we handle the other ones specially\n        for idx, (output, tfm) in enumerate(zip(outputs, tfms)):\n            for t in tfm.transforms:\n                for attr in [\"coarse_segm\", \"fine_segm\", \"u\", \"v\"]:\n                    setattr(\n                        output.pred_densepose,\n                        attr,\n                        _inverse_rotation(\n                            getattr(output.pred_densepose, attr), output.pred_boxes.tensor, t\n                        ),\n                    )\n            if any(isinstance(t, HFlipTransform) for t in tfm.transforms):\n                output.pred_densepose = HFlipConverter.convert(\n                    output.pred_densepose, self._transform_data\n                )\n            self._incremental_avg_dp(outputs[0].pred_densepose, output.pred_densepose, idx)\n        return outputs[0].pred_densepose",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 12,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

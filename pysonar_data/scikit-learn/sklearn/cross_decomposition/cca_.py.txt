@@ -1,0 +1,15 @@
+<<__all__>> <<3:26-33>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<CCA>> <<6:55-58>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<102:2902-2910>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<102:2911-2914>> <<CCA>> <<PARAMETER>> <<ANCHOR>>
+<<n_components>> <<102:2917-2920>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<scale>> <<102:2933-2936>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<max_iter>> <<103:2963-2966>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<tol>> <<103:2977-2980>> <<float>> <<PARAMETER>> <<ANCHOR>>
+<<copy>> <<103:2988-2991>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<104:3023-3027>> <<CCA>> <<VARIABLE>> <<LINK>>
+<<n_components>> <<104:3042-3054>> <<int>> <<VARIABLE>> <<LINK>>
+<<scale>> <<104:3062-3067>> <<?>> <<VARIABLE>> <<LINK>>
+<<max_iter>> <<107:3226-3234>> <<int>> <<VARIABLE>> <<LINK>>
+<<tol>> <<107:3240-3243>> <<float>> <<VARIABLE>> <<LINK>>
+<<copy>> <<107:3250-3254>> <<?>> <<VARIABLE>> <<LINK>>

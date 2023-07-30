@@ -1,0 +1,15 @@
+<<test_windows_reserved_filenames>> <<33:1132-1163>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<RESERVED_NAMES>> <<53:1903-1917>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<bad>> <<39:1377-1380>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<40:1395-1399>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_>> <<40:1401-1402>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<files>> <<40:1404-1409>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<file>> <<42:1442-1446>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<files>> <<42:1450-1455>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<43:1482-1486>> <<?>> <<VARIABLE>> <<LINK>>
+<<RESERVED_NAMES>> <<43:1502-1516>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<bad>> <<44:1535-1538>> <<list>> <<VARIABLE>> <<LINK>>
+<<path>> <<44:1551-1555>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<44:1557-1561>> <<?>> <<VARIABLE>> <<LINK>>
+<<bad>> <<46:1582-1585>> <<list>> <<VARIABLE>> <<LINK>>
+<<bad>> <<46:1648-1651>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def _delete(self, pos, idx):\n        \"\"\"\n        Delete the item at the given (pos, idx).\n\n        Combines lists that are less than half the load level.\n\n        Updates the index when the sublist length is more than half the load\n        level. This requires decrementing the nodes in a traversal from the leaf\n        node to the root. For an example traversal see self._loc.\n        \"\"\"\n        _maxes, _lists, _keys, _index = self._maxes, self._lists, self._keys, self._index\n\n        keys_pos = _keys[pos]\n        lists_pos = _lists[pos]\n\n        del keys_pos[idx]\n        del lists_pos[idx]\n        self._len -= 1\n\n        len_keys_pos = len(keys_pos)\n\n        if len_keys_pos > self._half:\n\n            _maxes[pos] = keys_pos[-1]\n\n            if len(_index) > 0:\n                child = self._offset + pos\n                while child > 0:\n                    _index[child] -= 1\n                    child = (child - 1) >> 1\n                _index[0] -= 1\n\n        elif len(_keys) > 1:\n\n            if not pos:\n                pos += 1\n\n            prev = pos - 1\n            _keys[prev].extend(_keys[pos])\n            _lists[prev].extend(_lists[pos])\n            _maxes[prev] = _keys[prev][-1]\n\n            del _keys[pos]\n            del _lists[pos]\n            del _maxes[pos]\n            del _index[:]\n\n            self._expand(prev)\n\n        elif len_keys_pos:\n\n            _maxes[pos] = keys_pos[-1]\n\n        else:\n\n            del _keys[pos]\n            del _lists[pos]\n            del _maxes[pos]\n            del _index[:]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 44,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

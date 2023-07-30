@@ -1,0 +1,15 @@
+<<__version__>> <<13:269-280>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<signals>> <<34:1114-1121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jsonify>> <<45:1584-1591>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<json_available>> <<49:1702-1716>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<signals_available>> <<34:1129-1146>> <<?>> <<VARIABLE>> <<LINK>>
+<<template_rendered>> <<34:1148-1165>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<request_started>> <<34:1167-1182>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<request_finished>> <<35:1192-1208>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<got_request_exception>> <<35:1210-1231>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<request_tearing_down>> <<35:1233-1253>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<appcontext_tearing_down>> <<36:1263-1286>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<appcontext_pushed>> <<36:1288-1305>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<appcontext_popped>> <<37:1315-1332>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<message_flashed>> <<37:1334-1349>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>
+<<before_render_template>> <<37:1351-1373>> <<_FakeSignal>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "    def process_response(self, request, response, spider):\n        if request.meta.get('dont_cache', False):\n            return response\n\n        # Skip cached responses and uncacheable requests\n        if 'cached' in response.flags or '_dont_cache' in request.meta:\n            request.meta.pop('_dont_cache', None)\n            return response\n\n        # RFC2616 requires origin server to set Date header,\n        # https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.18\n        if 'Date' not in response.headers:\n            response.headers['Date'] = formatdate(usegmt=1)\n\n        # Do not validate first-hand responses\n        cachedresponse = request.meta.pop('cached_response', None)\n        if cachedresponse is None:\n            self.stats.inc_value('httpcache/firsthand', spider=spider)\n            self._cache_response(spider, response, request, cachedresponse)\n            return response\n\n        if self.policy.is_cached_response_valid(cachedresponse, response, request):\n            self.stats.inc_value('httpcache/revalidate', spider=spider)\n            return cachedresponse\n\n        self.stats.inc_value('httpcache/invalidate', spider=spider)\n        self._cache_response(spider, response, request, cachedresponse)\n        return response",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 13,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

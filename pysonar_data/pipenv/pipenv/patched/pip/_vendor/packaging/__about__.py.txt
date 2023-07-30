@@ -1,0 +1,10 @@
+<<__all__>> <<5:181-188>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__title__>> <<16:341-350>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__summary__>> <<17:365-376>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__uri__>> <<18:416-423>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<20:463-474>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<22:485-495>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__email__>> <<23:542-551>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<25:574-585>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__copyright__>> <<26:617-630>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<26:650-660>> <<str>> <<VARIABLE>> <<LINK>>

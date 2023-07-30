@@ -1,0 +1,11 @@
+<<mitmproxy>> <<3:22-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<3:32-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<console>> <<3:38-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_shorten_message>> <<57:1880-1900>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_shorten_message_narrow>> <<61:2013-2040>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<message>> <<57:1901-1904>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ready_message>> <<57:1910-1913>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<shorten_msg>> <<62:2049-2060>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<message>> <<58:1964-1971>> <<?>> <<VARIABLE>> <<LINK>>
+<<ready_message>> <<58:1990-2003>> <<?>> <<VARIABLE>> <<LINK>>
+<<shorten_msg>> <<63:2123-2134>> <<?>> <<VARIABLE>> <<LINK>>

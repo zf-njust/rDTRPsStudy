@@ -1,0 +1,10 @@
+{
+  "code": "def _handle_deprecations(self):\\n        \"\"\" Warn that 'final_process' is deprecated and remove from arguments \"\"\"\\n        if self._args.final_process:\\n            deprecation_warning(\"`-fp`, `--final-process`\", \"This option will be ignored\")\\n            logger.warning(\"Final processing is dictated by your choice of 'sort-by' and \"\\n                           \"'group-by' options and whether 'keep' has been selected.\")\\n            del self._args.final_process\\n        if \"face-yaw\" in (self._args.sort_method, self._args.group_method):\\n            deprecation_warning(\"`face-yaw` sort option\", \"Please use option 'yaw' going forward.\")\\n            sort_ = self._args.sort_method\\n            group_ = self._args.group_method\\n            self._args.sort_method = \"yaw\" if sort_ == \"face-yaw\" else sort_\\n            self._args.group_method = \"yaw\" if group_ == \"face-yaw\" else group_\\n        if \"black-pixels\" in (self._args.sort_method, self._args.group_method):\\n            deprecation_warning(\"`black-pixels` sort option\",\\n                                \"Please use option 'color-black' going forward.\")\\n            sort_ = self._args.sort_method\\n            group_ = self._args.group_method\\n            self._args.sort_method = \"color-black\" if sort_ == \"black-pixels\" else sort_\\n            self._args.group_method = \"color-black\" if group_ == \"black-pixels\" else group_",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 7,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

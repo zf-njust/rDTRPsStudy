@@ -1,0 +1,10 @@
+<<log>> <<37:1261-1264>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<56:1844-1851>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Expression>> <<67:2104-2114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CumSum>> <<85:2624-2630>> <<type>> <<CLASS>> <<ANCHOR>>
+<<field>> <<91:2781-2786>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<include_zero>> <<95:2905-2917>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Stack>> <<113:3452-3457>> <<type>> <<CLASS>> <<ANCHOR>>
+<<fields>> <<122:3687-3693>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Expression>> <<85:2631-2641>> <<type>> <<VARIABLE>> <<LINK>>
+<<Expression>> <<113:3458-3468>> <<type>> <<VARIABLE>> <<LINK>>

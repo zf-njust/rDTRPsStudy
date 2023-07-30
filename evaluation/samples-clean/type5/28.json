@@ -1,0 +1,10 @@
+{
+  "code": "def reset(self) -> None:\\n        \"\"\" Reset the preview buffer when the display page has been disabled.\\n\\n        Notes\\n        -----\\n        The buffer requires resetting, otherwise the re-enabled preview window hangs waiting for a\\n        training image that has already been marked as processed\\n        \"\"\"\\n        logger.debug(\"Resetting training preview\")\\n        del self._buffer\\n        self._buffer = PreviewBuffer()\\n        self._modified = 0.0\\n        self._error_count = 0",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 10,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

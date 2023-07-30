@@ -1,0 +1,10 @@
+<<unittest>> <<14:599-607>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_deepspeed_precision_choice>> <<27:1061-1092>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<27:1093-1096>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<precision>> <<27:1096-1099>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<connector>> <<32:1249-1258>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<precision>> <<35:1352-1361>> <<?>> <<VARIABLE>> <<LINK>>
+<<connector>> <<38:1395-1404>> <<?>> <<VARIABLE>> <<LINK>>
+<<connector>> <<39:1457-1466>> <<?>> <<VARIABLE>> <<LINK>>
+<<connector>> <<40:1519-1528>> <<?>> <<VARIABLE>> <<LINK>>
+<<precision>> <<40:1565-1574>> <<?>> <<VARIABLE>> <<LINK>>

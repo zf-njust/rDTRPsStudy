@@ -1,0 +1,8 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<max_iter>> <<3:54-62>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<5:74-89>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<17:354-363>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<default_hooks>> <<22:475-488>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<log_processor>> <<23:546-559>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_iter>> <<11:257-265>> <<int>> <<VARIABLE>> <<LINK>>
+<<max_iter>> <<20:439-447>> <<int>> <<VARIABLE>> <<LINK>>

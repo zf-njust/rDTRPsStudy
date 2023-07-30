@@ -1,0 +1,5 @@
+<<_MisbehavedModule>> <<6:80-97>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__spec__>> <<8:141-149>> <<function>> <<METHOD>> <<ANCHOR>>
+<<MisbehavedModule>> <<11:197-213>> <<_MisbehavedModule>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<8:150-153>> <<_MisbehavedModule>> <<PARAMETER>> <<ANCHOR>>
+<<_MisbehavedModule>> <<11:216-233>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<GeneratorBundleParseError>> <<22:780-805>> <<type>> <<CLASS>> <<ANCHOR>>
+<<read_bundle_file>> <<27:898-914>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<bundle_file>> <<27:915-918>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<bundle>> <<29:958-964>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<30:1043-1044>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bundle_file>> <<30:1021-1032>> <<str>> <<VARIABLE>> <<LINK>>
+<<bundle>> <<32:1063-1069>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<32:1086-1087>> <<?>> <<VARIABLE>> <<LINK>>
+<<bundle>> <<35:1186-1192>> <<?>> <<VARIABLE>> <<LINK>>

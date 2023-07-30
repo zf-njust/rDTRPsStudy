@@ -1,0 +1,2 @@
+<<SHELL_NAMES>> <<1:0-11>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ShellDetectionFailure>> <<10:250-271>> <<type>> <<CLASS>> <<ANCHOR>>

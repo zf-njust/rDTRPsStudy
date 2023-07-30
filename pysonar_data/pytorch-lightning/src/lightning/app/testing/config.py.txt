@@ -1,0 +1,9 @@
+<<_Config>> <<20:664-671>> <<type>> <<CLASS>> <<ANCHOR>>
+<<id>> <<21:678-680>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<key>> <<22:719-722>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<url>> <<23:761-764>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<api_key>> <<24:829-836>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<username>> <<25:875-883>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<video_location>> <<26:923-937>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<har_location>> <<27:995-1007>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<slowmo>> <<28:1061-1067>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

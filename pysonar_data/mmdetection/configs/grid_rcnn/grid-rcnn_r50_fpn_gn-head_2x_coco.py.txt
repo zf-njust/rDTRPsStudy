@@ -1,0 +1,11 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<5:109-114>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<128:4326-4339>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<133:4475-4485>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<134:4492-4501>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_cfg>> <<136:4583-4590>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_cfg>> <<137:4615-4623>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<140:4668-4683>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<160:5172-5185>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<135:4554-4564>> <<int>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<150:4891-4901>> <<int>> <<VARIABLE>> <<LINK>>

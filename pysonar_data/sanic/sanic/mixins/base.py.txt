@@ -1,0 +1,8 @@
+<<sanic>> <<3:36-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base>> <<3:42-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<meta>> <<3:47-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BaseMixin>> <<6:80-89>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_generate_name>> <<10:174-188>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:189-192>> <<BaseMixin>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:192-193>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<SanicMeta>> <<3:59-68>> <<type>> <<VARIABLE>> <<LINK>>

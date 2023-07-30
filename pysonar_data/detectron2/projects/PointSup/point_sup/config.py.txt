@@ -1,0 +1,4 @@
+<<add_point_sup_config>> <<5:105-125>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cfg>> <<5:126-129>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cfg>> <<10:222-225>> <<?>> <<VARIABLE>> <<LINK>>
+<<cfg>> <<13:353-356>> <<?>> <<VARIABLE>> <<LINK>>

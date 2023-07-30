@@ -1,0 +1,17 @@
+<<pkg_dir>> <<11:209-216>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<modules>> <<12:238-245>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<13:289-305>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<include_dirs>> <<14:329-341>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<module>> <<25:663-669>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<modules>> <<25:618-625>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<modules>> <<20:499-506>> <<list>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<21:538-554>> <<list>> <<VARIABLE>> <<LINK>>
+<<modules>> <<25:673-680>> <<list>> <<VARIABLE>> <<LINK>>
+<<module>> <<25:663-669>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg_dir>> <<25:642-649>> <<str>> <<VARIABLE>> <<LINK>>
+<<module>> <<25:651-657>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg_dir>> <<28:706-713>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg_dir>> <<31:808-815>> <<str>> <<VARIABLE>> <<LINK>>
+<<modules>> <<32:849-856>> <<list>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<33:885-901>> <<list>> <<VARIABLE>> <<LINK>>
+<<include_dirs>> <<34:925-937>> <<list>> <<VARIABLE>> <<LINK>>

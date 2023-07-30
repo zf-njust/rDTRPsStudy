@@ -1,0 +1,10 @@
+{
+  "code": "def run(self) -> None:\\n        \"\"\" Runs the target, reraising any errors from within the thread in the caller. \"\"\"\\n        try:\\n            if self._target is not None:\\n                self._target(*self._args, **self._kwargs)\\n        except Exception as err:  # pylint: disable=broad-except\\n            self.err = sys.exc_info()\\n            logger.debug(\"Error in thread (%s): %s\", self._name, str(err))\\n        finally:\\n            # Avoid a refcycle if the thread is running a function with\\n            # an argument that has a member that points to the thread.\\n            del self._target, self._args, self._kwargs",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 12,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

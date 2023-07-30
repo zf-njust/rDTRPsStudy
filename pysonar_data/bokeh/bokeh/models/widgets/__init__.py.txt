@@ -1,0 +1,10 @@
+<<log>> <<15:675-678>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<buttons>> <<26:960-967>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<groups>> <<27:984-990>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<icons>> <<28:1007-1012>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<inputs>> <<29:1029-1035>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<markups>> <<30:1052-1059>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<panels>> <<31:1076-1082>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sliders>> <<32:1099-1106>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tables>> <<33:1123-1129>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widget>> <<34:1146-1152>> <<module>> <<VARIABLE>> <<ANCHOR>>

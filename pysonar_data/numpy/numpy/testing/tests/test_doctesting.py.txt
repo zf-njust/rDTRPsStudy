@@ -1,0 +1,13 @@
+<<__future__>> <<4:72-82>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<check_random_directive>> <<7:187-209>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<check_implicit_np>> <<14:367-384>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<check_whitespace_enabled>> <<21:529-553>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<check_empty_output>> <<32:686-704>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<check_skip>> <<42:994-1004>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<numpy>> <<54:1214-1219>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<54:1220-1227>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<argv>> <<55:1265-1269>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<4:90-98>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<4:100-115>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<4:117-131>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<argv>> <<56:1342-1346>> <<list>> <<VARIABLE>> <<LINK>>

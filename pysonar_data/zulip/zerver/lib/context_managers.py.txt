@@ -1,0 +1,14 @@
+<<flock>> <<11:195-200>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<lockfile>> <<24:607-615>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<filename>> <<24:616-619>> <<{str||tuple}>> <<PARAMETER>> <<ANCHOR>>
+<<shared>> <<24:626-629>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lock>> <<31:934-938>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<lockfile>> <<11:201-204>> <<file>> <<PARAMETER>> <<ANCHOR>>
+<<shared>> <<11:211-214>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<filename>> <<31:916-924>> <<{str||tuple}>> <<VARIABLE>> <<LINK>>
+<<flock>> <<32:953-958>> <<function>> <<VARIABLE>> <<LINK>>
+<<lock>> <<32:959-963>> <<file>> <<VARIABLE>> <<LINK>>
+<<shared>> <<32:972-978>> <<?>> <<VARIABLE>> <<LINK>>
+<<lockfile>> <<17:451-459>> <<file>> <<VARIABLE>> <<LINK>>
+<<shared>> <<17:478-484>> <<?>> <<VARIABLE>> <<LINK>>
+<<lockfile>> <<21:561-569>> <<file>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "@human_users_only\n@has_request_variables\ndef update_user_custom_profile_data(\n        request,\n        user_profile,\n        data=REQ(validator=check_list(check_dict([('id', check_int)])))):\n    # type: (HttpRequest, UserProfile, List[Dict[str, Union[int, Text]]]) -> HttpResponse\n    for item in data:\n        field_id = item['id']\n        try:\n            field = CustomProfileField.objects.get(id=field_id)\n        except CustomProfileField.DoesNotExist:\n            return json_error(_('Field id {id} not found.').format(id=field_id))\n\n        validator = CustomProfileField.FIELD_VALIDATORS[field.field_type]\n        result = validator('value[{}]'.format(field_id), item['value'])\n        if result is not None:\n            return json_error(result)\n\n    do_update_user_custom_profile_data(user_profile, data)\n    # We need to call this explicitly otherwise constraints are not check\n    return json_success()",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 17,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

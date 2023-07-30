@@ -1,0 +1,15 @@
+<<official>> <<20:740-748>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<20:749-757>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<20:758-769>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<21:795-803>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<nlp>> <<21:804-807>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<21:808-815>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<22:834-842>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<nlp>> <<22:843-846>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<22:847-854>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ElectraPretrainerConfig>> <<26:906-929>> <<type>> <<CLASS>> <<ANCHOR>>
+<<base_config>> <<20:777-788>> <<module>> <<VARIABLE>> <<LINK>>
+<<bert>> <<21:823-827>> <<module>> <<VARIABLE>> <<LINK>>
+<<encoders>> <<22:862-870>> <<module>> <<VARIABLE>> <<LINK>>
+<<base_config>> <<26:930-941>> <<module>> <<VARIABLE>> <<LINK>>
+<<Config>> <<26:942-948>> <<type>> <<VARIABLE>> <<LINK>>

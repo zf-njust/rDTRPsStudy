@@ -1,0 +1,16 @@
+<<unittest>> <<16:768-776>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CenterNetHourglassFeatureExtractorTest>> <<27:1163-1201>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_center_net_hourglass_feature_extractor>> <<29:1232-1275>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:1276-1279>> <<CenterNetHourglassFeatureExtractorTest>> <<PARAMETER>> <<ANCHOR>>
+<<net>> <<31:1290-1293>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<36:1498-1503>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<graph_fn>> <<37:1565-1573>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<outputs>> <<39:1646-1653>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<36:1551-1554>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<39:1656-1660>> <<CenterNetHourglassFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<graph_fn>> <<39:1669-1677>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:1688-1692>> <<CenterNetHourglassFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<outputs>> <<40:1705-1712>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<41:1744-1748>> <<CenterNetHourglassFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<outputs>> <<41:1761-1768>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<38:1591-1596>> <<?>> <<VARIABLE>> <<LINK>>

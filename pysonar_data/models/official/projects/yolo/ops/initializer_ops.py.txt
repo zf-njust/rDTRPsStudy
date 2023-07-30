@@ -1,0 +1,4 @@
+<<pytorch_kernel_initializer>> <<20:687-713>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<kernel_initializer>> <<20:714-717>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<kernel_initializer>> <<22:818-836>> <<int>> <<VARIABLE>> <<LINK>>
+<<kernel_initializer>> <<26:987-1005>> <<int>> <<VARIABLE>> <<LINK>>

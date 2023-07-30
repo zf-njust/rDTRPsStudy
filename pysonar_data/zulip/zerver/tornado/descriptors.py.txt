@@ -1,0 +1,17 @@
+<<zerver>> <<5:62-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<descriptors_by_handler_id>> <<7:90-115>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<get_descriptor_by_handler_id>> <<9:190-218>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_descriptor_by_handler_id>> <<13:355-383>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<clear_descriptor_by_handler_id>> <<17:554-584>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<handler_id>> <<17:585-588>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<client_descriptor>> <<17:597-600>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<handler_id>> <<9:219-222>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<handler_id>> <<13:384-387>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<client_descriptor>> <<13:396-399>> <<ClientDescriptor>> <<PARAMETER>> <<ANCHOR>>
+<<descriptors_by_handler_id>> <<19:706-731>> <<dict>> <<VARIABLE>> <<LINK>>
+<<handler_id>> <<19:732-742>> <<?>> <<VARIABLE>> <<LINK>>
+<<descriptors_by_handler_id>> <<11:308-333>> <<dict>> <<VARIABLE>> <<LINK>>
+<<handler_id>> <<11:338-348>> <<?>> <<VARIABLE>> <<LINK>>
+<<client_descriptor>> <<15:531-548>> <<ClientDescriptor>> <<VARIABLE>> <<LINK>>
+<<descriptors_by_handler_id>> <<15:491-516>> <<dict>> <<VARIABLE>> <<LINK>>
+<<handler_id>> <<15:517-527>> <<?>> <<VARIABLE>> <<LINK>>

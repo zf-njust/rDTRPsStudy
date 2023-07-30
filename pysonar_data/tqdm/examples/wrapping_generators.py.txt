@@ -1,0 +1,16 @@
+<<tqdm>> <<3:25-29>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<contrib>> <<3:30-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<5:73-74>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_>> <<8:147-148>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_>> <<11:234-235>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<14:332-335>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mapped>> <<14:311-317>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<tenumerate>> <<3:45-55>> <<function>> <<VARIABLE>> <<LINK>>
+<<tmap>> <<3:57-61>> <<function>> <<VARIABLE>> <<LINK>>
+<<tzip>> <<3:63-67>> <<function>> <<VARIABLE>> <<LINK>>
+<<tenumerate>> <<5:78-88>> <<function>> <<VARIABLE>> <<LINK>>
+<<tenumerate>> <<8:152-162>> <<function>> <<VARIABLE>> <<LINK>>
+<<tzip>> <<11:239-243>> <<function>> <<VARIABLE>> <<LINK>>
+<<tmap>> <<14:320-324>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:335-336>> <<?>> <<VARIABLE>> <<LINK>>
+<<mapped>> <<15:413-419>> <<None>> <<VARIABLE>> <<LINK>>

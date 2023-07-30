@@ -1,0 +1,10 @@
+{
+  "code": "def get_win_folder_via_ctypes(csidl_name: str) -> str:\n    \"\"\"Get folder with ctypes.\"\"\"\n    csidl_const = {\n        \"CSIDL_APPDATA\": 26,\n        \"CSIDL_COMMON_APPDATA\": 35,\n        \"CSIDL_LOCAL_APPDATA\": 28,\n        \"CSIDL_PERSONAL\": 5,\n    }.get(csidl_name)\n    if csidl_const is None:\n        raise ValueError(f\"Unknown CSIDL name: {csidl_name}\")\n\n    buf = ctypes.create_unicode_buffer(1024)\n    windll = getattr(ctypes, \"windll\")  # noqa: B009 # using getattr to avoid false positive with mypy type checker\n    windll.shell32.SHGetFolderPathW(None, csidl_const, None, 0, buf)\n\n    # Downgrade to short path name if it has highbit chars.\n    if any(ord(c) > 255 for c in buf):\n        buf2 = ctypes.create_unicode_buffer(1024)\n        if windll.kernel32.GetShortPathNameW(buf.value, buf2, 1024):\n            buf = buf2\n\n    return buf.value",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 13,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

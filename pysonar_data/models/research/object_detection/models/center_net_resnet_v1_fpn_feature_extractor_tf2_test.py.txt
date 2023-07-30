@@ -1,0 +1,17 @@
+<<unittest>> <<16:783-791>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CenterNetResnetV1FpnFeatureExtractorTest>> <<28:1143-1183>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_correct_output_size>> <<37:1482-1506>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<37:1507-1510>> <<CenterNetResnetV1FpnFeatureExtractorTest>> <<PARAMETER>> <<ANCHOR>>
+<<resnet_type>> <<37:1513-1516>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<40:1612-1617>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<graph_fn>> <<42:1741-1749>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<img>> <<43:1760-1763>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<processed_img>> <<44:1818-1831>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<resnet_type>> <<41:1719-1730>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<47:1898-1902>> <<CenterNetResnetV1FpnFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<47:1915-1919>> <<CenterNetResnetV1FpnFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<graph_fn>> <<47:1928-1936>> <<function>> <<VARIABLE>> <<LINK>>
+<<model>> <<44:1834-1839>> <<?>> <<VARIABLE>> <<LINK>>
+<<img>> <<44:1851-1854>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<45:1870-1875>> <<?>> <<VARIABLE>> <<LINK>>
+<<processed_img>> <<45:1876-1889>> <<?>> <<VARIABLE>> <<LINK>>

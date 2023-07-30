@@ -1,0 +1,9 @@
+<<match>> <<8:133-138>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<14:283-298>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<8:139-142>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<9:154-160>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<14:299-302>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<9:163-170>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<10:222-228>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<10:252-258>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:345-352>> <<?>> <<VARIABLE>> <<LINK>>

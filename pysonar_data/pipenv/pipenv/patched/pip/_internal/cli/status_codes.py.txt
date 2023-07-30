@@ -1,0 +1,6 @@
+<<SUCCESS>> <<1:0-7>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<ERROR>> <<2:12-17>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<UNKNOWN_ERROR>> <<3:22-35>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<VIRTUALENV_NOT_FOUND>> <<4:40-60>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<PREVIOUS_BUILD_DIR_ERROR>> <<5:65-89>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<NO_MATCHES_FOUND>> <<6:94-110>> <<int>> <<SCOPE>> <<ANCHOR>>

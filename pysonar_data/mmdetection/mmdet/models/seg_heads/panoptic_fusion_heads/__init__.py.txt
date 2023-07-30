@@ -1,0 +1,4 @@
+<<heuristic_fusion_head>> <<4:144-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<maskformer_fusion_head>> <<5:219-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HeuristicFusionHead>> <<4:173-192>> <<type>> <<VARIABLE>> <<LINK>>
+<<MaskFormerFusionHead>> <<5:249-269>> <<type>> <<VARIABLE>> <<LINK>>

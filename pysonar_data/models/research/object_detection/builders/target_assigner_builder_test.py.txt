@@ -1,0 +1,11 @@
+<<TargetAssignerBuilderTest>> <<27:1074-1099>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_build_a_target_assigner>> <<29:1128-1156>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:1157-1160>> <<TargetAssignerBuilderTest>> <<PARAMETER>> <<ANCHOR>>
+<<target_assigner_text_proto>> <<30:1169-1195>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<target_assigner_proto>> <<41:1420-1441>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<target_assigner_instance>> <<43:1560-1584>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<target_assigner_text_proto>> <<42:1504-1530>> <<str>> <<VARIABLE>> <<LINK>>
+<<target_assigner_proto>> <<42:1532-1553>> <<?>> <<VARIABLE>> <<LINK>>
+<<target_assigner_proto>> <<44:1627-1648>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<45:1655-1659>> <<TargetAssignerBuilderTest>> <<VARIABLE>> <<LINK>>
+<<target_assigner_instance>> <<45:1677-1701>> <<?>> <<VARIABLE>> <<LINK>>

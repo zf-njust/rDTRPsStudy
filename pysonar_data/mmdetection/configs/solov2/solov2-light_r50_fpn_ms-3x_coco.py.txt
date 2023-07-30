@@ -1,0 +1,16 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<4:60-65>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<12:303-317>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_pipeline>> <<23:721-734>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<33:1095-1111>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<34:1159-1173>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<35:1220-1235>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<38:1284-1294>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<39:1301-1310>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<42:1376-1391>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<13:373-379>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<24:790-796>> <<str>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<33:1141-1155>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<34:1203-1216>> <<list>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<35:1238-1252>> <<dict>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<39:1344-1354>> <<int>> <<VARIABLE>> <<LINK>>

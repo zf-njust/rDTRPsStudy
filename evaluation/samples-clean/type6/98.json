@@ -1,0 +1,10 @@
+{
+  "code": "def _freeze_stages(self):\n        if self.frozen_stages >= 0:\n            if self.deep_stem:\n                self.stem.eval()\n                for param in self.stem.parameters():\n                    param.requires_grad = False\n            else:\n                self.norm1.eval()\n                for m in [self.conv1, self.norm1]:\n                    for param in m.parameters():\n                        param.requires_grad = False\n\n        for i in range(1, self.frozen_stages + 1):\n            m = getattr(self, f'layer{i}')\n            m.eval()\n            for param in m.parameters():\n                param.requires_grad = False",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 14,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

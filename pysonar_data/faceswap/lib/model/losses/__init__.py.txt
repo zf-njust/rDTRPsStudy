@@ -1,0 +1,7 @@
+<<loss>> <<5:113-117>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FocalFrequencyLoss>> <<5:126-144>> <<type>> <<VARIABLE>> <<LINK>>
+<<GeneralizedLoss>> <<5:146-161>> <<type>> <<VARIABLE>> <<LINK>>
+<<GradientLoss>> <<5:163-175>> <<type>> <<VARIABLE>> <<LINK>>
+<<LaplacianPyramidLoss>> <<6:197-217>> <<type>> <<VARIABLE>> <<LINK>>
+<<LInfNorm>> <<6:219-227>> <<type>> <<VARIABLE>> <<LINK>>
+<<LossWrapper>> <<6:229-240>> <<type>> <<VARIABLE>> <<LINK>>

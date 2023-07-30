@@ -1,0 +1,7 @@
+<<MyWork>> <<6:46-52>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<7:80-88>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<10:211-214>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:89-92>> <<MyWork>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<14:241-244>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<10:215-218>> <<MyWork>> <<PARAMETER>> <<ANCHOR>>
+<<MyWork>> <<14:262-268>> <<type>> <<VARIABLE>> <<LINK>>

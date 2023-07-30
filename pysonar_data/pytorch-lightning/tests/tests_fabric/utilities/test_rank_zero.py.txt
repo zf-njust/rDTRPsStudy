@@ -1,0 +1,13 @@
+<<unittest>> <<3:28-36>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_rank_zero_known_environment_variables>> <<24:531-573>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_rank_zero_priority>> <<48:1514-1537>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<environ>> <<48:1538-1541>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected_rank>> <<48:1547-1550>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<env_vars>> <<24:574-577>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<24:584-587>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<foo>> <<33:1074-1077>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<environ>> <<50:1715-1722>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected_rank>> <<51:1756-1769>> <<?>> <<VARIABLE>> <<LINK>>
+<<env_vars>> <<26:722-730>> <<?>> <<VARIABLE>> <<LINK>>
+<<foo>> <<36:1121-1124>> <<function>> <<VARIABLE>> <<LINK>>
+<<expected>> <<36:1130-1138>> <<?>> <<VARIABLE>> <<LINK>>

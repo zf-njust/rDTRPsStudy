@@ -1,0 +1,10 @@
+<<asset>> <<1:6-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<label>> <<2:28-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<user>> <<3:54-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cluster>> <<4:75-82>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<group>> <<5:99-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cmd_filter>> <<8:165-175>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<authbook>> <<9:192-200>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<10:217-222>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<authbook>> <<11:239-247>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Label>> <<2:41-46>> <<type>> <<VARIABLE>> <<LINK>>

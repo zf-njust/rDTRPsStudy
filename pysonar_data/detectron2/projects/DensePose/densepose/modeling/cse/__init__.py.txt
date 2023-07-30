@@ -1,0 +1,4 @@
+<<vertex_direct_embedder>> <<3:80-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vertex_feature_embedder>> <<4:138-161>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VertexDirectEmbedder>> <<3:110-130>> <<type>> <<VARIABLE>> <<LINK>>
+<<VertexFeatureEmbedder>> <<4:169-190>> <<type>> <<VARIABLE>> <<LINK>>

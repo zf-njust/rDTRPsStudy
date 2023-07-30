@@ -1,0 +1,10 @@
+<<test>> <<16:635-639>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__test__>> <<38:1367-1375>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<options>> <<31:1132-1139>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<32:1169-1173>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<val>> <<32:1175-1178>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test>> <<38:1362-1366>> <<function>> <<VARIABLE>> <<LINK>>
+<<options>> <<33:1215-1222>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<33:1224-1228>> <<?>> <<VARIABLE>> <<LINK>>
+<<val>> <<33:1230-1233>> <<?>> <<VARIABLE>> <<LINK>>
+<<options>> <<34:1254-1261>> <<?>> <<VARIABLE>> <<LINK>>

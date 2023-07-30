@@ -1,0 +1,8 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_load_script>> <<4:44-60>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tdata>> <<4:61-64>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tctx>> <<5:100-104>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<6:115-116>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tctx>> <<6:119-123>> <<?>> <<VARIABLE>> <<LINK>>
+<<tdata>> <<6:131-136>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<7:211-212>> <<?>> <<VARIABLE>> <<LINK>>

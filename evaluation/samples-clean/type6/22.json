@@ -1,0 +1,10 @@
+{
+  "code": "def diff(self,other):\n        \"\"\"\n            Diff records - recursively diff sections (sorting RRs)\n        \"\"\"\n        err = []\n        if self.header != other.header:\n            err.append((self.header,other.header))\n        for section in ('questions','rr','auth','ar'):\n            if section == 'questions':\n                k = lambda x:tuple(map(str,(x.qname,x.qtype)))\n            else:\n                k = lambda x:tuple(map(str,(x.rname,x.rtype,x.rdata)))\n            a = dict([(k(rr),rr) for rr in getattr(self,section)])\n            b = dict([(k(rr),rr) for rr in getattr(other,section)])\n            sa = set(a)\n            sb = set(b)\n            for e in sorted(sa.intersection(sb)):\n                if a[e] != b[e]:\n                    err.append((a[e],b[e]))\n            for e in sorted(sa.difference(sb)):\n                err.append((a[e],None))\n            for e in sorted(sb.difference(sa)):\n                err.append((None,b[e]))\n        return err",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 13,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

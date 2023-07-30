@@ -1,0 +1,13 @@
+<<__future__>> <<10:204-214>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<12:246-252>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<13:285-291>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<14:322-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<16:385-392>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<LOADER_ALIASES>> <<18:417-431>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<get_loader_cls>> <<23:608-622>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<current_loader>> <<30:852-866>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<load_settings>> <<36:1005-1018>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<loader>> <<23:623-626>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<10:222-237>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<loader>> <<25:701-707>> <<?>> <<VARIABLE>> <<LINK>>
+<<LOADER_ALIASES>> <<25:709-723>> <<dict>> <<VARIABLE>> <<LINK>>

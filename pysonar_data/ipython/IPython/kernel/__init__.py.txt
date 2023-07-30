@@ -1,0 +1,12 @@
+<<pkg>> <<22:697-700>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<src>> <<23:732-735>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pkg>> <<26:844-847>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<src>> <<27:880-883>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pkg>> <<23:760-763>> <<str>> <<VARIABLE>> <<LINK>>
+<<src>> <<24:803-806>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg>> <<24:832-835>> <<str>> <<VARIABLE>> <<LINK>>
+<<src>> <<24:781-784>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg>> <<27:908-911>> <<str>> <<VARIABLE>> <<LINK>>
+<<src>> <<28:951-954>> <<str>> <<VARIABLE>> <<LINK>>
+<<pkg>> <<28:985-988>> <<str>> <<VARIABLE>> <<LINK>>
+<<src>> <<28:929-932>> <<str>> <<VARIABLE>> <<LINK>>

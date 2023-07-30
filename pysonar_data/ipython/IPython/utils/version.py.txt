@@ -1,0 +1,10 @@
+<<distutils>> <<19:643-652>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<19:653-660>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<check_version>> <<25:858-871>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<v>> <<25:872-875>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<check>> <<25:875-878>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<LooseVersion>> <<19:668-680>> <<type>> <<VARIABLE>> <<LINK>>
+<<LooseVersion>> <<33:1177-1189>> <<type>> <<VARIABLE>> <<LINK>>
+<<v>> <<33:1190-1191>> <<?>> <<VARIABLE>> <<LINK>>
+<<LooseVersion>> <<33:1196-1208>> <<type>> <<VARIABLE>> <<LINK>>
+<<check>> <<33:1209-1214>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<check_file>> <<7:177-187>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<check_file>> <<9:220-230>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<check_file>> <<12:271-281>> <<{file||?}>> <<VARIABLE>> <<LINK>>

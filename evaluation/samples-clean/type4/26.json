@@ -1,0 +1,10 @@
+{
+  "code": "def clear(self, domain=None, path=None, name=None):\n        \"\"\"Clear some cookies.\n\n        Invoking this method without arguments will clear all cookies.  If\n        given a single argument, only cookies belonging to that domain will be\n        removed.  If given two arguments, cookies belonging to the specified\n        path within that domain are removed.  If given three arguments, then\n        the cookie with the specified name, path and domain is removed.\n\n        Raises KeyError if no matching cookie exists.\n\n        \"\"\"\n        if name is not None:\n            if (domain is None) or (path is None):\n                raise ValueError(\n                    \"domain and path must be given to remove a cookie by name\")\n            del self._cookies[domain][path][name]\n        elif path is not None:\n            if domain is None:\n                raise ValueError(\n                    \"domain must be given to remove cookies by path\")\n            del self._cookies[domain][path]\n        elif domain is not None:\n            del self._cookies[domain]\n        else:\n            self._cookies = {}",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 24,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<5:88-99>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<info>> <<11:286-290>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<npy_pkg_config>> <<12:313-327>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_INSTALLED>> <<18:424-434>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_INSTALLED>> <<16:380-390>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<numpy>> <<21:471-476>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<21:477-484>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<22:504-508>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bench>> <<23:530-535>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<version>> <<5:118-129>> <<{dict||str}>> <<VARIABLE>> <<LINK>>
+<<_INSTALLED>> <<20:449-459>> <<?>> <<VARIABLE>> <<LINK>>

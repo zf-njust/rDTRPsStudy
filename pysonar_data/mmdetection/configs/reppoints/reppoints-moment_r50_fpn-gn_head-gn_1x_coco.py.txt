@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<2:50-58>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:113-118>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<3:145-153>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<3:180-188>> <<dict>> <<VARIABLE>> <<LINK>>

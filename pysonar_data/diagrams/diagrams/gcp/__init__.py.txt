@@ -1,0 +1,4 @@
+<<_GCP>> <<8:117-121>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:134-143>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:157-166>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:192-201>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

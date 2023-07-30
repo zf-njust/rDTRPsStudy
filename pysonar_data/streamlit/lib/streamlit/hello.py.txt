@@ -1,0 +1,14 @@
+<<run>> <<10:154-157>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<progress_bar>> <<25:719-731>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<status_text>> <<26:754-765>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<chart>> <<27:784-789>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<29:841-842>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<new_rows>> <<33:938-946>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<run>> <<55:1519-1522>> <<function>> <<VARIABLE>> <<LINK>>
+<<progress_bar>> <<31:902-914>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<31:924-925>> <<int>> <<VARIABLE>> <<LINK>>
+<<status_text>> <<36:1014-1025>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_rows>> <<37:1081-1089>> <<?>> <<VARIABLE>> <<LINK>>
+<<chart>> <<40:1146-1151>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_rows>> <<40:1161-1169>> <<?>> <<VARIABLE>> <<LINK>>
+<<status_text>> <<45:1270-1281>> <<?>> <<VARIABLE>> <<LINK>>

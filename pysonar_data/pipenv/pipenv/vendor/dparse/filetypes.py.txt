@@ -1,0 +1,10 @@
+<<__future__>> <<2:29-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<requirements_txt>> <<4:82-98>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<conda_yml>> <<5:120-129>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup_cfg>> <<6:144-153>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<tox_ini>> <<7:168-175>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pipfile>> <<8:188-195>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pipfile_lock>> <<9:208-220>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<poetry_lock>> <<10:238-249>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<unicode_literals>> <<2:47-63>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<2:65-80>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<luigi>> <<1:7-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<luigi>> <<3:16-21>> <<module>> <<VARIABLE>> <<LINK>>
+<<auto_namespace>> <<3:22-36>> <<function>> <<VARIABLE>> <<LINK>>

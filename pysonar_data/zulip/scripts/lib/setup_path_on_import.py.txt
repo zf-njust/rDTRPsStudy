@@ -1,0 +1,7 @@
+<<BASE_DIR>> <<9:146-154>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<activate_this>> <<10:234-247>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BASE_DIR>> <<11:268-276>> <<str>> <<VARIABLE>> <<LINK>>
+<<activate_this>> <<15:353-366>> <<str>> <<VARIABLE>> <<LINK>>
+<<activate_this>> <<17:424-437>> <<str>> <<VARIABLE>> <<LINK>>
+<<activate_this>> <<17:465-478>> <<str>> <<VARIABLE>> <<LINK>>
+<<BASE_DIR>> <<18:497-505>> <<str>> <<VARIABLE>> <<LINK>>

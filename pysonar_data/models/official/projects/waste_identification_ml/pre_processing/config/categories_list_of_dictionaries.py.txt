@@ -1,0 +1,16 @@
+<<MATERIAL_LIST>> <<41:1687-1700>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<MATERIAL_FORM_LIST>> <<46:1847-1865>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<MATERIAL_SUBCATEGORY_LIST>> <<55:2295-2320>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<PLASTICS_SUBCATEGORY_LIST>> <<63:2657-2682>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<build_material>> <<69:2799-2813>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<category_list>> <<69:2814-2817>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<supercategory>> <<70:2860-2863>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<list_of_dictionaries>> <<83:3393-3413>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<num>> <<84:3426-3429>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m>> <<84:3431-3432>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<category_list>> <<84:3446-3459>> <<?>> <<VARIABLE>> <<LINK>>
+<<list_of_dictionaries>> <<85:3476-3496>> <<list>> <<VARIABLE>> <<LINK>>
+<<num>> <<86:3521-3524>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<87:3543-3544>> <<?>> <<VARIABLE>> <<LINK>>
+<<supercategory>> <<88:3572-3585>> <<?>> <<VARIABLE>> <<LINK>>
+<<list_of_dictionaries>> <<90:3604-3624>> <<list>> <<VARIABLE>> <<LINK>>

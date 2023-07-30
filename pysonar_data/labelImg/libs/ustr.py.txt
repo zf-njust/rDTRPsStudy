@@ -1,0 +1,13 @@
+<<libs>> <<2:17-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<constants>> <<2:22-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ustr>> <<4:63-67>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<4:68-71>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<DEFAULT_ENCODING>> <<2:39-55>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<9:205-206>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<10:236-237>> <<?>> <<VARIABLE>> <<LINK>>
+<<DEFAULT_ENCODING>> <<10:245-261>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<11:280-281>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:461-462>> <<?>> <<VARIABLE>> <<LINK>>
+<<DEFAULT_ENCODING>> <<14:473-489>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<15:517-518>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<17:546-547>> <<?>> <<VARIABLE>> <<LINK>>

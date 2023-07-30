@@ -1,0 +1,8 @@
+<<lookup>> <<5:31-37>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<address>> <<5:38-41>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<port>> <<5:47-50>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<5:53-56>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<address>> <<14:403-410>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<15:471-472>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<address>> <<14:457-464>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<15:475-476>> <<?>> <<VARIABLE>> <<LINK>>

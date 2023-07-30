@@ -1,0 +1,11 @@
+<<magenta>> <<17:650-657>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<17:658-664>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<score2perf>> <<17:665-675>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<magenta>> <<18:700-707>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<18:708-714>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<score2perf>> <<18:715-725>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<score2perf_hparams>> <<18:733-751>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<magenta>> <<19:758-765>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<19:766-772>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<score2perf>> <<19:773-783>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<transformer_autoencoder>> <<19:791-814>> <<module>> <<VARIABLE>> <<ANCHOR>>

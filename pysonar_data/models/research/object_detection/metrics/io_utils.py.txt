@@ -1,0 +1,17 @@
+<<__future__>> <<18:771-781>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:811-821>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<20:844-854>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<write_csv>> <<25:900-909>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<fid>> <<25:910-913>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<metrics>> <<25:915-918>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<metrics_writer>> <<32:1096-1110>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<metric_name>> <<33:1151-1162>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<metric_value>> <<33:1164-1176>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<18:789-804>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:829-837>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<20:862-876>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<fid>> <<32:1124-1127>> <<?>> <<VARIABLE>> <<LINK>>
+<<metrics>> <<33:1180-1187>> <<?>> <<VARIABLE>> <<LINK>>
+<<metrics_writer>> <<34:1202-1216>> <<?>> <<VARIABLE>> <<LINK>>
+<<metric_name>> <<34:1227-1238>> <<?>> <<VARIABLE>> <<LINK>>
+<<metric_value>> <<34:1244-1256>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,11 @@
+<<__future__>> <<9:280-290>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version_info>> <<11:317-329>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<12:355-366>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__changeset__>> <<13:376-389>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<16:414-421>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<spawn>> <<38:933-938>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spawn_later>> <<39:957-968>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__dependencies_for_freezing>> <<50:1361-1388>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<absolute_import>> <<9:298-313>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<__all__>> <<45:1201-1208>> <<list>> <<VARIABLE>> <<LINK>>
+<<__dependencies_for_freezing>> <<57:1589-1616>> <<function>> <<VARIABLE>> <<LINK>>

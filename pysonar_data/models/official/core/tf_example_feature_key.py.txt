@@ -1,0 +1,15 @@
+<<dataclass>> <<25:906-915>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<TfExampleFeatureKeyBase>> <<29:994-1017>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<39:1359-1367>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<39:1368-1371>> <<TestFeatureKey>> <<PARAMETER>> <<ANCHOR>>
+<<prefix>> <<39:1374-1377>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<field>> <<59:1941-1946>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<key_name>> <<60:2031-2039>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<key_value>> <<61:2062-2071>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<prefix>> <<58:1922-1928>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<59:1969-1973>> <<TestFeatureKey>> <<VARIABLE>> <<LINK>>
+<<field>> <<60:2042-2047>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<61:2082-2086>> <<TestFeatureKey>> <<VARIABLE>> <<LINK>>
+<<key_name>> <<61:2088-2096>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<62:2115-2119>> <<TestFeatureKey>> <<VARIABLE>> <<LINK>>
+<<key_name>> <<62:2121-2129>> <<?>> <<VARIABLE>> <<LINK>>

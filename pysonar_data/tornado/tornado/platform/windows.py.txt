@@ -1,0 +1,16 @@
+<<__future__>> <<5:102-112>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SetHandleInformation>> <<10:289-309>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<HANDLE_FLAG_INHERIT>> <<14:516-535>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<set_close_exec>> <<17:558-572>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<fd>> <<17:573-576>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<success>> <<18:583-590>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<5:120-135>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<5:137-145>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<5:147-161>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<with_statement>> <<5:163-177>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<SetHandleInformation>> <<11:357-377>> <<?>> <<VARIABLE>> <<LINK>>
+<<SetHandleInformation>> <<12:461-481>> <<?>> <<VARIABLE>> <<LINK>>
+<<SetHandleInformation>> <<18:593-613>> <<?>> <<VARIABLE>> <<LINK>>
+<<fd>> <<18:614-616>> <<?>> <<VARIABLE>> <<LINK>>
+<<HANDLE_FLAG_INHERIT>> <<18:618-637>> <<int>> <<VARIABLE>> <<LINK>>
+<<success>> <<19:654-661>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+<<detectron2>> <<2:36-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<2:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<4:75-76>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<5:134-135>> <<?>> <<VARIABLE>> <<LINK>>

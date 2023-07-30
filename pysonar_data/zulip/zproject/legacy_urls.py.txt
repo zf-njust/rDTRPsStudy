@@ -1,0 +1,14 @@
+<<zerver>> <<2:40-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<3:60-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<4:88-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<5:113-119>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<6:142-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<legacy_urls>> <<10:239-250>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<zerver>> <<18:699-705>> <<module>> <<VARIABLE>> <<LINK>>
+<<views>> <<18:706-711>> <<module>> <<VARIABLE>> <<LINK>>
+<<streams>> <<18:712-719>> <<module>> <<VARIABLE>> <<LINK>>
+<<json_stream_exists>> <<18:720-738>> <<function>> <<VARIABLE>> <<LINK>>
+<<zerver>> <<20:775-781>> <<module>> <<VARIABLE>> <<LINK>>
+<<views>> <<20:782-787>> <<module>> <<VARIABLE>> <<LINK>>
+<<auth>> <<20:788-792>> <<module>> <<VARIABLE>> <<LINK>>
+<<json_fetch_api_key>> <<20:793-811>> <<function>> <<VARIABLE>> <<LINK>>

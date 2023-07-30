@@ -1,0 +1,10 @@
+{
+  "code": "def test_iter_best_order():\n    # The iterator should always find the iteration order\n    # with increasing memory addresses\n\n    # Test the ordering for 1-D to 5-D shapes\n    for shape in [(5,), (3, 4), (2, 3, 4), (2, 3, 4, 3), (2, 3, 2, 2, 3)]:\n        a = arange(np.prod(shape))\n        # Test each combination of positive and negative strides\n        for dirs in range(2**len(shape)):\n            dirs_index = [slice(None)]*len(shape)\n            for bit in range(len(shape)):\n                if ((2**bit) & dirs):\n                    dirs_index[bit] = slice(None, None, -1)\n            dirs_index = tuple(dirs_index)\n\n            aview = a.reshape(shape)[dirs_index]\n            # C-order\n            i = nditer(aview, [], [['readonly']])\n            assert_equal([x for x in i], a)\n            # Fortran-order\n            i = nditer(aview.T, [], [['readonly']])\n            assert_equal([x for x in i], a)\n            # Other order\n            if len(shape) > 2:\n                i = nditer(aview.swapaxes(0, 1), [], [['readonly']])\n                assert_equal([x for x in i], a)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 14,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

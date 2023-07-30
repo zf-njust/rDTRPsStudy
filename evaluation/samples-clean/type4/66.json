@@ -1,0 +1,10 @@
+{
+  "code": "def topological_sort(self):\n        \"\"\"\n        Perform a topological sort of the graph.\n        :return: A tuple, the first element of which is a topologically sorted\n                 list of distributions, and the second element of which is a\n                 list of distributions that cannot be sorted because they have\n                 circular dependencies and so form a cycle.\n        \"\"\"\n        result = []\n        # Make a shallow copy of the adjacency list\n        alist = {}\n        for k, v in self.adjacency_list.items():\n            alist[k] = v[:]\n        while True:\n            # See what we can remove in this run\n            to_remove = []\n            for k, v in list(alist.items())[:]:\n                if not v:\n                    to_remove.append(k)\n                    del alist[k]\n            if not to_remove:\n                # What's left in alist (if anything) is a cycle.\n                break\n            # Remove from the adjacency list of others\n            for k, v in alist.items():\n                alist[k] = [(d, r) for d, r in v if d not in to_remove]\n            logger.debug('Moving to result: %s',\n                         ['%s (%s)' % (d.name, d.version) for d in to_remove])\n            result.extend(to_remove)\n        return result, list(alist.keys())",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 20,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

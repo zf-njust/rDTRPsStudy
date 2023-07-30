@@ -1,0 +1,9 @@
+<<linear_search>> <<6:63-76>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<array>> <<6:77-80>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<query>> <<6:84-87>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<12:299-300>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<value>> <<12:302-307>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<array>> <<12:321-326>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<13:341-346>> <<?>> <<VARIABLE>> <<LINK>>
+<<query>> <<13:350-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<14:377-378>> <<?>> <<VARIABLE>> <<LINK>>

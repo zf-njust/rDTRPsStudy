@@ -1,0 +1,11 @@
+<<packages>> <<4:61-69>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<package_data>> <<29:672-684>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<31:702-718>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<extras_require>> <<33:774-788>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<setup_kwargs>> <<35:844-856>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<packages>> <<42:1102-1110>> <<list>> <<VARIABLE>> <<LINK>>
+<<package_data>> <<43:1133-1145>> <<dict>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<44:1172-1188>> <<list>> <<VARIABLE>> <<LINK>>
+<<extras_require>> <<45:1213-1227>> <<dict>> <<VARIABLE>> <<LINK>>
+<<setup_kwargs>> <<50:1331-1343>> <<dict>> <<VARIABLE>> <<LINK>>
+<<setup_kwargs>> <<52:1356-1368>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:36-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:63-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<all_markers>> <<7:134-145>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<marker>> <<9:209-215>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ctx>> <<2:53-56>> <<module>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<3:86-91>> <<module>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<9:219-224>> <<module>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<9:225-230>> <<dict>> <<VARIABLE>> <<LINK>>
+<<ctx>> <<10:241-244>> <<module>> <<VARIABLE>> <<LINK>>
+<<ctx>> <<13:360-363>> <<module>> <<VARIABLE>> <<LINK>>
+<<ctx>> <<13:399-402>> <<module>> <<VARIABLE>> <<LINK>>
+<<marker>> <<13:428-434>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:30-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<2:36-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<5:66-69>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<index>> <<12:163-168>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<12:169-172>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<redirect>> <<2:52-60>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<8:94-97>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<27:484-487>> <<?>> <<VARIABLE>> <<LINK>>
+<<redirect>> <<13:191-199>> <<function>> <<VARIABLE>> <<LINK>>

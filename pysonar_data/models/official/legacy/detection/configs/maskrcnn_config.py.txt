@@ -1,0 +1,13 @@
+<<official>> <<17:674-682>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<legacy>> <<17:683-689>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detection>> <<17:690-699>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<17:700-707>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base_config>> <<17:715-726>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<18:733-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<18:742-750>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<18:751-762>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MASKRCNN_CFG>> <<22:820-832>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<MASKRCNN_RESTRICTIONS>> <<113:3381-3402>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<base_config>> <<22:858-869>> <<module>> <<VARIABLE>> <<LINK>>
+<<BASE_CFG>> <<22:870-878>> <<dict>> <<VARIABLE>> <<LINK>>
+<<MASKRCNN_CFG>> <<23:881-893>> <<?>> <<VARIABLE>> <<LINK>>

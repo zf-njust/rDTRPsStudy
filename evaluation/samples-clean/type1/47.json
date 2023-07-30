@@ -1,0 +1,10 @@
+{
+  "code": "def process_predictions(\n    args, hypos, sp, tgt_dict, target_tokens, res_files, speaker, id\n):\n    for hypo in hypos[: min(len(hypos), args.nbest)]:\n        hyp_pieces = tgt_dict.string(hypo[\"tokens\"].int().cpu())\n\n        if \"words\" in hypo:\n            hyp_words = \" \".join(hypo[\"words\"])\n        else:\n            hyp_words = post_process(hyp_pieces, args.post_process)\n\n        if res_files is not None:\n            print(\n                \"{} ({}-{})\".format(hyp_pieces, speaker, id),\n                file=res_files[\"hypo.units\"],\n            )\n            print(\n                \"{} ({}-{})\".format(hyp_words, speaker, id),\n                file=res_files[\"hypo.words\"],\n            )\n\n        tgt_pieces = tgt_dict.string(target_tokens)\n        tgt_words = post_process(tgt_pieces, args.post_process)\n\n        if res_files is not None:\n            print(\n                \"{} ({}-{})\".format(tgt_pieces, speaker, id),\n                file=res_files[\"ref.units\"],\n            )\n            print(\n                \"{} ({}-{})\".format(tgt_words, speaker, id), file=res_files[\"ref.words\"]\n            )\n\n        if not args.quiet:\n            logger.info(\"HYPO:\" + hyp_words)\n            logger.info(\"TARGET:\" + tgt_words)\n            logger.info(\"___________________\")\n\n        hyp_words = hyp_words.split()\n        tgt_words = tgt_words.split()\n        return editdistance.eval(hyp_words, tgt_words), len(tgt_words)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 39,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<<bokeh>> <<3:47-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<3:53-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bokeh>> <<4:74-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<4:80-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bokeh>> <<5:105-110>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:111-117>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widgets>> <<5:118-125>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<select>> <<7:148-154>> <<MultiSelect>> <<SCOPE>> <<ANCHOR>>
+<<tabs>> <<8:213-217>> <<Tabs>> <<SCOPE>> <<ANCHOR>>
+<<save>> <<3:63-67>> <<function>> <<VARIABLE>> <<LINK>>
+<<Tabs>> <<4:94-98>> <<type>> <<VARIABLE>> <<LINK>>
+<<MultiSelect>> <<5:133-144>> <<type>> <<VARIABLE>> <<LINK>>
+<<MultiSelect>> <<7:157-168>> <<type>> <<VARIABLE>> <<LINK>>
+<<Tabs>> <<8:220-224>> <<type>> <<VARIABLE>> <<LINK>>
+<<select>> <<8:241-247>> <<MultiSelect>> <<VARIABLE>> <<LINK>>
+<<save>> <<10:265-269>> <<function>> <<VARIABLE>> <<LINK>>
+<<tabs>> <<10:270-274>> <<Tabs>> <<VARIABLE>> <<LINK>>

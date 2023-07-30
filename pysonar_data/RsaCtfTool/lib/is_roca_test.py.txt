@@ -1,0 +1,11 @@
+<<tests>> <<1:0-5>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<is_roca_vulnerable>> <<494:9916-9934>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<modulus>> <<494:9935-9938>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<p>> <<495:9982-9983>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<l>> <<495:9985-9986>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<tests>> <<495:9990-9995>> <<list>> <<VARIABLE>> <<LINK>>
+<<p>> <<495:9982-9983>> <<int>> <<VARIABLE>> <<LINK>>
+<<l>> <<495:9985-9986>> <<?>> <<VARIABLE>> <<LINK>>
+<<modulus>> <<495:9961-9968>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<495:9971-9972>> <<int>> <<VARIABLE>> <<LINK>>
+<<l>> <<495:9976-9977>> <<?>> <<VARIABLE>> <<LINK>>

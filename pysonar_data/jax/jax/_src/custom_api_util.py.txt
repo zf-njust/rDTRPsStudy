@@ -1,0 +1,14 @@
+<<_custom_wrapper_types>> <<16:598-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<register_custom_decorator_type>> <<18:635-665>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<forward_attr>> <<22:727-739>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cls>> <<18:666-669>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self_>> <<22:740-743>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<22:747-750>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_custom_wrapper_types>> <<19:675-696>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<19:701-704>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<20:716-719>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<23:760-764>> <<?>> <<VARIABLE>> <<LINK>>
+<<self_>> <<23:792-797>> <<?>> <<VARIABLE>> <<LINK>>
+<<_custom_wrapper_types>> <<23:806-827>> <<?>> <<VARIABLE>> <<LINK>>
+<<self_>> <<24:849-854>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<24:860-864>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<jax>> <<26:922-925>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<26:926-930>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<image>> <<26:931-936>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scale>> <<26:937-942>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<resize>> <<27:965-971>> <<function>> <<VARIABLE>> <<LINK>>
+<<ResizeMethod>> <<28:992-1004>> <<type>> <<VARIABLE>> <<LINK>>
+<<scale_and_translate>> <<29:1032-1051>> <<function>> <<VARIABLE>> <<LINK>>

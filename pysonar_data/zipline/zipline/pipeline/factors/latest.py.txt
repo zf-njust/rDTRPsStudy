@@ -1,0 +1,13 @@
+<<factor>> <<4:84-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Latest>> <<8:159-165>> <<type>> <<CLASS>> <<ANCHOR>>
+<<window_length>> <<12:302-315>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<compute>> <<14:331-338>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:339-342>> <<Latest>> <<PARAMETER>> <<ANCHOR>>
+<<today>> <<14:345-348>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<assets>> <<14:352-355>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<out>> <<14:360-363>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<14:365-368>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<CustomFactor>> <<4:98-110>> <<type>> <<VARIABLE>> <<LINK>>
+<<CustomFactor>> <<8:184-196>> <<type>> <<VARIABLE>> <<LINK>>
+<<data>> <<15:390-394>> <<?>> <<VARIABLE>> <<LINK>>
+<<out>> <<15:381-384>> <<?>> <<VARIABLE>> <<LINK>>

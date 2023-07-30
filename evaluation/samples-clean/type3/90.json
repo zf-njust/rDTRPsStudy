@@ -1,0 +1,10 @@
+{
+  "code": "def __init__(self, contents):\n        self.length = len(contents)\n        contents = contents[:] + [urwid.Text([\"\\n\"])] * 5\n        super().__init__(contents)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 4,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

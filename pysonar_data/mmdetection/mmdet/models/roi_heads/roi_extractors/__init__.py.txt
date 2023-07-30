@@ -1,0 +1,3 @@
+<<base_roi_extractor>> <<2:55-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<6:217-224>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BaseRoIExtractor>> <<2:81-97>> <<type>> <<VARIABLE>> <<LINK>>

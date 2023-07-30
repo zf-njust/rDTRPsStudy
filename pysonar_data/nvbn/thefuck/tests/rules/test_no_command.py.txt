@@ -1,0 +1,5 @@
+<<get_all_executables>> <<7:148-167>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<13:351-361>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<21:707-727>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mocker>> <<7:168-171>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mocker>> <<8:182-188>> <<?>> <<VARIABLE>> <<LINK>>

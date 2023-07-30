@@ -1,0 +1,15 @@
+<<attacks>> <<4:82-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Attack>> <<8:139-145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<8:172-180>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<attack>> <<12:304-310>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test>> <<19:552-556>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:181-184>> <<Attack>> <<PARAMETER>> <<ANCHOR>>
+<<timeout>> <<9:187-190>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<speed>> <<10:249-254>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<19:557-560>> <<Attack>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:311-314>> <<Attack>> <<PARAMETER>> <<ANCHOR>>
+<<publickey>> <<12:317-320>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cipher>> <<12:328-331>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<progress>> <<13:339-342>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<timeout>> <<10:226-233>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:244-248>> <<Attack>> <<VARIABLE>> <<LINK>>

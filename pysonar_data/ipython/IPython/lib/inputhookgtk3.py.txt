@@ -1,0 +1,5 @@
+<<_main_quit>> <<26:862-872>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<inputhook_gtk3>> <<31:939-953>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<kwargs>> <<26:882-888>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<26:874-878>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_main_quit>> <<32:1003-1013>> <<function>> <<VARIABLE>> <<LINK>>

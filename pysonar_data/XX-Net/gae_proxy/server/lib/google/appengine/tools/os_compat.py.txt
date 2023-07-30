@@ -1,0 +1,6 @@
+<<WindowsError>> <<50:1175-1187>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<WindowsError>> <<52:1219-1231>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ERROR_PATH_NOT_FOUND>> <<58:1325-1345>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<ERROR_ACCESS_DENIED>> <<59:1351-1370>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<ERROR_ALREADY_EXISTS>> <<60:1376-1396>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<WSAECONNABORTED>> <<61:1404-1419>> <<int>> <<SCOPE>> <<ANCHOR>>

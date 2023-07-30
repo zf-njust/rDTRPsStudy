@@ -1,0 +1,6 @@
+<<_Apiproxies>> <<6:108-119>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:138-143>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:164-173>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<EC2API>> <<11:220-226>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:246-251>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Apiproxies>> <<11:227-238>> <<type>> <<VARIABLE>> <<LINK>>

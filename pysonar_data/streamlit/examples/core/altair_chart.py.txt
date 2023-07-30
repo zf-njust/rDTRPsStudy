@@ -1,0 +1,6 @@
+<<data>> <<6:89-93>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<7:121-123>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<chart>> <<8:171-176>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<7:139-143>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<8:189-191>> <<?>> <<VARIABLE>> <<LINK>>
+<<chart>> <<9:266-271>> <<?>> <<VARIABLE>> <<LINK>>

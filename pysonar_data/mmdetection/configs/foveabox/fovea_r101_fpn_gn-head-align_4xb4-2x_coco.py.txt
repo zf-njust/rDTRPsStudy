@@ -1,0 +1,7 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:44-49>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<11:342-352>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<12:359-374>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<23:632-641>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<18:542-552>> <<int>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<23:660-670>> <<int>> <<VARIABLE>> <<LINK>>

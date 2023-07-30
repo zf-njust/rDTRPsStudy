@@ -1,0 +1,10 @@
+{
+  "code": "def dump_dataclass(obj: Any):\n    \"\"\"\n    Dump a dataclass recursively into a dict that can be later instantiated.\n\n    Args:\n        obj: a dataclass object\n\n    Returns:\n        dict\n    \"\"\"\n    assert dataclasses.is_dataclass(obj) and not isinstance(\n        obj, type\n    ), \"dump_dataclass() requires an instance of a dataclass.\"\n    ret = {\"_target_\": _convert_target_to_string(type(obj))}\n    for f in dataclasses.fields(obj):\n        v = getattr(obj, f.name)\n        if dataclasses.is_dataclass(v):\n            v = dump_dataclass(v)\n        if isinstance(v, (list, tuple)):\n            v = [dump_dataclass(x) if dataclasses.is_dataclass(x) else x for x in v]\n        ret[f.name] = v\n    return ret",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 16,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

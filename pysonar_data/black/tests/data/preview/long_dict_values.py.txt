@@ -1,0 +1,8 @@
+<<my_dict>> <<1:0-7>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<8:267-274>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<12:376-383>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<16:511-518>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<42:1429-1436>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<50:1705-1712>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<56:1832-1839>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<my_dict>> <<65:2012-2019>> <<dict>> <<SCOPE>> <<ANCHOR>>

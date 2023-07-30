@@ -1,0 +1,4 @@
+<<__email__>> <<15:362-371>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<16:397-407>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<17:429-440>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Codec>> <<21:468-473>> <<type>> <<CLASS>> <<ANCHOR>>

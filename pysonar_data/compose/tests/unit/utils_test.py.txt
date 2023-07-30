@@ -1,0 +1,17 @@
+<<compose>> <<2:30-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<JsonSplitterTestCase>> <<5:62-82>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_json_splitter_no_object>> <<7:114-142>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_json_splitter_with_object>> <<11:259-289>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:290-293>> <<JsonSplitterTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<12:306-310>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<7:143-146>> <<JsonSplitterTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<8:159-163>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:45-50>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:360-364>> <<JsonSplitterTestCase>> <<VARIABLE>> <<LINK>>
+<<utils>> <<14:391-396>> <<module>> <<VARIABLE>> <<LINK>>
+<<json_splitter>> <<14:397-410>> <<function>> <<VARIABLE>> <<LINK>>
+<<data>> <<14:411-415>> <<str>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:190-194>> <<JsonSplitterTestCase>> <<VARIABLE>> <<LINK>>
+<<utils>> <<9:207-212>> <<module>> <<VARIABLE>> <<LINK>>
+<<json_splitter>> <<9:213-226>> <<function>> <<VARIABLE>> <<LINK>>
+<<data>> <<9:227-231>> <<str>> <<VARIABLE>> <<LINK>>

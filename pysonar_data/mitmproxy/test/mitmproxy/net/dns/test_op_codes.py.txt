@@ -1,0 +1,13 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<1:15-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dns>> <<1:19-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_simple>> <<4:48-59>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<op_codes>> <<1:30-38>> <<module>> <<VARIABLE>> <<LINK>>
+<<op_codes>> <<5:75-83>> <<module>> <<VARIABLE>> <<LINK>>
+<<QUERY>> <<5:84-89>> <<int>> <<VARIABLE>> <<LINK>>
+<<op_codes>> <<6:107-115>> <<module>> <<VARIABLE>> <<LINK>>
+<<to_str>> <<6:116-122>> <<function>> <<VARIABLE>> <<LINK>>
+<<op_codes>> <<6:123-131>> <<module>> <<VARIABLE>> <<LINK>>
+<<QUERY>> <<6:132-137>> <<int>> <<VARIABLE>> <<LINK>>
+<<op_codes>> <<7:162-170>> <<module>> <<VARIABLE>> <<LINK>>
+<<to_str>> <<7:171-177>> <<function>> <<VARIABLE>> <<LINK>>

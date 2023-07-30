@@ -1,0 +1,11 @@
+<<XLABf16PrecisionPlugin>> <<23:791-813>> <<type>> <<CLASS>> <<ANCHOR>>
+<<connect>> <<28:953-960>> <<function>> <<METHOD>> <<ANCHOR>>
+<<teardown>> <<34:1255-1263>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:971-974>> <<XLABf16PrecisionPlugin>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<29:977-980>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<optimizers>> <<29:995-998>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lr_schedulers>> <<29:1024-1027>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1264-1267>> <<XLABf16PrecisionPlugin>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<32:1185-1190>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizers>> <<32:1203-1213>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_schedulers>> <<32:1229-1242>> <<?>> <<VARIABLE>> <<LINK>>

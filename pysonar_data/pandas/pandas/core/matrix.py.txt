@@ -1,0 +1,2 @@
+<<pandas>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<1:12-16>> <<module>> <<VARIABLE>> <<ANCHOR>>

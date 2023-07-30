@@ -1,0 +1,10 @@
+{
+  "code": "def check_function(self, func, fill_value=None):\n        par = (\n            (0, 1, 2),\n            range(self.ndims),\n            self.orders,\n            self.dtypes,\n            2**np.arange(9)\n        )\n        fill_kwarg = {}\n        if fill_value is not None:\n            fill_kwarg = {'fill_value': fill_value}\n        with warnings.catch_warnings():\n            warnings.simplefilter('ignore', DeprecationWarning)\n            for size, ndims, order, type, bytes in itertools.product(*par):\n                shape = ndims * [size]\n                try:\n                    dtype = np.dtype('{0}{1}'.format(type, bytes))\n                except TypeError:  # dtype combination does not exist\n                    continue\n                else:\n                    # do not fill void type\n                    if fill_value is not None and type in 'V':\n                        continue\n\n                    arr = func(shape, order=order, dtype=dtype,\n                               **fill_kwarg)\n\n                    assert_(arr.dtype == dtype)\n                    assert_(getattr(arr.flags, self.orders[order]))\n\n                    if fill_value is not None:\n                        if dtype.str.startswith('|S'):\n                            val = str(fill_value)\n                        else:\n                            val = fill_value\n                        assert_equal(arr, dtype.type(val))",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 29,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

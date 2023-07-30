@@ -1,0 +1,10 @@
+{
+  "code": "    def test_len(self):\n        assert len(_TestGroup) == 3",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 2,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

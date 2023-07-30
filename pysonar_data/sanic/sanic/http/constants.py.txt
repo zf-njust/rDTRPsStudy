@@ -1,0 +1,14 @@
+<<Stage>> <<4:42-47>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IDLE>> <<16:425-429>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<REQUEST>> <<17:462-469>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<HANDLER>> <<18:513-520>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RESPONSE>> <<19:563-571>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<FAILED>> <<20:624-630>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<HTTP>> <<23:702-706>> <<type>> <<CLASS>> <<ANCHOR>>
+<<VERSION_1>> <<24:722-731>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<VERSION_3>> <<25:741-750>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<display>> <<27:766-773>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<27:774-777>> <<HTTP>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<28:797-802>> <<float>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<28:812-816>> <<HTTP>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:833-837>> <<HTTP>> <<VARIABLE>> <<LINK>>

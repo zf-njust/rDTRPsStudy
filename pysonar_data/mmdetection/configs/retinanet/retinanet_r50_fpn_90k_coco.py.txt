@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<4:72-81>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<10:214-229>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<21:489-505>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<default_hooks>> <<22:552-565>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<log_processor>> <<24:625-638>> <<dict>> <<SCOPE>> <<ANCHOR>>

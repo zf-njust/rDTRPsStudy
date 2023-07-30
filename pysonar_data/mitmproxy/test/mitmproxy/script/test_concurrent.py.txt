@@ -1,0 +1,12 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<7:64-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<8:100-109>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestConcurrent>> <<11:139-153>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_concurrent_err>> <<31:939-958>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<31:959-962>> <<TestConcurrent>> <<PARAMETER>> <<ANCHOR>>
+<<tdata>> <<31:965-968>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<caplog>> <<31:972-975>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tctx>> <<32:1016-1020>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tctx>> <<33:1035-1039>> <<?>> <<VARIABLE>> <<LINK>>
+<<tdata>> <<34:1065-1070>> <<?>> <<VARIABLE>> <<LINK>>
+<<caplog>> <<36:1199-1205>> <<?>> <<VARIABLE>> <<LINK>>

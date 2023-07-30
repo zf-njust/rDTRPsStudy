@@ -1,0 +1,10 @@
+<<mitmproxy>> <<3:23-32>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ServerSideEvents>> <<6:56-72>> <<type>> <<CLASS>> <<ANCHOR>>
+<<response>> <<14:307-315>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:316-319>> <<ServerSideEvents>> <<PARAMETER>> <<ANCHOR>>
+<<flow>> <<14:322-325>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<is_sse>> <<16:383-389>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<flow>> <<15:360-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<flow>> <<16:392-396>> <<?>> <<VARIABLE>> <<LINK>>
+<<is_sse>> <<19:506-512>> <<?>> <<VARIABLE>> <<LINK>>
+<<flow>> <<19:521-525>> <<?>> <<VARIABLE>> <<LINK>>

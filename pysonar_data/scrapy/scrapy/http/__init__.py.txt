@@ -1,0 +1,16 @@
+<<scrapy>> <<8:183-189>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<8:190-194>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<10:226-232>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<10:233-237>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<11:267-273>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<11:274-278>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<12:317-323>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<12:324-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<14:370-376>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<14:377-381>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<15:413-419>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<15:420-424>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<16:465-471>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<16:472-476>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<17:515-521>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<17:522-526>> <<module>> <<VARIABLE>> <<ANCHOR>>

@@ -1,0 +1,9 @@
+<<__author__>> <<8:98-108>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<9:142-149>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<product>> <<12:170-177>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tqdm_kwargs>> <<12:192-203>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<iterables>> <<12:179-188>> <<tuple>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<20:341-347>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tqdm_class>> <<21:373-383>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tqdm_kwargs>> <<20:350-361>> <<dict>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<21:386-392>> <<?>> <<VARIABLE>> <<LINK>>

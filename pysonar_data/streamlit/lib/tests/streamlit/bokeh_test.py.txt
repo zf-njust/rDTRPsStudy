@@ -1,0 +1,10 @@
+<<BokehTest>> <<13:281-290>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_figure>> <<16:392-403>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:404-407>> <<BokehTest>> <<PARAMETER>> <<ANCHOR>>
+<<plot>> <<18:475-479>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<c>> <<22:561-562>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<plot>> <<19:500-504>> <<?>> <<VARIABLE>> <<LINK>>
+<<plot>> <<20:544-548>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:565-569>> <<BokehTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:626-630>> <<BokehTest>> <<VARIABLE>> <<LINK>>
+<<c>> <<23:651-652>> <<?>> <<VARIABLE>> <<LINK>>

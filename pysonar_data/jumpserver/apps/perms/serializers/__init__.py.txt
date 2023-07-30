@@ -1,0 +1,2 @@
+<<user_permission>> <<5:61-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<remote_app_permission>> <<6:93-114>> <<module>> <<VARIABLE>> <<ANCHOR>>

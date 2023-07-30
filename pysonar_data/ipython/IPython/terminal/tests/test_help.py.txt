@@ -1,0 +1,7 @@
+<<test_ipython_help>> <<10:260-277>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_profile_help>> <<13:319-336>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_profile_list_help>> <<16:387-409>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_profile_create_help>> <<19:465-489>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_locate_help>> <<22:547-563>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_locate_profile_help>> <<25:613-637>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_trust_help>> <<29:761-776>> <<function>> <<FUNCTION>> <<ANCHOR>>

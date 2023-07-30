@@ -1,0 +1,8 @@
+<<test_extracted_hpu>> <<21:834-852>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<import_path>> <<21:853-856>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<21:866-869>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<module>> <<22:878-884>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cls>> <<23:919-922>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<import_path>> <<22:901-912>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<23:933-939>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<23:941-945>> <<?>> <<VARIABLE>> <<LINK>>

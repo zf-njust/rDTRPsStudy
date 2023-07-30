@@ -1,0 +1,7 @@
+<<frame_selector>> <<3:60-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FrameSelectionStrategy>> <<4:89-111>> <<type>> <<VARIABLE>> <<LINK>>
+<<RandomKFramesSelector>> <<5:118-139>> <<type>> <<VARIABLE>> <<LINK>>
+<<FirstKFramesSelector>> <<6:146-166>> <<type>> <<VARIABLE>> <<LINK>>
+<<LastKFramesSelector>> <<7:173-192>> <<type>> <<VARIABLE>> <<LINK>>
+<<FrameTsList>> <<8:199-210>> <<?>> <<VARIABLE>> <<LINK>>
+<<FrameSelector>> <<9:217-230>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<32:1139-1146>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<ok_1>> <<45:1537-1541>> <<type>> <<CLASS>> <<ANCHOR>>
+<<msgtype>> <<53:1746-1753>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<revision>> <<54:1767-1775>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<create>> <<57:1809-1815>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<57:1816-1819>> <<ok_1>> <<PARAMETER>> <<ANCHOR>>
+<<request_id>> <<57:1821-1824>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<uest_id>> <<57:1824-1831>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<header>> <<68:2141-2147>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cls>> <<68:2150-2153>> <<ok_1>> <<VARIABLE>> <<LINK>>
+<<request_id>> <<68:2179-2189>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<69:2207-2210>> <<ok_1>> <<VARIABLE>> <<LINK>>
+<<header>> <<69:2211-2217>> <<?>> <<VARIABLE>> <<LINK>>

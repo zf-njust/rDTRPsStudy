@@ -1,0 +1,4 @@
+<<python_path>> <<18:665-676>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ori_path>> <<20:697-705>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<python_path>> <<23:842-853>> <<str>> <<VARIABLE>> <<LINK>>
+<<ori_path>> <<27:1139-1147>> <<str>> <<VARIABLE>> <<LINK>>

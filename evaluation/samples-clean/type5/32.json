@@ -1,0 +1,10 @@
+{
+  "code": "def tearDownClass(cls):\\n            del cls.realm",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

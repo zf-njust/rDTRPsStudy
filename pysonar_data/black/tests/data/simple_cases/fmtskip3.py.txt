@@ -1,0 +1,12 @@
+<<a>> <<1:0-1>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<b>> <<3:23-24>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<c>> <<3:29-30>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<4:39-40>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<e>> <<5:62-63>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<7:80-81>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<a>> <<11:193-194>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<b>> <<13:212-213>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<c>> <<13:218-219>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<14:228-229>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<e>> <<15:251-252>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<17:269-270>> <<list>> <<SCOPE>> <<ANCHOR>>

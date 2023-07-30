@@ -1,0 +1,9 @@
+<<HashableQListWidgetItem>> <<34:1845-1868>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<36:1898-1906>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<__hash__>> <<39:1994-2002>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<36:1907-1910>> <<HashableQListWidgetItem>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<36:1910-1911>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<39:2003-2006>> <<HashableQListWidgetItem>> <<PARAMETER>> <<ANCHOR>>
+<<HashableQListWidgetItem>> <<37:1936-1959>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<37:1961-1965>> <<HashableQListWidgetItem>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:2034-2038>> <<HashableQListWidgetItem>> <<VARIABLE>> <<LINK>>

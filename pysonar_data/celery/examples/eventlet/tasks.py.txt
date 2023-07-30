@@ -1,0 +1,9 @@
+<<celery>> <<3:24-30>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urlopen>> <<7:61-68>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<url>> <<7:69-72>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<10:133-141>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<task>> <<3:38-42>> <<module>> <<VARIABLE>> <<LINK>>
+<<url>> <<8:108-111>> <<?>> <<VARIABLE>> <<LINK>>
+<<url>> <<12:242-245>> <<?>> <<VARIABLE>> <<LINK>>
+<<url>> <<10:157-160>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<13:269-277>> <<?>> <<VARIABLE>> <<LINK>>

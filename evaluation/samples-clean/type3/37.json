@@ -1,0 +1,10 @@
+{
+  "code": "def _col_chunks(l, max_rows, row_first=False):\n    \"\"\"Yield successive max_rows-sized column chunks from l.\"\"\"\n    if row_first:\n        ncols = (len(l) // max_rows) + (len(l) % max_rows > 0)\n        for i in py3compat.xrange(ncols):\n            yield [l[j] for j in py3compat.xrange(i, len(l), ncols)]\n    else:\n        for i in py3compat.xrange(0, len(l), max_rows):\n            yield l[i:(i + max_rows)]",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 6,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

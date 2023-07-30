@@ -1,0 +1,5 @@
+<<test_core_features_app_example>> <<9:160-190>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runner>> <<10:199-205>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<11:225-231>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<runner>> <<11:234-240>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<26:634-640>> <<?>> <<VARIABLE>> <<LINK>>

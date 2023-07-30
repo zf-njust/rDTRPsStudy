@@ -1,0 +1,2 @@
+<<__version__>> <<5:70-81>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NotCompatible>> <<9:132-145>> <<type>> <<CLASS>> <<ANCHOR>>

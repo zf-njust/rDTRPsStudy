@@ -1,0 +1,13 @@
+<<MultiNodeComponent>> <<6:103-121>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<7:149-152>> <<function>> <<METHOD>> <<ANCHOR>>
+<<component>> <<27:495-504>> <<MultiNodeComponent>> <<SCOPE>> <<ANCHOR>>
+<<component>> <<28:575-584>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<29:618-621>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<8:163-166>> <<MultiNodeComponent>> <<PARAMETER>> <<ANCHOR>>
+<<main_address>> <<9:178-181>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<main_port>> <<10:206-209>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<node_rank>> <<11:231-234>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<world_size>> <<12:256-259>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MultiNodeComponent>> <<27:507-525>> <<type>> <<VARIABLE>> <<LINK>>
+<<component>> <<28:597-606>> <<MultiNodeComponent>> <<VARIABLE>> <<LINK>>
+<<component>> <<29:639-648>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<1:15-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dns>> <<1:19-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_simple>> <<4:54-65>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<response_codes>> <<1:30-44>> <<module>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<5:81-95>> <<module>> <<VARIABLE>> <<LINK>>
+<<NOERROR>> <<5:96-103>> <<int>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<6:121-135>> <<module>> <<VARIABLE>> <<LINK>>
+<<to_str>> <<6:136-142>> <<function>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<6:143-157>> <<module>> <<VARIABLE>> <<LINK>>
+<<NOERROR>> <<6:158-165>> <<int>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<7:192-206>> <<module>> <<VARIABLE>> <<LINK>>
+<<to_str>> <<7:207-213>> <<function>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<8:247-261>> <<module>> <<VARIABLE>> <<LINK>>
+<<http_equiv_status_code>> <<8:262-284>> <<function>> <<VARIABLE>> <<LINK>>
+<<response_codes>> <<8:285-299>> <<module>> <<VARIABLE>> <<LINK>>
+<<NOERROR>> <<8:300-307>> <<int>> <<VARIABLE>> <<LINK>>

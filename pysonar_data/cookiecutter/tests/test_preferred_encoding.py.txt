@@ -1,0 +1,7 @@
+<<PY3>> <<8:86-89>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<test_not_ascii>> <<12:192-206>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<fs_enc>> <<26:796-802>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<preferred_encoding>> <<23:656-674>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fs_enc>> <<24:716-722>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<preferred_encoding>> <<24:739-757>> <<?>> <<VARIABLE>> <<LINK>>
+<<fs_enc>> <<27:825-831>> <<?>> <<VARIABLE>> <<LINK>>

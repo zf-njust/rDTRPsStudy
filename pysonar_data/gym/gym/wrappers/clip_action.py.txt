@@ -1,0 +1,16 @@
+<<gym>> <<4:87-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<5:97-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<6:128-131>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<spaces>> <<6:132-138>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ClipAction>> <<9:161-171>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<22:632-640>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<action>> <<31:917-923>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<22:641-644>> <<ClipAction>> <<PARAMETER>> <<ANCHOR>>
+<<env>> <<22:647-650>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:924-927>> <<ClipAction>> <<PARAMETER>> <<ANCHOR>>
+<<action>> <<31:930-933>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<env>> <<28:852-855>> <<?>> <<VARIABLE>> <<LINK>>
+<<env>> <<29:901-904>> <<?>> <<VARIABLE>> <<LINK>>
+<<action>> <<40:1139-1145>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:1147-1151>> <<ClipAction>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:1170-1174>> <<ClipAction>> <<VARIABLE>> <<LINK>>

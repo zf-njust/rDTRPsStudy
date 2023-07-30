@@ -1,0 +1,17 @@
+<<__future__>> <<9:140-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<15:271-278>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<PrivateKey>> <<18:307-317>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<20:338-346>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<sign>> <<24:504-508>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:509-512>> <<PrivateKey>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<24:515-518>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<digest>> <<24:521-524>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<20:347-350>> <<PrivateKey>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<20:353-356>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_key>> <<22:437-441>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<absolute_import>> <<9:158-173>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:666-670>> <<PrivateKey>> <<VARIABLE>> <<LINK>>
+<<data>> <<27:690-694>> <<?>> <<VARIABLE>> <<LINK>>
+<<digest>> <<27:697-703>> <<?>> <<VARIABLE>> <<LINK>>
+<<key>> <<22:488-491>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:432-436>> <<PrivateKey>> <<VARIABLE>> <<LINK>>

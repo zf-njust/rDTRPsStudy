@@ -1,0 +1,10 @@
+{
+  "code": "def get_dnsserver_list():\n    if os.name == 'nt':\n        import ctypes\n        import ctypes.wintypes\n        DNS_CONFIG_DNS_SERVER_LIST = 6\n        buf = ctypes.create_string_buffer(2048)\n        ctypes.windll.dnsapi.DnsQueryConfig(DNS_CONFIG_DNS_SERVER_LIST, 0, None, None, ctypes.byref(buf), ctypes.byref(ctypes.wintypes.DWORD(len(buf))))\n        ipcount = struct.unpack('I', buf[0:4])[0]\n        iplist = [socket.inet_ntoa(buf[i:i+4]) for i in xrange(4, ipcount*4+4, 4)]\n        return iplist\n    elif os.path.isfile('/etc/resolv.conf'):\n        with open('/etc/resolv.conf', 'rb') as fp:\n            return re.findall(r'(?m)^nameserver\\s+(\\S+)', fp.read())\n    else:\n        logging.warning(\"get_dnsserver_list failed: unsupport platform '%s-%s'\", sys.platform, os.name)\n        return []\n    def startswith(self, prefix, start=None, end=None): # real signature unknown; restored from __doc__\n        \"\"\"\n        B.startswith(prefix[, start[, end]]) -> bool\n        \n        Return True if B starts with the specified prefix, False otherwise.\n        With optional start, test B beginning at that position.\n        With optional end, stop comparing B at that position.\n        prefix can also be a tuple of bytes to try.\n        \"\"\"\n        return False",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 9,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

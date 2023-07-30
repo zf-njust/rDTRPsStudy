@@ -1,0 +1,5 @@
+<<test_commands_and_api_example_cloud>> <<13:253-288>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<15:391-392>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<view_page>> <<16:403-412>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<17:423-433>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<app_name>> <<18:444-452>> <<?>> <<VARIABLE>> <<ANCHOR>>

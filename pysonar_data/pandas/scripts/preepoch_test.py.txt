@@ -1,0 +1,14 @@
+<<pandas>> <<2:25-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<panda_test>> <<5:50-60>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<data>> <<8:97-101>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<dates>> <<10:158-163>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cols>> <<12:241-245>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<df>> <<14:281-283>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<store>> <<17:361-366>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<panda_test>> <<23:540-550>> <<function>> <<VARIABLE>> <<LINK>>
+<<data>> <<14:296-300>> <<?>> <<VARIABLE>> <<LINK>>
+<<dates>> <<14:308-313>> <<?>> <<VARIABLE>> <<LINK>>
+<<cols>> <<14:323-327>> <<list>> <<VARIABLE>> <<LINK>>
+<<df>> <<18:422-424>> <<?>> <<VARIABLE>> <<LINK>>
+<<store>> <<18:408-413>> <<?>> <<VARIABLE>> <<LINK>>
+<<store>> <<19:489-494>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<scrapy>> <<4:26-32>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<selector>> <<4:33-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<5:65-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<selector>> <<5:72-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lxmlsel>> <<5:81-88>> <<module>> <<VARIABLE>> <<ANCHOR>>

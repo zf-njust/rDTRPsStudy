@@ -1,0 +1,8 @@
+<<check_venv>> <<5:37-47>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<filename>> <<5:48-51>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<user_id>> <<13:272-279>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<user_name>> <<14:302-311>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<filename>> <<12:252-260>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_id>> <<14:327-334>> <<int>> <<VARIABLE>> <<LINK>>
+<<user_name>> <<15:355-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_name>> <<15:382-391>> <<?>> <<VARIABLE>> <<LINK>>

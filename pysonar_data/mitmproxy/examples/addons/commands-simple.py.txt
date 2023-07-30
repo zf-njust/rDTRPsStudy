@@ -1,0 +1,12 @@
+<<mitmproxy>> <<4:82-91>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MyAddon>> <<7:118-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<8:136-144>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<inc>> <<12:222-225>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<8:145-148>> <<MyAddon>> <<PARAMETER>> <<ANCHOR>>
+<<num>> <<9:166-169>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<addons>> <<17:312-318>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<12:226-229>> <<MyAddon>> <<PARAMETER>> <<ANCHOR>>
+<<num>> <<13:255-258>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MyAddon>> <<17:322-329>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:161-165>> <<MyAddon>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:250-254>> <<MyAddon>> <<VARIABLE>> <<LINK>>

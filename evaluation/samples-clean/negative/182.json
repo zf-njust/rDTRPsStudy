@@ -1,0 +1,4 @@
+{
+    "code": "def default(self, o):\n        if isinstance(o, uuid.UUID):\n            return o.hex\n        elif isinstance(o, datetime.datetime):\n            return o.strftime('%Y-%m-%dT%H:%M:%S.%fZ')\n        elif isinstance(o, datetime.date):\n            return o.isoformat()\n        elif isinstance(o, datetime.time):\n            if is_aware(o):\n                raise ValueError(\"JSON can't represent timezone-aware times.\")\n            r = o.isoformat()\n            if o.microsecond:\n                r = r[:12]\n            return r\n        elif isinstance(o, (set, frozenset)):\n            return list(o)\n        elif isinstance(o, decimal.Decimal):\n            return str(o)\n        return super(BetterJSONEncoder, self).default(o)",
+    "smell": []
+}

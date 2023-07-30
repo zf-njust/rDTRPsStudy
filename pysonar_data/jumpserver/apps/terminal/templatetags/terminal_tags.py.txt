@@ -1,0 +1,6 @@
+<<register>> <<7:110-118>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<get_session_command_amount>> <<11:167-193>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<session_id>> <<11:194-197>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command_store>> <<12:212-225>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command_store>> <<13:268-281>> <<?>> <<VARIABLE>> <<LINK>>
+<<session_id>> <<13:296-306>> <<?>> <<VARIABLE>> <<LINK>>

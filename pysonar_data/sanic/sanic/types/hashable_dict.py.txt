@@ -1,0 +1,4 @@
+<<HashableDict>> <<1:6-18>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__hash__>> <<2:35-43>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<2:44-47>> <<HashableDict>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<3:85-89>> <<HashableDict>> <<VARIABLE>> <<LINK>>

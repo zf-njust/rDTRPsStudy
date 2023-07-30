@@ -1,0 +1,17 @@
+<<CacheListCommand>> <<6:54-70>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:88-92>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<description>> <<9:107-118>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<11:156-162>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:163-166>> <<CacheListCommand>> <<PARAMETER>> <<ANCHOR>>
+<<poetry>> <<12:184-190>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<locations>> <<12:191-200>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<caches>> <<15:299-305>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<cache>> <<17:398-403>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<REPOSITORY_CACHE_DIR>> <<12:208-228>> <<str>> <<VARIABLE>> <<LINK>>
+<<REPOSITORY_CACHE_DIR>> <<14:262-282>> <<str>> <<VARIABLE>> <<LINK>>
+<<REPOSITORY_CACHE_DIR>> <<15:320-340>> <<str>> <<VARIABLE>> <<LINK>>
+<<caches>> <<16:369-375>> <<list>> <<VARIABLE>> <<LINK>>
+<<caches>> <<17:407-413>> <<list>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:436-440>> <<CacheListCommand>> <<VARIABLE>> <<LINK>>
+<<cache>> <<18:467-472>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<21:517-521>> <<CacheListCommand>> <<VARIABLE>> <<LINK>>

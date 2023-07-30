@@ -1,0 +1,10 @@
+{
+  "code": "    def get_locales(self):\n        # type: () -> List[Text]\n        tracked_files = check_output(['git', 'ls-files', 'static/locale'])\n        tracked_files = tracked_files.decode().split()\n        regex = re.compile('static/locale/(\\w+)/LC_MESSAGES/django.po')\n        locales = ['en']\n        for tracked_file in tracked_files:\n            matched = regex.search(tracked_file)\n            if matched:\n                locales.append(matched.group(1))\n\n        return locales",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 4,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

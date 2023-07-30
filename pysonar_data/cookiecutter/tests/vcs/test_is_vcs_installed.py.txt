@@ -1,0 +1,8 @@
+<<cookiecutter>> <<4:47-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_is_vcs_installed>> <<13:230-251>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mocker>> <<13:252-255>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<which_return>> <<13:260-263>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<13:274-277>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mocker>> <<14:288-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<which_return>> <<17:383-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<19:446-452>> <<?>> <<VARIABLE>> <<LINK>>

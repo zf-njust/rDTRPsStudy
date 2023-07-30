@@ -1,0 +1,5 @@
+<<Component>> <<21:773-782>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ComponentTuple>> <<22:836-850>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Hashable>> <<26:927-935>> <<type>> <<CLASS>> <<ANCHOR>>
+<<to_dict>> <<27:956-963>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<27:964-967>> <<Hashable>> <<PARAMETER>> <<ANCHOR>>

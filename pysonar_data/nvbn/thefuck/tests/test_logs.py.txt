@@ -1,0 +1,13 @@
+<<test_color>> <<6:72-82>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_debug>> <<17:374-384>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<settings>> <<6:83-86>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<capsys>> <<17:385-388>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<17:393-396>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<debug>> <<17:403-406>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<17:410-413>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<7:99-107>> <<?>> <<VARIABLE>> <<LINK>>
+<<settings>> <<9:170-178>> <<?>> <<VARIABLE>> <<LINK>>
+<<debug>> <<18:441-446>> <<?>> <<VARIABLE>> <<LINK>>
+<<settings>> <<18:424-432>> <<?>> <<VARIABLE>> <<LINK>>
+<<capsys>> <<20:483-489>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<20:511-517>> <<?>> <<VARIABLE>> <<LINK>>

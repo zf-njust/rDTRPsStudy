@@ -1,0 +1,12 @@
+<<moblenet_v1_expected_feature_map_shape_128>> <<59:2484-2526>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v1_expected_feature_map_shape_128_explicit_padding>> <<69:3025-3084>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<mobilenet_v1_expected_feature_map_shape_with_dynamic_inputs>> <<79:3583-3642>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v1_expected_feature_map_shape_299>> <<89:4141-4183>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v1_expected_feature_map_shape_enforcing_min_depth>> <<99:4720-4778>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v1_expected_feature_map_shape_with_conv_defs>> <<109:5262-5315>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v2_expected_feature_map_shape_128>> <<120:5869-5911>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v2_expected_feature_map_shape_128_explicit_padding>> <<136:6806-6865>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<mobilenet_v2_expected_feature_map_shape_with_dynamic_inputs>> <<152:7760-7819>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v2_expected_feature_map_shape_299>> <<168:8714-8756>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v2_expected_feature_map_shape_enforcing_min_depth>> <<184:9721-9779>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<moblenet_v2_expected_feature_map_shape_with_conv_defs>> <<200:10740-10793>> <<list>> <<SCOPE>> <<ANCHOR>>

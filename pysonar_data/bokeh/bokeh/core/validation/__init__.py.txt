@@ -1,0 +1,7 @@
+<<log>> <<45:2165-2168>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<check>> <<56:2450-2455>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<decorators>> <<57:2495-2505>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<check_integrity>> <<56:2463-2478>> <<function>> <<VARIABLE>> <<LINK>>
+<<silence>> <<56:2480-2487>> <<function>> <<VARIABLE>> <<LINK>>
+<<error>> <<57:2513-2518>> <<function>> <<VARIABLE>> <<LINK>>
+<<warning>> <<57:2520-2527>> <<function>> <<VARIABLE>> <<LINK>>

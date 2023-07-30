@@ -1,0 +1,16 @@
+<<official>> <<19:706-714>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<19:715-723>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CustomizedReluTest>> <<22:754-772>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_relu6>> <<24:801-811>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:812-815>> <<CustomizedReluTest>> <<PARAMETER>> <<ANCHOR>>
+<<features>> <<25:824-832>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<customized_relu6_data>> <<26:870-891>> <<None>> <<VARIABLE>> <<ANCHOR>>
+<<relu6_data>> <<27:927-937>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<activations>> <<19:731-742>> <<module>> <<VARIABLE>> <<LINK>>
+<<activations>> <<26:894-905>> <<module>> <<VARIABLE>> <<LINK>>
+<<relu6>> <<26:906-911>> <<function>> <<VARIABLE>> <<LINK>>
+<<features>> <<26:912-920>> <<list>> <<VARIABLE>> <<LINK>>
+<<features>> <<27:952-960>> <<list>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:967-971>> <<CustomizedReluTest>> <<VARIABLE>> <<LINK>>
+<<customized_relu6_data>> <<28:987-1008>> <<None>> <<VARIABLE>> <<LINK>>
+<<relu6_data>> <<28:1010-1020>> <<?>> <<VARIABLE>> <<LINK>>

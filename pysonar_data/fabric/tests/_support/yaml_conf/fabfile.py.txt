@@ -1,0 +1,5 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<expect_conf_value>> <<5:40-57>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<c>> <<5:58-61>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<task>> <<1:19-23>> <<function>> <<VARIABLE>> <<LINK>>
+<<c>> <<6:74-75>> <<?>> <<VARIABLE>> <<LINK>>

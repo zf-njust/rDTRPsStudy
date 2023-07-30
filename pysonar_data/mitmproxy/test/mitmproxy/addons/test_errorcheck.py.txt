@@ -1,0 +1,11 @@
+<<mitmproxy>> <<5:40-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<5:50-56>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<errorcheck>> <<5:57-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<6:92-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<6:102-107>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_errorcheck>> <<9:129-144>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tdata>> <<9:145-148>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<capsys>> <<9:152-155>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ErrorCheck>> <<5:75-85>> <<type>> <<VARIABLE>> <<LINK>>
+<<tdata>> <<15:358-363>> <<?>> <<VARIABLE>> <<LINK>>
+<<capsys>> <<18:486-492>> <<?>> <<VARIABLE>> <<LINK>>

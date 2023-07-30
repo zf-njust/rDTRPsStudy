@@ -1,0 +1,5 @@
+<<rest_framework>> <<9:357-371>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UTF8_TEST_DOCSTRING>> <<13:507-526>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ViewWithNonASCIICharactersInDocstring>> <<24:762-799>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__doc__>> <<25:815-822>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<UTF8_TEST_DOCSTRING>> <<25:825-844>> <<str>> <<VARIABLE>> <<LINK>>

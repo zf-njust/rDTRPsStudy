@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<8:154-160>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<opts>> <<12:306-310>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<args>> <<12:312-316>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pyver>> <<13:344-349>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pyver>> <<16:393-398>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:33-47>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<parser>> <<9:183-189>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<12:319-325>> <<?>> <<VARIABLE>> <<LINK>>
+<<opts>> <<13:352-356>> <<?>> <<VARIABLE>> <<LINK>>
+<<pyver>> <<15:377-382>> <<?>> <<VARIABLE>> <<LINK>>
+<<pyver>> <<19:494-499>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<pyver>> <<22:582-587>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<pyver>> <<23:640-645>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<pyver>> <<27:802-807>> <<{str||?}>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<CompatibilityTest>> <<11:294-311>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_print_function>> <<12:341-360>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_builtin_types>> <<20:596-614>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<20:615-618>> <<CompatibilityTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:361-364>> <<CompatibilityTest>> <<PARAMETER>> <<ANCHOR>>
+<<string_buffer>> <<16:457-470>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<25:734-738>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:790-794>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:837-841>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:889-893>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:943-947>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<30:1001-1005>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<31:1048-1052>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1100-1104>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<string_buffer>> <<17:509-522>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:533-537>> <<CompatibilityTest>> <<VARIABLE>> <<LINK>>
+<<string_buffer>> <<18:559-572>> <<?>> <<VARIABLE>> <<LINK>>

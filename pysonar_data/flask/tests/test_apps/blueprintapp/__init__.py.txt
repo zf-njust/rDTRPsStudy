@@ -1,0 +1,5 @@
+<<flask>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<3:27-30>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<4:50-53>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<7:170-173>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<8:201-204>> <<?>> <<VARIABLE>> <<LINK>>

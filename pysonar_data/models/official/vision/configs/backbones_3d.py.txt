@@ -1,0 +1,17 @@
+<<official>> <<21:744-752>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<21:753-761>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ResNet3DBlock>> <<25:816-829>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResNet3D>> <<33:1040-1048>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResNet3D50>> <<46:1410-1420>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResNet3DRS>> <<66:2257-2267>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_RESNET3D50_DEFAULT_CFG>> <<91:3255-3278>> <<ResNet3D50>> <<SCOPE>> <<ANCHOR>>
+<<_RESNET3DRS_DEFAULT_CFG>> <<92:3295-3318>> <<ResNet3DRS>> <<SCOPE>> <<ANCHOR>>
+<<Backbone3D>> <<96:3369-3379>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hyperparams>> <<21:769-780>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<25:830-841>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<33:1049-1060>> <<module>> <<VARIABLE>> <<LINK>>
+<<ResNet3D>> <<46:1421-1429>> <<type>> <<VARIABLE>> <<LINK>>
+<<ResNet3D>> <<66:2268-2276>> <<type>> <<VARIABLE>> <<LINK>>
+<<ResNet3D50>> <<91:3281-3291>> <<type>> <<VARIABLE>> <<LINK>>
+<<ResNet3DRS>> <<92:3321-3331>> <<type>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<96:3380-3391>> <<module>> <<VARIABLE>> <<LINK>>

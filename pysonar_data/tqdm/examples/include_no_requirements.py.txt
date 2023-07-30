@@ -1,0 +1,10 @@
+<<tqdm>> <<6:139-143>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tqdm>> <<3:88-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<auto>> <<3:93-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<11:251-258>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<kwargs>> <<6:153-159>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<6:145-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tqdm>> <<3:88-92>> <<{type||?}>> <<VARIABLE>> <<LINK>>
+<<args>> <<7:173-177>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<8:198-202>> <<?>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<9:221-227>> <<?>> <<VARIABLE>> <<LINK>>

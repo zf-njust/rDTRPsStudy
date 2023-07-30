@@ -1,0 +1,11 @@
+<<TestBokehJS>> <<8:111-122>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_bokehjs>> <<10:143-155>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:156-159>> <<TestBokehJS>> <<PARAMETER>> <<ANCHOR>>
+<<proc>> <<12:201-205>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<out>> <<13:284-287>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<errs>> <<13:289-293>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<msg>> <<14:324-327>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<proc>> <<13:296-300>> <<?>> <<VARIABLE>> <<LINK>>
+<<out>> <<14:330-333>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<16:406-409>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<17:423-427>> <<?>> <<VARIABLE>> <<LINK>>

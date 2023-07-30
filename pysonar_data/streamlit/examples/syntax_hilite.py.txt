@@ -1,0 +1,16 @@
+<<Language>> <<4:62-70>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<languages>> <<6:120-129>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<lang>> <<87:1677-1681>> <<(namedtuple)>> <<SCOPE>> <<ANCHOR>>
+<<Language>> <<7:139-147>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<14:285-293>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<23:459-467>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<31:637-645>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<38:756-764>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<44:878-886>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<53:1030-1038>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<61:1151-1159>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<69:1281-1289>> <<type>> <<VARIABLE>> <<LINK>>
+<<Language>> <<77:1439-1447>> <<type>> <<VARIABLE>> <<LINK>>
+<<languages>> <<87:1685-1694>> <<list>> <<VARIABLE>> <<LINK>>
+<<lang>> <<88:1709-1713>> <<(namedtuple)>> <<VARIABLE>> <<LINK>>
+<<lang>> <<88:1723-1727>> <<(namedtuple)>> <<VARIABLE>> <<LINK>>

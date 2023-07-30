@@ -1,0 +1,15 @@
+<<official>> <<19:727-735>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<19:736-744>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<19:745-756>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<20:782-790>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<20:791-799>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<optimization>> <<20:800-812>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<20:813-820>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BaseOptimizerConfig>> <<24:880-899>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SGDTorchConfig>> <<41:1525-1539>> <<type>> <<CLASS>> <<ANCHOR>>
+<<base_config>> <<19:764-775>> <<module>> <<VARIABLE>> <<LINK>>
+<<optimizer_config>> <<20:828-844>> <<module>> <<VARIABLE>> <<LINK>>
+<<base_config>> <<24:900-911>> <<module>> <<VARIABLE>> <<LINK>>
+<<Config>> <<24:912-918>> <<type>> <<VARIABLE>> <<LINK>>
+<<optimizer_config>> <<41:1540-1556>> <<module>> <<VARIABLE>> <<LINK>>
+<<BaseOptimizerConfig>> <<41:1557-1576>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+{
+    "code": "def draw_embed(self, embed, name, which):\n        embed_ax, _ = self.current_ax if which == \"current\" else self.gen_ax\n        embed_ax.figure.suptitle(\"\" if embed is None else name)\n\n        ## Embedding\n        # Clear the plot\n        if len(embed_ax.images) > 0:\n            embed_ax.images[0].colorbar.remove()\n        embed_ax.clear()\n\n        # Draw the embed\n        if embed is not None:\n            plot_embedding_as_heatmap(embed, embed_ax)\n            embed_ax.set_title(\"embedding\")\n        embed_ax.set_aspect(\"equal\", \"datalim\")\n        embed_ax.set_xticks([])\n        embed_ax.set_yticks([])\n        embed_ax.figure.canvas.draw()",
+    "smell": []
+}

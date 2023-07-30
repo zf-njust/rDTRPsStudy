@@ -1,0 +1,12 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<distutils>> <<3:79-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ext1>> <<5:114-118>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ext2>> <<7:191-195>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<numpy>> <<11:315-320>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<distutils>> <<11:321-330>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ext1>> <<16:570-574>> <<?>> <<VARIABLE>> <<LINK>>
+<<ext2>> <<16:576-580>> <<?>> <<VARIABLE>> <<LINK>>

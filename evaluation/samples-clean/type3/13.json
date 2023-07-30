@@ -1,0 +1,10 @@
+{
+  "code": "    def test_error_no_recipient(self):\n        # type: () -> None\n        script = os.path.join(os.path.dirname(__file__),\n                              '../../scripts/lib/email-mirror-postfix')\n\n        sender = self.example_email('hamlet')\n        stream = get_stream(\"Denmark\", get_realm(\"zulip\"))\n        stream_to_address = encode_email_address(stream)\n        template_path = os.path.join(MAILS_DIR, \"simple.txt\")\n        with open(template_path) as template_file:\n            mail_template = template_file.read()\n        mail = mail_template.format(stream_to_address=stream_to_address, sender=sender)\n        read_pipe, write_pipe = os.pipe()\n        os.write(write_pipe, mail.encode())\n        os.close(write_pipe)\n        success_call = True\n        try:\n            subprocess.check_output([script, '-s', settings.SHARED_SECRET, '-t'],\n                                    stdin=read_pipe)\n        except subprocess.CalledProcessError as e:\n            self.assertEqual(\n                e.output,\n                b'5.1.1 Bad destination mailbox address: No missed message email address.\\n'\n            )\n            self.assertEqual(e.returncode, 67)\n            success_call = False\n        self.assertFalse(success_call)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 12,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

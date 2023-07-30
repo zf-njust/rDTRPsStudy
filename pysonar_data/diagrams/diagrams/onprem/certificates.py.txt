@@ -1,0 +1,9 @@
+<<_Certificates>> <<6:105-118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:134-139>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:162-171>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CertManager>> <<11:217-228>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:250-255>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<LetsEncrypt>> <<15:288-299>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:321-326>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Certificates>> <<11:229-242>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Certificates>> <<15:300-313>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,2 @@
+<<polyphony_model>> <<21:757-772>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PolyphonyRnnModel>> <<21:780-797>> <<type>> <<VARIABLE>> <<LINK>>

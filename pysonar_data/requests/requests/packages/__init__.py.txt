@@ -1,0 +1,6 @@
+<<__future__>> <<23:1117-1127>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urllib3>> <<29:1231-1238>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardet>> <<35:1359-1366>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<23:1135-1150>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<urllib3>> <<30:1283-1290>> <<module>> <<VARIABLE>> <<LINK>>
+<<chardet>> <<36:1411-1418>> <<module>> <<VARIABLE>> <<LINK>>

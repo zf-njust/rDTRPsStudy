@@ -1,0 +1,8 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<4:39-42>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<handle_request>> <<8:88-102>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<8:103-106>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<1:25-33>> <<module>> <<VARIABLE>> <<LINK>>
+<<app>> <<18:296-299>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<9:125-133>> <<module>> <<VARIABLE>> <<LINK>>
+<<redirect>> <<9:134-142>> <<function>> <<VARIABLE>> <<LINK>>

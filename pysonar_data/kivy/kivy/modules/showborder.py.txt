@@ -1,0 +1,14 @@
+<<__all__>> <<11:160-167>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<13:196-200>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<13:201-205>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<KV_CODE>> <<16:226-233>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<start>> <<28:481-486>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<stop>> <<32:560-564>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<win>> <<32:565-568>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctx>> <<32:570-573>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<win>> <<28:487-490>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctx>> <<28:492-495>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Builder>> <<13:213-220>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<33:581-588>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<29:503-510>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<KV_CODE>> <<29:523-530>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AntiComp>> <<4:37-45>> <<type>> <<CLASS>> <<ANCHOR>>
+<<load>> <<5:56-60>> <<function>> <<METHOD>> <<ANCHOR>>
+<<request>> <<13:261-268>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:269-272>> <<AntiComp>> <<PARAMETER>> <<ANCHOR>>
+<<flow>> <<13:275-278>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<5:61-64>> <<AntiComp>> <<PARAMETER>> <<ANCHOR>>
+<<loader>> <<5:67-70>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctx>> <<1:22-25>> <<module>> <<VARIABLE>> <<LINK>>
+<<ctx>> <<14:294-297>> <<module>> <<VARIABLE>> <<LINK>>
+<<flow>> <<15:329-333>> <<?>> <<VARIABLE>> <<LINK>>
+<<loader>> <<6:85-91>> <<?>> <<VARIABLE>> <<LINK>>

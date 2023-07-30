@@ -1,0 +1,5 @@
+<<coco_api>> <<2:55-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<4:103-110>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<COCO>> <<2:71-75>> <<type>> <<VARIABLE>> <<LINK>>
+<<COCOeval>> <<2:77-85>> <<?>> <<VARIABLE>> <<LINK>>
+<<COCOPanoptic>> <<2:87-99>> <<type>> <<VARIABLE>> <<LINK>>

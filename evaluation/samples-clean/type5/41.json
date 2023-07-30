@@ -1,0 +1,10 @@
+{
+  "code": "def fast_test_model(config_name, checkpoint, args, logger=None):\\n    cfg = Config.fromfile(config_name)\\n    cfg = replace_cfg_vals(cfg)\\n    cfg.launcher = args.launcher\\n    if args.cfg_options is not None:\\n        cfg.merge_from_dict(args.cfg_options)\\n\\n    # work_dir is determined in this priority: CLI > segment in file > filename\\n    if args.work_dir is not None:\\n        # update configs according to CLI args if args.work_dir is not None\\n        cfg.work_dir = osp.join(args.work_dir,\\n                                osp.splitext(osp.basename(config_name))[0])\\n    elif cfg.get('work_dir', None) is None:\\n        # use config filename as default work_dir if cfg.work_dir is None\\n        cfg.work_dir = osp.join('./work_dirs',\\n                                osp.splitext(osp.basename(config_name))[0])\\n\\n    if args.ceph:\\n        replace_to_ceph(cfg)\\n\\n    cfg.load_from = checkpoint\\n\\n    # TODO: temporary plan\\n    if 'visualizer' in cfg:\\n        if 'name' in cfg.visualizer:\\n            del cfg.visualizer.name\\n\\n    # build the runner from config\\n    if 'runner_type' not in cfg:\\n        # build the default runner\\n        runner = Runner.from_cfg(cfg)\\n    else:\\n        # build customized runner from the registry\\n        # if 'runner_type' is set in the cfg\\n        runner = RUNNERS.build(cfg)\\n\\n    runner.test()",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 26,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

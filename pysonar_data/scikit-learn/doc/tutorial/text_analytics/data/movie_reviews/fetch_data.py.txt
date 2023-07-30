@@ -1,0 +1,16 @@
+<<urllib>> <<8:148-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urllib>> <<6:95-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<URL>> <<11:183-186>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ARCHIVE_NAME>> <<14:286-298>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DATA_FOLDER>> <<15:324-335>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<opener>> <<22:506-512>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<URL>> <<14:301-304>> <<str>> <<VARIABLE>> <<LINK>>
+<<DATA_FOLDER>> <<18:380-391>> <<str>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_NAME>> <<20:423-435>> <<str>> <<VARIABLE>> <<LINK>>
+<<URL>> <<21:492-495>> <<str>> <<VARIABLE>> <<LINK>>
+<<URL>> <<22:523-526>> <<str>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_NAME>> <<23:542-554>> <<str>> <<VARIABLE>> <<LINK>>
+<<opener>> <<23:568-574>> <<?>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_NAME>> <<25:617-629>> <<str>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_NAME>> <<26:649-661>> <<str>> <<VARIABLE>> <<LINK>>
+<<ARCHIVE_NAME>> <<27:707-719>> <<str>> <<VARIABLE>> <<LINK>>

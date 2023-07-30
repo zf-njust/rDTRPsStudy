@@ -1,0 +1,10 @@
+{
+  "code": "def check_submodules():\n    \"\"\" verify that the submodules are checked out and clean\n        use `git submodule update --init`; on failure\n    \"\"\"\n    if not os.path.exists('.git'):\n        return\n    with open('.gitmodules') as f:\n        for l in f:\n            if 'path' in l:\n                p = l.split('=')[-1].strip()\n                if not os.path.exists(p):\n                    raise ValueError('Submodule %s missing' % p)\n\n\n    proc = subprocess.Popen(['git', 'submodule', 'status'],\n                            stdout=subprocess.PIPE)\n    status, _ = proc.communicate()\n    status = status.decode(\"ascii\", \"replace\")\n    for line in status.splitlines():\n        if line.startswith('-') or line.startswith('+'):\n            raise ValueError('Submodule not clean: %s' % line)\n    def startswith(self, prefix, start=None, end=None): # real signature unknown; restored from __doc__\n        \"\"\"\n        S.startswith(prefix[, start[, end]]) -> bool\n        \n        Return True if S starts with the specified prefix, False otherwise.\n        With optional start, test S beginning at that position.\n        With optional end, stop comparing S at that position.\n        prefix can also be a tuple of strings to try.\n        \"\"\"\n        return False",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 20,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

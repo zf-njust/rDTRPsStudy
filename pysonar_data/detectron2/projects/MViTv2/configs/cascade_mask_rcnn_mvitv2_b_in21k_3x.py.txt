@@ -1,0 +1,6 @@
+<<cascade_mask_rcnn_mvitv2_b_3x>> <<1:6-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<1:43-48>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<1:62-71>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<1:73-86>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<1:88-93>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<3:97-102>> <<?>> <<VARIABLE>> <<LINK>>

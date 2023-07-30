@@ -1,0 +1,12 @@
+<<ArchiBase>> <<3:35-44>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<5:63-71>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<flow>> <<10:178-182>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_weights>> <<14:330-341>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:72-75>> <<ArchiBase>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<5:75-76>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<6:121-125>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<14:342-345>> <<ArchiBase>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<10:183-186>> <<ArchiBase>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:186-187>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ArchiBase>> <<-1:385-394>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<6:116-120>> <<ArchiBase>> <<VARIABLE>> <<LINK>>

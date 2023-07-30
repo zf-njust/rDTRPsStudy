@@ -1,0 +1,16 @@
+<<pysnooper>> <<1:7-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<factorial>> <<5:66-75>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mul>> <<11:160-163>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<main>> <<15:198-202>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<expected_output>> <<18:227-242>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<5:76-79>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<11:164-167>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<b>> <<11:167-170>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<6:88-89>> <<?>> <<VARIABLE>> <<LINK>>
+<<mul>> <<8:126-129>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<8:130-131>> <<?>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<8:133-142>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<8:143-144>> <<?>> <<VARIABLE>> <<LINK>>
+<<a>> <<12:183-184>> <<int>> <<VARIABLE>> <<LINK>>
+<<b>> <<12:187-188>> <<?>> <<VARIABLE>> <<LINK>>
+<<factorial>> <<16:211-220>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<check_pangram>> <<5:77-90>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<input_string>> <<5:91-94>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<alphabet>> <<6:111-119>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<ch>> <<7:160-162>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<alphabet>> <<7:166-174>> <<str>> <<VARIABLE>> <<LINK>>
+<<ch>> <<8:188-190>> <<str>> <<VARIABLE>> <<LINK>>
+<<input_string>> <<8:198-210>> <<str>> <<VARIABLE>> <<LINK>>

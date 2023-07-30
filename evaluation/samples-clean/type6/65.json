@@ -1,0 +1,10 @@
+{
+  "code": "def invoke(self, args):\n        '''\n\n        '''\n        # protect this import inside a function so that \"bokeh info\" can work\n        # even if Tornado is not installed\n        from bokeh.server.server import Server\n\n        log_level = getattr(logging, args.log_level.upper())\n        basicConfig(level=log_level, format=args.log_format)\n\n        applications = {}\n\n        _allowed_keys = ['port', 'address']\n        server_kwargs = { key: getattr(args, key) for key in _allowed_keys if getattr(args, key, None) is not None }\n\n        with report_server_init_errors(**server_kwargs):\n            server = Server(applications, **server_kwargs)\n\n            address_string = ''\n            if server.address is not None and server.address != '':\n                address_string = ' address ' + server.address\n\n            log.info(\"Starting Bokeh static server on port %d%s\", server.port, address_string)\n            server.run_until_shutdown()",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 15,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

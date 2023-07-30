@@ -1,0 +1,2 @@
+<<load_ipython_extension>> <<9:264-286>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<9:287-290>> <<?>> <<PARAMETER>> <<ANCHOR>>

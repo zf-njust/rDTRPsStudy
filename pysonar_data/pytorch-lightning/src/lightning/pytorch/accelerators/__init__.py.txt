@@ -1,0 +1,4 @@
+<<ACCELERATORS_BASE_MODULE>> <<21:1168-1192>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<AcceleratorRegistry>> <<22:1229-1248>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<AcceleratorRegistry>> <<23:1302-1321>> <<?>> <<VARIABLE>> <<LINK>>
+<<ACCELERATORS_BASE_MODULE>> <<23:1323-1347>> <<str>> <<VARIABLE>> <<LINK>>

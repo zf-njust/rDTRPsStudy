@@ -1,0 +1,12 @@
+<<kivy>> <<118:2079-2083>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<118:2084-2087>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rst>> <<118:2088-2091>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<119:2117-2121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<119:2122-2125>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RstApp>> <<122:2148-2154>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<123:2170-2175>> <<function>> <<METHOD>> <<ANCHOR>>
+<<RstDocument>> <<118:2099-2110>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<119:2133-2136>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<122:2155-2158>> <<type>> <<VARIABLE>> <<LINK>>
+<<RstApp>> <<128:2262-2268>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<128:2271-2274>> <<function>> <<VARIABLE>> <<LINK>>

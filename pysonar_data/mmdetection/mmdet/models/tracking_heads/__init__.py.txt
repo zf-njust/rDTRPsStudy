@@ -1,0 +1,5 @@
+<<mask2former_track_head>> <<2:55-77>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<roi_embed_head>> <<5:227-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<8:307-314>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<Mask2FormerTrackHead>> <<2:85-105>> <<type>> <<VARIABLE>> <<LINK>>
+<<RoIEmbedHead>> <<5:249-261>> <<type>> <<VARIABLE>> <<LINK>>

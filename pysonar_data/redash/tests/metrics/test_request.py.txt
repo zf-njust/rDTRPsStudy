@@ -1,0 +1,6 @@
+<<TestRequestMetrics>> <<6:108-126>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_flask_request_records_statsd_metrics>> <<7:151-192>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:193-196>> <<TestRequestMetrics>> <<PARAMETER>> <<ANCHOR>>
+<<timing>> <<7:199-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:217-221>> <<TestRequestMetrics>> <<VARIABLE>> <<LINK>>
+<<timing>> <<9:251-257>> <<?>> <<VARIABLE>> <<LINK>>

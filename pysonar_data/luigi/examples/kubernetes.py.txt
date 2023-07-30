@@ -1,0 +1,9 @@
+<<luigi>> <<42:1369-1374>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<contrib>> <<42:1375-1382>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kubernetes>> <<42:1383-1393>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PerlPi>> <<45:1430-1436>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<47:1464-1468>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<max_retrials>> <<48:1481-1493>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<spec_schema>> <<49:1503-1514>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<KubernetesJobTask>> <<42:1401-1418>> <<type>> <<VARIABLE>> <<LINK>>
+<<KubernetesJobTask>> <<45:1437-1454>> <<type>> <<VARIABLE>> <<LINK>>

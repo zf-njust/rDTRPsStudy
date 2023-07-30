@@ -1,0 +1,10 @@
+{
+  "code": "    def bpe(self, token):\n        if token in self.cache:\n            return self.cache[token]\n        word = tuple(token)\n        pairs = get_pairs(word)\n\n        if not pairs:\n            return token\n\n        while True:\n            bigram = min(pairs, key = lambda pair: self.bpe_ranks.get(pair, float('inf')))\n            if bigram not in self.bpe_ranks:\n                break\n            first, second = bigram\n            new_word = []\n            i = 0\n            while i < len(word):\n                try:\n                    j = word.index(first, i)\n                    new_word.extend(word[i:j])\n                    i = j\n                except:\n                    new_word.extend(word[i:])\n                    break\n\n                if word[i] == first and i < len(word)-1 and word[i+1] == second:\n                    new_word.append(first+second)\n                    i += 2\n                else:\n                    new_word.append(word[i])\n                    i += 1\n            new_word = tuple(new_word)\n            word = new_word\n            if len(word) == 1:\n                break\n            else:\n                pairs = get_pairs(word)\n        word = ' '.join(word)\n        self.cache[token] = word\n        return word",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 38,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

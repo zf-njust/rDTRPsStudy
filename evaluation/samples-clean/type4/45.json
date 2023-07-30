@@ -1,0 +1,10 @@
+{
+  "code": "def _load_from_state_dict(\n        self, state_dict, prefix, local_metadata, strict, missing_keys, unexpected_keys, error_msgs\n    ):\n        version = local_metadata.get(\"version\", None)\n\n        if version is None or version < 2:\n            logger = logging.getLogger(__name__)\n            logger.warning(\n                \"Weight format of PointRend models have changed! \"\n                \"Applying automatic conversion now ...\"\n            )\n            for k in list(state_dict.keys()):\n                newk = k\n                if k.startswith(prefix + \"coarse_mask_fc\"):\n                    newk = k.replace(prefix + \"coarse_mask_fc\", prefix + \"fc\")\n                if newk != k:\n                    state_dict[newk] = state_dict[k]\n                    del state_dict[k]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

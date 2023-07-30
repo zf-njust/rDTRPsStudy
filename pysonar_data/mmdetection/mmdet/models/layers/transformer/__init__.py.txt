@@ -1,0 +1,17 @@
+<<conditional_detr_layers>> <<2:55-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dab_detr_layers>> <<4:208-223>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detr_layers>> <<11:685-696>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mask2former_layers>> <<14:913-931>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<21:1322-1329>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ConditionalDetrTransformerDecoder>> <<2:87-120>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConditionalDetrTransformerDecoderLayer>> <<3:161-199>> <<type>> <<VARIABLE>> <<LINK>>
+<<DABDetrTransformerDecoder>> <<4:232-257>> <<type>> <<VARIABLE>> <<LINK>>
+<<DABDetrTransformerDecoderLayer>> <<5:290-320>> <<type>> <<VARIABLE>> <<LINK>>
+<<DABDetrTransformerEncoder>> <<6:353-378>> <<type>> <<VARIABLE>> <<LINK>>
+<<DetrTransformerDecoder>> <<11:705-727>> <<type>> <<VARIABLE>> <<LINK>>
+<<DetrTransformerDecoderLayer>> <<11:729-756>> <<type>> <<VARIABLE>> <<LINK>>
+<<DetrTransformerEncoder>> <<12:785-807>> <<type>> <<VARIABLE>> <<LINK>>
+<<DetrTransformerEncoderLayer>> <<12:809-836>> <<type>> <<VARIABLE>> <<LINK>>
+<<Mask2FormerTransformerDecoder>> <<14:940-969>> <<type>> <<VARIABLE>> <<LINK>>
+<<Mask2FormerTransformerDecoderLayer>> <<15:1005-1039>> <<type>> <<VARIABLE>> <<LINK>>
+<<Mask2FormerTransformerEncoder>> <<16:1075-1104>> <<type>> <<VARIABLE>> <<LINK>>

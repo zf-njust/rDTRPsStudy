@@ -1,0 +1,8 @@
+<<is_consecutive>> <<2:28-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_sorted>> <<3:59-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<remove_min>> <<4:85-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stutter>> <<5:112-119>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<switch_pairs>> <<6:136-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<valid_parenthesis>> <<7:165-182>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<simplify_path>> <<8:199-212>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ordered_stack>> <<10:251-264>> <<module>> <<VARIABLE>> <<ANCHOR>>

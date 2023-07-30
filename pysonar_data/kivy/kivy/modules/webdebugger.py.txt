@@ -1,0 +1,9 @@
+<<__all__>> <<24:433-440>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<28:518-522>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modules>> <<28:523-530>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_webdebugger>> <<28:531-543>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stop>> <<30:583-587>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<start>> <<30:575-580>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<start>> <<28:551-556>> <<function>> <<VARIABLE>> <<LINK>>
+<<stop>> <<28:558-562>> <<function>> <<VARIABLE>> <<LINK>>
+<<stop>> <<30:583-587>> <<function>> <<VARIABLE>> <<LINK>>

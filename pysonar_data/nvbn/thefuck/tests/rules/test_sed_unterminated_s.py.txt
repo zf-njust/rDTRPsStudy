@@ -1,0 +1,12 @@
+<<sed_unterminated_s>> <<7:142-160>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<11:243-253>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<20:683-703>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sed_unterminated_s>> <<20:704-707>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<sed_unterminated_s>> <<11:254-257>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<sed_unterminated_s>> <<21:788-806>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<23:909-927>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<25:1035-1053>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<27:1175-1193>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<12:328-346>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<13:401-419>> <<?>> <<VARIABLE>> <<LINK>>
+<<sed_unterminated_s>> <<14:488-506>> <<?>> <<VARIABLE>> <<LINK>>

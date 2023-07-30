@@ -1,0 +1,9 @@
+<<project>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<4:69-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<4:74-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<video>> <<4:79-84>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VideoApp>> <<1:20-28>> <<type>> <<VARIABLE>> <<LINK>>
+<<Video>> <<4:92-97>> <<None>> <<VARIABLE>> <<LINK>>
+<<Video>> <<5:110-115>> <<None>> <<VARIABLE>> <<LINK>>
+<<VideoApp>> <<6:133-141>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<6:144-147>> <<function>> <<VARIABLE>> <<LINK>>

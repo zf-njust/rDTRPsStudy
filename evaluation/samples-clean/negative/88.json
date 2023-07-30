@@ -1,0 +1,4 @@
+{
+    "code": "def validate_arguments(self, kw):\n    if not 'env' in kw:\n        kw['env'] = self.env.derive()\n    if not \"compile_mode\" in kw:\n        kw[\"compile_mode\"] = \"c\"\n    if not 'compile_filename' in kw:\n        kw['compile_filename'] = 'test.c' + \\\n                ((kw['compile_mode'] == 'cxx') and 'pp' or '')\n    if not 'features' in kw:\n        kw['features'] = [kw['compile_mode']]\n    if not 'execute' in kw:\n        kw['execute'] = False\n    if not 'okmsg' in kw:\n        kw['okmsg'] = 'yes'\n    if not 'errmsg' in kw:\n        kw['errmsg'] = 'no !'\n\n    if 'define_name' in kw:\n        comment = kw.get('define_comment', None)\n        self.undefine_with_comment(kw['define_name'], comment)",
+    "smell": []
+}

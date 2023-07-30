@@ -1,0 +1,4 @@
+<<src_dir>> <<8:131-138>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<fpath>> <<11:268-273>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<src_dir>> <<12:286-293>> <<str>> <<VARIABLE>> <<LINK>>
+<<fpath>> <<14:330-335>> <<str>> <<VARIABLE>> <<LINK>>

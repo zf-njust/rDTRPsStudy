@@ -1,0 +1,6 @@
+<<lib>> <<7:104-107>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<9:140-146>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Config>> <<12:220-226>> <<type>> <<CLASS>> <<ANCHOR>>
+<<set_defaults>> <<15:292-304>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:305-308>> <<Config>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<17:372-376>> <<Config>> <<VARIABLE>> <<LINK>>

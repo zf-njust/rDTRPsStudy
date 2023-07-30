@@ -1,0 +1,1 @@
+<<InvalidVersion>> <<1:6-20>> <<type>> <<CLASS>> <<ANCHOR>>

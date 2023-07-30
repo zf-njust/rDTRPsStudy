@@ -1,0 +1,15 @@
+<<__version__>> <<18:732-743>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_minimum_jaxlib_version>> <<19:756-779>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_version_as_tuple>> <<21:798-815>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<version_str>> <<21:816-819>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<22:857-858>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version_info__>> <<24:904-920>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<_minimum_jaxlib_version_info>> <<25:955-983>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<_version_as_tuple>> <<24:923-940>> <<function>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<24:941-952>> <<str>> <<VARIABLE>> <<LINK>>
+<<version_str>> <<22:862-873>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<22:888-889>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<22:857-858>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<22:850-851>> <<str>> <<VARIABLE>> <<LINK>>
+<<_version_as_tuple>> <<25:986-1003>> <<function>> <<VARIABLE>> <<LINK>>
+<<_minimum_jaxlib_version>> <<25:1004-1027>> <<str>> <<VARIABLE>> <<LINK>>

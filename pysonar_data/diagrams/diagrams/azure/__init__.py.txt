@@ -1,0 +1,4 @@
+<<_Azure>> <<8:113-119>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:132-141>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:157-166>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:194-203>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

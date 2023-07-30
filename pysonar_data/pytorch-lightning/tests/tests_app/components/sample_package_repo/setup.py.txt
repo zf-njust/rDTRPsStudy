@@ -1,0 +1,8 @@
+<<LIGHTNING_COMPONENT_INFO>> <<7:121-145>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<PostInstallCommand>> <<14:292-310>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<15:330-333>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:334-337>> <<PostInstallCommand>> <<PARAMETER>> <<ANCHOR>>
+<<LIGHTNING_COMPONENT_INFO>> <<21:508-532>> <<dict>> <<VARIABLE>> <<LINK>>
+<<LIGHTNING_COMPONENT_INFO>> <<22:558-582>> <<dict>> <<VARIABLE>> <<LINK>>
+<<PostInstallCommand>> <<43:1462-1480>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:362-366>> <<PostInstallCommand>> <<VARIABLE>> <<LINK>>

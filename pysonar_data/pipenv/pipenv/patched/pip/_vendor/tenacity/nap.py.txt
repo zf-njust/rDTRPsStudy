@@ -1,0 +1,16 @@
+<<sleep>> <<25:750-755>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sleep_using_event>> <<34:976-993>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<37:1063-1071>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<__call__>> <<40:1149-1157>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<37:1072-1075>> <<sleep_using_event>> <<PARAMETER>> <<ANCHOR>>
+<<event>> <<37:1078-1081>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<event>> <<38:1126-1131>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<seconds>> <<25:756-759>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<40:1158-1161>> <<sleep_using_event>> <<PARAMETER>> <<ANCHOR>>
+<<timeout>> <<40:1164-1167>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<event>> <<38:1134-1139>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1121-1125>> <<sleep_using_event>> <<VARIABLE>> <<LINK>>
+<<seconds>> <<31:959-966>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<43:1350-1354>> <<sleep_using_event>> <<VARIABLE>> <<LINK>>
+<<event>> <<43:1355-1360>> <<?>> <<VARIABLE>> <<LINK>>
+<<timeout>> <<43:1374-1381>> <<?>> <<VARIABLE>> <<LINK>>

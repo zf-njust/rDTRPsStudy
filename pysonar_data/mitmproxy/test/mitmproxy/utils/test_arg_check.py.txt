@@ -1,0 +1,15 @@
+<<io>> <<2:26-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<3:35-43>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<7:81-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<7:91-96>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_check_args>> <<52:1751-1766>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<arg>> <<52:1767-1770>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<output>> <<52:1772-1775>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<53:1786-1787>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<m>> <<55:1885-1886>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<53:1790-1792>> <<module>> <<VARIABLE>> <<LINK>>
+<<f>> <<54:1841-1842>> <<?>> <<VARIABLE>> <<LINK>>
+<<arg>> <<56:1930-1933>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<56:1901-1902>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<58:1985-1986>> <<?>> <<VARIABLE>> <<LINK>>
+<<output>> <<58:2009-2015>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+<<Markdown>> <<22:737-745>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_repr_html_>> <<26:834-845>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<26:846-849>> <<Markdown>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<27:887-891>> <<Markdown>> <<VARIABLE>> <<LINK>>

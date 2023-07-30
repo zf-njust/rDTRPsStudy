@@ -1,0 +1,14 @@
+<<__version__>> <<9:199-210>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DistlibException>> <<11:228-244>> <<type>> <<CLASS>> <<ANCHOR>>
+<<NullHandler>> <<17:357-368>> <<type>> <<CLASS>> <<ANCHOR>>
+<<handle>> <<18:399-405>> <<function>> <<METHOD>> <<ANCHOR>>
+<<emit>> <<19:438-442>> <<function>> <<METHOD>> <<ANCHOR>>
+<<createLock>> <<20:475-485>> <<function>> <<METHOD>> <<ANCHOR>>
+<<logger>> <<22:511-517>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<18:406-409>> <<NullHandler>> <<PARAMETER>> <<ANCHOR>>
+<<record>> <<18:412-415>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<20:486-489>> <<NullHandler>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:443-446>> <<NullHandler>> <<PARAMETER>> <<ANCHOR>>
+<<record>> <<19:449-452>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<logger>> <<23:548-554>> <<?>> <<VARIABLE>> <<LINK>>
+<<NullHandler>> <<23:566-577>> <<type>> <<VARIABLE>> <<LINK>>

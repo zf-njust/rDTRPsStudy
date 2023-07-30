@@ -1,0 +1,15 @@
+<<lib>> <<10:208-211>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<10:212-218>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<13:279-285>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<main>> <<16:325-329>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<logfile>> <<32:803-810>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<is_gui>> <<16:330-333>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<update>> <<26:654-660>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log_setup>> <<10:226-235>> <<function>> <<VARIABLE>> <<LINK>>
+<<log_setup>> <<33:902-911>> <<function>> <<VARIABLE>> <<LINK>>
+<<logfile>> <<33:920-927>> <<str>> <<VARIABLE>> <<LINK>>
+<<main>> <<34:943-947>> <<function>> <<VARIABLE>> <<LINK>>
+<<logger>> <<25:609-615>> <<?>> <<VARIABLE>> <<LINK>>
+<<update>> <<27:702-708>> <<?>> <<VARIABLE>> <<LINK>>
+<<is_gui>> <<27:717-723>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<28:730-736>> <<?>> <<VARIABLE>> <<LINK>>

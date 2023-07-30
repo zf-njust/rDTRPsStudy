@@ -1,0 +1,8 @@
+<<job_dir>> <<3:17-24>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<settings>> <<3:25-28>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<4:41-45>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<settings>> <<4:48-56>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<5:75-79>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<5:103-107>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<6:131-135>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<7:149-153>> <<?>> <<VARIABLE>> <<LINK>>

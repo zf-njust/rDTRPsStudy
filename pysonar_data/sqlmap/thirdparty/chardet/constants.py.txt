@@ -1,0 +1,8 @@
+<<_debug>> <<29:1223-1229>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eDetecting>> <<31:1235-1245>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eFoundIt>> <<32:1250-1258>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eNotMe>> <<33:1263-1269>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eStart>> <<35:1275-1281>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eError>> <<36:1286-1292>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<eItsMe>> <<37:1297-1303>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<SHORTCUT_THRESHOLD>> <<39:1309-1327>> <<float>> <<SCOPE>> <<ANCHOR>>

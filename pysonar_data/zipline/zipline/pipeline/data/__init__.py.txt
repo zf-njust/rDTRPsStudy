@@ -1,0 +1,7 @@
+<<equity_pricing>> <<1:6-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dataset>> <<2:51-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<4:98-105>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<USEquityPricing>> <<1:28-43>> <<type>> <<VARIABLE>> <<LINK>>
+<<DataSet>> <<2:66-73>> <<type>> <<VARIABLE>> <<LINK>>
+<<Column>> <<2:75-81>> <<type>> <<VARIABLE>> <<LINK>>
+<<BoundColumn>> <<2:83-94>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def increment_version(self, version, rule):\n        from poetry.semver import Version\n\n        try:\n            version = Version.parse(version)\n        except ValueError:\n            raise ValueError(\"The project's version doesn't seem to follow semver\")\n\n        if rule in {\"major\", \"premajor\"}:\n            new = version.next_major\n            if rule == \"premajor\":\n                new = new.first_prerelease\n        elif rule in {\"minor\", \"preminor\"}:\n            new = version.next_minor\n            if rule == \"preminor\":\n                new = new.first_prerelease\n        elif rule in {\"patch\", \"prepatch\"}:\n            new = version.next_patch\n            if rule == \"prepatch\":\n                new = new.first_prerelease\n        elif rule == \"prerelease\":\n            if version.is_prerelease():\n                pre = version.prerelease\n                new_prerelease = int(pre[1]) + 1\n                new = Version.parse(\n                    \"{}.{}.{}-{}\".format(\n                        version.major,\n                        version.minor,\n                        version.patch,\n                        \".\".join([pre[0], str(new_prerelease)]),\n                    )\n                )\n            else:\n                new = version.next_patch.first_prerelease\n        else:\n            new = Version.parse(rule)\n\n        return new",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 38,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

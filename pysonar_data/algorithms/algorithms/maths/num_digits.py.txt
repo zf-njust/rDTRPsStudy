@@ -1,0 +1,6 @@
+<<num_digits>> <<8:138-148>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<8:149-152>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<9:158-159>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<9:164-165>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<10:175-176>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<12:226-227>> <<int>> <<VARIABLE>> <<LINK>>

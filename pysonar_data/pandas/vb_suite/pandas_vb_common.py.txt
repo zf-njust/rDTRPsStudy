@@ -1,0 +1,10 @@
+<<pandas>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<2:29-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<2:39-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<7:186-192>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<11:263-269>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<19:407-413>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<17:363-369>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Panel>> <<22:438-443>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pandas>> <<28:542-548>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<28:549-553>> <<module>> <<VARIABLE>> <<ANCHOR>>

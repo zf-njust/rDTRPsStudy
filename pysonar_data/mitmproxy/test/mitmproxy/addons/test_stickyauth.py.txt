@@ -1,0 +1,13 @@
+<<mitmproxy>> <<3:22-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<4:56-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<4:66-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<5:97-106>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<6:133-142>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_configure>> <<9:170-184>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_simple>> <<20:486-497>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<exceptions>> <<3:39-49>> <<module>> <<VARIABLE>> <<LINK>>
+<<stickyauth>> <<4:80-90>> <<module>> <<VARIABLE>> <<LINK>>
+<<stickyauth>> <<21:510-520>> <<module>> <<VARIABLE>> <<LINK>>
+<<StickyAuth>> <<21:521-531>> <<type>> <<VARIABLE>> <<LINK>>
+<<stickyauth>> <<10:197-207>> <<module>> <<VARIABLE>> <<LINK>>
+<<StickyAuth>> <<10:208-218>> <<type>> <<VARIABLE>> <<LINK>>

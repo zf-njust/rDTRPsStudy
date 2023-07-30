@@ -1,0 +1,10 @@
+<<INFRA>> <<1:0-5>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<REPO_OWNER>> <<2:21-31>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<REPO_NAME>> <<3:46-55>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<REF>> <<4:73-76>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<REGION>> <<5:85-91>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VCS>> <<6:106-109>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VISIBILITY>> <<7:121-131>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<REF_TYPE>> <<8:144-152>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LOCAL_MODE>> <<9:164-174>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<DOMAIN_CONNECTION_PORT>> <<10:182-204>> <<int>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,15 @@
+<<plugins>> <<8:150-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<8:158-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<syntax>> <<8:166-172>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Syntax>> <<10:211-217>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<11:242-250>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<escape>> <<15:322-328>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:251-254>> <<Syntax>> <<PARAMETER>> <<ANCHOR>>
+<<expression>> <<15:329-332>> <<Syntax>> <<PARAMETER>> <<ANCHOR>>
+<<quote>> <<15:341-344>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Syntax>> <<8:190-203>> <<type>> <<VARIABLE>> <<LINK>>
+<<Syntax>> <<10:218-231>> <<type>> <<VARIABLE>> <<LINK>>
+<<Syntax>> <<12:266-279>> <<type>> <<VARIABLE>> <<LINK>>
+<<__init__>> <<12:280-288>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:289-293>> <<Syntax>> <<VARIABLE>> <<LINK>>
+<<expression>> <<21:493-503>> <<Syntax>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<TestDatabaseMetrics>> <<6:108-127>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_db_request_records_statsd_metrics>> <<7:152-190>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:191-194>> <<TestDatabaseMetrics>> <<PARAMETER>> <<ANCHOR>>
+<<timing>> <<7:197-200>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:215-219>> <<TestDatabaseMetrics>> <<VARIABLE>> <<LINK>>
+<<timing>> <<9:252-258>> <<?>> <<VARIABLE>> <<LINK>>

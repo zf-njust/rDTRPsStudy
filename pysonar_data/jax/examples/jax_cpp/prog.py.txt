@@ -1,0 +1,10 @@
+<<jax>> <<16:641-644>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<16:654-657>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fn>> <<18:665-667>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<18:668-671>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<18:671-674>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<z>> <<18:674-677>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<numpy>> <<19:690-693>> <<module>> <<VARIABLE>> <<LINK>>
+<<x>> <<19:698-699>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<19:701-702>> <<?>> <<VARIABLE>> <<LINK>>
+<<z>> <<19:706-707>> <<?>> <<VARIABLE>> <<LINK>>

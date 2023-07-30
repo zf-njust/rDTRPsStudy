@@ -1,0 +1,11 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<3:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestExample>> <<6:174-185>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_fact>> <<7:206-215>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_cvar>> <<10:283-292>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:293-296>> <<TestExample>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<7:216-219>> <<TestExample>> <<PARAMETER>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>

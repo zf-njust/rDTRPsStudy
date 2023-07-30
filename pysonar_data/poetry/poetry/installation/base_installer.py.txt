@@ -1,0 +1,11 @@
+<<BaseInstaller>> <<1:6-19>> <<type>> <<CLASS>> <<ANCHOR>>
+<<install>> <<2:30-37>> <<function>> <<METHOD>> <<ANCHOR>>
+<<update>> <<5:100-106>> <<function>> <<METHOD>> <<ANCHOR>>
+<<remove>> <<8:176-182>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:107-110>> <<BaseInstaller>> <<PARAMETER>> <<ANCHOR>>
+<<source>> <<5:113-116>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<target>> <<5:121-124>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<2:38-41>> <<BaseInstaller>> <<PARAMETER>> <<ANCHOR>>
+<<package>> <<2:44-47>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:183-186>> <<BaseInstaller>> <<PARAMETER>> <<ANCHOR>>
+<<package>> <<8:189-192>> <<?>> <<PARAMETER>> <<ANCHOR>>

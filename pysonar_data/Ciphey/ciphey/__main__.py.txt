@@ -1,0 +1,6 @@
+<<major>> <<11:144-149>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<minor>> <<12:177-182>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<python_version>> <<14:212-226>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<major>> <<22:384-389>> <<?>> <<VARIABLE>> <<LINK>>
+<<minor>> <<22:398-403>> <<?>> <<VARIABLE>> <<LINK>>
+<<minor>> <<31:796-801>> <<?>> <<VARIABLE>> <<LINK>>

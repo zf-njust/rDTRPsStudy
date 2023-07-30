@@ -1,0 +1,3 @@
+<<_Adjacentenablers>> <<6:108-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:144-149>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:176-185>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

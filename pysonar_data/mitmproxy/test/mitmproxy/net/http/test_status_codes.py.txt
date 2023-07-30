@@ -1,0 +1,9 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<1:15-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<1:19-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_simple>> <<4:53-64>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<status_codes>> <<1:31-43>> <<module>> <<VARIABLE>> <<LINK>>
+<<status_codes>> <<5:80-92>> <<module>> <<VARIABLE>> <<LINK>>
+<<IM_A_TEAPOT>> <<5:93-104>> <<int>> <<VARIABLE>> <<LINK>>
+<<status_codes>> <<6:124-136>> <<module>> <<VARIABLE>> <<LINK>>
+<<RESPONSES>> <<6:137-146>> <<dict>> <<VARIABLE>> <<LINK>>

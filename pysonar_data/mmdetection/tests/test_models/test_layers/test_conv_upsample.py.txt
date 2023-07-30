@@ -1,0 +1,13 @@
+<<mmdet>> <<5:85-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:91-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<layers>> <<5:98-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_conv_upsample>> <<9:185-203>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<num_layers>> <<9:204-207>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<num_upsample>> <<10:222-234>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<num_layers>> <<11:278-288>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<num_layers>> <<10:251-261>> <<?>> <<VARIABLE>> <<LINK>>
+<<num_layers>> <<10:237-247>> <<?>> <<VARIABLE>> <<LINK>>
+<<num_layers>> <<11:305-315>> <<?>> <<VARIABLE>> <<LINK>>
+<<num_layers>> <<11:291-301>> <<?>> <<VARIABLE>> <<LINK>>
+<<num_layers>> <<15:399-409>> <<int>> <<VARIABLE>> <<LINK>>
+<<num_upsample>> <<16:433-445>> <<int>> <<VARIABLE>> <<LINK>>

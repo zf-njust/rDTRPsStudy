@@ -1,0 +1,8 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<major>> <<3:68-73>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<minor>> <<4:79-84>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<micro>> <<5:90-95>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<6:101-108>> <<{dict||str}>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>

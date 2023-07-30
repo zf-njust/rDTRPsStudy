@@ -1,0 +1,13 @@
+<<pathlib>> <<9:142-149>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<11:170-175>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<14:204-207>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<handler_text>> <<18:257-269>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<handler_json>> <<23:345-357>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<18:270-273>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<23:358-361>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Path>> <<9:157-161>> <<type>> <<VARIABLE>> <<LINK>>
+<<response>> <<11:190-198>> <<module>> <<VARIABLE>> <<LINK>>
+<<response>> <<19:292-300>> <<module>> <<VARIABLE>> <<LINK>>
+<<text>> <<19:301-305>> <<function>> <<VARIABLE>> <<LINK>>
+<<response>> <<24:380-388>> <<module>> <<VARIABLE>> <<LINK>>
+<<json>> <<24:389-393>> <<function>> <<VARIABLE>> <<LINK>>

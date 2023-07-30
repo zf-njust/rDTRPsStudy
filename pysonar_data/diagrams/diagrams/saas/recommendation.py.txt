@@ -1,0 +1,6 @@
+<<_Recommendation>> <<6:103-118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:132-137>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:162-171>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Recombee>> <<11:217-225>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:249-254>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Recommendation>> <<11:226-241>> <<type>> <<VARIABLE>> <<LINK>>

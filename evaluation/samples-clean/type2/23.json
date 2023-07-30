@@ -1,0 +1,10 @@
+{
+  "code": "def run_tests(venv, extra_args):\n    py = os.path.join(basedir, venv, 'bin', 'python')\n    print(py)\n    os.chdir(repodir)\n    # cleanup build-dir\n    if os.path.exists('build'):\n        shutil.rmtree('build')\n    tic = time.time()\n    print (\"\\nInstalling IPython with %s\" % py)\n    logfile = os.path.join(basedir, venv, 'install.log')\n    print (\"Install log at %s\" % logfile)\n    with open(logfile, 'wb') as f:\n        check_call([py, 'setup.py', 'install'], stdout=f)\n    toc = time.time()\n    print (\"Installed IPython in %.1fs\" % (toc-tic))\n    os.chdir(basedir)\n    \n    # Environment variables:\n    orig_path = os.environ[\"PATH\"]\n    os.environ[\"PATH\"] = os.path.join(basedir, venv, 'bin') + ':' + os.environ[\"PATH\"]\n    os.environ.pop(\"PYTHONPATH\", None)\n    \n    # check that the right IPython is imported\n    ipython_file = check_output([py, '-c', 'import IPython; print (IPython.__file__)'])\n    ipython_file = ipython_file.strip().decode('utf-8')\n    if not ipython_file.startswith(os.path.join(basedir, venv)):\n        msg = \"IPython does not appear to be in the venv: %s\" % ipython_file\n        msg += \"\\nDo you use setupegg.py develop?\"\n        print(msg, file=sys.stderr)\n        return False, msg\n    \n    iptest = os.path.join(basedir, venv, 'bin', 'iptest')\n    if not os.path.exists(iptest):\n        iptest = os.path.join(basedir, venv, 'bin', 'iptest3')\n        \n    print(\"\\nRunning tests, this typically takes a few minutes...\")\n    try:\n        return True, check_output([iptest] + extra_args, stderr=STDOUT).decode('utf-8')\n    except CalledProcessError as e:\n        return False, e.output.decode('utf-8')\n    finally:\n        # Restore $PATH\n        os.environ[\"PATH\"] = orig_path",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 26,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

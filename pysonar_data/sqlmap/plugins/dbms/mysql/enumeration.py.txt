@@ -1,0 +1,6 @@
+<<plugins>> <<8:150-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<8:158-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Enumeration>> <<10:226-237>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<11:267-275>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<11:276-279>> <<Enumeration>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:319-323>> <<Enumeration>> <<VARIABLE>> <<LINK>>

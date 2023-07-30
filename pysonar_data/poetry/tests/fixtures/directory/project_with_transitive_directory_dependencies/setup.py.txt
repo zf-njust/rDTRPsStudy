@@ -1,0 +1,8 @@
+<<packages>> <<4:61-69>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<package_data>> <<6:99-111>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<extras_require>> <<8:129-143>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<setup_kwargs>> <<10:213-225>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<packages>> <<18:470-478>> <<list>> <<VARIABLE>> <<LINK>>
+<<package_data>> <<19:501-513>> <<dict>> <<VARIABLE>> <<LINK>>
+<<extras_require>> <<20:538-552>> <<dict>> <<VARIABLE>> <<LINK>>
+<<setup_kwargs>> <<24:570-582>> <<dict>> <<VARIABLE>> <<LINK>>

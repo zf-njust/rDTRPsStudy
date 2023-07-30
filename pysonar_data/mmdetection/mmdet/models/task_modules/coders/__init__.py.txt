@@ -1,0 +1,9 @@
+<<base_bbox_coder>> <<2:55-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<distance_point_bbox_coder>> <<6:274-299>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pseudo_bbox_coder>> <<8:405-422>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<yolo_bbox_coder>> <<10:497-512>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:537-544>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BaseBBoxCoder>> <<2:78-91>> <<type>> <<VARIABLE>> <<LINK>>
+<<DistancePointBBoxCoder>> <<6:307-329>> <<type>> <<VARIABLE>> <<LINK>>
+<<PseudoBBoxCoder>> <<8:430-445>> <<type>> <<VARIABLE>> <<LINK>>
+<<YOLOBBoxCoder>> <<10:520-533>> <<type>> <<VARIABLE>> <<LINK>>

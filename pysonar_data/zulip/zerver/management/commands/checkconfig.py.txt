@@ -1,0 +1,10 @@
+<<Command>> <<8:128-135>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<9:154-158>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<11:235-241>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:242-245>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<11:245-246>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<setting_name>> <<13:318-330>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<default>> <<13:332-339>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<setting_name>> <<15:429-441>> <<?>> <<VARIABLE>> <<LINK>>
+<<default>> <<15:446-453>> <<?>> <<VARIABLE>> <<LINK>>
+<<setting_name>> <<20:614-626>> <<?>> <<VARIABLE>> <<LINK>>

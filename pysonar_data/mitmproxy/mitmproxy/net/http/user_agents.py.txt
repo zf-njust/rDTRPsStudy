@@ -1,0 +1,8 @@
+<<UASTRINGS>> <<8:220-229>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<get_by_shortcut>> <<54:1752-1767>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<s>> <<54:1768-1771>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<58:1845-1846>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<UASTRINGS>> <<58:1850-1859>> <<list>> <<VARIABLE>> <<LINK>>
+<<s>> <<59:1873-1874>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<59:1878-1879>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<i>> <<60:1904-1905>> <<tuple>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def test_recovery_condition(self, distribution):\n    with distribution.scope():\n      global_step = orbit.utils.create_global_step()\n      recover_condition = actions.RecoveryCondition(\n          global_step, loss_upper_bound=0.5, recovery_max_trials=2)\n      outputs = {'training_loss': 0.6}\n      self.assertTrue(recover_condition(outputs))\n      self.assertTrue(recover_condition(outputs))\n      with self.assertRaises(RuntimeError):\n        recover_condition(outputs)\n\n      global_step = orbit.utils.create_global_step()\n      recover_condition = actions.RecoveryCondition(\n          global_step, loss_upper_bound=0.5, recovery_max_trials=2)\n      outputs = {'training_loss': tf.constant([np.nan], tf.float32)}\n      self.assertTrue(recover_condition(outputs))\n      self.assertTrue(recover_condition(outputs))\n      with self.assertRaises(RuntimeError):\n        recover_condition(outputs)\n  def __call__(self, outputs: orbit.runner.Output):\n    loss_value = outputs['training_loss']\n    if tf.math.is_nan(loss_value):\n      self.recover_counter += 1\n      if self.recover_counter > self.recovery_max_trials:\n        raise RuntimeError(\n            'The loss value is NaN after training loop and it happens %d times.'\n            % self.recover_counter)\n      return True\n    if (self.global_step >= self.recovery_begin_steps and\n        loss_value > self.loss_upper_bound):\n      self.recover_counter += 1\n      if self.recover_counter > self.recovery_max_trials:\n        raise RuntimeError(\n            f'The loss value is {loss_value}, which is larger than the bound {self.loss_upper_bound}, happens {self.recover_counter} times.'\n        )\n      return True\n    return False",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 7,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

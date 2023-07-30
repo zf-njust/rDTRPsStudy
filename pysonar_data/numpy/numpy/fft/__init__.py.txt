@@ -1,0 +1,9 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<info>> <<4:96-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<9:173-178>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<9:179-186>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<10:202-206>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bench>> <<11:224-229>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<32:1139-1146>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<ack_1>> <<45:1538-1543>> <<type>> <<CLASS>> <<ANCHOR>>
+<<msgtype>> <<53:1754-1761>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<revision>> <<54:1776-1784>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<create>> <<57:1818-1824>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<57:1825-1828>> <<ack_1>> <<PARAMETER>> <<ANCHOR>>
+<<metadata>> <<57:1832-1840>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<header>> <<64:2006-2012>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<content>> <<65:2044-2051>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<cls>> <<64:2015-2018>> <<ack_1>> <<VARIABLE>> <<LINK>>
+<<cls>> <<66:2073-2076>> <<ack_1>> <<VARIABLE>> <<LINK>>
+<<header>> <<66:2077-2083>> <<?>> <<VARIABLE>> <<LINK>>
+<<metadata>> <<66:2085-2093>> <<?>> <<VARIABLE>> <<LINK>>
+<<content>> <<66:2095-2102>> <<dict>> <<VARIABLE>> <<LINK>>

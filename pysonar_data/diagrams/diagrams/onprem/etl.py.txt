@@ -1,0 +1,6 @@
+<<_Etl>> <<6:105-109>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:125-130>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:144-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Embulk>> <<11:190-196>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:209-214>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Etl>> <<11:197-201>> <<type>> <<VARIABLE>> <<LINK>>

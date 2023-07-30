@@ -1,0 +1,4 @@
+([2967]VOICE) ([2966]RECORDING) 
+([3011]Core) ([2352]core) 
+([2382]VERSION) ([5966]__version__) 
+([3995]v) ([4018]value) 

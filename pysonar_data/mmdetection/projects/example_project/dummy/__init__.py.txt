@@ -1,0 +1,3 @@
+<<dummy_resnet>> <<2:55-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<4:90-97>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DummyResNet>> <<2:75-86>> <<type>> <<VARIABLE>> <<LINK>>

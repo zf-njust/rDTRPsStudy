@@ -1,0 +1,10 @@
+{
+  "code": "def _unset_temp_theme(doc):\n    if not hasattr(doc, \"_old_theme\"):\n        return\n    doc.theme = doc._old_theme\n    del doc._old_theme",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 5,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

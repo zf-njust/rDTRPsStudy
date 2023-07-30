@@ -1,0 +1,8 @@
+<<io>> <<1:7-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<long_description>> <<5:64-80>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<6:141-142>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<readme>> <<7:153-159>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<long_description>> <<14:330-346>> <<function>> <<VARIABLE>> <<LINK>>
+<<io>> <<6:94-96>> <<module>> <<VARIABLE>> <<LINK>>
+<<f>> <<7:162-163>> <<?>> <<VARIABLE>> <<LINK>>
+<<readme>> <<8:183-189>> <<?>> <<VARIABLE>> <<LINK>>

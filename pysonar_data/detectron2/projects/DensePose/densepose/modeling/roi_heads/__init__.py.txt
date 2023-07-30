@@ -1,0 +1,7 @@
+<<v1convx>> <<3:60-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<5:146-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<roi_head>> <<6:197-205>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseV1ConvXHead>> <<3:75-95>> <<type>> <<VARIABLE>> <<LINK>>
+<<ROI_DENSEPOSE_HEAD_REGISTRY>> <<5:162-189>> <<?>> <<VARIABLE>> <<LINK>>
+<<Decoder>> <<6:213-220>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseROIHeads>> <<6:222-239>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<common_setup>> <<4:67-79>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup>> <<10:209-214>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<panel_shift>> <<15:357-368>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<panel_shift_minor>> <<18:475-492>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<panel_pct_change_major>> <<21:613-635>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<panel_pct_change_minor>> <<24:765-787>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<panel_pct_change_items>> <<27:917-939>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<common_setup>> <<10:217-229>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<15:399-404>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<18:537-542>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<21:685-690>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<24:837-842>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<27:989-994>> <<str>> <<VARIABLE>> <<LINK>>

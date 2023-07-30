@@ -1,0 +1,14 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scatter>> <<1:14-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:43-47>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<2:48-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MyScatter>> <<5:74-83>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ScatterApp>> <<9:115-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<10:141-146>> <<function>> <<METHOD>> <<ANCHOR>>
+<<Scatter>> <<1:29-36>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<2:59-62>> <<type>> <<VARIABLE>> <<LINK>>
+<<Scatter>> <<5:84-91>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<9:126-129>> <<type>> <<VARIABLE>> <<LINK>>
+<<ScatterApp>> <<16:262-272>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<16:275-278>> <<function>> <<VARIABLE>> <<LINK>>

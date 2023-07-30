@@ -1,0 +1,15 @@
+<<fix_bot_type>> <<8:248-260>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<16:533-542>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<18:571-583>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<22:650-660>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<8:261-264>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<8:267-270>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<UserProfile>> <<10:341-352>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bots>> <<11:399-403>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bot>> <<12:469-472>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<fix_bot_type>> <<23:694-706>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<10:355-359>> <<?>> <<VARIABLE>> <<LINK>>
+<<UserProfile>> <<11:406-417>> <<?>> <<VARIABLE>> <<LINK>>
+<<bots>> <<12:476-480>> <<?>> <<VARIABLE>> <<LINK>>
+<<bot>> <<13:490-493>> <<?>> <<VARIABLE>> <<LINK>>
+<<bot>> <<14:515-518>> <<?>> <<VARIABLE>> <<LINK>>

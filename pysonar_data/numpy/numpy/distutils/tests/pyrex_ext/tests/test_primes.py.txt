@@ -1,0 +1,12 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<3:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestPrimes>> <<6:181-191>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_simple>> <<7:212-223>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:224-227>> <<TestPrimes>> <<PARAMETER>> <<ANCHOR>>
+<<level>> <<7:230-233>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<l>> <<8:249-250>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<l>> <<9:286-287>> <<?>> <<VARIABLE>> <<LINK>>

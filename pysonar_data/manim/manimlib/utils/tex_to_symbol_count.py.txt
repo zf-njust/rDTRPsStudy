@@ -1,0 +1,1 @@
+<<TEX_TO_SYMBOL_COUNT>> <<1:0-19>> <<dict>> <<SCOPE>> <<ANCHOR>>

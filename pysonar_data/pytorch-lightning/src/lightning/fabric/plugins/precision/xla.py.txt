@@ -1,0 +1,9 @@
+<<XLAPrecision>> <<21:818-830>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<24:892-900>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<optimizer_step>> <<29:1089-1103>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:901-904>> <<XLAPrecision>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<24:904-905>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<30:1114-1117>> <<XLAPrecision>> <<PARAMETER>> <<ANCHOR>>
+<<optimizer>> <<31:1129-1132>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<imizer>> <<31:1132-1138>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<optimizer>> <<37:1394-1403>> <<?>> <<VARIABLE>> <<LINK>>

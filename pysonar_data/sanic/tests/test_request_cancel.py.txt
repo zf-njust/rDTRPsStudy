@@ -1,0 +1,4 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<6:59-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<6:65-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<text>> <<6:81-85>> <<function>> <<VARIABLE>> <<LINK>>

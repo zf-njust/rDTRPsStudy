@@ -1,0 +1,14 @@
+<<main>> <<56:1695-1699>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<parser>> <<56:1709-1715>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<config_path>> <<56:1716-1727>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<username>> <<58:1772-1780>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<password>> <<64:2035-2043>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<confirm>> <<65:2073-2080>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<-1:2462-2466>> <<function>> <<VARIABLE>> <<LINK>>
+<<config_path>> <<61:1937-1948>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<58:1783-1789>> <<?>> <<VARIABLE>> <<LINK>>
+<<password>> <<67:2133-2141>> <<?>> <<VARIABLE>> <<LINK>>
+<<confirm>> <<67:2145-2152>> <<?>> <<VARIABLE>> <<LINK>>
+<<username>> <<68:2199-2207>> <<?>> <<VARIABLE>> <<LINK>>
+<<password>> <<69:2209-2217>> <<?>> <<VARIABLE>> <<LINK>>
+<<username>> <<74:2395-2403>> <<?>> <<VARIABLE>> <<LINK>>

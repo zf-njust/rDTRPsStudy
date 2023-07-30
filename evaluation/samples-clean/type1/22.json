@@ -1,0 +1,10 @@
+{
+  "code": "    @defer.inlineCallbacks\n    def test_export_multiple_item_classes(self):\n\n        class MyItem2(scrapy.Item):\n            foo = scrapy.Field()\n            hello = scrapy.Field()\n\n        items = [\n            self.MyItem({'foo': 'bar1', 'egg': 'spam1'}),\n            MyItem2({'hello': 'world2', 'foo': 'bar2'}),\n            self.MyItem({'foo': 'bar3', 'egg': 'spam3', 'baz': 'quux3'}),\n            {'hello': 'world4', 'egg': 'spam4'},\n        ]\n\n        # by default, Scrapy uses fields of the first Item for CSV and\n        # all fields for JSON Lines\n        header = self.MyItem.fields.keys()\n        rows_csv = [\n            {'egg': 'spam1', 'foo': 'bar1', 'baz': ''},\n            {'egg': '',      'foo': 'bar2', 'baz': ''},\n            {'egg': 'spam3', 'foo': 'bar3', 'baz': 'quux3'},\n            {'egg': 'spam4', 'foo': '',     'baz': ''},\n        ]\n        rows_jl = [dict(row) for row in items]\n        yield self.assertExportedCsv(items, header, rows_csv, ordered=False)\n        yield self.assertExportedJsonLines(items, rows_jl)\n\n        # edge case: FEED_EXPORT_FIELDS==[] means the same as default None\n        settings = {'FEED_EXPORT_FIELDS': []}\n        yield self.assertExportedCsv(items, header, rows_csv, ordered=False)\n        yield self.assertExportedJsonLines(items, rows_jl, settings)\n\n        # it is possible to override fields using FEED_EXPORT_FIELDS\n        header = [\"foo\", \"baz\", \"hello\"]\n        settings = {'FEED_EXPORT_FIELDS': header}\n        rows = [\n            {'foo': 'bar1', 'baz': '',      'hello': ''},\n            {'foo': 'bar2', 'baz': '',      'hello': 'world2'},\n            {'foo': 'bar3', 'baz': 'quux3', 'hello': ''},\n            {'foo': '',     'baz': '',      'hello': 'world4'},\n        ]\n        yield self.assertExported(items, header, rows,\n                                  settings=settings, ordered=True)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 34,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

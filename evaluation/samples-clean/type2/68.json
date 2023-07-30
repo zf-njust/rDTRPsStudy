@@ -1,0 +1,10 @@
+{
+  "code": "def _get_handle(path, mode, encoding=None, compression=None):\n    \"\"\"Gets file handle for given path and mode.\n    \"\"\"\n    if compression is not None:\n        if encoding is not None and not compat.PY3:\n            msg = 'encoding + compression not yet supported in Python 2'\n            raise ValueError(msg)\n\n        if compression == 'gzip':\n            import gzip\n            f = gzip.GzipFile(path, mode)\n        elif compression == 'bz2':\n            import bz2\n            f = bz2.BZ2File(path, mode)\n        else:\n            raise ValueError('Unrecognized compression type: %s' %\n                             compression)\n        if compat.PY3:\n            from io import TextIOWrapper\n            f = TextIOWrapper(f, encoding=encoding)\n        return f\n    else:\n        if compat.PY3:\n            if encoding:\n                f = open(path, mode, encoding=encoding)\n            else:\n                f = open(path, mode, errors='replace')\n        else:\n            f = open(path, mode)\n\n    return f\n    def __init__(self, *args, **kwargs): # real signature unknown\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 20,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

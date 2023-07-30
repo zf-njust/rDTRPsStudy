@@ -1,0 +1,10 @@
+{
+  "code": "def test_config_custom_defaults_with_env():\n    \"\"\"\n    test that environment variables has higher priority than DEFAULT_CONFIG\n    and passed defaults dict\n    \"\"\"\n    custom_defaults = {\n        \"REQUEST_MAX_SIZE123\": 1,\n        \"KEEP_ALIVE123\": False,\n        \"ACCESS_LOG123\": False,\n    }\n\n    environ_defaults = {\n        \"SANIC_REQUEST_MAX_SIZE123\": \"2\",\n        \"SANIC_KEEP_ALIVE123\": \"True\",\n        \"SANIC_ACCESS_LOG123\": \"False\",\n    }\n\n    for key, value in environ_defaults.items():\n        environ[key] = value\n\n    conf = Config(defaults=custom_defaults)\n    for key, value in DEFAULT_CONFIG.items():\n        if \"SANIC_\" + key in environ_defaults.keys():\n            value = environ_defaults[\"SANIC_\" + key]\n            try:\n                value = int(value)\n            except ValueError:\n                if value in [\"True\", \"False\"]:\n                    value = value == \"True\"\n\n        assert getattr(conf, key) == value\n\n    for key, value in environ_defaults.items():\n        del environ[key]",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 29,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

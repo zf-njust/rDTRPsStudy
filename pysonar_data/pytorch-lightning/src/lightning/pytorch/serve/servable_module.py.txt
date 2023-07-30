@@ -1,0 +1,14 @@
+<<abc>> <<1:5-8>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ServableModule>> <<8:136-150>> <<type>> <<CLASS>> <<ANCHOR>>
+<<configure_payload>> <<58:1872-1889>> <<function>> <<METHOD>> <<ANCHOR>>
+<<configure_serialization>> <<62:2005-2028>> <<function>> <<METHOD>> <<ANCHOR>>
+<<serve_step>> <<73:2592-2602>> <<function>> <<METHOD>> <<ANCHOR>>
+<<configure_response>> <<90:3277-3295>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<62:2029-2032>> <<ServableModule>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<90:3296-3299>> <<ServableModule>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<73:2603-2606>> <<ServableModule>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<73:2606-2607>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<58:1890-1893>> <<ServableModule>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<1:16-19>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<1:21-35>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<8:151-154>> <<type>> <<VARIABLE>> <<LINK>>

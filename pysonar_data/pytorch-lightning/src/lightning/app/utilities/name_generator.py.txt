@@ -1,0 +1,8 @@
+<<_adjectives>> <<17:634-645>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_surnames>> <<592:10295-10304>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<get_unique_name>> <<1338:60829-60844>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<adjective>> <<1357:61476-61485>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<surname>> <<1357:61487-61494>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<1357:61496-61497>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_adjectives>> <<1357:61507-61518>> <<list>> <<VARIABLE>> <<LINK>>
+<<_surnames>> <<1357:61528-61537>> <<list>> <<VARIABLE>> <<LINK>>

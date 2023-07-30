@@ -1,0 +1,15 @@
+<<service>> <<5:55-62>> <<type>> <<CLASS>> <<ANCHOR>>
+<<handle>> <<6:106-112>> <<function>> <<METHOD>> <<ANCHOR>>
+<<ThreadedTCPServer>> <<19:558-575>> <<type>> <<CLASS>> <<ANCHOR>>
+<<server>> <<23:645-651>> <<ThreadedTCPServer>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<6:113-116>> <<service>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<7:129-133>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<13:379-383>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ThreadedTCPServer>> <<23:654-671>> <<type>> <<VARIABLE>> <<LINK>>
+<<service>> <<23:684-691>> <<type>> <<VARIABLE>> <<LINK>>
+<<server>> <<24:694-700>> <<ThreadedTCPServer>> <<VARIABLE>> <<LINK>>
+<<self>> <<8:185-189>> <<service>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:240-244>> <<service>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:386-390>> <<service>> <<VARIABLE>> <<LINK>>
+<<data>> <<14:434-438>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:497-501>> <<service>> <<VARIABLE>> <<LINK>>

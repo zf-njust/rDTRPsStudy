@@ -1,0 +1,5 @@
+<<mmdet>> <<2:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<2:60-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DeepFashionDataset>> <<7:156-174>> <<type>> <<CLASS>> <<ANCHOR>>
+<<METAINFO>> <<10:232-240>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DATASETS>> <<2:76-84>> <<?>> <<VARIABLE>> <<LINK>>

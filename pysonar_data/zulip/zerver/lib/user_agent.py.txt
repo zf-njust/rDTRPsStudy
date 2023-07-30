@@ -1,0 +1,6 @@
+<<parse_user_agent>> <<7:214-230>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<user_agent>> <<7:231-234>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<match>> <<9:294-299>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<user_agent>> <<9:374-384>> <<str>> <<VARIABLE>> <<LINK>>
+<<match>> <<10:393-398>> <<?>> <<VARIABLE>> <<LINK>>
+<<match>> <<12:439-444>> <<?>> <<VARIABLE>> <<LINK>>

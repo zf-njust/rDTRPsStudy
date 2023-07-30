@@ -1,0 +1,17 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:165-170>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<7:171-177>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<protocol_types>> <<7:178-192>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Signal>> <<10:229-235>> <<type>> <<CLASS>> <<ANCHOR>>
+<<stopped>> <<11:242-249>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ConnInfo>> <<14:269-277>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__slots__>> <<19:357-366>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<35:655-663>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<35:664-667>> <<ConnInfo>> <<PARAMETER>> <<ANCHOR>>
+<<transport>> <<35:670-673>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unix>> <<35:700-703>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctx>> <<36:726-729>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<lost>> <<37:764-768>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:721-725>> <<ConnInfo>> <<VARIABLE>> <<LINK>>
+<<self>> <<37:759-763>> <<ConnInfo>> <<VARIABLE>> <<LINK>>

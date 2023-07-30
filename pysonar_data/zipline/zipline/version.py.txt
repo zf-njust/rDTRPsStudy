@@ -1,0 +1,5 @@
+<<BANNER>> <<17:600-606>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<22:669-676>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<pretty_version>> <<25:705-719>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<BANNER>> <<26:735-741>> <<str>> <<VARIABLE>> <<LINK>>
+<<VERSION>> <<26:766-773>> <<tuple>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+{
+    "code": "def on_recorder_key(recorder, window, key, *largs):\n    if key == 289:  # F8\n        if recorder.play:\n            Logger.error('Recorder: Cannot start recording while playing.')\n            return\n        recorder.record = not recorder.record\n    elif key == 288:  # F7\n        if recorder.record:\n            Logger.error('Recorder: Cannot start playing while recording.')\n            return\n        recorder.play = not recorder.play\n    elif key == 287:  # F6\n        if recorder.play:\n            recorder.unbind(play=replay)\n        else:\n            recorder.bind(play=replay)\n            recorder.play = True",
+    "smell": []
+}

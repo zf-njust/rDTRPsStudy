@@ -1,0 +1,10 @@
+{
+  "code": "def create_figure():\n    xs = df[x.value].values\n    ys = df[y.value].values\n    x_title = x.value.title()\n    y_title = y.value.title()\n\n    kw = dict()\n    if x.value in discrete:\n        kw['x_range'] = sorted(set(xs))\n    if y.value in discrete:\n        kw['y_range'] = sorted(set(ys))\n    kw['title'] = \"%s vs %s\" % (x_title, y_title)\n\n    p = figure(plot_height=600, plot_width=800, tools='pan,box_zoom,hover,reset', **kw)\n    p.xaxis.axis_label = x_title\n    p.yaxis.axis_label = y_title\n\n    if x.value in discrete:\n        p.xaxis.major_label_orientation = pd.np.pi / 4\n\n    sz = 9\n    if size.value != 'None':\n        if len(set(df[size.value])) > N_SIZES:\n            groups = pd.qcut(df[size.value].values, N_SIZES, duplicates='drop')\n        else:\n            groups = pd.Categorical(df[size.value])\n        sz = [SIZES[xx] for xx in groups.codes]\n\n    c = \"#31AADE\"\n    if color.value != 'None':\n        if len(set(df[color.value])) > N_SIZES:\n            groups = pd.qcut(df[color.value].values, N_COLORS, duplicates='drop')\n        else:\n            groups = pd.Categorical(df[color.value])\n        c = [COLORS[xx] for xx in groups.codes]\n\n    p.circle(x=xs, y=ys, color=c, size=sz, line_color=\"white\", alpha=0.6, hover_color='white', hover_alpha=0.5)\n\n    return p",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 37,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

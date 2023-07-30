@@ -1,0 +1,5 @@
+<<dict_vectorizer>> <<7:183-198>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hashing>> <<8:228-235>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:328-335>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DictVectorizer>> <<7:206-220>> <<type>> <<VARIABLE>> <<LINK>>
+<<FeatureHasher>> <<8:243-256>> <<type>> <<VARIABLE>> <<LINK>>

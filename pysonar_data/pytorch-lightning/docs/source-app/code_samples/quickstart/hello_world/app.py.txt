@@ -1,0 +1,5 @@
+<<HelloWorld>> <<5:101-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<10:346-349>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app>> <<15:477-480>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<10:350-353>> <<HelloWorld>> <<PARAMETER>> <<ANCHOR>>
+<<HelloWorld>> <<15:498-508>> <<type>> <<VARIABLE>> <<LINK>>

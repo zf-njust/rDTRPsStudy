@@ -1,0 +1,16 @@
+<<match>> <<7:108-113>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_gulp_tasks>> <<11:189-203>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<18:415-430>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<7:114-117>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<proc>> <<12:212-216>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<line>> <<15:373-377>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<18:431-434>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<wrong_task>> <<19:446-456>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<8:165-172>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<15:381-385>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<15:373-377>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<14:330-334>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<20:540-547>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<21:587-594>> <<?>> <<VARIABLE>> <<LINK>>
+<<wrong_task>> <<21:596-606>> <<?>> <<VARIABLE>> <<LINK>>
+<<get_gulp_tasks>> <<21:608-622>> <<function>> <<VARIABLE>> <<LINK>>

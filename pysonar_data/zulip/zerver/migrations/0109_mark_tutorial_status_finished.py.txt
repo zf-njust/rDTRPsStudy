@@ -1,0 +1,10 @@
+<<set_tutorial_status_to_finished>> <<6:198-229>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<11:424-433>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<13:462-474>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<17:540-550>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<6:230-233>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<6:236-239>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<UserProfile>> <<8:310-321>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<set_tutorial_status_to_finished>> <<18:584-615>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<8:324-328>> <<?>> <<VARIABLE>> <<LINK>>
+<<UserProfile>> <<9:368-379>> <<?>> <<VARIABLE>> <<LINK>>

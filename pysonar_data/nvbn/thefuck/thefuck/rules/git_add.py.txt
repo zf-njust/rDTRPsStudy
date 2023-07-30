@@ -1,0 +1,12 @@
+<<match>> <<7:107-112>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<13:286-301>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<7:113-116>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<13:302-305>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<missing_file>> <<14:317-329>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<formatme>> <<18:472-480>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<8:181-188>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<9:247-254>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<16:446-453>> <<?>> <<VARIABLE>> <<LINK>>
+<<formatme>> <<19:530-538>> <<?>> <<VARIABLE>> <<LINK>>
+<<missing_file>> <<19:546-558>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<19:560-567>> <<?>> <<VARIABLE>> <<LINK>>

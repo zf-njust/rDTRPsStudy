@@ -1,0 +1,7 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<here>> <<3:28-32>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<hook_dirs>> <<6:77-86>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<3:35-39>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<3:50-56>> <<function>> <<VARIABLE>> <<LINK>>
+<<here>> <<7:120-124>> <<?>> <<VARIABLE>> <<LINK>>

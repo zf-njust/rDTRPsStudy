@@ -1,0 +1,2 @@
+<<CNNPartOfSpeechTaggerTF>> <<8:206-229>> <<type>> <<CLASS>> <<ANCHOR>>
+<<RNNPartOfSpeechTaggerTF>> <<12:265-288>> <<type>> <<CLASS>> <<ANCHOR>>

@@ -1,0 +1,6 @@
+<<config>> <<2:58-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<semantic_seg>> <<4:169-181>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<color_augmentation>> <<5:216-234>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<add_pointrend_config>> <<2:72-92>> <<function>> <<VARIABLE>> <<LINK>>
+<<PointRendSemSegHead>> <<4:189-208>> <<type>> <<VARIABLE>> <<LINK>>
+<<ColorAugSSDTransform>> <<5:242-262>> <<type>> <<VARIABLE>> <<LINK>>

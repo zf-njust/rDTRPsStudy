@@ -1,0 +1,6 @@
+<<Roles>> <<5:39-44>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SOURCE_CONTRIBUTOR>> <<6:56-74>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<UPLOADER>> <<7:102-110>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<EDITOR>> <<8:128-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__str__>> <<10:155-162>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:163-166>> <<Roles>> <<PARAMETER>> <<ANCHOR>>

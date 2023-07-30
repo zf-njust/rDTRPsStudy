@@ -1,0 +1,9 @@
+<<_Saas>> <<6:106-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:128-133>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:148-157>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Cloud>> <<11:196-201>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:215-220>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Elastic>> <<15:246-253>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:267-272>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Saas>> <<11:202-207>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Saas>> <<15:254-259>> <<type>> <<VARIABLE>> <<LINK>>

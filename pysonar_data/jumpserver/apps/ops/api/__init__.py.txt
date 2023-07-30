@@ -1,0 +1,3 @@
+<<adhoc>> <<3:34-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<4:56-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<5:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>

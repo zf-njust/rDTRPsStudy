@@ -1,0 +1,10 @@
+{
+  "code": "def _merge_pool_kwargs(self, override):\n        \"\"\"\n        Merge a dictionary of override values for self.connection_pool_kw.\n\n        This does not modify self.connection_pool_kw and returns a new dict.\n        Any keys in the override dictionary with a value of ``None`` are\n        removed from the merged dictionary.\n        \"\"\"\n        base_pool_kwargs = self.connection_pool_kw.copy()\n        if override:\n            for key, value in override.items():\n                if value is None:\n                    try:\n                        del base_pool_kwargs[key]\n                    except KeyError:\n                        pass\n                else:\n                    base_pool_kwargs[key] = value\n        return base_pool_kwargs",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 14,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

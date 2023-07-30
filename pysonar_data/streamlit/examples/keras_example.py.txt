@@ -1,0 +1,7 @@
+<<model>> <<11:250-255>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<12:272-277>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<13:347-352>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<14:390-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<15:412-417>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<16:452-457>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<19:573-578>> <<?>> <<VARIABLE>> <<LINK>>

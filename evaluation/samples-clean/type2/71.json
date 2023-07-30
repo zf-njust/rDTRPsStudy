@@ -1,0 +1,10 @@
+{
+  "code": "def entry_gen(root_ns,module_name):\n\n    q=[root_ns]\n    seen=set()\n    while q:\n        ns = q.pop()\n        for x in dir(ns):\n            cand = getattr(ns,x)\n            if (isinstance(cand,types.ModuleType)\n                and cand.__name__ not in seen\n                and cand.__name__.startswith(module_name)):\n                # print(cand.__name__)\n                seen.add(cand.__name__)\n                q.insert(0,cand)\n            elif (isinstance(cand,(types.MethodType,types.FunctionType)) and\n                  cand not in seen and cand.__doc__):\n                seen.add(cand)\n                yield cand\n    def add(self, *args, **kwargs): # real signature unknown\n        \"\"\"\n        Add an element to a set.\n        \n        This has no effect if the element is already present.\n        \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 17,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

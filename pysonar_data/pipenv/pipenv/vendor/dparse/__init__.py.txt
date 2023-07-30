@@ -1,0 +1,6 @@
+<<__future__>> <<2:29-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__author__>> <<5:129-139>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__email__>> <<6:163-172>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<7:193-204>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<unicode_literals>> <<2:47-63>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<2:65-80>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<2:39-40>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<print_function>> <<1:23-37>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<x>> <<3:60-61>> <<int>> <<VARIABLE>> <<LINK>>

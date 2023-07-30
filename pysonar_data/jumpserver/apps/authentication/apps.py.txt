@@ -1,0 +1,4 @@
+<<AuthenticationConfig>> <<4:45-65>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:83-87>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<7:118-123>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:124-127>> <<AuthenticationConfig>> <<PARAMETER>> <<ANCHOR>>

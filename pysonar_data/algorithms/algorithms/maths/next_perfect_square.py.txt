@@ -1,0 +1,12 @@
+<<find_next_square>> <<8:301-317>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<find_next_square2>> <<14:424-441>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sq>> <<14:442-445>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<root>> <<16:551-555>> <<{float||int}>> <<VARIABLE>> <<ANCHOR>>
+<<sq>> <<8:318-321>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<root>> <<9:328-332>> <<{float||int}>> <<VARIABLE>> <<ANCHOR>>
+<<sq>> <<16:558-560>> <<int>> <<VARIABLE>> <<LINK>>
+<<root>> <<17:584-588>> <<{float||int}>> <<VARIABLE>> <<LINK>>
+<<root>> <<17:599-603>> <<{float||int}>> <<VARIABLE>> <<LINK>>
+<<sq>> <<9:335-337>> <<int>> <<VARIABLE>> <<LINK>>
+<<root>> <<10:353-357>> <<{float||int}>> <<VARIABLE>> <<LINK>>
+<<root>> <<11:389-393>> <<{float||int}>> <<VARIABLE>> <<LINK>>

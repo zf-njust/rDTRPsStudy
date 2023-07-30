@@ -1,0 +1,10 @@
+{
+  "code": "def close_popup(self):\\n        \"\"\" Destroy the open popup and remove it from tracking. \"\"\"\\n        if self._popup is None:\\n            logger.info(\"No popup to close. Returning\")\\n            return\\n        self._popup.destroy()\\n        del self._popup\\n        self._popup = None",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 7,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

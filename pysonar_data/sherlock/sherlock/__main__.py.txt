@@ -1,0 +1,2 @@
+<<python_version>> <<15:291-305>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<python_version>> <<18:479-493>> <<str>> <<VARIABLE>> <<LINK>>

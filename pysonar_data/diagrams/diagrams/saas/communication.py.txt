@@ -1,0 +1,6 @@
+<<_Communication>> <<6:103-117>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:131-136>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:160-169>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Twilio>> <<11:214-220>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:243-248>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Communication>> <<11:221-235>> <<type>> <<VARIABLE>> <<LINK>>

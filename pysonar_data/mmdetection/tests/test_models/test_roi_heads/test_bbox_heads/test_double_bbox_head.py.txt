@@ -1,0 +1,14 @@
+<<unittest>> <<2:56-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<3:71-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<8:161-166>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<8:167-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<roi_heads>> <<8:174-183>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bbox_heads>> <<8:184-194>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestDoubleBboxHead>> <<11:234-252>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_forward_loss>> <<14:319-336>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:337-340>> <<TestDoubleBboxHead>> <<PARAMETER>> <<ANCHOR>>
+<<device>> <<14:343-346>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<DoubleConvFCBBoxHead>> <<8:202-222>> <<type>> <<VARIABLE>> <<LINK>>
+<<device>> <<15:364-370>> <<?>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<17:453-461>> <<module>> <<VARIABLE>> <<LINK>>
+<<DoubleConvFCBBoxHead>> <<19:533-553>> <<type>> <<VARIABLE>> <<LINK>>

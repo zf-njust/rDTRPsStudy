@@ -1,0 +1,4 @@
+<<some_very_long_name_function>> <<1:4-32>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<some_very_long_name_function>> <<5:131-159>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<some_very_long_name_function>> <<12:297-325>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<some_very_long_name_function>> <<18:434-462>> <<function>> <<FUNCTION>> <<ANCHOR>>

@@ -1,0 +1,13 @@
+<<result>> <<5:115-121>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<6:148-154>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<8:185-191>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<9:216-222>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<square>> <<10:273-279>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<function>> <<12:325-333>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<result>> <<29:646-652>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<30:678-684>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<32:710-716>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<33:740-746>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<square>> <<34:798-804>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<function>> <<37:854-862>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<a>> <<12:334-337>> <<int>> <<PARAMETER>> <<ANCHOR>>

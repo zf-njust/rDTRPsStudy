@@ -1,0 +1,7 @@
+<<mitmproxy>> <<4:66-75>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ClientConnectedHook>> <<8:117-136>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ClientDisconnectedHook>> <<20:394-416>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ServerConnectionHookData>> <<29:583-607>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ServerConnectHook>> <<39:846-863>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ServerConnectedHook>> <<51:1132-1151>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ServerDisconnectedHook>> <<60:1294-1316>> <<type>> <<CLASS>> <<ANCHOR>>

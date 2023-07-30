@@ -1,0 +1,13 @@
+<<path>> <<19:687-691>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<spec>> <<31:1167-1171>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pipenv>> <<33:1335-1341>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pipenv>> <<36:1462-1468>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<36:1469-1476>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<36:1477-1480>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_internal>> <<36:1481-1490>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cli>> <<36:1491-1494>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<20:760-764>> <<str>> <<VARIABLE>> <<LINK>>
+<<spec>> <<33:1376-1380>> <<?>> <<VARIABLE>> <<LINK>>
+<<pipenv>> <<34:1410-1416>> <<?>> <<VARIABLE>> <<LINK>>
+<<spec>> <<35:1421-1425>> <<?>> <<VARIABLE>> <<LINK>>
+<<pipenv>> <<35:1445-1451>> <<?>> <<VARIABLE>> <<LINK>>

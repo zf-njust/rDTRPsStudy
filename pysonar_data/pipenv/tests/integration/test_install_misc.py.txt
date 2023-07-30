@@ -1,0 +1,17 @@
+<<test_install_uri_with_extras>> <<7:88-116>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pipenv_instance_private_pypi>> <<7:117-120>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<file_uri>> <<8:152-160>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<index>> <<9:241-246>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<p>> <<10:324-325>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<11:369-370>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<contents>> <<12:384-392>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<c>> <<22:615-616>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv_instance_private_pypi>> <<10:290-318>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<11:345-346>> <<?>> <<VARIABLE>> <<LINK>>
+<<file_uri>> <<20:554-562>> <<str>> <<VARIABLE>> <<LINK>>
+<<index>> <<20:570-575>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<21:589-590>> <<file>> <<VARIABLE>> <<LINK>>
+<<contents>> <<21:597-605>> <<str>> <<VARIABLE>> <<LINK>>
+<<p>> <<22:619-620>> <<?>> <<VARIABLE>> <<LINK>>
+<<c>> <<23:654-655>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<24:699-700>> <<?>> <<VARIABLE>> <<LINK>>

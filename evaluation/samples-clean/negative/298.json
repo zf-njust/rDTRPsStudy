@@ -1,0 +1,4 @@
+{
+    "code": "def done(self, src: Path, changed: Changed) -> None:\n        \"\"\"Increment the counter for successful reformatting. Write out a message.\"\"\"\n        if changed is Changed.YES:\n            reformatted = \"would reformat\" if self.check or self.diff else \"reformatted\"\n            if self.verbose or not self.quiet:\n                out(f\"{reformatted} {src}\")\n            self.change_count += 1\n        else:\n            if self.verbose:\n                if changed is Changed.NO:\n                    msg = f\"{src} already well formatted, good job.\"\n                else:\n                    msg = f\"{src} wasn't modified on disk since last run.\"\n                out(msg, bold=False)\n            self.same_count += 1",
+    "smell": []
+}

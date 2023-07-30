@@ -1,0 +1,6 @@
+<<SURFACE_DARK_BRIGHT>> <<1:0-19>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SURFACE_SURFACE_DARK>> <<2:32-52>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DK_ON_SURFACE_HIGHEST>> <<3:65-86>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ON_SURFACE_HIGHEST>> <<5:100-118>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<SURFACE_SURFACE>> <<7:162-177>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<SURFACE>> <<9:221-228>> <<dict>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,8 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:23-32>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<master>> <<3:33-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TaskError>> <<10:111-120>> <<type>> <<CLASS>> <<ANCHOR>>
+<<running>> <<11:131-138>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:139-142>> <<TaskError>> <<PARAMETER>> <<ANCHOR>>
+<<Master>> <<3:47-53>> <<type>> <<VARIABLE>> <<LINK>>
+<<asyncio>> <<13:191-198>> <<module>> <<VARIABLE>> <<LINK>>

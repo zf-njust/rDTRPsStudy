@@ -1,0 +1,11 @@
+<<test_match>> <<16:569-579>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<20:663-677>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<28:899-919>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<before>> <<28:920-923>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<after>> <<28:928-931>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<16:580-583>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stdout>> <<16:588-591>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<before>> <<29:972-978>> <<?>> <<VARIABLE>> <<LINK>>
+<<after>> <<29:984-989>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<17:630-636>> <<?>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<17:645-651>> <<?>> <<VARIABLE>> <<LINK>>

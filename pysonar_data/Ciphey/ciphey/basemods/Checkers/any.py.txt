@@ -1,0 +1,14 @@
+<<ciphey>> <<3:42-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<3:49-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Any>> <<7:141-144>> <<type>> <<CLASS>> <<ANCHOR>>
+<<getExpectedRuntime>> <<10:231-249>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<13:334-342>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<check>> <<16:411-416>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getParams>> <<20:501-510>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:417-420>> <<Any>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<16:423-426>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<10:250-253>> <<Any>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<10:256-259>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:343-346>> <<Any>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<13:349-352>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<14:392-398>> <<?>> <<VARIABLE>> <<LINK>>

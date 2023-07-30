@@ -1,0 +1,10 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base>> <<1:10-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:40-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<2:45-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bl>> <<4:68-70>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<runTouchApp>> <<1:22-33>> <<function>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<2:57-64>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<4:73-80>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<runTouchApp>> <<74:2379-2390>> <<function>> <<VARIABLE>> <<LINK>>
+<<bl>> <<74:2391-2393>> <<?>> <<VARIABLE>> <<LINK>>

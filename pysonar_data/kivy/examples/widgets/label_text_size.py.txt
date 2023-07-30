@@ -1,0 +1,16 @@
+<<kivy>> <<10:148-152>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<13:184-188>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<13:189-192>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<14:210-214>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<14:215-218>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<label>> <<14:219-224>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_long_text>> <<17:243-253>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LabelTextSizeTest>> <<38:1672-1689>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<39:1705-1710>> <<function>> <<METHOD>> <<ANCHOR>>
+<<kivy>> <<11:154-158>> <<module>> <<VARIABLE>> <<LINK>>
+<<require>> <<11:159-166>> <<function>> <<VARIABLE>> <<LINK>>
+<<App>> <<13:200-203>> <<type>> <<VARIABLE>> <<LINK>>
+<<Label>> <<14:232-237>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<38:1690-1693>> <<type>> <<VARIABLE>> <<LINK>>
+<<LabelTextSizeTest>> <<49:1899-1916>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<49:1919-1922>> <<function>> <<VARIABLE>> <<LINK>>

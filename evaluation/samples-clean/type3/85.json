@@ -1,0 +1,10 @@
+{
+  "code": "def role_spec_parse(role_spec):\n        # takes a repo and a version like\n        # git+http://git.example.com/repos/repo.git,v1.0\n        # and returns a list of properties such as:\n        # {\n        #   'scm': 'git',\n        #   'src': 'http://git.example.com/repos/repo.git',\n        #   'version': 'v1.0',\n        #   'name': 'repo'\n        # }\n\n        display.deprecated(\"The comma separated role spec format, use the yaml/explicit format instead.\")\n\n        default_role_versions = dict(git='master', hg='tip')\n\n        role_spec = role_spec.strip()\n        role_version = ''\n        if role_spec == \"\" or role_spec.startswith(\"#\"):\n            return (None, None, None, None)\n\n        tokens = [s.strip() for s in role_spec.split(',')]\n\n        # assume https://github.com URLs are git+https:// URLs and not\n        # tarballs unless they end in '.zip'\n        if 'github.com/' in tokens[0] and not tokens[0].startswith(\"git+\") and not tokens[0].endswith('.tar.gz'):\n            tokens[0] = 'git+' + tokens[0]\n\n        if '+' in tokens[0]:\n            (scm, role_url) = tokens[0].split('+')\n        else:\n            scm = None\n            role_url = tokens[0]\n\n        if len(tokens) >= 2:\n            role_version = tokens[1]\n\n        if len(tokens) == 3:\n            role_name = tokens[2]\n        else:\n            role_name = RoleRequirement.repo_url_to_role_name(tokens[0])\n\n        if scm and not role_version:\n            role_version = default_role_versions.get(scm, '')\n\n        return dict(scm=scm, src=role_url, version=role_version, name=role_name)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 45,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<3:33-38>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<4:58-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<create_simple_server>> <<7:106-126>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<directory>> <<7:127-130>> <<Path>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<13:304-307>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<directory>> <<8:157-166>> <<Path>> <<VARIABLE>> <<LINK>>
+<<is_dir>> <<8:167-173>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<14:337-340>> <<?>> <<VARIABLE>> <<LINK>>
+<<directory>> <<15:363-372>> <<Path>> <<VARIABLE>> <<LINK>>
+<<app>> <<18:448-451>> <<?>> <<VARIABLE>> <<LINK>>

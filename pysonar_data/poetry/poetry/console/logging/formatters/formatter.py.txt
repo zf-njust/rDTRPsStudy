@@ -1,0 +1,4 @@
+<<Formatter>> <<4:26-35>> <<type>> <<CLASS>> <<ANCHOR>>
+<<format>> <<5:54-60>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:61-64>> <<Formatter>> <<PARAMETER>> <<ANCHOR>>
+<<record>> <<5:67-70>> <<?>> <<PARAMETER>> <<ANCHOR>>

@@ -1,0 +1,2 @@
+<<OpenSUSEConfigurator>> <<6:176-196>> <<type>> <<CLASS>> <<ANCHOR>>
+<<OS_DEFAULTS>> <<9:298-309>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

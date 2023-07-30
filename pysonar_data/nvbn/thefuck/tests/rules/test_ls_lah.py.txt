@@ -1,0 +1,2 @@
+<<test_match>> <<5:98-108>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<14:414-434>> <<function>> <<FUNCTION>> <<ANCHOR>>

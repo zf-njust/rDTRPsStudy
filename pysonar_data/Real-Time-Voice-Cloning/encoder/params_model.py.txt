@@ -1,0 +1,6 @@
+<<model_hidden_size>> <<3:23-40>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<model_embedding_size>> <<4:48-68>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<model_num_layers>> <<5:76-92>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<learning_rate_init>> <<9:126-144>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<speakers_per_batch>> <<10:153-171>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<utterances_per_speaker>> <<11:178-200>> <<int>> <<SCOPE>> <<ANCHOR>>

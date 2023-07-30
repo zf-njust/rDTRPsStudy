@@ -1,0 +1,6 @@
+<<builder_formatter>> <<1:6-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FORMATTERS>> <<4:56-66>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<BuilderLogFormatter>> <<1:31-50>> <<type>> <<VARIABLE>> <<LINK>>
+<<BuilderLogFormatter>> <<5:116-135>> <<type>> <<VARIABLE>> <<LINK>>
+<<BuilderLogFormatter>> <<6:182-201>> <<type>> <<VARIABLE>> <<LINK>>
+<<BuilderLogFormatter>> <<7:248-267>> <<type>> <<VARIABLE>> <<LINK>>

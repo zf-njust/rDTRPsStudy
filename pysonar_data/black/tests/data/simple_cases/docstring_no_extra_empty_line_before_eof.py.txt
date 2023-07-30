@@ -1,0 +1,1 @@
+<<ClassWithDocstring>> <<3:99-117>> <<type>> <<CLASS>> <<ANCHOR>>

@@ -1,0 +1,16 @@
+<<match>> <<7:157-162>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<14:369-384>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<priority>> <<21:641-649>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<7:163-166>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<14:385-388>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<old_command>> <<15:400-411>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_cmds>> <<16:448-456>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_command>> <<18:611-622>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<8:200-207>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<9:256-263>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:414-421>> <<?>> <<VARIABLE>> <<LINK>>
+<<old_command>> <<16:477-488>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_cmds>> <<18:626-634>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_command>> <<18:611-622>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_command>> <<17:548-559>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<17:563-570>> <<?>> <<VARIABLE>> <<LINK>>

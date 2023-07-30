@@ -1,0 +1,12 @@
+<<delete_nth>> <<1:6-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<garage>> <<3:57-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<josephus>> <<4:80-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<max_ones_index>> <<6:140-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<missing_ranges>> <<8:203-217>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<move_zeros>> <<9:234-244>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plus_one>> <<10:261-269>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<summarize_ranges>> <<12:309-325>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<three_sum>> <<13:342-351>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<trimmean>> <<14:368-376>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<top_1>> <<15:393-398>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<two_sum>> <<16:415-422>> <<module>> <<VARIABLE>> <<ANCHOR>>

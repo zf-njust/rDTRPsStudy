@@ -1,0 +1,9 @@
+<<__future__>> <<11:406-416>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<21:806-807>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<y>> <<22:813-814>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<z>> <<35:1131-1132>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<print_function>> <<11:424-438>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<x>> <<35:1135-1136>> <<int>> <<VARIABLE>> <<LINK>>
+<<y>> <<35:1137-1138>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<37:1153-1154>> <<int>> <<VARIABLE>> <<LINK>>
+<<z>> <<41:1239-1240>> <<int>> <<VARIABLE>> <<LINK>>

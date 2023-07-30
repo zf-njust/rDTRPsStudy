@@ -1,0 +1,9 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<typing>> <<4:63-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<typing>> <<6:120-126>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<manimlib>> <<7:149-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<typing>> <<7:158-164>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<NULL_POINTS>> <<46:1256-1267>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ManimColor>> <<7:172-182>> <<?>> <<VARIABLE>> <<LINK>>
+<<Vect3>> <<7:184-189>> <<?>> <<VARIABLE>> <<LINK>>

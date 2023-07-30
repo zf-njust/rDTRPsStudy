@@ -1,0 +1,10 @@
+<<mitmproxy>> <<2:30-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_view_raw>> <<5:73-86>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_render_priority>> <<20:372-392>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<v>> <<6:95-96>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<v>> <<21:401-402>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<v>> <<7:136-137>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<9:173-174>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<14:292-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<22:431-432>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<23:478-479>> <<?>> <<VARIABLE>> <<LINK>>

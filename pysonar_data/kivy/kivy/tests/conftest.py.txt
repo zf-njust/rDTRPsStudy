@@ -1,0 +1,16 @@
+<<pytest_runtest_makereport>> <<4:23-48>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pytest_runtest_setup>> <<12:292-312>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<item>> <<12:313-316>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<previousfailed>> <<15:435-449>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<item>> <<4:49-52>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<call>> <<4:55-58>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<parent>> <<8:219-225>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<item>> <<14:411-415>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<15:460-464>> <<?>> <<VARIABLE>> <<LINK>>
+<<previousfailed>> <<16:510-524>> <<?>> <<VARIABLE>> <<LINK>>
+<<previousfailed>> <<17:594-608>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<6:153-157>> <<?>> <<VARIABLE>> <<LINK>>
+<<call>> <<7:180-184>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<8:228-232>> <<?>> <<VARIABLE>> <<LINK>>
+<<item>> <<9:278-282>> <<?>> <<VARIABLE>> <<LINK>>
+<<parent>> <<9:253-259>> <<?>> <<VARIABLE>> <<LINK>>

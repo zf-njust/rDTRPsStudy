@@ -1,0 +1,11 @@
+<<test_version>> <<6:76-88>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tqdm>> <<8:131-135>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version_parts>> <<9:159-172>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<13:386-387>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<8:143-154>> <<?>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<9:192-203>> <<?>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<10:212-223>> <<?>> <<VARIABLE>> <<LINK>>
+<<version_parts>> <<11:262-275>> <<?>> <<VARIABLE>> <<LINK>>
+<<version_parts>> <<13:391-404>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<13:386-387>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<13:373-374>> <<?>> <<VARIABLE>> <<LINK>>

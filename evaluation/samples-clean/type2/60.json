@@ -1,0 +1,10 @@
+{
+  "code": "def break_up_by_substrings(self, tex_strings: Iterable[str]):\n        \"\"\"\n        Reorganize existing submojects one layer\n        deeper based on the structure of tex_strings (as a list\n        of tex_strings)\n        \"\"\"\n        if len(list(tex_strings)) == 1:\n            submob = self.copy()\n            self.set_submobjects([submob])\n            return self\n        new_submobjects = []\n        curr_index = 0\n        for tex_string in tex_strings:\n            tex_string = tex_string.strip()\n            if len(tex_string) == 0:\n                continue\n            sub_tex_mob = SingleStringTex(tex_string, math_mode=self.math_mode)\n            num_submobs = len(sub_tex_mob)\n            if num_submobs == 0:\n                continue\n            new_index = curr_index + num_submobs\n            sub_tex_mob.set_submobjects(self.submobjects[curr_index:new_index])\n            new_submobjects.append(sub_tex_mob)\n            curr_index = new_index\n        self.set_submobjects(new_submobjects)\n        return self\n    def set_submobjects(self, submobject_list: list[Mobject]) -> Self:\n        if self.submobjects == submobject_list:\n            return self\n        self.clear()\n        self.add(*submobject_list)\n        return self",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 25,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

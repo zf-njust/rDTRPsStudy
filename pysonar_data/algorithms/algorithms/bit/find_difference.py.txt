@@ -1,0 +1,11 @@
+<<find_difference>> <<22:476-491>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<s>> <<22:492-495>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<t>> <<22:495-498>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<ret>> <<23:504-507>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<ch>> <<24:521-523>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ret>> <<26:634-637>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<24:527-528>> <<str>> <<VARIABLE>> <<LINK>>
+<<t>> <<24:531-532>> <<str>> <<VARIABLE>> <<LINK>>
+<<ret>> <<26:640-643>> <<int>> <<VARIABLE>> <<LINK>>
+<<ch>> <<26:650-652>> <<str>> <<VARIABLE>> <<LINK>>
+<<ret>> <<28:769-772>> <<int>> <<VARIABLE>> <<LINK>>

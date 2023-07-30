@@ -1,0 +1,6 @@
+<<sanic>> <<6:136-141>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:161-166>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<7:167-175>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<15:283-286>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<json>> <<7:183-187>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<31:636-639>> <<?>> <<VARIABLE>> <<LINK>>

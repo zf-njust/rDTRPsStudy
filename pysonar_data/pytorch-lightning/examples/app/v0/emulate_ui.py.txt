@@ -1,0 +1,10 @@
+<<headers>> <<7:102-109>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<res>> <<10:172-175>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<res>> <<13:244-247>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<res>> <<18:367-370>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<headers>> <<8:129-136>> <<?>> <<VARIABLE>> <<LINK>>
+<<headers>> <<10:230-237>> <<?>> <<VARIABLE>> <<LINK>>
+<<headers>> <<13:330-337>> <<?>> <<VARIABLE>> <<LINK>>
+<<res>> <<14:346-349>> <<?>> <<VARIABLE>> <<LINK>>
+<<headers>> <<18:454-461>> <<?>> <<VARIABLE>> <<LINK>>
+<<res>> <<19:470-473>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<ciphey>> <<5:59-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<5:66-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Base58_flickr>> <<9:153-166>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<10:191-197>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<21:570-578>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<25:694-702>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<29:790-799>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<33:888-897>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:703-706>> <<Base58_flickr>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<25:709-712>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<10:198-201>> <<Base58_flickr>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<10:204-207>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<FLICKR_ALPHABET>> <<14:308-323>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<26:752-758>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<16:439-444>> <<?>> <<VARIABLE>> <<LINK>>
+<<FLICKR_ALPHABET>> <<16:455-470>> <<str>> <<VARIABLE>> <<LINK>>

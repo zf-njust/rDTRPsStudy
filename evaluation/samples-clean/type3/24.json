@@ -1,0 +1,10 @@
+{
+  "code": "    def resolve_duplicate(self, task, found_duplicates):\n        \"\"\"Decide what to do when a new album or item seems similar to one\n        that's already in the library.\n        \"\"\"\n        log.warning(u\"This {0} is already in the library!\",\n                    (u\"album\" if task.is_album else u\"item\"))\n\n        if config['import']['quiet']:\n            # In quiet mode, don't prompt -- just skip.\n            log.info(u'Skipping.')\n            sel = u's'\n        else:\n            # Print some detail about the existing and new items so the\n            # user can make an informed decision.\n            for duplicate in found_duplicates:\n                print_(u\"Old: \" + summarize_items(\n                    list(duplicate.items()) if task.is_album else [duplicate],\n                    not task.is_album,\n                ))\n\n            print_(u\"New: \" + summarize_items(\n                task.imported_items(),\n                not task.is_album,\n            ))\n\n            sel = ui.input_options(\n                (u'Skip new', u'Keep both', u'Remove old', u'Merge all')\n            )\n\n        if sel == u's':\n            # Skip new.\n            task.set_choice(importer.action.SKIP)\n        elif sel == u'k':\n            # Keep both. Do nothing; leave the choice intact.\n            pass\n        elif sel == u'r':\n            # Remove old.\n            task.should_remove_duplicates = True\n        elif sel == u'm':\n            task.should_merge_duplicates = True\n        else:\n            assert False",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 39,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

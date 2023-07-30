@@ -1,0 +1,6 @@
+<<USEquityPricing>> <<6:85-100>> <<type>> <<CLASS>> <<ANCHOR>>
+<<open>> <<8:118-122>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<high>> <<9:146-150>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<low>> <<10:174-177>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<close>> <<11:201-206>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<volume>> <<12:230-236>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

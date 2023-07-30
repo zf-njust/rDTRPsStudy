@@ -1,0 +1,10 @@
+{
+  "code": "def set_training(self, is_training: bool) -> None:\\n        \"\"\" Set the internal training flag to the given `is_training` value.\\n\\n        If a new training session is being instigated, refresh the log filenames\\n\\n        Parameters\\n        ----------\\n        is_training: bool\\n            ``True`` to indicate that the logs to be read are from the currently training\\n            session otherwise ``False``\\n        \"\"\"\\n        if self._is_training == is_training:\\n            logger.debug(\"Training flag already set to %s. Returning\", is_training)\\n            return\\n\\n        logger.debug(\"Setting is_training to %s\", is_training)\\n        self._is_training = is_training\\n        if is_training:\\n            self._log_files.refresh()\\n            log_file = self._log_files.get(self.session_ids[-1])\\n            logger.debug(\"Setting training iterator for log file: '%s'\", log_file)\\n            self._training_iterator = tf.compat.v1.io.tf_record_iterator(log_file)\\n        else:\\n            logger.debug(\"Removing training iterator\")\\n            del self._training_iterator\\n            self._training_iterator = None",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 25,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<<count>> <<19:675-680>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<coins>> <<19:681-684>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<19:688-691>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<dp_array>> <<27:896-904>> <<{list||int}>> <<VARIABLE>> <<ANCHOR>>
+<<coin>> <<30:973-977>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<31:1001-1002>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<value>> <<27:919-924>> <<int>> <<VARIABLE>> <<LINK>>
+<<coins>> <<30:981-986>> <<list>> <<VARIABLE>> <<LINK>>
+<<coin>> <<31:1012-1016>> <<int>> <<VARIABLE>> <<LINK>>
+<<value>> <<31:1018-1023>> <<int>> <<VARIABLE>> <<LINK>>
+<<dp_array>> <<32:1041-1049>> <<{list||int}>> <<VARIABLE>> <<LINK>>
+<<i>> <<32:1050-1051>> <<int>> <<VARIABLE>> <<LINK>>
+<<dp_array>> <<32:1056-1064>> <<{list||int}>> <<VARIABLE>> <<LINK>>
+<<i>> <<32:1065-1066>> <<int>> <<VARIABLE>> <<LINK>>
+<<coin>> <<32:1067-1071>> <<int>> <<VARIABLE>> <<LINK>>
+<<dp_array>> <<34:1087-1095>> <<{list||int}>> <<VARIABLE>> <<LINK>>
+<<value>> <<34:1096-1101>> <<int>> <<VARIABLE>> <<LINK>>

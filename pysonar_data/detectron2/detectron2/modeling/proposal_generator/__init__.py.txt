@@ -1,0 +1,4 @@
+<<build>> <<2:58-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<5:202-209>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<PROPOSAL_GENERATOR_REGISTRY>> <<2:71-98>> <<?>> <<VARIABLE>> <<LINK>>
+<<build_proposal_generator>> <<2:100-124>> <<function>> <<VARIABLE>> <<LINK>>

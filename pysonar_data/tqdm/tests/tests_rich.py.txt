@@ -1,0 +1,1 @@
+<<test_rich_import>> <<5:67-83>> <<function>> <<FUNCTION>> <<ANCHOR>>

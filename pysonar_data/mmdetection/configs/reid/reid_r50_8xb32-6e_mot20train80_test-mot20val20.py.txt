@@ -1,0 +1,10 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:66-71>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<4:117-126>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<5:144-160>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<6:204-218>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<7:262-277>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<10:326-335>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<5:191-200>> <<str>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<6:249-258>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<7:280-294>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<first_value>> <<5:185-196>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m1>> <<5:199-201>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m2>> <<5:203-205>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<third_value>> <<5:209-220>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<first_value>> <<23:746-757>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m1>> <<25:775-777>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m2>> <<26:788-790>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<third_value>> <<28:805-816>> <<?>> <<SCOPE>> <<ANCHOR>>

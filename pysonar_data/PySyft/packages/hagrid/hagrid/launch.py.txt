@@ -1,0 +1,8 @@
+<<cache>> <<7:127-132>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<names>> <<13:343-348>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_launch_verb>> <<16:374-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<full_sentence>> <<17:412-425>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<DEFAULT_BRANCH>> <<7:140-154>> <<str>> <<VARIABLE>> <<LINK>>
+<<random_name>> <<13:356-367>> <<function>> <<VARIABLE>> <<LINK>>
+<<random_name>> <<22:564-575>> <<function>> <<VARIABLE>> <<LINK>>
+<<full_sentence>> <<114:3021-3034>> <<list>> <<VARIABLE>> <<LINK>>

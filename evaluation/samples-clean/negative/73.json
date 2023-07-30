@@ -1,0 +1,4 @@
+{
+    "code": "def async_replace_dict_data(\n    data: Mapping, to_replace: dict[str, str]\n) -> dict[str, Any]:\n    \"\"\"Redact sensitive data in a dict.\"\"\"\n    redacted = {**data}\n    for key, value in data.items():\n        if isinstance(value, dict):\n            redacted[key] = async_replace_dict_data(value, to_replace)\n        elif isinstance(value, (list, set, tuple)):\n            redacted[key] = async_replace_list_data(value, to_replace)\n        elif isinstance(value, str):\n            if value in to_replace:\n                redacted[key] = to_replace[value]\n            elif value.count(\":\") == 5:\n                redacted[key] = REDACTED\n    return redacted",
+    "smell": []
+}

@@ -1,0 +1,2 @@
+<<application_config>> <<1:6-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ApplicationConfig>> <<1:32-49>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gesture>> <<1:10-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gdb>> <<3:44-47>> <<GestureDatabase>> <<SCOPE>> <<ANCHOR>>
+<<cross>> <<5:71-76>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<circle>> <<24:1435-1441>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<check>> <<51:3452-3457>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<square>> <<70:4808-4814>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<GestureDatabase>> <<1:25-40>> <<type>> <<VARIABLE>> <<LINK>>
+<<GestureDatabase>> <<3:50-65>> <<type>> <<VARIABLE>> <<LINK>>
+<<gdb>> <<5:79-82>> <<GestureDatabase>> <<VARIABLE>> <<LINK>>
+<<str_to_gesture>> <<5:83-97>> <<function>> <<VARIABLE>> <<LINK>>
+<<gdb>> <<24:1444-1447>> <<GestureDatabase>> <<VARIABLE>> <<LINK>>
+<<str_to_gesture>> <<24:1448-1462>> <<function>> <<VARIABLE>> <<LINK>>
+<<gdb>> <<51:3460-3463>> <<GestureDatabase>> <<VARIABLE>> <<LINK>>
+<<str_to_gesture>> <<51:3464-3478>> <<function>> <<VARIABLE>> <<LINK>>
+<<gdb>> <<70:4817-4820>> <<GestureDatabase>> <<VARIABLE>> <<LINK>>
+<<str_to_gesture>> <<70:4821-4835>> <<function>> <<VARIABLE>> <<LINK>>

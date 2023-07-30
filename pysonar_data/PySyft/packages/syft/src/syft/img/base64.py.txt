@@ -1,0 +1,8 @@
+<<base64>> <<2:16-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base64read>> <<6:71-81>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<fname>> <<6:82-85>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<file>> <<10:185-189>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<res>> <<11:199-202>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fname>> <<10:169-174>> <<?>> <<VARIABLE>> <<LINK>>
+<<base64>> <<11:205-211>> <<module>> <<VARIABLE>> <<LINK>>
+<<file>> <<11:222-226>> <<file>> <<VARIABLE>> <<LINK>>

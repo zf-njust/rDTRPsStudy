@@ -1,0 +1,16 @@
+<<stdout>> <<6:120-126>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<13:334-344>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_march>> <<20:520-534>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<24:608-628>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<task>> <<6:127-130>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<script>> <<20:535-538>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stdout>> <<20:543-546>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mocker>> <<24:629-632>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<27:761-768>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stdout>> <<14:387-393>> <<function>> <<VARIABLE>> <<LINK>>
+<<task>> <<10:319-323>> <<str>> <<VARIABLE>> <<LINK>>
+<<script>> <<21:582-588>> <<?>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<21:590-596>> <<?>> <<VARIABLE>> <<LINK>>
+<<mocker>> <<25:643-649>> <<?>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<27:792-798>> <<function>> <<VARIABLE>> <<LINK>>
+<<command>> <<28:836-843>> <<?>> <<VARIABLE>> <<LINK>>

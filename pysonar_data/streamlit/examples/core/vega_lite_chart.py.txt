@@ -1,0 +1,17 @@
+<<data>> <<6:102-106>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<7:134-136>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spec>> <<8:184-188>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<26:706-708>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<7:152-156>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<17:488-490>> <<?>> <<VARIABLE>> <<LINK>>
+<<spec>> <<17:492-496>> <<dict>> <<VARIABLE>> <<LINK>>
+<<df>> <<18:518-520>> <<?>> <<VARIABLE>> <<LINK>>
+<<spec>> <<18:522-526>> <<dict>> <<VARIABLE>> <<LINK>>
+<<df>> <<19:557-559>> <<?>> <<VARIABLE>> <<LINK>>
+<<spec>> <<19:561-565>> <<dict>> <<VARIABLE>> <<LINK>>
+<<df>> <<20:597-599>> <<?>> <<VARIABLE>> <<LINK>>
+<<spec>> <<20:601-605>> <<dict>> <<VARIABLE>> <<LINK>>
+<<df>> <<30:865-867>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<40:1105-1107>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<51:1337-1339>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<66:1650-1652>> <<?>> <<VARIABLE>> <<LINK>>

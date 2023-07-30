@@ -1,0 +1,10 @@
+<<rest_framework>> <<3:41-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<authtoken>> <<3:56-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<3:66-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TokenAdmin>> <<6:97-107>> <<type>> <<CLASS>> <<ANCHOR>>
+<<list_display>> <<7:132-144>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<8:179-185>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ordering>> <<9:203-211>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Token>> <<3:80-85>> <<type>> <<VARIABLE>> <<LINK>>
+<<Token>> <<12:253-258>> <<type>> <<VARIABLE>> <<LINK>>
+<<TokenAdmin>> <<12:260-270>> <<type>> <<VARIABLE>> <<LINK>>

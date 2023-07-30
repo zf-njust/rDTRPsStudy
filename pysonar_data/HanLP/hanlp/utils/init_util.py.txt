@@ -1,0 +1,13 @@
+<<embedding_uniform>> <<11:145-162>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tensor>> <<11:163-166>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<seed>> <<11:184-187>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<gen>> <<12:200-203>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fan_out>> <<14:278-285>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bound>> <<15:313-318>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<seed>> <<12:236-240>> <<int>> <<VARIABLE>> <<LINK>>
+<<tensor>> <<14:288-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<fan_out>> <<15:337-344>> <<?>> <<VARIABLE>> <<LINK>>
+<<tensor>> <<16:362-368>> <<?>> <<VARIABLE>> <<LINK>>
+<<bound>> <<16:379-384>> <<int>> <<VARIABLE>> <<LINK>>
+<<bound>> <<16:386-391>> <<int>> <<VARIABLE>> <<LINK>>
+<<gen>> <<16:403-406>> <<?>> <<VARIABLE>> <<LINK>>

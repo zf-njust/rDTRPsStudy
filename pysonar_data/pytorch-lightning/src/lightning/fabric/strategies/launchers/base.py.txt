@@ -1,0 +1,11 @@
+<<abc>> <<14:599-602>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_Launcher>> <<18:675-684>> <<type>> <<CLASS>> <<ANCHOR>>
+<<is_interactive_compatible>> <<30:1165-1190>> <<function>> <<METHOD>> <<ANCHOR>>
+<<launch>> <<34:1347-1353>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<30:1191-1194>> <<_Launcher>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1354-1357>> <<_Launcher>> <<PARAMETER>> <<ANCHOR>>
+<<function>> <<34:1360-1363>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ction>> <<34:1363-1368>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<14:610-613>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<14:615-629>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<18:685-688>> <<type>> <<VARIABLE>> <<LINK>>

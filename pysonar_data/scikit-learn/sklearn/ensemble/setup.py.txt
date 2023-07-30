@@ -1,0 +1,10 @@
+<<configuration>> <<5:75-88>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<parent_package>> <<5:89-92>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<top_path>> <<5:108-111>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<6:129-135>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<configuration>> <<17:506-519>> <<function>> <<VARIABLE>> <<LINK>>
+<<parent_package>> <<6:164-178>> <<?>> <<VARIABLE>> <<LINK>>
+<<top_path>> <<6:180-188>> <<str>> <<VARIABLE>> <<LINK>>
+<<config>> <<7:195-201>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<11:367-373>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<13:412-418>> <<?>> <<VARIABLE>> <<LINK>>

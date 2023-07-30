@@ -1,0 +1,6 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<views>> <<5:94-99>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urlpatterns>> <<7:119-130>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<MockView>> <<5:107-115>> <<type>> <<VARIABLE>> <<LINK>>
+<<MockView>> <<8:151-159>> <<type>> <<VARIABLE>> <<LINK>>

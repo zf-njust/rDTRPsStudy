@@ -1,0 +1,10 @@
+{
+  "code": "def rate_limit_user(request, user, domain):\n    # type: (HttpRequest, UserProfile, Text) -> None\n    \"\"\"Returns whether or not a user was rate limited. Will raise a RateLimited exception\n    if the user has been rate limited, otherwise returns and modifies request to contain\n    the rate limit information\"\"\"\n\n    entity = RateLimitedUser(user, domain=domain)\n    ratelimited, time = is_ratelimited(entity)\n    request._ratelimit_applied_limits = True\n    request._ratelimit_secs_to_freedom = time\n    request._ratelimit_over_limit = ratelimited\n    # Abort this request if the user is over their rate limits\n    if ratelimited:\n        statsd.incr(\"ratelimiter.limited.%s.%s\" % (type(user), user.id))\n        raise RateLimited()\n\n    incr_ratelimit(entity)\n    calls_remaining, time_reset = api_calls_left(entity)\n\n    request._ratelimit_remaining = calls_remaining\n    request._ratelimit_secs_to_freedom = time_reset",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 21,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

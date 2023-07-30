@@ -1,0 +1,10 @@
+<<delete_old_scheduled_jobs>> <<8:240-265>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<18:699-708>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<20:737-749>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<24:801-811>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<8:266-269>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<8:272-275>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ScheduledJob>> <<15:596-608>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<delete_old_scheduled_jobs>> <<25:845-870>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<15:611-615>> <<?>> <<VARIABLE>> <<LINK>>
+<<ScheduledJob>> <<16:656-668>> <<?>> <<VARIABLE>> <<LINK>>

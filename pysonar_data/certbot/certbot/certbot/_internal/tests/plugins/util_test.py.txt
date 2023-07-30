@@ -1,0 +1,17 @@
+<<unittest>> <<3:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_get_prefix>> <<10:127-142>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_path_surgery>> <<19:459-476>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mock_debug>> <<19:477-480>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<all_path>> <<21:544-552>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<mock_exists>> <<23:720-731>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<no_path>> <<30:1047-1054>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<13:271-275>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<all_path>> <<22:655-663>> <<dict>> <<VARIABLE>> <<LINK>>
+<<mock_exists>> <<24:745-756>> <<?>> <<VARIABLE>> <<LINK>>
+<<mock_debug>> <<26:842-852>> <<?>> <<VARIABLE>> <<LINK>>
+<<all_path>> <<27:910-918>> <<dict>> <<VARIABLE>> <<LINK>>
+<<no_path>> <<31:1118-1125>> <<dict>> <<VARIABLE>> <<LINK>>
+<<mock_debug>> <<33:1182-1192>> <<?>> <<VARIABLE>> <<LINK>>
+<<mock_debug>> <<34:1276-1286>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<13:271-275>> <<str>> <<VARIABLE>> <<LINK>>
+<<path>> <<13:261-265>> <<str>> <<VARIABLE>> <<LINK>>

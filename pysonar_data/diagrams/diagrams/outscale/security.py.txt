@@ -1,0 +1,9 @@
+<<_Security>> <<6:107-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:134-139>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Firewall>> <<11:211-219>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:237-242>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<IdentityAndAccessManagement>> <<15:271-298>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:316-321>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Security>> <<11:220-229>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Security>> <<15:299-308>> <<type>> <<VARIABLE>> <<LINK>>

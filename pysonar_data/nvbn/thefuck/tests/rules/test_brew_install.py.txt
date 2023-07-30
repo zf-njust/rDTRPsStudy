@@ -1,0 +1,15 @@
+<<brew_no_available_formula>> <<8:190-215>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<brew_install_no_argument>> <<13:309-333>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<brew_already_installed>> <<18:422-444>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_is_not_okay_to_test>> <<22:512-532>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<28:710-720>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<39:1246-1266>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<brew_no_available_formula>> <<28:721-724>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<brew_already_installed>> <<28:748-751>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<brew_install_no_argument>> <<29:788-791>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<brew_no_available_formula>> <<39:1267-1270>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<brew_no_available_formula>> <<31:903-928>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_already_installed>> <<33:1018-1040>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_install_no_argument>> <<34:1096-1120>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_no_available_formula>> <<41:1403-1428>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_no_available_formula>> <<45:1573-1598>> <<?>> <<VARIABLE>> <<LINK>>

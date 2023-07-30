@@ -1,0 +1,4 @@
+<<point_generator>> <<4:200-215>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:314-321>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<MlvlPointGenerator>> <<4:223-241>> <<type>> <<VARIABLE>> <<LINK>>
+<<PointGenerator>> <<4:243-257>> <<type>> <<VARIABLE>> <<LINK>>

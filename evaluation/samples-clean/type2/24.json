@@ -1,0 +1,10 @@
+{
+  "code": "    def test_profiling(self):\n        path = tempfile.mkdtemp()\n        filename = os.path.join(path, 'res.prof')\n        try:\n            self._execute('version', '--profile', filename)\n            self.assertTrue(os.path.exists(filename))\n            out = StringIO()\n            stats = pstats.Stats(filename, stream=out)\n            stats.print_stats()\n            out.seek(0)\n            stats = out.read()\n            self.assertIn(os.path.join('scrapy', 'commands', 'version.py'),\n                          stats)\n            self.assertIn('tottime', stats)\n        finally:\n            shutil.rmtree(path)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 13,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

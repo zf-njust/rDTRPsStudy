@@ -1,0 +1,14 @@
+<<git_err>> <<6:117-124>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<git_uptodate>> <<16:527-539>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<git_ok>> <<17:567-573>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_match>> <<32:1058-1068>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<43:1495-1509>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<51:1855-1875>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<32:1069-1072>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<51:1876-1879>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<output>> <<51:1885-1888>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<43:1510-1513>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<33:1097-1104>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<52:1922-1929>> <<?>> <<VARIABLE>> <<LINK>>
+<<output>> <<52:1934-1940>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<44:1542-1549>> <<?>> <<VARIABLE>> <<LINK>>

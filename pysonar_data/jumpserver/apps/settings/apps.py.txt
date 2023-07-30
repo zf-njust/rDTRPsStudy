@@ -1,0 +1,4 @@
+<<SettingsConfig>> <<4:45-59>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:77-81>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<7:106-111>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:112-115>> <<SettingsConfig>> <<PARAMETER>> <<ANCHOR>>

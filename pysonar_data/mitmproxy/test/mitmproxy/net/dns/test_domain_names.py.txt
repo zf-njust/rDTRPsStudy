@@ -1,0 +1,7 @@
+<<mitmproxy>> <<6:50-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<6:60-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dns>> <<6:64-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_unpack_from_with_compression>> <<9:97-130>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_unpack>> <<26:741-752>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_pack>> <<52:1767-1776>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<label>> <<58:1995-2000>> <<{str||int}>> <<VARIABLE>> <<ANCHOR>>

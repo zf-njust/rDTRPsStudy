@@ -1,0 +1,16 @@
+<<test_deepreload_numpy>> <<23:777-798>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_deepreload>> <<40:1431-1446>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<exclude>> <<27:950-957>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<tmpdir>> <<42:1555-1561>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<44:1668-1669>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<46:1794-1795>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<obj>> <<52:1939-1942>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<obj>> <<57:2105-2108>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<exclude>> <<38:1415-1422>> <<list>> <<VARIABLE>> <<LINK>>
+<<tmpdir>> <<43:1598-1604>> <<?>> <<VARIABLE>> <<LINK>>
+<<tmpdir>> <<44:1643-1649>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<45:1688-1689>> <<file>> <<VARIABLE>> <<LINK>>
+<<tmpdir>> <<46:1769-1775>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<47:1814-1815>> <<file>> <<VARIABLE>> <<LINK>>
+<<obj>> <<54:2034-2037>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<59:2186-2189>> <<?>> <<VARIABLE>> <<LINK>>

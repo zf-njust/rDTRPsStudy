@@ -1,0 +1,10 @@
+{
+  "code": "def _update_project(self, project):\n        '''update one project'''\n        if project['name'] not in self.projects:\n            self.projects[project['name']] = {}\n        self.projects[project['name']].update(project)\n        self.projects[project['name']]['md5sum'] = utils.md5string(project['script'])\n        if not self.projects[project['name']].get('active_tasks', None):\n            self.projects[project['name']]['active_tasks'] = deque(maxlen=self.ACTIVE_TASKS)\n\n        # load task queue when project is running and delete task_queue when project is stoped\n        if project['status'] in ('RUNNING', 'DEBUG'):\n            if project['name'] not in self.task_queue:\n                self._load_tasks(project['name'])\n            self.task_queue[project['name']].rate = project['rate']\n            self.task_queue[project['name']].burst = project['burst']\n\n            # update project runtime info from processor by sending a _on_get_info\n            # request, result is in status_page.track.save\n            self.on_select_task({\n                'taskid': '_on_get_info',\n                'project': project['name'],\n                'url': 'data:,_on_get_info',\n                'status': self.taskdb.SUCCESS,\n                'fetch': {\n                    'save': ['min_tick', ],\n                },\n                'process': {\n                    'callback': '_on_get_info',\n                },\n            })\n        else:\n            if project['name'] in self.task_queue:\n                self.task_queue[project['name']].rate = 0\n                self.task_queue[project['name']].burst = 0\n                del self.task_queue[project['name']]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 35,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

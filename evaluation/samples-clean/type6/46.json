@@ -1,0 +1,10 @@
+{
+  "code": "def extract_list(self, obj: Any) -> List:\n        # not a list and matches the internal list type of the _GenericAlias\n        if not isinstance(obj, list):\n            if not isinstance(obj, typing.get_args(self.type_)):\n                obj = getattr(obj, self.key)\n                if isinstance(obj, (types.FunctionType, types.MethodType)):\n                    obj = obj()\n\n            if not isinstance(obj, list) and isinstance(\n                obj, typing.get_args(self.type_)\n            ):\n                # still not a list but the right type\n                obj = [obj]\n\n        # is a list type so lets compare directly\n        check_type(\"obj\", obj, self.type_)\n        return obj",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 5,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

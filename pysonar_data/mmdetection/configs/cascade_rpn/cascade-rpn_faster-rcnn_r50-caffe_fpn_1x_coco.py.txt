@@ -1,0 +1,7 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<rpn_weight>> <<2:64-74>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:82-87>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<89:3429-3442>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<rpn_weight>> <<28:1037-1047>> <<float>> <<VARIABLE>> <<LINK>>
+<<rpn_weight>> <<44:1693-1703>> <<float>> <<VARIABLE>> <<LINK>>
+<<rpn_weight>> <<47:1829-1839>> <<float>> <<VARIABLE>> <<LINK>>

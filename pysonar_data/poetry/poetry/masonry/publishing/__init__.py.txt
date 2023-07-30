@@ -1,0 +1,2 @@
+<<publisher>> <<1:6-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Publisher>> <<1:23-32>> <<type>> <<VARIABLE>> <<LINK>>

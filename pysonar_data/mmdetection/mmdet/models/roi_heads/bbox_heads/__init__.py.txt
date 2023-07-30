@@ -1,0 +1,5 @@
+<<double_bbox_head>> <<6:242-258>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scnet_bbox_head>> <<9:388-403>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<11:428-435>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DoubleConvFCBBoxHead>> <<6:266-286>> <<type>> <<VARIABLE>> <<LINK>>
+<<SCNetBBoxHead>> <<9:411-424>> <<type>> <<VARIABLE>> <<LINK>>

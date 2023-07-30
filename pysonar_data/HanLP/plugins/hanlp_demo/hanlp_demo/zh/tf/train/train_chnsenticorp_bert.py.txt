@@ -1,0 +1,12 @@
+<<tests>> <<7:325-330>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<save_dir>> <<10:358-366>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<classifier>> <<11:421-431>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<7:338-344>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdroot>> <<9:348-354>> <<function>> <<VARIABLE>> <<LINK>>
+<<classifier>> <<12:497-507>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<12:562-570>> <<str>> <<VARIABLE>> <<LINK>>
+<<classifier>> <<14:622-632>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<14:638-646>> <<str>> <<VARIABLE>> <<LINK>>
+<<classifier>> <<15:655-665>> <<?>> <<VARIABLE>> <<LINK>>
+<<classifier>> <<16:709-719>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<16:763-771>> <<str>> <<VARIABLE>> <<LINK>>

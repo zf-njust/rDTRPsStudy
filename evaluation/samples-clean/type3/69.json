@@ -1,0 +1,10 @@
+{
+  "code": "def get_inventory(enterprise, config):\n    ''' Reads the inventory from cache or Abiquo api '''\n\n    if cache_available(config):\n        inv = get_cache('inventory', config)\n    else:\n        default_group = os.path.basename(sys.argv[0]).rstrip('.py')\n        # MAKE ABIQUO API CALLS #\n        inv = generate_inv_from_api(enterprise,config)\n\n    save_cache(inv, config)\n    return json.dumps(inv)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 11,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

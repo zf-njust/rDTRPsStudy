@@ -1,0 +1,10 @@
+{
+  "code": "def accumulate_dict_from_superclasses(cls, propname):\n    ''' Traverse the class hierarchy and accumulate the special dicts\n    ``MetaHasProps`` stores on classes:\n\n    Args:\n        name (str) : name of the special attribute to collect.\n\n            Typically meaningful values are: ``__dataspecs__``,\n            ``__overridden_defaults__``\n\n    '''\n    cachename = \"__cached_all\" + propname\n    # we MUST use cls.__dict__ NOT hasattr(). hasattr() would also look at base\n    # classes, and the cache must be separate for each class\n    if cachename not in cls.__dict__:\n        d = dict()\n        for c in inspect.getmro(cls):\n            if issubclass(c, HasProps) and hasattr(c, propname):\n                base = getattr(c, propname)\n                for k,v in base.items():\n                    if k not in d:\n                        d[k] = v\n        setattr(cls, cachename, d)\n    return cls.__dict__[cachename]",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 19,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

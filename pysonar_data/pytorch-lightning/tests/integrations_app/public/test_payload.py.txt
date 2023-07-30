@@ -1,0 +1,11 @@
+<<test_payload_example_cloud>> <<11:196-222>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<12:306-307>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<12:309-310>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<12:312-322>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<12:324-325>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<13:337-345>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<15:400-403>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<has_logs>> <<17:497-505>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<14:373-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<15:407-417>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<16:471-474>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<patterns>> <<1:0-8>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<match>> <<22:786-791>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<30:1002-1017>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<22:792-795>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pattern>> <<23:811-818>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<30:1018-1021>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<patterns>> <<23:822-830>> <<list>> <<VARIABLE>> <<LINK>>
+<<pattern>> <<24:844-851>> <<str>> <<VARIABLE>> <<LINK>>
+<<command>> <<24:863-870>> <<?>> <<VARIABLE>> <<LINK>>
+<<pattern>> <<25:907-914>> <<str>> <<VARIABLE>> <<LINK>>
+<<command>> <<25:926-933>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<31:1043-1050>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<32:1101-1108>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<34:1182-1189>> <<?>> <<VARIABLE>> <<LINK>>

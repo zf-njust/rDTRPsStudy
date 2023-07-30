@@ -1,0 +1,4 @@
+{
+    "code": "def solution():\n    \"\"\"\n    Finds the maximum total in a triangle as described by the problem statement\n    above.\n\n    >>> solution()\n    1074\n    \"\"\"\n    script_dir = os.path.dirname(os.path.realpath(__file__))\n    triangle = os.path.join(script_dir, \"triangle.txt\")\n\n    with open(triangle) as f:\n        triangle = f.readlines()\n\n    a = [[int(y) for y in x.rstrip(\"\\r\\n\").split(\" \")] for x in triangle]\n\n    for i in range(1, len(a)):\n        for j in range(len(a[i])):\n            number1 = a[i - 1][j] if j != len(a[i - 1]) else 0\n            number2 = a[i - 1][j - 1] if j > 0 else 0\n            a[i][j] += max(number1, number2)\n    return max(a[-1])",
+    "smell": []
+}

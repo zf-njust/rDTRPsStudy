@@ -1,0 +1,11 @@
+<<__revision__>> <<25:1135-1147>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<26:1158-1165>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<new>> <<31:1262-1265>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<atfork>> <<35:1423-1429>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_random_bytes>> <<39:1520-1536>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<kwargs>> <<31:1275-1281>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<31:1267-1271>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<39:1537-1540>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<33:1400-1404>> <<?>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<33:1408-1414>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<41:1668-1669>> <<?>> <<VARIABLE>> <<LINK>>

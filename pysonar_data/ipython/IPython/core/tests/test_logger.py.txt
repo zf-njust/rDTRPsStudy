@@ -1,0 +1,14 @@
+<<_ip>> <<9:158-161>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_logstart_inaccessible_file>> <<11:185-216>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_logstart_unicode>> <<24:633-654>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tdir>> <<25:692-696>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<logfname>> <<26:707-715>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_ip>> <<13:239-242>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<20:457-460>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<22:551-554>> <<?>> <<VARIABLE>> <<LINK>>
+<<tdir>> <<26:731-735>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<27:766-769>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<29:816-819>> <<?>> <<VARIABLE>> <<LINK>>
+<<logfname>> <<29:846-854>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<30:869-872>> <<?>> <<VARIABLE>> <<LINK>>
+<<_ip>> <<32:923-926>> <<?>> <<VARIABLE>> <<LINK>>

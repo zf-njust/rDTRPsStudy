@@ -1,0 +1,4 @@
+<<this_will_be_wrapped_in_parens>> <<5:153-183>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<a>> <<7:230-231>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<this_will_be_wrapped_in_parens>> <<21:442-472>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<a>> <<-1:520-521>> <<?>> <<SCOPE>> <<ANCHOR>>

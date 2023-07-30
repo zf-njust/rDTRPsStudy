@@ -1,0 +1,14 @@
+<<_PTB_HOME>> <<5:70-79>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TRAIN>> <<7:154-163>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_DEV>> <<10:360-367>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TEST>> <<13:555-563>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_SD330_TRAIN>> <<17:754-769>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_SD330_DEV>> <<20:986-999>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_SD330_TEST>> <<23:1209-1223>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TOKEN_MAPPING>> <<27:1437-1454>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_PTB_HOME>> <<7:166-175>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<10:370-379>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<13:566-575>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<17:772-781>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<20:1002-1011>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<23:1226-1235>> <<str>> <<VARIABLE>> <<LINK>>

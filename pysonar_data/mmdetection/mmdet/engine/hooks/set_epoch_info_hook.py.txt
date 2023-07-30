@@ -1,0 +1,16 @@
+<<mmdet>> <<5:143-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<5:149-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SetEpochInfoHook>> <<9:208-224>> <<type>> <<CLASS>> <<ANCHOR>>
+<<before_train_epoch>> <<12:299-317>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:318-321>> <<SetEpochInfoHook>> <<PARAMETER>> <<ANCHOR>>
+<<runner>> <<12:324-327>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<epoch>> <<13:342-347>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<14:372-377>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<16:443-448>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<HOOKS>> <<5:165-170>> <<?>> <<VARIABLE>> <<LINK>>
+<<runner>> <<13:350-356>> <<?>> <<VARIABLE>> <<LINK>>
+<<runner>> <<14:380-386>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<15:422-427>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<16:451-456>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<17:473-478>> <<?>> <<VARIABLE>> <<LINK>>
+<<epoch>> <<17:489-494>> <<?>> <<VARIABLE>> <<LINK>>

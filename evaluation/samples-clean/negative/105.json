@@ -1,0 +1,4 @@
+{
+    "code": "def _async_event_entities(\n    data: ProtectData,\n    ufp_device: ProtectAdoptableDeviceModel | None = None,\n) -> list[ProtectDeviceEntity]:\n    entities: list[ProtectDeviceEntity] = []\n    devices = (\n        data.get_by_types({ModelType.CAMERA}) if ufp_device is None else [ufp_device]\n    )\n    for device in devices:\n        for description in EVENT_SENSORS:\n            if not description.has_required(device):\n                continue\n            entities.append(ProtectEventBinarySensor(data, device, description))\n            _LOGGER.debug(\n                \"Adding binary sensor entity %s for %s\",\n                description.name,\n                device.display_name,\n            )\n\n    return entities",
+    "smell": []
+}

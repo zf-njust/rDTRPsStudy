@@ -1,0 +1,5 @@
+<<TIS620CharToOrderMap>> <<36:1443-1463>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<ThaiLangModel>> <<61:2723-2736>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<TIS620ThaiModel>> <<192:11064-11079>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<TIS620CharToOrderMap>> <<193:11104-11124>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<ThaiLangModel>> <<194:11148-11161>> <<tuple>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<mmdet>> <<6:135-140>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<6:141-149>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SiLU>> <<12:281-285>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<15:357-365>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<forward>> <<18:434-441>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:366-369>> <<SiLU>> <<PARAMETER>> <<ANCHOR>>
+<<inplace>> <<15:372-375>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<18:442-445>> <<SiLU>> <<PARAMETER>> <<ANCHOR>>
+<<inputs>> <<18:448-451>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MODELS>> <<6:157-163>> <<?>> <<VARIABLE>> <<LINK>>
+<<MODELS>> <<22:529-535>> <<?>> <<VARIABLE>> <<LINK>>
+<<SiLU>> <<22:559-563>> <<type>> <<VARIABLE>> <<LINK>>
+<<inputs>> <<19:493-499>> <<?>> <<VARIABLE>> <<LINK>>
+<<inputs>> <<19:516-522>> <<?>> <<VARIABLE>> <<LINK>>

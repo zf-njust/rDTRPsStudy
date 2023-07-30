@@ -1,0 +1,12 @@
+<<_Auth>> <<6:105-110>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:126-131>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:146-155>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Boundary>> <<11:193-201>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:215-220>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<BuzzfeedSso>> <<15:249-260>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:274-279>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Oauth2Proxy>> <<19:312-323>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:337-342>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Auth>> <<11:202-207>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Auth>> <<15:261-266>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Auth>> <<19:324-329>> <<type>> <<VARIABLE>> <<LINK>>

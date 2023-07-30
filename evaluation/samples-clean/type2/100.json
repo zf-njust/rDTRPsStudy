@@ -1,0 +1,10 @@
+{
+  "code": "def write_state_to_disk(cls, state, emission_rate=None):\n    state_dir = cls.__module__ + '.' + cls.__name__\n\n    full_dir = base_state_dir + '/' + state_dir\n\n    if not os.path.exists(full_dir):\n        os.makedirs(full_dir)\n\n    if emission_rate is not None:\n        name = 'State_Version_' + emission_rate + \\\n            str(state['obj_state'][VERSION_LABEL])\n    else:\n        name = 'State_Version_' + str(state['obj_state'][VERSION_LABEL])\n\n    full_path = full_dir + '/' + name\n\n    f = open(full_path, 'w')\n\n    pickle.dump(state, f)\n\n    f.close()\ndef _dump(obj, file, protocol=None, *, fix_imports=True, buffer_callback=None):\n    _Pickler(file, protocol, fix_imports=fix_imports,\n             buffer_callback=buffer_callback).dump(obj)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 19,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

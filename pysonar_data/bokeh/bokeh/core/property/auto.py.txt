@@ -1,0 +1,17 @@
+<<log>> <<17:655-658>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<enum>> <<28:940-944>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<34:1147-1154>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Auto>> <<42:1361-1365>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<69:2015-2023>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<__str__>> <<72:2086-2093>> <<function>> <<METHOD>> <<ANCHOR>>
+<<_sphinx_type>> <<75:2152-2164>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<69:2024-2027>> <<Auto>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<75:2165-2168>> <<Auto>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<72:2094-2097>> <<Auto>> <<PARAMETER>> <<ANCHOR>>
+<<Enum>> <<28:952-956>> <<type>> <<VARIABLE>> <<LINK>>
+<<Enum>> <<42:1366-1370>> <<type>> <<VARIABLE>> <<LINK>>
+<<Auto>> <<70:2046-2050>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<70:2052-2056>> <<Auto>> <<VARIABLE>> <<LINK>>
+<<self>> <<76:2188-2192>> <<Auto>> <<VARIABLE>> <<LINK>>
+<<_sphinx_prop_link>> <<76:2193-2210>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<73:2117-2121>> <<Auto>> <<VARIABLE>> <<LINK>>

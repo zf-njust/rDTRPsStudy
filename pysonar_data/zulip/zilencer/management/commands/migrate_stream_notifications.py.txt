@@ -1,0 +1,15 @@
+<<zerver>> <<5:82-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:89-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Command>> <<7:123-130>> <<type>> <<CLASS>> <<ANCHOR>>
+<<help>> <<8:149-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<10:236-242>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:243-246>> <<Command>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:246-247>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<subscription>> <<12:318-330>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Subscription>> <<5:103-115>> <<type>> <<VARIABLE>> <<LINK>>
+<<Subscription>> <<12:334-346>> <<type>> <<VARIABLE>> <<LINK>>
+<<subscription>> <<13:411-423>> <<?>> <<VARIABLE>> <<LINK>>
+<<subscription>> <<13:374-386>> <<?>> <<VARIABLE>> <<LINK>>
+<<subscription>> <<14:487-499>> <<?>> <<VARIABLE>> <<LINK>>
+<<subscription>> <<14:450-462>> <<?>> <<VARIABLE>> <<LINK>>
+<<subscription>> <<15:526-538>> <<?>> <<VARIABLE>> <<LINK>>

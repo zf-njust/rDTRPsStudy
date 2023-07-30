@@ -1,0 +1,5 @@
+<<pipenv>> <<12:235-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<12:242-249>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<12:250-253>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<12:254-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pygments>> <<12:262-270>> <<module>> <<VARIABLE>> <<ANCHOR>>

@@ -1,0 +1,2 @@
+<<AudioDescriptor>> <<15:261-276>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Signal>> <<15:284-290>> <<?>> <<SCOPE>> <<ANCHOR>>

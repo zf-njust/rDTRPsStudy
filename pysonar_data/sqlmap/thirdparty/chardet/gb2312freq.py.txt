@@ -1,0 +1,3 @@
+<<GB2312_TYPICAL_DISTRIBUTION_RATIO>> <<42:1569-1602>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<GB2312_TABLE_SIZE>> <<44:1610-1627>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<GB2312CharToFreqOrder>> <<46:1636-1657>> <<tuple>> <<SCOPE>> <<ANCHOR>>

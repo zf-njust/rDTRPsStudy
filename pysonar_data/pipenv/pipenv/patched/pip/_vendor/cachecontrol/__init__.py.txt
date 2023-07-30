@@ -1,0 +1,3 @@
+<<__author__>> <<9:189-199>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__email__>> <<10:216-225>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<11:247-258>> <<str>> <<SCOPE>> <<ANCHOR>>

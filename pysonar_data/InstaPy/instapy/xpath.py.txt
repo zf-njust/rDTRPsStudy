@@ -1,0 +1,8 @@
+<<xpath_compile>> <<1:6-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read_xpath>> <<4:42-52>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<function_name>> <<4:53-56>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<xpath_name>> <<4:68-71>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<xpath>> <<1:6-11>> <<dict>> <<VARIABLE>> <<LINK>>
+<<xpath>> <<5:93-98>> <<dict>> <<VARIABLE>> <<LINK>>
+<<function_name>> <<5:99-112>> <<?>> <<VARIABLE>> <<LINK>>
+<<xpath_name>> <<5:114-124>> <<?>> <<VARIABLE>> <<LINK>>

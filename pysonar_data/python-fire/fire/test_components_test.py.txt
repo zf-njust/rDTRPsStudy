@@ -1,0 +1,17 @@
+<<__future__>> <<17:642-652>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:682-692>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:715-725>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fire>> <<21:756-760>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fire>> <<22:796-800>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestComponentsTest>> <<25:829-847>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testTestComponents>> <<28:957-975>> <<function>> <<METHOD>> <<ANCHOR>>
+<<testNonComparable>> <<32:1072-1089>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<32:1090-1093>> <<TestComponentsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:976-979>> <<TestComponentsTest>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:660-675>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<18:700-708>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:733-747>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<self>> <<33:1107-1111>> <<TestComponentsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<35:1222-1226>> <<TestComponentsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:988-992>> <<TestComponentsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<30:1024-1028>> <<TestComponentsTest>> <<VARIABLE>> <<LINK>>

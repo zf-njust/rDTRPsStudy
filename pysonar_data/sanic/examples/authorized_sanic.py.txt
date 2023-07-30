@@ -1,0 +1,12 @@
+<<sanic>> <<5:63-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<6:88-93>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<6:94-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<9:120-123>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<check_request_for_authorization_status>> <<12:152-190>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<authorized>> <<18:306-316>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<12:191-194>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<flag>> <<14:268-272>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<18:317-320>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<json>> <<6:110-114>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<44:1078-1081>> <<?>> <<VARIABLE>> <<LINK>>
+<<flag>> <<15:292-296>> <<?>> <<VARIABLE>> <<LINK>>

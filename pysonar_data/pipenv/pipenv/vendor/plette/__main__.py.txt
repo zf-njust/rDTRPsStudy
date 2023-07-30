@@ -1,0 +1,13 @@
+<<pipenv>> <<12:248-254>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<12:255-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plette>> <<12:262-268>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<16:302-308>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<args>> <<19:393-397>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dest>> <<21:421-425>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<23:458-459>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<pipfile>> <<24:465-472>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<parser>> <<17:337-343>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<19:400-406>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<21:428-432>> <<?>> <<VARIABLE>> <<LINK>>
+<<dest>> <<23:449-453>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<24:488-489>> <<file>> <<VARIABLE>> <<LINK>>

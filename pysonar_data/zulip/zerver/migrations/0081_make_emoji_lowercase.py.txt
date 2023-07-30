@@ -1,0 +1,16 @@
+<<Migration>> <<10:281-290>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<12:319-331>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<emoji_to_lowercase>> <<16:404-422>> <<function>> <<METHOD>> <<ANCHOR>>
+<<operations>> <<28:948-958>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<16:423-426>> <<Migration>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<16:429-432>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<RealmEmoji>> <<18:511-521>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<emoji>> <<19:571-576>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<e>> <<20:616-617>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<emoji_to_lowercase>> <<29:992-1010>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<18:524-528>> <<Migration>> <<VARIABLE>> <<LINK>>
+<<RealmEmoji>> <<19:579-589>> <<?>> <<VARIABLE>> <<LINK>>
+<<emoji>> <<20:621-626>> <<?>> <<VARIABLE>> <<LINK>>
+<<e>> <<25:907-908>> <<?>> <<VARIABLE>> <<LINK>>
+<<e>> <<25:898-899>> <<?>> <<VARIABLE>> <<LINK>>
+<<e>> <<26:934-935>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def compare(self, static, moving, event_index=None,\n                result_index=None):\n\n        index = moving._index\n\n        # Check resid if we have a time index specified\n        if event_index is not None:\n            ref = static._resid_raw[-1]\n\n            label = index[event_index]\n\n            res = moving.resid[label]\n\n            assert_almost_equal(ref, res)\n\n            ref = static._y_fitted_raw[-1]\n            res = moving.y_fitted[label]\n\n            assert_almost_equal(ref, res)\n\n        # Check y_fitted\n\n        for field in self.FIELDS:\n            attr = '_%s_raw' % field\n\n            ref = getattr(static, attr)\n            res = getattr(moving, attr)\n\n            if result_index is not None:\n                res = res[result_index]\n\n            assert_almost_equal(ref, res)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 27,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

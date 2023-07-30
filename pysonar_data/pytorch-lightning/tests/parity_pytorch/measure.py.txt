@@ -1,0 +1,11 @@
+<<measure_loops>> <<9:100-113>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cls_model>> <<9:114-117>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<kind>> <<9:125-128>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<loop>> <<9:136-139>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<num_runs>> <<9:152-155>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<num_epochs>> <<9:172-175>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<hist_losses>> <<11:277-288>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<hist_durations>> <<12:299-313>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<hist_memory>> <<13:324-335>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<device_type>> <<15:348-359>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<num_runs>> <<17:481-489>> <<int>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<package_data>> <<1:6-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<intranges>> <<22:402-411>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<24:438-445>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<1:26-37>> <<str>> <<VARIABLE>> <<LINK>>
+<<intranges_contain>> <<22:419-436>> <<function>> <<VARIABLE>> <<LINK>>

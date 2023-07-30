@@ -1,0 +1,10 @@
+{
+  "code": "def CreateCookieData(email, admin):\n  \"\"\"Creates cookie payload data.\n\n  Args:\n    email, admin: Parameters to incorporate into the cookie.\n\n  Returns:\n    String containing the cookie payload.\n  \"\"\"\n  admin_string = 'False'\n  if admin:\n    admin_string = 'True'\n  if email:\n    user_id_digest = hashlib.md5(email.lower()).digest()\n    user_id = '1' + ''.join(['%02d' % ord(x) for x in user_id_digest])[:20]\n  else:\n    user_id = ''\n  return '%s:%s:%s' % (email, admin_string, user_id)\ndef ord(*args, **kwargs): # real signature unknown\n    \"\"\" Return the Unicode code point for a one-character string. \"\"\"\n    pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 15,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

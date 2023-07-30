@@ -1,0 +1,6 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UsersConfig>> <<6:88-99>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<7:117-121>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<9:143-148>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:149-152>> <<UsersConfig>> <<PARAMETER>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>

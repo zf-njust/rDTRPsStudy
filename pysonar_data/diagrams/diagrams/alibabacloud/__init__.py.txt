@@ -1,0 +1,4 @@
+<<_AlibabaCloud>> <<8:118-131>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:144-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:176-185>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:220-229>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

@@ -1,0 +1,10 @@
+{
+  "code": "    def process(self) -> None:\n        \"\"\" The entry point for the Mask tool from :file:`lib.tools.cli`. Runs the Mask process \"\"\"\n        logger.debug(\"Starting masker process\")\n        updater = getattr(self, f\"_update_{'faces' if self._input_is_faces else 'frames'}\")\n        if self._update_type != \"output\":\n            assert self._extractor is not None\n            if self._input_is_faces:\n                self._faces_saver = ImagesSaver(self._loader.location, as_bytes=True)\n            for extractor_output in self._extractor.detected_faces():\n                self._extractor_input_thread.check_and_raise_error()\n                updater(extractor_output)\n\n            if self._counts[\"update\"] != 0 and self._alignments is not None:\n                self._alignments.backup()\n                self._alignments.save()\n\n            if self._input_is_faces:\n                assert self._faces_saver is not None\n                self._faces_saver.close()\n\n        self._extractor_input_thread.join()\n        if self._saver is not None:\n            self._saver.close()\n\n        if self._counts[\"skip\"] != 0:\n            logger.warning(\"%s face(s) skipped due to not existing in the alignments file\",\n                           self._counts[\"skip\"])\n        if self._update_type != \"output\":\n            if self._counts[\"update\"] == 0:\n                logger.warning(\"No masks were updated of the %s faces seen\", self._counts[\"face\"])\n            else:\n                logger.info(\"Updated masks for %s faces of %s\",\n                            self._counts[\"update\"], self._counts[\"face\"])\n        logger.debug(\"Completed masker process\")",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 4,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

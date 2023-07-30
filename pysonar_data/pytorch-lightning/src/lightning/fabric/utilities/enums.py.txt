@@ -1,0 +1,4 @@
+<<__future__>> <<15:628-638>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<LightningEnum>> <<25:868-881>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LightningEnum>> <<29:925-938>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<annotations>> <<15:646-657>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<is_valid>> <<11:251-259>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<s>> <<11:260-263>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stack>> <<12:282-287>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<dic>> <<13:298-301>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<char>> <<16:368-372>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<16:376-377>> <<?>> <<VARIABLE>> <<LINK>>
+<<char>> <<17:391-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<dic>> <<17:399-402>> <<dict>> <<VARIABLE>> <<LINK>>
+<<stack>> <<18:426-431>> <<list>> <<VARIABLE>> <<LINK>>
+<<char>> <<18:439-443>> <<?>> <<VARIABLE>> <<LINK>>
+<<char>> <<19:459-463>> <<?>> <<VARIABLE>> <<LINK>>
+<<dic>> <<19:467-470>> <<dict>> <<VARIABLE>> <<LINK>>
+<<stack>> <<20:492-497>> <<list>> <<VARIABLE>> <<LINK>>
+<<dic>> <<20:501-504>> <<dict>> <<VARIABLE>> <<LINK>>
+<<char>> <<20:505-509>> <<?>> <<VARIABLE>> <<LINK>>
+<<stack>> <<20:514-519>> <<list>> <<VARIABLE>> <<LINK>>
+<<stack>> <<22:573-578>> <<list>> <<VARIABLE>> <<LINK>>

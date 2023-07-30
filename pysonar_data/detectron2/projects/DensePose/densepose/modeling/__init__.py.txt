@@ -1,0 +1,11 @@
+<<confidence>> <<3:60-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<6:228-233>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<build>> <<7:273-278>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseConfidenceModelConfig>> <<3:78-108>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseUVConfidenceType>> <<3:110-135>> <<type>> <<VARIABLE>> <<LINK>>
+<<initialize_module_params>> <<6:241-265>> <<function>> <<VARIABLE>> <<LINK>>
+<<build_densepose_data_filter>> <<8:293-320>> <<function>> <<VARIABLE>> <<LINK>>
+<<build_densepose_embedder>> <<9:327-351>> <<function>> <<VARIABLE>> <<LINK>>
+<<build_densepose_head>> <<10:358-378>> <<function>> <<VARIABLE>> <<LINK>>
+<<build_densepose_losses>> <<11:385-407>> <<function>> <<VARIABLE>> <<LINK>>
+<<build_densepose_predictor>> <<12:414-439>> <<function>> <<VARIABLE>> <<LINK>>

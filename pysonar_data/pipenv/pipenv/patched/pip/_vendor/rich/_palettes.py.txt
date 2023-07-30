@@ -1,0 +1,8 @@
+<<palette>> <<1:6-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<WINDOWS_PALETTE>> <<5:111-126>> <<Palette>> <<SCOPE>> <<ANCHOR>>
+<<STANDARD_PALETTE>> <<27:588-604>> <<Palette>> <<SCOPE>> <<ANCHOR>>
+<<EIGHT_BIT_PALETTE>> <<50:1019-1036>> <<Palette>> <<SCOPE>> <<ANCHOR>>
+<<Palette>> <<1:21-28>> <<type>> <<VARIABLE>> <<LINK>>
+<<Palette>> <<5:129-136>> <<type>> <<VARIABLE>> <<LINK>>
+<<Palette>> <<27:607-614>> <<type>> <<VARIABLE>> <<LINK>>
+<<Palette>> <<50:1039-1046>> <<type>> <<VARIABLE>> <<LINK>>

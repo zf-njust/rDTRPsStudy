@@ -1,0 +1,15 @@
+<<_PYTHON_GREATER_EQUAL_3_11_0>> <<22:813-841>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<_TORCHMETRICS_GREATER_EQUAL_0_9_1>> <<23:905-938>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_TORCHMETRICS_GREATER_EQUAL_0_11>> <<24:982-1014>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_KINETO_AVAILABLE>> <<26:1088-1105>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_OMEGACONF_AVAILABLE>> <<27:1143-1163>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_TORCHVISION_AVAILABLE>> <<28:1198-1220>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_LIGHTNING_COLOSSALAI_AVAILABLE>> <<29:1256-1287>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_LIGHTNING_BAGUA_AVAILABLE>> <<30:1332-1358>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_try_import_module>> <<34:1441-1459>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<module_name>> <<34:1460-1463>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<_LIGHTNING_GRAPHCORE_AVAILABLE>> <<44:1812-1842>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_LIGHTNING_HABANA_AVAILABLE>> <<45:1932-1959>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_try_import_module>> <<44:1889-1907>> <<function>> <<VARIABLE>> <<LINK>>
+<<module_name>> <<36:1517-1528>> <<str>> <<VARIABLE>> <<LINK>>
+<<_try_import_module>> <<45:2003-2021>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<image_size>> <<5:107-117>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<batch_augments>> <<6:134-148>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<8:204-209>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<10:275-291>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<12:396-409>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<20:690-703>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<image_size>> <<6:188-198>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<batch_augments>> <<8:255-269>> <<list>> <<VARIABLE>> <<LINK>>

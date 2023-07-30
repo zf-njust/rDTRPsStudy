@@ -1,0 +1,5 @@
+<<Enclave>> <<8:141-148>> <<type>> <<CLASS>> <<ANCHOR>>
+<<post_init>> <<9:164-173>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:174-177>> <<Enclave>> <<PARAMETER>> <<ANCHOR>>
+<<node_type>> <<10:202-211>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<10:197-201>> <<Enclave>> <<VARIABLE>> <<LINK>>

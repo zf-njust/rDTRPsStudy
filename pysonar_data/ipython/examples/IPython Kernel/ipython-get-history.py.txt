@@ -1,0 +1,17 @@
+<<session_number>> <<23:633-647>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<dest>> <<25:695-699>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<raw>> <<26:730-733>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<dest>> <<28:780-784>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<raw>> <<29:803-806>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<hist>> <<33:931-935>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<session>> <<35:963-970>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lineno>> <<35:972-978>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<cell>> <<35:980-984>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<cell>> <<36:1042-1046>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dest>> <<30:815-819>> <<{file||?}>> <<VARIABLE>> <<LINK>>
+<<hist>> <<35:988-992>> <<?>> <<VARIABLE>> <<LINK>>
+<<session_number>> <<35:1011-1025>> <<int>> <<VARIABLE>> <<LINK>>
+<<raw>> <<35:1031-1034>> <<{int||?}>> <<VARIABLE>> <<LINK>>
+<<cell>> <<36:1049-1053>> <<?>> <<VARIABLE>> <<LINK>>
+<<dest>> <<37:1116-1120>> <<{file||?}>> <<VARIABLE>> <<LINK>>
+<<cell>> <<37:1127-1131>> <<?>> <<VARIABLE>> <<LINK>>

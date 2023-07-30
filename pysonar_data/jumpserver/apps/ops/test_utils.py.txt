@@ -1,0 +1,14 @@
+<<TestRunAdHoc>> <<12:175-187>> <<type>> <<CLASS>> <<ANCHOR>>
+<<setUp>> <<13:208-213>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_run>> <<26:644-652>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:214-217>> <<TestRunAdHoc>> <<PARAMETER>> <<ANCHOR>>
+<<adhoc>> <<14:230-235>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<17:304-308>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<26:653-656>> <<TestRunAdHoc>> <<PARAMETER>> <<ANCHOR>>
+<<adhoc>> <<15:275-280>> <<?>> <<VARIABLE>> <<LINK>>
+<<adhoc>> <<17:325-330>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:299-303>> <<TestRunAdHoc>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:375-379>> <<TestRunAdHoc>> <<VARIABLE>> <<LINK>>
+<<data>> <<18:380-384>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:576-580>> <<TestRunAdHoc>> <<VARIABLE>> <<LINK>>
+<<data>> <<22:581-585>> <<?>> <<VARIABLE>> <<LINK>>

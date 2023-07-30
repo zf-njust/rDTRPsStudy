@@ -1,0 +1,11 @@
+<<app_name>> <<9:134-142>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<10:153-159>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<26:827-838>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<29:849-860>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<13:189-195>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<15:332-338>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<18:482-488>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<20:628-634>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<23:774-780>> <<?>> <<VARIABLE>> <<LINK>>
+<<urlpatterns>> <<29:849-860>> <<list>> <<VARIABLE>> <<LINK>>
+<<router>> <<29:864-870>> <<?>> <<VARIABLE>> <<LINK>>

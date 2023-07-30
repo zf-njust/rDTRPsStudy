@@ -1,0 +1,16 @@
+<<kivy>> <<1:7-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<6:100-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<6:105-108>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<7:126-130>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<7:131-134>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<videoplayer>> <<7:135-146>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VideoPlayerApp>> <<14:322-336>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<16:354-359>> <<function>> <<METHOD>> <<ANCHOR>>
+<<kivy>> <<2:13-17>> <<module>> <<VARIABLE>> <<LINK>>
+<<require>> <<2:18-25>> <<function>> <<VARIABLE>> <<LINK>>
+<<argv>> <<4:54-58>> <<list>> <<VARIABLE>> <<LINK>>
+<<App>> <<6:116-119>> <<type>> <<VARIABLE>> <<LINK>>
+<<VideoPlayer>> <<7:154-165>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<14:337-340>> <<type>> <<VARIABLE>> <<LINK>>
+<<VideoPlayerApp>> <<26:629-643>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<26:646-649>> <<function>> <<VARIABLE>> <<LINK>>

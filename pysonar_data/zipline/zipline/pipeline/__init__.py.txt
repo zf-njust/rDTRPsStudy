@@ -1,0 +1,12 @@
+<<classifier>> <<1:6-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<factors>> <<2:42-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<filters>> <<3:85-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<term>> <<4:114-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graph>> <<5:138-143>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<8:196-203>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<Classifier>> <<1:24-34>> <<type>> <<VARIABLE>> <<LINK>>
+<<Factor>> <<2:57-63>> <<type>> <<VARIABLE>> <<LINK>>
+<<CustomFactor>> <<2:65-77>> <<type>> <<VARIABLE>> <<LINK>>
+<<Filter>> <<3:100-106>> <<type>> <<VARIABLE>> <<LINK>>
+<<Term>> <<4:126-130>> <<type>> <<VARIABLE>> <<LINK>>
+<<TermGraph>> <<5:151-160>> <<type>> <<VARIABLE>> <<LINK>>

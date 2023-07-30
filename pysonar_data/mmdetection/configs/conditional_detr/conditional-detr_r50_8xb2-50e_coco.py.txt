@@ -1,0 +1,4 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:49-54>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<40:1213-1222>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<42:1292-1307>> <<list>> <<SCOPE>> <<ANCHOR>>

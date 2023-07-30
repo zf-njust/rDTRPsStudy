@@ -1,0 +1,10 @@
+{
+  "code": "def test_check_seed_deprecation():\\n    \"\"\"Tests that `check_seed_deprecation()` throws a warning if `env.seed()` has not been removed.\"\"\"\\n\\n    message = \"\"\"Official support for the `seed` function is dropped. Standard practice is to reset gym environments using `env.reset(seed=<desired seed>)`\"\"\"\\n\\n    env = GenericTestEnv()\\n\\n    def seed(seed):\\n        return\\n\\n    with pytest.warns(\\n        UserWarning, match=f\"^\\\\\\\\x1b\\\\\\\\[33mWARN: {re.escape(message)}\\\\\\\\x1b\\\\\\\\[0m$\"\\n    ):\\n        env.seed = seed\\n        assert callable(env.seed)\\n        check_seed_deprecation(env)\\n\\n    with warnings.catch_warnings(record=True) as caught_warnings:\\n        env.seed = []\\n        check_seed_deprecation(env)\\n        env.seed = 123\\n        check_seed_deprecation(env)\\n        del env.seed\\n        check_seed_deprecation(env)\\n        assert len(caught_warnings) == 0",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 23,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

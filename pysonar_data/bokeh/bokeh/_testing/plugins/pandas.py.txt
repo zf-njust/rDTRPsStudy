@@ -1,0 +1,6 @@
+<<log>> <<17:699-702>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<35:1235-1242>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<pd>> <<44:1462-1464>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pandas>> <<49:1579-1585>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<50:1622-1628>> <<?>> <<VARIABLE>> <<LINK>>
+<<pandas>> <<52:1698-1704>> <<?>> <<VARIABLE>> <<LINK>>

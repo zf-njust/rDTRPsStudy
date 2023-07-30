@@ -1,0 +1,10 @@
+{
+  "code": "def load_all_fcompiler_classes():\n    \"\"\"Cache all the FCompiler classes found in modules in the\n    numpy.distutils.fcompiler package.\n    \"\"\"\n    from glob import glob\n    global fcompiler_class, fcompiler_aliases\n    if fcompiler_class is not None:\n        return\n    pys = os.path.join(os.path.dirname(__file__), '*.py')\n    fcompiler_class = {}\n    fcompiler_aliases = {}\n    for fname in glob(pys):\n        module_name, ext = os.path.splitext(os.path.basename(fname))\n        module_name = 'numpy.distutils.fcompiler.' + module_name\n        __import__ (module_name)\n        module = sys.modules[module_name]\n        if hasattr(module, 'compilers'):\n            for cname in module.compilers:\n                klass = getattr(module, cname)\n                desc = (klass.compiler_type, klass, klass.description)\n                fcompiler_class[klass.compiler_type] = desc\n                for alias in klass.compiler_aliases:\n                    if alias in fcompiler_aliases:\n                        raise ValueError(\"alias %r defined for both %s and %s\"\n                                         % (alias, klass.__name__,\n                                            fcompiler_aliases[alias][1].__name__))\n                    fcompiler_aliases[alias] = desc",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 19,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

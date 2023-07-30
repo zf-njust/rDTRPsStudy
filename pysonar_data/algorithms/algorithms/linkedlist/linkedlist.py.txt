@@ -1,0 +1,14 @@
+<<DoublyLinkedListNode>> <<14:563-583>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<15:602-610>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<SinglyLinkedListNode>> <<21:716-736>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<22:755-763>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<22:764-767>> <<SinglyLinkedListNode>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<22:770-773>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<23:792-797>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<15:611-614>> <<DoublyLinkedListNode>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<15:617-620>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<16:639-644>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<value>> <<23:800-805>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:787-791>> <<SinglyLinkedListNode>> <<VARIABLE>> <<LINK>>
+<<value>> <<16:647-652>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:634-638>> <<DoublyLinkedListNode>> <<VARIABLE>> <<LINK>>

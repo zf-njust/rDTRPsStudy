@@ -1,0 +1,8 @@
+<<EnvVarTestApp>> <<6:83-96>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<7:122-130>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<10:177-180>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:131-134>> <<EnvVarTestApp>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<17:399-402>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<10:181-184>> <<EnvVarTestApp>> <<PARAMETER>> <<ANCHOR>>
+<<EnvVarTestApp>> <<17:418-431>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:382-386>> <<EnvVarTestApp>> <<VARIABLE>> <<LINK>>

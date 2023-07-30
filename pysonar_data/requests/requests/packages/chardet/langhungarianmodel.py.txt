@@ -1,0 +1,9 @@
+<<Latin2_HungarianCharToOrderMap>> <<34:1401-1431>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<win1250HungarianCharToOrderMap>> <<53:2522-2552>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<HungarianLangModel>> <<78:3813-3831>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Latin2HungarianModel>> <<209:12290-12310>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Win1250HungarianModel>> <<217:12516-12537>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Latin2_HungarianCharToOrderMap>> <<210:12336-12366>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<HungarianLangModel>> <<211:12391-12409>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<win1250HungarianCharToOrderMap>> <<218:12563-12593>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<HungarianLangModel>> <<219:12618-12636>> <<tuple>> <<VARIABLE>> <<LINK>>

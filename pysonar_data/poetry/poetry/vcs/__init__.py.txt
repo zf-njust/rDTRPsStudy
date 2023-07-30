@@ -1,0 +1,15 @@
+<<poetry>> <<4:43-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:50-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_compat>> <<4:56-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<git>> <<6:85-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_vcs>> <<9:109-116>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<directory>> <<9:117-120>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<directory>> <<10:157-166>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<p>> <<12:200-201>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Git>> <<6:96-99>> <<type>> <<VARIABLE>> <<LINK>>
+<<directory>> <<10:169-178>> <<?>> <<VARIABLE>> <<LINK>>
+<<directory>> <<12:206-215>> <<?>> <<VARIABLE>> <<LINK>>
+<<directory>> <<12:224-233>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<13:257-258>> <<?>> <<VARIABLE>> <<LINK>>
+<<Git>> <<15:321-324>> <<type>> <<VARIABLE>> <<LINK>>
+<<p>> <<15:325-326>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<hailstone>> <<8:205-214>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<8:215-218>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<sequence>> <<14:346-354>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<17:414-415>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<19:454-455>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<14:358-359>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<15:372-373>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<16:391-392>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<17:420-421>> <<?>> <<VARIABLE>> <<LINK>>
+<<n>> <<19:462-463>> <<?>> <<VARIABLE>> <<LINK>>
+<<sequence>> <<20:476-484>> <<list>> <<VARIABLE>> <<LINK>>
+<<n>> <<20:492-493>> <<int>> <<VARIABLE>> <<LINK>>
+<<sequence>> <<21:507-515>> <<list>> <<VARIABLE>> <<LINK>>

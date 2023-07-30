@@ -1,0 +1,4 @@
+{
+    "code": "def package(self, name, version, extras=None):\n        name = name.lower()\n\n        if extras is None:\n            extras = []\n\n        for package in self.packages:\n            if name == package.name and package.version.text == version:\n                # Activate extra dependencies\n                for extra in extras:\n                    if extra in package.extras:\n                        for extra_dep in package.extras[extra]:\n                            for dep in package.requires:\n                                if dep.name == extra_dep.name:\n                                    dep.activate()\n\n                return package.clone()",
+    "smell": []
+}

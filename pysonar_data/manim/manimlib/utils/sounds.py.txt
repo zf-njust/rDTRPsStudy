@@ -1,0 +1,12 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<manimlib>> <<3:43-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:52-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<directories>> <<3:58-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<manimlib>> <<4:97-105>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:106-111>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_full_sound_file_path>> <<7:147-171>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sound_file_name>> <<7:172-175>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<get_sound_dir>> <<3:77-90>> <<function>> <<VARIABLE>> <<LINK>>
+<<sound_file_name>> <<9:234-249>> <<?>> <<VARIABLE>> <<LINK>>
+<<get_sound_dir>> <<10:273-286>> <<function>> <<VARIABLE>> <<LINK>>

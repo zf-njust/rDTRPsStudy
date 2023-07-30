@@ -1,0 +1,3 @@
+<<get_land_verb>> <<12:230-243>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<full_sentence>> <<13:266-279>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<full_sentence>> <<61:1446-1459>> <<list>> <<VARIABLE>> <<LINK>>

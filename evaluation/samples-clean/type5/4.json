@@ -1,0 +1,10 @@
+{
+  "code": "def delete_preview(self) -> None:\\n        \"\"\" Delete the preview files in the cache folder and reset the image cache.\\n\\n        Should be called when terminating tasks, or when Faceswap starts up or shuts down.\\n        \"\"\"\\n        logger.debug(\"Deleting previews\")\\n        for item in os.listdir(self._pathpreview):\\n            if item.startswith(os.path.splitext(TRAININGPREVIEW)[0]) and item.endswith((\".jpg\",\\n                                                                                        \".png\")):\\n                fullitem = os.path.join(self._pathpreview, item)\\n                logger.debug(\"Deleting: '%s'\", fullitem)\\n                os.remove(fullitem)\\n\\n        self._preview_extract.delete_previews()\\n        del self._preview_train\\n        del self._preview_extract\\n        self._preview_train = PreviewTrain(self._pathpreview)\\n        self._preview_extract = PreviewExtract(self._pathpreview)",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 16,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

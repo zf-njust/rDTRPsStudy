@@ -1,0 +1,9 @@
+<<_Device>> <<6:106-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:130-135>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Mobile>> <<11:202-208>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:224-229>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Tablet>> <<15:256-262>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:278-283>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Device>> <<11:209-216>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Device>> <<15:263-270>> <<type>> <<VARIABLE>> <<LINK>>

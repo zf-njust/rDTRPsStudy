@@ -1,0 +1,10 @@
+<<config>> <<2:58-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dataset_mapper>> <<3:107-121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<panoptic_seg>> <<4:165-177>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<add_panoptic_deeplab_config>> <<2:72-99>> <<function>> <<VARIABLE>> <<LINK>>
+<<PanopticDeeplabDatasetMapper>> <<3:129-157>> <<type>> <<VARIABLE>> <<LINK>>
+<<PanopticDeepLab>> <<5:192-207>> <<type>> <<VARIABLE>> <<LINK>>
+<<INS_EMBED_BRANCHES_REGISTRY>> <<6:214-241>> <<?>> <<VARIABLE>> <<LINK>>
+<<build_ins_embed_branch>> <<7:248-270>> <<function>> <<VARIABLE>> <<LINK>>
+<<PanopticDeepLabSemSegHead>> <<8:277-302>> <<type>> <<VARIABLE>> <<LINK>>
+<<PanopticDeepLabInsEmbedHead>> <<9:309-336>> <<type>> <<VARIABLE>> <<LINK>>

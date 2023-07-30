@@ -1,0 +1,10 @@
+{
+  "code": "    def test_get_sitemap_body(self):\n        r = XmlResponse(url=\"http://www.example.com/\", body=self.BODY)\n        self.assertSitemapBody(r, self.BODY)\n\n        r = HtmlResponse(url=\"http://www.example.com/\", body=self.BODY)\n        self.assertSitemapBody(r, None)\n\n        r = Response(url=\"http://www.example.com/favicon.ico\", body=self.BODY)\n        self.assertSitemapBody(r, None)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 5,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

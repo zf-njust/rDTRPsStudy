@@ -1,0 +1,4 @@
+{
+    "code": "def get_icon(self) -> str | None:\n        \"\"\"Return icon for endpoint.\"\"\"\n        if \"up\" in self._feature.query_string:\n            return \"mdi:arrow-up-circle\"\n        if \"down\" in self._feature.query_string:\n            return \"mdi:arrow-down-circle\"\n        if \"fav\" in self._feature.query_string:\n            return \"mdi:heart-circle\"\n        if \"open\" in self._feature.query_string:\n            return \"mdi:arrow-up-circle\"\n        if \"close\" in self._feature.query_string:\n            return \"mdi:arrow-down-circle\"\n        return None",
+    "smell": []
+}

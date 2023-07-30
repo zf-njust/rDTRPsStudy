@@ -1,0 +1,17 @@
+<<gym>> <<4:89-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TransformObservation>> <<7:104-124>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<23:1024-1032>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<observation>> <<34:1435-1446>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<23:1033-1036>> <<TransformObservation>> <<PARAMETER>> <<ANCHOR>>
+<<env>> <<23:1039-1042>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<23:1053-1056>> <<function>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<32:1418-1419>> <<function>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<34:1447-1450>> <<TransformObservation>> <<PARAMETER>> <<ANCHOR>>
+<<observation>> <<34:1453-1456>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<gym>> <<7:125-128>> <<module>> <<VARIABLE>> <<LINK>>
+<<env>> <<30:1371-1374>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<31:1401-1402>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<32:1422-1423>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1413-1417>> <<TransformObservation>> <<VARIABLE>> <<LINK>>
+<<self>> <<43:1694-1698>> <<TransformObservation>> <<VARIABLE>> <<LINK>>
+<<observation>> <<43:1701-1712>> <<?>> <<VARIABLE>> <<LINK>>

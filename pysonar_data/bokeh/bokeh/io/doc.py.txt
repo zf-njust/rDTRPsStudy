@@ -1,0 +1,6 @@
+<<log>> <<17:628-631>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<33:1096-1103>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<curdoc>> <<42:1329-1335>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_curdoc>> <<56:1728-1738>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doc>> <<56:1739-1742>> <<UnlockedDocumentProxy>> <<PARAMETER>> <<ANCHOR>>
+<<doc>> <<70:2060-2063>> <<UnlockedDocumentProxy>> <<VARIABLE>> <<LINK>>

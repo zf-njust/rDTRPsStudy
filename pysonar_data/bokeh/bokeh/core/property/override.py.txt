@@ -1,0 +1,12 @@
+<<log>> <<22:839-842>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<38:1307-1314>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Override>> <<46:1525-1533>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<96:2905-2913>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<96:2914-2917>> <<Override>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<96:2917-2918>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<default_overridden>> <<99:3065-3083>> <<bool>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default>> <<101:3161-3168>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<99:3060-3064>> <<Override>> <<VARIABLE>> <<LINK>>
+<<self>> <<100:3118-3122>> <<Override>> <<VARIABLE>> <<LINK>>
+<<default_overridden>> <<100:3123-3141>> <<bool>> <<VARIABLE>> <<LINK>>
+<<self>> <<101:3156-3160>> <<Override>> <<VARIABLE>> <<LINK>>

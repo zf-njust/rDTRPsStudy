@@ -1,0 +1,4 @@
+<<split_sent>> <<6:84-94>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<output>> <<7:146-152>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<split_sent>> <<7:155-165>> <<?>> <<VARIABLE>> <<LINK>>
+<<output>> <<8:249-255>> <<?>> <<VARIABLE>> <<LINK>>

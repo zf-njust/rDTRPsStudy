@@ -1,0 +1,15 @@
+<<feature_relay_head>> <<5:189-207>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fused_semantic_head>> <<6:239-258>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<global_context_head>> <<7:291-310>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mask_point_head>> <<10:416-431>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<maskiou_head>> <<11:460-472>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scnet_mask_head>> <<12:499-514>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scnet_semantic_head>> <<13:543-562>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<15:591-598>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<FeatureRelayHead>> <<5:215-231>> <<type>> <<VARIABLE>> <<LINK>>
+<<FusedSemanticHead>> <<6:266-283>> <<type>> <<VARIABLE>> <<LINK>>
+<<GlobalContextHead>> <<7:318-335>> <<type>> <<VARIABLE>> <<LINK>>
+<<MaskPointHead>> <<10:439-452>> <<type>> <<VARIABLE>> <<LINK>>
+<<MaskIoUHead>> <<11:480-491>> <<type>> <<VARIABLE>> <<LINK>>
+<<SCNetMaskHead>> <<12:522-535>> <<type>> <<VARIABLE>> <<LINK>>
+<<SCNetSemanticHead>> <<13:570-587>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<data>> <<5:58-62>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<6:73-74>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<7:101-105>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<r>> <<9:119-120>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<7:101-105>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<7:113-114>> <<int>> <<VARIABLE>> <<LINK>>
+<<data>> <<9:172-176>> <<str>> <<VARIABLE>> <<LINK>>
+<<r>> <<10:185-186>> <<?>> <<VARIABLE>> <<LINK>>

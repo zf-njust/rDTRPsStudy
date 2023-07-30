@@ -1,0 +1,9 @@
+<<sanic>> <<5:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<8:88-91>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<handle_request>> <<12:137-151>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<handle_request>> <<21:336-350>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<12:152-155>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<5:74-82>> <<module>> <<VARIABLE>> <<LINK>>
+<<app>> <<30:544-547>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<13:174-182>> <<module>> <<VARIABLE>> <<LINK>>
+<<json>> <<13:183-187>> <<function>> <<VARIABLE>> <<LINK>>

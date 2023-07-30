@@ -1,0 +1,15 @@
+<<_BaseRequest>> <<22:725-737>> <<type>> <<CLASS>> <<ANCHOR>>
+<<to_dict>> <<23:748-755>> <<function>> <<METHOD>> <<ANCHOR>>
+<<_DeltaRequest>> <<28:815-828>> <<type>> <<CLASS>> <<ANCHOR>>
+<<to_dict>> <<31:873-880>> <<function>> <<METHOD>> <<ANCHOR>>
+<<_CommandRequest>> <<36:948-963>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_APIRequest>> <<45:1084-1095>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_RequestResponse>> <<54:1216-1232>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<31:881-884>> <<_DeltaRequest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<23:756-759>> <<_BaseRequest>> <<PARAMETER>> <<ANCHOR>>
+<<_BaseRequest>> <<28:829-841>> <<type>> <<VARIABLE>> <<LINK>>
+<<_BaseRequest>> <<36:964-976>> <<type>> <<VARIABLE>> <<LINK>>
+<<_BaseRequest>> <<45:1096-1108>> <<type>> <<VARIABLE>> <<LINK>>
+<<_BaseRequest>> <<54:1233-1245>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:904-908>> <<_DeltaRequest>> <<VARIABLE>> <<LINK>>
+<<self>> <<24:786-790>> <<_BaseRequest>> <<VARIABLE>> <<LINK>>

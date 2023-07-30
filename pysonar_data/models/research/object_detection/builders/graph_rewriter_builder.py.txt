@@ -1,0 +1,9 @@
+<<build>> <<28:1042-1047>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<graph_rewriter_config>> <<28:1048-1051>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<is_training>> <<28:1071-1074>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<graph_rewrite_fn>> <<35:1301-1317>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<graph_rewrite_fn>> <<53:2054-2070>> <<function>> <<VARIABLE>> <<LINK>>
+<<graph_rewriter_config>> <<37:1407-1428>> <<?>> <<VARIABLE>> <<LINK>>
+<<graph_rewriter_config>> <<38:1471-1492>> <<?>> <<VARIABLE>> <<LINK>>
+<<is_training>> <<42:1682-1693>> <<?>> <<VARIABLE>> <<LINK>>
+<<graph_rewriter_config>> <<45:1825-1846>> <<?>> <<VARIABLE>> <<LINK>>

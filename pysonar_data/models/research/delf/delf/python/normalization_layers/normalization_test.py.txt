@@ -1,0 +1,12 @@
+<<NormalizationsTest>> <<22:840-858>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testL2Normalization>> <<24:887-906>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:907-910>> <<NormalizationsTest>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<25:919-920>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<layer>> <<26:958-963>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<28:1031-1037>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<exp_output>> <<30:1093-1103>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<layer>> <<28:1040-1045>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:1046-1047>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1178-1182>> <<NormalizationsTest>> <<VARIABLE>> <<LINK>>
+<<exp_output>> <<32:1198-1208>> <<list>> <<VARIABLE>> <<LINK>>
+<<result>> <<32:1210-1216>> <<?>> <<VARIABLE>> <<LINK>>

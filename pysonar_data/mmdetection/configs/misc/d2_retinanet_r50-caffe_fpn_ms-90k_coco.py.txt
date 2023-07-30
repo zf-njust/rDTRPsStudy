@@ -1,0 +1,8 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<29:1309-1310>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<4:57-62>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<48:1988-2001>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<29:1309-1310>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:1246-1247>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:1249-1250>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<28:1267-1268>> <<int>> <<VARIABLE>> <<LINK>>

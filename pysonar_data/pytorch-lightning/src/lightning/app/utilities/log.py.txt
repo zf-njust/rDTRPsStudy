@@ -1,0 +1,10 @@
+<<pathlib>> <<15:601-608>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_logfile>> <<20:690-701>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<filename>> <<20:702-705>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<log_dir>> <<21:744-751>> <<Path>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<15:616-620>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<21:754-758>> <<type>> <<VARIABLE>> <<LINK>>
+<<log_dir>> <<22:797-804>> <<Path>> <<VARIABLE>> <<LINK>>
+<<mkdir>> <<22:805-810>> <<function>> <<VARIABLE>> <<LINK>>
+<<log_dir>> <<23:852-859>> <<Path>> <<VARIABLE>> <<LINK>>
+<<filename>> <<23:862-870>> <<str>> <<VARIABLE>> <<LINK>>

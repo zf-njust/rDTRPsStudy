@@ -1,0 +1,5 @@
+<<hashtable>> <<1:6-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<word_pattern>> <<3:76-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_isomorphic>> <<4:105-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_anagram>> <<5:135-145>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<longest_palindromic_subsequence>> <<6:162-193>> <<module>> <<VARIABLE>> <<ANCHOR>>

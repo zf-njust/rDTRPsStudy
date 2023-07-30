@@ -1,0 +1,8 @@
+<<read_file_from_url>> <<7:103-121>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<url>> <<7:122-125>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<file_bytes>> <<10:178-188>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<image>> <<12:282-287>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<read_file_from_url>> <<10:191-209>> <<function>> <<VARIABLE>> <<LINK>>
+<<url>> <<8:163-166>> <<str>> <<VARIABLE>> <<LINK>>
+<<file_bytes>> <<12:309-319>> <<?>> <<VARIABLE>> <<LINK>>
+<<image>> <<14:334-339>> <<?>> <<VARIABLE>> <<LINK>>

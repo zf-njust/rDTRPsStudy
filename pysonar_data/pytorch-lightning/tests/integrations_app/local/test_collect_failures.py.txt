@@ -1,0 +1,17 @@
+<<test_collect_failures_example_cloud>> <<11:191-226>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<expected_logs>> <<13:268-281>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<26:739-740>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<27:751-752>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<28:763-773>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<29:784-785>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<last_found_log_index>> <<31:804-824>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<index>> <<33:887-892>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<log>> <<33:894-897>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<expected_logs>> <<32:849-862>> <<list>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<33:911-921>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected_logs>> <<34:946-959>> <<list>> <<VARIABLE>> <<LINK>>
+<<log>> <<34:966-969>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected_logs>> <<36:1062-1075>> <<list>> <<VARIABLE>> <<LINK>>
+<<index>> <<37:1111-1116>> <<?>> <<VARIABLE>> <<LINK>>
+<<last_found_log_index>> <<37:1119-1139>> <<int>> <<VARIABLE>> <<LINK>>
+<<expected_logs>> <<38:1168-1181>> <<list>> <<VARIABLE>> <<LINK>>

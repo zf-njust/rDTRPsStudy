@@ -1,0 +1,12 @@
+<<mitmproxy>> <<3:36-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<OptionAddon>> <<6:75-86>> <<type>> <<CLASS>> <<ANCHOR>>
+<<load>> <<7:97-101>> <<function>> <<METHOD>> <<ANCHOR>>
+<<configure>> <<15:298-307>> <<function>> <<METHOD>> <<ANCHOR>>
+<<addons>> <<19:385-391>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<15:308-311>> <<OptionAddon>> <<PARAMETER>> <<ANCHOR>>
+<<updates>> <<15:314-317>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<7:102-105>> <<OptionAddon>> <<PARAMETER>> <<ANCHOR>>
+<<loader>> <<7:108-111>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exceptions>> <<3:53-63>> <<module>> <<VARIABLE>> <<LINK>>
+<<OptionAddon>> <<19:395-406>> <<type>> <<VARIABLE>> <<LINK>>
+<<loader>> <<8:126-132>> <<?>> <<VARIABLE>> <<LINK>>

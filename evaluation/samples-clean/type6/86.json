@@ -1,0 +1,10 @@
+{
+  "code": "def _get_encoder_model(self) -> keras.models.Model:\n        \"\"\" Return the model defined by the selected architecture.\n\n        Returns\n        -------\n        :class:`keras.Model`\n            The selected keras model for the chosen encoder architecture\n        \"\"\"\n        model, kwargs = self._selected_model\n        if model.keras_name:\n            kwargs[\"input_shape\"] = self._input_shape\n            kwargs[\"include_top\"] = False\n            kwargs[\"weights\"] = \"imagenet\" if self._config[\"enc_load_weights\"] else None\n            retval = getattr(kapp, model.keras_name)(**kwargs)\n        else:\n            retval = _EncoderFaceswap(self._config)\n        return retval",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 14,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

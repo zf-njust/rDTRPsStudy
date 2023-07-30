@@ -1,0 +1,2 @@
+<<debug>> <<1:6-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DebugCommand>> <<1:19-31>> <<type>> <<VARIABLE>> <<LINK>>

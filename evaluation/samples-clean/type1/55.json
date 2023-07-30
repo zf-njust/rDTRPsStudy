@@ -1,0 +1,10 @@
+{
+  "code": "def update(*args, **kwds):\n        \"\"\"od.update(E, **F) -> None.  Update od from dict/iterable E and F.\n\n        If E is a dict instance, does:        for k in E: od[k] = E[k]\n        If E has a .keys() method, does:      for k in E.keys(): od[k] = E[k]\n        Or if E is an iterable of items, does:for k, v in E: od[k] = v\n        In either case, this is followed by:  for k, v in F.items(): od[k] = v\n        \"\"\"\n        if len(args) > 2:\n            raise TypeError('update() takes at most 2 positional '\n                            'arguments (%d given)' % (len(args),))\n        elif not args:\n            raise TypeError('update() takes at least 1 argument (0 given)')\n        self = args[0]\n        # Make progressively weaker assumptions about \"other\"\n        other = ()\n        if len(args) == 2:\n            other = args[1]\n        if isinstance(other, dict):\n            for key in other:\n                self[key] = other[key]\n        elif hasattr(other, 'keys'):\n            for key in other.keys():\n                self[key] = other[key]\n        else:\n            for key, value in other:\n                self[key] = value\n        for key, value in kwds.items():\n            self[key] = value",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 18,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

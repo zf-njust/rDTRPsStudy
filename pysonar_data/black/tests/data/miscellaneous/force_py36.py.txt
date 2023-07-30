@@ -1,0 +1,9 @@
+<<long_function_name>> <<3:160-178>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<long_function_name>> <<7:450-468>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<argument_one>> <<3:179-182>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<argument_two>> <<3:193-196>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<argument_three>> <<3:207-210>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<argument_four>> <<3:223-226>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<argument_five>> <<3:238-241>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<argument_six>> <<3:253-256>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ument_six>> <<3:256-265>> <<?>> <<PARAMETER>> <<ANCHOR>>

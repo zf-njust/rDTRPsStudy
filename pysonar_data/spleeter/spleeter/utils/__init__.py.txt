@@ -1,0 +1,3 @@
+<<__email__>> <<6:129-138>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<7:164-174>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<8:196-207>> <<str>> <<SCOPE>> <<ANCHOR>>

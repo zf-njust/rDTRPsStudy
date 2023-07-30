@@ -1,0 +1,6 @@
+<<__metaclass__>> <<20:831-844>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<boolean>> <<23:861-868>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<value>> <<23:869-872>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<val>> <<24:882-885>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<value>> <<24:892-897>> <<?>> <<VARIABLE>> <<LINK>>
+<<val>> <<25:907-910>> <<str>> <<VARIABLE>> <<LINK>>

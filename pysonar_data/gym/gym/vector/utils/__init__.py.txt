@@ -1,0 +1,6 @@
+<<gym>> <<2:41-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<3:115-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<4:189-192>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<9:324-327>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<10:413-416>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:483-490>> <<list>> <<SCOPE>> <<ANCHOR>>

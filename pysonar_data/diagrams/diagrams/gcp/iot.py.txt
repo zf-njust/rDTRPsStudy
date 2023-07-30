@@ -1,0 +1,6 @@
+<<_Iot>> <<6:102-106>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:119-124>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:138-147>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<IotCore>> <<11:181-188>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:201-206>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Iot>> <<11:189-193>> <<type>> <<VARIABLE>> <<LINK>>

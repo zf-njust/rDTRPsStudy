@@ -1,0 +1,12 @@
+<<asyncio>> <<15:603-610>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ColdStartProxy>> <<28:883-897>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<41:1502-1510>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<41:1511-1514>> <<ColdStartProxy>> <<PARAMETER>> <<ANCHOR>>
+<<proxy_url>> <<41:1517-1520>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<proxy_url>> <<42:1548-1557>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<proxy_timeout>> <<43:1584-1597>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<proxy_url>> <<42:1560-1569>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<42:1543-1547>> <<ColdStartProxy>> <<VARIABLE>> <<LINK>>
+<<self>> <<43:1579-1583>> <<ColdStartProxy>> <<VARIABLE>> <<LINK>>
+<<asyncio>> <<44:1619-1626>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<44:1647-1651>> <<ColdStartProxy>> <<VARIABLE>> <<LINK>>

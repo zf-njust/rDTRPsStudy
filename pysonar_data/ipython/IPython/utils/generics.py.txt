@@ -1,0 +1,5 @@
+<<inspect_object>> <<12:214-228>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<complete_object>> <<18:308-323>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<18:324-327>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<prev_completions>> <<18:329-332>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<12:229-232>> <<?>> <<PARAMETER>> <<ANCHOR>>

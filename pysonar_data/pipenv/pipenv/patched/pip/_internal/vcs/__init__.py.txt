@@ -1,0 +1,9 @@
+<<pipenv>> <<5:308-314>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<6:355-361>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<7:399-405>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<8:449-455>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<9:512-518>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<9:519-526>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<9:527-530>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_internal>> <<9:531-540>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vcs>> <<9:541-544>> <<module>> <<VARIABLE>> <<ANCHOR>>

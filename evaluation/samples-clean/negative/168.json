@@ -1,0 +1,4 @@
+{
+    "code": "def get_unlabeled_sentences(self):\n    while True:\n      file_ids_and_names = sorted([\n          (int(fname.split('-')[1].replace('.txt', '')), fname) for fname in\n          tf.gfile.ListDirectory(self.config.unsupervised_data)])\n      for fid, fname in file_ids_and_names:\n        if fid < self.current_file:\n          continue\n        self.current_file = fid\n        self.current_line = 0\n        with tf.gfile.FastGFile(os.path.join(self.config.unsupervised_data,\n                                             fname), 'r') as f:\n          for i, line in enumerate(f):\n            if i < self.current_line:\n              continue\n            self.current_line = i\n            words = line.strip().split()\n            if len(words) < self.config.max_sentence_length:\n              yield words\n      self.current_file = 0\n      self.current_line = 0\n      if self._one_pass:\n        break",
+    "smell": []
+}

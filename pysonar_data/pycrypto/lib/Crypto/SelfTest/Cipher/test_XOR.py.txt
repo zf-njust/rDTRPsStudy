@@ -1,0 +1,17 @@
+<<unittest>> <<27:1189-1197>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__revision__>> <<29:1201-1213>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_data>> <<34:1323-1332>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<TruncationSelfTest>> <<53:1876-1894>> <<type>> <<CLASS>> <<ANCHOR>>
+<<runTest>> <<55:1926-1933>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_tests>> <<61:2232-2241>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unittest>> <<68:2467-2475>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<suite>> <<69:2481-2486>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<config>> <<61:2242-2245>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<55:1934-1937>> <<TruncationSelfTest>> <<PARAMETER>> <<ANCHOR>>
+<<unittest>> <<53:1895-1903>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<70:2534-2542>> <<module>> <<VARIABLE>> <<LINK>>
+<<test_data>> <<65:2389-2398>> <<list>> <<VARIABLE>> <<LINK>>
+<<TruncationSelfTest>> <<65:2403-2421>> <<type>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<69:2497-2505>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_tests>> <<69:2516-2525>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<59:2178-2182>> <<TruncationSelfTest>> <<VARIABLE>> <<LINK>>

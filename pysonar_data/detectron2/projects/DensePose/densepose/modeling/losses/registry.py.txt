@@ -1,0 +1,3 @@
+<<detectron2>> <<3:59-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:70-75>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DENSEPOSE_LOSS_REGISTRY>> <<5:104-127>> <<?>> <<SCOPE>> <<ANCHOR>>

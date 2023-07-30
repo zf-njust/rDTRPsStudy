@@ -1,0 +1,13 @@
+<<i>> <<11:264-265>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<20:446-447>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<21:454-458>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<w>> <<24:513-514>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<wat>> <<34:632-635>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<decorated1>> <<48:792-802>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<decorated1>> <<57:910-920>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<g>> <<68:1210-1211>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<i>> <<13:313-314>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<17:377-378>> <<int>> <<VARIABLE>> <<LINK>>
+<<f>> <<21:461-462>> <<file>> <<VARIABLE>> <<LINK>>
+<<w>> <<25:525-526>> <<file>> <<VARIABLE>> <<LINK>>
+<<data>> <<25:533-537>> <<str>> <<VARIABLE>> <<LINK>>

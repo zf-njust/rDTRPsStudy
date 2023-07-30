@@ -1,0 +1,7 @@
+<<BOT_NAME>> <<12:446-454>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SPIDER_MODULES>> <<14:482-496>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<NEWSPIDER_MODULE>> <<15:533-549>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<COMMANDS_MODULE>> <<16:584-599>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LOG_LEVEL>> <<17:635-644>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<USER_AGENT>> <<21:738-748>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ROBOTSTXT_OBEY>> <<24:883-897>> <<?>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,10 @@
+<<build>> <<22:899-904>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<region_similarity_calculator_config>> <<22:905-908>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<similarity_calculator>> <<46:1721-1742>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<region_similarity_calculator_config>> <<40:1454-1489>> <<?>> <<VARIABLE>> <<LINK>>
+<<region_similarity_calculator_config>> <<46:1745-1780>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity_calculator>> <<48:1827-1848>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity_calculator>> <<50:1933-1954>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity_calculator>> <<52:2039-2060>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity_calculator>> <<54:2159-2180>> <<?>> <<VARIABLE>> <<LINK>>
+<<region_similarity_calculator_config>> <<56:2290-2325>> <<?>> <<VARIABLE>> <<LINK>>

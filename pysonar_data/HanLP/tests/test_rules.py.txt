@@ -1,0 +1,9 @@
+<<unittest>> <<4:75-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestRules>> <<9:143-152>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_eos>> <<10:182-190>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:191-194>> <<TestRules>> <<PARAMETER>> <<ANCHOR>>
+<<unittest>> <<9:153-161>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<17:494-502>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:207-211>> <<TestRules>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:271-275>> <<TestRules>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:357-361>> <<TestRules>> <<VARIABLE>> <<LINK>>

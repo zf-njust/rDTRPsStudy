@@ -1,0 +1,6 @@
+<<name>> <<3:26-30>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<docstring_singleline>> <<13:226-246>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<docstring_multiline>> <<17:338-357>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<28:481-485>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<docstring_singleline>> <<38:679-699>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<docstring_multiline>> <<42:791-810>> <<function>> <<FUNCTION>> <<ANCHOR>>

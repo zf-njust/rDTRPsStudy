@@ -1,0 +1,11 @@
+<<_CTB_HOME>> <<6:115-124>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_CTB5_DEP_HOME>> <<8:188-202>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB5_DEP_TRAIN>> <<10:238-252>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB5_DEP_DEV>> <<12:336-348>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB5_DEP_TEST>> <<14:425-438>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CIP_W2V_100_CN>> <<17:519-533>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_CTB_HOME>> <<8:205-214>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB5_DEP_HOME>> <<10:255-269>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB5_DEP_HOME>> <<12:351-365>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB5_DEP_HOME>> <<14:441-455>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB_HOME>> <<17:536-545>> <<str>> <<VARIABLE>> <<LINK>>

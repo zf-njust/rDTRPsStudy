@@ -1,0 +1,8 @@
+<<tqdm>> <<4:45-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<auto>> <<4:50-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<df>> <<6:68-70>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<14:423-426>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tqdm>> <<4:45-49>> <<{type||?}>> <<VARIABLE>> <<LINK>>
+<<tqdm>> <<10:277-281>> <<{type||?}>> <<VARIABLE>> <<LINK>>
+<<df>> <<14:398-400>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:426-427>> <<?>> <<VARIABLE>> <<LINK>>

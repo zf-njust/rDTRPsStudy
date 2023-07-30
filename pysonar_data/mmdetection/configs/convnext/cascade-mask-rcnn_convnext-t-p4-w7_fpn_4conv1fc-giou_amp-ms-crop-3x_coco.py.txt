@@ -1,0 +1,15 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<custom_imports>> <<9:287-301>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint_file>> <<11:375-390>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<13:541-546>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<87:3354-3368>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<121:4911-4927>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<123:4977-4987>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<124:4994-5003>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<127:5054-5069>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<141:5406-5419>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint_file>> <<23:864-879>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<88:3424-3430>> <<list>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<121:4957-4971>> <<list>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<124:5022-5032>> <<int>> <<VARIABLE>> <<LINK>>
+<<max_epochs>> <<134:5247-5257>> <<int>> <<VARIABLE>> <<LINK>>

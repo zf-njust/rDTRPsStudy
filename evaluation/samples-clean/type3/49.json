@@ -1,0 +1,10 @@
+{
+  "code": "    def _connect(self):\n        cache_key = self._cache_key()\n        if cache_key in SSH_CONNECTION_CACHE:\n            self.ssh = SSH_CONNECTION_CACHE[cache_key]\n        else:\n            self.ssh = SSH_CONNECTION_CACHE[cache_key] = self._connect_uncached()\n        return self",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 3,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

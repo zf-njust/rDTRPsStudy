@@ -1,0 +1,7 @@
+<<_pad>> <<9:294-298>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_eos>> <<10:313-317>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_characters>> <<11:332-343>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<symbols>> <<17:594-601>> <<{list||list}>> <<SCOPE>> <<ANCHOR>>
+<<_pad>> <<17:605-609>> <<str>> <<VARIABLE>> <<LINK>>
+<<_eos>> <<17:611-615>> <<str>> <<VARIABLE>> <<LINK>>
+<<_characters>> <<17:624-635>> <<str>> <<VARIABLE>> <<LINK>>

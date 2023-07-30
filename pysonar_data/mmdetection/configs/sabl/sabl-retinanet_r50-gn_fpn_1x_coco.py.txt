@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<7:198-206>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<8:261-266>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<52:1686-1699>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<27:872-880>> <<dict>> <<VARIABLE>> <<LINK>>

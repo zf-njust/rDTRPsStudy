@@ -1,0 +1,15 @@
+<<_Applicationlifecycle>> <<6:108-129>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:148-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:184-193>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Freezer>> <<11:250-257>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:287-292>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Masakari>> <<15:320-328>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:358-363>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Murano>> <<19:392-398>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:428-433>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Solum>> <<23:460-465>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:495-500>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Applicationlifecycle>> <<11:258-279>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Applicationlifecycle>> <<15:329-350>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Applicationlifecycle>> <<19:399-420>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Applicationlifecycle>> <<23:466-487>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<__title__>> <<5:103-112>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__description__>> <<6:126-141>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__url__>> <<7:170-177>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<8:214-225>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__build__>> <<9:237-246>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<10:258-268>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author_email__>> <<11:287-303>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<12:328-339>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__copyright__>> <<13:355-368>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__cake__>> <<14:397-405>> <<str>> <<SCOPE>> <<ANCHOR>>

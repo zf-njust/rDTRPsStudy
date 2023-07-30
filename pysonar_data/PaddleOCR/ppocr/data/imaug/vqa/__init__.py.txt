@@ -1,0 +1,5 @@
+<<token>> <<15:629-634>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<17:740-747>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<VQATokenPad>> <<15:642-653>> <<type>> <<VARIABLE>> <<LINK>>
+<<VQAReTokenRelation>> <<15:690-708>> <<type>> <<VARIABLE>> <<LINK>>
+<<TensorizeEntitiesRelations>> <<15:710-736>> <<type>> <<VARIABLE>> <<LINK>>

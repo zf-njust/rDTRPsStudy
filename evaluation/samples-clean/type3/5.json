@@ -1,0 +1,10 @@
+{
+  "code": "  def assertArraysAllClose(self, x, y, check_dtypes, atol=None, rtol=None):\n    \"\"\"Assert that x and y are close (up to numerical tolerances).\"\"\"\n    self.assertEqual(x.shape, y.shape)\n    dtype = lambda x: str(onp.asarray(x).dtype)\n    tol = 1e-2 if str(onp.dtype(onp.float32)) in {dtype(x), dtype(y)} else 1e-5\n    atol = atol or tol\n    rtol = rtol or tol\n\n    if FLAGS.jax_test_dut == 'tpu':\n      atol = max(atol, 0.5)\n      rtol = max(rtol, 1e-1)\n\n    if not onp.allclose(x, y, atol=atol, rtol=rtol, equal_nan=True):\n      msg = ('Arguments x and y not equal to tolerance atol={}, rtol={}:\\n'\n             'x:\\n{}\\n'\n             'y:\\n{}\\n').format(atol, rtol, x, y)\n      raise self.failureException(msg)\n\n    if check_dtypes:\n      self.assertDtypesMatch(x, y)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 16,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

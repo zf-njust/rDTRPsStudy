@@ -1,0 +1,10 @@
+<<fire>> <<17:655-659>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<identity>> <<20:669-677>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<main>> <<24:723-727>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<24:728-731>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<arg>> <<20:678-681>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<main>> <<28:810-814>> <<function>> <<VARIABLE>> <<LINK>>
+<<fire>> <<25:740-744>> <<module>> <<VARIABLE>> <<LINK>>
+<<identity>> <<25:750-758>> <<function>> <<VARIABLE>> <<LINK>>
+<<arg>> <<21:699-702>> <<?>> <<VARIABLE>> <<LINK>>
+<<arg>> <<21:709-712>> <<?>> <<VARIABLE>> <<LINK>>

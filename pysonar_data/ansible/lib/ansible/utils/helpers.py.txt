@@ -1,0 +1,13 @@
+<<__metaclass__>> <<20:822-835>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<pct_to_int>> <<24:897-907>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<value>> <<24:908-911>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<num_items>> <<24:915-918>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<min_value>> <<24:926-929>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<value_pct>> <<30:1154-1163>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<value>> <<29:1099-1104>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<29:1124-1129>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<30:1170-1175>> <<?>> <<VARIABLE>> <<LINK>>
+<<value_pct>> <<31:1214-1223>> <<int>> <<VARIABLE>> <<LINK>>
+<<num_items>> <<31:1233-1242>> <<?>> <<VARIABLE>> <<LINK>>
+<<min_value>> <<31:1247-1256>> <<int>> <<VARIABLE>> <<LINK>>
+<<value>> <<33:1288-1293>> <<?>> <<VARIABLE>> <<LINK>>

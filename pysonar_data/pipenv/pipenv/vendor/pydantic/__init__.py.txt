@@ -1,0 +1,10 @@
+<<annotated_types>> <<3:47-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<errors>> <<9:365-371>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<16:550-557>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<18:584-595>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<22:758-765>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<create_model_from_namedtuple>> <<3:70-98>> <<function>> <<VARIABLE>> <<LINK>>
+<<create_model_from_typeddict>> <<3:100-127>> <<function>> <<VARIABLE>> <<LINK>>
+<<VERSION>> <<16:565-572>> <<str>> <<VARIABLE>> <<LINK>>
+<<compiled>> <<16:574-582>> <<?>> <<VARIABLE>> <<LINK>>
+<<VERSION>> <<18:598-605>> <<str>> <<VARIABLE>> <<LINK>>

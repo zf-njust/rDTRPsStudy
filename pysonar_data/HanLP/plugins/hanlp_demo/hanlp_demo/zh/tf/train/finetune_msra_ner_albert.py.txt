@@ -1,0 +1,12 @@
+<<tests>> <<7:277-282>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<recognizer>> <<10:310-320>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<save_dir>> <<11:361-369>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<7:290-296>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdroot>> <<9:300-306>> <<function>> <<VARIABLE>> <<LINK>>
+<<recognizer>> <<12:423-433>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<12:490-498>> <<str>> <<VARIABLE>> <<LINK>>
+<<recognizer>> <<14:602-612>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<14:618-626>> <<str>> <<VARIABLE>> <<LINK>>
+<<recognizer>> <<15:635-645>> <<?>> <<VARIABLE>> <<LINK>>
+<<recognizer>> <<16:706-716>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<16:761-769>> <<str>> <<VARIABLE>> <<LINK>>

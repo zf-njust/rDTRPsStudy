@@ -1,0 +1,8 @@
+<<unittest>> <<3:60-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_log_event>> <<8:158-172>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<event_1>> <<9:181-188>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<event_2>> <<11:268-275>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<event_1>> <<12:346-353>> <<?>> <<VARIABLE>> <<LINK>>
+<<event_2>> <<12:356-363>> <<?>> <<VARIABLE>> <<LINK>>
+<<event_1>> <<13:376-383>> <<?>> <<VARIABLE>> <<LINK>>
+<<event_2>> <<13:387-394>> <<?>> <<VARIABLE>> <<LINK>>

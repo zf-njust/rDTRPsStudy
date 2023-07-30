@@ -1,0 +1,7 @@
+<<unittest>> <<3:32-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestCommon>> <<7:82-92>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_match1>> <<9:128-139>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:140-143>> <<TestCommon>> <<PARAMETER>> <<ANCHOR>>
+<<unittest>> <<7:93-101>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:156-160>> <<TestCommon>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:257-261>> <<TestCommon>> <<VARIABLE>> <<LINK>>

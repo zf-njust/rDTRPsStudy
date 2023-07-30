@@ -1,0 +1,12 @@
+<<ViewRaw>> <<4:30-37>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:55-59>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__call__>> <<7:79-87>> <<function>> <<METHOD>> <<ANCHOR>>
+<<render_priority>> <<10:170-185>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:186-189>> <<ViewRaw>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<10:192-195>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<10:195-196>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<7:88-91>> <<ViewRaw>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<7:94-97>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<7:97-98>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<11:260-264>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<8:153-157>> <<?>> <<VARIABLE>> <<LINK>>

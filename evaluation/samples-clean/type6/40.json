@@ -1,0 +1,10 @@
+{
+  "code": "def _get_result(obj, method, key, axis):\n    \"\"\" return the result for this obj with this key and this axis \"\"\"\n\n    if isinstance(key, dict):\n        key = key[axis]\n\n    # use an artifical conversion to map the key as integers to the labels\n    # so ix can work for comparisions\n    if method == 'indexer':\n        method = 'ix'\n        key    = obj._get_axis(axis)[key]\n\n    # in case we actually want 0 index slicing\n    try:\n        xp  = getattr(obj, method).__getitem__(_axify(obj,key,axis))\n    except:\n        xp  = getattr(obj, method).__getitem__(key)\n\n    return xp",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 17,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

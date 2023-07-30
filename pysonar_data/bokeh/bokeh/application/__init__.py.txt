@@ -1,0 +1,4 @@
+<<log>> <<23:1047-1050>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<39:1515-1522>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<application>> <<47:1736-1747>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Application>> <<47:1755-1766>> <<type>> <<VARIABLE>> <<LINK>>

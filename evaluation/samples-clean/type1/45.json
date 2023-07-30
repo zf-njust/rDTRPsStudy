@@ -1,0 +1,10 @@
+{
+  "code": "    def test_split_patterns(self):\n\n        for p in self.patterns:\n            r = self.patterns[p]\n            self.assertEqual(r, self.i.split_host_pattern(p))\n\n        for p, r in self.pattern_lists:\n            self.assertEqual(r, self.i.split_host_pattern(p))",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 7,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

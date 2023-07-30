@@ -1,0 +1,10 @@
+{
+  "code": "    def __init__(self, *args, **kwargs):\n        self._mirror = kwargs.pop(\"mirror\")\n        src = kwargs.pop(\"src\", None)\n        if src:\n            kwargs['name'] = src.rsplit('.', 1)[-1]\n        super(ShimModule, self).__init__(*args, **kwargs)\n        # add import hook for descendent modules\n        if src:\n            sys.meta_path.append(\n                ShimImporter(src=src, mirror=self._mirror)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 10,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

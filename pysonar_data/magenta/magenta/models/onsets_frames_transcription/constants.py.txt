@@ -1,0 +1,5 @@
+<<MIN_MIDI_PITCH>> <<23:795-809>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<MAX_MIDI_PITCH>> <<24:840-854>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<MIDI_PITCHES>> <<25:885-897>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<MAX_MIDI_PITCH>> <<25:900-914>> <<?>> <<VARIABLE>> <<LINK>>
+<<MIN_MIDI_PITCH>> <<25:917-931>> <<?>> <<VARIABLE>> <<LINK>>

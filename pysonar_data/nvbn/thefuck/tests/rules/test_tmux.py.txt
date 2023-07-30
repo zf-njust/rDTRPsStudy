@@ -1,0 +1,7 @@
+<<tmux_ambiguous>> <<7:128-142>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<13:332-342>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<17:432-452>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tmux_ambiguous>> <<17:453-456>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tmux_ambiguous>> <<13:343-346>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tmux_ambiguous>> <<18:526-540>> <<?>> <<VARIABLE>> <<LINK>>
+<<tmux_ambiguous>> <<14:406-420>> <<?>> <<VARIABLE>> <<LINK>>

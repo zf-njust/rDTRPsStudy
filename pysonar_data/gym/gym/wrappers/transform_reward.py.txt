@@ -1,0 +1,17 @@
+<<gym>> <<4:82-85>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gym>> <<5:92-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TransformReward>> <<8:128-143>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<24:721-729>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<reward>> <<35:1131-1137>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1138-1141>> <<TransformReward>> <<PARAMETER>> <<ANCHOR>>
+<<reward>> <<35:1144-1147>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<24:730-733>> <<TransformReward>> <<PARAMETER>> <<ANCHOR>>
+<<env>> <<24:736-739>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<24:750-753>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<33:1114-1115>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<44:1360-1364>> <<TransformReward>> <<VARIABLE>> <<LINK>>
+<<reward>> <<44:1367-1373>> <<?>> <<VARIABLE>> <<LINK>>
+<<env>> <<31:1067-1070>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<32:1097-1098>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<33:1118-1119>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<33:1109-1113>> <<TransformReward>> <<VARIABLE>> <<LINK>>

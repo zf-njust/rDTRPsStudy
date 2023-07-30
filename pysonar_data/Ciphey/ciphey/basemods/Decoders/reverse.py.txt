@@ -1,0 +1,14 @@
+<<ciphey>> <<3:42-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<3:49-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Reverse>> <<7:136-143>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<8:168-174>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<12:265-273>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<15:318-326>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<19:414-423>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<23:512-521>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:327-330>> <<Reverse>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<15:333-336>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:175-178>> <<Reverse>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<8:181-184>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<16:376-382>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<9:223-228>> <<?>> <<VARIABLE>> <<LINK>>

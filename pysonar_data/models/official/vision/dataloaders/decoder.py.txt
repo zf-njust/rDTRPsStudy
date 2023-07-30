@@ -1,0 +1,5 @@
+<<abc>> <<17:670-673>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Decoder>> <<20:685-692>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<24:793-799>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:800-803>> <<Decoder>> <<PARAMETER>> <<ANCHOR>>
+<<serialized_example>> <<24:806-809>> <<?>> <<PARAMETER>> <<ANCHOR>>

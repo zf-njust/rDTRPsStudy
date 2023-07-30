@@ -1,0 +1,5 @@
+<<scrapy>> <<2:84-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<2:91-96>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ScrapyXPathExpr>> <<5:143-158>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ScrapyGenericTranslator>> <<9:278-301>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ScrapyHTMLTranslator>> <<13:445-465>> <<?>> <<SCOPE>> <<ANCHOR>>

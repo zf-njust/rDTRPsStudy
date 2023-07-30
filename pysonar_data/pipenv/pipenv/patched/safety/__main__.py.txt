@@ -1,0 +1,5 @@
+<<__future__>> <<2:69-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<4:109-115>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<4:116-123>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<safety>> <<4:124-130>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<2:87-102>> <<_Feature>> <<VARIABLE>> <<LINK>>

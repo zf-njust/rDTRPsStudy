@@ -1,0 +1,14 @@
+<<base>> <<7:118-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<9:148-155>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<RemoteAppPermission>> <<14:202-221>> <<type>> <<CLASS>> <<ANCHOR>>
+<<remote_apps>> <<15:244-255>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<17:400-404>> <<type>> <<CLASS>> <<ANCHOR>>
+<<unique_together>> <<18:415-430>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<verbose_name>> <<19:463-475>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ordering>> <<20:513-521>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get_all_remote_apps>> <<22:545-564>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<22:565-568>> <<RemoteAppPermission>> <<PARAMETER>> <<ANCHOR>>
+<<BasePermission>> <<7:130-144>> <<type>> <<VARIABLE>> <<LINK>>
+<<BasePermission>> <<14:222-236>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:592-596>> <<RemoteAppPermission>> <<VARIABLE>> <<LINK>>
+<<remote_apps>> <<23:597-608>> <<?>> <<VARIABLE>> <<LINK>>

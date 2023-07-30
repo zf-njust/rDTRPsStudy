@@ -1,0 +1,11 @@
+<<data>> <<6:48-52>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<analysis>> <<8:75-83>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<10:160-161>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<j>> <<10:163-164>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<8:112-116>> <<?>> <<VARIABLE>> <<LINK>>
+<<analysis>> <<10:168-176>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<10:160-161>> <<?>> <<VARIABLE>> <<LINK>>
+<<j>> <<10:163-164>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<10:139-140>> <<?>> <<VARIABLE>> <<LINK>>
+<<j>> <<10:142-143>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<10:150-154>> <<?>> <<VARIABLE>> <<LINK>>

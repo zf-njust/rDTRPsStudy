@@ -1,0 +1,10 @@
+{
+  "code": "def get_config(p, section, key, env_var, default, boolean=False, integer=False, floating=False, islist=False, isnone=False, ispath=False, ispathlist=False, istmppath=False, expand_relative_paths=False):\n    ''' return a configuration variable with casting '''\n    value = _get_config(p, section, key, env_var, default)\n    if boolean:\n        value = mk_boolean(value)\n    if value:\n        if integer:\n            value = int(value)\n        elif floating:\n            value = float(value)\n        elif islist:\n            if isinstance(value, string_types):\n                value = [x.strip() for x in value.split(',')]\n        elif isnone:\n            if value == \"None\":\n                value = None\n        elif ispath:\n            value = shell_expand(value)\n        elif istmppath:\n            value = shell_expand(value)\n            if not os.path.exists(value):\n                makedirs_safe(value, 0o700)\n            prefix = 'ansible-local-%s' % os.getpid()\n            value = tempfile.mkdtemp(prefix=prefix, dir=value)\n        elif ispathlist:\n            if isinstance(value, string_types):\n                value = [shell_expand(x, expand_relative_paths=expand_relative_paths) \\\n                         for x in value.split(os.pathsep)]\n        elif isinstance(value, string_types):\n            value = unquote(value)\n    return value",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 31,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

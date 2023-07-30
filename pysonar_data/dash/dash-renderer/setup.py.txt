@@ -1,0 +1,4 @@
+<<fp>> <<4:74-76>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<package>> <<5:83-90>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<fp>> <<5:103-105>> <<file>> <<VARIABLE>> <<LINK>>
+<<package>> <<9:157-164>> <<?>> <<VARIABLE>> <<LINK>>

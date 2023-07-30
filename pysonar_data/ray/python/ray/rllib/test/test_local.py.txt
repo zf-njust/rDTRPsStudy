@@ -1,0 +1,7 @@
+<<LocalModeTest>> <<11:214-227>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testLocal>> <<12:257-266>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:267-270>> <<LocalModeTest>> <<PARAMETER>> <<ANCHOR>>
+<<cf>> <<14:318-320>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<agent>> <<15:354-359>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cf>> <<15:371-373>> <<?>> <<VARIABLE>> <<LINK>>
+<<agent>> <<16:405-410>> <<?>> <<VARIABLE>> <<LINK>>

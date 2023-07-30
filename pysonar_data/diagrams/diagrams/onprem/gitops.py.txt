@@ -1,0 +1,14 @@
+<<_Gitops>> <<6:105-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:128-133>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Argocd>> <<11:199-205>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:221-226>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Flagger>> <<15:253-260>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:276-281>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Flux>> <<19:309-313>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:329-334>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ArgoCD>> <<25:366-372>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Gitops>> <<11:206-213>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Gitops>> <<15:261-268>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Gitops>> <<19:314-321>> <<type>> <<VARIABLE>> <<LINK>>
+<<Argocd>> <<25:375-381>> <<type>> <<VARIABLE>> <<LINK>>

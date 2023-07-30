@@ -1,0 +1,10 @@
+{
+  "code": "def reset_cls_layer_weight(model, weight):\\n    if type(weight) == str:\\n        print_log(f'Resetting cls_layer_weight from file: {weight}')\\n        zs_weight = torch.tensor(\\n            np.load(weight),\\n            dtype=torch.float32).permute(1, 0).contiguous()  # D x C\\n    else:\\n        zs_weight = weight\\n    zs_weight = torch.cat(\\n        [zs_weight, zs_weight.new_zeros(\\n            (zs_weight.shape[0], 1))], dim=1)  # D x (C + 1)\\n    zs_weight = F.normalize(zs_weight, p=2, dim=0)\\n    zs_weight = zs_weight.to('cuda')\\n    num_classes = zs_weight.shape[-1]\\n\\n    for bbox_head in model.roi_head.bbox_head:\\n        bbox_head.num_classes = num_classes\\n        del bbox_head.fc_cls.zs_weight\\n        bbox_head.fc_cls.zs_weight = zs_weight",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 18,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

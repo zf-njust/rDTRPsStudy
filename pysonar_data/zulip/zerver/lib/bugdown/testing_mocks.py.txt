@@ -1,0 +1,14 @@
+<<NORMAL_TWEET>> <<7:85-97>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MENTION_IN_LINK_TWEET>> <<75:2134-2155>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<MEDIA_TWEET>> <<128:3862-3873>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<EMOJI_TWEET>> <<182:6049-6060>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<twitter>> <<221:7486-7493>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tweet_id>> <<221:7494-7497>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tweet_id>> <<223:7560-7568>> <<?>> <<VARIABLE>> <<LINK>>
+<<NORMAL_TWEET>> <<224:7667-7679>> <<str>> <<VARIABLE>> <<LINK>>
+<<tweet_id>> <<225:7690-7698>> <<?>> <<VARIABLE>> <<LINK>>
+<<MENTION_IN_LINK_TWEET>> <<226:7751-7772>> <<str>> <<VARIABLE>> <<LINK>>
+<<tweet_id>> <<227:7783-7791>> <<?>> <<VARIABLE>> <<LINK>>
+<<MEDIA_TWEET>> <<228:7844-7855>> <<str>> <<VARIABLE>> <<LINK>>
+<<tweet_id>> <<229:7866-7874>> <<?>> <<VARIABLE>> <<LINK>>
+<<EMOJI_TWEET>> <<230:7927-7938>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FrameInfo>> <<3:34-43>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<4:62-70>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<4:71-74>> <<FrameInfo>> <<PARAMETER>> <<ANCHOR>>
+<<filepath>> <<4:77-80>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<landmarks_list>> <<4:92-95>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<filepath>> <<5:128-136>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<landmarks_list>> <<6:162-176>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<motion_deg>> <<7:214-224>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<motion_power>> <<-1:243-255>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<filepath>> <<5:139-147>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<5:123-127>> <<FrameInfo>> <<VARIABLE>> <<LINK>>
+<<landmarks_list>> <<6:179-193>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<6:157-161>> <<FrameInfo>> <<VARIABLE>> <<LINK>>
+<<self>> <<7:209-213>> <<FrameInfo>> <<VARIABLE>> <<LINK>>
+<<self>> <<-1:238-242>> <<FrameInfo>> <<VARIABLE>> <<LINK>>

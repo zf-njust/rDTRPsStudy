@@ -1,0 +1,4 @@
+<<models>> <<3:34-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<serializers>> <<4:57-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<5:85-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<views>> <<6:105-110>> <<module>> <<VARIABLE>> <<ANCHOR>>

@@ -1,0 +1,2 @@
+<<drums_rnn_model>> <<21:753-768>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DrumsRnnModel>> <<21:776-789>> <<type>> <<VARIABLE>> <<LINK>>

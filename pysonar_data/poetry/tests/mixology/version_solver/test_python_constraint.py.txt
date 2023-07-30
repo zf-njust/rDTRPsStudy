@@ -1,0 +1,11 @@
+<<test_dependency_does_not_match_root_python_constraint>> <<5:86-139>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<root>> <<5:140-143>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<provider>> <<5:146-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<repo>> <<5:156-159>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<error>> <<11:298-303>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<6:168-172>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<7:203-207>> <<?>> <<VARIABLE>> <<LINK>>
+<<repo>> <<9:254-258>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<17:573-577>> <<?>> <<VARIABLE>> <<LINK>>
+<<provider>> <<17:579-587>> <<?>> <<VARIABLE>> <<LINK>>
+<<error>> <<17:595-600>> <<str>> <<VARIABLE>> <<LINK>>

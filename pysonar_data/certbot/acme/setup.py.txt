@@ -1,0 +1,8 @@
+<<version>> <<6:79-86>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<8:103-119>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<docs_extras>> <<19:384-395>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_extras>> <<24:506-517>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<32:620-627>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<56:1540-1556>> <<list>> <<VARIABLE>> <<LINK>>
+<<docs_extras>> <<58:1595-1606>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_extras>> <<59:1624-1635>> <<list>> <<VARIABLE>> <<LINK>>

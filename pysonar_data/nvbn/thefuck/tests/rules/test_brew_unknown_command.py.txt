@@ -1,0 +1,15 @@
+<<brew_unknown_cmd>> <<8:207-223>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<brew_unknown_cmd2>> <<13:300-317>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<17:379-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<23:575-595>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<brew_unknown_cmd>> <<17:390-393>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<19:483-490>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<brew_unknown_cmd>> <<23:596-599>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<brew_unknown_cmd2>> <<23:614-617>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cmds>> <<27:781-785>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<brew_unknown_cmd>> <<18:455-471>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<20:556-563>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_unknown_cmd>> <<24:690-706>> <<?>> <<VARIABLE>> <<LINK>>
+<<brew_unknown_cmd2>> <<27:834-851>> <<?>> <<VARIABLE>> <<LINK>>
+<<cmds>> <<28:884-888>> <<?>> <<VARIABLE>> <<LINK>>
+<<cmds>> <<29:921-925>> <<?>> <<VARIABLE>> <<LINK>>

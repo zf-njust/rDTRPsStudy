@@ -1,0 +1,4 @@
+{
+    "code": "def factorial(number: int) -> int:\n    \"\"\"\n    Calculate the factorial of specified number (n!).\n\n    >>> import math\n    >>> all(factorial(i) == math.factorial(i) for i in range(20))\n    True\n    >>> factorial(0.1)\n    Traceback (most recent call last):\n        ...\n    ValueError: factorial() only accepts integral values\n    >>> factorial(-1)\n    Traceback (most recent call last):\n        ...\n    ValueError: factorial() not defined for negative values\n    >>> factorial(1)\n    1\n    >>> factorial(6)\n    720\n    >>> factorial(0)\n    1\n    \"\"\"\n    if number != int(number):\n        raise ValueError(\"factorial() only accepts integral values\")\n    if number < 0:\n        raise ValueError(\"factorial() not defined for negative values\")\n    value = 1\n    for i in range(1, number + 1):\n        value *= i\n    return value",
+    "smell": []
+}

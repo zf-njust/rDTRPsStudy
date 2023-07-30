@@ -1,0 +1,8 @@
+<<log>> <<18:727-730>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<34:1195-1202>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<color>> <<46:1463-1468>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hsl>> <<47:1489-1492>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rgb>> <<48:1511-1514>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Color>> <<46:1476-1481>> <<type>> <<VARIABLE>> <<LINK>>
+<<HSL>> <<47:1500-1503>> <<type>> <<VARIABLE>> <<LINK>>
+<<RGB>> <<48:1522-1525>> <<type>> <<VARIABLE>> <<LINK>>

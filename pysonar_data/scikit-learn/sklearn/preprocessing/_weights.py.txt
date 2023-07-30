@@ -1,0 +1,16 @@
+<<_balance_weights>> <<5:64-80>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<y>> <<5:81-84>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<19:364-365>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<20:387-388>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<bins>> <<21:429-433>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<weights>> <<23:455-462>> <<float>> <<VARIABLE>> <<ANCHOR>>
+<<weights>> <<24:488-495>> <<float>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<19:379-380>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<20:417-418>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<20:421-422>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<21:445-446>> <<?>> <<VARIABLE>> <<LINK>>
+<<bins>> <<23:470-474>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<23:480-481>> <<?>> <<VARIABLE>> <<LINK>>
+<<weights>> <<24:488-495>> <<float>> <<VARIABLE>> <<LINK>>
+<<bins>> <<24:499-503>> <<?>> <<VARIABLE>> <<LINK>>
+<<weights>> <<26:524-531>> <<float>> <<VARIABLE>> <<LINK>>

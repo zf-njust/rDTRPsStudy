@@ -1,0 +1,7 @@
+<<_RESUME_NER_HOME>> <<8:203-219>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<RESUME_NER_TRAIN>> <<10:286-302>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<RESUME_NER_DEV>> <<12:398-412>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<RESUME_NER_TEST>> <<14:501-516>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_RESUME_NER_HOME>> <<10:305-321>> <<str>> <<VARIABLE>> <<LINK>>
+<<_RESUME_NER_HOME>> <<12:415-431>> <<str>> <<VARIABLE>> <<LINK>>
+<<_RESUME_NER_HOME>> <<14:519-535>> <<str>> <<VARIABLE>> <<LINK>>

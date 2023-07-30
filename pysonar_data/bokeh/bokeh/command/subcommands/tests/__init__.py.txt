@@ -1,0 +1,4 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<basic_scatter_script>> <<30:1068-1088>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<basic_svg_scatter_script>> <<43:1324-1348>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<multi_svg_scatter_script>> <<56:1604-1628>> <<str>> <<SCOPE>> <<ANCHOR>>

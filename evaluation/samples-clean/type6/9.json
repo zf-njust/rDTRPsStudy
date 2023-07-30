@@ -1,0 +1,10 @@
+{
+  "code": "def forward(self, x):\n        x = self.conv1_1(x)\n        x = self.bn1_1(x)\n        x = self.relu1_1(x)\n\n        x = self.conv1_2(x)\n        x = self.bn1_2(x)\n        x = self.relu1_2(x)\n\n        outs = []\n        for i in range(4):\n            layer_index = i + 2\n            pool_layer = getattr(self, f'pool{layer_index}')\n            block_layer = getattr(self, f'block{layer_index}')\n            conv_layer = getattr(self, f'conv{layer_index}')\n            bn_layer = getattr(self, f'bn{layer_index}')\n            relu_layer = getattr(self, f'relu{layer_index}')\n\n            if pool_layer is not None:\n                x = pool_layer(x)\n            x = block_layer(x)\n            x = conv_layer(x)\n            x = bn_layer(x)\n            x = relu_layer(x)\n\n            outs.append(x)\n\n        if self.out_indices is not None:\n            return tuple([outs[i] for i in self.out_indices])\n\n        return x",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 13,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

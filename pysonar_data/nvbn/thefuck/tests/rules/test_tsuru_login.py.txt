@@ -1,0 +1,12 @@
+<<error_msg>> <<6:114-123>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<test_match>> <<17:497-507>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<26:778-792>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<36:1093-1113>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<36:1114-1117>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<new_command>> <<36:1123-1126>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<26:793-796>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<17:508-511>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<37:1165-1172>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_command>> <<37:1177-1188>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<27:825-832>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<18:536-543>> <<?>> <<VARIABLE>> <<LINK>>

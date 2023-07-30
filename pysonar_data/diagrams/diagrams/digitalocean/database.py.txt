@@ -1,0 +1,15 @@
+<<_Database>> <<6:111-120>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:142-147>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:166-175>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DbaasPrimaryStandbyMore>> <<11:223-246>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:264-269>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DbaasPrimary>> <<15:316-328>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:346-351>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DbaasReadOnly>> <<19:385-398>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:416-421>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DbaasStandby>> <<23:457-469>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:487-492>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Database>> <<11:247-256>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Database>> <<15:329-338>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Database>> <<19:399-408>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Database>> <<23:470-479>> <<type>> <<VARIABLE>> <<LINK>>

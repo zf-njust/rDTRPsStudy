@@ -1,0 +1,15 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<7:149-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<7:155-161>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dense_heads>> <<7:162-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestFCOSHead>> <<10:201-213>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_fcos_head_loss>> <<12:236-255>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:256-259>> <<TestFCOSHead>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<14:343-344>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<img_metas>> <<15:360-369>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<FCOSHead>> <<7:181-189>> <<type>> <<VARIABLE>> <<LINK>>
+<<s>> <<16:402-403>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<16:405-406>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<17:439-440>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<17:442-443>> <<int>> <<VARIABLE>> <<LINK>>
+<<FCOSHead>> <<20:514-522>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+<<__all__>> <<44:1740-1747>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<46:1824-1835>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__revision__>> <<47:1881-1893>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_info>> <<50:1975-1987>> <<tuple>> <<SCOPE>> <<ANCHOR>>

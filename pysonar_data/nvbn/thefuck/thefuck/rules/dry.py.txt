@@ -1,0 +1,12 @@
+<<match>> <<1:4-9>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<7:152-167>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<priority>> <<12:393-401>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<7:168-171>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<1:10-13>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<split_command>> <<2:25-38>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<8:190-197>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<8:205-212>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<2:41-48>> <<?>> <<VARIABLE>> <<LINK>>
+<<split_command>> <<4:82-95>> <<?>> <<VARIABLE>> <<LINK>>
+<<split_command>> <<4:106-119>> <<?>> <<VARIABLE>> <<LINK>>
+<<split_command>> <<4:126-139>> <<?>> <<VARIABLE>> <<LINK>>

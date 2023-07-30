@@ -1,0 +1,10 @@
+{
+  "code": "def minrelpath(path):\n    \"\"\"Resolve `..` and '.' from path.\n    \"\"\"\n    if not is_string(path):\n        return path\n    if '.' not in path:\n        return path\n    l = path.split(os.sep)\n    while l:\n        try:\n            i = l.index('.', 1)\n        except ValueError:\n            break\n        del l[i]\n    j = 1\n    while l:\n        try:\n            i = l.index('..', j)\n        except ValueError:\n            break\n        if l[i-1]=='..':\n            j += 1\n        else:\n            del l[i], l[i-1]\n            j = 1\n    if not l:\n        return ''\n    return os.sep.join(l)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 24,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

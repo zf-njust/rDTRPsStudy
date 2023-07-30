@@ -1,0 +1,2 @@
+<<user_group_permission>> <<6:101-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<remote_app_permission>> <<7:139-160>> <<module>> <<VARIABLE>> <<ANCHOR>>

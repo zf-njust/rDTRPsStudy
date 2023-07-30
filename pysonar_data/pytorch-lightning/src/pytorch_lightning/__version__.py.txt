@@ -1,0 +1,10 @@
+<<_PACKAGE_ROOT>> <<3:13-26>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_VERSION_PATH>> <<4:56-69>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_VERSION_PATH>> <<7:211-224>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<fo>> <<8:318-320>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<9:327-334>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_PACKAGE_ROOT>> <<4:101-114>> <<str>> <<VARIABLE>> <<LINK>>
+<<_VERSION_PATH>> <<5:156-169>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PACKAGE_ROOT>> <<7:240-253>> <<str>> <<VARIABLE>> <<LINK>>
+<<_VERSION_PATH>> <<8:282-295>> <<str>> <<VARIABLE>> <<LINK>>
+<<fo>> <<9:337-339>> <<file>> <<VARIABLE>> <<LINK>>

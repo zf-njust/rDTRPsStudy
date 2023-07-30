@@ -1,0 +1,13 @@
+<<jax>> <<18:733-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<18:737-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sharding>> <<18:742-750>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<19:785-788>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<19:789-793>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<27:1087-1090>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<27:1091-1095>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<partition_spec>> <<27:1096-1110>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<30:1166-1169>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<30:1170-1174>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<interpreters>> <<30:1175-1187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Sharding>> <<18:770-778>> <<type>> <<VARIABLE>> <<LINK>>
+<<PartitionSpec>> <<28:1142-1155>> <<type>> <<VARIABLE>> <<LINK>>

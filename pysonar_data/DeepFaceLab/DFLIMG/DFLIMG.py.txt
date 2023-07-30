@@ -1,0 +1,9 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DFLIMG>> <<5:64-70>> <<type>> <<CLASS>> <<ANCHOR>>
+<<load>> <<8:104-108>> <<function>> <<METHOD>> <<ANCHOR>>
+<<filepath>> <<8:109-112>> <<DFLIMG>> <<PARAMETER>> <<ANCHOR>>
+<<loader_func>> <<8:119-122>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<filepath>> <<9:150-158>> <<DFLIMG>> <<VARIABLE>> <<LINK>>
+<<filepath>> <<10:215-223>> <<DFLIMG>> <<VARIABLE>> <<LINK>>
+<<loader_func>> <<10:238-249>> <<?>> <<VARIABLE>> <<LINK>>

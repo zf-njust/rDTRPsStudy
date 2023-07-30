@@ -1,0 +1,9 @@
+<<read_version>> <<8:88-100>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<9:186-187>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<line>> <<10:202-206>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<kwargs>> <<15:349-355>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<read_version>> <<18:415-427>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<10:210-211>> <<file>> <<VARIABLE>> <<LINK>>
+<<line>> <<11:229-233>> <<?>> <<VARIABLE>> <<LINK>>
+<<line>> <<12:305-309>> <<?>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<29:703-709>> <<dict>> <<VARIABLE>> <<LINK>>

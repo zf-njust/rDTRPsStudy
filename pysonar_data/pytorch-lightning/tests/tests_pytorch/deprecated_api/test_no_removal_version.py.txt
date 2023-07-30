@@ -1,0 +1,4 @@
+<<test_ddp_is_distributed>> <<6:79-102>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<strategy>> <<7:111-119>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<9:202-203>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<strategy>> <<9:206-214>> <<?>> <<VARIABLE>> <<LINK>>

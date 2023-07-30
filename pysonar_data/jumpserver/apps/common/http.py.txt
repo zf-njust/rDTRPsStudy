@@ -1,0 +1,8 @@
+<<HttpResponseTemporaryRedirect>> <<7:122-151>> <<type>> <<CLASS>> <<ANCHOR>>
+<<status_code>> <<8:172-183>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<10:201-209>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<10:210-213>> <<HttpResponseTemporaryRedirect>> <<PARAMETER>> <<ANCHOR>>
+<<redirect_to>> <<10:216-219>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<11:261-265>> <<HttpResponseTemporaryRedirect>> <<VARIABLE>> <<LINK>>
+<<redirect_to>> <<12:306-317>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:276-280>> <<HttpResponseTemporaryRedirect>> <<VARIABLE>> <<LINK>>

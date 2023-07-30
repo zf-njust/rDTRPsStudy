@@ -1,0 +1,9 @@
+<<initialize_module_params>> <<6:84-108>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<module>> <<6:109-112>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<7:146-150>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<param>> <<7:152-157>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<module>> <<7:161-167>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<8:210-214>> <<?>> <<VARIABLE>> <<LINK>>
+<<param>> <<9:247-252>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<10:283-287>> <<?>> <<VARIABLE>> <<LINK>>
+<<param>> <<11:326-331>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<x>> <<9:139-140>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<y>> <<10:160-161>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<p>> <<13:233-234>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<p>> <<16:366-367>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<16:373-374>> <<list>> <<VARIABLE>> <<LINK>>
+<<y>> <<16:376-377>> <<list>> <<VARIABLE>> <<LINK>>
+<<p>> <<19:447-448>> <<?>> <<VARIABLE>> <<LINK>>

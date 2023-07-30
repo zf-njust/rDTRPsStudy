@@ -1,0 +1,6 @@
+<<_Base>> <<6:107-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:130-135>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Firebase>> <<11:199-207>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:221-226>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Base>> <<11:208-213>> <<type>> <<VARIABLE>> <<LINK>>

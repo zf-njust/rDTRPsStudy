@@ -1,0 +1,10 @@
+<<flask>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<simple_page>> <<2:30-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<simple_page>> <<2:42-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<4:76-79>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<simple_page>> <<2:30-41>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<5:99-102>> <<?>> <<VARIABLE>> <<LINK>>
+<<simple_page>> <<5:122-133>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<7:178-181>> <<?>> <<VARIABLE>> <<LINK>>
+<<simple_page>> <<7:201-212>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<10:266-269>> <<?>> <<VARIABLE>> <<LINK>>

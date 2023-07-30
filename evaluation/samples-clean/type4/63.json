@@ -1,0 +1,10 @@
+{
+  "code": "def __call__(\n        self,\n        data,\n        flow: flow.Flow | None = None,\n        tcp_message: tcp.TCPMessage | None = None,\n        **metadata,\n    ):\n        assert isinstance(flow, tcp.TCPFlow)\n        assert tcp_message\n\n        state = self.connections[flow]\n\n        for message in flow.messages[state.message_count :]:\n            if message.from_client:\n                buf = state.client_buf\n            else:\n                buf = state.server_buf\n            buf += message.content\n\n            if state.message_count == 0 and flow.metadata[\"quic_is_unidirectional\"]:\n                h3_buf = Buffer(data=bytes(buf[:8]))\n                stream_type = h3_buf.pull_uint_var()\n                consumed = h3_buf.tell()\n                del buf[:consumed]\n                state.frames[0] = [StreamType(stream_type)]\n\n            while True:\n                h3_buf = Buffer(data=bytes(buf[:16]))\n                try:\n                    frame_type = h3_buf.pull_uint_var()\n                    frame_size = h3_buf.pull_uint_var()\n                except BufferReadError:\n                    break\n\n                consumed = h3_buf.tell()\n\n                if len(buf) < consumed + frame_size:\n                    break\n\n                frame_data = bytes(buf[consumed : consumed + frame_size])\n\n                frame = Frame(frame_type, frame_data)\n\n                state.frames.setdefault(state.message_count, []).append(frame)\n\n                del buf[: consumed + frame_size]\n\n            state.message_count += 1\n\n        frames = state.frames.get(flow.messages.index(tcp_message), [])\n        if not frames:\n            return (\n                \"HTTP/3\",\n                [],\n            )  # base.format_text(f\"(no complete frames here, {state=})\")\n        else:\n            return \"HTTP/3\", fmt_frames(frames)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 46,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

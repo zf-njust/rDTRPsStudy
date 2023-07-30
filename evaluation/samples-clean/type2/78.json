@@ -1,0 +1,10 @@
+{
+  "code": "def possible_values(self):\n        a = \"123456789\"\n        d, val = {}, {}\n        for i in range(self.row):\n            for j in range(self.col):\n                ele = self.board[i][j]\n                if ele != \".\":\n                    d[(\"r\", i)] = d.get((\"r\", i), []) + [ele]\n                    d[(\"c\", j)] = d.get((\"c\", j), []) + [ele]\n                    d[(i//3, j//3)] = d.get((i//3, j//3), []) + [ele]\n                else:\n                    val[(i,j)] = []\n        for (i,j) in val.keys():\n            inval = d.get((\"r\",i),[])+d.get((\"c\",j),[])+d.get((i/3,j/3),[])\n            val[(i,j)] = [n for n in a if n not in inval ]\n        return val\ndef get(self, __key: _KT) -> _VT_co | None: ...",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 10,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

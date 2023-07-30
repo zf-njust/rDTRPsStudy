@@ -1,0 +1,9 @@
+<<itchat>> <<9:195-201>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<here>> <<11:205-209>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<13:314-315>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<14:322-338>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<here>> <<13:272-276>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<14:341-342>> <<file>> <<VARIABLE>> <<LINK>>
+<<itchat>> <<19:395-401>> <<module>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<19:402-413>> <<str>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<22:498-514>> <<str>> <<VARIABLE>> <<LINK>>

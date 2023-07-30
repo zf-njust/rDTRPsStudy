@@ -1,0 +1,10 @@
+{
+  "code": "def main():\n    parser = optparse.OptionParser()\n    parser.add_option('--list', action='store_true', dest='list',\n                      default=False, help='Output inventory groups and hosts')\n    parser.add_option('--host', dest='host', default=None, metavar='HOST',\n                      help='Output variables only for the given hostname')\n    # Additional options for use when running the script standalone, but never\n    # used by Ansible.\n    parser.add_option('--pretty', action='store_true', dest='pretty',\n                      default=False, help='Output nicely-formatted JSON')\n    parser.add_option('--include-host-systems', action='store_true',\n                      dest='include_host_systems', default=False,\n                      help='Include host systems in addition to VMs')\n    parser.add_option('--no-meta-hostvars', action='store_false',\n                      dest='meta_hostvars', default=True,\n                      help='Exclude [\\'_meta\\'][\\'hostvars\\'] with --list')\n    options, args = parser.parse_args()\n\n    if options.include_host_systems:\n        vmware_inventory = VMwareInventory(guests_only=False)\n    else:\n        vmware_inventory = VMwareInventory()\n    if options.host is not None:\n        inventory = vmware_inventory.get_host(options.host)\n    else:\n        inventory = vmware_inventory.get_inventory(options.meta_hostvars)\n\n    json_kwargs = {}\n    if options.pretty:\n        json_kwargs.update({'indent': 4, 'sort_keys': True})\n    json.dump(inventory, sys.stdout, **json_kwargs)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 31,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

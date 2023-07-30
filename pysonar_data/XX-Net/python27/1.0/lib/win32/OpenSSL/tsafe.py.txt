@@ -1,0 +1,15 @@
+<<_ssl>> <<2:25-29>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_RLock>> <<6:66-72>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Connection>> <<9:115-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<10:136-144>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<f>> <<14:256-257>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<10:145-148>> <<Connection>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:148-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_ssl_conn>> <<11:173-182>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_lock>> <<12:228-233>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<f>> <<27:1028-1029>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<27:1031-1032>> <<str>> <<VARIABLE>> <<LINK>>
+<<_ssl>> <<11:191-195>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:168-172>> <<Connection>> <<VARIABLE>> <<LINK>>
+<<_RLock>> <<12:236-242>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:223-227>> <<Connection>> <<VARIABLE>> <<LINK>>

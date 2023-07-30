@@ -1,0 +1,11 @@
+<<test_auto_device_count>> <<22:762-784>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_tpu_device_absence>> <<29:1113-1136>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_parallel_devices>> <<35:1308-1333>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_parallel_devices_raises>> <<40:1466-1498>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tpu_available>> <<40:1499-1502>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<devices>> <<35:1334-1337>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tpu_available>> <<35:1343-1346>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<36:1364-1372>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<devices>> <<36:1411-1418>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<37:1436-1444>> <<?>> <<VARIABLE>> <<LINK>>
+<<devices>> <<37:1449-1456>> <<?>> <<VARIABLE>> <<LINK>>

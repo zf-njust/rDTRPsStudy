@@ -1,0 +1,10 @@
+{
+  "code": "def process_cleanup(self):\\n        if self._connection is not None:\\n            # MongoDB connection will be closed automatically when object\\n            # goes out of scope\\n            del(self.collection)\\n            del(self.database)\\n            self._connection = None",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 5,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

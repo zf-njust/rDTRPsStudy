@@ -1,0 +1,4 @@
+{
+    "code": "def _build_backend():\n    \"\"\"Find and load the build backend\"\"\"\n    # Add in-tree backend directories to the front of sys.path.\n    backend_path = os.environ.get('PEP517_BACKEND_PATH')\n    if backend_path:\n        extra_pathitems = backend_path.split(os.pathsep)\n        sys.path[:0] = extra_pathitems\n\n    ep = os.environ['PEP517_BUILD_BACKEND']\n    mod_path, _, obj_path = ep.partition(':')\n    try:\n        obj = import_module(mod_path)\n    except ImportError:\n        raise BackendUnavailable(traceback.format_exc())\n\n    if backend_path:\n        if not any(\n            contained_in(obj.__file__, path)\n            for path in extra_pathitems\n        ):\n            raise BackendInvalid(\"Backend was not loaded from backend-path\")\n\n    if obj_path:\n        for path_part in obj_path.split('.'):\n            obj = getattr(obj, path_part)\n    return obj",
+    "smell": []
+}

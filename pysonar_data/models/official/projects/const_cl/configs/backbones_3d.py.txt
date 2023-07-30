@@ -1,0 +1,15 @@
+<<official>> <<19:712-720>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<19:721-727>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<19:728-735>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ResNet3DBlock>> <<22:761-774>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<ResNet3DY>> <<26:839-848>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ResNet3DY50>> <<31:916-927>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Backbone3D>> <<51:1766-1776>> <<type>> <<CLASS>> <<ANCHOR>>
+<<backbones_3d>> <<19:743-755>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones_3d>> <<22:777-789>> <<module>> <<VARIABLE>> <<LINK>>
+<<ResNet3DBlock>> <<22:790-803>> <<type>> <<VARIABLE>> <<LINK>>
+<<backbones_3d>> <<26:849-861>> <<module>> <<VARIABLE>> <<LINK>>
+<<ResNet3D>> <<26:862-870>> <<type>> <<VARIABLE>> <<LINK>>
+<<ResNet3DY>> <<31:928-937>> <<type>> <<VARIABLE>> <<LINK>>
+<<backbones_3d>> <<51:1777-1789>> <<module>> <<VARIABLE>> <<LINK>>
+<<Backbone3D>> <<51:1790-1800>> <<type>> <<VARIABLE>> <<LINK>>

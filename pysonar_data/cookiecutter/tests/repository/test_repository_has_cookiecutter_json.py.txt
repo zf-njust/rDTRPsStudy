@@ -1,0 +1,12 @@
+<<cookiecutter>> <<2:30-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<repository>> <<2:43-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_valid_repository>> <<7:120-141>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<invalid_repository>> <<15:303-321>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_invalid_repository>> <<19:367-390>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<15:322-325>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<invalid_repository>> <<19:391-394>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<repository_has_cookiecutter_json>> <<2:61-93>> <<function>> <<VARIABLE>> <<LINK>>
+<<request>> <<16:344-351>> <<?>> <<VARIABLE>> <<LINK>>
+<<repository_has_cookiecutter_json>> <<20:428-460>> <<function>> <<VARIABLE>> <<LINK>>
+<<invalid_repository>> <<20:461-479>> <<?>> <<VARIABLE>> <<LINK>>
+<<repository_has_cookiecutter_json>> <<8:157-189>> <<function>> <<VARIABLE>> <<LINK>>

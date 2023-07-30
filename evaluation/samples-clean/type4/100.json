@@ -1,0 +1,10 @@
+{
+  "code": "def normpath(path):\n    \"\"\"Normalize path, eliminating double slashes, etc.\"\"\"\n    path = path.replace('\\\\', '/')\n    prefix, path = splitdrive(path)\n    while path[:1] == '/':\n        prefix = prefix + '/'\n        path = path[1:]\n    comps = path.split('/')\n    i = 0\n    while i < len(comps):\n        if comps[i] == '.':\n            del comps[i]\n        elif comps[i] == '..' and i > 0 and comps[i-1] not in ('', '..'):\n            del comps[i-1:i+1]\n            i = i - 1\n        elif comps[i] == '' and i > 0 and comps[i-1] != '':\n            del comps[i]\n        else:\n            i = i + 1\n    # If the path is now empty, substitute '.'\n    if not prefix and not comps:\n        comps.append('.')\n    return prefix + '/'.join(comps)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 12,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

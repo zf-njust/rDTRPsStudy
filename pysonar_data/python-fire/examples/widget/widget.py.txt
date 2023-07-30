@@ -1,0 +1,16 @@
+<<fire>> <<17:676-680>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Widget>> <<20:692-698>> <<type>> <<CLASS>> <<ANCHOR>>
+<<whack>> <<22:717-722>> <<function>> <<METHOD>> <<ANCHOR>>
+<<bang>> <<26:829-833>> <<function>> <<METHOD>> <<ANCHOR>>
+<<main>> <<31:943-947>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<26:834-837>> <<Widget>> <<PARAMETER>> <<ANCHOR>>
+<<noise>> <<26:840-843>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<22:723-726>> <<Widget>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<22:729-732>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<24:805-806>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<main>> <<35:1022-1026>> <<function>> <<VARIABLE>> <<LINK>>
+<<fire>> <<32:954-958>> <<module>> <<VARIABLE>> <<LINK>>
+<<Widget>> <<32:964-970>> <<type>> <<VARIABLE>> <<LINK>>
+<<noise>> <<28:927-932>> <<str>> <<VARIABLE>> <<LINK>>
+<<n>> <<24:816-817>> <<int>> <<VARIABLE>> <<LINK>>
+<<_>> <<24:805-806>> <<int>> <<VARIABLE>> <<LINK>>

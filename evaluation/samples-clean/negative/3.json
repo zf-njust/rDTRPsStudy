@@ -1,0 +1,4 @@
+{
+    "code": "def test_all_policy_ops(self):\n    \"\"\"Smoke test to be sure all augmentation functions can execute.\"\"\"\n\n    prob = 1\n    magnitude = 10\n    replace_value = [128] * 3\n    cutout_const = 100\n    translate_const = 250\n\n    image = tf.ones((224, 224, 3), dtype=tf.uint8)\n\n    for op_name in augment.NAME_TO_FUNC:\n      func, _, args = augment._parse_policy_info(op_name, prob, magnitude,\n                                                 replace_value, cutout_const,\n                                                 translate_const)\n      image = func(image, *args)\n\n    self.assertEqual((224, 224, 3), image.shape)",
+    "smell": []
+}

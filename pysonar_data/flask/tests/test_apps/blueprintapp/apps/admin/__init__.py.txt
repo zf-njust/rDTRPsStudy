@@ -1,0 +1,4 @@
+<<flask>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<admin>> <<3:48-53>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<index>> <<9:225-230>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<index2>> <<14:316-322>> <<function>> <<FUNCTION>> <<ANCHOR>>

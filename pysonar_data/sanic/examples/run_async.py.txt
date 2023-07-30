@@ -1,0 +1,6 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<5:40-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<8:74-77>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<response>> <<5:60-68>> <<module>> <<VARIABLE>> <<LINK>>
+<<asyncio>> <<29:463-470>> <<module>> <<VARIABLE>> <<LINK>>
+<<asyncio>> <<30:516-523>> <<module>> <<VARIABLE>> <<LINK>>

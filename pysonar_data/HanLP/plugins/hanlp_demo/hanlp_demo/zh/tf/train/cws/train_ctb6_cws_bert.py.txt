@@ -1,0 +1,12 @@
+<<tests>> <<7:236-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tokenizer>> <<10:269-278>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<save_dir>> <<11:307-315>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<7:249-255>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdroot>> <<9:259-265>> <<function>> <<VARIABLE>> <<LINK>>
+<<tokenizer>> <<12:351-360>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<12:395-403>> <<str>> <<VARIABLE>> <<LINK>>
+<<tokenizer>> <<14:474-483>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<14:489-497>> <<str>> <<VARIABLE>> <<LINK>>
+<<tokenizer>> <<15:506-515>> <<?>> <<VARIABLE>> <<LINK>>
+<<tokenizer>> <<16:556-565>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<16:599-607>> <<str>> <<VARIABLE>> <<LINK>>

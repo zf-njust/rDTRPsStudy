@@ -1,0 +1,17 @@
+<<_py_files>> <<6:48-57>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<folder>> <<6:58-61>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<collect_ignore>> <<10:144-158>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<line>> <<31:662-666>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<file_path>> <<32:710-719>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<chdir>> <<38:865-870>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tmpdir>> <<38:871-874>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_py_files>> <<27:574-583>> <<function>> <<VARIABLE>> <<LINK>>
+<<folder>> <<7:89-95>> <<str>> <<VARIABLE>> <<LINK>>
+<<folder>> <<7:119-125>> <<str>> <<VARIABLE>> <<LINK>>
+<<_py_files>> <<27:604-613>> <<function>> <<VARIABLE>> <<LINK>>
+<<line>> <<32:722-726>> <<?>> <<VARIABLE>> <<LINK>>
+<<file_path>> <<33:751-760>> <<?>> <<VARIABLE>> <<LINK>>
+<<file_path>> <<33:770-779>> <<?>> <<VARIABLE>> <<LINK>>
+<<collect_ignore>> <<34:804-818>> <<list>> <<VARIABLE>> <<LINK>>
+<<file_path>> <<34:826-835>> <<?>> <<VARIABLE>> <<LINK>>
+<<tmpdir>> <<40:942-948>> <<?>> <<VARIABLE>> <<LINK>>

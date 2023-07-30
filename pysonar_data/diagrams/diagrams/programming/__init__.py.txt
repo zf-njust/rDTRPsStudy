@@ -1,0 +1,4 @@
+<<_Programming>> <<8:118-130>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:143-152>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:174-183>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:217-226>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

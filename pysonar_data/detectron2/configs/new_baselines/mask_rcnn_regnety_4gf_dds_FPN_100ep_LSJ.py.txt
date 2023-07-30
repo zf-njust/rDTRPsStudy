@@ -1,0 +1,10 @@
+<<mask_rcnn_R_50_FPN_100ep_LSJ>> <<1:6-34>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<8:130-140>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<8:141-147>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<9:175-185>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<9:186-194>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbone>> <<9:195-203>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<10:224-234>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<10:235-243>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbone>> <<10:244-252>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lr_multiplier>> <<3:66-79>> <<?>> <<VARIABLE>> <<LINK>>

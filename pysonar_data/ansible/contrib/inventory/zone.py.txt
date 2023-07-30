@@ -1,0 +1,14 @@
+<<result>> <<24:814-820>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<pipe>> <<27:849-853>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<l>> <<29:962-963>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<31:1078-1079>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<result>> <<25:827-833>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<28:929-935>> <<dict>> <<VARIABLE>> <<LINK>>
+<<pipe>> <<29:967-971>> <<?>> <<VARIABLE>> <<LINK>>
+<<l>> <<31:1082-1083>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<32:1101-1102>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<33:1124-1130>> <<dict>> <<VARIABLE>> <<LINK>>
+<<s>> <<33:1154-1155>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<35:1163-1169>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<36:1191-1197>> <<dict>> <<VARIABLE>> <<LINK>>
+<<result>> <<39:1320-1326>> <<dict>> <<VARIABLE>> <<LINK>>

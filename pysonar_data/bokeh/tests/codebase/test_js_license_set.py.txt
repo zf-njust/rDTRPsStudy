@@ -1,0 +1,7 @@
+<<LICENSES>> <<33:1181-1189>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_js_license_set>> <<45:1360-1379>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<proc>> <<51:1531-1535>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<LICENSES>> <<52:1641-1649>> <<list>> <<VARIABLE>> <<LINK>>
+<<proc>> <<54:1676-1680>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<55:1700-1704>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<57:1740-1744>> <<?>> <<VARIABLE>> <<LINK>>

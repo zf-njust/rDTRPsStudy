@@ -1,0 +1,9 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<7:192-197>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<12:363-372>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<19:530-543>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<25:729-744>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<41:1053-1069>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<default_hooks>> <<42:1116-1129>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<log_processor>> <<44:1190-1203>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<49:1378-1391>> <<dict>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,15 @@
+<<common_setup>> <<4:67-79>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup>> <<7:125-130>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<series_nlargest1>> <<15:348-364>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<series_nlargest2>> <<19:578-594>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<series_nsmallest2>> <<24:810-827>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<series_nsmallest2>> <<29:1048-1065>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<series_isin_int64>> <<34:1286-1303>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<series_isin_object>> <<37:1439-1457>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<common_setup>> <<7:133-145>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<17:506-511>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<21:736-741>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<26:973-978>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<31:1211-1216>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<35:1366-1371>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<38:1521-1526>> <<str>> <<VARIABLE>> <<LINK>>

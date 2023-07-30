@@ -1,0 +1,9 @@
+<<tqdm>> <<27:578-582>> <<type>> <<CLASS>> <<ANCHOR>>
+<<tqdm>> <<30:672-676>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trange>> <<33:698-704>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__all__>> <<40:842-849>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<kwargs>> <<33:714-720>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<33:706-710>> <<tuple>> <<PARAMETER>> <<ANCHOR>>
+<<tqdm>> <<37:811-815>> <<{type||?}>> <<VARIABLE>> <<LINK>>
+<<args>> <<37:823-827>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<37:832-838>> <<dict>> <<VARIABLE>> <<LINK>>

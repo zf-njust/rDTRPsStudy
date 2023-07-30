@@ -1,0 +1,3 @@
+<<view>> <<1:6-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<3:31-38>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ViewImage>> <<1:18-27>> <<type>> <<VARIABLE>> <<LINK>>

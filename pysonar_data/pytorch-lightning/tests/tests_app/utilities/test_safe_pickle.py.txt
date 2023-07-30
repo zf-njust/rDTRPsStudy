@@ -1,0 +1,12 @@
+<<pathlib>> <<2:24-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_safe_pickle_app>> <<5:53-73>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_dir>> <<6:82-90>> <<{function||str}>> <<VARIABLE>> <<ANCHOR>>
+<<proc>> <<7:133-137>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stdout>> <<10:289-295>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<10:297-298>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<2:39-43>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<6:93-97>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<6:108-114>> <<function>> <<VARIABLE>> <<LINK>>
+<<test_dir>> <<8:268-276>> <<{function||str}>> <<VARIABLE>> <<LINK>>
+<<proc>> <<10:301-305>> <<?>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<11:375-381>> <<?>> <<VARIABLE>> <<LINK>>

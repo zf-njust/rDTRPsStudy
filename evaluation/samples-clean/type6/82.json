@@ -1,0 +1,10 @@
+{
+  "code": "def __init__(self, play_context, new_stdin, *args, **kwargs):\n        # All these hasattrs allow subclasses to override these parameters\n        if not hasattr(self, '_play_context'):\n            self._play_context = play_context\n        if not hasattr(self, '_new_stdin'):\n            self._new_stdin = new_stdin\n        # Backwards compat: self._display isn't really needed, just import the global display and use that.\n        if not hasattr(self, '_display'):\n            self._display = display\n        if not hasattr(self, '_connected'):\n            self._connected = False\n\n        self.success_key = None\n        self.prompt = None\n        self._connected = False\n\n        # load the shell plugin for this action/connection\n        if play_context.shell:\n            shell_type = play_context.shell\n        elif hasattr(self, '_shell_type'):\n            shell_type = getattr(self, '_shell_type')\n        else:\n            shell_type = 'sh'\n            shell_filename = os.path.basename(self._play_context.executable)\n            for shell in shell_loader.all():\n                if shell_filename in shell.COMPATIBLE_SHELLS:\n                    shell_type = shell.SHELL_FAMILY\n                    break\n\n        self._shell = shell_loader.get(shell_type)\n        if not self._shell:\n            raise AnsibleError(\"Invalid shell type specified (%s), or the plugin for that shell type is missing.\" % shell_type)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 21,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

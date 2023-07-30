@@ -1,0 +1,4 @@
+{
+    "code": "def finder(package):\n    \"\"\"\n    Return a resource finder for a package.\n    :param package: The name of the package.\n    :return: A :class:`ResourceFinder` instance for the package.\n    \"\"\"\n    if package in _finder_cache:\n        result = _finder_cache[package]\n    else:\n        if package not in sys.modules:\n            __import__(package)\n        module = sys.modules[package]\n        path = getattr(module, '__path__', None)\n        if path is None:\n            raise DistlibException('You cannot get a finder for a module, '\n                                   'only for a package')\n        loader = getattr(module, '__loader__', None)\n        finder_maker = _finder_registry.get(type(loader))\n        if finder_maker is None:\n            raise DistlibException('Unable to locate finder for %r' % package)\n        result = finder_maker(module)\n        _finder_cache[package] = result\n    return result",
+    "smell": []
+}

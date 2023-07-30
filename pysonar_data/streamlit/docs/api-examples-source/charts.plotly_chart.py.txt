@@ -1,0 +1,12 @@
+<<x1>> <<6:104-106>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x2>> <<7:135-137>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x3>> <<8:162-164>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<hist_data>> <<11:218-227>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<group_labels>> <<13:246-258>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<fig>> <<16:338-341>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x1>> <<11:231-233>> <<int>> <<VARIABLE>> <<LINK>>
+<<x2>> <<11:235-237>> <<?>> <<VARIABLE>> <<LINK>>
+<<x3>> <<11:239-241>> <<int>> <<VARIABLE>> <<LINK>>
+<<hist_data>> <<17:373-382>> <<list>> <<VARIABLE>> <<LINK>>
+<<group_labels>> <<17:384-396>> <<list>> <<VARIABLE>> <<LINK>>
+<<fig>> <<20:450-453>> <<?>> <<VARIABLE>> <<LINK>>

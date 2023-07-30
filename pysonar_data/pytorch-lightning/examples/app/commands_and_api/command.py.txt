@@ -1,0 +1,12 @@
+<<CustomConfig>> <<8:143-155>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CustomCommand>> <<12:194-207>> <<type>> <<CLASS>> <<ANCHOR>>
+<<description>> <<13:229-240>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<run>> <<15:281-284>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:285-288>> <<CustomCommand>> <<PARAMETER>> <<ANCHOR>>
+<<parser>> <<16:301-307>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<args>> <<18:385-389>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<17:336-342>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<18:392-398>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<19:421-425>> <<CustomCommand>> <<VARIABLE>> <<LINK>>
+<<CustomConfig>> <<19:448-460>> <<type>> <<VARIABLE>> <<LINK>>
+<<args>> <<19:466-470>> <<?>> <<VARIABLE>> <<LINK>>

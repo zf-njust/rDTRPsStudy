@@ -1,0 +1,3 @@
+<<scrapy>> <<8:214-220>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<8:221-225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<XmlResponse>> <<10:269-280>> <<type>> <<CLASS>> <<ANCHOR>>

@@ -1,0 +1,14 @@
+<<chart>> <<3:60-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chart_confidence>> <<4:104-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chart_with_confidence>> <<5:174-195>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cse>> <<6:248-251>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cse_confidence>> <<7:294-308>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cse_with_confidence>> <<8:366-385>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<9:442-450>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseChartPredictor>> <<3:73-96>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseChartConfidencePredictorMixin>> <<4:128-166>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseChartWithConfidencePredictor>> <<5:203-240>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseEmbeddingPredictor>> <<6:259-286>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseEmbeddingConfidencePredictorMixin>> <<7:316-358>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseEmbeddingWithConfidencePredictor>> <<8:393-434>> <<type>> <<VARIABLE>> <<LINK>>
+<<DENSEPOSE_PREDICTOR_REGISTRY>> <<9:458-486>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def get_encrypted_password(password, hashtype='sha512', salt=None):\n\n    # TODO: find a way to construct dynamically from system\n    cryptmethod= {\n        'md5':      '1',\n        'blowfish': '2a',\n        'sha256':   '5',\n        'sha512':   '6',\n    }\n\n    if hashtype in cryptmethod:\n        if salt is None:\n            r = SystemRandom()\n            if hashtype in ['md5']:\n                saltsize = 8\n            else:\n                saltsize = 16\n            salt = ''.join([r.choice(string.ascii_letters + string.digits) for _ in range(saltsize)])\n\n        if not HAS_PASSLIB:\n            if sys.platform.startswith('darwin'):\n                raise errors.AnsibleFilterError('|password_hash requires the passlib python module to generate password hashes on Mac OS X/Darwin')\n            saltstring =  \"$%s$%s\" % (cryptmethod[hashtype],salt)\n            encrypted = crypt.crypt(password, saltstring)\n        else:\n            if hashtype == 'blowfish':\n                cls = passlib.hash.bcrypt;\n            else:\n                cls = getattr(passlib.hash, '%s_crypt' % hashtype)\n\n            encrypted = cls.encrypt(password, salt=salt)\n\n        return encrypted\n\n    return None",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 29,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

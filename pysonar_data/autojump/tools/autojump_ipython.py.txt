@@ -1,0 +1,11 @@
+<<ip>> <<22:568-570>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<j>> <<26:626-627>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<26:628-631>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cmd>> <<27:640-643>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<newpath>> <<28:679-686>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<j>> <<37:883-884>> <<function>> <<VARIABLE>> <<LINK>>
+<<path>> <<27:661-665>> <<?>> <<VARIABLE>> <<LINK>>
+<<cmd>> <<29:705-708>> <<list>> <<VARIABLE>> <<LINK>>
+<<newpath>> <<33:789-796>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<34:807-809>> <<?>> <<VARIABLE>> <<LINK>>
+<<newpath>> <<34:826-833>> <<?>> <<VARIABLE>> <<LINK>>

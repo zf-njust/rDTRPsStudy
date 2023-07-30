@@ -1,0 +1,8 @@
+<<fabric>> <<2:21-27>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<2:28-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fixtures>> <<2:36-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<client>> <<2:52-58>> <<function>> <<VARIABLE>> <<LINK>>
+<<remote>> <<2:60-66>> <<function>> <<VARIABLE>> <<LINK>>
+<<sftp>> <<2:68-72>> <<function>> <<VARIABLE>> <<LINK>>
+<<sftp_objs>> <<2:74-83>> <<function>> <<VARIABLE>> <<LINK>>
+<<transfer>> <<2:85-93>> <<function>> <<VARIABLE>> <<LINK>>

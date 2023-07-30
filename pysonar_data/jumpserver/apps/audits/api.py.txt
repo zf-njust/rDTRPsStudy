@@ -1,0 +1,10 @@
+<<models>> <<7:138-144>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<serializers>> <<8:166-177>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FTPLogViewSet>> <<11:213-226>> <<type>> <<CLASS>> <<ANCHOR>>
+<<queryset>> <<12:256-264>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<serializer_class>> <<13:293-309>> <<type>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<14:334-352>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<FTPLog>> <<7:152-158>> <<type>> <<VARIABLE>> <<LINK>>
+<<FTPLogSerializer>> <<8:185-201>> <<type>> <<VARIABLE>> <<LINK>>
+<<FTPLog>> <<12:267-273>> <<type>> <<VARIABLE>> <<LINK>>
+<<FTPLogSerializer>> <<13:312-328>> <<type>> <<VARIABLE>> <<LINK>>

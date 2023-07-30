@@ -1,0 +1,4 @@
+{
+    "code": "def do_gc_event_queues(to_remove, affected_users, affected_realms):\n    # type: (AbstractSet[str], AbstractSet[int], AbstractSet[int]) -> None\n    def filter_client_dict(client_dict, key):\n        # type: (MutableMapping[int, List[ClientDescriptor]], int) -> None\n        if key not in client_dict:\n            return\n\n        new_client_list = [c for c in client_dict[key] if c.event_queue.id not in to_remove]\n        if len(new_client_list) == 0:\n            del client_dict[key]\n        else:\n            client_dict[key] = new_client_list\n\n    for user_id in affected_users:\n        filter_client_dict(user_clients, user_id)\n\n    for realm_id in affected_realms:\n        filter_client_dict(realm_clients_all_streams, realm_id)\n\n    for id in to_remove:\n        for cb in gc_hooks:\n            cb(clients[id].user_profile_id, clients[id], clients[id].user_profile_id not in user_clients)\n        del clients[id]",
+    "smell": []
+}

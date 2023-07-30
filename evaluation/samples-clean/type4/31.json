@@ -1,0 +1,10 @@
+{
+  "code": "def __setitem__(self, index, value):\n        # type: (Any, Any) -> None\n        if not isinstance(index, slice):\n            return self.__setsingleitem__(index, value)\n        assert iter(value)\n        # nprint(index.start, index.stop, index.step, index.indices(len(self)))\n        if index.step is None:\n            del self[index.start : index.stop]\n            for elem in reversed(value):\n                self.insert(0 if index.start is None else index.start, elem)\n        else:\n            range_parms = index.indices(len(self))\n            nr_assigned_items = (range_parms[1] - range_parms[0] - 1) // range_parms[2] + 1\n            # need to test before changing, in case TypeError is caught\n            if nr_assigned_items < len(value):\n                raise TypeError(\n                    'too many elements in value {} < {}'.format(nr_assigned_items, len(value))\n                )\n            elif nr_assigned_items > len(value):\n                raise TypeError(\n                    'not enough elements in value {} > {}'.format(\n                        nr_assigned_items, len(value)\n                    )\n                )\n            for idx, i in enumerate(range(*range_parms)):\n                self[i] = value[idx]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 8,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

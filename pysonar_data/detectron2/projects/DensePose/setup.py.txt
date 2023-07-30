@@ -1,0 +1,10 @@
+<<pathlib>> <<2:16-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_detectron2_current_version>> <<19:361-391>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<version_source>> <<24:621-635>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<version_number>> <<25:714-728>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<2:31-35>> <<type>> <<VARIABLE>> <<LINK>>
+<<get_detectron2_current_version>> <<32:898-928>> <<function>> <<VARIABLE>> <<LINK>>
+<<Path>> <<24:639-643>> <<type>> <<VARIABLE>> <<LINK>>
+<<parents>> <<24:654-661>> <<function>> <<VARIABLE>> <<LINK>>
+<<version_source>> <<25:773-787>> <<?>> <<VARIABLE>> <<LINK>>
+<<version_number>> <<26:804-818>> <<?>> <<VARIABLE>> <<LINK>>

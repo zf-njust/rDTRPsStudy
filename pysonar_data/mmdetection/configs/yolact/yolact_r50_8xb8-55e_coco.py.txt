@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<4:55-68>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<9:198-208>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<10:215-230>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<23:633-646>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<max_epochs>> <<15:387-397>> <<int>> <<VARIABLE>> <<LINK>>

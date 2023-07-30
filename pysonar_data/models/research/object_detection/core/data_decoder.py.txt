@@ -1,0 +1,15 @@
+<<__future__>> <<21:867-877>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<22:907-917>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<23:940-950>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<abc>> <<24:979-982>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<abc>> <<25:1004-1007>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DataDecoder>> <<29:1053-1064>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<33:1169-1175>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<33:1176-1179>> <<DataDecoder>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<33:1182-1185>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<21:885-900>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<22:925-933>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<23:958-972>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ABCMeta>> <<24:990-997>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<25:1015-1029>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABCMeta>> <<29:1084-1091>> <<type>> <<VARIABLE>> <<LINK>>

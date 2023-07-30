@@ -1,0 +1,16 @@
+<<__future__>> <<15:621-631>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ip>> <<33:1257-1259>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<aglobal>> <<39:1372-1379>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<40:1399-1400>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cache>> <<43:1435-1440>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<call_f>> <<46:1503-1509>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<47:1526-1530>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<print_function>> <<15:639-653>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<ip>> <<35:1309-1311>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<36:1330-1332>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<43:1443-1445>> <<?>> <<VARIABLE>> <<LINK>>
+<<cache>> <<44:1476-1481>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<44:1489-1490>> <<function>> <<VARIABLE>> <<LINK>>
+<<aglobal>> <<41:1420-1427>> <<str>> <<VARIABLE>> <<LINK>>
+<<cache>> <<47:1534-1539>> <<?>> <<VARIABLE>> <<LINK>>
+<<func>> <<48:1574-1578>> <<?>> <<VARIABLE>> <<LINK>>

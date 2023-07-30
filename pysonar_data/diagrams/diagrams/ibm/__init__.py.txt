@@ -1,0 +1,4 @@
+<<_IBM>> <<8:105-109>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:122-131>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:145-154>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:180-189>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

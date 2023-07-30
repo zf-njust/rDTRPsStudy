@@ -1,0 +1,10 @@
+{
+  "code": "def evaluate_dataloader(self, data: DataLoader, criterion: Callable, metric=None, output=False, ratio_width=None,\n                            logger=None, input=None, use_fast=False,\n                            **kwargs):\n        self.model.eval()\n        timer = CountdownTimer(len(data))\n        graphs = []\n        orders = []\n        smatch = 0\n        for idx, batch in enumerate(data):\n            graphs_per_batch = self.predict_amrs(batch)\n            graphs_per_batch = [x[0] for x in graphs_per_batch]\n            # Copy meta data from gold graph\n            for gp, gg in zip(graphs_per_batch, batch['amr']):\n                metadata = gg.metadata.copy()\n                metadata['annotator'] = f'{self.config.transformer}-amr'\n                metadata['date'] = str(datetime.datetime.now())\n                if 'save-date' in metadata:\n                    del metadata['save-date']\n                gp.metadata = metadata\n            graphs.extend(graphs_per_batch)\n            orders.extend(batch[IDX])\n            if idx == timer.total - 1:\n                graphs = reorder(graphs, orders)\n                write_predictions(output, self._tokenizer, graphs)\n                try:\n                    if use_fast:\n                        smatch = compute_smatch(output, input)\n                    else:\n                        smatch = smatch_eval(output, input, use_fast=False)\n                except:\n                    pass\n                timer.log(smatch.cstr() if isinstance(smatch, MetricDict) else f'{smatch:.2%}', ratio_percentage=False,\n                          logger=logger)\n            else:\n                timer.log(ratio_percentage=False, logger=logger)\n\n        return smatch",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 29,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

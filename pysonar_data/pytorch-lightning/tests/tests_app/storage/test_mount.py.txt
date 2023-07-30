@@ -1,0 +1,13 @@
+<<test_create_s3_mount_successfully>> <<6:72-105>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_create_non_s3_mount_fails>> <<13:301-331>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_create_s3_mount_without_directory_prefix_fails>> <<24:802-853>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_create_mount_without_mount_path_argument>> <<32:1148-1193>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_create_mount_path_with_relative_path_errors>> <<40:1362-1410>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mount>> <<7:114-119>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<m>> <<33:1202-1203>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<m>> <<36:1279-1280>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<mount>> <<8:183-188>> <<?>> <<VARIABLE>> <<LINK>>
+<<mount>> <<9:227-232>> <<?>> <<VARIABLE>> <<LINK>>
+<<mount>> <<10:266-271>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<34:1244-1245>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<37:1325-1326>> <<?>> <<VARIABLE>> <<LINK>>

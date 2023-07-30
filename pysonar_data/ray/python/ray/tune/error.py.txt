@@ -1,0 +1,3 @@
+<<TuneError>> <<6:122-131>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TuneManagerError>> <<11:216-232>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TuneError>> <<11:233-242>> <<type>> <<VARIABLE>> <<LINK>>

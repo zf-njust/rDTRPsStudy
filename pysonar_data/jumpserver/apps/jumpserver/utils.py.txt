@@ -1,0 +1,10 @@
+<<set_current_request>> <<8:145-164>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_find>> <<12:239-244>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_current_request>> <<16:307-326>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<current_request>> <<20:372-387>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<request>> <<8:165-168>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attr>> <<12:245-248>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<_find>> <<20:409-414>> <<function>> <<VARIABLE>> <<LINK>>
+<<request>> <<9:221-228>> <<?>> <<VARIABLE>> <<LINK>>
+<<_find>> <<17:342-347>> <<function>> <<VARIABLE>> <<LINK>>
+<<attr>> <<13:286-290>> <<str>> <<VARIABLE>> <<LINK>>

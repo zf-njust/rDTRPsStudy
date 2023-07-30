@@ -1,0 +1,9 @@
+<<_Satellite>> <<6:102-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:125-130>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<GroundStation>> <<11:199-212>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:231-236>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Satellite>> <<15:271-280>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:299-304>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Satellite>> <<11:213-223>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Satellite>> <<15:281-291>> <<type>> <<VARIABLE>> <<LINK>>

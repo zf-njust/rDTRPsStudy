@@ -1,0 +1,13 @@
+<<pipenv>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<1:12-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<1:20-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<1:24-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardet>> <<1:32-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sbcharsetprober>> <<1:40-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<THAI_LANG_MODEL>> <<8:142-157>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<TIS_620_THAI_CHAR_TO_ORDER>> <<-1:96697-96723>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<TIS_620_THAI_MODEL>> <<-1:102262-102280>> <<SingleByteCharSetModel>> <<SCOPE>> <<ANCHOR>>
+<<SingleByteCharSetModel>> <<1:63-85>> <<type>> <<VARIABLE>> <<LINK>>
+<<SingleByteCharSetModel>> <<-1:102283-102305>> <<type>> <<VARIABLE>> <<LINK>>
+<<TIS_620_THAI_CHAR_TO_ORDER>> <<-1:102378-102404>> <<dict>> <<VARIABLE>> <<LINK>>
+<<THAI_LANG_MODEL>> <<-1:102425-102440>> <<dict>> <<VARIABLE>> <<LINK>>

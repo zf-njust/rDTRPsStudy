@@ -1,0 +1,9 @@
+<<git_err>> <<6:117-124>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_match>> <<14:414-424>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<20:653-673>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<20:674-677>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<output>> <<20:683-686>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<14:425-428>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<21:720-727>> <<?>> <<VARIABLE>> <<LINK>>
+<<output>> <<21:732-738>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:453-460>> <<?>> <<VARIABLE>> <<LINK>>

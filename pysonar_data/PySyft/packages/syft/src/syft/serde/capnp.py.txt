@@ -1,0 +1,14 @@
+<<pathlib>> <<3:24-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<capnp>> <<6:66-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_capnp_schema>> <<9:78-94>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<schema_file>> <<9:95-98>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<here>> <<10:126-130>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<root_dir>> <<11:163-171>> <<{str||Path}>> <<VARIABLE>> <<ANCHOR>>
+<<capnp_path>> <<12:206-216>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<3:39-43>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<11:174-178>> <<type>> <<VARIABLE>> <<LINK>>
+<<here>> <<11:179-183>> <<str>> <<VARIABLE>> <<LINK>>
+<<root_dir>> <<12:235-243>> <<{str||Path}>> <<VARIABLE>> <<LINK>>
+<<schema_file>> <<12:246-257>> <<str>> <<VARIABLE>> <<LINK>>
+<<capnp>> <<13:270-275>> <<module>> <<VARIABLE>> <<LINK>>
+<<capnp_path>> <<13:285-295>> <<str>> <<VARIABLE>> <<LINK>>

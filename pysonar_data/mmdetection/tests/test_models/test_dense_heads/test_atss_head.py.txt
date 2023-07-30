@@ -1,0 +1,15 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<8:178-183>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<9:207-212>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<9:213-219>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dense_heads>> <<9:220-231>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestATSSHead>> <<12:259-271>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_atss_head_loss>> <<14:294-313>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:314-317>> <<TestATSSHead>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<16:401-402>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<img_metas>> <<17:418-427>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<cfg>> <<22:559-562>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<18:460-461>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<18:463-464>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<19:497-498>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<19:500-501>> <<int>> <<VARIABLE>> <<LINK>>

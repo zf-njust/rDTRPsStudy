@@ -1,0 +1,6 @@
+<<pathlib>> <<3:141-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ROOT>> <<9:211-215>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ns>> <<11:254-256>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<3:156-160>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<9:218-222>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<9:228-234>> <<function>> <<VARIABLE>> <<LINK>>

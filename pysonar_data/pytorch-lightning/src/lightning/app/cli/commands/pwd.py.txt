@@ -1,0 +1,17 @@
+<<logger>> <<25:823-829>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<pwd>> <<28:858-861>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_pwd>> <<42:1248-1252>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<root>> <<43:1268-1272>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<46:1356-1357>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<49:1436-1437>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<lines>> <<50:1452-1457>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<51:1487-1491>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<35:1187-1191>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<_pwd>> <<35:1194-1198>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<47:1372-1373>> <<file>> <<VARIABLE>> <<LINK>>
+<<root>> <<47:1380-1384>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<50:1460-1461>> <<file>> <<VARIABLE>> <<LINK>>
+<<lines>> <<51:1494-1499>> <<list>> <<VARIABLE>> <<LINK>>
+<<root>> <<53:1535-1539>> <<str>> <<VARIABLE>> <<LINK>>
+<<root>> <<37:1214-1218>> <<str>> <<VARIABLE>> <<LINK>>
+<<root>> <<39:1234-1238>> <<str>> <<VARIABLE>> <<LINK>>

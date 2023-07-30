@@ -1,0 +1,10 @@
+{
+  "code": "def update_env_context_manager(**changes: str) -> Generator[None, None, None]:\n    target = os.environ\n\n    # Save values from the target and change them.\n    non_existent_marker = object()\n    saved_values: Dict[str, Union[object, str]] = {}\n    for name, new_value in changes.items():\n        try:\n            saved_values[name] = target[name]\n        except KeyError:\n            saved_values[name] = non_existent_marker\n        target[name] = new_value\n\n    try:\n        yield\n    finally:\n        # Restore original values in the target.\n        for name, original_value in saved_values.items():\n            if original_value is non_existent_marker:\n                del target[name]\n            else:\n                assert isinstance(original_value, str)  # for mypy\n                target[name] = original_value",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 20,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

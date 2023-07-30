@@ -1,0 +1,14 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:31-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<2:36-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widget>> <<2:40-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PongGame>> <<5:72-80>> <<type>> <<CLASS>> <<ANCHOR>>
+<<PongApp>> <<9:111-118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<10:134-139>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<1:21-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Widget>> <<2:54-60>> <<type>> <<VARIABLE>> <<LINK>>
+<<Widget>> <<5:81-87>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<9:119-122>> <<type>> <<VARIABLE>> <<LINK>>
+<<PongApp>> <<15:211-218>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<15:221-224>> <<function>> <<VARIABLE>> <<LINK>>

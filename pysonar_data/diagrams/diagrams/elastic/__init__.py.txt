@@ -1,0 +1,4 @@
+<<_Elastic>> <<8:102-110>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:123-132>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:189-198>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

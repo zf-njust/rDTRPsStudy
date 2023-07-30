@@ -1,0 +1,8 @@
+<<doc>> <<7:170-173>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<doc>> <<35:1068-1071>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<doc>> <<17:658-661>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<20:713-716>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<26:845-848>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<29:924-927>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<64:2144-2147>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<66:2225-2228>> <<?>> <<VARIABLE>> <<LINK>>

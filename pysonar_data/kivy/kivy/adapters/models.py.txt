@@ -1,0 +1,17 @@
+<<__all__>> <<49:1605-1612>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<51:1648-1652>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<51:1653-1658>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SelectableDataItem>> <<54:1688-1706>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<60:1831-1839>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<is_selected>> <<66:1987-1998>> <<function>> <<METHOD>> <<ANCHOR>>
+<<is_selected>> <<72:2172-2183>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<66:1999-2002>> <<SelectableDataItem>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<60:1840-1843>> <<SelectableDataItem>> <<PARAMETER>> <<ANCHOR>>
+<<is_selected>> <<60:1846-1849>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_is_selected>> <<63:1934-1946>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<deprecated>> <<51:1666-1676>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<69:2118-2122>> <<SelectableDataItem>> <<VARIABLE>> <<LINK>>
+<<SelectableDataItem>> <<61:1881-1899>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<61:1901-1905>> <<SelectableDataItem>> <<VARIABLE>> <<LINK>>
+<<is_selected>> <<63:1949-1960>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<63:1929-1933>> <<SelectableDataItem>> <<VARIABLE>> <<LINK>>

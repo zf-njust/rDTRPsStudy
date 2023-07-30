@@ -1,0 +1,6 @@
+<<_Place>> <<6:106-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:129-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Datacenter>> <<11:199-209>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:224-229>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Place>> <<11:210-216>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<WorkStatus>> <<21:711-721>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<30:956-964>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<AppStatus>> <<37:1170-1179>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<30:965-968>> <<WorkStatus>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<30:968-969>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<33:1068-1072>> <<WorkStatus>> <<VARIABLE>> <<LINK>>
+<<self>> <<34:1103-1107>> <<WorkStatus>> <<VARIABLE>> <<LINK>>

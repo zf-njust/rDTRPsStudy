@@ -1,0 +1,13 @@
+<<test_sudo_support>> <<15:482-499>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<return_value>> <<15:500-503>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<15:514-517>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<called>> <<15:523-526>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<15:531-534>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fn>> <<16:549-551>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<16:552-555>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fn>> <<20:661-663>> <<function>> <<VARIABLE>> <<LINK>>
+<<command>> <<20:673-680>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<20:686-692>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<17:578-585>> <<?>> <<VARIABLE>> <<LINK>>
+<<called>> <<17:597-603>> <<?>> <<VARIABLE>> <<LINK>>
+<<return_value>> <<18:621-633>> <<?>> <<VARIABLE>> <<LINK>>

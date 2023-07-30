@@ -1,0 +1,6 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<comp>> <<6:118-122>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<6:143-147>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<6:158-164>> <<function>> <<VARIABLE>> <<LINK>>
+<<comp>> <<7:188-192>> <<?>> <<VARIABLE>> <<LINK>>

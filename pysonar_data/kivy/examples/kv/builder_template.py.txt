@@ -1,0 +1,16 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<1:10-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:36-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<2:41-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<3:62-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<3:67-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<boxlayout>> <<3:71-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BlehApp>> <<15:271-278>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<17:296-301>> <<function>> <<METHOD>> <<ANCHOR>>
+<<Builder>> <<1:22-29>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<2:52-55>> <<type>> <<VARIABLE>> <<LINK>>
+<<BoxLayout>> <<3:88-97>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<5:101-108>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<15:279-282>> <<type>> <<VARIABLE>> <<LINK>>
+<<BlehApp>> <<28:597-604>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<28:607-610>> <<function>> <<VARIABLE>> <<LINK>>

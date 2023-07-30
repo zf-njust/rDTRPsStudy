@@ -1,0 +1,3 @@
+<<EUCKR_TYPICAL_DISTRIBUTION_RATIO>> <<41:1547-1579>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<EUCKR_TABLE_SIZE>> <<43:1589-1605>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<EUCKRCharToFreqOrder>> <<46:1646-1666>> <<tuple>> <<SCOPE>> <<ANCHOR>>

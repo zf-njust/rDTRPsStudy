@@ -1,0 +1,10 @@
+{
+  "code": "def test_task(self, config_name, is_training):\n    params = exp_factory.get_exp_config(config_name)\n\n    params.task.train_data.global_batch_size = 16\n    params.task.validation_data.global_batch_size = 16\n    params.task.model.vocab_sizes = [40, 12, 11, 13, 2, 5]\n    params.task.model.embedding_dim = 8\n    params.task.model.bottom_mlp = [64, 32, 8]\n    params.task.use_synthetic_data = True\n    params.task.model.num_dense_features = 5\n\n    ranking_task = task.RankingTask(params.task,\n                                    params.trainer.optimizer_config)\n\n    if is_training:\n      dataset = data_pipeline.train_input_fn(params.task)\n    else:\n      dataset = data_pipeline.eval_input_fn(params.task)\n\n    iterator = iter(dataset(ctx=None))\n    model = ranking_task.build_model()\n\n    if is_training:\n      ranking_task.train_step(next(iterator), model, model.optimizer,\n                              metrics=model.metrics)\n    else:\n      ranking_task.validation_step(next(iterator), model, metrics=model.metrics)\n  def __init__(self,\n               params: config.Task,\n               optimizer_config: config.OptimizationConfig,\n               logging_dir: Optional[str] = None,\n               steps_per_execution: int = 1,\n               name: Optional[str] = None):\n    \"\"\"Task initialization.\n\n    Args:\n      params: the RankingModel task configuration instance.\n      optimizer_config: Optimizer configuration instance.\n      logging_dir: a string pointing to where the model, summaries etc. will be\n        saved.\n      steps_per_execution: Int. Defaults to 1. The number of batches to run\n        during each `tf.function` call. It's used for compile/fit API.\n      name: the task name.\n    \"\"\"\n    super().__init__(params, logging_dir, name=name)\n    self._optimizer_config = optimizer_config\n    self._steps_per_execution = steps_per_execution",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 13,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

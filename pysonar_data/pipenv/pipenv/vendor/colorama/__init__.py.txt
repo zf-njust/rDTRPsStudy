@@ -1,0 +1,6 @@
+<<ansi>> <<3:167-171>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<6:243-254>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Fore>> <<3:179-183>> <<AnsiFore>> <<VARIABLE>> <<LINK>>
+<<Back>> <<3:185-189>> <<AnsiBack>> <<VARIABLE>> <<LINK>>
+<<Style>> <<3:191-196>> <<AnsiStyle>> <<VARIABLE>> <<LINK>>
+<<Cursor>> <<3:198-204>> <<AnsiCursor>> <<VARIABLE>> <<LINK>>

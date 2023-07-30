@@ -1,0 +1,5 @@
+<<pardir>> <<4:22-28>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pipenv>> <<11:254-260>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<11:261-267>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pardir>> <<6:139-145>> <<str>> <<VARIABLE>> <<LINK>>
+<<pardir>> <<8:237-243>> <<str>> <<VARIABLE>> <<LINK>>

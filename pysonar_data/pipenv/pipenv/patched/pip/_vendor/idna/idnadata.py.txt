@@ -1,0 +1,4 @@
+<<__version__>> <<3:59-70>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<scripts>> <<4:82-89>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<joining_types>> <<102:2285-2298>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<codepoint_classes>> <<932:15411-15428>> <<dict>> <<SCOPE>> <<ANCHOR>>

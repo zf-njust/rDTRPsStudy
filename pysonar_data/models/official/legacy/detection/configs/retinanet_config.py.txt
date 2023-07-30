@@ -1,0 +1,13 @@
+<<official>> <<17:673-681>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<legacy>> <<17:682-688>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detection>> <<17:689-698>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<17:699-706>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<18:732-740>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<18:741-749>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<18:750-761>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RETINANET_CFG>> <<22:819-832>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<RETINANET_RESTRICTIONS>> <<55:1769-1791>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<base_config>> <<17:714-725>> <<module>> <<VARIABLE>> <<LINK>>
+<<base_config>> <<22:858-869>> <<module>> <<VARIABLE>> <<LINK>>
+<<BASE_CFG>> <<22:870-878>> <<dict>> <<VARIABLE>> <<LINK>>
+<<RETINANET_CFG>> <<23:881-894>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,11 @@
+<<update>> <<3:39-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SelfCommand>> <<6:82-93>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:111-115>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<description>> <<9:130-141>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<commands>> <<11:184-192>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<13:228-234>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:235-238>> <<SelfCommand>> <<PARAMETER>> <<ANCHOR>>
+<<SelfUpdateCommand>> <<3:53-70>> <<type>> <<VARIABLE>> <<LINK>>
+<<SelfUpdateCommand>> <<11:196-213>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:258-262>> <<SelfCommand>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:276-280>> <<SelfCommand>> <<VARIABLE>> <<LINK>>

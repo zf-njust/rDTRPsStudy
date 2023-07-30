@@ -1,0 +1,14 @@
+<<WelcomeHandler>> <<16:453-467>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get>> <<17:491-494>> <<function>> <<METHOD>> <<ANCHOR>>
+<<all_urls>> <<23:666-674>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<options>> <<29:776-783>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<main>> <<30:790-794>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<wsgiref>> <<42:1018-1025>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<17:495-498>> <<WelcomeHandler>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<18:511-519>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<WelcomeHandler>> <<24:692-706>> <<type>> <<VARIABLE>> <<LINK>>
+<<all_urls>> <<32:872-880>> <<list>> <<VARIABLE>> <<LINK>>
+<<options>> <<35:946-953>> <<dict>> <<VARIABLE>> <<LINK>>
+<<main>> <<46:1181-1185>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<19:592-600>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<20:652-660>> <<?>> <<VARIABLE>> <<LINK>>

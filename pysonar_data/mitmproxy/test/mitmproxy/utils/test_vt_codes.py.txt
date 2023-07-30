@@ -1,0 +1,8 @@
+<<io>> <<1:7-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:18-27>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:28-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vt_codes>> <<3:34-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_simple>> <<6:76-87>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ensure_supported>> <<3:50-66>> <<function>> <<VARIABLE>> <<LINK>>
+<<ensure_supported>> <<7:107-123>> <<function>> <<VARIABLE>> <<LINK>>
+<<io>> <<7:124-126>> <<module>> <<VARIABLE>> <<LINK>>

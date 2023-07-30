@@ -1,0 +1,14 @@
+<<unittest>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_can_instantiate_without_args>> <<8:127-160>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_create_group>> <<12:203-220>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<collective>> <<13:229-239>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<18:450-451>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<new_mock>> <<20:584-592>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<group_kwargs>> <<23:652-664>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<collective>> <<14:279-289>> <<?>> <<VARIABLE>> <<LINK>>
+<<collective>> <<15:317-327>> <<?>> <<VARIABLE>> <<LINK>>
+<<collective>> <<18:454-464>> <<?>> <<VARIABLE>> <<LINK>>
+<<collective>> <<21:603-613>> <<?>> <<VARIABLE>> <<LINK>>
+<<new_mock>> <<24:697-705>> <<?>> <<VARIABLE>> <<LINK>>
+<<group_kwargs>> <<24:732-744>> <<dict>> <<VARIABLE>> <<LINK>>
+<<collective>> <<27:870-880>> <<?>> <<VARIABLE>> <<LINK>>

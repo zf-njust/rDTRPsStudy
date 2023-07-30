@@ -1,0 +1,11 @@
+<<coco_panoptic>> <<3:153-166>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pascal_voc>> <<5:322-332>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<k>> <<9:483-484>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<9:466-473>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<register_coco_panoptic>> <<3:174-196>> <<function>> <<VARIABLE>> <<LINK>>
+<<register_coco_panoptic_separated>> <<3:198-230>> <<function>> <<VARIABLE>> <<LINK>>
+<<load_voc_instances>> <<5:340-358>> <<function>> <<VARIABLE>> <<LINK>>
+<<register_pascal_voc>> <<5:360-379>> <<function>> <<VARIABLE>> <<LINK>>
+<<k>> <<9:512-513>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<9:483-484>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<9:477-478>> <<type>> <<VARIABLE>> <<LINK>>

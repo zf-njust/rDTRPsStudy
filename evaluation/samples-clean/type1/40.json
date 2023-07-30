@@ -1,0 +1,10 @@
+{
+  "code": "    def setup(self):\n        \"\"\"Setup plugin from config options\n        \"\"\"\n        if self.config['auto']:\n            self.import_stages = [self.imported]\n\n        self._genre_cache = {}\n\n        # Read the whitelist file if enabled.\n        self.whitelist = set()\n        wl_filename = self.config['whitelist'].get()\n        if wl_filename in (True, ''):  # Indicates the default whitelist.\n            wl_filename = WHITELIST\n        if wl_filename:\n            wl_filename = normpath(wl_filename)\n            with open(wl_filename, 'rb') as f:\n                for line in f:\n                    line = line.decode('utf-8').strip().lower()\n                    if line and not line.startswith(u'#'):\n                        self.whitelist.add(line)\n\n        # Read the genres tree for canonicalization if enabled.\n        self.c14n_branches = []\n        c14n_filename = self.config['canonical'].get()\n        self.canonicalize = c14n_filename is not False\n\n        # Default tree\n        if c14n_filename in (True, ''):\n            c14n_filename = C14N_TREE\n        elif not self.canonicalize and self.config['prefer_specific'].get():\n            # prefer_specific requires a tree, load default tree\n            c14n_filename = C14N_TREE\n\n        # Read the tree\n        if c14n_filename:\n            self._log.debug('Loading canonicalization tree {0}', c14n_filename)\n            c14n_filename = normpath(c14n_filename)\n            with codecs.open(c14n_filename, 'r', encoding='utf-8') as f:\n                genres_tree = yaml.safe_load(f)\n            flatten_tree(genres_tree, [], self.c14n_branches)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 38,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

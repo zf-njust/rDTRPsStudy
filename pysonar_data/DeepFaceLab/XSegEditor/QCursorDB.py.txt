@@ -1,0 +1,12 @@
+<<QCursorDB>> <<5:133-142>> <<type>> <<CLASS>> <<ANCHOR>>
+<<initialize>> <<7:174-184>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cursor_path>> <<7:185-188>> <<QCursorDB>> <<PARAMETER>> <<ANCHOR>>
+<<cross_red>> <<8:218-227>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<cross_green>> <<9:308-319>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<cross_blue>> <<10:402-412>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<cursor_path>> <<8:254-265>> <<QCursorDB>> <<VARIABLE>> <<LINK>>
+<<QCursorDB>> <<8:208-217>> <<type>> <<VARIABLE>> <<LINK>>
+<<cursor_path>> <<9:346-357>> <<QCursorDB>> <<VARIABLE>> <<LINK>>
+<<QCursorDB>> <<9:298-307>> <<type>> <<VARIABLE>> <<LINK>>
+<<cursor_path>> <<10:439-450>> <<QCursorDB>> <<VARIABLE>> <<LINK>>
+<<QCursorDB>> <<10:392-401>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<__author__>> <<5:56-66>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<6:87-98>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__licence__>> <<7:114-125>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ExitStatus>> <<10:145-155>> <<type>> <<CLASS>> <<ANCHOR>>
+<<OK>> <<12:201-203>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR>> <<13:213-218>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR_TIMEOUT>> <<14:228-241>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR_HTTP_3XX>> <<17:306-320>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR_HTTP_4XX>> <<18:330-344>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ERROR_HTTP_5XX>> <<19:354-368>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>

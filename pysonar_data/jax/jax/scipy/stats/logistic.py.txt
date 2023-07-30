@@ -1,0 +1,11 @@
+<<jax>> <<18:733-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<18:737-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scipy>> <<18:742-747>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stats>> <<18:748-753>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logistic>> <<18:754-762>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cdf>> <<19:782-785>> <<function>> <<VARIABLE>> <<LINK>>
+<<isf>> <<20:797-800>> <<function>> <<VARIABLE>> <<LINK>>
+<<logpdf>> <<21:815-821>> <<function>> <<VARIABLE>> <<LINK>>
+<<pdf>> <<22:833-836>> <<function>> <<VARIABLE>> <<LINK>>
+<<ppf>> <<23:848-851>> <<function>> <<VARIABLE>> <<LINK>>
+<<sf>> <<24:862-864>> <<function>> <<VARIABLE>> <<LINK>>

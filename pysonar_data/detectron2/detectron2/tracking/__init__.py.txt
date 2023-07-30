@@ -1,0 +1,13 @@
+<<base_tracker>> <<2:58-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iou_weighted_hungarian_bbox_iou_tracker>> <<9:285-324>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<12:393-398>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<k>> <<15:546-547>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<15:529-536>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BaseTracker>> <<3:93-104>> <<type>> <<VARIABLE>> <<LINK>>
+<<build_tracker_head>> <<4:111-129>> <<function>> <<VARIABLE>> <<LINK>>
+<<TRACKER_HEADS_REGISTRY>> <<5:136-158>> <<?>> <<VARIABLE>> <<LINK>>
+<<IOUWeightedHungarianBBoxIOUTracker>> <<10:347-381>> <<type>> <<VARIABLE>> <<LINK>>
+<<create_prediction_pairs>> <<12:406-429>> <<function>> <<VARIABLE>> <<LINK>>
+<<k>> <<15:575-576>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<15:546-547>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<15:540-541>> <<type>> <<VARIABLE>> <<LINK>>

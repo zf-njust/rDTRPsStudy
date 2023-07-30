@@ -1,0 +1,2 @@
+<<AntMazeEnv>> <<20:794-804>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MODEL_CLASS>> <<21:820-831>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

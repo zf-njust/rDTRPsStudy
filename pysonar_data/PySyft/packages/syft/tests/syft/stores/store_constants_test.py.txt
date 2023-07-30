@@ -1,0 +1,14 @@
+<<pathlib>> <<3:30-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<temp_dir>> <<8:95-103>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sqlite_workspace_folder>> <<9:141-164>> <<{str||Path}>> <<SCOPE>> <<ANCHOR>>
+<<test_verify_key_string_root>> <<11:194-221>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_verify_key_string_client>> <<14:299-328>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_verify_key_string_hacker>> <<17:406-435>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<generate_db_name>> <<22:519-535>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<length>> <<22:536-539>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<24:676-677>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<3:45-49>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<9:167-171>> <<type>> <<VARIABLE>> <<LINK>>
+<<temp_dir>> <<9:172-180>> <<?>> <<VARIABLE>> <<LINK>>
+<<length>> <<24:687-693>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<24:676-677>> <<int>> <<VARIABLE>> <<LINK>>

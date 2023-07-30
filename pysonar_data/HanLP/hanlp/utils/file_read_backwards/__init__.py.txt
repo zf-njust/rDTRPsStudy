@@ -1,0 +1,5 @@
+<<file_read_backwards>> <<3:33-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__author__>> <<5:95-105>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__email__>> <<6:127-136>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<7:166-177>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<FileReadBackwards>> <<3:60-77>> <<type>> <<VARIABLE>> <<LINK>>

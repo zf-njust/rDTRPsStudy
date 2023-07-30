@@ -1,0 +1,13 @@
+<<__all__>> <<15:625-632>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<build_neck>> <<18:659-669>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<config>> <<18:670-673>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<support_dict>> <<32:1139-1151>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<module_name>> <<38:1358-1369>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<module_class>> <<42:1504-1516>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<38:1372-1378>> <<?>> <<VARIABLE>> <<LINK>>
+<<module_name>> <<39:1403-1414>> <<?>> <<VARIABLE>> <<LINK>>
+<<support_dict>> <<39:1418-1430>> <<list>> <<VARIABLE>> <<LINK>>
+<<support_dict>> <<40:1482-1494>> <<list>> <<VARIABLE>> <<LINK>>
+<<module_name>> <<42:1524-1535>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<42:1539-1545>> <<?>> <<VARIABLE>> <<LINK>>
+<<module_class>> <<43:1559-1571>> <<?>> <<VARIABLE>> <<LINK>>

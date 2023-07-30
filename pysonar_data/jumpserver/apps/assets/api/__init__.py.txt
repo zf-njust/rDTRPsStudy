@@ -1,0 +1,6 @@
+<<admin_user>> <<1:6-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<asset>> <<2:33-38>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<label>> <<3:55-60>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<system_user>> <<4:77-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<domain>> <<6:126-132>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cmd_filter>> <<7:149-159>> <<module>> <<VARIABLE>> <<ANCHOR>>

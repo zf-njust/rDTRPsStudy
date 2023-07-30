@@ -1,0 +1,6 @@
+<<l1>> <<1:0-2>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<l2>> <<2:93-95>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<l3>> <<3:200-202>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<l1>> <<7:275-277>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<l2>> <<12:387-389>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<l3>> <<13:494-496>> <<list>> <<SCOPE>> <<ANCHOR>>

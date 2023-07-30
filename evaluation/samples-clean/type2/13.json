@@ -1,0 +1,10 @@
+{
+  "code": "    def _find_single_string(\n        self, call, body, name\n    ):  # type: (ast.Call, List[Any], str) -> Optional[str]\n        value = self._find_in_call(call, name)\n        if value is None:\n            # Trying to find in kwargs\n            kwargs = self._find_call_kwargs(call)\n\n            if kwargs is None or not isinstance(kwargs, ast.Name):\n                return\n\n            variable = self._find_variable_in_body(body, kwargs.id)\n            if not isinstance(variable, (ast.Dict, ast.Call)):\n                return\n\n            if isinstance(variable, ast.Call):\n                if not isinstance(variable.func, ast.Name):\n                    return\n\n                if variable.func.id != \"dict\":\n                    return\n\n                value = self._find_in_call(variable, name)\n            else:\n                value = self._find_in_dict(variable, name)\n\n        if value is None:\n            return\n\n        if isinstance(value, ast.Str):\n            return value.s\n        elif isinstance(value, ast.Name):\n            variable = self._find_variable_in_body(body, value.id)\n\n            if variable is not None and isinstance(variable, ast.Str):\n                return variable.s",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 25,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

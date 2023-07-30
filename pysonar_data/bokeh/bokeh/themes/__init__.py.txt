@@ -1,0 +1,16 @@
+<<log>> <<72:1822-1825>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<89:2345-2352>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<theme>> <<102:2659-2664>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CALIBER>> <<104:2681-2688>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<LIGHT_MINIMAL>> <<105:2708-2721>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DARK_MINIMAL>> <<106:2741-2753>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<default>> <<108:2775-2782>> <<Theme>> <<SCOPE>> <<ANCHOR>>
+<<built_in_themes>> <<110:2803-2818>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Theme>> <<102:2672-2677>> <<type>> <<VARIABLE>> <<LINK>>
+<<Theme>> <<108:2785-2790>> <<type>> <<VARIABLE>> <<LINK>>
+<<CALIBER>> <<111:2828-2835>> <<str>> <<VARIABLE>> <<LINK>>
+<<DARK_MINIMAL>> <<112:2876-2888>> <<str>> <<VARIABLE>> <<LINK>>
+<<LIGHT_MINIMAL>> <<113:2929-2942>> <<str>> <<VARIABLE>> <<LINK>>
+<<Theme>> <<111:2844-2849>> <<type>> <<VARIABLE>> <<LINK>>
+<<Theme>> <<112:2892-2897>> <<type>> <<VARIABLE>> <<LINK>>
+<<Theme>> <<113:2945-2950>> <<type>> <<VARIABLE>> <<LINK>>

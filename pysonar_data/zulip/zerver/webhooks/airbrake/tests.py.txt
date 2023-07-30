@@ -1,0 +1,17 @@
+<<zerver>> <<2:29-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<2:36-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_classes>> <<2:40-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AirbrakeHookTests>> <<4:83-100>> <<type>> <<CLASS>> <<ANCHOR>>
+<<STREAM_NAME>> <<5:123-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<URL_TEMPLATE>> <<6:152-164>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<FIXTURE_DIR_NAME>> <<7:234-250>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<test_airbrake_error_message>> <<9:273-300>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:301-304>> <<AirbrakeHookTests>> <<PARAMETER>> <<ANCHOR>>
+<<expected_subject>> <<11:343-359>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<expected_message>> <<12:394-410>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<WebhookTestCase>> <<2:60-75>> <<type>> <<VARIABLE>> <<LINK>>
+<<WebhookTestCase>> <<4:101-116>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:555-559>> <<AirbrakeHookTests>> <<VARIABLE>> <<LINK>>
+<<send_and_test_stream_message>> <<13:560-588>> <<function>> <<VARIABLE>> <<LINK>>
+<<expected_subject>> <<13:606-622>> <<str>> <<VARIABLE>> <<LINK>>
+<<expected_message>> <<13:624-640>> <<str>> <<VARIABLE>> <<LINK>>

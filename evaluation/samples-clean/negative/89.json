@@ -1,0 +1,4 @@
+{
+    "code": "def _handle_key(key):\n    \"\"\"Handle key codes\"\"\"\n    code = int(key[key.index('k') + 1:])\n    value = chr(code)\n    # letter keys\n    if code >= 65 and code <= 90:\n        if 'shift+' in key:\n            key = key.replace('shift+', '')\n        else:\n            value = value.lower()\n    # number keys\n    elif code >= 48 and code <= 57:\n        if 'shift+' in key:\n            value = ')!@#$%^&*('[int(value)]\n            key = key.replace('shift+', '')\n    # function keys\n    elif code >= 112 and code <= 123:\n        value = 'f%s' % (code - 111)\n    # number pad keys\n    elif code >= 96 and code <= 105:\n        value = '%s' % (code - 96)\n    # keys with shift alternatives\n    elif code in _SHIFT_LUT and 'shift+' in key:\n        key = key.replace('shift+', '')\n        value = _SHIFT_LUT[code]\n    elif code in _LUT:\n        value = _LUT[code]\n    key = key[:key.index('k')] + value\n    return key",
+    "smell": []
+}

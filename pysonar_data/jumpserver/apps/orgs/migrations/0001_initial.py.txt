@@ -1,0 +1,4 @@
+<<Migration>> <<8:150-159>> <<type>> <<CLASS>> <<ANCHOR>>
+<<initial>> <<10:190-197>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<dependencies>> <<12:212-224>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<16:311-321>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

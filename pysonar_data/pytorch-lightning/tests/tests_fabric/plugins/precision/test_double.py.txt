@@ -1,0 +1,13 @@
+<<test_double_precision_forward_context>> <<19:689-726>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_convert_module>> <<27:982-1001>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<precision>> <<28:1010-1019>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<29:1045-1051>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<31:1151-1157>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<precision>> <<20:735-744>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<30:1088-1094>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<30:1111-1117>> <<?>> <<VARIABLE>> <<LINK>>
+<<precision>> <<31:1160-1169>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<31:1185-1191>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<32:1205-1211>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<32:1228-1234>> <<?>> <<VARIABLE>> <<LINK>>
+<<precision>> <<22:830-839>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<audio>> <<14:304-309>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__email__>> <<14:326-335>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<15:361-371>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<16:393-404>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_callback>> <<119:2963-2979>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<value>> <<120:2980-2983>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Codec>> <<61:1486-1491>> <<type>> <<VARIABLE>> <<LINK>>
+<<value>> <<121:3002-3007>> <<?>> <<VARIABLE>> <<LINK>>

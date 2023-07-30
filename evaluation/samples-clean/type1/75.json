@@ -1,0 +1,10 @@
+{
+  "code": "def allowed_ids_only(\n    allowed_inputs: Dict[str, UID],\n    kwargs: Dict[str, Any],\n    context: AuthedServiceContext,\n) -> Dict[str, UID]:\n    if context.node.node_type == NodeType.DOMAIN:\n        node_view = NodeView(\n            node_name=context.node.name,\n            node_id=context.node.id,\n            verify_key=context.node.signing_key.verify_key,\n        )\n        allowed_inputs = allowed_inputs[node_view]\n    elif context.node.node_type == NodeType.ENCLAVE:\n        base_dict = {}\n        for key in allowed_inputs.values():\n            base_dict.update(key)\n        allowed_inputs = base_dict\n    else:\n        raise Exception(\n            f\"Invalid Node Type for Code Submission:{context.node.node_type}\"\n        )\n    filtered_kwargs = {}\n    for key in allowed_inputs.keys():\n        if key in kwargs:\n            value = kwargs[key]\n            uid = value\n            if not isinstance(uid, UID):\n                uid = getattr(value, \"id\", None)\n\n            if uid != allowed_inputs[key]:\n                raise Exception(\n                    f\"Input {type(value)} for {key} not in allowed {allowed_inputs}\"\n                )\n            filtered_kwargs[key] = value\n    return filtered_kwargs",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 23,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

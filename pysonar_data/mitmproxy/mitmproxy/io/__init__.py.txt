@@ -1,0 +1,9 @@
+<<io>> <<1:6-8>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<2:42-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<3:70-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<4:98-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:135-142>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<FilteredFlowWriter>> <<1:16-34>> <<type>> <<VARIABLE>> <<LINK>>
+<<FlowReader>> <<2:52-62>> <<type>> <<VARIABLE>> <<LINK>>
+<<FlowWriter>> <<3:80-90>> <<type>> <<VARIABLE>> <<LINK>>
+<<read_flows_from_paths>> <<4:108-129>> <<function>> <<VARIABLE>> <<LINK>>

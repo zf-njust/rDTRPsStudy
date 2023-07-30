@@ -1,0 +1,10 @@
+<<__version__>> <<18:505-516>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<19:524-534>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<20:561-572>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<21:605-612>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<23:641-645>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<23:646-652>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<OSC>> <<29:804-807>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<oscAPI>> <<30:824-830>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Logger>> <<23:660-666>> <<?>> <<VARIABLE>> <<LINK>>
+<<Logger>> <<24:668-674>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<ciphey>> <<6:98-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<6:105-110>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Entropy>> <<10:189-196>> <<type>> <<CLASS>> <<ANCHOR>>
+<<check>> <<16:284-289>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getExpectedRuntime>> <<20:397-415>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<25:561-569>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<29:657-666>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:290-293>> <<Entropy>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<16:296-299>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<20:416-419>> <<Entropy>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<20:422-425>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<25:570-573>> <<Entropy>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<25:576-579>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<23:544-548>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<26:619-625>> <<?>> <<VARIABLE>> <<LINK>>

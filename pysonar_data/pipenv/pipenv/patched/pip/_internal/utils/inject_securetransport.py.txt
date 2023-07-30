@@ -1,0 +1,8 @@
+<<inject_securetransport>> <<13:326-348>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pipenv>> <<28:624-630>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<28:631-638>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<28:639-642>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<28:643-650>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urllib3>> <<28:651-658>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<contrib>> <<28:659-666>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<inject_securetransport>> <<35:785-807>> <<function>> <<VARIABLE>> <<LINK>>

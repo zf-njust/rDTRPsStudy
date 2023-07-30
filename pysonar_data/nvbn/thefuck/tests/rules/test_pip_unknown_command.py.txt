@@ -1,0 +1,10 @@
+<<pip_unknown_cmd>> <<7:143-158>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pip_unknown_cmd_without_recommend>> <<12:267-300>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<16:358-368>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<22:609-629>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pip_unknown_cmd>> <<22:630-633>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pip_unknown_cmd>> <<16:369-372>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pip_unknown_cmd_without_recommend>> <<16:386-389>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pip_unknown_cmd>> <<24:742-757>> <<?>> <<VARIABLE>> <<LINK>>
+<<pip_unknown_cmd>> <<17:470-485>> <<?>> <<VARIABLE>> <<LINK>>
+<<pip_unknown_cmd_without_recommend>> <<19:564-597>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<lib>> <<9:151-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<9:155-159>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<9:160-164>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plugins>> <<10:184-191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<10:192-199>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Enumeration>> <<12:260-271>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<13:301-309>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getPasswordHashes>> <<16:368-385>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:386-389>> <<Enumeration>> <<PARAMETER>> <<ANCHOR>>
+<<warnMsg>> <<17:401-408>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<13:310-313>> <<Enumeration>> <<PARAMETER>> <<ANCHOR>>
+<<logger>> <<9:172-178>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<18:471-477>> <<?>> <<VARIABLE>> <<LINK>>
+<<warnMsg>> <<18:483-490>> <<str>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:353-357>> <<Enumeration>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<VCS_LIST>> <<2:46-54>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<SCHEME_LIST>> <<3:85-96>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<FALSE_VALUES>> <<4:155-167>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<TRUE_VALUES>> <<5:198-209>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<is_type_checking>> <<8:245-261>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<MYPY_RUNNING>> <<16:387-399>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<is_type_checking>> <<16:402-418>> <<function>> <<VARIABLE>> <<LINK>>

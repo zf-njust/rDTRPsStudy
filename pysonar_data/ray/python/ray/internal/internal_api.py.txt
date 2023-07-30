@@ -1,0 +1,17 @@
+<<__all__>> <<9:181-188>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<free>> <<12:209-213>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<object_ids>> <<12:214-217>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<local_only>> <<12:226-229>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<worker>> <<12:244-247>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<worker>> <<31:997-1003>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<object_ids>> <<34:1094-1104>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<worker>> <<30:972-978>> <<?>> <<VARIABLE>> <<LINK>>
+<<object_ids>> <<33:1058-1068>> <<?>> <<VARIABLE>> <<LINK>>
+<<object_ids>> <<34:1108-1118>> <<?>> <<VARIABLE>> <<LINK>>
+<<object_ids>> <<36:1145-1155>> <<{list||?}>> <<VARIABLE>> <<LINK>>
+<<worker>> <<40:1280-1286>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<41:1352-1358>> <<?>> <<VARIABLE>> <<LINK>>
+<<object_ids>> <<42:1377-1387>> <<{list||?}>> <<VARIABLE>> <<LINK>>
+<<worker>> <<45:1426-1432>> <<?>> <<VARIABLE>> <<LINK>>
+<<object_ids>> <<45:1461-1471>> <<{list||?}>> <<VARIABLE>> <<LINK>>
+<<local_only>> <<45:1473-1483>> <<?>> <<VARIABLE>> <<LINK>>

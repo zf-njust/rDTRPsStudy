@@ -1,0 +1,10 @@
+{
+  "code": "def get_evaluator(cfg, dataset_name, output_folder=None):\n    \"\"\"\n    Create evaluator(s) for a given dataset.\n    This uses the special metadata \"evaluator_type\" associated with each builtin dataset.\n    For your own dataset, you can simply create an evaluator manually in your\n    script and do not have to worry about the hacky if-else logic here.\n    \"\"\"\n    if output_folder is None:\n        output_folder = os.path.join(cfg.OUTPUT_DIR, \"inference\")\n    evaluator_list = []\n    evaluator_type = MetadataCatalog.get(dataset_name).evaluator_type\n    if evaluator_type in [\"sem_seg\", \"coco_panoptic_seg\"]:\n        evaluator_list.append(\n            SemSegEvaluator(\n                dataset_name,\n                distributed=True,\n                output_dir=output_folder,\n            )\n        )\n    if evaluator_type in [\"coco\", \"coco_panoptic_seg\"]:\n        evaluator_list.append(COCOEvaluator(dataset_name, output_dir=output_folder))\n    if evaluator_type == \"coco_panoptic_seg\":\n        evaluator_list.append(COCOPanopticEvaluator(dataset_name, output_folder))\n    if evaluator_type == \"cityscapes_instance\":\n        return CityscapesInstanceEvaluator(dataset_name)\n    if evaluator_type == \"cityscapes_sem_seg\":\n        return CityscapesSemSegEvaluator(dataset_name)\n    if evaluator_type == \"pascal_voc\":\n        return PascalVOCDetectionEvaluator(dataset_name)\n    if evaluator_type == \"lvis\":\n        return LVISEvaluator(dataset_name, cfg, True, output_folder)\n    if len(evaluator_list) == 0:\n        raise NotImplementedError(\n            \"no Evaluator for the dataset {} with the type {}\".format(dataset_name, evaluator_type)\n        )\n    if len(evaluator_list) == 1:\n        return evaluator_list[0]\n    return DatasetEvaluators(evaluator_list)\n    def append(self, *args, **kwargs): # real signature unknown\n        \"\"\" Append object to the end of the list. \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 23,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

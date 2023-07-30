@@ -1,0 +1,9 @@
+<<VIM_MOCK>> <<31:1284-1292>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<MockVimModule>> <<33:1314-1327>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<VimEval>> <<55:2122-2129>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<value>> <<55:2131-2134>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<VimEval>> <<60:2275-2282>> <<function>> <<VARIABLE>> <<LINK>>
+<<VIM_MOCK>> <<60:2234-2242>> <<?>> <<VARIABLE>> <<LINK>>
+<<VIM_MOCK>> <<61:2311-2319>> <<?>> <<VARIABLE>> <<LINK>>
+<<VIM_MOCK>> <<63:2332-2340>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<56:2148-2153>> <<?>> <<VARIABLE>> <<LINK>>

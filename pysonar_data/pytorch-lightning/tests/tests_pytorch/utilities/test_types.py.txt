@@ -1,0 +1,17 @@
+<<test_stateful_protocol>> <<17:658-680>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<StatefulClass>> <<18:695-708>> <<type>> <<CLASS>> <<ANCHOR>>
+<<state_dict>> <<19:723-733>> <<function>> <<METHOD>> <<ANCHOR>>
+<<load_state_dict>> <<22:774-789>> <<function>> <<METHOD>> <<ANCHOR>>
+<<NotStatefulClass>> <<27:893-909>> <<type>> <<CLASS>> <<ANCHOR>>
+<<state_dict>> <<28:924-934>> <<function>> <<METHOD>> <<ANCHOR>>
+<<NotStateful2Class>> <<33:1033-1050>> <<type>> <<CLASS>> <<ANCHOR>>
+<<load_state_dict>> <<34:1065-1080>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<34:1081-1084>> <<NotStateful2Class>> <<PARAMETER>> <<ANCHOR>>
+<<state_dict>> <<34:1087-1090>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:734-737>> <<StatefulClass>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<22:790-793>> <<StatefulClass>> <<PARAMETER>> <<ANCHOR>>
+<<state_dict>> <<22:796-799>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:935-938>> <<NotStatefulClass>> <<PARAMETER>> <<ANCHOR>>
+<<StatefulClass>> <<25:852-865>> <<type>> <<VARIABLE>> <<LINK>>
+<<NotStatefulClass>> <<31:989-1005>> <<type>> <<VARIABLE>> <<LINK>>
+<<NotStateful2Class>> <<37:1147-1164>> <<type>> <<VARIABLE>> <<LINK>>

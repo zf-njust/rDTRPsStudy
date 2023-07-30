@@ -1,0 +1,8 @@
+<<EventType>> <<4:33-42>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MouseMotionEvent>> <<5:55-71>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MousePressEvent>> <<6:100-115>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MouseReleaseEvent>> <<7:143-160>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MouseDragEvent>> <<8:190-204>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MouseScrollEvent>> <<9:231-247>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<KeyPressEvent>> <<10:276-289>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<KeyReleaseEvent>> <<11:315-330>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

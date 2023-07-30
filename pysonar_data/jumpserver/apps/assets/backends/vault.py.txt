@@ -1,0 +1,9 @@
+<<base>> <<4:36-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VaultBackend>> <<7:71-83>> <<type>> <<CLASS>> <<ANCHOR>>
+<<filter>> <<10:127-133>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<10:134-137>> <<VaultBackend>> <<PARAMETER>> <<ANCHOR>>
+<<username>> <<10:139-142>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<asset>> <<10:154-157>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<latest>> <<10:166-169>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<BaseBackend>> <<4:48-59>> <<type>> <<VARIABLE>> <<LINK>>
+<<BaseBackend>> <<7:84-95>> <<type>> <<VARIABLE>> <<LINK>>

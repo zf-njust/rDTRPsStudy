@@ -1,0 +1,4 @@
+<<mixed_precision>> <<1:6-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<wrapping>> <<2:38-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<activation_checkpointing_functions>> <<3:63-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<apply_fsdp_checkpointing>> <<3:105-129>> <<function>> <<VARIABLE>> <<LINK>>

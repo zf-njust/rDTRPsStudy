@@ -1,0 +1,10 @@
+{
+  "code": "def call(self, inputs, training=None):  # pylint:disable=arguments-differ,unused-argument\n        \"\"\"This is where the layer's logic lives.\n\n        Parameters\n        ----------\n        inputs: tensor\n            Input tensor, or list/tuple of input tensors\n\n        Returns\n        -------\n        tensor\n            A tensor or list/tuple of tensors\n        \"\"\"\n        input_shape = K.int_shape(inputs)\n        reduction_axes = list(range(0, len(input_shape)))\n\n        if self.axis is not None:\n            del reduction_axes[self.axis]\n\n        del reduction_axes[0]\n\n        mean = K.mean(inputs, reduction_axes, keepdims=True)\n        stddev = K.std(inputs, reduction_axes, keepdims=True) + self.epsilon\n        normed = (inputs - mean) / stddev\n\n        broadcast_shape = [1] * len(input_shape)\n        if self.axis is not None:\n            broadcast_shape[self.axis] = input_shape[self.axis]\n\n        if self.scale:\n            broadcast_gamma = K.reshape(self.gamma, broadcast_shape)\n            normed = normed * broadcast_gamma\n        if self.center:\n            broadcast_beta = K.reshape(self.beta, broadcast_shape)\n            normed = normed + broadcast_beta\n        return normed",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

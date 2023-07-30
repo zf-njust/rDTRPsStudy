@@ -1,0 +1,17 @@
+<<generate_fake_input>> <<20:679-698>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<batch_size>> <<20:699-702>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<seq_len>> <<20:713-716>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<vocab_size>> <<20:724-727>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<seed>> <<20:742-745>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<fake_input>> <<23:837-847>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<24:860-861>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<_>> <<26:920-921>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<fake_input>> <<28:1007-1017>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<seed>> <<22:828-832>> <<int>> <<VARIABLE>> <<LINK>>
+<<batch_size>> <<24:871-881>> <<int>> <<VARIABLE>> <<LINK>>
+<<fake_input>> <<25:889-899>> <<list>> <<VARIABLE>> <<LINK>>
+<<seq_len>> <<26:931-938>> <<int>> <<VARIABLE>> <<LINK>>
+<<fake_input>> <<27:948-958>> <<list>> <<VARIABLE>> <<LINK>>
+<<vocab_size>> <<27:991-1001>> <<int>> <<VARIABLE>> <<LINK>>
+<<fake_input>> <<28:1031-1041>> <<list>> <<VARIABLE>> <<LINK>>
+<<fake_input>> <<29:1053-1063>> <<?>> <<VARIABLE>> <<LINK>>

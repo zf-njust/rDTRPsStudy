@@ -1,0 +1,4 @@
+<<version>> <<4:67-74>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<6:91-107>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<15:227-234>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<39:1128-1144>> <<list>> <<VARIABLE>> <<LINK>>

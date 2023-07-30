@@ -1,0 +1,8 @@
+<<swap_pair>> <<16:564-573>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<num>> <<16:574-577>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<odd>> <<18:629-632>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<even>> <<20:706-710>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<num>> <<18:636-639>> <<?>> <<VARIABLE>> <<LINK>>
+<<num>> <<20:714-717>> <<?>> <<VARIABLE>> <<LINK>>
+<<odd>> <<21:758-761>> <<int>> <<VARIABLE>> <<LINK>>
+<<even>> <<21:764-768>> <<int>> <<VARIABLE>> <<LINK>>

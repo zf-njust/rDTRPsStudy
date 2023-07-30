@@ -1,0 +1,5 @@
+<<utils>> <<2:55-60>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<4:107-114>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<check_norm_state>> <<2:68-84>> <<function>> <<VARIABLE>> <<LINK>>
+<<is_block>> <<2:86-94>> <<function>> <<VARIABLE>> <<LINK>>
+<<is_norm>> <<2:96-103>> <<function>> <<VARIABLE>> <<LINK>>

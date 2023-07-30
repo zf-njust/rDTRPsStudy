@@ -1,0 +1,3 @@
+<<hook_script_type>> <<6:78-94>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<hook_script_type>> <<7:147-163>> <<str>> <<VARIABLE>> <<LINK>>
+<<hook_script_type>> <<12:384-400>> <<str>> <<VARIABLE>> <<LINK>>

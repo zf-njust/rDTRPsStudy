@@ -1,0 +1,4 @@
+<<KivyStyle>> <<7:236-245>> <<type>> <<CLASS>> <<ANCHOR>>
+<<background_color>> <<9:311-327>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default_style>> <<10:338-351>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<styles>> <<12:364-370>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>

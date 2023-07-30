@@ -1,0 +1,4 @@
+<<_OpenStack>> <<8:106-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:129-138>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:199-208>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

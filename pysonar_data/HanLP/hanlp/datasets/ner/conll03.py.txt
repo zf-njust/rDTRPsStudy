@@ -1,0 +1,3 @@
+<<CONLL03_EN_TRAIN>> <<6:72-88>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONLL03_EN_DEV>> <<8:245-259>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONLL03_EN_TEST>> <<10:409-424>> <<str>> <<SCOPE>> <<ANCHOR>>

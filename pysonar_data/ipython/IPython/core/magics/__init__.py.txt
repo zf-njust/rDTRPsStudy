@@ -1,0 +1,15 @@
+<<auto>> <<16:655-659>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<19:760-766>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<deprecated>> <<20:794-804>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<display>> <<21:836-843>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<extension>> <<23:912-921>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logging>> <<25:988-995>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<namespace>> <<26:1024-1033>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UserMagics>> <<36:1368-1378>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AutoMagics>> <<16:667-677>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConfigMagics>> <<19:774-786>> <<type>> <<VARIABLE>> <<LINK>>
+<<DeprecatedMagics>> <<20:812-828>> <<type>> <<VARIABLE>> <<LINK>>
+<<DisplayMagics>> <<21:851-864>> <<type>> <<VARIABLE>> <<LINK>>
+<<ExtensionMagics>> <<23:929-944>> <<type>> <<VARIABLE>> <<LINK>>
+<<LoggingMagics>> <<25:1003-1016>> <<type>> <<VARIABLE>> <<LINK>>
+<<NamespaceMagics>> <<26:1041-1056>> <<type>> <<VARIABLE>> <<LINK>>

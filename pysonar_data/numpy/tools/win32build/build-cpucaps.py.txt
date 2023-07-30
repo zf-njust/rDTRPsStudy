@@ -1,0 +1,12 @@
+<<cc>> <<6:159-161>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<fmt>> <<7:193-196>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<cmd>> <<8:218-221>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cmd>> <<10:369-372>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cmd>> <<12:488-491>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cc>> <<7:200-202>> <<?>> <<VARIABLE>> <<LINK>>
+<<fmt>> <<8:323-326>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<cmd>> <<9:351-354>> <<str>> <<VARIABLE>> <<LINK>>
+<<fmt>> <<10:442-445>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<cmd>> <<11:470-473>> <<str>> <<VARIABLE>> <<LINK>>
+<<fmt>> <<12:586-589>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<cmd>> <<13:614-617>> <<str>> <<VARIABLE>> <<LINK>>

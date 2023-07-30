@@ -1,0 +1,9 @@
+<<Latin5_BulgarianCharToOrderMap>> <<37:1505-1535>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<win1251BulgarianCharToOrderMap>> <<56:2698-2728>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<BulgarianLangModel>> <<81:4061-4079>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Latin5BulgarianModel>> <<212:12538-12558>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Win1251BulgarianModel>> <<220:12765-12786>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<Latin5_BulgarianCharToOrderMap>> <<213:12584-12614>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<BulgarianLangModel>> <<214:12639-12657>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<win1251BulgarianCharToOrderMap>> <<221:12812-12842>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<BulgarianLangModel>> <<222:12867-12885>> <<tuple>> <<VARIABLE>> <<LINK>>

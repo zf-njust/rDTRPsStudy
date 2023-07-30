@@ -1,0 +1,10 @@
+{
+  "code": "def _reset_cacher(self):\\n        \"\"\" reset the cacher \"\"\"\\n        if hasattr(self,'_cacher'):\\n            del self._cacher",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 4,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

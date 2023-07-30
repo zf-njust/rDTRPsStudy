@@ -1,0 +1,4 @@
+<<test_shim_warning>> <<9:164-181>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<w>> <<11:280-281>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<w>> <<14:371-372>> <<?>> <<VARIABLE>> <<LINK>>
+<<w>> <<15:402-403>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<full_path>> <<5:58-67>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<file>> <<5:68-71>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<file>> <<6:122-126>> <<?>> <<VARIABLE>> <<LINK>>

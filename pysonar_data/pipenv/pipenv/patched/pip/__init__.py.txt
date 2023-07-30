@@ -1,0 +1,12 @@
+<<__version__>> <<3:35-46>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<main>> <<6:64-68>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<args>> <<6:69-72>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pipenv>> <<11:282-288>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<11:289-296>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<11:297-300>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_internal>> <<11:301-310>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<11:311-316>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<entrypoints>> <<11:317-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_wrapper>> <<11:336-344>> <<function>> <<VARIABLE>> <<LINK>>
+<<_wrapper>> <<13:357-365>> <<function>> <<VARIABLE>> <<LINK>>
+<<args>> <<13:366-370>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<e>> <<1:0-1>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<7:147-148>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<g>> <<13:210-211>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<h>> <<19:273-274>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<e>> <<28:350-351>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<35:503-504>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<g>> <<42:572-573>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<h>> <<49:641-642>> <<list>> <<SCOPE>> <<ANCHOR>>

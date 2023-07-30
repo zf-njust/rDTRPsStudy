@@ -1,0 +1,6 @@
+<<pandas>> <<1:7-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lm>> <<4:42-44>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<11:168-176>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<11:177-180>> <<lm>> <<PARAMETER>> <<ANCHOR>>
+<<formula>> <<11:183-186>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<11:192-195>> <<?>> <<PARAMETER>> <<ANCHOR>>

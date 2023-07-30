@@ -1,0 +1,15 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:41-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<2:47-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<5:79-82>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<blueprint>> <<6:103-112>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<blueprint2>> <<7:168-178>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<blueprint3>> <<8:236-246>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<json>> <<2:69-73>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<36:847-850>> <<?>> <<VARIABLE>> <<LINK>>
+<<blueprint>> <<36:861-870>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<37:873-876>> <<?>> <<VARIABLE>> <<LINK>>
+<<blueprint2>> <<37:887-897>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<38:900-903>> <<?>> <<VARIABLE>> <<LINK>>
+<<blueprint3>> <<38:914-924>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<41:961-964>> <<?>> <<VARIABLE>> <<LINK>>

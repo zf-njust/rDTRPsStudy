@@ -1,0 +1,8 @@
+<<asyncio>> <<2:48-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<loop>> <<11:159-163>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<kyk>> <<14:223-226>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<16:255-261>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<asyncio>> <<12:191-198>> <<module>> <<VARIABLE>> <<LINK>>
+<<loop>> <<12:214-218>> <<?>> <<VARIABLE>> <<LINK>>
+<<logger>> <<17:294-300>> <<?>> <<VARIABLE>> <<LINK>>
+<<kyk>> <<29:514-517>> <<?>> <<VARIABLE>> <<LINK>>

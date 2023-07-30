@@ -1,0 +1,11 @@
+<<test_auto_device_count>> <<21:715-737>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_availability>> <<25:802-819>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_init_device_with_wrong_device_type>> <<29:874-913>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_parallel_devices>> <<38:1215-1240>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_invalid_devices_with_cpu_accelerator>> <<43:1387-1428>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<devices>> <<43:1429-1432>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<devices>> <<38:1241-1244>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<38:1250-1253>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<devices>> <<46:1601-1608>> <<?>> <<VARIABLE>> <<LINK>>
+<<devices>> <<39:1309-1316>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<39:1321-1329>> <<?>> <<VARIABLE>> <<LINK>>

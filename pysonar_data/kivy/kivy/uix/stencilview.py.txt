@@ -1,0 +1,7 @@
+<<__all__>> <<32:877-884>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<34:913-917>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<34:918-921>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widget>> <<34:922-928>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<StencilView>> <<37:954-965>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Widget>> <<34:936-942>> <<type>> <<VARIABLE>> <<LINK>>
+<<Widget>> <<37:966-972>> <<type>> <<VARIABLE>> <<LINK>>

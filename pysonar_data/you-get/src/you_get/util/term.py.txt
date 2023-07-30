@@ -1,0 +1,1 @@
+<<get_terminal_size>> <<3:29-46>> <<function>> <<FUNCTION>> <<ANCHOR>>

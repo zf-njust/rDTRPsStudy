@@ -1,0 +1,12 @@
+<<can_attend_meetings>> <<12:244-263>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<intervals>> <<12:264-267>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<intervals>> <<17:354-363>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<18:416-417>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<17:395-398>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<intervals>> <<17:373-382>> <<?>> <<VARIABLE>> <<LINK>>
+<<intervals>> <<18:434-443>> <<?>> <<VARIABLE>> <<LINK>>
+<<intervals>> <<19:459-468>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<19:469-470>> <<int>> <<VARIABLE>> <<LINK>>
+<<intervals>> <<19:480-489>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<19:490-491>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<17:398-399>> <<?>> <<VARIABLE>> <<LINK>>

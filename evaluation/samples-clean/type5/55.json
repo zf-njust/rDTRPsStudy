@@ -1,0 +1,10 @@
+{
+  "code": "def tearDownClass(cls):\\n        super(TestYahooOptions, cls).tearDownClass()\\n        del cls.aapl, cls.expiry",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 3,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

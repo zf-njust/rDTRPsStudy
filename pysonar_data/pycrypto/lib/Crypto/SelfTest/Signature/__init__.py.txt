@@ -1,0 +1,16 @@
+<<__revision__>> <<25:1119-1131>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<get_tests>> <<29:1161-1170>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unittest>> <<36:1411-1419>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<suite>> <<37:1425-1430>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<config>> <<29:1171-1174>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<tests>> <<30:1188-1193>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<31:1226-1231>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<32:1302-1307>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<38:1478-1486>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<37:1441-1449>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_tests>> <<37:1460-1469>> <<function>> <<VARIABLE>> <<LINK>>
+<<tests>> <<31:1226-1231>> <<list>> <<VARIABLE>> <<LINK>>
+<<config>> <<31:1266-1272>> <<dict>> <<VARIABLE>> <<LINK>>
+<<tests>> <<32:1302-1307>> <<list>> <<VARIABLE>> <<LINK>>
+<<config>> <<32:1343-1349>> <<dict>> <<VARIABLE>> <<LINK>>
+<<tests>> <<33:1363-1368>> <<list>> <<VARIABLE>> <<LINK>>

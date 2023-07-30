@@ -1,0 +1,10 @@
+<<load_ipython_extension>> <<4:29-51>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip>> <<4:52-55>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pipenv>> <<6:129-135>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<6:136-143>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<6:144-147>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<6:148-155>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<7:192-198>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<7:199-206>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<7:207-210>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<7:211-218>> <<module>> <<VARIABLE>> <<ANCHOR>>

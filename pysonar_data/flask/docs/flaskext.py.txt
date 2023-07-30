@@ -1,0 +1,4 @@
+<<FlaskyStyle>> <<7:252-263>> <<type>> <<CLASS>> <<ANCHOR>>
+<<background_color>> <<8:277-293>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default_style>> <<9:311-324>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<styles>> <<11:337-343>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>

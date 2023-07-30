@@ -1,0 +1,4 @@
+<<__future__>> <<6:163-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pyfunc>> <<8:203-209>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipyfunc2>> <<28:484-492>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<print_function>> <<6:181-195>> <<_Feature>> <<VARIABLE>> <<LINK>>

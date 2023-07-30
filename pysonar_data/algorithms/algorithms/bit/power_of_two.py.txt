@@ -1,0 +1,5 @@
+<<is_power_of_two>> <<4:87-102>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<4:103-106>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<n>> <<9:173-174>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<9:187-188>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<9:192-193>> <<int>> <<VARIABLE>> <<LINK>>

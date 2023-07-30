@@ -1,0 +1,15 @@
+<<get_press_time>> <<3:19-33>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<piece_x>> <<3:34-37>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<piece_y>> <<3:43-46>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<board_x>> <<3:52-55>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<board_y>> <<3:61-64>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<time_coeff>> <<3:70-73>> <<{float||int}>> <<PARAMETER>> <<ANCHOR>>
+<<distance>> <<4:92-100>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<press_time>> <<5:175-185>> <<{float||int}>> <<VARIABLE>> <<ANCHOR>>
+<<board_x>> <<4:114-121>> <<?>> <<VARIABLE>> <<LINK>>
+<<piece_x>> <<4:124-131>> <<?>> <<VARIABLE>> <<LINK>>
+<<board_y>> <<4:141-148>> <<?>> <<VARIABLE>> <<LINK>>
+<<piece_y>> <<4:151-158>> <<?>> <<VARIABLE>> <<LINK>>
+<<distance>> <<5:188-196>> <<int>> <<VARIABLE>> <<LINK>>
+<<time_coeff>> <<5:199-209>> <<{float||int}>> <<VARIABLE>> <<LINK>>
+<<press_time>> <<6:233-243>> <<{float||int}>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<judge_circle>> <<16:505-517>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<moves>> <<16:518-521>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<dict_moves>> <<17:531-541>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<char>> <<23:633-637>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<moves>> <<23:641-646>> <<str>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<24:676-686>> <<dict>> <<VARIABLE>> <<LINK>>
+<<char>> <<24:687-691>> <<str>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<24:657-667>> <<dict>> <<VARIABLE>> <<LINK>>
+<<char>> <<24:668-672>> <<str>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<25:709-719>> <<dict>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<25:728-738>> <<dict>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<25:748-758>> <<dict>> <<VARIABLE>> <<LINK>>
+<<dict_moves>> <<25:767-777>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def store_training_masks(self,\\n                             masks: list[np.ndarray | None],\\n                             delete_masks: bool = False) -> None:\\n        \"\"\" Concatenate and compress the given training masks and store for retrieval.\\n\\n        Parameters\\n        ----------\\n        masks: list\\n            A list of training mask. Must be all be uint-8 3D arrays of the same size in\\n            0-255 range\\n        delete_masks: bool, optional\\n            ``True`` to delete any of the :class:`Mask` objects owned by this detected face. Use to\\n            free up unrequired memory usage. Default: ``False``\\n        \"\"\"\\n        if delete_masks:\\n            del self.mask\\n            self.mask = {}\\n\\n        valid = [msk for msk in masks if msk is not None]\\n        if not valid:\\n            return\\n        combined = np.concatenate(valid, axis=-1)\\n        self._training_masks = (compress(combined), combined.shape)",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 16,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

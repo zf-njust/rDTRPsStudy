@@ -1,0 +1,16 @@
+<<TestSplit>> <<23:793-802>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_trivial>> <<25:834-846>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_unicode>> <<28:930-942>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_quoted>> <<31:1040-1051>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_comments>> <<34:1134-1147>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_error>> <<37:1249-1259>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:847-850>> <<TestSplit>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:1052-1055>> <<TestSplit>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<37:1260-1263>> <<TestSplit>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:943-946>> <<TestSplit>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1148-1151>> <<TestSplit>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:863-867>> <<TestSplit>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1068-1072>> <<TestSplit>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1276-1280>> <<TestSplit>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:959-963>> <<TestSplit>> <<VARIABLE>> <<LINK>>
+<<self>> <<35:1164-1168>> <<TestSplit>> <<VARIABLE>> <<LINK>>

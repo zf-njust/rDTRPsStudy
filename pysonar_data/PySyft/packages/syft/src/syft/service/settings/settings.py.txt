@@ -1,0 +1,7 @@
+<<NodeSettingsUpdate>> <<12:271-289>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<13:314-332>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<14:360-371>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<NodeSettings>> <<25:534-546>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<26:564-582>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<27:604-615>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__repr_attrs__>> <<28:644-658>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>

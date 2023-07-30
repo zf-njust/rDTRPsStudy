@@ -1,0 +1,12 @@
+<<multiply>> <<6:72-80>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<6:81-84>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<7:96-97>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<8:127-128>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<retval>> <<10:160-166>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<11:180-188>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<7:104-111>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<8:135-142>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<10:169-170>> <<int>> <<VARIABLE>> <<LINK>>
+<<y>> <<10:173-174>> <<int>> <<VARIABLE>> <<LINK>>
+<<retval>> <<11:223-229>> <<int>> <<VARIABLE>> <<LINK>>
+<<response>> <<12:262-270>> <<dict>> <<VARIABLE>> <<LINK>>

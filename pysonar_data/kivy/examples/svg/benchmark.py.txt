@@ -1,0 +1,17 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<1:10-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<window>> <<1:15-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:42-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<2:47-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<filename>> <<7:120-128>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<12:292-293>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<start>> <<16:421-426>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<svg>> <<17:441-444>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<end>> <<18:466-469>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<Window>> <<1:29-35>> <<None>> <<VARIABLE>> <<LINK>>
+<<argv>> <<7:135-139>> <<list>> <<VARIABLE>> <<LINK>>
+<<s>> <<13:330-331>> <<?>> <<VARIABLE>> <<LINK>>
+<<filename>> <<15:405-413>> <<str>> <<VARIABLE>> <<LINK>>
+<<filename>> <<17:451-459>> <<str>> <<VARIABLE>> <<LINK>>
+<<end>> <<19:518-521>> <<int>> <<VARIABLE>> <<LINK>>
+<<start>> <<19:524-529>> <<int>> <<VARIABLE>> <<LINK>>

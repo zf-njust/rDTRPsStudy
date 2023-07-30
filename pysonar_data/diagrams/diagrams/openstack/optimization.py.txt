@@ -1,0 +1,15 @@
+<<_Optimization>> <<6:108-121>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:140-145>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:168-177>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Congress>> <<11:226-234>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:256-261>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Rally>> <<15:290-295>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:317-322>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Vitrage>> <<19:348-355>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:377-382>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Watcher>> <<23:410-417>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:439-444>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Optimization>> <<11:235-248>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Optimization>> <<15:296-309>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Optimization>> <<19:356-369>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Optimization>> <<23:418-431>> <<type>> <<VARIABLE>> <<LINK>>

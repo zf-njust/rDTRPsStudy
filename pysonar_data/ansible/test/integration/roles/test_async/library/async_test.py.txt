@@ -1,0 +1,13 @@
+<<main>> <<5:85-89>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<module>> <<14:353-359>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<19:483-489>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<fail_mode>> <<21:518-527>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<-1:1009-1013>> <<function>> <<VARIABLE>> <<LINK>>
+<<module>> <<21:530-536>> <<?>> <<VARIABLE>> <<LINK>>
+<<fail_mode>> <<24:599-608>> <<?>> <<VARIABLE>> <<LINK>>
+<<fail_mode>> <<27:694-703>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<28:718-724>> <<?>> <<VARIABLE>> <<LINK>>
+<<fail_mode>> <<30:789-798>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<33:865-871>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<33:884-890>> <<dict>> <<VARIABLE>> <<LINK>>
+<<fail_mode>> <<36:939-948>> <<?>> <<VARIABLE>> <<LINK>>

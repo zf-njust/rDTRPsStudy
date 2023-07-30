@@ -1,0 +1,10 @@
+{
+  "code": "def gt_panoptic_seg(self):\\n        del self._gt_panoptic_seg",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

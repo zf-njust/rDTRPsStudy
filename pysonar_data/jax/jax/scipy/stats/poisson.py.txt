@@ -1,0 +1,8 @@
+<<jax>> <<18:733-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<18:737-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scipy>> <<18:742-747>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stats>> <<18:748-753>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<poisson>> <<18:754-761>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logpmf>> <<19:784-790>> <<function>> <<VARIABLE>> <<LINK>>
+<<pmf>> <<20:802-805>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdf>> <<21:817-820>> <<function>> <<VARIABLE>> <<LINK>>

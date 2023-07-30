@@ -1,0 +1,14 @@
+<<screenplays>> <<2:31-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<director>> <<7:117-125>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<screenplays>> <<8:147-158>> <<module>> <<VARIABLE>> <<LINK>>
+<<record_user_interface>> <<8:159-180>> <<function>> <<VARIABLE>> <<LINK>>
+<<director>> <<8:181-189>> <<?>> <<VARIABLE>> <<LINK>>
+<<screenplays>> <<9:196-207>> <<module>> <<VARIABLE>> <<LINK>>
+<<record_intercept_requests>> <<9:208-233>> <<function>> <<VARIABLE>> <<LINK>>
+<<director>> <<9:234-242>> <<?>> <<VARIABLE>> <<LINK>>
+<<screenplays>> <<10:249-260>> <<module>> <<VARIABLE>> <<LINK>>
+<<record_modify_requests>> <<10:261-283>> <<function>> <<VARIABLE>> <<LINK>>
+<<director>> <<10:284-292>> <<?>> <<VARIABLE>> <<LINK>>
+<<screenplays>> <<11:299-310>> <<module>> <<VARIABLE>> <<LINK>>
+<<record_replay_requests>> <<11:311-333>> <<function>> <<VARIABLE>> <<LINK>>
+<<director>> <<11:334-342>> <<?>> <<VARIABLE>> <<LINK>>

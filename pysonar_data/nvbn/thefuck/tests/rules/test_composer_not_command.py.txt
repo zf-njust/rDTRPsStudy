@@ -1,0 +1,13 @@
+<<composer_not_command>> <<7:144-164>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<composer_not_command_one_of_this>> <<24:634-666>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<42:1211-1221>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<50:1574-1594>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<composer_not_command>> <<42:1222-1225>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<composer_not_command_one_of_this>> <<42:1244-1247>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<composer_not_command>> <<50:1595-1598>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<composer_not_command_one_of_this>> <<50:1617-1620>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<composer_not_command>> <<44:1357-1377>> <<?>> <<VARIABLE>> <<LINK>>
+<<composer_not_command_one_of_this>> <<46:1457-1489>> <<?>> <<VARIABLE>> <<LINK>>
+<<composer_not_command>> <<47:1542-1562>> <<?>> <<VARIABLE>> <<LINK>>
+<<composer_not_command>> <<52:1750-1770>> <<?>> <<VARIABLE>> <<LINK>>
+<<composer_not_command_one_of_this>> <<55:1879-1911>> <<?>> <<VARIABLE>> <<LINK>>

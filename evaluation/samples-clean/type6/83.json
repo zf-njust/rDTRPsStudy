@@ -1,0 +1,10 @@
+{
+  "code": "def _test_offset(self, offset_name, offset_n, tstart, expected_utc_offset):\n        offset = DateOffset(**{offset_name: offset_n})\n        t = tstart + offset\n        if expected_utc_offset is not None:\n            self.assertTrue(get_utc_offset_hours(t) == expected_utc_offset)\n\n        if offset_name == 'weeks':\n            # dates should match\n            self.assertTrue(\n                t.date() ==\n                timedelta(days=7 * offset.kwds['weeks']) + tstart.date()\n                )\n            # expect the same day of week, hour of day, minute, second, ...\n            self.assertTrue(\n                t.dayofweek == tstart.dayofweek and\n                t.hour == tstart.hour and\n                t.minute == tstart.minute and\n                t.second == tstart.second\n                )\n        elif offset_name == 'days':\n            # dates should match\n            self.assertTrue(timedelta(offset.kwds['days']) + tstart.date() == t.date())\n            # expect the same hour of day, minute, second, ...\n            self.assertTrue(\n                t.hour == tstart.hour and\n                t.minute == tstart.minute and\n                t.second == tstart.second\n                )\n        elif offset_name in self.valid_date_offsets_singular:\n            # expect the signular offset value to match between tstart and t\n            datepart_offset = getattr(t, offset_name if offset_name != 'weekday' else 'dayofweek')\n            self.assertTrue(datepart_offset == offset.kwds[offset_name])\n        else:\n            # the offset should be the same as if it was done in UTC\n            self.assertTrue(\n                t == (tstart.tz_convert('UTC') + offset).tz_convert('US/Pacific')\n                )",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 31,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "code": "def update(self, dispatch_fn):\n            # dispatch all events from threads\n            dispatch_queue = self.dispatch_queue\n            n = len(dispatch_queue)\n            for name, args in dispatch_queue[:n]:\n                if name == 'mouse_pos':\n                    Window.mouse_pos = args\n                elif name == 'key_down':\n                    if not Window.dispatch('on_key_down', *args):\n                        Window.dispatch('on_keyboard', *args)\n                elif name == 'key_up':\n                    Window.dispatch('on_key_up', *args)\n            del dispatch_queue[:n]\n\n            try:\n                while True:\n                    event_type, touch = self.queue.popleft()\n                    dispatch_fn(event_type, touch)\n            except:\n                pass",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 13,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

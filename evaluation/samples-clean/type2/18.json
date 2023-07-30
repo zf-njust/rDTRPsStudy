@@ -1,0 +1,10 @@
+{
+  "code": "@pytest.mark.skipif(not PY2, reason=\"This only works under Python 2.\")\ndef test_meta_path_loader_without_is_package(request, modules_tmpdir):\n    app = modules_tmpdir.join(\"unimportable.py\")\n    app.write(\"import flask\\napp = flask.Flask(__name__)\")\n\n    class Loader(object):\n        def find_module(self, name, path=None):\n            return self\n\n    sys.meta_path.append(Loader())\n    request.addfinalizer(sys.meta_path.pop)\n\n    with pytest.raises(AttributeError):\n        import unimportable  # noqa: F401",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 10,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

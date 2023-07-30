@@ -1,0 +1,10 @@
+{
+  "code": "def run(self):\n        \"\"\"\n        This is where the meat is.  Basically the data_files list must\n        now be a list of tuples of 3 entries.  The first\n        entry is one of 'base', 'platbase', etc, which indicates which\n        base to install from.  The second entry is the path to install\n        too.  The third entry is a list of files to install.\n        \"\"\"\n        for lof in self.data_files:\n            if lof[0]:\n                base = getattr(self, 'install_' + lof[0])\n            else:\n                base = getattr(self, 'install_base')\n            dir = convert_path(lof[1])\n            if not os.path.isabs(dir):\n                dir = os.path.join(base, dir)\n            elif self.root:\n                dir = change_root(self.root, dir)\n            self.mkpath(dir)\n\n            files = lof[2]\n            if len(files) == 0:\n                # If there are no files listed, the user must be\n                # trying to create an empty directory, so add the the\n                # directory to the list of output files.\n                self.outfiles.append(dir)\n            else:\n                # Copy files, adding them to the list of output files.\n                for f in files:\n                    f = convert_path(f)\n                    (out, _) = self.copy_file(f, dir)\n                    #print \"DEBUG: \", out  # dbg\n                    self.outfiles.append(out)\n                    \n\n        return self.outfiles",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 13,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

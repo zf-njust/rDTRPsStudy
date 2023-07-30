@@ -1,0 +1,11 @@
+<<LightningTrainerDistributed>> <<7:171-198>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<8:226-229>> <<function>> <<METHOD>> <<ANCHOR>>
+<<component>> <<14:392-401>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<19:551-554>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<8:230-233>> <<LightningTrainerDistributed>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<9:246-251>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<trainer>> <<10:277-284>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<LightningTrainerDistributed>> <<15:436-463>> <<type>> <<VARIABLE>> <<LINK>>
+<<component>> <<19:572-581>> <<?>> <<VARIABLE>> <<LINK>>
+<<trainer>> <<11:337-344>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<11:349-354>> <<?>> <<VARIABLE>> <<LINK>>

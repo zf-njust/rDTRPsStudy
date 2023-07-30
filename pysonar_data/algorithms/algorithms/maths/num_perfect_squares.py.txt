@@ -1,0 +1,15 @@
+<<num_perfect_squares>> <<17:618-637>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<number>> <<17:638-641>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<number>> <<30:1263-1269>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<43:2089-2090>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<number>> <<23:874-880>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<23:889-895>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<29:1222-1228>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<29:1237-1243>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<30:1263-1269>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<37:1752-1758>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<43:2117-2123>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<44:2158-2164>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<44:2167-2168>> <<int>> <<VARIABLE>> <<LINK>>
+<<number>> <<44:2180-2186>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<44:2189-2190>> <<int>> <<VARIABLE>> <<LINK>>

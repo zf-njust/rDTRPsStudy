@@ -1,0 +1,12 @@
+<<__future__>> <<7:145-155>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<certbot_version>> <<15:276-291>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<file_contents>> <<25:722-735>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<letstest_scripts_dir>> <<15:292-295>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<25:736-739>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<file>> <<26:766-770>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<print_function>> <<7:163-177>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<certbot_version>> <<31:838-853>> <<function>> <<VARIABLE>> <<LINK>>
+<<file_contents>> <<18:462-475>> <<function>> <<VARIABLE>> <<LINK>>
+<<letstest_scripts_dir>> <<18:497-517>> <<str>> <<VARIABLE>> <<LINK>>
+<<path>> <<26:757-761>> <<str>> <<VARIABLE>> <<LINK>>
+<<file>> <<27:787-791>> <<file>> <<VARIABLE>> <<LINK>>

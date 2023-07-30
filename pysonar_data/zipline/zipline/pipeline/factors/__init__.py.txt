@@ -1,0 +1,12 @@
+<<factor>> <<1:6-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<latest>> <<5:64-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<technical>> <<6:92-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<14:209-216>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<Factor>> <<2:27-33>> <<type>> <<VARIABLE>> <<LINK>>
+<<CustomFactor>> <<3:40-52>> <<type>> <<VARIABLE>> <<LINK>>
+<<Latest>> <<5:78-84>> <<type>> <<VARIABLE>> <<LINK>>
+<<MaxDrawdown>> <<7:116-127>> <<type>> <<VARIABLE>> <<LINK>>
+<<RSI>> <<8:134-137>> <<type>> <<VARIABLE>> <<LINK>>
+<<SimpleMovingAverage>> <<9:144-163>> <<type>> <<VARIABLE>> <<LINK>>
+<<VWAP>> <<10:170-174>> <<type>> <<VARIABLE>> <<LINK>>
+<<WeightedAverageValue>> <<11:181-201>> <<type>> <<VARIABLE>> <<LINK>>

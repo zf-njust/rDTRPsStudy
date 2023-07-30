@@ -1,0 +1,16 @@
+<<KivyLexer>> <<11:282-291>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<12:310-314>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<aliases>> <<13:329-336>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<filenames>> <<14:359-368>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<tokens>> <<15:385-391>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<k>> <<48:1751-1752>> <<KivyLexer>> <<SCOPE>> <<ANCHOR>>
+<<fd>> <<49:1803-1805>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<out>> <<50:1847-1850>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<argv>> <<45:1632-1636>> <<list>> <<VARIABLE>> <<LINK>>
+<<KivyLexer>> <<48:1755-1764>> <<type>> <<VARIABLE>> <<LINK>>
+<<argv>> <<49:1786-1790>> <<list>> <<VARIABLE>> <<LINK>>
+<<argv>> <<50:1830-1834>> <<list>> <<VARIABLE>> <<LINK>>
+<<fd>> <<51:1875-1877>> <<file>> <<VARIABLE>> <<LINK>>
+<<k>> <<51:1886-1887>> <<KivyLexer>> <<VARIABLE>> <<LINK>>
+<<argv>> <<51:1915-1919>> <<list>> <<VARIABLE>> <<LINK>>
+<<out>> <<51:1925-1928>> <<file>> <<VARIABLE>> <<LINK>>

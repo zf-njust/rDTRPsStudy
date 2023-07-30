@@ -1,0 +1,9 @@
+<<_Communication>> <<6:111-125>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:147-152>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:176-185>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<DirectMail>> <<11:238-248>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:271-276>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<MobilePush>> <<15:308-318>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:341-346>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Communication>> <<11:249-263>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Communication>> <<15:319-333>> <<type>> <<VARIABLE>> <<LINK>>

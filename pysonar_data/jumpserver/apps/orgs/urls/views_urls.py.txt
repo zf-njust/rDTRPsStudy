@@ -1,0 +1,2 @@
+<<app_name>> <<8:86-94>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<11:109-120>> <<list>> <<SCOPE>> <<ANCHOR>>

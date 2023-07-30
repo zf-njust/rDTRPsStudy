@@ -1,0 +1,16 @@
+<<bokeh>> <<27:925-930>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<websocket>> <<27:951-954>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Test_WebSocketClientConnectionWrapper>> <<41:1485-1522>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_creation_raises_with_None>> <<43:1543-1573>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_creation>> <<47:1689-1702>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<47:1703-1706>> <<Test_WebSocketClientConnectionWrapper>> <<PARAMETER>> <<ANCHOR>>
+<<w>> <<48:1719-1720>> <<WebSocketClientConnectionWrapper>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<43:1574-1577>> <<Test_WebSocketClientConnectionWrapper>> <<PARAMETER>> <<ANCHOR>>
+<<websocket>> <<48:1723-1726>> <<module>> <<VARIABLE>> <<LINK>>
+<<WebSocketClientConnectionWrapper>> <<48:1727-1759>> <<type>> <<VARIABLE>> <<LINK>>
+<<w>> <<49:1786-1787>> <<WebSocketClientConnectionWrapper>> <<VARIABLE>> <<LINK>>
+<<_socket>> <<49:1788-1795>> <<str>> <<VARIABLE>> <<LINK>>
+<<w>> <<50:1835-1836>> <<WebSocketClientConnectionWrapper>> <<VARIABLE>> <<LINK>>
+<<write_lock>> <<50:1837-1847>> <<?>> <<VARIABLE>> <<LINK>>
+<<websocket>> <<45:1635-1638>> <<module>> <<VARIABLE>> <<LINK>>
+<<WebSocketClientConnectionWrapper>> <<45:1639-1671>> <<type>> <<VARIABLE>> <<LINK>>

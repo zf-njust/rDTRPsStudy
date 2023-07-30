@@ -1,0 +1,10 @@
+{
+  "code": "def build(self):\\n        input_shape = self.input_shape[1:]\\n        self.alphas = sharedX(self.alpha_init * np.ones(input_shape))\\n        self.betas = sharedX(self.beta_init * np.ones(input_shape))\\n        self.params = [self.alphas, self.betas]\\n        self.input_shape = input_shape\\n\\n        if self.initial_weights is not None:\\n            self.set_weights(self.initial_weights)\\n            del self.initial_weights",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 10,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

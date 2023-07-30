@@ -1,0 +1,10 @@
+{
+  "code": "def _unpack_obs(obs, space):\n    if (isinstance(space, gym.spaces.Dict)\n            or isinstance(space, gym.spaces.Tuple)):\n        prep = get_preprocessor(space)(space)\n        if len(obs.shape) != 2 or obs.shape[1] != prep.shape[0]:\n            raise ValueError(\n                \"Expected flattened obs shape of [None, {}], got {}\".format(\n                    prep.shape[0], obs.shape))\n        assert len(prep.preprocessors) == len(space.spaces), \\\n            (len(prep.preprocessors) == len(space.spaces))\n        offset = 0\n        if isinstance(space, gym.spaces.Tuple):\n            u = []\n            for p, v in zip(prep.preprocessors, space.spaces):\n                obs_slice = obs[:, offset:offset + p.size]\n                offset += p.size\n                u.append(\n                    _unpack_obs(\n                        tf.reshape(obs_slice, [-1] + list(p.shape)), v))\n        else:\n            u = OrderedDict()\n            for p, (k, v) in zip(prep.preprocessors, space.spaces.items()):\n                obs_slice = obs[:, offset:offset + p.size]\n                offset += p.size\n                u[k] = _unpack_obs(\n                    tf.reshape(obs_slice, [-1] + list(p.shape)), v)\n        return u\n    else:\n        return obs",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 21,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<OpsConfig>> <<6:88-97>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<7:115-119>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<9:139-144>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:145-148>> <<OpsConfig>> <<PARAMETER>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<mmdet>> <<4:71-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<4:77-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbones>> <<4:84-93>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_detectorrs_resnet_backbone>> <<7:127-158>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<detectorrs_cfg>> <<8:167-181>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<detectorrs_cfg>> <<24:755-769>> <<dict>> <<VARIABLE>> <<LINK>>
+<<detectorrs_cfg>> <<29:939-953>> <<dict>> <<VARIABLE>> <<LINK>>

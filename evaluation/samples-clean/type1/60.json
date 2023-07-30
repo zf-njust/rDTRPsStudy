@@ -1,0 +1,10 @@
+{
+  "code": "def variables(self) -> Set:\n        \"\"\"\n        Get all the variables present\n        in this polynomials.\n        \"\"\"\n        res = set()\n        for i in self.all_monomials():\n            res |= {j for j in i.variables}\n        res = list(res)\n        # res.sort()\n        return set(res)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 9,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

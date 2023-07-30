@@ -1,0 +1,3 @@
+<<root>> <<6:81-85>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<9:165-171>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<root>> <<13:271-275>> <<str>> <<VARIABLE>> <<LINK>>

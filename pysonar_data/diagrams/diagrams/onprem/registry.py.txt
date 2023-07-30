@@ -1,0 +1,9 @@
+<<_Registry>> <<6:105-114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:130-135>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:154-163>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Harbor>> <<11:205-211>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:229-234>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Jfrog>> <<15:261-266>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:284-289>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Registry>> <<11:212-221>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Registry>> <<15:267-276>> <<type>> <<VARIABLE>> <<LINK>>

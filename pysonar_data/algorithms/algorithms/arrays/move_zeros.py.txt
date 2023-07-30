@@ -1,0 +1,16 @@
+<<move_zeros>> <<12:320-330>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<array>> <<12:331-334>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<13:344-350>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<zeros>> <<14:361-366>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<16:382-383>> <<{int||str}>> <<SCOPE>> <<ANCHOR>>
+<<zeros>> <<18:505-510>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<move_zeros>> <<-1:637-647>> <<function>> <<VARIABLE>> <<LINK>>
+<<array>> <<16:387-392>> <<list>> <<VARIABLE>> <<LINK>>
+<<i>> <<17:410-411>> <<{int||str}>> <<VARIABLE>> <<LINK>>
+<<i>> <<17:426-427>> <<{int||str}>> <<VARIABLE>> <<LINK>>
+<<zeros>> <<18:505-510>> <<int>> <<VARIABLE>> <<LINK>>
+<<result>> <<20:552-558>> <<list>> <<VARIABLE>> <<LINK>>
+<<i>> <<20:566-567>> <<{int||str}>> <<VARIABLE>> <<LINK>>
+<<result>> <<22:580-586>> <<list>> <<VARIABLE>> <<LINK>>
+<<zeros>> <<22:600-605>> <<int>> <<VARIABLE>> <<LINK>>
+<<result>> <<23:619-625>> <<list>> <<VARIABLE>> <<LINK>>

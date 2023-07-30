@@ -1,0 +1,7 @@
+<<models>> <<4:38-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:76-82>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<6:112-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<8:152-163>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<11:176-182>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<16:316-323>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<12:213-219>> <<?>> <<VARIABLE>> <<LINK>>

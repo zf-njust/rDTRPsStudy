@@ -1,0 +1,10 @@
+{
+  "code": "def run(self, terms, variables=None, **kwargs):\n\n        basedir = self.get_basedir(variables)\n        self.basedir = basedir\n        self.cp      = configparser.ConfigParser()\n\n        ret = []\n        for term in terms:\n            params = _parse_params(term)\n            key = params[0]\n\n            paramvals = {\n                'file'     : 'ansible.ini',\n                're'       : False,\n                'default'  : None,\n                'section'  : \"global\",\n                'type'     : \"ini\",\n            }\n\n            # parameters specified?\n            try:\n                for param in params[1:]:\n                    name, value = param.split('=')\n                    assert(name in paramvals)\n                    paramvals[name] = value\n            except (ValueError, AssertionError) as e:\n                raise AnsibleError(e)\n\n            path = self.find_file_in_search_path(variables, 'files', paramvals['file'])\n            if paramvals['type'] == \"properties\":\n                var = self.read_properties(path, key, paramvals['default'], paramvals['re'])\n            else:\n                var = self.read_ini(path, key, paramvals['section'], paramvals['default'], paramvals['re'])\n            if var is not None:\n                if type(var) is list:\n                    for v in var:\n                        ret.append(v)\n                else:\n                    ret.append(var)\n        return ret",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 34,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

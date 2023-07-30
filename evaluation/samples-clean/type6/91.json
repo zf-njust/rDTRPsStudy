@@ -1,0 +1,10 @@
+{
+  "code": "def testUnaryWeakTypes(self, op_name, rec_dtypes):\n    \"\"\"Test that all lax unary ops propagate weak_type information appropriately.\"\"\"\n    if op_name == \"bitwise_not\":\n      raise unittest.SkipTest(\"https://github.com/google/jax/issues/12066\")\n    # Find a valid dtype for the function.\n    for dtype in [np.float_, np.int_, np.complex_, np.bool_]:\n      dtype = dtypes.canonicalize_dtype(dtype)\n      if dtype in rec_dtypes:\n        py_val = dtype.type(1).item()\n        lax_val = lax.full((), py_val, dtype)\n        break\n    else:\n      raise ValueError(f\"no available dtypes in {rec_dtypes}\")\n\n    op = getattr(lax, op_name)\n    py_op = op(py_val)\n    lax_op = op(lax_val)\n\n    self.assertAllClose(py_op, lax_op, check_dtypes=True)\n    self.assertFalse(lax_op.aval.weak_type)\n    if type(py_val) == bool:\n      # Booleans should have weak types stripped.\n      self.assertFalse(py_op.aval.weak_type)\n    else:\n      self.assertTrue(py_op.aval.weak_type)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 15,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

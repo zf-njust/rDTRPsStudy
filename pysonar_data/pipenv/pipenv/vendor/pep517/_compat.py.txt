@@ -1,0 +1,7 @@
+<<__all__>> <<1:0-7>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<tomllib>> <<6:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<8:102-108>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<8:109-116>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<8:117-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<8:121-128>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tomli>> <<8:145-152>> <<module>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<mitmproxy>> <<15:542-551>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<16:569-578>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<16:579-584>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tcp_message>> <<19:610-621>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<flow>> <<19:622-625>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<20:647-654>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tcp>> <<15:559-562>> <<module>> <<VARIABLE>> <<LINK>>
+<<flow>> <<20:657-661>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<21:698-705>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<21:680-687>> <<?>> <<VARIABLE>> <<LINK>>

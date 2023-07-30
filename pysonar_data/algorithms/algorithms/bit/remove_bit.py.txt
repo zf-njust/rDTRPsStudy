@@ -1,0 +1,14 @@
+<<remove_bit>> <<11:230-240>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<num>> <<11:241-244>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<11:246-249>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mask>> <<12:255-259>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<mask>> <<13:282-286>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<right>> <<14:304-309>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<num>> <<12:262-265>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<12:270-271>> <<?>> <<VARIABLE>> <<LINK>>
+<<mask>> <<13:289-293>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<13:297-298>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<14:319-320>> <<?>> <<VARIABLE>> <<LINK>>
+<<num>> <<14:329-332>> <<?>> <<VARIABLE>> <<LINK>>
+<<mask>> <<15:345-349>> <<int>> <<VARIABLE>> <<LINK>>
+<<right>> <<15:352-357>> <<int>> <<VARIABLE>> <<LINK>>

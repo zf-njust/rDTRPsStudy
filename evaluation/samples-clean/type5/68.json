@@ -1,0 +1,10 @@
+{
+  "code": "def _clear_state(self):\\n        \"\"\"Clear the state of the gradient boosting model. \"\"\"\\n        if hasattr(self, 'estimators_'):\\n            self.estimators_ = np.empty((0, 0), dtype=np.object)\\n        if hasattr(self, 'train_score_'):\\n            del self.train_score_\\n        if hasattr(self, 'oob_improvement_'):\\n            del self.oob_improvement_\\n        if hasattr(self, 'init_'):\\n            del self.init_",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 6,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

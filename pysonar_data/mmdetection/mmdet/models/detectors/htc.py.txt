@@ -1,0 +1,13 @@
+<<mmdet>> <<2:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<2:60-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cascade_rcnn>> <<3:90-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HybridTaskCascade>> <<7:160-177>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<10:274-282>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<with_semantic>> <<14:370-383>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:283-286>> <<HybridTaskCascade>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:286-287>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:384-387>> <<HybridTaskCascade>> <<PARAMETER>> <<ANCHOR>>
+<<MODELS>> <<2:76-82>> <<?>> <<VARIABLE>> <<LINK>>
+<<CascadeRCNN>> <<3:110-121>> <<type>> <<VARIABLE>> <<LINK>>
+<<CascadeRCNN>> <<7:178-189>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:477-481>> <<HybridTaskCascade>> <<VARIABLE>> <<LINK>>

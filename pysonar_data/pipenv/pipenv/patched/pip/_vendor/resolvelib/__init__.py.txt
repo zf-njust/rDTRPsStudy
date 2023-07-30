@@ -1,0 +1,7 @@
+<<__all__>> <<1:0-7>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<14:253-264>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<providers>> <<17:283-292>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<reporters>> <<18:341-350>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AbstractProvider>> <<17:300-316>> <<type>> <<VARIABLE>> <<LINK>>
+<<AbstractResolver>> <<17:318-334>> <<type>> <<VARIABLE>> <<LINK>>
+<<BaseReporter>> <<18:358-370>> <<type>> <<VARIABLE>> <<LINK>>

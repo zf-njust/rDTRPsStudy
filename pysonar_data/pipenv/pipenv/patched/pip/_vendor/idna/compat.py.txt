@@ -1,0 +1,9 @@
+<<codec>> <<2:26-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ToASCII>> <<5:76-83>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ToUnicode>> <<8:136-145>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<nameprep>> <<11:216-224>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<s>> <<11:225-228>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<label>> <<5:84-87>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<label>> <<8:146-149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<label>> <<6:124-129>> <<?>> <<VARIABLE>> <<LINK>>
+<<label>> <<9:204-209>> <<?>> <<VARIABLE>> <<LINK>>

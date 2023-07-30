@@ -1,0 +1,17 @@
+<<io>> <<4:111-113>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pysnooper>> <<11:194-203>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pysnooper>> <<14:251-260>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pysnooper>> <<15:267-276>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<variables>> <<15:277-286>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<multiple_files>> <<22:671-685>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<foo>> <<22:693-696>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_multiple_files>> <<25:706-725>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<output_capturer>> <<27:835-850>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<28:861-867>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<output>> <<30:919-925>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<needs_parentheses>> <<15:294-311>> <<function>> <<VARIABLE>> <<LINK>>
+<<foo>> <<28:870-873>> <<module>> <<VARIABLE>> <<LINK>>
+<<foo_function>> <<28:874-886>> <<function>> <<VARIABLE>> <<LINK>>
+<<result>> <<29:901-907>> <<int>> <<VARIABLE>> <<LINK>>
+<<output_capturer>> <<30:928-943>> <<?>> <<VARIABLE>> <<LINK>>
+<<output>> <<32:994-1000>> <<?>> <<VARIABLE>> <<LINK>>

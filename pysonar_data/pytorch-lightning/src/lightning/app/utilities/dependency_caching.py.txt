@@ -1,0 +1,16 @@
+<<pathlib>> <<16:617-624>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_hash>> <<19:646-654>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<19:655-658>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<chunk_num_blocks>> <<19:667-670>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<h>> <<21:744-745>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<24:895-896>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<chunk>> <<25:911-916>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<16:632-636>> <<type>> <<VARIABLE>> <<LINK>>
+<<path>> <<22:792-796>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<24:876-880>> <<?>> <<VARIABLE>> <<LINK>>
+<<h>> <<26:993-994>> <<?>> <<VARIABLE>> <<LINK>>
+<<chunk>> <<26:1002-1007>> <<?>> <<VARIABLE>> <<LINK>>
+<<h>> <<27:1021-1022>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<25:933-934>> <<?>> <<VARIABLE>> <<LINK>>
+<<chunk_num_blocks>> <<25:940-956>> <<int>> <<VARIABLE>> <<LINK>>
+<<h>> <<25:959-960>> <<?>> <<VARIABLE>> <<LINK>>

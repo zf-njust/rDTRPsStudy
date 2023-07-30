@@ -1,0 +1,10 @@
+{
+  "code": "def has_binding(api):\n    \"\"\"Safely check for PyQt4/5 or PySide, without importing\n       submodules\n\n       Parameters\n       ----------\n       api : str [ 'pyqtv1' | 'pyqt' | 'pyqt5' | 'pyside' | 'pyqtdefault']\n            Which module to check for\n\n       Returns\n       -------\n       True if the relevant module appears to be importable\n    \"\"\"\n    # we can't import an incomplete pyside and pyqt4\n    # this will cause a crash in sip (#1431)\n    # check for complete presence before importing\n    module_name = {QT_API_PYSIDE: 'PySide',\n                   QT_API_PYQT: 'PyQt4',\n                   QT_API_PYQTv1: 'PyQt4',\n                   QT_API_PYQT5: 'PyQt5',\n                   QT_API_PYQT_DEFAULT: 'PyQt4'}\n    module_name = module_name[api]\n\n    import imp\n    try:\n        #importing top level PyQt4/PySide module is ok...\n        mod = __import__(module_name)\n        #...importing submodules is not\n        imp.find_module('QtCore', mod.__path__)\n        imp.find_module('QtGui', mod.__path__)\n        imp.find_module('QtSvg', mod.__path__)\n        if api == QT_API_PYQT5:\n            # QT5 requires QtWidgets too\n            imp.find_module('QtWidgets', mod.__path__)\n\n        #we can also safely check PySide version\n        if api == QT_API_PYSIDE:\n            return check_version(mod.__version__, '1.0.3')\n        else:\n            return True\n    except ImportError:\n        return False",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 22,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

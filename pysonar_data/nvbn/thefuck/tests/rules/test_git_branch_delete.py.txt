@@ -1,0 +1,8 @@
+<<stderr>> <<7:141-147>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<14:298-308>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<20:500-520>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<stderr>> <<20:521-524>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<14:309-312>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<21:597-603>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<15:375-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<17:482-488>> <<?>> <<VARIABLE>> <<LINK>>

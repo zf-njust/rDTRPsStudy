@@ -1,0 +1,4 @@
+{
+    "code": "def delete_imports():\n    with app.app_context():\n        # Imported data clean up\n        session = db.session\n        for slc in session.query(Slice):\n            if \"remote_id\" in slc.params_dict:\n                session.delete(slc)\n        for dash in session.query(Dashboard):\n            if \"remote_id\" in dash.params_dict:\n                session.delete(dash)\n        for table in session.query(SqlaTable):\n            if \"remote_id\" in table.params_dict:\n                session.delete(table)\n        session.commit()",
+    "smell": []
+}

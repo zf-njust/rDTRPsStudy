@@ -1,0 +1,3 @@
+<<mitmproxy>> <<3:22-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:32-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_pkg_data>> <<6:59-72>> <<function>> <<FUNCTION>> <<ANCHOR>>

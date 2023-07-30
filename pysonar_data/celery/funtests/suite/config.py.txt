@@ -1,0 +1,10 @@
+<<BROKER_URL>> <<4:28-38>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_RESULT_BACKEND>> <<5:84-105>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_SEND_TASK_ERROR_EMAILS>> <<6:119-148>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_DEFAULT_QUEUE>> <<8:160-180>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_DEFAULT_EXCHANGE>> <<9:197-220>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_DEFAULT_ROUTING_KEY>> <<10:237-263>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_QUEUES>> <<11:280-293>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<CELERYD_LOG_COLOR>> <<13:345-362>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<CELERY_IMPORTS>> <<15:374-388>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<teardown_testdb>> <<19:453-468>> <<function>> <<FUNCTION>> <<ANCHOR>>

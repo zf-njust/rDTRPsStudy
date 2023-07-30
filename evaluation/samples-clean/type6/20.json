@@ -1,0 +1,10 @@
+{
+  "code": "def convert(self, value):\n        \"\"\"\n        Convert values to an appropriate type. dicts, lists and tuples are\n        replaced by their converting alternatives. Strings are checked to\n        see if they have a conversion format and are converted if they do.\n        \"\"\"\n        if not isinstance(value, ConvertingDict) and isinstance(value, dict):\n            value = ConvertingDict(value)\n            value.configurator = self\n        elif not isinstance(value, ConvertingList) and isinstance(value, list):\n            value = ConvertingList(value)\n            value.configurator = self\n        elif not isinstance(value, ConvertingTuple) and\\\n                 isinstance(value, tuple):\n            value = ConvertingTuple(value)\n            value.configurator = self\n        elif isinstance(value, basestring): # str for py3k\n            m = self.CONVERT_PATTERN.match(value)\n            if m:\n                d = m.groupdict()\n                prefix = d['prefix']\n                converter = self.value_converters.get(prefix, None)\n                if converter:\n                    suffix = d['suffix']\n                    converter = getattr(self, converter)\n                    value = converter(suffix)\n        return value",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 25,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

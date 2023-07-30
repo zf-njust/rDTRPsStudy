@@ -1,0 +1,13 @@
+<<Enum>> <<19:645-649>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<options>> <<19:651-658>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cstruct>> <<25:867-874>> <<type>> <<CLASS>> <<ANCHOR>>
+<<o>> <<26:925-926>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_fields_>> <<26:896-904>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__iter__>> <<28:954-962>> <<function>> <<METHOD>> <<ANCHOR>>
+<<s>> <<28:963-966>> <<cstruct>> <<PARAMETER>> <<ANCHOR>>
+<<options>> <<26:930-937>> <<?>> <<VARIABLE>> <<LINK>>
+<<o>> <<26:925-926>> <<?>> <<VARIABLE>> <<LINK>>
+<<o>> <<26:909-910>> <<?>> <<VARIABLE>> <<LINK>>
+<<cstruct>> <<30:1025-1032>> <<type>> <<VARIABLE>> <<LINK>>
+<<options>> <<30:1044-1051>> <<?>> <<VARIABLE>> <<LINK>>
+<<options>> <<29:1002-1009>> <<?>> <<VARIABLE>> <<LINK>>

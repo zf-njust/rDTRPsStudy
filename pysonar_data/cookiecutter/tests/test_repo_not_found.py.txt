@@ -1,0 +1,5 @@
+<<cookiecutter>> <<5:49-61>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_should_raise_error_if_repo_does_not_exist>> <<8:95-141>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<exceptions>> <<5:75-85>> <<module>> <<VARIABLE>> <<LINK>>
+<<exceptions>> <<9:169-179>> <<module>> <<VARIABLE>> <<LINK>>
+<<RepositoryNotFound>> <<9:180-198>> <<type>> <<VARIABLE>> <<LINK>>

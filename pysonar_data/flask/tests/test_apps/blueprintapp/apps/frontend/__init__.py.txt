@@ -1,0 +1,4 @@
+<<flask>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<frontend>> <<3:48-56>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<index>> <<7:151-156>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<missing_template>> <<12:249-265>> <<function>> <<FUNCTION>> <<ANCHOR>>

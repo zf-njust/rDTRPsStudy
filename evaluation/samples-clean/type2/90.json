@@ -1,0 +1,10 @@
+{
+  "code": "def save_inst(self, obj):\n        \"\"\"Inner logic to save instance. Based off pickle.save_inst\"\"\"\n        cls = obj.__class__\n\n        # Try the dispatch table (pickle module doesn't do it)\n        f = self.dispatch.get(cls)\n        if f:\n            f(self, obj)  # Call unbound method with explicit self\n            return\n\n        memo = self.memo\n        write = self.write\n        save = self.save\n\n        if hasattr(obj, '__getinitargs__'):\n            args = obj.__getinitargs__()\n            len(args)  # XXX Assert it's a sequence\n            pickle._keep_alive(args, memo)\n        else:\n            args = ()\n\n        write(pickle.MARK)\n\n        if self.bin:\n            save(cls)\n            for arg in args:\n                save(arg)\n            write(pickle.OBJ)\n        else:\n            for arg in args:\n                save(arg)\n            write(pickle.INST + cls.__module__ + '\\n' + cls.__name__ + '\\n')\n\n        self.memoize(obj)\n\n        try:\n            getstate = obj.__getstate__\n        except AttributeError:\n            stuff = obj.__dict__\n        else:\n            stuff = getstate()\n            pickle._keep_alive(stuff, memo)\n        save(stuff)\n        write(pickle.BUILD)\ndef get(self, __key: _KT) -> _VT_co | None: ...",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 8,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

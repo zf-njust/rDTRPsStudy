@@ -1,0 +1,12 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:34-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<2:40-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<3:68-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<signals>> <<3:74-81>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_handler_operation_order>> <<6:104-132>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<6:133-136>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<operations>> <<7:151-161>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<empty>> <<2:56-61>> <<function>> <<VARIABLE>> <<LINK>>
+<<Event>> <<3:89-94>> <<type>> <<VARIABLE>> <<LINK>>
+<<app>> <<35:812-815>> <<?>> <<VARIABLE>> <<LINK>>
+<<operations>> <<36:849-859>> <<list>> <<VARIABLE>> <<LINK>>

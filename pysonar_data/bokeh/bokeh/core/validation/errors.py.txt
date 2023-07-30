@@ -1,0 +1,8 @@
+<<log>> <<94:3592-3595>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<codes>> <<110:4060-4065>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<137:7232-7239>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<code>> <<155:7949-7953>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<codes>> <<155:7957-7962>> <<dict>> <<VARIABLE>> <<LINK>>
+<<codes>> <<156:7987-7992>> <<dict>> <<VARIABLE>> <<LINK>>
+<<code>> <<156:7993-7997>> <<?>> <<VARIABLE>> <<LINK>>
+<<code>> <<156:8003-8007>> <<?>> <<VARIABLE>> <<LINK>>

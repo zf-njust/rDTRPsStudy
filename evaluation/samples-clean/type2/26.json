@@ -1,0 +1,10 @@
+{
+  "code": "def strip_email_quotes(text):\n    \"\"\"Strip leading email quotation characters ('>').\n\n    Removes any combination of leading '>' interspersed with whitespace that\n    appears *identically* in all lines of the input text.\n\n    Parameters\n    ----------\n    text : str\n\n    Examples\n    --------\n\n    Simple uses::\n\n        In [2]: strip_email_quotes('> > text')\n        Out[2]: 'text'\n\n        In [3]: strip_email_quotes('> > text\\\\n> > more')\n        Out[3]: 'text\\\\nmore'\n\n    Note how only the common prefix that appears in all lines is stripped::\n\n        In [4]: strip_email_quotes('> > text\\\\n> > more\\\\n> more...')\n        Out[4]: '> text\\\\n> more\\\\nmore...'\n\n    So if any line has no quote marks ('>') , then none are stripped from any\n    of them ::\n    \n        In [5]: strip_email_quotes('> > text\\\\n> > more\\\\nlast different')\n        Out[5]: '> > text\\\\n> > more\\\\nlast different'\n    \"\"\"\n    lines = text.splitlines()\n    matches = set()\n    for line in lines:\n        prefix = re.match(r'^(\\s*>[ >]*)', line)\n        if prefix:\n            matches.add(prefix.group(1))\n        else:\n            break\n    else:\n        prefix = long_substr(list(matches))\n        if prefix:\n            strip = len(prefix)\n            text = '\\n'.join([ ln[strip:] for ln in lines])\n    return text",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 44,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

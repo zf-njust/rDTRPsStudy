@@ -1,0 +1,4 @@
+{
+    "code": "def _parse_policy_info(name, prob, level, replace_value, augmentation_hparams):\n  \"\"\"Return the function that corresponds to `name` and update `level` param.\"\"\"\n  func = NAME_TO_FUNC[name]\n  args = level_to_arg(augmentation_hparams)[name](level)\n\n  # Add in replace arg if it is required for the function that is being called.\n  # pytype:disable=wrong-arg-types\n  if 'replace' in inspect.signature(func).parameters.keys():  # pylint: disable=deprecated-method\n    args = tuple(list(args) + [replace_value])\n  # pytype:enable=wrong-arg-types\n\n  return (func, prob, args)",
+    "smell": []
+}

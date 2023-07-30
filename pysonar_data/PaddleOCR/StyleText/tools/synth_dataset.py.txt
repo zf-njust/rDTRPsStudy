@@ -1,0 +1,7 @@
+<<__dir__>> <<18:651-658>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<synth_dataset>> <<25:856-869>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<dataset_synthesiser>> <<26:878-897>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<__dir__>> <<19:721-728>> <<str>> <<VARIABLE>> <<LINK>>
+<<__dir__>> <<20:776-783>> <<str>> <<VARIABLE>> <<LINK>>
+<<synth_dataset>> <<31:999-1012>> <<function>> <<VARIABLE>> <<LINK>>
+<<dataset_synthesiser>> <<27:926-945>> <<?>> <<VARIABLE>> <<LINK>>

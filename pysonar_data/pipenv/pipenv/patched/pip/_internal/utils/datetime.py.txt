@@ -1,0 +1,11 @@
+<<today_is_later_than>> <<7:76-95>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<year>> <<7:96-99>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<month>> <<7:107-110>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<day>> <<7:119-122>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<today>> <<8:142-147>> <<type>> <<VARIABLE>> <<ANCHOR>>
+<<given>> <<9:176-181>> <<date>> <<VARIABLE>> <<ANCHOR>>
+<<year>> <<9:198-202>> <<?>> <<VARIABLE>> <<LINK>>
+<<month>> <<9:204-209>> <<?>> <<VARIABLE>> <<LINK>>
+<<day>> <<9:211-214>> <<?>> <<VARIABLE>> <<LINK>>
+<<today>> <<11:228-233>> <<type>> <<VARIABLE>> <<LINK>>
+<<given>> <<11:236-241>> <<date>> <<VARIABLE>> <<LINK>>

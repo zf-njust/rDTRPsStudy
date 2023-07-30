@@ -1,0 +1,16 @@
+<<_Clusterconfig>> <<6:102-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:129-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<HPA>> <<11:211-214>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:237-242>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Limits>> <<15:266-272>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:295-300>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Quota>> <<19:327-332>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:355-360>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<LimitRange>> <<25:393-403>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<HorizontalPodAutoscaler>> <<26:414-437>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Clusterconfig>> <<11:215-229>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Clusterconfig>> <<15:273-287>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Clusterconfig>> <<19:333-347>> <<type>> <<VARIABLE>> <<LINK>>
+<<Limits>> <<25:406-412>> <<type>> <<VARIABLE>> <<LINK>>
+<<HPA>> <<26:440-443>> <<type>> <<VARIABLE>> <<LINK>>

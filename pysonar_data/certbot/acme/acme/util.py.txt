@@ -1,0 +1,11 @@
+<<map_keys>> <<8:130-138>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<dikt>> <<8:139-142>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<func>> <<8:164-167>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<10:275-278>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<value>> <<10:280-285>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dikt>> <<10:289-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<key>> <<10:275-278>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<10:280-285>> <<?>> <<VARIABLE>> <<LINK>>
+<<func>> <<10:254-258>> <<?>> <<VARIABLE>> <<LINK>>
+<<key>> <<10:259-262>> <<?>> <<VARIABLE>> <<LINK>>
+<<value>> <<10:265-270>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,2 @@
+<<__all__>> <<1:0-7>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<6:61-72>> <<str>> <<SCOPE>> <<ANCHOR>>

@@ -1,0 +1,11 @@
+<<__all__>> <<8:153-160>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<CeleryTaskLogView>> <<11:196-213>> <<type>> <<CLASS>> <<ANCHOR>>
+<<template_name>> <<12:252-265>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<13:300-318>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get_context_data>> <<15:357-373>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:374-377>> <<CeleryTaskLogView>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<15:377-378>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<context>> <<16:400-407>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<context>> <<17:454-461>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:481-485>> <<CeleryTaskLogView>> <<VARIABLE>> <<LINK>>
+<<context>> <<18:521-528>> <<?>> <<VARIABLE>> <<LINK>>

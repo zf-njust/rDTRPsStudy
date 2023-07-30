@@ -1,0 +1,13 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<6:118-123>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_pipeline>> <<8:163-176>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<x_decoder_ade20k_thing_classes>> <<18:566-596>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<x_decoder_ade20k_stuff_classes>> <<35:1728-1758>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<44:2284-2298>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<51:2534-2549>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_base_>> <<9:230-236>> <<list>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<11:369-375>> <<list>> <<VARIABLE>> <<LINK>>
+<<x_decoder_ade20k_thing_classes>> <<47:2377-2407>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<x_decoder_ade20k_stuff_classes>> <<48:2436-2466>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<test_pipeline>> <<50:2517-2530>> <<list>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<51:2552-2566>> <<dict>> <<VARIABLE>> <<LINK>>

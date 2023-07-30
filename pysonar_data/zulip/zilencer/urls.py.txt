@@ -1,0 +1,14 @@
+<<zerver>> <<4:71-77>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<4:78-81>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rest>> <<4:82-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zilencer>> <<6:116-124>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<7:138-144>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<i18n_urlpatterns>> <<9:159-175>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<v1_api_and_json_patterns>> <<12:241-265>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<21:618-629>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<rest_dispatch>> <<4:94-107>> <<function>> <<VARIABLE>> <<LINK>>
+<<rest_dispatch>> <<13:305-318>> <<function>> <<VARIABLE>> <<LINK>>
+<<rest_dispatch>> <<15:422-435>> <<function>> <<VARIABLE>> <<LINK>>
+<<rest_dispatch>> <<17:537-550>> <<function>> <<VARIABLE>> <<LINK>>
+<<v1_api_and_json_patterns>> <<22:663-687>> <<list>> <<VARIABLE>> <<LINK>>
+<<v1_api_and_json_patterns>> <<23:718-742>> <<list>> <<VARIABLE>> <<LINK>>

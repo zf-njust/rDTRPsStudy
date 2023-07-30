@@ -1,0 +1,17 @@
+<<lib>> <<10:165-168>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<10:169-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<enums>> <<10:174-179>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<11:201-204>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<11:205-209>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<settings>> <<11:210-218>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__priority__>> <<13:244-256>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<dependencies>> <<15:280-292>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tamper>> <<18:310-316>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<payload>> <<18:317-320>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<load>> <<18:320-324>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<PRIORITY>> <<10:187-195>> <<type>> <<VARIABLE>> <<LINK>>
+<<PRIORITY>> <<13:259-267>> <<type>> <<VARIABLE>> <<LINK>>
+<<LOWEST>> <<13:268-274>> <<int>> <<VARIABLE>> <<LINK>>
+<<payload>> <<26:531-538>> <<?>> <<VARIABLE>> <<LINK>>
+<<payload>> <<26:494-501>> <<?>> <<VARIABLE>> <<LINK>>
+<<payload>> <<26:544-551>> <<?>> <<VARIABLE>> <<LINK>>

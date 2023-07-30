@@ -1,0 +1,6 @@
+<<_Multiregion>> <<6:108-120>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:139-144>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:166-175>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Tricircle>> <<11:223-232>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:253-258>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Multiregion>> <<11:233-245>> <<type>> <<VARIABLE>> <<LINK>>

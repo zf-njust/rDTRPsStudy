@@ -1,0 +1,12 @@
+<<__future__>> <<5:106-116>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<C>> <<9:161-162>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__del__>> <<10:180-187>> <<function>> <<METHOD>> <<ANCHOR>>
+<<c>> <<15:283-284>> <<C>> <<SCOPE>> <<ANCHOR>>
+<<c_refs>> <<17:297-303>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ref_ids>> <<18:330-337>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<10:188-191>> <<C>> <<PARAMETER>> <<ANCHOR>>
+<<print_function>> <<5:124-138>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<C>> <<15:287-288>> <<type>> <<VARIABLE>> <<LINK>>
+<<c>> <<17:323-324>> <<C>> <<VARIABLE>> <<LINK>>
+<<c_refs>> <<18:352-358>> <<list>> <<VARIABLE>> <<LINK>>
+<<c_refs>> <<20:402-408>> <<list>> <<VARIABLE>> <<LINK>>

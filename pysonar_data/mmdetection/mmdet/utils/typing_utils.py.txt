@@ -1,0 +1,15 @@
+<<ConfigType>> <<10:365-375>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<OptConfigType>> <<11:403-416>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<MultiConfig>> <<13:481-492>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<OptMultiConfig>> <<14:532-546>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<InstanceList>> <<16:574-586>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<OptInstanceList>> <<17:609-624>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<PixelList>> <<19:653-662>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<OptPixelList>> <<20:682-694>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<RangeType>> <<22:720-729>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ConfigType>> <<11:428-438>> <<?>> <<VARIABLE>> <<LINK>>
+<<ConfigType>> <<13:501-511>> <<?>> <<VARIABLE>> <<LINK>>
+<<ConfigType>> <<13:518-528>> <<?>> <<VARIABLE>> <<LINK>>
+<<MultiConfig>> <<14:558-569>> <<?>> <<VARIABLE>> <<LINK>>
+<<InstanceList>> <<17:636-648>> <<?>> <<VARIABLE>> <<LINK>>
+<<PixelList>> <<20:706-715>> <<?>> <<VARIABLE>> <<LINK>>

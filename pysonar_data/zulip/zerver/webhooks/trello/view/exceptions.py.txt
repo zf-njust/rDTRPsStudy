@@ -1,0 +1,7 @@
+<<TrelloWebhookException>> <<1:6-28>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UnsupportedAction>> <<4:57-74>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UnknownUpdateCardAction>> <<7:116-139>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UnknownUpdateBoardAction>> <<10:181-205>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TrelloWebhookException>> <<4:75-97>> <<type>> <<VARIABLE>> <<LINK>>
+<<TrelloWebhookException>> <<7:140-162>> <<type>> <<VARIABLE>> <<LINK>>
+<<TrelloWebhookException>> <<10:206-228>> <<type>> <<VARIABLE>> <<LINK>>

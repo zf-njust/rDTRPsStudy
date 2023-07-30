@@ -1,0 +1,17 @@
+<<helpers>> <<18:626-633>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<luigi>> <<20:660-665>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<create_class>> <<23:675-687>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cls_name>> <<23:688-691>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<NewTask>> <<24:710-717>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__name__>> <<27:767-775>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SetTaskNameTest>> <<35:851-866>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_set_task_name>> <<43:1167-1185>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<43:1186-1189>> <<SetTaskNameTest>> <<PARAMETER>> <<ANCHOR>>
+<<create_class>> <<32:814-826>> <<function>> <<VARIABLE>> <<LINK>>
+<<luigi>> <<24:718-723>> <<module>> <<VARIABLE>> <<LINK>>
+<<WrapperTask>> <<24:724-735>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls_name>> <<27:778-786>> <<str>> <<VARIABLE>> <<LINK>>
+<<NewTask>> <<27:759-766>> <<type>> <<VARIABLE>> <<LINK>>
+<<NewTask>> <<29:801-808>> <<type>> <<VARIABLE>> <<LINK>>
+<<luigi>> <<44:1202-1207>> <<module>> <<VARIABLE>> <<LINK>>
+<<run>> <<44:1208-1211>> <<function>> <<VARIABLE>> <<LINK>>

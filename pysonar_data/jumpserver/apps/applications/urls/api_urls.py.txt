@@ -1,0 +1,7 @@
+<<app_name>> <<9:126-134>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<11:155-161>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<14:248-259>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<20:419-430>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<12:178-184>> <<?>> <<VARIABLE>> <<LINK>>
+<<urlpatterns>> <<20:419-430>> <<list>> <<VARIABLE>> <<LINK>>
+<<router>> <<20:434-440>> <<?>> <<VARIABLE>> <<LINK>>

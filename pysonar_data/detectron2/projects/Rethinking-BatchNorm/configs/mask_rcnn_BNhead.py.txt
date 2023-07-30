@@ -1,0 +1,14 @@
+<<detectron2>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model_zoo>> <<1:16-25>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<3:47-52>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dataloader>> <<12:353-363>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lr_multiplier>> <<13:412-425>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<optimizer>> <<14:484-493>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<train>> <<15:531-536>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<5:109-114>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:188-193>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:151-156>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<9:249-254>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<10:308-313>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<17:578-583>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<18:651-656>> <<?>> <<VARIABLE>> <<LINK>>

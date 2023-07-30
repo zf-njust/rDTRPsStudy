@@ -1,0 +1,16 @@
+<<handler404>> <<7:111-121>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<handler500>> <<15:377-387>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<7:122-125>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<uest>> <<7:125-129>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<9:216-224>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<11:296-304>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<15:388-391>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<uest>> <<15:391-395>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<17:482-490>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<19:574-582>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<8:155-162>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<11:314-321>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<12:359-367>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<16:421-428>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<19:592-599>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<20:637-645>> <<?>> <<VARIABLE>> <<LINK>>

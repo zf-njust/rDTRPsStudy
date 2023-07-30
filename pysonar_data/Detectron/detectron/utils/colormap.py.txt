@@ -1,0 +1,17 @@
+<<__future__>> <<18:752-762>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:792-802>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<20:825-835>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<21:864-874>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<colormap>> <<26:930-938>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<rgb>> <<26:939-942>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<color_list>> <<27:956-966>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<color_list>> <<110:3717-3727>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<color_list>> <<112:3790-3800>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<18:770-785>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:810-818>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<20:843-857>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<unicode_literals>> <<21:882-898>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<color_list>> <<110:3730-3740>> <<?>> <<VARIABLE>> <<LINK>>
+<<rgb>> <<111:3776-3779>> <<?>> <<VARIABLE>> <<LINK>>
+<<color_list>> <<112:3803-3813>> <<int>> <<VARIABLE>> <<LINK>>
+<<color_list>> <<113:3835-3845>> <<{?||int}>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_get_hash>> <<6:101-114>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tmpdir>> <<6:115-118>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<req_path>> <<7:129-137>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<tmpdir>> <<7:140-146>> <<?>> <<VARIABLE>> <<LINK>>
+<<Path>> <<8:173-177>> <<type>> <<VARIABLE>> <<LINK>>
+<<req_path>> <<8:178-186>> <<str>> <<VARIABLE>> <<LINK>>
+<<touch>> <<8:188-193>> <<function>> <<VARIABLE>> <<LINK>>
+<<req_path>> <<11:250-258>> <<str>> <<VARIABLE>> <<LINK>>
+<<req_path>> <<14:358-366>> <<str>> <<VARIABLE>> <<LINK>>
+<<req_path>> <<15:435-443>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<log>> <<22:925-928>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<39:1437-1444>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<59:2226-2227>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<geojson>> <<60:2234-2241>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<60:2244-2245>> <<file>> <<VARIABLE>> <<LINK>>

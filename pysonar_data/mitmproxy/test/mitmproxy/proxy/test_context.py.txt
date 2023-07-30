@@ -1,0 +1,10 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<proxy>> <<1:15-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<2:42-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<3:78-87>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_context>> <<6:115-127>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tctx>> <<7:162-166>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<context>> <<1:28-35>> <<module>> <<VARIABLE>> <<LINK>>
+<<context>> <<8:181-188>> <<module>> <<VARIABLE>> <<LINK>>
+<<Context>> <<8:189-196>> <<type>> <<VARIABLE>> <<LINK>>
+<<tctx>> <<8:219-223>> <<?>> <<VARIABLE>> <<LINK>>

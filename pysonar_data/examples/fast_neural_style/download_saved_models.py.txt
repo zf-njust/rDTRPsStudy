@@ -1,0 +1,8 @@
+<<unzip>> <<21:642-647>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<source_filename>> <<21:648-651>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<dest_dir>> <<21:665-668>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<zf>> <<22:722-724>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unzip>> <<28:927-932>> <<function>> <<VARIABLE>> <<LINK>>
+<<source_filename>> <<22:702-717>> <<str>> <<VARIABLE>> <<LINK>>
+<<zf>> <<23:735-737>> <<?>> <<VARIABLE>> <<LINK>>
+<<dest_dir>> <<23:754-762>> <<str>> <<VARIABLE>> <<LINK>>

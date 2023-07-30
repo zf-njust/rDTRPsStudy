@@ -1,0 +1,10 @@
+<<model>> <<5:137-142>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trainer>> <<6:164-171>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trainer>> <<7:247-254>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:259-264>> <<?>> <<VARIABLE>> <<LINK>>
+<<trainer>> <<8:271-278>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<8:288-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<trainer>> <<9:300-307>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<9:313-318>> <<?>> <<VARIABLE>> <<LINK>>
+<<trainer>> <<10:325-332>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<10:341-346>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<i18n_urlpatterns>> <<4:94-110>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<10:317-328>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<i18n_urlpatterns>> <<10:331-347>> <<list>> <<VARIABLE>> <<LINK>>

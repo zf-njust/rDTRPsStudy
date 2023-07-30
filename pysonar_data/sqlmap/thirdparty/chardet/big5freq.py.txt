@@ -1,0 +1,3 @@
+<<BIG5_TYPICAL_DISTRIBUTION_RATIO>> <<43:1566-1597>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<BIG5_TABLE_SIZE>> <<46:1631-1646>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<Big5CharToFreqOrder>> <<48:1655-1674>> <<tuple>> <<SCOPE>> <<ANCHOR>>

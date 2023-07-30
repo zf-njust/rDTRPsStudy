@@ -1,0 +1,17 @@
+<<QUERY>> <<1:0-5>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<IQUERY>> <<2:11-17>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<STATUS>> <<3:23-29>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<NOTIFY>> <<4:35-41>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<UPDATE>> <<5:47-53>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<DSO>> <<6:59-62>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<_STRINGS>> <<8:70-78>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<to_str>> <<18:225-231>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<op_code>> <<18:232-235>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<QUERY>> <<9:88-93>> <<int>> <<VARIABLE>> <<LINK>>
+<<IQUERY>> <<10:109-115>> <<int>> <<VARIABLE>> <<LINK>>
+<<STATUS>> <<11:132-138>> <<int>> <<VARIABLE>> <<LINK>>
+<<NOTIFY>> <<12:155-161>> <<int>> <<VARIABLE>> <<LINK>>
+<<UPDATE>> <<13:178-184>> <<int>> <<VARIABLE>> <<LINK>>
+<<DSO>> <<14:201-204>> <<int>> <<VARIABLE>> <<LINK>>
+<<_STRINGS>> <<19:266-274>> <<dict>> <<VARIABLE>> <<LINK>>
+<<op_code>> <<19:279-286>> <<?>> <<VARIABLE>> <<LINK>>

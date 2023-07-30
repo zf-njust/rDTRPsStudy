@@ -1,0 +1,15 @@
+<<magic_number>> <<16:597-609>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<n>> <<16:610-613>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<total_sum>> <<18:662-671>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<27:945-946>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<total_sum>> <<28:1018-1027>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<total_sum>> <<29:1041-1050>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<30:1070-1071>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<23:766-767>> <<?>> <<VARIABLE>> <<LINK>>
+<<total_sum>> <<23:775-784>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<26:924-925>> <<?>> <<VARIABLE>> <<LINK>>
+<<total_sum>> <<27:949-958>> <<int>> <<VARIABLE>> <<LINK>>
+<<total_sum>> <<29:1041-1050>> <<int>> <<VARIABLE>> <<LINK>>
+<<n>> <<29:1054-1055>> <<{int||?}>> <<VARIABLE>> <<LINK>>
+<<n>> <<30:1070-1071>> <<{int||?}>> <<VARIABLE>> <<LINK>>
+<<total_sum>> <<33:1129-1138>> <<int>> <<VARIABLE>> <<LINK>>

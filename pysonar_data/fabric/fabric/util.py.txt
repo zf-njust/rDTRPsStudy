@@ -1,0 +1,7 @@
+<<log>> <<8:237-240>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<9:276-277>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<win32>> <<13:334-339>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<get_local_user>> <<16:375-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<log>> <<10:321-324>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<10:326-327>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<10:308-309>> <<str>> <<VARIABLE>> <<LINK>>

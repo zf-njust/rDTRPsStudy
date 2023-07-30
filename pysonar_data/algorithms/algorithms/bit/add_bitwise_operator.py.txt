@@ -1,0 +1,13 @@
+<<add_bitwise_operator>> <<8:172-192>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<8:193-196>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<8:196-199>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<carry>> <<11:225-230>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<12:248-249>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<13:267-268>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<10:213-214>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<11:233-234>> <<int>> <<VARIABLE>> <<LINK>>
+<<y>> <<11:237-238>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<12:252-253>> <<int>> <<VARIABLE>> <<LINK>>
+<<y>> <<12:256-257>> <<int>> <<VARIABLE>> <<LINK>>
+<<carry>> <<13:271-276>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:294-295>> <<int>> <<VARIABLE>> <<LINK>>

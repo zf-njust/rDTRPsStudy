@@ -1,0 +1,10 @@
+<<worker_send_task_event>> <<1:0-22>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<task_ignore_result>> <<2:31-49>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<task_time_limit>> <<3:57-72>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<task_acks_late>> <<4:128-142>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<broker_pool_limit>> <<5:150-167>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<worker_prefetch_multiplier>> <<6:174-200>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<task_routes>> <<7:205-216>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<accept_content>> <<11:308-322>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<task_serializer>> <<12:346-361>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<result_serializer>> <<13:371-388>> <<str>> <<SCOPE>> <<ANCHOR>>

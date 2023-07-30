@@ -1,0 +1,15 @@
+<<poetry>> <<3:18-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<locations>> <<3:25-34>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_config_get_default_value>> <<6:61-90>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_config_get_processes_depended_on_values>> <<10:162-206>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_config_get_from_environment_variable>> <<14:315-356>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<config>> <<14:357-360>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<environ>> <<14:365-368>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<10:207-210>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<6:91-94>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<CACHE_DIR>> <<3:42-51>> <<str>> <<VARIABLE>> <<LINK>>
+<<config>> <<15:387-393>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<18:493-499>> <<?>> <<VARIABLE>> <<LINK>>
+<<CACHE_DIR>> <<11:245-254>> <<str>> <<VARIABLE>> <<LINK>>
+<<config>> <<11:275-281>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<7:112-118>> <<?>> <<VARIABLE>> <<LINK>>

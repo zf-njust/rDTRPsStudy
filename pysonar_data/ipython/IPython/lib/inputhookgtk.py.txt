@@ -1,0 +1,6 @@
+<<_main_quit>> <<27:863-873>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<inputhook_gtk>> <<31:938-951>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<kwargs>> <<27:883-889>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<27:875-879>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stdin>> <<32:985-990>> <<?>> <<VARIABLE>> <<LINK>>
+<<_main_quit>> <<32:1007-1017>> <<function>> <<VARIABLE>> <<LINK>>

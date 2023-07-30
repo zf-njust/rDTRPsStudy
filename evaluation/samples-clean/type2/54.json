@@ -1,0 +1,10 @@
+{
+  "code": "def _get_proxy(self, url, orig_type):\n        proxy_type, user, password, hostport = _parse_proxy(url)\n        proxy_url = urlunparse((proxy_type or orig_type, hostport, '', '', '', ''))\n\n        if user:\n            user_pass = '%s:%s' % (unquote(user), unquote(password))\n            creds = base64.b64encode(user_pass).strip()\n        else:\n            creds = None\n\n        return creds, proxy_url\ndef b64encode(s, altchars=None):\n    \"\"\"Encode the bytes-like object s using Base64 and return a bytes object.\n\n    Optional altchars should be a byte string of length 2 which specifies an\n    alternative alphabet for the '+' and '/' characters.  This allows an\n    application to e.g. generate url or filesystem safe Base64 strings.\n    \"\"\"\n    encoded = binascii.b2a_base64(s, newline=False)\n    if altchars is not None:\n        assert len(altchars) == 2, repr(altchars)\n        return encoded.translate(bytes.maketrans(b'+/', altchars))\n    return encoded",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 7,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

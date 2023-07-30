@@ -1,0 +1,3 @@
+<<global_scheduler_services>> <<5:120-145>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:179-186>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<start_global_scheduler>> <<5:153-175>> <<function>> <<VARIABLE>> <<LINK>>

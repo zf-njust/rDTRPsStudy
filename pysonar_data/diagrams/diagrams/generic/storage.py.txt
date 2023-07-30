@@ -1,0 +1,6 @@
+<<_Storage>> <<6:106-114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:131-136>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:154-163>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Storage>> <<11:205-212>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:229-234>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Storage>> <<11:213-221>> <<type>> <<VARIABLE>> <<LINK>>

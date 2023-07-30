@@ -1,0 +1,16 @@
+<<__future__>> <<89:4571-4581>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<info>> <<94:4681-4685>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sample>> <<102:4887-4893>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<random>> <<102:4878-4884>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ranf>> <<102:4871-4875>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__RandomState_ctor>> <<105:4963-4981>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<numpy>> <<120:5507-5512>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<120:5513-5520>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<121:5536-5540>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bench>> <<122:5558-5563>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<89:4589-4597>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<89:4599-4614>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<89:4616-4630>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<__all__>> <<94:4702-4709>> <<list>> <<VARIABLE>> <<LINK>>
+<<sample>> <<102:4887-4893>> <<?>> <<VARIABLE>> <<LINK>>
+<<__all__>> <<103:4911-4918>> <<list>> <<VARIABLE>> <<LINK>>

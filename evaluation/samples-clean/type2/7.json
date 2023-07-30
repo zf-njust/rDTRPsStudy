@@ -1,0 +1,10 @@
+{
+  "code": "    def register_hook(self, event, hook):\n        \"\"\"Properly register a hook.\"\"\"\n\n        if event not in self.hooks:\n            raise ValueError('Unsupported event specified, with event name \"%s\"' % (event))\n\n        if isinstance(hook, Callable):\n            self.hooks[event].append(hook)\n        elif hasattr(hook, '__iter__'):\n            self.hooks[event].extend(h for h in hook if isinstance(h, Callable))",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 10,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

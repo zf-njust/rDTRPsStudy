@@ -1,0 +1,8 @@
+<<abc>> <<15:603-606>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Formatable>> <<20:650-660>> <<type>> <<CLASS>> <<ANCHOR>>
+<<as_table>> <<22:705-713>> <<function>> <<METHOD>> <<ANCHOR>>
+<<as_json>> <<26:780-787>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<22:714-717>> <<Formatable>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:788-791>> <<Formatable>> <<PARAMETER>> <<ANCHOR>>
+<<abc>> <<20:661-664>> <<module>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<20:665-668>> <<type>> <<VARIABLE>> <<LINK>>

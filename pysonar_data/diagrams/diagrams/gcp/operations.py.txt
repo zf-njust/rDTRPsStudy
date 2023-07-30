@@ -1,0 +1,6 @@
+<<_Operations>> <<6:102-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:126-131>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Monitoring>> <<11:202-212>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:232-237>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Operations>> <<11:213-224>> <<type>> <<VARIABLE>> <<LINK>>

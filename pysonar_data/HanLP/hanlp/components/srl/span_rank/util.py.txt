@@ -1,0 +1,15 @@
+<<block_orth_normal_initializer>> <<5:113-142>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<input_size>> <<5:143-146>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<output_size>> <<5:155-158>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<weight>> <<6:174-180>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<o>> <<7:195-196>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<8:226-227>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<param>> <<9:256-261>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<output_size>> <<7:200-211>> <<?>> <<VARIABLE>> <<LINK>>
+<<input_size>> <<8:231-241>> <<?>> <<VARIABLE>> <<LINK>>
+<<o>> <<9:282-283>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<9:285-286>> <<?>> <<VARIABLE>> <<LINK>>
+<<param>> <<10:327-332>> <<?>> <<VARIABLE>> <<LINK>>
+<<weight>> <<11:347-353>> <<list>> <<VARIABLE>> <<LINK>>
+<<param>> <<11:361-366>> <<?>> <<VARIABLE>> <<LINK>>
+<<weight>> <<12:390-396>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<altsvc>> <<1:6-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base>> <<2:47-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ode>> <<3:77-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<6:123-130>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<AltSvcCheck>> <<1:20-31>> <<type>> <<VARIABLE>> <<LINK>>
+<<BaseScheme>> <<2:59-69>> <<type>> <<VARIABLE>> <<LINK>>
+<<OptionalDispatchEvent>> <<3:88-109>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def test_memmap_roundtrip():\n    # Fixme: test crashes nose on windows.\n    if not (sys.platform == 'win32' or sys.platform == 'cygwin'):\n        for arr in basic_arrays + record_arrays:\n            if arr.dtype.hasobject:\n                # Skip these since they can't be mmap'ed.\n                continue\n            # Write it out normally and through mmap.\n            nfn = os.path.join(tempdir, 'normal.npy')\n            mfn = os.path.join(tempdir, 'memmap.npy')\n            fp = open(nfn, 'wb')\n            try:\n                format.write_array(fp, arr)\n            finally:\n                fp.close()\n\n            fortran_order = (\n                arr.flags.f_contiguous and not arr.flags.c_contiguous)\n            ma = format.open_memmap(mfn, mode='w+', dtype=arr.dtype,\n                                    shape=arr.shape, fortran_order=fortran_order)\n            ma[...] = arr\n            del ma\n\n            # Check that both of these files' contents are the same.\n            fp = open(nfn, 'rb')\n            normal_bytes = fp.read()\n            fp.close()\n            fp = open(mfn, 'rb')\n            memmap_bytes = fp.read()\n            fp.close()\n            yield assert_equal_, normal_bytes, memmap_bytes\n\n            # Check that reading the file using memmap works.\n            ma = format.open_memmap(nfn, mode='r')\n            del ma",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 28,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

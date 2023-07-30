@@ -1,0 +1,5 @@
+<<releases_document_name>> <<12:251-273>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<releases_github_path>> <<13:307-327>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<19:535-541>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<21:609-615>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<22:693-699>> <<str>> <<VARIABLE>> <<LINK>>

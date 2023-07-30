@@ -1,0 +1,9 @@
+<<__bootstrap__>> <<1:4-17>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mod>> <<6:271-274>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<4:135-138>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<__bootstrap__>> <<11:543-556>> <<function>> <<VARIABLE>> <<LINK>>
+<<mod>> <<7:391-394>> <<?>> <<VARIABLE>> <<LINK>>
+<<mod>> <<8:419-422>> <<?>> <<VARIABLE>> <<LINK>>
+<<mod>> <<9:475-478>> <<?>> <<VARIABLE>> <<LINK>>
+<<__bootstrap__>> <<10:487-500>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<4:188-189>> <<?>> <<VARIABLE>> <<LINK>>

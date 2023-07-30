@@ -1,0 +1,15 @@
+<<test_app_dag_example_cloud>> <<11:196-222>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<12:302-303>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<12:305-306>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<12:308-318>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<12:320-321>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<launch_log>> <<13:333-343>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<finish_log>> <<13:345-355>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<15:436-439>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<launch_log>> <<17:536-546>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<finish_log>> <<19:640-650>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<launch_log>> <<14:391-401>> <<?>> <<VARIABLE>> <<LINK>>
+<<finish_log>> <<14:406-416>> <<?>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<15:443-453>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<16:510-513>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<18:614-617>> <<?>> <<VARIABLE>> <<LINK>>

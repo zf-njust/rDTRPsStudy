@@ -1,0 +1,13 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<1:11-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bokeh>> <<2:45-50>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<2:51-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widgets>> <<2:58-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<checkbox_group>> <<6:128-142>> <<CheckboxGroup>> <<SCOPE>> <<ANCHOR>>
+<<output_file>> <<1:21-32>> <<function>> <<VARIABLE>> <<LINK>>
+<<show>> <<1:34-38>> <<function>> <<VARIABLE>> <<LINK>>
+<<CheckboxGroup>> <<2:73-86>> <<type>> <<VARIABLE>> <<LINK>>
+<<output_file>> <<4:90-101>> <<function>> <<VARIABLE>> <<LINK>>
+<<CheckboxGroup>> <<6:145-158>> <<type>> <<VARIABLE>> <<LINK>>
+<<show>> <<9:232-236>> <<function>> <<VARIABLE>> <<LINK>>
+<<checkbox_group>> <<9:237-251>> <<CheckboxGroup>> <<VARIABLE>> <<LINK>>

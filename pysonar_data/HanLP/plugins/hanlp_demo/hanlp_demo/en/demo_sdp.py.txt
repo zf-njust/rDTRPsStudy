@@ -1,0 +1,6 @@
+<<semantic_parser>> <<8:209-224>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sent>> <<11:446-450>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<tree>> <<19:644-648>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<semantic_parser>> <<19:651-666>> <<?>> <<VARIABLE>> <<LINK>>
+<<sent>> <<19:667-671>> <<list>> <<VARIABLE>> <<LINK>>
+<<tree>> <<20:702-706>> <<?>> <<VARIABLE>> <<LINK>>

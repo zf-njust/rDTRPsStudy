@@ -1,0 +1,9 @@
+<<_Others>> <<6:102-109>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:122-127>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:144-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CRD>> <<11:190-193>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:209-214>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<PSP>> <<15:238-241>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:257-262>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Others>> <<11:194-201>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Others>> <<15:242-249>> <<type>> <<VARIABLE>> <<LINK>>

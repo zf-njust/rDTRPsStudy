@@ -1,0 +1,13 @@
+<<check_if_redis_running>> <<21:781-803>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<host>> <<22:810-813>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<port>> <<22:836-839>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<password>> <<22:864-867>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<host>> <<29:1003-1007>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<port>> <<30:1038-1042>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<password>> <<31:1073-1081>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<host>> <<29:1010-1014>> <<?>> <<VARIABLE>> <<LINK>>
+<<port>> <<30:1045-1049>> <<str>> <<VARIABLE>> <<LINK>>
+<<password>> <<31:1084-1092>> <<int>> <<VARIABLE>> <<LINK>>
+<<host>> <<32:1144-1148>> <<?>> <<VARIABLE>> <<LINK>>
+<<port>> <<32:1155-1159>> <<str>> <<VARIABLE>> <<LINK>>
+<<password>> <<32:1170-1178>> <<int>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<pipenv>> <<3:20-26>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<4:52-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<4:59-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<5:84-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<5:91-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<requirementslib>> <<5:98-113>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<5:114-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<do_clear>> <<8:168-176>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<project>> <<8:177-180>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pipenv>> <<9:196-202>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<9:203-210>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<9:211-214>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_internal>> <<9:215-224>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<click>> <<4:73-78>> <<module>> <<VARIABLE>> <<LINK>>
+<<click>> <<11:247-252>> <<module>> <<VARIABLE>> <<LINK>>
+<<project>> <<13:323-330>> <<?>> <<VARIABLE>> <<LINK>>

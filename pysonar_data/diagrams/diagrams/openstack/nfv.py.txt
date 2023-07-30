@@ -1,0 +1,6 @@
+<<_NFV>> <<6:108-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:131-136>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Tacker>> <<11:199-205>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:218-223>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_NFV>> <<11:206-210>> <<type>> <<VARIABLE>> <<LINK>>

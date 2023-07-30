@@ -1,0 +1,10 @@
+{
+  "code": "def _discard_session(self, session, should_discard):\n        if session.connection_count > 0:\n            raise RuntimeError(\"Should not be discarding a session with open connections\")\n        log.debug(\"Discarding session %r last in use %r milliseconds ago\", session.id, session.milliseconds_since_last_unsubscribe)\n\n        session_context = self._session_contexts[session.id]\n\n        # session.destroy() wants the document lock so it can shut down the document\n        # callbacks.\n        def do_discard():\n            # while we yielded for the document lock, the discard-worthiness of the\n            # session may have changed.\n            # However, since we have the document lock, our own lock will cause the\n            # block count to be 1. If there's any other block count besides our own,\n            # we want to skip session destruction though.\n            if should_discard(session) and session.expiration_blocked_count == 1:\n                session.destroy()\n                del self._sessions[session.id]\n                del self._session_contexts[session.id]\n                log.trace(\"Session %r was successfully discarded\", session.id)\n            else:\n                log.warning(\"Session %r was scheduled to discard but came back to life\", session.id)\n        yield session.with_document_locked(do_discard)\n\n        # session lifecycle hooks are supposed to be called outside the document lock,\n        # we only run these if we actually ended up destroying the session.\n        if session_context.destroyed:\n            try:\n                result = self._application.on_session_destroyed(session_context)\n                yield yield_for_all_futures(result)\n            except Exception as e:\n                log.error(\"Failed to run session destroy hooks %r\", e, exc_info=True)\n\n        raise gen.Return(None)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

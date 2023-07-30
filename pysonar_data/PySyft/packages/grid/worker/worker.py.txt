@@ -1,0 +1,17 @@
+<<worker_classes>> <<15:313-327>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<node_name>> <<21:426-435>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<node_type>> <<22:487-496>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<worker_class>> <<25:657-669>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<worker>> <<26:698-704>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<29:803-809>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<31:840-843>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<node_type>> <<23:550-559>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker_classes>> <<23:567-581>> <<dict>> <<VARIABLE>> <<LINK>>
+<<worker_classes>> <<25:672-686>> <<dict>> <<VARIABLE>> <<LINK>>
+<<node_type>> <<25:687-696>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker_class>> <<26:707-719>> <<?>> <<VARIABLE>> <<LINK>>
+<<node_name>> <<27:730-739>> <<?>> <<VARIABLE>> <<LINK>>
+<<node_type>> <<27:791-800>> <<?>> <<VARIABLE>> <<LINK>>
+<<worker>> <<29:831-837>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<39:981-984>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<39:1000-1006>> <<?>> <<VARIABLE>> <<LINK>>

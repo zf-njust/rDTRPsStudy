@@ -1,0 +1,15 @@
+<<__all__>> <<10:240-247>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<CommandListView>> <<13:281-296>> <<type>> <<CLASS>> <<ANCHOR>>
+<<template_name>> <<14:335-348>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<15:385-403>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default_days_ago>> <<16:436-452>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get_context_data>> <<18:468-484>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<18:485-488>> <<CommandListView>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<18:488-489>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<now>> <<19:511-514>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<context>> <<20:541-548>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<now>> <<23:656-659>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:686-690>> <<CommandListView>> <<VARIABLE>> <<LINK>>
+<<default_days_ago>> <<23:691-707>> <<int>> <<VARIABLE>> <<LINK>>
+<<now>> <<24:734-737>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<26:773-780>> <<dict>> <<VARIABLE>> <<LINK>>

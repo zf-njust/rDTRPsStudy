@@ -1,0 +1,17 @@
+<<logger>> <<5:83-89>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<get_authenticate_kwargs>> <<15:384-407>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<oauth_credentials>> <<15:408-411>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<http_>> <<15:432-435>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<authenticate_kwargs>> <<25:883-902>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<authenticate_kwargs>> <<29:990-1009>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<authenticate_kwargs>> <<42:1429-1448>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<credentials>> <<36:1178-1189>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<36:1191-1192>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<authenticate_kwargs>> <<37:1230-1249>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<11:208-214>> <<?>> <<VARIABLE>> <<LINK>>
+<<oauth_credentials>> <<24:855-872>> <<?>> <<VARIABLE>> <<LINK>>
+<<oauth_credentials>> <<26:935-952>> <<?>> <<VARIABLE>> <<LINK>>
+<<http_>> <<28:974-979>> <<?>> <<VARIABLE>> <<LINK>>
+<<http_>> <<30:1035-1040>> <<?>> <<VARIABLE>> <<LINK>>
+<<credentials>> <<38:1286-1297>> <<?>> <<VARIABLE>> <<LINK>>
+<<authenticate_kwargs>> <<46:1523-1542>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def _6to4_query(v, vtype, value):\n    if v.version == 4:\n\n        if v.size == 1:\n            ipconv = str(v.ip)\n        elif v.size > 1:\n            if v.ip != v.network:\n                ipconv = str(v.ip)\n            else:\n                ipconv = False\n\n        if ipaddr(ipconv, 'public'):\n            numbers = list(map(int, ipconv.split('.')))\n\n        try:\n            return '2002:{:02x}{:02x}:{:02x}{:02x}::1/48'.format(*numbers)\n        except:\n            return False\n\n    elif v.version == 6:\n        if vtype == 'address':\n            if ipaddr(str(v), '2002::/16'):\n                return value\n        elif vtype == 'network':\n            if v.ip != v.network:\n                if ipaddr(str(v.ip), '2002::/16'):\n                    return value\n            else:\n                return False",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 10,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

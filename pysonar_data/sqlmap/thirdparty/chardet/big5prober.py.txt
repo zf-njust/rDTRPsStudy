@@ -1,0 +1,17 @@
+<<mbcharsetprober>> <<28:1187-1202>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<codingstatemachine>> <<29:1239-1257>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardistribution>> <<30:1290-1306>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mbcssm>> <<31:1345-1351>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Big5Prober>> <<34:1379-1389>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<35:1423-1431>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<get_charset_name>> <<41:1638-1654>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<41:1655-1658>> <<Big5Prober>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<35:1432-1435>> <<Big5Prober>> <<PARAMETER>> <<ANCHOR>>
+<<MultiByteCharSetProber>> <<28:1210-1232>> <<type>> <<VARIABLE>> <<LINK>>
+<<CodingStateMachine>> <<29:1265-1283>> <<type>> <<VARIABLE>> <<LINK>>
+<<Big5DistributionAnalysis>> <<30:1314-1338>> <<type>> <<VARIABLE>> <<LINK>>
+<<Big5SMModel>> <<31:1359-1370>> <<dict>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<34:1390-1412>> <<type>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<36:1447-1469>> <<type>> <<VARIABLE>> <<LINK>>
+<<__init__>> <<36:1470-1478>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1479-1483>> <<Big5Prober>> <<VARIABLE>> <<LINK>>

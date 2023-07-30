@@ -1,0 +1,10 @@
+<<orig>> <<11:150-154>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<flags>> <<24:463-468>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<flags>> <<26:515-520>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<flags>> <<29:602-607>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<flags>> <<32:679-684>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<44:943-950>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<flags>> <<35:767-772>> <<?>> <<VARIABLE>> <<LINK>>
+<<orig>> <<37:830-834>> <<?>> <<VARIABLE>> <<LINK>>
+<<orig>> <<38:845-849>> <<?>> <<VARIABLE>> <<LINK>>
+<<flags>> <<38:851-856>> <<?>> <<VARIABLE>> <<LINK>>

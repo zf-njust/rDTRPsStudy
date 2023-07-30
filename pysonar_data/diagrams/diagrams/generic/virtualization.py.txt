@@ -1,0 +1,12 @@
+<<_Virtualization>> <<6:106-121>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:138-143>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:168-177>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Virtualbox>> <<11:226-236>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:260-265>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Vmware>> <<15:296-302>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:326-331>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<XEN>> <<19:358-361>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:385-390>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Virtualization>> <<11:237-252>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Virtualization>> <<15:303-318>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Virtualization>> <<19:362-377>> <<type>> <<VARIABLE>> <<LINK>>

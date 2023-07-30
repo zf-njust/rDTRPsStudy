@@ -1,0 +1,13 @@
+<<official>> <<19:706-714>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<19:715-723>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<activations>> <<19:731-742>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<GeluTest>> <<22:754-762>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_gelu>> <<24:791-800>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:801-804>> <<GeluTest>> <<PARAMETER>> <<ANCHOR>>
+<<expected_data>> <<25:813-826>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<gelu_data>> <<27:927-936>> <<None>> <<VARIABLE>> <<ANCHOR>>
+<<activations>> <<27:939-950>> <<module>> <<VARIABLE>> <<LINK>>
+<<gelu>> <<27:951-955>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:992-996>> <<GeluTest>> <<VARIABLE>> <<LINK>>
+<<expected_data>> <<28:1012-1025>> <<list>> <<VARIABLE>> <<LINK>>
+<<gelu_data>> <<28:1027-1036>> <<None>> <<VARIABLE>> <<LINK>>

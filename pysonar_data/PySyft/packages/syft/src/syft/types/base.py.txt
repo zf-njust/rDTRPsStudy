@@ -1,0 +1,3 @@
+<<SyftBaseModel>> <<5:53-66>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Config>> <<6:89-95>> <<type>> <<CLASS>> <<ANCHOR>>
+<<arbitrary_types_allowed>> <<7:105-128>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

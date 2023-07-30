@@ -1,0 +1,11 @@
+<<test_installation_commands_app_example_cloud>> <<10:172-216>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<17:479-480>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<17:482-483>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<17:485-495>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<17:497-498>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<18:510-518>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<20:573-576>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<has_logs>> <<22:681-689>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<19:546-554>> <<?>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<20:580-590>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<21:655-658>> <<?>> <<VARIABLE>> <<LINK>>

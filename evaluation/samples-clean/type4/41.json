@@ -1,0 +1,10 @@
+{
+  "code": "def _override_module_replaced_vars(self, task_vars):\n        \"\"\" Some vars are substituted into the modules.  Have to make sure\n        that those are correct for localhost when synchronize creates its own\n        connection to localhost.\"\"\"\n\n        # Clear the current definition of these variables as they came from the\n        # connection to the remote host\n        if 'ansible_syslog_facility' in task_vars:\n            del task_vars['ansible_syslog_facility']\n        for key in list(task_vars.keys()):\n            if key.startswith(\"ansible_\") and key.endswith(\"_interpreter\"):\n                del task_vars[key]\n\n        # Add the definitions from localhost\n        for host in C.LOCALHOST:\n            if host in task_vars['hostvars']:\n                localhost = task_vars['hostvars'][host]\n                break\n        if 'ansible_syslog_facility' in localhost:\n            task_vars['ansible_syslog_facility'] = localhost['ansible_syslog_facility']\n        for key in localhost:\n            if key.startswith(\"ansible_\") and key.endswith(\"_interpreter\"):\n                task_vars[key] = localhost[key]",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 12,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

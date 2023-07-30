@@ -1,0 +1,2 @@
+<<installer>> <<1:6-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Installer>> <<1:23-32>> <<type>> <<VARIABLE>> <<LINK>>

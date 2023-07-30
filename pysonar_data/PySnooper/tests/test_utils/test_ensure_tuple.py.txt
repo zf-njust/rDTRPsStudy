@@ -1,0 +1,17 @@
+<<pysnooper>> <<4:111-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pysnooper>> <<5:127-136>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_ensure_tuple>> <<7:170-187>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x1>> <<8:196-198>> <<tuple>> <<VARIABLE>> <<ANCHOR>>
+<<x2>> <<11:297-299>> <<tuple>> <<VARIABLE>> <<ANCHOR>>
+<<x1>> <<9:271-273>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<pysnooper>> <<11:303-312>> <<module>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<11:313-317>> <<type>> <<VARIABLE>> <<LINK>>
+<<pysnooper>> <<11:327-336>> <<module>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<11:337-341>> <<type>> <<VARIABLE>> <<LINK>>
+<<pysnooper>> <<12:364-373>> <<module>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<12:374-378>> <<type>> <<VARIABLE>> <<LINK>>
+<<pysnooper>> <<12:389-398>> <<module>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<12:399-403>> <<type>> <<VARIABLE>> <<LINK>>
+<<x2>> <<14:449-451>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<pysnooper>> <<14:459-468>> <<module>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<14:469-473>> <<type>> <<VARIABLE>> <<LINK>>

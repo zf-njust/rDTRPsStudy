@@ -1,0 +1,16 @@
+<<module_type>> <<13:206-217>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<T>> <<16:233-234>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<serializable>> <<19:268-280>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<attrs>> <<20:286-289>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<without>> <<21:325-328>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<inherit>> <<22:366-369>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<inheritable>> <<23:402-405>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<rs_decorator>> <<50:1542-1554>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cls>> <<50:1555-1558>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<rs_decorator>> <<60:1809-1821>> <<function>> <<VARIABLE>> <<LINK>>
+<<cls>> <<52:1615-1618>> <<?>> <<VARIABLE>> <<LINK>>
+<<attrs>> <<53:1648-1653>> <<?>> <<VARIABLE>> <<LINK>>
+<<without>> <<54:1681-1688>> <<?>> <<VARIABLE>> <<LINK>>
+<<inherit>> <<55:1716-1723>> <<?>> <<VARIABLE>> <<LINK>>
+<<inheritable>> <<56:1755-1766>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<58:1793-1796>> <<?>> <<VARIABLE>> <<LINK>>

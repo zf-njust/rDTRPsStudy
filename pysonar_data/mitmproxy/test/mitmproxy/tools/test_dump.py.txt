@@ -1,0 +1,6 @@
+<<mitmproxy>> <<3:22-31>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<4:53-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<4:63-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestDumpMaster>> <<7:92-106>> <<type>> <<CLASS>> <<ANCHOR>>
+<<options>> <<3:39-46>> <<module>> <<VARIABLE>> <<LINK>>
+<<dump>> <<4:76-80>> <<module>> <<VARIABLE>> <<LINK>>

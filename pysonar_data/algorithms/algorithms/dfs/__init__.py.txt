@@ -1,0 +1,6 @@
+<<all_factors>> <<1:6-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<count_islands>> <<2:34-47>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pacific_atlantic>> <<3:64-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sudoku_solver>> <<4:97-110>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<walls_and_gates>> <<5:127-142>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<maze_search>> <<6:159-170>> <<module>> <<VARIABLE>> <<ANCHOR>>

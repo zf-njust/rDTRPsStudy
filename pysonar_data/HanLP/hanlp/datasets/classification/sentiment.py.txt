@@ -1,0 +1,7 @@
+<<_ERNIE_TASK_DATA>> <<4:68-84>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CHNSENTICORP_ERNIE_TRAIN>> <<6:138-162>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CHNSENTICORP_ERNIE_DEV>> <<7:210-232>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CHNSENTICORP_ERNIE_TEST>> <<8:278-301>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_ERNIE_TASK_DATA>> <<6:165-181>> <<str>> <<VARIABLE>> <<LINK>>
+<<_ERNIE_TASK_DATA>> <<7:235-251>> <<str>> <<VARIABLE>> <<LINK>>
+<<_ERNIE_TASK_DATA>> <<8:304-320>> <<str>> <<VARIABLE>> <<LINK>>

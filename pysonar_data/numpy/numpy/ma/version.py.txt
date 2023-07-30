@@ -1,0 +1,14 @@
+<<__future__>> <<4:31-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<6:94-101>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<release>> <<7:112-119>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<revision>> <<12:202-210>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<rev>> <<14:375-378>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<14:333-340>> <<{str||int}>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<4:49-57>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<4:59-74>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<4:76-90>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<release>> <<9:138-145>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<14:333-340>> <<str>> <<VARIABLE>> <<LINK>>
+<<revision>> <<14:382-390>> <<list>> <<VARIABLE>> <<LINK>>
+<<rev>> <<14:375-378>> <<?>> <<VARIABLE>> <<LINK>>
+<<rev>> <<14:366-369>> <<?>> <<VARIABLE>> <<LINK>>

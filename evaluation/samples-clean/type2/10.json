@@ -1,0 +1,10 @@
+{
+  "code": "def build_stan_model(target_dir, model_dir=MODEL_DIR):\n    from pystan import StanModel\n    model_name = 'prophet.stan'\n    target_name = 'prophet_model.pkl'\n    with open(os.path.join(model_dir, model_name)) as f:\n        model_code = f.read()\n    sm = StanModel(model_code=model_code)\n    with open(os.path.join(target_dir, target_name), 'wb') as f:\n        pickle.dump(sm, f, protocol=pickle.HIGHEST_PROTOCOL)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 9,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

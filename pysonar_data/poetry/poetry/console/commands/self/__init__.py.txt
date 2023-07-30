@@ -1,0 +1,2 @@
+<<self>> <<1:6-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SelfCommand>> <<1:18-29>> <<type>> <<VARIABLE>> <<LINK>>

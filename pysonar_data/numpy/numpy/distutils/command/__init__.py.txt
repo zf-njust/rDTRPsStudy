@@ -1,0 +1,16 @@
+<<__future__>> <<7:112-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_na_writable_attributes_deletion>> <<9:179-215>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__revision__>> <<16:350-362>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<distutils_all>> <<18:425-438>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<29:754-761>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<a>> <<10:224-225>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<attr>> <<11:242-246>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<12:280-281>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<7:130-138>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<7:140-155>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<7:157-171>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<distutils_all>> <<27:736-749>> <<list>> <<VARIABLE>> <<LINK>>
+<<distutils_all>> <<43:1126-1139>> <<list>> <<VARIABLE>> <<LINK>>
+<<attr>> <<12:285-289>> <<list>> <<VARIABLE>> <<LINK>>
+<<a>> <<13:339-340>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<13:342-343>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<UserPolicyStash>> <<19:490-505>> <<type>> <<CLASS>> <<ANCHOR>>
+<<object_type>> <<20:530-541>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<25:690-698>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<get_all_by_user_verify_key>> <<28:783-809>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:699-702>> <<UserPolicyStash>> <<PARAMETER>> <<ANCHOR>>
+<<store>> <<25:705-708>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<29:819-822>> <<UserPolicyStash>> <<PARAMETER>> <<ANCHOR>>
+<<credentials>> <<29:825-828>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<user_verify_key>> <<29:853-856>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<qks>> <<31:932-935>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<store>> <<26:767-772>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_verify_key>> <<31:994-1009>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<32:1028-1032>> <<UserPolicyStash>> <<VARIABLE>> <<LINK>>
+<<credentials>> <<32:1055-1066>> <<?>> <<VARIABLE>> <<LINK>>
+<<qks>> <<32:1072-1075>> <<?>> <<VARIABLE>> <<LINK>>

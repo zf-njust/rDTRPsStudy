@@ -1,0 +1,10 @@
+<<log>> <<20:753-756>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bases>> <<31:1038-1043>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<37:1250-1257>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Any>> <<46:1477-1480>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AnyRef>> <<91:2692-2698>> <<type>> <<CLASS>> <<ANCHOR>>
+<<has_ref>> <<95:2798-2805>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<95:2806-2809>> <<AnyRef>> <<PARAMETER>> <<ANCHOR>>
+<<Property>> <<31:1051-1059>> <<type>> <<VARIABLE>> <<LINK>>
+<<Property>> <<46:1481-1489>> <<type>> <<VARIABLE>> <<LINK>>
+<<Property>> <<91:2699-2707>> <<type>> <<VARIABLE>> <<LINK>>

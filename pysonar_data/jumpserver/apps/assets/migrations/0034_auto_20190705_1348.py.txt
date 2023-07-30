@@ -1,0 +1,15 @@
+<<migrate_assets_protocol>> <<9:224-247>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<21:626-635>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<23:666-678>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<27:745-755>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<9:248-251>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<9:254-257>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<asset_model>> <<10:275-286>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<db_alias>> <<11:328-336>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<assets>> <<12:375-381>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<migrate_assets_protocol>> <<37:1107-1130>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<10:289-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<schema_editor>> <<11:339-352>> <<?>> <<VARIABLE>> <<LINK>>
+<<asset_model>> <<12:384-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<db_alias>> <<12:410-418>> <<?>> <<VARIABLE>> <<LINK>>
+<<assets>> <<18:571-577>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<plugins>> <<8:150-157>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<8:158-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Takeover>> <<10:217-225>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<11:252-260>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<11:261-264>> <<Takeover>> <<PARAMETER>> <<ANCHOR>>

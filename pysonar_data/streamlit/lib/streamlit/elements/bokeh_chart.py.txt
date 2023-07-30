@@ -1,0 +1,7 @@
+<<marshall>> <<9:152-160>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<proto>> <<9:161-164>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<figure>> <<9:168-171>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<14:279-283>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<figure>> <<14:296-302>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<15:335-339>> <<?>> <<VARIABLE>> <<LINK>>
+<<proto>> <<15:309-314>> <<?>> <<VARIABLE>> <<LINK>>

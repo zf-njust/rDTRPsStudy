@@ -1,0 +1,8 @@
+<<unittest>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<redash>> <<3:38-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestPython>> <<6:90-100>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_sorted_safe_builtins>> <<7:121-146>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:147-150>> <<TestPython>> <<PARAMETER>> <<ANCHOR>>
+<<src>> <<8:163-166>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<src>> <<9:212-215>> <<list>> <<VARIABLE>> <<LINK>>
+<<src>> <<9:226-229>> <<list>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<toollib>> <<8:127-134>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tag>> <<10:152-155>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<base_name>> <<11:252-261>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<tar_name>> <<12:284-292>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<git_tpl>> <<20:629-636>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cd>> <<8:142-144>> <<function>> <<VARIABLE>> <<LINK>>
+<<sh>> <<8:146-148>> <<function>> <<VARIABLE>> <<LINK>>
+<<tag>> <<11:279-282>> <<?>> <<VARIABLE>> <<LINK>>
+<<base_name>> <<12:306-315>> <<str>> <<VARIABLE>> <<LINK>>
+<<cd>> <<19:619-621>> <<function>> <<VARIABLE>> <<LINK>>
+<<sh>> <<21:699-701>> <<function>> <<VARIABLE>> <<LINK>>
+<<git_tpl>> <<21:702-709>> <<str>> <<VARIABLE>> <<LINK>>
+<<base_name>> <<21:717-726>> <<str>> <<VARIABLE>> <<LINK>>
+<<tar_name>> <<21:728-736>> <<str>> <<VARIABLE>> <<LINK>>
+<<sh>> <<22:740-742>> <<function>> <<VARIABLE>> <<LINK>>
+<<tar_name>> <<22:766-774>> <<str>> <<VARIABLE>> <<LINK>>

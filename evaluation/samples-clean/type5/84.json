@@ -1,0 +1,10 @@
+{
+  "code": "def after_train(self):\\n        if self._after_train:\\n            self._after_train(self.trainer)\\n        # The functions may be closures that hold reference to the trainer\\n        # Therefore, delete them to avoid circular reference.\\n        del self._before_train, self._after_train\\n        del self._before_step, self._after_step",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 7,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<<__metaclass__>> <<21:849-862>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<TestINILookup>> <<27:980-993>> <<type>> <<CLASS>> <<ANCHOR>>
+<<old_style_params_data>> <<30:1062-1083>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<setUp>> <<53:2397-2402>> <<function>> <<METHOD>> <<ANCHOR>>
+<<tearDown>> <<56:2435-2443>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_parse_parameters>> <<59:2476-2497>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<56:2444-2447>> <<TestINILookup>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<53:2403-2406>> <<TestINILookup>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<59:2498-2501>> <<TestINILookup>> <<PARAMETER>> <<ANCHOR>>
+<<testcase>> <<60:2518-2526>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<params>> <<62:2601-2607>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<60:2530-2534>> <<TestINILookup>> <<VARIABLE>> <<LINK>>
+<<old_style_params_data>> <<60:2535-2556>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<testcase>> <<62:2624-2632>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<63:2655-2659>> <<TestINILookup>> <<VARIABLE>> <<LINK>>
+<<params>> <<63:2672-2678>> <<?>> <<VARIABLE>> <<LINK>>
+<<testcase>> <<63:2680-2688>> <<dict>> <<VARIABLE>> <<LINK>>

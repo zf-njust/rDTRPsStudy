@@ -1,0 +1,7 @@
+<<spleeter>> <<8:123-131>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_checksum>> <<12:177-190>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<provider>> <<13:249-257>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<provider>> <<15:307-315>> <<?>> <<VARIABLE>> <<LINK>>
+<<provider>> <<19:444-452>> <<?>> <<VARIABLE>> <<LINK>>
+<<provider>> <<23:581-589>> <<?>> <<VARIABLE>> <<LINK>>
+<<provider>> <<27:734-742>> <<?>> <<VARIABLE>> <<LINK>>

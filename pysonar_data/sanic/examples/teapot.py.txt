@@ -1,0 +1,5 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:30-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<5:64-67>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<response>> <<2:55-58>> <<module>> <<VARIABLE>> <<LINK>>
+<<app>> <<14:216-219>> <<?>> <<VARIABLE>> <<LINK>>

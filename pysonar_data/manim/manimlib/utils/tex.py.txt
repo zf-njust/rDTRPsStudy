@@ -1,0 +1,10 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<manimlib>> <<5:56-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<5:65-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tex_to_symbol_count>> <<5:71-90>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<num_tex_symbols>> <<8:127-142>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tex>> <<8:143-146>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<19:525-526>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<TEX_TO_SYMBOL_COUNT>> <<5:98-117>> <<dict>> <<VARIABLE>> <<LINK>>
+<<s>> <<19:525-526>> <<str>> <<VARIABLE>> <<LINK>>

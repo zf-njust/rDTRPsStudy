@@ -1,0 +1,15 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<2:77-82>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<7:251-260>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<8:278-294>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<9:338-352>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<10:396-411>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_evaluator>> <<12:432-445>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_evaluator>> <<14:537-551>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<17:599-608>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<20:694-709>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<8:325-334>> <<str>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<9:383-392>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_dataloader>> <<10:414-428>> <<dict>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<12:462-471>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_evaluator>> <<14:554-567>> <<dict>> <<VARIABLE>> <<LINK>>

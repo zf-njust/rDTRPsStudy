@@ -1,0 +1,12 @@
+<<domain_name_1>> <<13:461-474>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<domain_name_2>> <<27:883-896>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<url>> <<13:475-478>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<full_domain_name>> <<15:520-536>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<actual_domain>> <<17:626-639>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<url>> <<27:897-900>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<url>> <<15:539-542>> <<str>> <<VARIABLE>> <<LINK>>
+<<full_domain_name>> <<17:642-658>> <<str>> <<VARIABLE>> <<LINK>>
+<<actual_domain>> <<20:726-739>> <<list>> <<VARIABLE>> <<LINK>>
+<<actual_domain>> <<21:763-776>> <<list>> <<VARIABLE>> <<LINK>>
+<<actual_domain>> <<23:835-848>> <<list>> <<VARIABLE>> <<LINK>>
+<<url>> <<28:915-918>> <<?>> <<VARIABLE>> <<LINK>>

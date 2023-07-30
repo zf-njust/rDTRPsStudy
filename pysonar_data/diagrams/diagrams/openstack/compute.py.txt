@@ -1,0 +1,12 @@
+<<_Compute>> <<6:108-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:135-140>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Nova>> <<11:211-215>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:232-237>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Qinling>> <<15:262-269>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:286-291>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Zun>> <<19:319-322>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:339-344>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Compute>> <<11:216-224>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Compute>> <<15:270-278>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Compute>> <<19:323-331>> <<type>> <<VARIABLE>> <<LINK>>

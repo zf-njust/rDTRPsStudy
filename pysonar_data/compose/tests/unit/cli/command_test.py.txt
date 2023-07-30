@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<compose>> <<6:113-120>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cli>> <<6:121-124>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<errors>> <<6:132-138>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<compose>> <<7:145-152>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cli>> <<7:153-156>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<8:201-206>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<9:225-230>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FriendlyErrorMessageTestCase>> <<12:258-286>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_dispatch_generic_connection_error>> <<14:318-356>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:357-360>> <<FriendlyErrorMessageTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<9:238-246>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<12:287-295>> <<module>> <<VARIABLE>> <<LINK>>
+<<errors>> <<15:392-398>> <<module>> <<VARIABLE>> <<LINK>>
+<<ConnectionErrorGeneric>> <<15:399-421>> <<type>> <<VARIABLE>> <<LINK>>

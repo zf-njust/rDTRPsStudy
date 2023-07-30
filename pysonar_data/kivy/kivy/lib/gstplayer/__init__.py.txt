@@ -1,0 +1,7 @@
+<<glib_iteration>> <<24:718-732>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<get_gst_version>> <<24:700-715>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<GstPlayer>> <<24:688-697>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<26:757-761>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<26:762-765>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gstplayer>> <<26:766-775>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<glib_iteration>> <<24:718-732>> <<?>> <<VARIABLE>> <<LINK>>

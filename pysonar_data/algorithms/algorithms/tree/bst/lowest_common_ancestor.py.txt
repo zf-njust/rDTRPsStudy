@@ -1,0 +1,16 @@
+<<lowest_common_ancestor>> <<24:740-762>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<root>> <<24:763-766>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<p>> <<24:769-772>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<q>> <<25:772-775>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<root>> <<33:940-944>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<35:1011-1015>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<31:883-887>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<32:901-902>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<32:909-913>> <<?>> <<VARIABLE>> <<LINK>>
+<<q>> <<32:920-921>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<33:947-951>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<34:972-973>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<34:980-984>> <<?>> <<VARIABLE>> <<LINK>>
+<<q>> <<34:991-992>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<35:1018-1022>> <<?>> <<VARIABLE>> <<LINK>>
+<<root>> <<37:1063-1067>> <<?>> <<VARIABLE>> <<LINK>>

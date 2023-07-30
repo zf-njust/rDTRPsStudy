@@ -1,0 +1,5 @@
+<<test_trivial>> <<12:232-244>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_run>> <<16:300-311>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_runvars>> <<23:421-436>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_ivars>> <<33:614-627>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_refs>> <<41:763-775>> <<function>> <<FUNCTION>> <<ANCHOR>>

@@ -1,0 +1,12 @@
+<<_Storage>> <<6:108-116>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:135-140>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:158-167>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Cinder>> <<11:211-217>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:234-239>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Manila>> <<15:266-272>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:289-294>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Swift>> <<19:321-326>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:343-348>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Storage>> <<11:218-226>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Storage>> <<15:273-281>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Storage>> <<19:327-335>> <<type>> <<VARIABLE>> <<LINK>>

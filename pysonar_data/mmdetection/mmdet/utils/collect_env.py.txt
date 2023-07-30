@@ -1,0 +1,10 @@
+<<mmdet>> <<5:168-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<collect_env>> <<8:183-194>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<env_info>> <<10:267-275>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<16:435-439>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<val>> <<16:441-444>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<collect_env>> <<16:448-459>> <<function>> <<VARIABLE>> <<LINK>>
+<<mmdet>> <<11:328-333>> <<module>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<11:334-345>> <<str>> <<VARIABLE>> <<LINK>>
+<<env_info>> <<11:302-310>> <<?>> <<VARIABLE>> <<LINK>>
+<<env_info>> <<12:385-393>> <<?>> <<VARIABLE>> <<LINK>>

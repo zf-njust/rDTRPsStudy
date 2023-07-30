@@ -1,0 +1,10 @@
+{
+  "code": "    def __init__(self, loader, groups, filename=C.DEFAULT_HOST_LIST):\n        self.filename = filename\n\n        # Start with an empty host list and whatever groups we're passed in\n        # (which should include the default 'all' and 'ungrouped' groups).\n\n        self.hosts = {}\n        self.patterns = {}\n        self.groups = groups\n\n        # Read in the hosts, groups, and variables defined in the\n        # inventory file.\n\n        with open(filename, 'rb') as fh:\n            data = fh.read()\n            try:\n                # Faster to do to_text once on a long string than many\n                # times on smaller strings\n                data = to_text(data, errors='surrogate_or_strict')\n                data = [line for line in data.splitlines() if not (line.startswith(u';') or line.startswith(u'#'))]\n            except UnicodeError:\n                # Skip comment lines here to avoid potential undecodable\n                # errors in comments: https://github.com/ansible/ansible/issues/17593\n                data = [to_text(line, errors='surrogate_or_strict') for line in data.splitlines() if not (line.startswith(b';') or line.startswith(b'#'))]\n\n        self._parse(data)",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 20,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

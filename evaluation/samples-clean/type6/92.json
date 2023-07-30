@@ -1,0 +1,10 @@
+{
+  "code": "def _getitem_nested_tuple(self, tup):\n        # we have a nested tuple so have at least 1 multi-index level\n        # we should be able to match up the dimensionaility here\n\n        # we have too many indexers for our dim, but have at least 1\n        # multi-index dimension, try to see if we have something like\n        # a tuple passed to a series with a multi-index\n        if len(tup) > self.ndim:\n            result = self._handle_lowerdim_multi_index_axis0(tup)\n            if result is not None:\n                return result\n\n            # this is a series with a multi-index specified a tuple of selectors\n            return self._getitem_axis(tup, axis=0)\n\n        # handle the multi-axis by taking sections and reducing\n        # this is iterative\n        obj = self.obj\n        axis = 0\n        for i, key in enumerate(tup):\n\n            if is_null_slice(key):\n                axis += 1\n                continue\n\n            current_ndim = obj.ndim\n            obj = getattr(obj, self.name)._getitem_axis(key, axis=axis)\n            axis += 1\n\n            # if we have a scalar, we are done\n            if np.isscalar(obj) or not hasattr(obj,'ndim'):\n                break\n\n            # has the dim of the obj changed?\n            # GH 7199\n            if obj.ndim < current_ndim:\n\n                # GH 7516\n                # if had a 3 dim and are going to a 2d\n                # axes are reversed on a DataFrame\n                if i >= 1 and current_ndim == 3 and obj.ndim == 2:\n                    obj = obj.T\n\n                axis -= 1\n\n        return obj",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 27,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

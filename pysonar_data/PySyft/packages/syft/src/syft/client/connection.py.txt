@@ -1,0 +1,9 @@
+<<NodeConnection>> <<9:149-163>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<10:181-199>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<11:223-234>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<get_cache_key>> <<13:268-281>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__repr__>> <<16:335-343>> <<function>> <<METHOD>> <<ANCHOR>>
+<<route>> <<20:422-427>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<20:428-431>> <<NodeConnection>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<16:344-347>> <<NodeConnection>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<24:562-566>> <<NodeConnection>> <<VARIABLE>> <<LINK>>

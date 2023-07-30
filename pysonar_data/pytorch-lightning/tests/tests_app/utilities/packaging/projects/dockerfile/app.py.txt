@@ -1,0 +1,12 @@
+<<comp_dockerfile>> <<8:152-167>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<8:168-169>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<8:170-171>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<comp_dockerfile>> <<9:193-208>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<b>> <<9:209-210>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<b>> <<9:211-212>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<11:231-234>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<7:103-107>> <<list>> <<VARIABLE>> <<LINK>>
+<<AAA>> <<8:179-182>> <<type>> <<VARIABLE>> <<LINK>>
+<<BBB>> <<9:220-223>> <<type>> <<VARIABLE>> <<LINK>>
+<<BBB>> <<11:250-253>> <<type>> <<VARIABLE>> <<LINK>>
+<<AAA>> <<11:254-257>> <<type>> <<VARIABLE>> <<LINK>>

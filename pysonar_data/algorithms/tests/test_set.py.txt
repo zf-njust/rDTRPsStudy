@@ -1,0 +1,10 @@
+<<algorithms>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<set>> <<1:16-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<5:65-73>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestFindKeyboardRow>> <<8:85-104>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_find_keyboard_row>> <<9:134-156>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:157-160>> <<TestFindKeyboardRow>> <<PARAMETER>> <<ANCHOR>>
+<<find_keyboard_row>> <<2:34-51>> <<function>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<8:105-113>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:173-177>> <<TestFindKeyboardRow>> <<VARIABLE>> <<LINK>>
+<<find_keyboard_row>> <<11:235-252>> <<function>> <<VARIABLE>> <<LINK>>

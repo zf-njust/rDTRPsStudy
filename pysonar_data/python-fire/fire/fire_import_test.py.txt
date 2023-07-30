@@ -1,0 +1,16 @@
+<<fire>> <<19:653-657>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fire>> <<20:664-668>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FireImportTest>> <<24:710-724>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testFire>> <<27:790-798>> <<function>> <<METHOD>> <<ANCHOR>>
+<<testFireMethods>> <<31:893-908>> <<function>> <<METHOD>> <<ANCHOR>>
+<<testNoPrivateMethods>> <<34:962-982>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<31:909-912>> <<FireImportTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<27:799-802>> <<FireImportTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:983-986>> <<FireImportTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<32:921-925>> <<FireImportTest>> <<VARIABLE>> <<LINK>>
+<<fire>> <<32:942-946>> <<module>> <<VARIABLE>> <<LINK>>
+<<fire>> <<29:872-876>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<35:995-999>> <<FireImportTest>> <<VARIABLE>> <<LINK>>
+<<fire>> <<35:1019-1023>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1039-1043>> <<FireImportTest>> <<VARIABLE>> <<LINK>>
+<<fire>> <<36:1064-1068>> <<module>> <<VARIABLE>> <<LINK>>

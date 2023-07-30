@@ -1,0 +1,8 @@
+<<verify_git_installation>> <<6:82-105>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<dep>> <<7:121-124>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<deps>> <<8:182-186>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<verify_git_installation>> <<15:339-362>> <<function>> <<VARIABLE>> <<LINK>>
+<<dep>> <<9:210-213>> <<?>> <<VARIABLE>> <<LINK>>
+<<deps>> <<9:196-200>> <<dict>> <<VARIABLE>> <<LINK>>
+<<deps>> <<10:244-248>> <<dict>> <<VARIABLE>> <<LINK>>
+<<dep>> <<11:309-312>> <<?>> <<VARIABLE>> <<LINK>>

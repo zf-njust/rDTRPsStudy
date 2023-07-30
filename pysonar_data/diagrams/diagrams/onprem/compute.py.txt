@@ -1,0 +1,9 @@
+<<_Compute>> <<6:105-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:129-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Nomad>> <<11:202-207>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:224-229>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Server>> <<15:255-261>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:278-283>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Compute>> <<11:208-216>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Compute>> <<15:262-270>> <<type>> <<VARIABLE>> <<LINK>>

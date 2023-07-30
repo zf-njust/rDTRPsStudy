@@ -1,0 +1,5 @@
+<<HanLP>> <<10:375-380>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<doc>> <<18:898-901>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<HanLP>> <<18:904-909>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<19:979-982>> <<?>> <<VARIABLE>> <<LINK>>
+<<doc>> <<20:985-988>> <<?>> <<VARIABLE>> <<LINK>>

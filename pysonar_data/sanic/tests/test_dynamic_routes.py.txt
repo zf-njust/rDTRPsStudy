@@ -1,0 +1,17 @@
+<<sanic>> <<5:74-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<5:80-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_overload_dynamic_routes>> <<16:300-328>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_overload_dynamic_routes_exist>> <<29:768-802>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<16:329-332>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<method>> <<16:334-337>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attr>> <<16:342-345>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<16:348-351>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<25:640-647>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<25:649-657>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<29:803-806>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<5:96-100>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<25:668-671>> <<?>> <<VARIABLE>> <<LINK>>
+<<method>> <<25:685-691>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<26:731-739>> <<?>> <<VARIABLE>> <<LINK>>
+<<attr>> <<26:741-745>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<26:750-758>> <<?>> <<VARIABLE>> <<LINK>>

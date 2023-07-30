@@ -1,0 +1,10 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plotting>> <<1:11-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<p>> <<5:87-88>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<figure>> <<1:27-33>> <<module>> <<VARIABLE>> <<LINK>>
+<<figure>> <<5:91-97>> <<module>> <<VARIABLE>> <<LINK>>
+<<p>> <<6:132-133>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<7:158-159>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<8:186-187>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<10:219-220>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<12:271-272>> <<?>> <<VARIABLE>> <<LINK>>

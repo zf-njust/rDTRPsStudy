@@ -1,0 +1,11 @@
+<<TestExtension>> <<3:73-86>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<5:107-115>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<from_crawler>> <<9:237-249>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:116-119>> <<TestExtension>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<5:122-125>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cls>> <<9:250-253>> <<TestExtension>> <<PARAMETER>> <<ANCHOR>>
+<<crawler>> <<9:255-258>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<6:142-150>> <<?>> <<VARIABLE>> <<LINK>>
+<<settings>> <<6:177-185>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<10:281-284>> <<TestExtension>> <<VARIABLE>> <<LINK>>
+<<crawler>> <<10:285-292>> <<?>> <<VARIABLE>> <<LINK>>

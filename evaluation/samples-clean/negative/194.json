@@ -1,0 +1,4 @@
+{
+    "code": "def is_method_call(node, method_name):\n    \"\"\"\n    Returns True if `node` is a method call for `method_name`. `method_name`\n    can be either a string or an iterable of strings.\n    \"\"\"\n\n    if not isinstance(node, nodes.Call):\n        return False\n\n    if isinstance(node.node, nodes.Getattr):\n        # e.g. foo.bar()\n        method = node.node.attr\n\n    elif isinstance(node.node, nodes.Name):\n        # e.g. bar()\n        method = node.node.name\n\n    elif isinstance(node.node, nodes.Getitem):\n        # e.g. foo[\"bar\"]()\n        method = node.node.arg.value\n\n    else:\n        return False\n\n    if isinstance(method_name, (list, tuple)):\n        return method in method_name\n\n    return method == method_name",
+    "smell": []
+}

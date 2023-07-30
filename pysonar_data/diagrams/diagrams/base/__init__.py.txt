@@ -1,0 +1,4 @@
+<<_Base>> <<8:118-123>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:136-145>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:160-169>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:196-205>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

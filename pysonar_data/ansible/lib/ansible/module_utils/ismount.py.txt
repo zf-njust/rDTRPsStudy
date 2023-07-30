@@ -1,0 +1,15 @@
+<<ismount>> <<54:2749-2756>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<54:2757-2760>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<s1>> <<66:3275-3277>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<parent>> <<76:3603-3609>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<parent>> <<77:3652-3658>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<s2>> <<80:3707-3709>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<path>> <<66:3289-3293>> <<?>> <<VARIABLE>> <<LINK>>
+<<s1>> <<73:3557-3559>> <<int>> <<VARIABLE>> <<LINK>>
+<<path>> <<76:3625-3629>> <<?>> <<VARIABLE>> <<LINK>>
+<<parent>> <<77:3678-3684>> <<str>> <<VARIABLE>> <<LINK>>
+<<parent>> <<80:3721-3727>> <<str>> <<VARIABLE>> <<LINK>>
+<<s1>> <<86:3902-3904>> <<int>> <<VARIABLE>> <<LINK>>
+<<s2>> <<86:3915-3917>> <<int>> <<VARIABLE>> <<LINK>>
+<<s1>> <<88:3999-4001>> <<int>> <<VARIABLE>> <<LINK>>
+<<s2>> <<88:4012-4014>> <<int>> <<VARIABLE>> <<LINK>>

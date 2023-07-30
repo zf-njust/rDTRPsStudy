@@ -1,0 +1,6 @@
+<<autodoc_default_flags>> <<11:309-330>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<15:461-467>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<17:534-540>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<www>> <<18:570-573>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<18:577-583>> <<str>> <<VARIABLE>> <<LINK>>
+<<www>> <<20:665-668>> <<tuple>> <<VARIABLE>> <<LINK>>

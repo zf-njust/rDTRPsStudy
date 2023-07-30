@@ -1,0 +1,17 @@
+<<ServerUtilsTest>> <<7:83-98>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_is_url_from_allowed_origins_allowed_domains>> <<8:128-176>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_is_url_from_allowed_origins_CORS_off>> <<14:373-414>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_is_url_from_allowed_origins_s3_bucket>> <<19:616-658>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_is_url_from_allowed_origins_browser_serverAddress>> <<25:884-938>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_is_url_from_allowed_origins_s3_url>> <<33:1304-1343>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<14:415-418>> <<ServerUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:659-662>> <<ServerUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<25:939-942>> <<ServerUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<33:1344-1347>> <<ServerUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<8:177-180>> <<ServerUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<16:515-519>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<22:790-794>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<30:1196-1200>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1592-1596>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:193-197>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:282-286>> <<ServerUtilsTest>> <<VARIABLE>> <<LINK>>

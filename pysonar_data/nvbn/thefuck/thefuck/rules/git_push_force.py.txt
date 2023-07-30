@@ -1,0 +1,10 @@
+<<match>> <<6:112-117>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<14:413-428>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<enabled_by_default>> <<18:513-531>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<command>> <<6:118-121>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<14:429-432>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<7:151-158>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<8:201-208>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<9:266-273>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<10:374-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:468-475>> <<?>> <<VARIABLE>> <<LINK>>

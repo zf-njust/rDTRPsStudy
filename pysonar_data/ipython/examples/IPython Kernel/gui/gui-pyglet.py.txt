@@ -1,0 +1,9 @@
+<<window>> <<14:223-229>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<label>> <<15:256-261>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<on_close>> <<21:546-554>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<on_draw>> <<25:600-607>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<window>> <<18:424-430>> <<?>> <<VARIABLE>> <<LINK>>
+<<window>> <<18:443-449>> <<?>> <<VARIABLE>> <<LINK>>
+<<window>> <<26:616-622>> <<?>> <<VARIABLE>> <<LINK>>
+<<label>> <<27:636-641>> <<?>> <<VARIABLE>> <<LINK>>
+<<window>> <<22:563-569>> <<?>> <<VARIABLE>> <<LINK>>

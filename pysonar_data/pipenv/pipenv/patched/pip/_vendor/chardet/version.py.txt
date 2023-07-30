@@ -1,0 +1,3 @@
+<<__version__>> <<8:189-200>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<9:211-218>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<9:221-232>> <<str>> <<VARIABLE>> <<LINK>>

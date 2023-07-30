@@ -1,0 +1,10 @@
+<<__email__>> <<14:319-328>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<15:354-364>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<16:386-397>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<apply>> <<20:423-428>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<function>> <<21:435-438>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<input_tensor>> <<22:460-463>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<instruments>> <<22:490-493>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<params>> <<23:523-526>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<instrument>> <<43:1097-1107>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<instruments>> <<44:1111-1122>> <<?>> <<VARIABLE>> <<LINK>>

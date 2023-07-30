@@ -1,0 +1,11 @@
+<<read>> <<6:215-219>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read>> <<7:251-255>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read>> <<8:294-298>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read>> <<9:331-335>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read>> <<10:369-373>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<13:403-410>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<connection_close>> <<6:227-243>> <<function>> <<VARIABLE>> <<LINK>>
+<<expected_http_body_size>> <<7:263-286>> <<function>> <<VARIABLE>> <<LINK>>
+<<read_request_head>> <<8:306-323>> <<function>> <<VARIABLE>> <<LINK>>
+<<read_response_head>> <<9:343-361>> <<function>> <<VARIABLE>> <<LINK>>
+<<validate_headers>> <<10:381-397>> <<function>> <<VARIABLE>> <<LINK>>

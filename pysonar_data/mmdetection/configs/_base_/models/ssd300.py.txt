@@ -1,0 +1,4 @@
+<<input_size>> <<2:18-28>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:36-41>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<cudnn_benchmark>> <<63:1998-2013>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<input_size>> <<34:1040-1050>> <<int>> <<VARIABLE>> <<LINK>>

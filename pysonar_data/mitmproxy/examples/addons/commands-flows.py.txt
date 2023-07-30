@@ -1,0 +1,17 @@
+<<mitmproxy>> <<5:103-112>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<6:134-143>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<7:162-171>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mitmproxy>> <<8:190-199>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<8:200-203>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MyAddon>> <<11:228-235>> <<type>> <<CLASS>> <<ANCHOR>>
+<<addheader>> <<13:289-298>> <<function>> <<METHOD>> <<ANCHOR>>
+<<addons>> <<20:511-517>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<13:299-302>> <<MyAddon>> <<PARAMETER>> <<ANCHOR>>
+<<flows>> <<13:305-308>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<14:355-356>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ALERT>> <<8:211-216>> <<int>> <<VARIABLE>> <<LINK>>
+<<MyAddon>> <<20:521-528>> <<type>> <<VARIABLE>> <<LINK>>
+<<flows>> <<14:360-365>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<15:394-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<16:430-431>> <<?>> <<VARIABLE>> <<LINK>>
+<<ALERT>> <<17:491-496>> <<int>> <<VARIABLE>> <<LINK>>

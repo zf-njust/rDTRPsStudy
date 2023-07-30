@@ -1,0 +1,4 @@
+<<mixins>> <<4:36-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AdaptedBulkListSerializer>> <<8:149-174>> <<type>> <<CLASS>> <<ANCHOR>>
+<<BulkListSerializerMixin>> <<4:50-73>> <<type>> <<VARIABLE>> <<LINK>>
+<<BulkListSerializerMixin>> <<8:175-198>> <<type>> <<VARIABLE>> <<LINK>>

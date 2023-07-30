@@ -1,0 +1,9 @@
+<<non_reentrant_wrapper>> <<14:313-334>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<check_fn>> <<20:454-462>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<apply_fsdp_checkpointing>> <<23:523-547>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model>> <<23:548-551>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<submodule>> <<20:472-475>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<model>> <<30:769-774>> <<?>> <<VARIABLE>> <<LINK>>
+<<non_reentrant_wrapper>> <<30:798-819>> <<?>> <<VARIABLE>> <<LINK>>
+<<check_fn>> <<30:830-838>> <<function>> <<VARIABLE>> <<LINK>>
+<<submodule>> <<20:494-503>> <<?>> <<VARIABLE>> <<LINK>>

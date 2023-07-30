@@ -1,0 +1,12 @@
+<<_serialize>> <<5:38-48>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<6:54-57>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<to_proto>> <<7:71-74>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<to_bytes>> <<8:98-101>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<for_hashing>> <<9:126-129>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<proto>> <<14:226-231>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<obj>> <<14:250-253>> <<?>> <<VARIABLE>> <<LINK>>
+<<for_hashing>> <<14:267-278>> <<?>> <<VARIABLE>> <<LINK>>
+<<to_bytes>> <<16:288-296>> <<?>> <<VARIABLE>> <<LINK>>
+<<proto>> <<17:313-318>> <<?>> <<VARIABLE>> <<LINK>>
+<<to_proto>> <<19:338-346>> <<?>> <<VARIABLE>> <<LINK>>
+<<proto>> <<20:363-368>> <<?>> <<VARIABLE>> <<LINK>>

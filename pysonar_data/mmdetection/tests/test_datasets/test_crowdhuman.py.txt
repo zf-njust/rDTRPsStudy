@@ -1,0 +1,12 @@
+<<unittest>> <<2:56-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<4:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<datasets>> <<4:79-87>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestCrowdHumanDataset>> <<7:124-145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_crowdhuman_init>> <<9:177-197>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:198-201>> <<TestCrowdHumanDataset>> <<PARAMETER>> <<ANCHOR>>
+<<dataset>> <<10:214-221>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<7:146-154>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:433-437>> <<TestCrowdHumanDataset>> <<VARIABLE>> <<LINK>>
+<<dataset>> <<15:454-461>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:476-480>> <<TestCrowdHumanDataset>> <<VARIABLE>> <<LINK>>
+<<dataset>> <<16:493-500>> <<?>> <<VARIABLE>> <<LINK>>

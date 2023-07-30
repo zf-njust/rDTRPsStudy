@@ -1,0 +1,5 @@
+<<chart_with_confidences>> <<4:99-121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<6:204-212>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<9:249-256>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DensePoseChartWithConfidenceLoss>> <<4:129-161>> <<type>> <<VARIABLE>> <<LINK>>
+<<DENSEPOSE_LOSS_REGISTRY>> <<6:220-243>> <<?>> <<VARIABLE>> <<LINK>>

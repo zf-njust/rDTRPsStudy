@@ -1,0 +1,4 @@
+<<autodoc_default_options>> <<13:285-308>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<20:465-471>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<22:571-577>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<23:633-639>> <<str>> <<VARIABLE>> <<LINK>>

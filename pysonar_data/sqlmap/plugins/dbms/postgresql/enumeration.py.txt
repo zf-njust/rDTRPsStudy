@@ -1,0 +1,15 @@
+<<lib>> <<8:150-153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<8:154-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<8:159-163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plugins>> <<10:184-191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generic>> <<10:192-199>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Enumeration>> <<12:260-271>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<13:301-309>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getHostname>> <<16:368-379>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:310-313>> <<Enumeration>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<16:380-383>> <<Enumeration>> <<PARAMETER>> <<ANCHOR>>
+<<warnMsg>> <<17:395-402>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<logger>> <<8:171-177>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:353-357>> <<Enumeration>> <<VARIABLE>> <<LINK>>
+<<logger>> <<18:474-480>> <<?>> <<VARIABLE>> <<LINK>>
+<<warnMsg>> <<18:486-493>> <<str>> <<VARIABLE>> <<LINK>>

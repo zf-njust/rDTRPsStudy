@@ -1,0 +1,4 @@
+<<test_placeholder_component>> <<9:148-174>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<messenger>> <<10:183-192>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<messenger>> <<11:220-229>> <<?>> <<VARIABLE>> <<LINK>>
+<<messenger>> <<12:248-257>> <<?>> <<VARIABLE>> <<LINK>>

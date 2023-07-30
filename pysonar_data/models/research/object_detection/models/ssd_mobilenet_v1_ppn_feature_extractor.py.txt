@@ -1,0 +1,12 @@
+<<SSDMobileNetV1PpnFeatureExtractor>> <<29:1129-1162>> <<type>> <<CLASS>> <<ANCHOR>>
+<<preprocess>> <<32:1271-1281>> <<function>> <<METHOD>> <<ANCHOR>>
+<<extract_features>> <<47:1704-1720>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<32:1282-1285>> <<SSDMobileNetV1PpnFeatureExtractor>> <<PARAMETER>> <<ANCHOR>>
+<<resized_inputs>> <<32:1288-1291>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<47:1721-1724>> <<SSDMobileNetV1PpnFeatureExtractor>> <<PARAMETER>> <<ANCHOR>>
+<<preprocessed_inputs>> <<47:1727-1730>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<preprocessed_inputs>> <<58:2075-2094>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<scope>> <<62:2267-2272>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<resized_inputs>> <<45:1674-1688>> <<?>> <<VARIABLE>> <<LINK>>
+<<preprocessed_inputs>> <<59:2143-2162>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<62:2243-2247>> <<SSDMobileNetV1PpnFeatureExtractor>> <<VARIABLE>> <<LINK>>

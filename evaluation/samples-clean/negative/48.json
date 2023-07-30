@@ -1,0 +1,4 @@
+{
+    "code": "def find_formatter_class(alias):\n    \"\"\"Lookup a formatter by alias.\n\n    Returns None if not found.\n    \"\"\"\n    for module_name, name, aliases, _, _ in FORMATTERS.values():\n        if alias in aliases:\n            if name not in _formatter_cache:\n                _load_formatters(module_name)\n            return _formatter_cache[name]\n    for _, cls in find_plugin_formatters():\n        if alias in cls.aliases:\n            return cls",
+    "smell": []
+}

@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<custom_imports>> <<5:198-212>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint_file>> <<7:286-301>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<9:453-458>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<22:832-845>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint_file>> <<19:777-792>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<NothingToDo>> <<3:139-150>> <<type>> <<CLASS>> <<ANCHOR>>
+<<GroupException>> <<7:184-198>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<14:349-357>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<InvalidV1Env>> <<21:588-600>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<14:358-361>> <<GroupException>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<14:364-367>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<18:561-567>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<result>> <<18:570-576>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:556-560>> <<GroupException>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<is_sorted>> <<2:30-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<swap_in_pairs>> <<4:85-98>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rotate_list>> <<5:115-126>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_cyclic>> <<6:143-152>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<merge_two_list>> <<7:169-183>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<is_palindrome>> <<8:200-213>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<copy_random_pointer>> <<9:230-249>> <<module>> <<VARIABLE>> <<ANCHOR>>

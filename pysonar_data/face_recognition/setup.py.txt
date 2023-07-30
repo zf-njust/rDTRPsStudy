@@ -1,0 +1,12 @@
+<<readme_file>> <<7:134-145>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<readme>> <<7:152-158>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<history_file>> <<10:211-223>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<history>> <<10:230-237>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<requirements>> <<13:263-275>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_requirements>> <<21:391-408>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<readme_file>> <<9:161-172>> <<file>> <<VARIABLE>> <<LINK>>
+<<history_file>> <<12:240-252>> <<file>> <<VARIABLE>> <<LINK>>
+<<readme>> <<29:599-605>> <<str>> <<VARIABLE>> <<LINK>>
+<<history>> <<30:617-624>> <<str>> <<VARIABLE>> <<LINK>>
+<<requirements>> <<47:1175-1187>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_requirements>> <<-1:1819-1836>> <<list>> <<VARIABLE>> <<LINK>>

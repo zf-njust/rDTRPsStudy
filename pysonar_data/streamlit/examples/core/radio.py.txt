@@ -1,0 +1,10 @@
+<<options>> <<3:26-33>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<i1>> <<4:56-58>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i2>> <<7:122-124>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i3>> <<10:188-190>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<options>> <<4:81-88>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<i1>> <<5:115-117>> <<?>> <<VARIABLE>> <<LINK>>
+<<options>> <<7:147-154>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<i2>> <<8:181-183>> <<?>> <<VARIABLE>> <<LINK>>
+<<options>> <<10:213-220>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<i3>> <<11:244-246>> <<?>> <<VARIABLE>> <<LINK>>

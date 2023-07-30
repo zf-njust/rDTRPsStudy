@@ -1,0 +1,11 @@
+<<log>> <<33:1245-1248>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<49:1713-1720>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<base_version>> <<57:1933-1945>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_base_version_helper>> <<60:2002-2022>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__version__>> <<78:2723-2734>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<60:2023-2026>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<VERSION_PAT>> <<62:2053-2064>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_base_version_helper>> <<58:1961-1981>> <<function>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<58:1982-1993>> <<?>> <<VARIABLE>> <<LINK>>
+<<VERSION_PAT>> <<63:2126-2137>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<63:2145-2152>> <<?>> <<VARIABLE>> <<LINK>>

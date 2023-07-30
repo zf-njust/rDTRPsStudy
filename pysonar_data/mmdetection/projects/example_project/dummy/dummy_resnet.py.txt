@@ -1,0 +1,10 @@
+<<mmdet>> <<2:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<2:60-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbones>> <<2:67-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<3:97-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<3:103-111>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DummyResNet>> <<7:164-175>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<13:354-362>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<13:363-366>> <<DummyResNet>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<13:366-367>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MODELS>> <<3:119-125>> <<?>> <<VARIABLE>> <<LINK>>

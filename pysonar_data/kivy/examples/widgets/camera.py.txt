@@ -1,0 +1,12 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:31-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<2:36-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kv>> <<5:61-63>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CameraApp>> <<27:474-483>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<28:499-504>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<1:21-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<2:48-55>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<27:484-487>> <<type>> <<VARIABLE>> <<LINK>>
+<<CameraApp>> <<33:589-598>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<33:601-604>> <<function>> <<VARIABLE>> <<LINK>>

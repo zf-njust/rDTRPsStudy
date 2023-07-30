@@ -1,0 +1,17 @@
+<<setup>> <<7:97-102>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_int64>> <<21:971-988>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_int32>> <<23:1107-1124>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_uint32>> <<25:1243-1261>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_float64>> <<27:1382-1401>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_float32>> <<29:1524-1543>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_datetime64>> <<31:1666-1688>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_timedelta64_1>> <<33:1817-1842>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<dtype_infer_timedelta64_2>> <<35:1973-1998>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<setup>> <<21:1034-1039>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<23:1170-1175>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<25:1309-1314>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<27:1451-1456>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<29:1593-1598>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<31:1744-1749>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<33:1900-1905>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<35:2056-2061>> <<str>> <<VARIABLE>> <<LINK>>

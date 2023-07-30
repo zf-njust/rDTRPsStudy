@@ -1,0 +1,3 @@
+<<manimlib>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<event_handler>> <<1:14-27>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<EVENT_DISPATCHER>> <<6:187-203>> <<?>> <<SCOPE>> <<ANCHOR>>

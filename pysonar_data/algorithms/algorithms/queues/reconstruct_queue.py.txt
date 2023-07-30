@@ -1,0 +1,15 @@
+<<reconstruct_queue>> <<18:504-521>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<people>> <<18:522-525>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<queue>> <<23:618-623>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<h>> <<25:684-685>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<k>> <<25:687-688>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<24:657-660>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<people>> <<24:634-640>> <<list>> <<VARIABLE>> <<LINK>>
+<<people>> <<25:692-698>> <<list>> <<VARIABLE>> <<LINK>>
+<<queue>> <<26:709-714>> <<list>> <<VARIABLE>> <<LINK>>
+<<k>> <<26:722-723>> <<int>> <<VARIABLE>> <<LINK>>
+<<h>> <<26:726-727>> <<int>> <<VARIABLE>> <<LINK>>
+<<k>> <<26:729-730>> <<int>> <<VARIABLE>> <<LINK>>
+<<queue>> <<27:745-750>> <<list>> <<VARIABLE>> <<LINK>>
+<<x>> <<24:662-663>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<24:668-669>> <<?>> <<VARIABLE>> <<LINK>>

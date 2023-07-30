@@ -1,0 +1,11 @@
+<<TmSt>> <<3:17-21>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<TmEx>> <<4:27-31>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<test_fader>> <<18:255-265>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<check_fader>> <<21:290-301>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<verify_fader>> <<25:328-340>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<verify_fader>> <<29:389-401>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_calculate_fades>> <<33:462-482>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test>> <<18:266-269>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<calcs>> <<34:491-496>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<25:341-344>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<test>> <<21:302-305>> <<?>> <<PARAMETER>> <<ANCHOR>>

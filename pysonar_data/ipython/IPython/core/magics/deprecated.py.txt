@@ -1,0 +1,9 @@
+<<__future__>> <<3:42-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DeprecatedMagics>> <<24:914-930>> <<type>> <<CLASS>> <<ANCHOR>>
+<<install_profiles>> <<28:1012-1028>> <<function>> <<METHOD>> <<ANCHOR>>
+<<install_default_config>> <<39:1498-1520>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<39:1521-1524>> <<DeprecatedMagics>> <<PARAMETER>> <<ANCHOR>>
+<<parameter_s>> <<39:1527-1530>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:1029-1032>> <<DeprecatedMagics>> <<PARAMETER>> <<ANCHOR>>
+<<parameter_s>> <<28:1035-1038>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<print_function>> <<3:60-74>> <<_Feature>> <<VARIABLE>> <<LINK>>

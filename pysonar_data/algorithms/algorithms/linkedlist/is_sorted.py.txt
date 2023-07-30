@@ -1,0 +1,10 @@
+<<is_sorted>> <<11:275-284>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<head>> <<11:285-288>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<current>> <<14:336-343>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<current>> <<18:455-462>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<head>> <<12:304-308>> <<?>> <<VARIABLE>> <<LINK>>
+<<head>> <<14:346-350>> <<?>> <<VARIABLE>> <<LINK>>
+<<current>> <<15:362-369>> <<?>> <<VARIABLE>> <<LINK>>
+<<current>> <<16:388-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<current>> <<16:402-409>> <<?>> <<VARIABLE>> <<LINK>>
+<<current>> <<18:465-472>> <<?>> <<VARIABLE>> <<LINK>>

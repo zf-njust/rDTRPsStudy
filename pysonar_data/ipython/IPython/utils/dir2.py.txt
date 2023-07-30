@@ -1,0 +1,17 @@
+<<safe_hasattr>> <<22:833-845>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<dir2>> <<33:1077-1081>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<22:846-849>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attr>> <<22:851-854>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<33:1082-1085>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<words>> <<52:1787-1792>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<words>> <<49:1679-1684>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<w>> <<57:1947-1948>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<words>> <<57:1932-1937>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<obj>> <<27:1001-1004>> <<?>> <<VARIABLE>> <<LINK>>
+<<attr>> <<27:1006-1010>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<49:1695-1698>> <<?>> <<VARIABLE>> <<LINK>>
+<<words>> <<57:1952-1957>> <<?>> <<VARIABLE>> <<LINK>>
+<<w>> <<57:1972-1973>> <<?>> <<VARIABLE>> <<LINK>>
+<<w>> <<57:1947-1948>> <<?>> <<VARIABLE>> <<LINK>>
+<<w>> <<57:1941-1942>> <<?>> <<VARIABLE>> <<LINK>>
+<<words>> <<58:2009-2014>> <<list>> <<VARIABLE>> <<LINK>>

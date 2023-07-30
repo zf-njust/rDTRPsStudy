@@ -1,0 +1,4 @@
+<<Trainer>> <<7:94-101>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<9:178-186>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<9:187-190>> <<Trainer>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<9:190-191>> <<?>> <<PARAMETER>> <<ANCHOR>>

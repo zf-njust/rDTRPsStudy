@@ -1,0 +1,6 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AssetsConfig>> <<6:88-100>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<7:118-122>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<9:145-150>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:151-154>> <<AssetsConfig>> <<PARAMETER>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>

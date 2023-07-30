@@ -1,0 +1,8 @@
+<<_root_logger>> <<16:545-557>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_logger>> <<17:581-588>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<33:1285-1292>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<cli_lightning_logo>> <<64:2449-2467>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_logger>> <<18:620-627>> <<?>> <<VARIABLE>> <<LINK>>
+<<_root_logger>> <<21:748-760>> <<?>> <<VARIABLE>> <<LINK>>
+<<_logger>> <<22:781-788>> <<?>> <<VARIABLE>> <<LINK>>
+<<_logger>> <<23:830-837>> <<?>> <<VARIABLE>> <<LINK>>

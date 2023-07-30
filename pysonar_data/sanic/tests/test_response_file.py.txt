@@ -1,0 +1,6 @@
+<<sanic>> <<6:91-96>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<compat>> <<6:97-103>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:124-129>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<7:130-138>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<convenience>> <<7:139-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Header>> <<6:111-117>> <<type>> <<VARIABLE>> <<LINK>>

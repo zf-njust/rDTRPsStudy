@@ -1,0 +1,10 @@
+{
+  "code": "def setUp(self):\n        self.bool_index    = tm.makeBoolIndex(10, name='a')\n        self.int_index     = tm.makeIntIndex(10, name='a')\n        self.float_index   = tm.makeFloatIndex(10, name='a')\n        self.dt_index      = tm.makeDateIndex(10, name='a')\n        self.dt_tz_index   = tm.makeDateIndex(10, name='a').tz_localize(tz='US/Eastern')\n        self.period_index  = tm.makePeriodIndex(10, name='a')\n        self.string_index  = tm.makeStringIndex(10, name='a')\n        self.unicode_index  = tm.makeUnicodeIndex(10, name='a')\n\n        arr = np.random.randn(10)\n        self.int_series    = Series(arr, index=self.int_index, name='a')\n        self.float_series  = Series(arr, index=self.float_index, name='a')\n        self.dt_series     = Series(arr, index=self.dt_index, name='a')\n        self.dt_tz_series  = self.dt_tz_index.to_series(keep_tz=True)\n        self.period_series = Series(arr, index=self.period_index, name='a')\n        self.string_series = Series(arr, index=self.string_index, name='a')\n\n        types = ['bool','int','float','dt', 'dt_tz', 'period','string', 'unicode']\n        fmts = [ \"{0}_{1}\".format(t,f) for t in types for f in ['index','series'] ]\n        self.objs = [ getattr(self,f) for f in fmts if getattr(self,f,None) is not None ]",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 21,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

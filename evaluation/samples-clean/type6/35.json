@@ -1,0 +1,10 @@
+{
+  "code": "def _getitem_tuple(self, tup):\n\n        self._has_valid_tuple(tup)\n        try:\n            return self._getitem_lowerdim(tup)\n        except:\n            pass\n\n        retval = self.obj\n        axis=0\n        for i, key in enumerate(tup):\n            if i >= self.obj.ndim:\n                raise IndexingError('Too many indexers')\n\n            if is_null_slice(key):\n                axis += 1\n                continue\n\n            retval = getattr(retval, self.name)._getitem_axis(key, axis=axis)\n\n            # if the dim was reduced, then pass a lower-dim the next time\n            if retval.ndim<self.ndim:\n                axis -= 1\n\n            # try to get for the next axis\n            axis += 1\n\n        return retval",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 19,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

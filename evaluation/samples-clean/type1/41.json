@@ -1,0 +1,10 @@
+{
+  "code": "    def _get_analysis(self, item):\n        mbid = item['mb_trackid']\n        # If file has no mbid skip it.\n        if not mbid:\n            self._log.info(u'Not analysing {}, missing '\n                           u'musicbrainz track id.', item)\n            return None\n\n        # Temporary file to save extractor output to, extractor only works\n        # if an output file is given. Here we use a temporary file to copy\n        # the data into a python object and then remove the file from the\n        # system.\n        tmp_file, filename = tempfile.mkstemp(suffix='.json')\n        try:\n            # Close the file, so the extractor can overwrite it.\n            os.close(tmp_file)\n            try:\n                call([self.extractor, util.syspath(item.path), filename])\n            except ABSubmitError as e:\n                self._log.warning(\n                    u'Failed to analyse {item} for AcousticBrainz: {error}',\n                    item=item, error=e\n                )\n                return None\n            with open(filename, 'rb') as tmp_file:\n                analysis = json.load(tmp_file)\n            # Add the hash to the output.\n            analysis['metadata']['version']['essentia_build_sha'] = \\\n                self.extractor_sha\n            return analysis\n        finally:\n            try:\n                os.remove(filename)\n            except OSError as e:\n                # ENOENT means file does not exist, just ignore this error.\n                if e.errno != errno.ENOENT:\n                    raise",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 25,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

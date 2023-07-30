@@ -1,0 +1,11 @@
+<<bifpn>> <<1:6-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<efficientdet>> <<2:32-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<efficientdet_head>> <<3:72-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<huber_loss>> <<4:126-136>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<10:459-464>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<12:493-500>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BiFPN>> <<1:19-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<EfficientDet>> <<2:52-64>> <<type>> <<VARIABLE>> <<LINK>>
+<<EfficientDetSepBNHead>> <<3:97-118>> <<type>> <<VARIABLE>> <<LINK>>
+<<HuberLoss>> <<4:144-153>> <<type>> <<VARIABLE>> <<LINK>>
+<<Conv2dSamePadding>> <<10:472-489>> <<type>> <<VARIABLE>> <<LINK>>

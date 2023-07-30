@@ -1,0 +1,5 @@
+<<test_forbidden_methods>> <<9:94-116>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<method>> <<11:155-161>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<method>> <<16:397-403>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<method>> <<14:347-353>> <<str>> <<VARIABLE>> <<LINK>>
+<<method>> <<18:492-498>> <<str>> <<VARIABLE>> <<LINK>>

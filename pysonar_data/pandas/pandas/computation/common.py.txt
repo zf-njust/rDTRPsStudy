@@ -1,0 +1,16 @@
+<<pandas>> <<2:27-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<2:37-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<3:46-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_ensure_decoded>> <<6:83-98>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_result_type_many>> <<13:280-297>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<NameResolutionError>> <<23:633-652>> <<type>> <<CLASS>> <<ANCHOR>>
+<<s>> <<6:99-102>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<9:209-210>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<arrays_and_dtypes>> <<13:299-316>> <<tuple>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<8:176-177>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<9:213-214>> <<?>> <<VARIABLE>> <<LINK>>
+<<pandas>> <<9:222-224>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_option>> <<9:225-235>> <<{function||CallableDynamicDoc}>> <<VARIABLE>> <<LINK>>
+<<s>> <<10:269-270>> <<?>> <<VARIABLE>> <<LINK>>
+<<arrays_and_dtypes>> <<20:603-620>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<arrays_and_dtypes>> <<17:464-481>> <<tuple>> <<VARIABLE>> <<LINK>>

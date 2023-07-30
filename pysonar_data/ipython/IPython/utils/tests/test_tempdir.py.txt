@@ -1,0 +1,15 @@
+<<test_named_file_in_temporary_directory>> <<14:502-540>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_temporary_working_directory>> <<23:797-829>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<dir>> <<24:874-877>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<file>> <<15:599-603>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<16:614-618>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<dir>> <<25:910-913>> <<?>> <<VARIABLE>> <<LINK>>
+<<dir>> <<26:979-982>> <<?>> <<VARIABLE>> <<LINK>>
+<<dir>> <<27:1015-1018>> <<?>> <<VARIABLE>> <<LINK>>
+<<dir>> <<28:1062-1065>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<16:621-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<17:651-655>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<18:694-698>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<19:709-713>> <<?>> <<VARIABLE>> <<LINK>>
+<<file>> <<20:741-745>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<21:784-788>> <<?>> <<VARIABLE>> <<LINK>>

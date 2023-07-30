@@ -1,0 +1,13 @@
+<<_PTB_HOME>> <<5:70-79>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TOKEN_TRAIN>> <<6:146-161>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TOKEN_DEV>> <<7:198-211>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_TOKEN_TEST>> <<8:248-262>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_CHAR_TRAIN>> <<10:300-314>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_CHAR_DEV>> <<11:356-368>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PTB_CHAR_TEST>> <<12:410-423>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_PTB_HOME>> <<6:164-173>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<7:214-223>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<8:265-274>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<10:317-326>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<11:371-380>> <<str>> <<VARIABLE>> <<LINK>>
+<<_PTB_HOME>> <<12:426-435>> <<str>> <<VARIABLE>> <<LINK>>

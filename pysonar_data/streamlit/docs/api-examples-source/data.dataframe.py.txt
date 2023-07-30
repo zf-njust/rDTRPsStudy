@@ -1,0 +1,5 @@
+<<i>> <<7:145-146>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<5:67-69>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<7:145-146>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<7:139-140>> <<int>> <<VARIABLE>> <<LINK>>
+<<df>> <<9:178-180>> <<?>> <<VARIABLE>> <<LINK>>

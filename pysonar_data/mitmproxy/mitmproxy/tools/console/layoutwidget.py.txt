@@ -1,0 +1,14 @@
+<<LayoutWidget>> <<4:39-51>> <<type>> <<CLASS>> <<ANCHOR>>
+<<title>> <<11:256-261>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<key_responder>> <<14:310-323>> <<function>> <<METHOD>> <<ANCHOR>>
+<<focus_changed>> <<21:494-507>> <<function>> <<METHOD>> <<ANCHOR>>
+<<view_changed>> <<27:682-694>> <<function>> <<METHOD>> <<ANCHOR>>
+<<layout_popping>> <<32:775-789>> <<function>> <<METHOD>> <<ANCHOR>>
+<<layout_pushed>> <<37:912-925>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<32:790-793>> <<LayoutWidget>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<37:926-929>> <<LayoutWidget>> <<PARAMETER>> <<ANCHOR>>
+<<prev>> <<37:932-935>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<27:695-698>> <<LayoutWidget>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<21:508-511>> <<LayoutWidget>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:324-327>> <<LayoutWidget>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:478-482>> <<LayoutWidget>> <<VARIABLE>> <<LINK>>

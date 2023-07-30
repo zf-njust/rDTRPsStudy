@@ -1,0 +1,11 @@
+<<official>> <<19:706-714>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<19:715-723>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MishTest>> <<22:754-762>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_mish>> <<24:791-800>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:801-804>> <<MishTest>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<25:813-814>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<activations>> <<19:731-742>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:846-850>> <<MishTest>> <<VARIABLE>> <<LINK>>
+<<activations>> <<26:885-896>> <<module>> <<VARIABLE>> <<LINK>>
+<<mish>> <<26:897-901>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<26:902-903>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<__metaclass__>> <<18:792-805>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<ShellModule>> <<22:869-880>> <<type>> <<CLASS>> <<ANCHOR>>
+<<COMPATIBLE_SHELLS>> <<25:955-972>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SHELL_FAMILY>> <<27:1084-1096>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_EMBEDDED_PY_EOL>> <<30:1165-1187>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_REDIRECT_ALLNULL>> <<31:1202-1225>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_AND>> <<32:1248-1258>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_OR>> <<33:1271-1280>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_LEFT>> <<34:1293-1308>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_SUB_RIGHT>> <<35:1321-1337>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_GROUP_LEFT>> <<36:1350-1367>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_SHELL_GROUP_RIGHT>> <<37:1379-1397>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<env_prefix>> <<39:1415-1425>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<39:1426-1429>> <<ShellModule>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<39:1429-1430>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ShellModule>> <<40:1476-1487>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<40:1489-1493>> <<ShellModule>> <<VARIABLE>> <<LINK>>

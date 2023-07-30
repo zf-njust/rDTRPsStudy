@@ -1,0 +1,9 @@
+<<det_data_sample>> <<2:55-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<track_data_sample>> <<4:172-189>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:288-295>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DetDataSample>> <<2:78-91>> <<type>> <<VARIABLE>> <<LINK>>
+<<OptSampleList>> <<2:93-106>> <<?>> <<VARIABLE>> <<LINK>>
+<<SampleList>> <<2:108-118>> <<?>> <<VARIABLE>> <<LINK>>
+<<OptTrackSampleList>> <<4:198-216>> <<?>> <<VARIABLE>> <<LINK>>
+<<TrackDataSample>> <<4:218-233>> <<type>> <<VARIABLE>> <<LINK>>
+<<TrackSampleList>> <<5:268-283>> <<?>> <<VARIABLE>> <<LINK>>

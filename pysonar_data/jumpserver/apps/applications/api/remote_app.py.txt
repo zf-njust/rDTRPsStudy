@@ -1,0 +1,13 @@
+<<__all__>> <<14:335-342>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<RemoteAppViewSet>> <<19:416-432>> <<type>> <<CLASS>> <<ANCHOR>>
+<<filter_fields>> <<20:457-470>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<search_fields>> <<21:488-501>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<22:523-541>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<queryset>> <<23:563-571>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<serializer_class>> <<24:603-619>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<pagination_class>> <<25:647-663>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RemoteAppConnectionInfoApi>> <<28:699-725>> <<type>> <<CLASS>> <<ANCHOR>>
+<<queryset>> <<29:758-766>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<permission_classes>> <<30:798-816>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<serializer_class>> <<31:838-854>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<filter_fields>> <<21:504-517>> <<tuple>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<official>> <<18:709-717>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<18:718-726>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<19:752-760>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<19:761-767>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<19:768-775>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<YoloDecoder>> <<23:827-838>> <<type>> <<CLASS>> <<ANCHOR>>
+<<YoloV7>> <<46:1575-1581>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Decoder>> <<52:1702-1709>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hyperparams>> <<18:734-745>> <<module>> <<VARIABLE>> <<LINK>>
+<<decoders>> <<19:783-791>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<23:839-850>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<46:1582-1593>> <<module>> <<VARIABLE>> <<LINK>>
+<<decoders>> <<52:1710-1718>> <<module>> <<VARIABLE>> <<LINK>>
+<<Decoder>> <<52:1719-1726>> <<type>> <<VARIABLE>> <<LINK>>

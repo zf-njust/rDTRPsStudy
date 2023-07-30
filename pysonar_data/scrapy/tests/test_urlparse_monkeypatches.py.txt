@@ -1,0 +1,14 @@
+<<unittest>> <<2:52-60>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UrlparseTestCase>> <<5:72-88>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_s3_url>> <<7:120-131>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:132-135>> <<UrlparseTestCase>> <<PARAMETER>> <<ANCHOR>>
+<<p>> <<8:148-149>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<5:89-97>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:206-210>> <<UrlparseTestCase>> <<VARIABLE>> <<LINK>>
+<<p>> <<9:224-225>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:249-253>> <<UrlparseTestCase>> <<VARIABLE>> <<LINK>>
+<<p>> <<10:267-268>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:298-302>> <<UrlparseTestCase>> <<VARIABLE>> <<LINK>>
+<<p>> <<11:316-317>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:346-350>> <<UrlparseTestCase>> <<VARIABLE>> <<LINK>>
+<<p>> <<12:364-365>> <<?>> <<VARIABLE>> <<LINK>>

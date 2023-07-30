@@ -1,0 +1,10 @@
+{
+  "code": "def collect_commands(self, addon):\n        for i in dir(addon):\n            if not i.startswith(\"__\"):\n                o = getattr(addon, i)\n                try:\n                    # hasattr is not enough, see https://github.com/mitmproxy/mitmproxy/issues/3794\n                    is_command = isinstance(getattr(o, \"command_name\", None), str)\n                except Exception:\n                    pass  # getattr may raise if o implements __getattr__.\n                else:\n                    if is_command:\n                        try:\n                            self.add(o.command_name, o)\n                        except exceptions.CommandError as e:\n                            logging.warning(\n                                f\"Could not load command {o.command_name}: {e}\"\n                            )",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 4,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

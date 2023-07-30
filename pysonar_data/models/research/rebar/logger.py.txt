@@ -1,0 +1,15 @@
+<<__future__>> <<18:724-734>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:764-774>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<20:797-807>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Logger>> <<22:839-845>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<23:854-862>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<log>> <<26:889-892>> <<function>> <<METHOD>> <<ANCHOR>>
+<<flush>> <<29:931-936>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<23:863-866>> <<Logger>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<29:937-940>> <<Logger>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:893-896>> <<Logger>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<26:899-902>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<26:904-907>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<18:742-757>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:782-790>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<20:815-829>> <<_Feature>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<__future__>> <<17:676-686>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<21:777-784>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<EPollIOLoop>> <<24:821-832>> <<type>> <<CLASS>> <<ANCHOR>>
+<<initialize>> <<25:855-865>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:866-869>> <<EPollIOLoop>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<25:869-870>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:694-709>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<17:711-719>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<17:721-735>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<with_statement>> <<17:737-751>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<EPollIOLoop>> <<26:898-909>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:911-915>> <<EPollIOLoop>> <<VARIABLE>> <<LINK>>

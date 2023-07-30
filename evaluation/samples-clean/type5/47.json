@@ -1,0 +1,10 @@
+{
+  "code": "def build(self):\\n        input_dim = self.input_shape[2]\\n        self.input = T.tensor3()\\n\\n        self.W_z = self.init((input_dim, self.output_dim))\\n        self.U_z = self.inner_init((self.output_dim, self.output_dim))\\n        self.b_z = shared_zeros((self.output_dim))\\n\\n        self.W_r = self.init((input_dim, self.output_dim))\\n        self.U_r = self.inner_init((self.output_dim, self.output_dim))\\n        self.b_r = shared_zeros((self.output_dim))\\n\\n        self.W_h = self.init((input_dim, self.output_dim))\\n        self.U_h = self.inner_init((self.output_dim, self.output_dim))\\n        self.b_h = shared_zeros((self.output_dim))\\n\\n        self.params = [\\n            self.W_z, self.U_z, self.b_z,\\n            self.W_r, self.U_r, self.b_r,\\n            self.W_h, self.U_h, self.b_h,\\n        ]\\n\\n        if self.initial_weights is not None:\\n            self.set_weights(self.initial_weights)\\n            del self.initial_weights",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 25,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

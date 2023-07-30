@@ -1,0 +1,8 @@
+<<abc>> <<14:599-602>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_Launcher>> <<20:807-816>> <<type>> <<CLASS>> <<ANCHOR>>
+<<kill>> <<22:870-874>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<22:875-878>> <<_Launcher>> <<PARAMETER>> <<ANCHOR>>
+<<signum>> <<22:881-884>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<14:610-613>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<14:615-629>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<20:834-837>> <<type>> <<VARIABLE>> <<LINK>>

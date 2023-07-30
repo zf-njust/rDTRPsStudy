@@ -1,0 +1,6 @@
+<<log>> <<22:984-987>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<43:1581-1588>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Widget>> <<56:1981-1987>> <<type>> <<CLASS>> <<ANCHOR>>
+<<orientation>> <<61:2074-2085>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<default_size>> <<67:2276-2288>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<margin>> <<73:2472-2478>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

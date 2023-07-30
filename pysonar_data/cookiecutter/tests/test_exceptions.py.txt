@@ -1,0 +1,9 @@
+<<cookiecutter>> <<5:80-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_undefined_variable_to_str>> <<8:120-150>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<undefined_var_error>> <<9:159-178>> <<UndefinedVariableInTemplate>> <<VARIABLE>> <<ANCHOR>>
+<<expected_str>> <<15:381-393>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<exceptions>> <<5:100-110>> <<module>> <<VARIABLE>> <<LINK>>
+<<exceptions>> <<9:181-191>> <<module>> <<VARIABLE>> <<LINK>>
+<<UndefinedVariableInTemplate>> <<9:192-219>> <<type>> <<VARIABLE>> <<LINK>>
+<<undefined_var_error>> <<21:581-600>> <<UndefinedVariableInTemplate>> <<VARIABLE>> <<LINK>>
+<<expected_str>> <<21:605-617>> <<str>> <<VARIABLE>> <<LINK>>

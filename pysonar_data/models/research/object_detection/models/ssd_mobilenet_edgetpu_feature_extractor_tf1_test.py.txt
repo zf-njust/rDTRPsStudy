@@ -1,0 +1,16 @@
+<<unittest>> <<16:768-776>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SsdMobilenetEdgeTPUFeatureExtractorTest>> <<25:1103-1142>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_get_input_sizes>> <<29:1260-1276>> <<function>> <<METHOD>> <<ANCHOR>>
+<<_create_feature_extractor>> <<33:1369-1394>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<33:1395-1398>> <<SsdMobilenetEdgeTPUFeatureExtractorTest>> <<PARAMETER>> <<ANCHOR>>
+<<depth_multiplier>> <<34:1434-1437>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pad_to_multiple>> <<35:1485-1488>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<use_explicit_padding>> <<36:1535-1538>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<use_keras>> <<37:1596-1599>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<min_depth>> <<53:2235-2244>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<29:1277-1280>> <<SsdMobilenetEdgeTPUFeatureExtractorTest>> <<PARAMETER>> <<ANCHOR>>
+<<depth_multiplier>> <<57:2395-2411>> <<?>> <<VARIABLE>> <<LINK>>
+<<min_depth>> <<58:2430-2439>> <<int>> <<VARIABLE>> <<LINK>>
+<<pad_to_multiple>> <<59:2458-2473>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<60:2492-2496>> <<SsdMobilenetEdgeTPUFeatureExtractorTest>> <<VARIABLE>> <<LINK>>
+<<use_explicit_padding>> <<61:2556-2576>> <<?>> <<VARIABLE>> <<LINK>>

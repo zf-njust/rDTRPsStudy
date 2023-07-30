@@ -1,0 +1,17 @@
+<<josephus>> <<12:322-330>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<int_list>> <<12:331-334>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<skip>> <<12:341-344>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<skip>> <<13:353-357>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<idx>> <<14:421-424>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<len_list>> <<15:434-442>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<idx>> <<17:495-498>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<len_list>> <<19:595-603>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<skip>> <<13:360-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<int_list>> <<15:450-458>> <<?>> <<VARIABLE>> <<LINK>>
+<<len_list>> <<16:472-480>> <<int>> <<VARIABLE>> <<LINK>>
+<<skip>> <<17:502-506>> <<int>> <<VARIABLE>> <<LINK>>
+<<idx>> <<17:509-512>> <<int>> <<VARIABLE>> <<LINK>>
+<<len_list>> <<17:516-524>> <<int>> <<VARIABLE>> <<LINK>>
+<<int_list>> <<18:568-576>> <<?>> <<VARIABLE>> <<LINK>>
+<<idx>> <<18:581-584>> <<int>> <<VARIABLE>> <<LINK>>
+<<len_list>> <<19:595-603>> <<int>> <<VARIABLE>> <<LINK>>

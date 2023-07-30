@@ -1,0 +1,10 @@
+<<version_info>> <<9:278-290>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<10:305-316>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__changeset__>> <<11:329-342>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<13:368-375>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<spawn>> <<50:1205-1210>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spawn_later>> <<51:1229-1240>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spawn_link>> <<52:1265-1275>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spawn_link_value>> <<53:1299-1315>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<spawn_link_exception>> <<54:1345-1365>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<60:1604-1611>> <<list>> <<VARIABLE>> <<LINK>>

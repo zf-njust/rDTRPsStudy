@@ -1,0 +1,10 @@
+<<official>> <<20:728-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<20:737-745>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hyperparams>> <<20:746-757>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BERT2BERTConfig>> <<24:812-827>> <<type>> <<CLASS>> <<ANCHOR>>
+<<NHNetConfig>> <<68:2064-2075>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UNITTEST_CONFIG>> <<84:2674-2689>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<base_config>> <<20:765-776>> <<module>> <<VARIABLE>> <<LINK>>
+<<base_config>> <<24:828-839>> <<module>> <<VARIABLE>> <<LINK>>
+<<Config>> <<24:840-846>> <<type>> <<VARIABLE>> <<LINK>>
+<<BERT2BERTConfig>> <<68:2076-2091>> <<type>> <<VARIABLE>> <<LINK>>

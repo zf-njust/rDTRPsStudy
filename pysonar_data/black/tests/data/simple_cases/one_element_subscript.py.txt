@@ -1,0 +1,8 @@
+<<b>> <<4:92-93>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<8:194-195>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<small_list>> <<11:277-287>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<list_of_types>> <<12:296-309>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<b>> <<18:432-433>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<25:547-548>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<small_list>> <<31:643-653>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<list_of_types>> <<34:670-683>> <<list>> <<SCOPE>> <<ANCHOR>>

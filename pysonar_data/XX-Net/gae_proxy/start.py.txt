@@ -1,0 +1,14 @@
+<<__file__>> <<8:93-101>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__file__>> <<10:165-173>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<current_path>> <<12:226-238>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<proxy>> <<14:313-319>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<19:354-358>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<12:207-210>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<__file__>> <<10:149-157>> <<str>> <<VARIABLE>> <<LINK>>
+<<__file__>> <<12:213-221>> <<str>> <<VARIABLE>> <<LINK>>
+<<__file__>> <<13:273-281>> <<{str||?}>> <<VARIABLE>> <<LINK>>
+<<current_path>> <<14:301-313>> <<str>> <<VARIABLE>> <<LINK>>
+<<main>> <<-1:481-485>> <<function>> <<VARIABLE>> <<LINK>>
+<<proxy>> <<20:381-387>> <<module>> <<VARIABLE>> <<LINK>>
+<<main>> <<20:388-392>> <<function>> <<VARIABLE>> <<LINK>>
+<<x>> <<12:210-211>> <<?>> <<VARIABLE>> <<LINK>>

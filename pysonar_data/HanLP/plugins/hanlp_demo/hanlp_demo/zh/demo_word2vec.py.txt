@@ -1,0 +1,12 @@
+<<word2vec>> <<7:98-106>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<vec>> <<8:182-185>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<word2vec>> <<8:188-196>> <<?>> <<VARIABLE>> <<LINK>>
+<<vec>> <<9:210-213>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<11:262-270>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<11:282-290>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<12:347-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<12:367-375>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<15:418-426>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<19:541-549>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<21:617-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<word2vec>> <<23:690-698>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<left_name>> <<4:40-49>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<right_name>> <<116:1714-1724>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<random_name>> <<182:2633-2644>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<left_i>> <<183:2659-2665>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<right_i>> <<184:2702-2709>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<left_name>> <<183:2682-2691>> <<list>> <<VARIABLE>> <<LINK>>
+<<right_name>> <<184:2726-2736>> <<list>> <<VARIABLE>> <<LINK>>

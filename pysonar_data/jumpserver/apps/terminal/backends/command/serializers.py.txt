@@ -1,0 +1,10 @@
+<<SessionCommandSerializer>> <<5:75-99>> <<type>> <<CLASS>> <<ANCHOR>>
+<<id>> <<8:183-185>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<user>> <<9:231-235>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<asset>> <<10:280-285>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<system_user>> <<11:331-342>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<input>> <<12:387-392>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<output>> <<13:438-444>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<session>> <<14:509-516>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<org_id>> <<15:561-567>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<timestamp>> <<16:675-684>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

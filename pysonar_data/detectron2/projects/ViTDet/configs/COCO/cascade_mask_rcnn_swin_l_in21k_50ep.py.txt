@@ -1,0 +1,10 @@
+<<cascade_mask_rcnn_swin_b_in21k_50ep>> <<1:6-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lr_multiplier>> <<3:73-86>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<4:93-98>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<5:105-110>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<6:117-126>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<9:134-139>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<10:183-188>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<11:230-235>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<12:272-277>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<15:330-335>> <<?>> <<VARIABLE>> <<LINK>>

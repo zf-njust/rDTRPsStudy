@@ -1,0 +1,17 @@
+<<checkloss_hook>> <<2:55-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mean_teacher_hook>> <<3:105-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<memory_profiler_hook>> <<4:153-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipeline_switch_hook>> <<6:260-280>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<set_epoch_info_hook>> <<7:314-333>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sync_norm_hook>> <<8:365-379>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<9:407-412>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<yolox_mode_switch_hook>> <<11:532-554>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<13:585-592>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<CheckInvalidLossHook>> <<2:77-97>> <<type>> <<VARIABLE>> <<LINK>>
+<<MeanTeacherHook>> <<3:130-145>> <<type>> <<VARIABLE>> <<LINK>>
+<<MemoryProfilerHook>> <<4:181-199>> <<type>> <<VARIABLE>> <<LINK>>
+<<PipelineSwitchHook>> <<6:288-306>> <<type>> <<VARIABLE>> <<LINK>>
+<<SetEpochInfoHook>> <<7:341-357>> <<type>> <<VARIABLE>> <<LINK>>
+<<SyncNormHook>> <<8:387-399>> <<type>> <<VARIABLE>> <<LINK>>
+<<trigger_visualization_hook>> <<9:420-446>> <<function>> <<VARIABLE>> <<LINK>>
+<<YOLOXModeSwitchHook>> <<11:562-581>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<stderr>> <<7:142-148>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<33:1633-1643>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<41:1978-1998>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<stderr>> <<33:1644-1647>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<34:1709-1715>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<35:1779-1785>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<37:1894-1900>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<38:1960-1966>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def _async_response(self, t, msg, num):\n        if t == CMD_STATUS:\n            # save exception and re-raise it on next file operation\n            try:\n                self.sftp._convert_status(msg)\n            except Exception as e:\n                self._saved_exception = e\n            return\n        if t != CMD_DATA:\n            raise SFTPError(\"Expected data\")\n        data = msg.get_string()\n        while True:\n            with self._prefetch_lock:\n                # spin if in race with _prefetch_thread\n                if num in self._prefetch_extents:\n                    offset, length = self._prefetch_extents[num]\n                    self._prefetch_data[offset] = data\n                    del self._prefetch_extents[num]\n                    if len(self._prefetch_extents) == 0:\n                        self._prefetch_done = True\n                    break",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

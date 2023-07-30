@@ -1,0 +1,9 @@
+<<_Ar>> <<6:102-105>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:118-123>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:136-145>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ArVr>> <<11:178-182>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:194-199>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Sumerian>> <<15:225-233>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:245-250>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Ar>> <<11:183-186>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Ar>> <<15:234-237>> <<type>> <<VARIABLE>> <<LINK>>

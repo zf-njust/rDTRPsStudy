@@ -1,0 +1,12 @@
+<<official>> <<19:685-693>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<19:694-702>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<20:728-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<20:737-743>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<20:744-751>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Hourglass>> <<24:804-813>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Backbone>> <<34:1043-1051>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hyperparams>> <<19:710-721>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<20:759-768>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<24:814-825>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<34:1052-1061>> <<module>> <<VARIABLE>> <<LINK>>
+<<Backbone>> <<34:1062-1070>> <<type>> <<VARIABLE>> <<LINK>>

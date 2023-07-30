@@ -1,0 +1,8 @@
+<<__future__>> <<5:87-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<7:171-178>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test>> <<7:179-183>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<all>> <<12:410-413>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<5:105-120>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<5:122-130>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<5:132-146>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<with_statement>> <<5:148-162>> <<_Feature>> <<VARIABLE>> <<LINK>>

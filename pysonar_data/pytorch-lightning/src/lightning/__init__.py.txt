@@ -1,0 +1,10 @@
+<<_logger>> <<6:145-152>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_console>> <<9:218-226>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<formatter>> <<12:289-298>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<39:1675-1682>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<_logger>> <<7:184-191>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<10:254-262>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<13:350-358>> <<?>> <<VARIABLE>> <<LINK>>
+<<formatter>> <<13:372-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<_logger>> <<14:384-391>> <<?>> <<VARIABLE>> <<LINK>>
+<<_console>> <<14:403-411>> <<?>> <<VARIABLE>> <<LINK>>

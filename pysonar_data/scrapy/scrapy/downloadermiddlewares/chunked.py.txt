@@ -1,0 +1,17 @@
+<<scrapy>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<1:12-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<1:18-22>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ChunkedTransferMiddleware>> <<4:65-90>> <<type>> <<CLASS>> <<ANCHOR>>
+<<process_response>> <<9:266-282>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:283-286>> <<ChunkedTransferMiddleware>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<9:289-292>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<9:298-301>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<spider>> <<9:308-311>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<body>> <<11:398-402>> <<{None||str}>> <<VARIABLE>> <<ANCHOR>>
+<<decode_chunked_transfer>> <<1:30-53>> <<function>> <<VARIABLE>> <<LINK>>
+<<response>> <<10:329-337>> <<?>> <<VARIABLE>> <<LINK>>
+<<decode_chunked_transfer>> <<11:405-428>> <<function>> <<VARIABLE>> <<LINK>>
+<<response>> <<11:429-437>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<12:464-472>> <<?>> <<VARIABLE>> <<LINK>>
+<<body>> <<12:486-490>> <<{None||str}>> <<VARIABLE>> <<LINK>>
+<<response>> <<13:508-516>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<__future__>> <<17:683-693>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:723-733>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:756-766>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Identity>> <<22:800-808>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__call__>> <<25:888-896>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:897-900>> <<Identity>> <<PARAMETER>> <<ANCHOR>>
+<<features>> <<25:903-906>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<is_training>> <<25:913-916>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:701-716>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<18:741-749>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:774-788>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<features>> <<27:990-998>> <<?>> <<VARIABLE>> <<LINK>>

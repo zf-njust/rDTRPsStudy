@@ -1,0 +1,10 @@
+{
+  "code": "def predict(self, text: Union[str, List[str]], topk=False, prob=False, max_len=None, **kwargs):\n        \"\"\"\n        Classify text.\n\n        Args:\n            text: A document or a list of documents.\n            topk: ``True`` or ``int`` to return the top-k labels.\n            prob: Return also probabilities.\n            max_len: Strip long document into ``max_len`` characters for faster prediction.\n            **kwargs: Not used\n\n        Returns:\n            Classification results.\n        \"\"\"\n        num_labels = len(self._model.get_labels())\n        flat = isinstance(text, str)\n        if flat:\n            text = [text]\n        if not isinstance(topk, list):\n            topk = [topk] * len(text)\n        if not isinstance(prob, list):\n            prob = [prob] * len(text)\n        if max_len:\n            text = [x[:max_len] for x in text]\n        text = [x.replace('\\n', ' ') for x in text]\n        batch_labels, batch_probs = self._model.predict(text, k=num_labels)\n        results = []\n        for labels, probs, k, p in zip(batch_labels, batch_probs, topk, prob):\n            labels = [self._strip_prefix(x) for x in labels]\n            if k is False:\n                labels = labels[0]\n            elif k is True:\n                pass\n            elif k:\n                labels = labels[:k]\n            if p:\n                probs = probs.tolist()\n                if k is False:\n                    result = labels, probs[0]\n                else:\n                    result = dict(zip(labels, probs))\n            else:\n                result = labels\n            results.append(result)\n        if flat:\n            results = results[0]\n        return results",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 41,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<<placeholdername>> <<1:5-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<LitApp>> <<6:87-93>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<7:121-129>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<12:266-269>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:130-133>> <<LitApp>> <<PARAMETER>> <<ANCHOR>>
+<<component_a>> <<9:187-198>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<component_b>> <<10:228-239>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<app>> <<17:346-349>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<12:270-273>> <<LitApp>> <<PARAMETER>> <<ANCHOR>>
+<<LitApp>> <<17:367-373>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:182-186>> <<LitApp>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:223-227>> <<LitApp>> <<VARIABLE>> <<LINK>>
+<<self>> <<13:286-290>> <<LitApp>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:318-322>> <<LitApp>> <<VARIABLE>> <<LINK>>

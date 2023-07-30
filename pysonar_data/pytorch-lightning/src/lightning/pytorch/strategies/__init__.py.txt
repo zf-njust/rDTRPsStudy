@@ -1,0 +1,5 @@
+<<_STRATEGIES_BASE_MODULE>> <<25:1294-1317>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<StrategyRegistry>> <<26:1352-1368>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<29:1464-1471>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<StrategyRegistry>> <<27:1418-1434>> <<?>> <<VARIABLE>> <<LINK>>
+<<_STRATEGIES_BASE_MODULE>> <<27:1436-1459>> <<str>> <<VARIABLE>> <<LINK>>

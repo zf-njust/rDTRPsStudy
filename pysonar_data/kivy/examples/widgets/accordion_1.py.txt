@@ -1,0 +1,17 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<accordion>> <<1:14-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:62-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<2:67-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<label>> <<2:71-76>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<3:96-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<3:101-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AccordionApp>> <<6:127-139>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<7:155-160>> <<function>> <<METHOD>> <<ANCHOR>>
+<<Accordion>> <<1:31-40>> <<type>> <<VARIABLE>> <<LINK>>
+<<AccordionItem>> <<1:42-55>> <<type>> <<VARIABLE>> <<LINK>>
+<<Label>> <<2:84-89>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<3:112-115>> <<type>> <<VARIABLE>> <<LINK>>
+<<App>> <<6:140-143>> <<type>> <<VARIABLE>> <<LINK>>
+<<AccordionApp>> <<17:441-453>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<17:456-459>> <<function>> <<VARIABLE>> <<LINK>>

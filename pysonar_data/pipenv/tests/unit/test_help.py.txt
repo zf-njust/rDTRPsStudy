@@ -1,0 +1,3 @@
+<<test_help>> <<10:95-104>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<output>> <<11:112-118>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<output>> <<15:267-273>> <<?>> <<VARIABLE>> <<LINK>>

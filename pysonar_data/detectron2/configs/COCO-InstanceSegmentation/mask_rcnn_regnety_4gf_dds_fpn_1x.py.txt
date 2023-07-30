@@ -1,0 +1,8 @@
+<<detectron2>> <<7:248-258>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<7:259-265>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<8:293-303>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<8:304-312>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbone>> <<8:313-321>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<9:342-352>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<9:353-361>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbone>> <<9:362-370>> <<module>> <<VARIABLE>> <<ANCHOR>>

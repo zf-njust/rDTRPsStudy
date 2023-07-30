@@ -1,0 +1,10 @@
+{
+  "code": "def tmppath(path=None, include_unix_username=True):\n    \"\"\"\n    @param path: target path for which it is needed to generate temporary location\n    @type path: str\n    @type include_unix_username: bool\n    @rtype: str\n\n    Note that include_unix_username might work on windows too.\n    \"\"\"\n    addon = \"luigitemp-%08d\" % random.randrange(1e9)\n    temp_dir = '/tmp'  # default tmp dir if none is specified in config\n\n    # 1. Figure out to which temporary directory to place\n    configured_hdfs_tmp_dir = hdfs().tmp_dir\n    if configured_hdfs_tmp_dir is not None:\n        # config is superior\n        base_dir = configured_hdfs_tmp_dir\n    elif path is not None:\n        # need to copy correct schema and network location\n        parsed = urlparse(path)\n        base_dir = urlunparse((parsed.scheme, parsed.netloc, temp_dir, '', '', ''))\n    else:\n        # just system temporary directory\n        base_dir = temp_dir\n\n    # 2. Figure out what to place\n    if path is not None:\n        if path.startswith(temp_dir + '/'):\n            # Not 100%, but some protection from directories like /tmp/tmp/file\n            subdir = path[len(temp_dir):]\n        else:\n            # Protection from /tmp/hdfs:/dir/file\n            parsed = urlparse(path)\n            subdir = parsed.path\n        subdir = subdir.lstrip('/') + '-'\n    else:\n        # just return any random temporary location\n        subdir = ''\n\n    if include_unix_username:\n        subdir = os.path.join(getpass.getuser(), subdir)\n\n    return os.path.join(base_dir, subdir + addon)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 43,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

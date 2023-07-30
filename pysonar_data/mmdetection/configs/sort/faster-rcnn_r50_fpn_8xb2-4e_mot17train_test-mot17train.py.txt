@@ -1,0 +1,10 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<data_root>> <<3:85-94>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<4:112-128>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<6:203-217>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_dataloader>> <<8:292-307>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_evaluator>> <<10:328-341>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_evaluator>> <<11:408-422>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_dataloader>> <<8:310-324>> <<dict>> <<VARIABLE>> <<LINK>>
+<<data_root>> <<10:358-367>> <<str>> <<VARIABLE>> <<LINK>>
+<<val_evaluator>> <<11:425-438>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+{
+    "code": "def test_constant_strategy_regressor():\n\n    random_state = np.random.RandomState(seed=1)\n\n    X = [[0]] * 5  # ignored\n    y = random_state.randn(5)\n\n    reg = DummyRegressor(strategy=\"constant\", constant=[43])\n    reg.fit(X, y)\n    assert_array_equal(reg.predict(X), [43] * len(X))\n\n    reg = DummyRegressor(strategy=\"constant\", constant=43)\n    reg.fit(X, y)\n    assert_array_equal(reg.predict(X), [43] * len(X))",
+    "smell": []
+}

@@ -1,0 +1,11 @@
+<<clear>> <<3:39-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CacheCommand>> <<6:81-93>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<8:111-115>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<description>> <<9:131-142>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<commands>> <<11:183-191>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<13:227-233>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:234-237>> <<CacheCommand>> <<PARAMETER>> <<ANCHOR>>
+<<CacheClearCommand>> <<3:52-69>> <<type>> <<VARIABLE>> <<LINK>>
+<<CacheClearCommand>> <<11:195-212>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:257-261>> <<CacheCommand>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:275-279>> <<CacheCommand>> <<VARIABLE>> <<LINK>>

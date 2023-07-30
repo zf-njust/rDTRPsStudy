@@ -1,0 +1,13 @@
+<<__future__>> <<17:648-658>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:688-698>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:721-731>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fire>> <<21:762-766>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fire>> <<22:791-795>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DocstringsFuzzTest>> <<30:962-980>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_fuzz_parse>> <<35:1138-1153>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1154-1157>> <<DocstringsFuzzTest>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<35:1160-1163>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:666-681>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<18:706-714>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:739-753>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<value>> <<36:1190-1195>> <<?>> <<VARIABLE>> <<LINK>>

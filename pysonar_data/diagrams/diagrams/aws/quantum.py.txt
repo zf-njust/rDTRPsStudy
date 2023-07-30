@@ -1,0 +1,9 @@
+<<_Quantum>> <<6:102-110>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:123-128>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:146-155>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Braket>> <<11:193-199>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:216-221>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<QuantumTechnologies>> <<15:248-267>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:284-289>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Quantum>> <<11:200-208>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Quantum>> <<15:268-276>> <<type>> <<VARIABLE>> <<LINK>>

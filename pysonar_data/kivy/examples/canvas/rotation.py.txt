@@ -1,0 +1,12 @@
+<<kivy>> <<10:211-215>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<10:216-219>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<11:237-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<11:242-246>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kv>> <<13:265-267>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<RotationApp>> <<30:610-621>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<31:637-642>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<10:227-230>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<11:254-261>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<30:622-625>> <<type>> <<VARIABLE>> <<LINK>>
+<<RotationApp>> <<35:695-706>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<35:709-712>> <<function>> <<VARIABLE>> <<LINK>>

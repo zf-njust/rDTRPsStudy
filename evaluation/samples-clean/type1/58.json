@@ -1,0 +1,10 @@
+{
+  "code": "def add_group_vars_file(self, path, loader):\n        '''\n        Loads and caches a host_vars file in the _host_vars_files dict,\n        where the key to that dictionary is the basename of the file, minus\n        the extension, for matching against a given inventory host name\n        '''\n\n        name = self._get_inventory_basename(path)\n        if name not in self._group_vars_files:\n            self._group_vars_files[name] = []\n\n        for entry in self._group_vars_files[name]:\n            if entry.path == path:\n                data = entry\n                break\n        else:\n            data = self._load_inventory_file(path, loader)\n            if data:\n                self._group_vars_files[name].append(data)\n\n        return data",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 10,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

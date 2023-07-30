@@ -1,0 +1,2 @@
+<<RepositoryError>> <<1:6-21>> <<type>> <<CLASS>> <<ANCHOR>>
+<<PackageNotFound>> <<6:57-72>> <<type>> <<CLASS>> <<ANCHOR>>

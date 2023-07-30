@@ -1,0 +1,4 @@
+{
+    "code": "def _dump_results(self, result):\n        '''Return the text to output for a result.'''\n\n        # Enable JSON identation\n        result['_ansible_verbose_always'] = True\n\n        save = {}\n        for key in ['stdout', 'stdout_lines', 'stderr', 'stderr_lines', 'msg']:\n            if key in result:\n                save[key] = result.pop(key)\n\n        output = CallbackModule_default._dump_results(self, result)\n\n        for key in ['stdout', 'stderr', 'msg']:\n            if key in save and save[key]:\n                output += '\\n\\n%s:\\n\\n%s\\n' % (key.upper(), save[key])\n\n        for key, value in save.items():\n            result[key] = value\n\n        return output",
+    "smell": []
+}

@@ -1,0 +1,10 @@
+{
+  "code": "def patch_instances(fields):\\n    \"\"\"\\n    A contextmanager, under which the Instances class in detectron2 is replaced\\n    by a statically-typed scriptable class, defined by `fields`.\\n    See more in `scripting_with_instances`.\\n    \"\"\"\\n\\n    with tempfile.TemporaryDirectory(prefix=\"detectron2\") as dir, tempfile.NamedTemporaryFile(\\n        mode=\"w\", encoding=\"utf-8\", suffix=\".py\", dir=dir, delete=False\\n    ) as f:\\n        try:\\n            # Objects that use Instances should not reuse previously-compiled\\n            # results in cache, because `Instances` could be a new class each time.\\n            _clear_jit_cache()\\n\\n            cls_name, s = _gen_instance_module(fields)\\n            f.write(s)\\n            f.flush()\\n            f.close()\\n\\n            module = _import(f.name)\\n            new_instances = getattr(module, cls_name)\\n            _ = torch.jit.script(new_instances)\\n            # let torchscript think Instances was scripted already\\n            Instances.__torch_script_class__ = True\\n            # let torchscript find new_instances when looking for the jit type of Instances\\n            Instances._jit_override_qualname = torch._jit_internal._qualified_name(new_instances)\\n\\n            _add_instances_conversion_methods(new_instances)\\n            yield new_instances\\n        finally:\\n            try:\\n                del Instances.__torch_script_class__\\n                del Instances._jit_override_qualname\\n            except AttributeError:\\n                pass\\n            sys.modules.pop(module.__name__)",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 34,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

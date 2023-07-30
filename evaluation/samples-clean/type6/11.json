@@ -1,0 +1,10 @@
+{
+  "code": "def loads(self, request, data, body_file=None):\n        # Short circuit if we've been given an empty set of data\n        if not data:\n            return\n\n        # Determine what version of the serializer the data was serialized\n        # with\n        try:\n            ver, data = data.split(b\",\", 1)\n        except ValueError:\n            ver = b\"cc=0\"\n\n        # Make sure that our \"ver\" is actually a version and isn't a false\n        # positive from a , being in the data stream.\n        if ver[:3] != b\"cc=\":\n            data = ver + data\n            ver = b\"cc=0\"\n\n        # Get the version number out of the cc=N\n        ver = ver.split(b\"=\", 1)[-1].decode(\"ascii\")\n\n        # Dispatch to the actual load method for the given version\n        try:\n            return getattr(self, \"_loads_v{}\".format(ver))(request, data, body_file)\n\n        except AttributeError:\n            # This is a version we don't have a loads function for, so we'll\n            # just treat it as a miss and return None\n            return",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 24,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

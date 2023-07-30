@@ -1,0 +1,15 @@
+<<__future__>> <<3:78-88>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<remove_deleted_group>> <<9:187-207>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<15:418-427>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<17:458-470>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<21:536-546>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<9:208-211>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<9:214-217>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<db_alias>> <<10:235-243>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<group_model>> <<11:282-293>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unicode_literals>> <<3:96-112>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<remove_deleted_group>> <<23:595-615>> <<function>> <<VARIABLE>> <<LINK>>
+<<schema_editor>> <<10:246-259>> <<?>> <<VARIABLE>> <<LINK>>
+<<apps>> <<11:296-300>> <<?>> <<VARIABLE>> <<LINK>>
+<<group_model>> <<12:338-349>> <<?>> <<VARIABLE>> <<LINK>>
+<<db_alias>> <<12:364-372>> <<?>> <<VARIABLE>> <<LINK>>

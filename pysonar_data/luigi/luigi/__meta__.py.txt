@@ -1,0 +1,5 @@
+<<__author__>> <<7:90-100>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__contact__>> <<8:124-135>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<9:174-185>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<10:210-221>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__status__>> <<11:233-243>> <<str>> <<SCOPE>> <<ANCHOR>>

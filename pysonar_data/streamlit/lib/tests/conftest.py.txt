@@ -1,0 +1,3 @@
+<<__copyright__>> <<7:179-192>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONFIG_FILE_CONTENTS>> <<17:414-434>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONFIG_FILE_CONTENTS>> <<26:561-581>> <<str>> <<VARIABLE>> <<LINK>>

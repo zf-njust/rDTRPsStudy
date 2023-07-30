@@ -1,0 +1,10 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<3:23-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_bad_request_response>> <<6:51-76>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<6:77-80>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lines>> <<7:95-100>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<9:133-136>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<9:113-116>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<24:565-568>> <<?>> <<VARIABLE>> <<LINK>>
+<<lines>> <<25:649-654>> <<list>> <<VARIABLE>> <<LINK>>
+<<lines>> <<26:723-728>> <<list>> <<VARIABLE>> <<LINK>>

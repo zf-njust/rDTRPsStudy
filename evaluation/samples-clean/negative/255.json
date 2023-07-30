@@ -1,0 +1,4 @@
+{
+    "code": "def get_for_user(self, user, scope=None):\n        \"\"\"\n        Returns a set of all organizations a user has access to.\n        \"\"\"\n        from sentry.models import OrganizationMember\n\n        if not user.is_authenticated():\n            return []\n\n        if settings.SENTRY_PUBLIC and scope is None:\n            return list(self.filter(status=OrganizationStatus.VISIBLE))\n\n        results = list(OrganizationMember.objects.filter(\n            user=user,\n            organization__status=OrganizationStatus.VISIBLE,\n        ).select_related('organization'))\n\n        if scope is not None:\n            return [\n                r.organization for r in results\n                if scope not in r.get_scopes()\n            ]\n        return [r.organization for r in results]",
+    "smell": []
+}

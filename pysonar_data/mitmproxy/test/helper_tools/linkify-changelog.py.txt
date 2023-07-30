@@ -1,0 +1,12 @@
+<<pathlib>> <<3:40-47>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<changelog>> <<5:63-72>> <<{function||str}>> <<SCOPE>> <<ANCHOR>>
+<<text>> <<7:123-127>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<text>> <<8:168-172>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<n>> <<8:174-175>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<3:55-59>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<5:75-79>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<5:90-96>> <<function>> <<VARIABLE>> <<LINK>>
+<<changelog>> <<7:130-139>> <<{function||str}>> <<VARIABLE>> <<LINK>>
+<<text>> <<11:297-301>> <<?>> <<VARIABLE>> <<LINK>>
+<<changelog>> <<13:307-316>> <<{function||str}>> <<VARIABLE>> <<LINK>>
+<<text>> <<13:328-332>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<struct_unpack>> <<3:21-34>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<data>> <<3:35-38>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<counter>> <<3:41-44>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fmt>> <<3:50-53>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fmt_size>> <<4:61-69>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<fmt>> <<4:88-91>> <<?>> <<VARIABLE>> <<LINK>>
+<<counter>> <<5:106-113>> <<?>> <<VARIABLE>> <<LINK>>
+<<fmt_size>> <<5:114-122>> <<int>> <<VARIABLE>> <<LINK>>
+<<fmt>> <<5:142-145>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<5:147-151>> <<?>> <<VARIABLE>> <<LINK>>
+<<counter>> <<5:152-159>> <<?>> <<VARIABLE>> <<LINK>>
+<<counter>> <<5:160-167>> <<?>> <<VARIABLE>> <<LINK>>
+<<fmt_size>> <<5:168-176>> <<int>> <<VARIABLE>> <<LINK>>

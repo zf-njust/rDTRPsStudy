@@ -1,0 +1,6 @@
+<<A>> <<1:6-7>> <<type>> <<CLASS>> <<ANCHOR>>
+<<f>> <<2:18-19>> <<function>> <<METHOD>> <<ANCHOR>>
+<<A>> <<9:137-138>> <<type>> <<CLASS>> <<ANCHOR>>
+<<f>> <<10:149-150>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<2:20-23>> <<A>> <<PARAMETER>> <<ANCHOR>>
+<<line>> <<3:40-44>> <<int>> <<SCOPE>> <<ANCHOR>>

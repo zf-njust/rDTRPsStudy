@@ -1,0 +1,10 @@
+<<version>> <<7:89-96>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<9:113-129>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<docs_extras>> <<25:556-567>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_extras>> <<30:678-689>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<15:226-242>> <<list>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<17:273-289>> <<list>> <<VARIABLE>> <<LINK>>
+<<version>> <<36:766-773>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<66:1962-1978>> <<list>> <<VARIABLE>> <<LINK>>
+<<docs_extras>> <<68:2017-2028>> <<list>> <<VARIABLE>> <<LINK>>
+<<test_extras>> <<69:2046-2057>> <<list>> <<VARIABLE>> <<LINK>>

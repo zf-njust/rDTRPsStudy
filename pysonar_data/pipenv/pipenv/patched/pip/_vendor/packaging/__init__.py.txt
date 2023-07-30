@@ -1,0 +1,10 @@
+<<__about__>> <<5:187-196>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<16:338-345>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<6:210-220>> <<str>> <<VARIABLE>> <<LINK>>
+<<__copyright__>> <<7:226-239>> <<str>> <<VARIABLE>> <<LINK>>
+<<__email__>> <<8:245-254>> <<str>> <<VARIABLE>> <<LINK>>
+<<__license__>> <<9:260-271>> <<str>> <<VARIABLE>> <<LINK>>
+<<__summary__>> <<10:277-288>> <<str>> <<VARIABLE>> <<LINK>>
+<<__title__>> <<11:294-303>> <<str>> <<VARIABLE>> <<LINK>>
+<<__uri__>> <<12:309-316>> <<str>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<13:322-333>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<mbcharsetprober>> <<28:1171-1186>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<codingstatemachine>> <<29:1223-1241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardistribution>> <<30:1274-1290>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mbcssm>> <<31:1330-1336>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CP949Prober>> <<34:1365-1376>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<35:1410-1418>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<get_charset_name>> <<43:1735-1751>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1419-1422>> <<CP949Prober>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<43:1752-1755>> <<CP949Prober>> <<PARAMETER>> <<ANCHOR>>
+<<MultiByteCharSetProber>> <<28:1194-1216>> <<type>> <<VARIABLE>> <<LINK>>
+<<CodingStateMachine>> <<29:1249-1267>> <<type>> <<VARIABLE>> <<LINK>>
+<<EUCKRDistributionAnalysis>> <<30:1298-1323>> <<type>> <<VARIABLE>> <<LINK>>
+<<CP949SMModel>> <<31:1344-1356>> <<dict>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<34:1377-1399>> <<type>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<36:1434-1456>> <<type>> <<VARIABLE>> <<LINK>>
+<<__init__>> <<36:1457-1465>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1466-1470>> <<CP949Prober>> <<VARIABLE>> <<LINK>>

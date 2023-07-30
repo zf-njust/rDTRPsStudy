@@ -1,0 +1,2 @@
+<<coco_panoptic>> <<3:109-122>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<register_coco_panoptic_separated>> <<3:130-162>> <<function>> <<VARIABLE>> <<LINK>>

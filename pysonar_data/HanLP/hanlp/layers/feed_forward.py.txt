@@ -1,0 +1,14 @@
+<<FeedForward>> <<11:202-213>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<12:264-272>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<12:273-276>> <<FeedForward>> <<PARAMETER>> <<ANCHOR>>
+<<input_dim>> <<12:279-282>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<num_layers>> <<12:295-298>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<hidden_dims>> <<12:312-315>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<activations>> <<13:366-369>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<dropout>> <<13:402-405>> <<float>> <<PARAMETER>> <<ANCHOR>>
+<<input_dim>> <<14:479-488>> <<?>> <<VARIABLE>> <<LINK>>
+<<num_layers>> <<14:490-500>> <<?>> <<VARIABLE>> <<LINK>>
+<<hidden_dims>> <<14:502-513>> <<?>> <<VARIABLE>> <<LINK>>
+<<activations>> <<14:515-526>> <<?>> <<VARIABLE>> <<LINK>>
+<<dropout>> <<14:528-535>> <<float>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:569-573>> <<FeedForward>> <<VARIABLE>> <<LINK>>

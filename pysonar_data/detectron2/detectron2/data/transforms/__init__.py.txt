@@ -1,0 +1,8 @@
+<<k>> <<8:289-290>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<8:272-279>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<detectron2>> <<11:347-357>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<11:358-363>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<k>> <<8:318-319>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<8:289-290>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<8:283-284>> <<type>> <<VARIABLE>> <<LINK>>
+<<__all__>> <<13:443-450>> <<list>> <<VARIABLE>> <<LINK>>

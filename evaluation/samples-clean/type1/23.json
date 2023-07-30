@@ -1,0 +1,10 @@
+{
+  "code": "def _get_handler(settings):\n    \"\"\" Return a log handler object according to settings \"\"\"\n    filename = settings.get('LOG_FILE')\n    if filename:\n        encoding = settings.get('LOG_ENCODING')\n        handler = logging.FileHandler(filename, encoding=encoding)\n    elif settings.getbool('LOG_ENABLED'):\n        handler = logging.StreamHandler()\n    else:\n        handler = logging.NullHandler()\n\n    formatter = logging.Formatter(\n        fmt=settings.get('LOG_FORMAT'),\n        datefmt=settings.get('LOG_DATEFORMAT')\n    )\n    handler.setFormatter(formatter)\n    handler.setLevel(settings.get('LOG_LEVEL'))\n    if settings.getbool('LOG_SHORT_NAMES'):\n        handler.addFilter(TopLevelFormatter(['scrapy']))\n    return handler",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 8,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

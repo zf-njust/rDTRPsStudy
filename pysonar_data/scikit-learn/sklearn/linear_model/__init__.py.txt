@@ -1,0 +1,10 @@
+<<bayes>> <<14:511-516>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<passive_aggressive>> <<29:1443-1461>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<passive_aggressive>> <<30:1504-1522>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<perceptron>> <<31:1564-1574>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<37:1802-1809>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BayesianRidge>> <<14:524-537>> <<type>> <<VARIABLE>> <<LINK>>
+<<ARDRegression>> <<14:539-552>> <<type>> <<VARIABLE>> <<LINK>>
+<<PassiveAggressiveClassifier>> <<29:1469-1496>> <<type>> <<VARIABLE>> <<LINK>>
+<<PassiveAggressiveRegressor>> <<30:1530-1556>> <<type>> <<VARIABLE>> <<LINK>>
+<<Perceptron>> <<31:1582-1592>> <<type>> <<VARIABLE>> <<LINK>>

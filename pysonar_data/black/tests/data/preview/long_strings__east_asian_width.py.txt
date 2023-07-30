@@ -1,0 +1,6 @@
+<<hangul>> <<4:190-196>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<hanzi>> <<6:341-346>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<japanese>> <<11:485-493>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<hangul>> <<-1:875-881>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<hanzi>> <<-1:1044-1049>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<japanese>> <<-1:1206-1214>> <<str>> <<SCOPE>> <<ANCHOR>>

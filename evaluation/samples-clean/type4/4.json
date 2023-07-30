@@ -1,0 +1,10 @@
+{
+  "code": "def __init__(self, **kwargs):\n        # Before doing anything, ensure the windows exist.\n        EventLoop.ensure_window()\n\n        # Assign the default context of the widget creation.\n        if not hasattr(self, '_context'):\n            self._context = get_current_context()\n\n        no_builder = '__no_builder' in kwargs\n        self._disabled_value = False\n        if no_builder:\n            del kwargs['__no_builder']\n        on_args = {k: v for k, v in kwargs.items() if k[:3] == 'on_'}\n        for key in on_args:\n            del kwargs[key]\n\n        self._disabled_count = 0\n\n        super(Widget, self).__init__(**kwargs)\n\n        # Create the default canvas if it does not exist.\n        if self.canvas is None:\n            self.canvas = Canvas(opacity=self.opacity)\n\n        # Apply all the styles.\n        if not no_builder:\n            rule_children = []\n            self.apply_class_lang_rules(\n                ignored_consts=self._kwargs_applied_init,\n                rule_children=rule_children)\n\n            for widget in rule_children:\n                widget.dispatch('on_kv_post', self)\n            self.dispatch('on_kv_post', self)\n\n        # Bind all the events.\n        if on_args:\n            self.bind(**on_args)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 15,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

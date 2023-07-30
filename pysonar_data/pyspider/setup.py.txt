@@ -1,0 +1,15 @@
+<<here>> <<14:326-330>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<16:432-433>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<16:440-456>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pyspider>> <<57:1168-1176>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<install_requires>> <<21:490-506>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<extras_require_all>> <<41:867-885>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<here>> <<15:391-395>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<18:459-460>> <<file>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<36:810-826>> <<list>> <<VARIABLE>> <<LINK>>
+<<extras_require_all>> <<50:1086-1104>> <<list>> <<VARIABLE>> <<LINK>>
+<<pyspider>> <<60:1217-1225>> <<module>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<60:1226-1237>> <<str>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<63:1318-1334>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<96:2388-2404>> <<list>> <<VARIABLE>> <<LINK>>
+<<extras_require_all>> <<98:2446-2464>> <<list>> <<VARIABLE>> <<LINK>>

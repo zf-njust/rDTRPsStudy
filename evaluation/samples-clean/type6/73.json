@@ -1,0 +1,10 @@
+{
+  "code": "def _inspect(self, meth, oname, namespaces=None, **kw):\n        \"\"\"Generic interface to the inspector system.\n\n        This function is meant to be called by pdef, pdoc & friends.\"\"\"\n        info = self._object_find(oname, namespaces)\n        if info.found:\n            pmethod = getattr(self.inspector, meth)\n            formatter = format_screen if info.ismagic else None\n            if meth == 'pdoc':\n                pmethod(info.obj, oname, formatter)\n            elif meth == 'pinfo':\n                pmethod(info.obj, oname, formatter, info, **kw)\n            else:\n                pmethod(info.obj, oname)\n        else:\n            print('Object `%s` not found.' % oname)\n            return 'not found'",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 7,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

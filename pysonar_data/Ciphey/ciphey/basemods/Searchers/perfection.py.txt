@@ -1,0 +1,12 @@
+<<ciphey>> <<3:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<3:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Perfection>> <<9:166-176>> <<type>> <<CLASS>> <<ANCHOR>>
+<<getParams>> <<11:216-225>> <<function>> <<METHOD>> <<ANCHOR>>
+<<findBestNode>> <<14:295-307>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<17:386-394>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<17:395-398>> <<Perfection>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<17:401-404>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:308-311>> <<Perfection>> <<PARAMETER>> <<ANCHOR>>
+<<nodes>> <<14:314-317>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<18:444-450>> <<?>> <<VARIABLE>> <<LINK>>
+<<nodes>> <<15:367-372>> <<?>> <<VARIABLE>> <<LINK>>

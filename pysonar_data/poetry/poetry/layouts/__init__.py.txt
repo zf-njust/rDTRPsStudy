@@ -1,0 +1,15 @@
+<<layout>> <<3:33-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<src>> <<4:61-64>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<standard>> <<5:89-97>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_LAYOUTS>> <<8:125-133>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<layout>> <<11:192-198>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<11:199-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Layout>> <<3:47-53>> <<type>> <<VARIABLE>> <<LINK>>
+<<SrcLayout>> <<4:72-81>> <<type>> <<VARIABLE>> <<LINK>>
+<<StandardLayout>> <<5:105-119>> <<type>> <<VARIABLE>> <<LINK>>
+<<SrcLayout>> <<8:144-153>> <<type>> <<VARIABLE>> <<LINK>>
+<<StandardLayout>> <<8:167-181>> <<type>> <<VARIABLE>> <<LINK>>
+<<name>> <<12:245-249>> <<?>> <<VARIABLE>> <<LINK>>
+<<_LAYOUTS>> <<12:257-265>> <<dict>> <<VARIABLE>> <<LINK>>
+<<_LAYOUTS>> <<15:325-333>> <<dict>> <<VARIABLE>> <<LINK>>
+<<name>> <<15:334-338>> <<?>> <<VARIABLE>> <<LINK>>

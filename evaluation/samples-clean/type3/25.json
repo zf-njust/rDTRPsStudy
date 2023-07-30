@@ -1,0 +1,10 @@
+{
+  "code": "    @property\n    def all_classifiers(self):\n        classifiers = copy.copy(self.classifiers)\n\n        # Automatically set python classifiers\n        if self.python_versions == \"*\":\n            python_constraint = parse_constraint(\"~2.7 || ^3.4\")\n        else:\n            python_constraint = self.python_constraint\n\n        for version in sorted(self.AVAILABLE_PYTHONS):\n            if len(version) == 1:\n                constraint = parse_constraint(version + \".*\")\n            else:\n                constraint = Version.parse(version)\n\n            if python_constraint.allows_any(constraint):\n                classifiers.append(\n                    \"Programming Language :: Python :: {}\".format(version)\n                )\n\n        # Automatically set license classifiers\n        if self.license:\n            classifiers.append(self.license.classifier)\n\n        classifiers = set(classifiers)\n\n        return sorted(classifiers)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 17,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

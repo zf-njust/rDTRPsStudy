@@ -1,0 +1,5 @@
+<<EndOfOctets>> <<3:43-54>> <<type>> <<CLASS>> <<ANCHOR>>
+<<defaultValue>> <<4:90-102>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<tagSet>> <<5:112-118>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<endOfOctets>> <<8:216-227>> <<EndOfOctets>> <<SCOPE>> <<ANCHOR>>
+<<EndOfOctets>> <<8:230-241>> <<type>> <<VARIABLE>> <<LINK>>

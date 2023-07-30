@@ -1,0 +1,6 @@
+<<pipenv>> <<5:39-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<5:46-52>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ruamel>> <<5:53-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configobj_walker>> <<11:178-194>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cfg>> <<11:195-198>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cfg>> <<14:346-349>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<sanic>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cli>> <<1:11-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<2:41-46>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<compat>> <<2:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<main>> <<9:173-177>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<args>> <<9:178-181>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cli>> <<10:195-198>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<OS_IS_WINDOWS>> <<2:61-74>> <<bool>> <<VARIABLE>> <<LINK>>
+<<enable_windows_color_support>> <<2:76-104>> <<function>> <<VARIABLE>> <<LINK>>
+<<OS_IS_WINDOWS>> <<5:113-126>> <<bool>> <<VARIABLE>> <<LINK>>
+<<enable_windows_color_support>> <<6:133-161>> <<function>> <<VARIABLE>> <<LINK>>
+<<main>> <<16:286-290>> <<function>> <<VARIABLE>> <<LINK>>
+<<cli>> <<11:217-220>> <<?>> <<VARIABLE>> <<LINK>>
+<<cli>> <<12:235-238>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<12:243-247>> <<?>> <<VARIABLE>> <<LINK>>

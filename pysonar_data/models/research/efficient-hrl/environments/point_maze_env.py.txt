@@ -1,0 +1,2 @@
+<<PointMazeEnv>> <<20:798-810>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MODEL_CLASS>> <<21:826-837>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

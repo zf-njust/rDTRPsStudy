@@ -1,0 +1,4 @@
+{
+    "code": "def _other_endian(typ):\n    \"\"\"Return the type with the 'other' byte order.  Simple types like\n    c_int and so on already have __ctype_be__ and __ctype_le__\n    attributes which contain the types, for more complicated types\n    arrays and structures are supported.\n    \"\"\"\n    # check _OTHER_ENDIAN attribute (present if typ is primitive type)\n    if hasattr(typ, _OTHER_ENDIAN):\n        return getattr(typ, _OTHER_ENDIAN)\n    # if typ is array\n    if isinstance(typ, _array_type):\n        return _other_endian(typ._type_) * typ._length_\n    # if typ is structure\n    if issubclass(typ, Structure):\n        return typ\n    raise TypeError(\"This type does not support other endian: %s\" % typ)",
+    "smell": []
+}

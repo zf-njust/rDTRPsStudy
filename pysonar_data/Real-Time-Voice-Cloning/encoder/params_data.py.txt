@@ -1,0 +1,10 @@
+<<mel_window_length>> <<3:21-38>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<mel_window_step>> <<4:64-79>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<mel_n_channels>> <<5:107-121>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<sampling_rate>> <<9:142-155>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<partials_n_frames>> <<11:220-237>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<inference_n_frames>> <<13:304-322>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<vad_window_length>> <<19:519-536>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<vad_moving_average_width>> <<22:738-762>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<vad_max_silence_length>> <<24:835-857>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<audio_norm_target_dBFS>> <<28:898-920>> <<int>> <<SCOPE>> <<ANCHOR>>

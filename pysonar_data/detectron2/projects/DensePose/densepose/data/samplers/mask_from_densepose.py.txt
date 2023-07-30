@@ -1,0 +1,11 @@
+<<detectron2>> <<3:59-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<structures>> <<3:70-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MaskFromDensePoseSampler>> <<8:171-195>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__call__>> <<15:407-415>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:416-419>> <<MaskFromDensePoseSampler>> <<PARAMETER>> <<ANCHOR>>
+<<instances>> <<15:422-425>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<BitMasks>> <<3:88-96>> <<type>> <<VARIABLE>> <<LINK>>
+<<Instances>> <<3:98-107>> <<type>> <<VARIABLE>> <<LINK>>
+<<instances>> <<27:900-909>> <<?>> <<VARIABLE>> <<LINK>>
+<<instances>> <<27:926-935>> <<?>> <<VARIABLE>> <<LINK>>
+<<instances>> <<27:948-957>> <<?>> <<VARIABLE>> <<LINK>>

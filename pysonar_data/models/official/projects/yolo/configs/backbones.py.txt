@@ -1,0 +1,14 @@
+<<official>> <<17:681-689>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<17:690-698>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<18:724-732>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<18:733-739>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<18:740-747>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Darknet>> <<22:800-807>> <<type>> <<CLASS>> <<ANCHOR>>
+<<YoloV7>> <<35:1116-1122>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Backbone>> <<42:1251-1259>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hyperparams>> <<17:706-717>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<18:755-764>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<22:808-819>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<35:1123-1134>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<42:1260-1269>> <<module>> <<VARIABLE>> <<LINK>>
+<<Backbone>> <<42:1270-1278>> <<type>> <<VARIABLE>> <<LINK>>

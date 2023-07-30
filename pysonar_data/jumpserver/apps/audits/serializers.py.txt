@@ -1,0 +1,7 @@
+<<models>> <<6:78-84>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<FTPLogSerializer>> <<9:110-126>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<11:170-174>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<12:185-190>> <<type>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<13:209-215>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<FTPLog>> <<6:92-98>> <<type>> <<VARIABLE>> <<LINK>>
+<<FTPLog>> <<12:193-199>> <<type>> <<VARIABLE>> <<LINK>>

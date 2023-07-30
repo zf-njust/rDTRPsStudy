@@ -1,0 +1,12 @@
+<<X>> <<17:442-443>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<y>> <<17:445-446>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<anova_filter>> <<23:648-660>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<clf>> <<25:705-708>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<anova_svm>> <<27:739-748>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<anova_filter>> <<27:765-777>> <<?>> <<VARIABLE>> <<LINK>>
+<<clf>> <<27:779-782>> <<?>> <<VARIABLE>> <<LINK>>
+<<anova_svm>> <<28:785-794>> <<?>> <<VARIABLE>> <<LINK>>
+<<X>> <<28:799-800>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<28:802-803>> <<?>> <<VARIABLE>> <<LINK>>
+<<anova_svm>> <<29:806-815>> <<?>> <<VARIABLE>> <<LINK>>
+<<X>> <<29:824-825>> <<?>> <<VARIABLE>> <<LINK>>

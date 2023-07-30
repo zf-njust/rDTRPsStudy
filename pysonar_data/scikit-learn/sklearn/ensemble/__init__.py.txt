@@ -1,0 +1,3 @@
+<<voting_classifier>> <<18:659-676>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<26:849-856>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<VotingClassifier>> <<18:684-700>> <<type>> <<VARIABLE>> <<LINK>>

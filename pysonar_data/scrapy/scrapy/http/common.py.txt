@@ -1,0 +1,13 @@
+<<obsolete_setter>> <<1:4-19>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<setter>> <<1:20-23>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<attrname>> <<1:28-31>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<newsetter>> <<2:48-57>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<2:58-61>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<2:64-67>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<c>> <<3:81-82>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<msg>> <<4:118-121>> <<{tuple||str}>> <<VARIABLE>> <<ANCHOR>>
+<<newsetter>> <<6:242-251>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<3:85-89>> <<?>> <<VARIABLE>> <<LINK>>
+<<c>> <<4:179-180>> <<?>> <<VARIABLE>> <<LINK>>
+<<attrname>> <<4:182-190>> <<?>> <<VARIABLE>> <<LINK>>
+<<c>> <<4:192-193>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def build(self):\\n        input_dim = self.input_shape[1]\\n\\n        self.input = T.matrix()\\n        self.W = self.init((self.nb_feature, input_dim, self.output_dim))\\n        self.b = shared_zeros((self.nb_feature, self.output_dim))\\n\\n        self.params = [self.W, self.b]\\n        self.regularizers = []\\n\\n        if self.W_regularizer:\\n            self.W_regularizer.set_param(self.W)\\n            self.regularizers.append(self.W_regularizer)\\n\\n        if self.b_regularizer:\\n            self.b_regularizer.set_param(self.b)\\n            self.regularizers.append(self.b_regularizer)\\n\\n        if self.activity_regularizer:\\n            self.activity_regularizer.set_layer(self)\\n            self.regularizers.append(self.activity_regularizer)\\n\\n        if self.initial_weights is not None:\\n            self.set_weights(self.initial_weights)\\n            del self.initial_weights",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 25,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

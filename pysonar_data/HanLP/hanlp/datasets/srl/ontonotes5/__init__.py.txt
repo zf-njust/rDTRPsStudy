@@ -1,0 +1,3 @@
+<<ONTONOTES5_HOME>> <<4:68-83>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONLL12_HOME>> <<5:174-186>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ONTONOTES5_HOME>> <<5:189-204>> <<str>> <<VARIABLE>> <<LINK>>

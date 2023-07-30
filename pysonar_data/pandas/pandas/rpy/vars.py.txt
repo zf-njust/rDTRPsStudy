@@ -1,0 +1,10 @@
+<<pandas>> <<1:7-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VAR>> <<4:42-45>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<18:323-331>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<y>> <<18:332-335>> <<VAR>> <<PARAMETER>> <<ANCHOR>>
+<<p>> <<18:335-338>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<type>> <<18:340-343>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<season>> <<18:353-356>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exogen>> <<18:366-369>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lag_max>> <<19:397-400>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<ic>> <<19:411-414>> <<str>> <<PARAMETER>> <<ANCHOR>>

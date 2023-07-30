@@ -1,0 +1,10 @@
+<<poetry>> <<3:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<json>> <<3:29-33>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<base_object>> <<7:83-94>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_path_dependencies>> <<17:306-328>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<base_object>> <<17:329-332>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<validate_object>> <<3:41-56>> <<function>> <<VARIABLE>> <<LINK>>
+<<base_object>> <<18:348-359>> <<?>> <<VARIABLE>> <<LINK>>
+<<base_object>> <<19:417-428>> <<?>> <<VARIABLE>> <<LINK>>
+<<validate_object>> <<21:503-518>> <<function>> <<VARIABLE>> <<LINK>>
+<<base_object>> <<21:519-530>> <<?>> <<VARIABLE>> <<LINK>>

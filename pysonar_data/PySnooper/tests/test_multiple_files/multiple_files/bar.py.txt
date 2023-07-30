@@ -1,0 +1,5 @@
+<<bar_function>> <<4:108-120>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<y>> <<4:121-124>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<5:130-131>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<y>> <<5:138-139>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<6:152-153>> <<int>> <<VARIABLE>> <<LINK>>

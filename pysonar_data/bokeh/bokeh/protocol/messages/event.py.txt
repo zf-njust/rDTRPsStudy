@@ -1,0 +1,10 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<32:1139-1146>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<event_1>> <<45:1540-1547>> <<type>> <<CLASS>> <<ANCHOR>>
+<<msgtype>> <<53:1747-1754>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<revision>> <<54:1771-1779>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<notify_event>> <<56:1795-1807>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<56:1808-1811>> <<event_1>> <<PARAMETER>> <<ANCHOR>>
+<<document>> <<56:1814-1817>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<document>> <<60:1862-1870>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<60:1888-1892>> <<event_1>> <<VARIABLE>> <<LINK>>

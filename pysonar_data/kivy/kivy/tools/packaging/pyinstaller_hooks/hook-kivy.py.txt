@@ -1,0 +1,16 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tools>> <<1:10-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<packaging>> <<1:16-25>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pyinstaller_hooks>> <<1:26-43>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<hiddenimports>> <<7:173-186>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<hiddenimports>> <<8:228-241>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<add_dep_paths>> <<2:58-71>> <<function>> <<VARIABLE>> <<LINK>>
+<<excludedimports>> <<2:73-88>> <<list>> <<VARIABLE>> <<LINK>>
+<<datas>> <<2:90-95>> <<list>> <<VARIABLE>> <<LINK>>
+<<get_deps_all>> <<2:97-109>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_factory_modules>> <<3:116-135>> <<function>> <<VARIABLE>> <<LINK>>
+<<kivy_modules>> <<3:137-149>> <<list>> <<VARIABLE>> <<LINK>>
+<<add_dep_paths>> <<5:154-167>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_factory_modules>> <<9:259-278>> <<function>> <<VARIABLE>> <<LINK>>
+<<kivy_modules>> <<9:283-295>> <<list>> <<VARIABLE>> <<LINK>>
+<<hiddenimports>> <<9:298-311>> <<list>> <<VARIABLE>> <<LINK>>

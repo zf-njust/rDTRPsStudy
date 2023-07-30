@@ -1,0 +1,7 @@
+<<test_dash_import_is_correct>> <<5:40-67>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<imported>> <<6:76-84>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fp>> <<9:235-237>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<imported>> <<7:142-150>> <<?>> <<VARIABLE>> <<LINK>>
+<<imported>> <<10:255-263>> <<?>> <<VARIABLE>> <<LINK>>
+<<fp>> <<10:279-281>> <<file>> <<VARIABLE>> <<LINK>>
+<<imported>> <<13:347-355>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,17 @@
+<<unittest>> <<3:61-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestImageResizeTransform>> <<9:156-180>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_image_resize_1>> <<10:210-229>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:230-233>> <<TestImageResizeTransform>> <<PARAMETER>> <<ANCHOR>>
+<<images_batch>> <<11:246-258>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<transform>> <<12:324-333>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<images_transformed>> <<13:368-386>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<IMAGES_GT>> <<14:422-431>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<9:181-189>> <<module>> <<VARIABLE>> <<LINK>>
+<<transform>> <<13:389-398>> <<?>> <<VARIABLE>> <<LINK>>
+<<images_batch>> <<13:399-411>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:497-501>> <<TestImageResizeTransform>> <<VARIABLE>> <<LINK>>
+<<images_transformed>> <<15:514-532>> <<?>> <<VARIABLE>> <<LINK>>
+<<IMAGES_GT>> <<15:541-550>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:568-572>> <<TestImageResizeTransform>> <<VARIABLE>> <<LINK>>
+<<IMAGES_GT>> <<16:601-610>> <<int>> <<VARIABLE>> <<LINK>>
+<<images_transformed>> <<16:613-631>> <<?>> <<VARIABLE>> <<LINK>>

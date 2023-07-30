@@ -1,0 +1,4 @@
+{
+    "code": "def _previous_keyframe_info(self, index=0):\n        \"\"\" Return the previous keyframe's pts_time and frame number \"\"\"\n        prev_keyframe_idx = bisect(self._keyframes, index) - 1\n        prev_keyframe = self._keyframes[prev_keyframe_idx]\n        prev_pts_time = self._frame_pts[prev_keyframe]\n        logger.trace(\"keyframe pts_time: %s, keyframe: %s\", prev_pts_time, prev_keyframe)\n        return prev_pts_time, prev_keyframe",
+    "smell": []
+}

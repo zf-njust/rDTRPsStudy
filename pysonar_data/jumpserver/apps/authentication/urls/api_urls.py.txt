@@ -1,0 +1,4 @@
+<<__future__>> <<4:26-36>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app_name>> <<10:117-125>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<13:150-161>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<4:44-59>> <<_Feature>> <<VARIABLE>> <<LINK>>

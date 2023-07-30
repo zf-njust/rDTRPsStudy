@@ -1,0 +1,7 @@
+<<TreeNode>> <<1:6-14>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<2:25-33>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<2:34-37>> <<TreeNode>> <<PARAMETER>> <<ANCHOR>>
+<<val>> <<2:40-43>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<val>> <<3:62-65>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<val>> <<3:68-71>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<3:57-61>> <<TreeNode>> <<VARIABLE>> <<LINK>>

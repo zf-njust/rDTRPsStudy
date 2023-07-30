@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<5:103-108>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<5:109-113>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<constants>> <<5:114-123>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<9:170-175>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<9:176-184>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<10:219-224>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<server>> <<10:225-231>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<protocols>> <<10:232-241>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Stream>> <<13:287-293>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__slots__>> <<22:534-543>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<respond>> <<24:579-586>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:597-600>> <<Stream>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<25:603-606>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<annotations>> <<1:23-34>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<Stage>> <<5:131-136>> <<type>> <<VARIABLE>> <<LINK>>

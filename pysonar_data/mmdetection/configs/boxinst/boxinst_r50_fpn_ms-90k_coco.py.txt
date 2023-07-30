@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<4:57-62>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<89:2645-2658>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_evaluator>> <<92:2707-2720>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_evaluator>> <<93:2754-2768>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_evaluator>> <<93:2771-2784>> <<dict>> <<VARIABLE>> <<LINK>>

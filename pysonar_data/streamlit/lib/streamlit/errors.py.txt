@@ -1,0 +1,2 @@
+<<NoStaticFiles>> <<3:62-75>> <<type>> <<CLASS>> <<ANCHOR>>
+<<S3NoCredentials>> <<6:107-122>> <<type>> <<CLASS>> <<ANCHOR>>

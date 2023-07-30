@@ -1,0 +1,10 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:48-53>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<base_lr>> <<9:273-280>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<12:305-318>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<15:374-389>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<base_lr>> <<12:344-351>> <<float>> <<VARIABLE>> <<LINK>>
+<<base_lr>> <<25:634-641>> <<float>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<26:665-671>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<27:702-708>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<28:736-742>> <<str>> <<VARIABLE>> <<LINK>>

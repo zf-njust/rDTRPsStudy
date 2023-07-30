@@ -1,0 +1,5 @@
+<<pathlib>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_PATH_EXAMPLES>> <<3:28-42>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<1:20-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<3:45-49>> <<type>> <<VARIABLE>> <<LINK>>
+<<resolve>> <<3:60-67>> <<function>> <<VARIABLE>> <<LINK>>

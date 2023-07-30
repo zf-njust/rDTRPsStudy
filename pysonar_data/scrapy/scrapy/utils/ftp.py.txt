@@ -1,0 +1,14 @@
+<<ftp_makedirs_cwd>> <<4:68-84>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ftp>> <<4:85-88>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<path>> <<4:90-93>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<first_call>> <<4:96-99>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ftp_makedirs_cwd>> <<12:425-441>> <<function>> <<VARIABLE>> <<LINK>>
+<<ftp>> <<12:442-445>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<12:455-459>> <<?>> <<VARIABLE>> <<LINK>>
+<<ftp>> <<13:478-481>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<13:486-490>> <<?>> <<VARIABLE>> <<LINK>>
+<<first_call>> <<14:504-514>> <<?>> <<VARIABLE>> <<LINK>>
+<<ftp>> <<15:529-532>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<15:537-541>> <<?>> <<VARIABLE>> <<LINK>>
+<<ftp>> <<10:378-381>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<10:386-390>> <<?>> <<VARIABLE>> <<LINK>>

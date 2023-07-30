@@ -1,0 +1,2 @@
+<<DFLIMG>> <<1:6-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DFLIMG>> <<1:6-12>> <<type>> <<VARIABLE>> <<LINK>>

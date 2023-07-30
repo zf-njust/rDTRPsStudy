@@ -1,0 +1,9 @@
+<<_Storage>> <<6:107-115>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:133-138>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:156-165>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SimpleStorageService>> <<11:208-228>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:245-250>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Storage>> <<15:293-300>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:317-322>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Storage>> <<11:229-237>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Storage>> <<15:301-309>> <<type>> <<VARIABLE>> <<LINK>>

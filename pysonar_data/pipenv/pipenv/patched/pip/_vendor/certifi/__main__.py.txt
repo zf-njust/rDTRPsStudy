@@ -1,0 +1,10 @@
+<<pipenv>> <<3:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<3:29-36>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<3:37-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<3:41-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<certifi>> <<3:49-56>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<5:81-87>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<args>> <<7:177-181>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<parser>> <<6:116-122>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<7:184-190>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<9:208-212>> <<?>> <<VARIABLE>> <<LINK>>

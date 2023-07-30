@@ -1,0 +1,4 @@
+<<vdl_logger>> <<1:6-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<loggers>> <<3:80-87>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VDLLogger>> <<1:24-33>> <<type>> <<VARIABLE>> <<LINK>>
+<<Loggers>> <<3:95-102>> <<type>> <<VARIABLE>> <<LINK>>

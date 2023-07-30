@@ -1,0 +1,5 @@
+<<sanic>> <<5:69-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:90-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<7:96-103>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestSanicRouteResolution>> <<16:261-285>> <<type>> <<CLASS>> <<ANCHOR>>
+<<sanic>> <<13:215-220>> <<module>> <<VARIABLE>> <<LINK>>

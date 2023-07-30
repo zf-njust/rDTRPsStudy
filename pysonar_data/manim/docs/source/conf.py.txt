@@ -1,0 +1,17 @@
+<<project>> <<7:116-123>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<copyright>> <<8:135-144>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<author>> <<9:204-210>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<release>> <<11:228-235>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<extensions>> <<13:244-254>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<autoclass_content>> <<25:513-530>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<mathjax_path>> <<26:541-553>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<templates_path>> <<28:621-635>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<source_suffix>> <<29:654-667>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<master_doc>> <<30:678-688>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pygments_style>> <<31:700-714>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_static_path>> <<33:730-746>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<html_css_files>> <<34:762-776>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<html_theme>> <<38:969-979>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_favicon>> <<39:1023-1035>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_logo>> <<40:1058-1067>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_theme_options>> <<41:1106-1124>> <<dict>> <<SCOPE>> <<ANCHOR>>

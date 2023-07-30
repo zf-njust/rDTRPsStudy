@@ -1,0 +1,10 @@
+{
+  "code": "def convert_coco_stuff_mat(data_dir, out_dir):\n    \"\"\"Convert to png and save json with path. This currently only contains\n    the segmentation labels for objects+stuff in cocostuff - if we need to\n    combine with other labels from original COCO that will be a TODO.\"\"\"\n    sets = ['train', 'val']\n    categories = []\n    json_name = 'coco_stuff_%s.json'\n    ann_dict = {}\n    for data_set in sets:\n        file_list = os.path.join(data_dir, '%s.txt')\n        images = []\n        with open(file_list % data_set) as f:\n            for img_id, img_name in enumerate(f):\n                img_name = img_name.replace('coco', 'COCO').strip('\\n')\n                image = {}\n                mat_file = os.path.join(\n                    data_dir, 'annotations/%s.mat' % img_name)\n                data = h5py.File(mat_file, 'r')\n                labelMap = data.get('S')\n                if len(categories) == 0:\n                    labelNames = data.get('names')\n                    for idx, n in enumerate(labelNames):\n                        categories.append(\n                            {\"id\": idx, \"name\": ''.join(chr(i) for i in data[\n                                n[0]])})\n                    ann_dict['categories'] = categories\n                imageio.imsave(\n                    os.path.join(data_dir, img_name + '.png'), labelMap)\n                image['width'] = labelMap.shape[0]\n                image['height'] = labelMap.shape[1]\n                image['file_name'] = img_name\n                image['seg_file_name'] = img_name\n                image['id'] = img_id\n                images.append(image)\n        ann_dict['images'] = images\n        print(\"Num images: %s\" % len(images))\n        with open(os.path.join(out_dir, json_name % data_set), 'wb') as outfile:\n            outfile.write(json.dumps(ann_dict))\n    def write(self, s: AnyStr) -> int:\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 38,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

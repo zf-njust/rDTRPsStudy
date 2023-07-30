@@ -1,0 +1,10 @@
+{
+  "code": "def reset_wait(\n        self,\n        seed: Optional[Union[int, List[int]]] = None,\n        options: Optional[dict] = None,\n    ):\n        \"\"\"Waits for the calls triggered by :meth:`reset_async` to finish and returns the results.\n\n        Args:\n            seed: The reset environment seed\n            options: Option information for the environment reset\n\n        Returns:\n            The reset observation of the environment and reset information\n        \"\"\"\n        if seed is None:\n            seed = [None for _ in range(self.num_envs)]\n        if isinstance(seed, int):\n            seed = [seed + i for i in range(self.num_envs)]\n        assert len(seed) == self.num_envs\n\n        self._terminateds[:] = False\n        self._truncateds[:] = False\n        observations = []\n        infos = {}\n        for i, (env, single_seed) in enumerate(zip(self.envs, seed)):\n\n            kwargs = {}\n            if single_seed is not None:\n                kwargs[\"seed\"] = single_seed\n            if options is not None:\n                kwargs[\"options\"] = options\n\n            observation, info = env.reset(**kwargs)\n            observations.append(observation)\n            infos = self._add_info(infos, info, i)\n\n        self.observations = concatenate(\n            self.single_observation_space, observations, self.observations\n        )\n        return (deepcopy(self.observations) if self.copy else self.observations), infos",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 31,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

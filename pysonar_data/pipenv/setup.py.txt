@@ -1,0 +1,16 @@
+<<here>> <<8:103-107>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<10:225-226>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<11:232-248>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<about>> <<13:268-273>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<f>> <<15:341-342>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<required>> <<22:475-483>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<extras>> <<28:589-595>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<here>> <<10:184-188>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<11:258-259>> <<?>> <<VARIABLE>> <<LINK>>
+<<here>> <<15:303-307>> <<str>> <<VARIABLE>> <<LINK>>
+<<f>> <<16:353-354>> <<file>> <<VARIABLE>> <<LINK>>
+<<about>> <<16:363-368>> <<dict>> <<VARIABLE>> <<LINK>>
+<<about>> <<44:913-918>> <<dict>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<46:1015-1031>> <<str>> <<VARIABLE>> <<LINK>>
+<<required>> <<75:2049-2057>> <<list>> <<VARIABLE>> <<LINK>>
+<<extras>> <<76:2078-2084>> <<dict>> <<VARIABLE>> <<LINK>>

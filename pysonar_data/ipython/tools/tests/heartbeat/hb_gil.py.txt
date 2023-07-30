@@ -1,0 +1,7 @@
+<<gilsleep>> <<20:298-306>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<t>> <<20:307-310>> <<int>> <<PARAMETER>> <<ANCHOR>>
+<<code>> <<22:364-368>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<gilsleep>> <<31:592-600>> <<function>> <<VARIABLE>> <<LINK>>
+<<code>> <<27:490-494>> <<str>> <<VARIABLE>> <<LINK>>
+<<t>> <<27:510-511>> <<int>> <<VARIABLE>> <<LINK>>
+<<stdout>> <<29:554-560>> <<?>> <<VARIABLE>> <<LINK>>

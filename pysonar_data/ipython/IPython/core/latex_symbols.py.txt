@@ -1,0 +1,9 @@
+<<latex_symbols>> <<12:379-392>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<k>> <<1261:31052-31053>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<v>> <<1261:31054-31055>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<reverse_latex_symbol>> <<1260:31019-31039>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<latex_symbols>> <<1262:31059-31072>> <<dict>> <<VARIABLE>> <<LINK>>
+<<k>> <<1261:31052-31053>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<1261:31054-31055>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<1261:31044-31045>> <<?>> <<VARIABLE>> <<LINK>>
+<<k>> <<1261:31046-31047>> <<?>> <<VARIABLE>> <<LINK>>

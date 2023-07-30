@@ -1,0 +1,3 @@
+<<ComponentA>> <<4:33-43>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<5:71-74>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:75-78>> <<ComponentA>> <<PARAMETER>> <<ANCHOR>>

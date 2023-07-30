@@ -1,0 +1,10 @@
+{
+  "code": "def do_update_message_flags(user_profile, operation, flag, messages):\n    # type: (UserProfile, Text, Text, Optional[Sequence[int]]) -> int\n    flagattr = getattr(UserMessage.flags, flag)\n\n    assert messages is not None\n    msgs = UserMessage.objects.filter(user_profile=user_profile,\n                                      message__id__in=messages)\n    # Hack to let you star any message\n    if msgs.count() == 0:\n        if not len(messages) == 1:\n            raise JsonableError(_(\"Invalid message(s)\"))\n        if flag != \"starred\":\n            raise JsonableError(_(\"Invalid message(s)\"))\n        # Validate that the user could have read the relevant message\n        message = access_message(user_profile, messages[0])[0]\n\n        # OK, this is a message that you legitimately have access\n        # to via narrowing to the stream it is on, even though you\n        # didn't actually receive it.  So we create a historical,\n        # read UserMessage message row for you to star.\n        UserMessage.objects.create(user_profile=user_profile,\n                                   message=message,\n                                   flags=UserMessage.flags.historical | UserMessage.flags.read)\n\n    if operation == 'add':\n        count = msgs.update(flags=F('flags').bitor(flagattr))\n    elif operation == 'remove':\n        count = msgs.update(flags=F('flags').bitand(~flagattr))\n    else:\n        raise AssertionError(\"Invalid message flags operation\")\n\n    event = {'type': 'update_message_flags',\n             'operation': operation,\n             'flag': flag,\n             'messages': messages,\n             'all': False}\n    send_event(event, [user_profile.id])\n\n    statsd.incr(\"flags.%s.%s\" % (flag, operation), count)\n    return count",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 3,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

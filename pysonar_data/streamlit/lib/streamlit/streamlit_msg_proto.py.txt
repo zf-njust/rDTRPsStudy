@@ -1,0 +1,15 @@
+<<new_report_msg>> <<11:291-305>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<report_id>> <<11:306-309>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cwd>> <<11:317-320>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command_line>> <<11:322-325>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<source_file_path>> <<11:336-339>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<msg>> <<26:798-801>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<report_id>> <<27:855-864>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<27:831-834>> <<?>> <<VARIABLE>> <<LINK>>
+<<cwd>> <<28:892-895>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<28:871-874>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<29:901-904>> <<?>> <<VARIABLE>> <<LINK>>
+<<command_line>> <<29:936-948>> <<?>> <<VARIABLE>> <<LINK>>
+<<source_file_path>> <<30:989-1005>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<30:955-958>> <<?>> <<VARIABLE>> <<LINK>>
+<<msg>> <<31:1018-1021>> <<?>> <<VARIABLE>> <<LINK>>

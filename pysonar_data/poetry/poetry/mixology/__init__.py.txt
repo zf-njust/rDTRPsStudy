@@ -1,0 +1,15 @@
+<<version_solver>> <<1:6-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<resolve_version>> <<4:51-66>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<root>> <<4:67-70>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<provider>> <<4:73-76>> <<Provider>> <<PARAMETER>> <<ANCHOR>>
+<<locked>> <<4:83-86>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<use_latest>> <<4:96-99>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<solver>> <<5:119-125>> <<VersionSolver>> <<VARIABLE>> <<ANCHOR>>
+<<VersionSolver>> <<1:28-41>> <<type>> <<VARIABLE>> <<LINK>>
+<<VersionSolver>> <<5:128-141>> <<type>> <<VARIABLE>> <<LINK>>
+<<root>> <<5:142-146>> <<?>> <<VARIABLE>> <<LINK>>
+<<provider>> <<5:148-156>> <<Provider>> <<VARIABLE>> <<LINK>>
+<<locked>> <<5:165-171>> <<?>> <<VARIABLE>> <<LINK>>
+<<use_latest>> <<5:184-194>> <<?>> <<VARIABLE>> <<LINK>>
+<<solver>> <<7:210-216>> <<VersionSolver>> <<VARIABLE>> <<LINK>>
+<<solve>> <<7:217-222>> <<function>> <<VARIABLE>> <<LINK>>

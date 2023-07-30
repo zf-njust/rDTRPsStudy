@@ -1,0 +1,15 @@
+<<test_node_settings_serde>> <<20:260-284>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj>> <<20:285-288>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<20:295-298>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<requested_obj>> <<21:333-346>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ser_data>> <<22:382-390>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<deser_data>> <<25:480-490>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<21:349-356>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<21:373-376>> <<?>> <<VARIABLE>> <<LINK>>
+<<requested_obj>> <<22:406-419>> <<?>> <<VARIABLE>> <<LINK>>
+<<ser_data>> <<23:458-466>> <<?>> <<VARIABLE>> <<LINK>>
+<<ser_data>> <<25:508-516>> <<?>> <<VARIABLE>> <<LINK>>
+<<deser_data>> <<26:557-567>> <<?>> <<VARIABLE>> <<LINK>>
+<<requested_obj>> <<26:574-587>> <<?>> <<VARIABLE>> <<LINK>>
+<<deser_data>> <<27:601-611>> <<?>> <<VARIABLE>> <<LINK>>
+<<requested_obj>> <<27:615-628>> <<?>> <<VARIABLE>> <<LINK>>

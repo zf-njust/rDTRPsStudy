@@ -1,0 +1,8 @@
+<<scrapy>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Spider3>> <<3:43-50>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<4:65-69>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<allowed_domains>> <<5:87-102>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handles_request>> <<8:150-165>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<8:166-169>> <<Spider3>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<8:171-174>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<9:197-204>> <<?>> <<VARIABLE>> <<LINK>>

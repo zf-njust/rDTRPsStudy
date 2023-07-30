@@ -1,0 +1,7 @@
+<<load_components>> <<7:185-200>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<core>> <<7:201-204>> <<type>> <<PARAMETER>> <<ANCHOR>>
+<<core>> <<8:226-230>> <<type>> <<VARIABLE>> <<LINK>>
+<<core>> <<9:252-256>> <<type>> <<VARIABLE>> <<LINK>>
+<<core>> <<10:274-278>> <<type>> <<VARIABLE>> <<LINK>>
+<<core>> <<11:299-303>> <<type>> <<VARIABLE>> <<LINK>>
+<<core>> <<12:324-328>> <<type>> <<VARIABLE>> <<LINK>>

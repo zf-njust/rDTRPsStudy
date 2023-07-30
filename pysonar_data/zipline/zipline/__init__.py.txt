@@ -1,0 +1,4 @@
+<<__version__>> <<23:747-758>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ip>> <<35:960-962>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<40:1107-1114>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ip>> <<36:1000-1002>> <<?>> <<VARIABLE>> <<LINK>>

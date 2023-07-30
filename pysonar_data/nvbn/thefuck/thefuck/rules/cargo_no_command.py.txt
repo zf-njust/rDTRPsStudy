@@ -1,0 +1,13 @@
+<<match>> <<6:91-96>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<11:219-234>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<11:235-238>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<broken>> <<12:250-256>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fix>> <<13:290-293>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<6:97-100>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<12:259-266>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<13:334-341>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:384-391>> <<?>> <<VARIABLE>> <<LINK>>
+<<broken>> <<15:400-406>> <<?>> <<VARIABLE>> <<LINK>>
+<<fix>> <<15:408-411>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<7:144-151>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<8:194-201>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<TAG_RAY_NODE_NAME>> <<8:229-246>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TAG_RAY_NODE_TYPE>> <<11:316-333>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TAG_RAY_NODE_STATUS>> <<14:433-452>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TAG_RAY_CLUSTER_NAME>> <<17:527-547>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TAG_RAY_LAUNCH_CONFIG>> <<20:642-663>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TAG_RAY_RUNTIME_CONFIG>> <<23:765-787>> <<str>> <<SCOPE>> <<ANCHOR>>

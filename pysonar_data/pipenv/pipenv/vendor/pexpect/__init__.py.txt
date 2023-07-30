@@ -1,0 +1,7 @@
+<<PY3>> <<67:3230-3233>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<run>> <<76:3603-3606>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<78:3625-3636>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__revision__>> <<79:3647-3659>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<80:3665-3672>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<run>> <<76:3603-3606>> <<function>> <<VARIABLE>> <<LINK>>
+<<runu>> <<76:3619-3623>> <<function>> <<VARIABLE>> <<LINK>>

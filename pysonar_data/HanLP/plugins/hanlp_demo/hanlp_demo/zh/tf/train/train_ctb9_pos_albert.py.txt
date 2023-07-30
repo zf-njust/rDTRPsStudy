@@ -1,0 +1,12 @@
+<<tests>> <<5:166-171>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tagger>> <<8:199-205>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<save_dir>> <<9:231-239>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<cdroot>> <<5:179-185>> <<function>> <<VARIABLE>> <<LINK>>
+<<cdroot>> <<7:189-195>> <<function>> <<VARIABLE>> <<LINK>>
+<<tagger>> <<10:277-283>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<12:365-373>> <<str>> <<VARIABLE>> <<LINK>>
+<<tagger>> <<18:566-572>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<18:578-586>> <<str>> <<VARIABLE>> <<LINK>>
+<<tagger>> <<19:595-601>> <<?>> <<VARIABLE>> <<LINK>>
+<<tagger>> <<20:639-645>> <<?>> <<VARIABLE>> <<LINK>>
+<<save_dir>> <<20:690-698>> <<str>> <<VARIABLE>> <<LINK>>

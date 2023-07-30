@@ -1,0 +1,7 @@
+<<jax>> <<18:733-736>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<18:737-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scipy>> <<18:742-747>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stats>> <<18:748-753>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dirichlet>> <<18:754-763>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logpdf>> <<19:786-792>> <<function>> <<VARIABLE>> <<LINK>>
+<<pdf>> <<20:804-807>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<_Monitoring>> <<6:108-119>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:138-143>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:164-173>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Monasca>> <<11:220-227>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:247-252>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Telemetry>> <<15:280-289>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:309-314>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Monitoring>> <<11:228-239>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Monitoring>> <<15:290-301>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<version>> <<6:164-171>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<min_setuptools_version>> <<9:254-276>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<install_requires>> <<15:592-608>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<min_setuptools_version>> <<12:490-512>> <<str>> <<VARIABLE>> <<LINK>>
+<<version>> <<36:1178-1185>> <<str>> <<VARIABLE>> <<LINK>>
+<<install_requires>> <<60:2088-2104>> <<list>> <<VARIABLE>> <<LINK>>

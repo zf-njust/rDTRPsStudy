@@ -1,0 +1,2 @@
+<<image>> <<3:60-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ImageResizeTransform>> <<3:73-93>> <<type>> <<VARIABLE>> <<LINK>>

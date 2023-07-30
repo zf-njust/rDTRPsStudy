@@ -1,0 +1,4 @@
+<<AuditsConfig>> <<4:45-57>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<5:75-79>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<7:102-107>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:108-111>> <<AuditsConfig>> <<PARAMETER>> <<ANCHOR>>

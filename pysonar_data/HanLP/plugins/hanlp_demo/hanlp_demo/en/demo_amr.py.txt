@@ -1,0 +1,4 @@
+<<amr_parser>> <<6:84-94>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<amr>> <<7:155-158>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<amr_parser>> <<7:161-171>> <<?>> <<VARIABLE>> <<LINK>>
+<<amr>> <<8:221-224>> <<?>> <<VARIABLE>> <<LINK>>

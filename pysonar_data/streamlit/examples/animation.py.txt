@@ -1,0 +1,12 @@
+<<my_bar>> <<15:365-371>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<16:394-395>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<n_elts>> <<19:461-467>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<20:505-506>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<23:570-571>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<my_bar>> <<17:416-422>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<17:432-433>> <<int>> <<VARIABLE>> <<LINK>>
+<<n_elts>> <<20:516-522>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<21:544-545>> <<int>> <<VARIABLE>> <<LINK>>
+<<n_elts>> <<22:557-563>> <<int>> <<VARIABLE>> <<LINK>>
+<<n_elts>> <<23:581-587>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<24:609-610>> <<int>> <<VARIABLE>> <<LINK>>

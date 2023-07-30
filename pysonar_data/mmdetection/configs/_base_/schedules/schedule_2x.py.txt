@@ -1,0 +1,6 @@
+<<train_cfg>> <<2:28-37>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_cfg>> <<3:105-112>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_cfg>> <<4:137-145>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<7:190-205>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<20:470-483>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<auto_scale_lr>> <<28:787-800>> <<dict>> <<SCOPE>> <<ANCHOR>>

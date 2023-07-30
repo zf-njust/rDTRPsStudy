@@ -1,0 +1,3 @@
+<<AA>> <<6:81-83>> <<type>> <<CLASS>> <<ANCHOR>>
+<<run>> <<7:109-112>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:113-116>> <<AA>> <<PARAMETER>> <<ANCHOR>>

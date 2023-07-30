@@ -1,0 +1,14 @@
+<<unittest>> <<1:7-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MyClass>> <<6:79-86>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<7:112-120>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<TestConfigTracker>> <<11:202-219>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_init>> <<12:249-258>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:121-124>> <<MyClass>> <<PARAMETER>> <<ANCHOR>>
+<<i_need_this>> <<7:127-130>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:259-262>> <<TestConfigTracker>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<13:275-278>> <<MyClass>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<11:220-228>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<18:398-406>> <<module>> <<VARIABLE>> <<LINK>>
+<<MyClass>> <<13:281-288>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:300-304>> <<TestConfigTracker>> <<VARIABLE>> <<LINK>>
+<<obj>> <<14:317-320>> <<MyClass>> <<VARIABLE>> <<LINK>>

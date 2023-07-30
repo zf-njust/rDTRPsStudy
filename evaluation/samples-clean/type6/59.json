@@ -1,0 +1,10 @@
+{
+  "code": "def test_groupby_blacklist(self):\n        from string import ascii_lowercase\n        letters = np.array(list(ascii_lowercase))\n        N = 10\n        random_letters = letters.take(np.random.randint(0, 26, N))\n        df = DataFrame({'floats': N / 10 * Series(np.random.random(N)),\n                        'letters': Series(random_letters)})\n        s = df.floats\n\n        blacklist = [\n            'eval', 'query', 'abs', 'where',\n            'mask', 'align', 'groupby', 'clip', 'astype',\n            'at', 'combine', 'consolidate', 'convert_objects',\n        ]\n        to_methods = [method for method in dir(df) if method.startswith('to_')]\n\n        blacklist.extend(to_methods)\n\n        # e.g., to_csv\n        defined_but_not_allowed = (\"(?:^Cannot.+{0!r}.+{1!r}.+try using the \"\n                                   \"'apply' method$)\")\n\n        # e.g., query, eval\n        not_defined = \"(?:^{1!r} object has no attribute {0!r}$)\"\n        fmt = defined_but_not_allowed + '|' + not_defined\n        for bl in blacklist:\n            for obj in (df, s):\n                gb = obj.groupby(df.letters)\n                msg = fmt.format(bl, type(gb).__name__)\n                with tm.assertRaisesRegexp(AttributeError, msg):\n                    getattr(gb, bl)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 31,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

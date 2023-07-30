@@ -1,0 +1,7 @@
+<<_CTB6_CWS_HOME>> <<5:70-84>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB6_CWS_TRAIN>> <<7:135-149>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB6_CWS_DEV>> <<9:209-221>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB6_CWS_TEST>> <<11:274-287>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_CTB6_CWS_HOME>> <<7:152-166>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB6_CWS_HOME>> <<9:224-238>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB6_CWS_HOME>> <<11:290-304>> <<str>> <<VARIABLE>> <<LINK>>

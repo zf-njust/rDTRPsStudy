@@ -1,0 +1,10 @@
+{
+  "code": "def tearDown(self):\\n        del self.dirpath\\n\\n        del self.ts\\n\\n        del self.series\\n\\n        del self.objSeries\\n\\n        del self.empty_series\\n        del self.empty_frame\\n\\n        del self.frame\\n        del self.frame2\\n        del self.intframe\\n        del self.tsframe\\n        del self.mixed_frame",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 11,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

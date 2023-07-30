@@ -1,0 +1,10 @@
+<<zerver>> <<5:103-109>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Migration>> <<8:125-134>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<10:163-175>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<14:247-257>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<zerver>> <<18:406-412>> <<module>> <<VARIABLE>> <<LINK>>
+<<models>> <<18:413-419>> <<module>> <<VARIABLE>> <<LINK>>
+<<filter_pattern_validator>> <<18:420-444>> <<function>> <<VARIABLE>> <<LINK>>
+<<zerver>> <<23:650-656>> <<module>> <<VARIABLE>> <<LINK>>
+<<models>> <<23:657-663>> <<module>> <<VARIABLE>> <<LINK>>
+<<filter_format_validator>> <<23:664-687>> <<function>> <<VARIABLE>> <<LINK>>

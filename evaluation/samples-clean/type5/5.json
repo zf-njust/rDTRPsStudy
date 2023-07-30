@@ -1,0 +1,10 @@
+{
+  "code": "def tearDown(self):\\n        del self.lhses, self.rhses, self.scalar_rhses, self.scalar_lhses\\n        del self.pandas_rhses, self.pandas_lhses, self.current_engines",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

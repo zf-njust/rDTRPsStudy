@@ -1,0 +1,12 @@
+<<alphanumeric>> <<11:232-244>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ProjectUniqueValidator>> <<14:329-351>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__call__>> <<15:387-395>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:396-399>> <<ProjectUniqueValidator>> <<PARAMETER>> <<ANCHOR>>
+<<attrs>> <<15:402-405>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<errors>> <<19:512-518>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<field>> <<20:541-546>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<20:550-554>> <<ProjectUniqueValidator>> <<VARIABLE>> <<LINK>>
+<<field>> <<21:583-588>> <<?>> <<VARIABLE>> <<LINK>>
+<<errors>> <<23:649-655>> <<dict>> <<VARIABLE>> <<LINK>>
+<<field>> <<23:656-661>> <<?>> <<VARIABLE>> <<LINK>>
+<<attrs>> <<17:454-459>> <<?>> <<VARIABLE>> <<LINK>>

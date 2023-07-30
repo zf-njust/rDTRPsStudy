@@ -1,0 +1,6 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<teacher_ckpt>> <<5:134-146>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<7:277-282>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<125:3935-3951>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<126:3989-4002>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<teacher_ckpt>> <<62:2010-2022>> <<str>> <<VARIABLE>> <<LINK>>

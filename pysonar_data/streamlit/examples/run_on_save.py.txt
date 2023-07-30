@@ -1,0 +1,16 @@
+<<secs_to_wait>> <<8:127-139>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<status>> <<24:727-733>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<25:752-753>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<platform_system>> <<31:888-903>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<cmd>> <<34:963-966>> <<{str||dict}>> <<SCOPE>> <<ANCHOR>>
+<<cmd>> <<41:1224-1227>> <<{str||tuple}>> <<SCOPE>> <<ANCHOR>>
+<<secs_to_wait>> <<19:501-513>> <<int>> <<VARIABLE>> <<LINK>>
+<<secs_to_wait>> <<25:763-775>> <<int>> <<VARIABLE>> <<LINK>>
+<<status>> <<27:809-815>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<27:841-842>> <<int>> <<VARIABLE>> <<LINK>>
+<<status>> <<29:847-853>> <<?>> <<VARIABLE>> <<LINK>>
+<<platform_system>> <<33:930-945>> <<?>> <<VARIABLE>> <<LINK>>
+<<platform_system>> <<40:1190-1205>> <<?>> <<VARIABLE>> <<LINK>>
+<<platform_system>> <<46:1354-1369>> <<?>> <<VARIABLE>> <<LINK>>
+<<cmd>> <<52:1485-1488>> <<{str||tuple||dict}>> <<VARIABLE>> <<LINK>>
+<<status>> <<54:1493-1499>> <<?>> <<VARIABLE>> <<LINK>>

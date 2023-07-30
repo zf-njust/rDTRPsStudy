@@ -1,0 +1,4 @@
+<<_K8S>> <<8:97-101>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:114-123>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:137-146>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:172-181>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

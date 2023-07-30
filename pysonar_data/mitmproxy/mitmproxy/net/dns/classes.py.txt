@@ -1,0 +1,15 @@
+<<IN>> <<1:0-2>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<CH>> <<2:8-10>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<HS>> <<3:16-18>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<NONE>> <<4:24-28>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<ANY>> <<5:36-39>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<_STRINGS>> <<7:49-57>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<to_str>> <<10:126-132>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<class_>> <<10:133-136>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<IN>> <<7:61-63>> <<int>> <<VARIABLE>> <<LINK>>
+<<CH>> <<7:71-73>> <<int>> <<VARIABLE>> <<LINK>>
+<<HS>> <<7:81-83>> <<int>> <<VARIABLE>> <<LINK>>
+<<NONE>> <<7:91-95>> <<int>> <<VARIABLE>> <<LINK>>
+<<ANY>> <<7:105-108>> <<int>> <<VARIABLE>> <<LINK>>
+<<_STRINGS>> <<11:166-174>> <<dict>> <<VARIABLE>> <<LINK>>
+<<class_>> <<11:179-185>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "    def get_result(self, resource):\n        if resource:\n            returns = self.common_returns.copy()\n            returns.update(self.returns)\n            for search_key, return_key in returns.iteritems():\n                if search_key in resource:\n                    self.result[return_key] = resource[search_key]\n\n            # Bad bad API does not always return int when it should.\n            for search_key, return_key in self.returns_to_int.iteritems():\n                if search_key in resource:\n                    self.result[return_key] = int(resource[search_key])\n\n            # Special handling for tags\n            if 'tags' in resource:\n                self.result['tags'] = []\n                for tag in resource['tags']:\n                    result_tag          = {}\n                    result_tag['key']   = tag['key']\n                    result_tag['value'] = tag['value']\n                    self.result['tags'].append(result_tag)\n        return self.result",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 16,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

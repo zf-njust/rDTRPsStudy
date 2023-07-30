@@ -1,0 +1,15 @@
+<<doc>> <<1:5-8>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<gallery>> <<1:9-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_parse_docstring_info>> <<4:35-60>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<d>> <<13:436-437>> <<{dict||dict}>> <<VARIABLE>> <<ANCHOR>>
+<<test_parse_docstring_info>> <<38:1287-1312>> <<function>> <<VARIABLE>> <<LINK>>
+<<parse_docstring_info>> <<5:87-107>> <<function>> <<VARIABLE>> <<LINK>>
+<<parse_docstring_info>> <<6:147-167>> <<function>> <<VARIABLE>> <<LINK>>
+<<parse_docstring_info>> <<7:219-239>> <<function>> <<VARIABLE>> <<LINK>>
+<<parse_docstring_info>> <<10:357-377>> <<function>> <<VARIABLE>> <<LINK>>
+<<parse_docstring_info>> <<13:440-460>> <<function>> <<VARIABLE>> <<LINK>>
+<<d>> <<30:1062-1063>> <<{dict||dict}>> <<VARIABLE>> <<LINK>>
+<<d>> <<31:1094-1095>> <<{dict||dict}>> <<VARIABLE>> <<LINK>>
+<<d>> <<32:1145-1146>> <<{dict||dict}>> <<VARIABLE>> <<LINK>>
+<<d>> <<33:1190-1191>> <<{dict||dict}>> <<VARIABLE>> <<LINK>>
+<<d>> <<34:1230-1231>> <<{dict||dict}>> <<VARIABLE>> <<LINK>>

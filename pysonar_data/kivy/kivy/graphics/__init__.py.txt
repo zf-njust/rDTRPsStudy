@@ -1,0 +1,15 @@
+<<kivy>> <<89:3392-3396>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<89:3397-3405>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<92:3560-3564>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<92:3565-3573>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<96:3823-3827>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<96:3828-3836>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<99:4007-4011>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<99:4012-4020>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<101:4112-4116>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<101:4117-4125>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<102:4180-4184>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<102:4185-4193>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<103:4215-4219>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<graphics>> <<103:4220-4228>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<106:4331-4338>> <<tuple>> <<SCOPE>> <<ANCHOR>>

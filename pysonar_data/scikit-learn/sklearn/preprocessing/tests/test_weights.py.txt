@@ -1,0 +1,7 @@
+<<test_balance_weights>> <<5:123-143>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<weights>> <<6:152-159>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<weights>> <<9:251-258>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<weights>> <<12:365-372>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<weights>> <<7:217-224>> <<?>> <<VARIABLE>> <<LINK>>
+<<weights>> <<10:319-326>> <<?>> <<VARIABLE>> <<LINK>>
+<<weights>> <<13:424-431>> <<?>> <<VARIABLE>> <<LINK>>

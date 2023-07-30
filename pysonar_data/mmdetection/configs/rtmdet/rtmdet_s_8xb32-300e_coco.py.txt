@@ -1,0 +1,12 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint>> <<2:42-52>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<3:170-175>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline>> <<12:520-534>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_pipeline_stage2>> <<34:1276-1297>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<train_dataloader>> <<49:1798-1814>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<custom_hooks>> <<51:1864-1876>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint>> <<8:347-357>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<13:590-596>> <<str>> <<VARIABLE>> <<LINK>>
+<<_base_>> <<35:1353-1359>> <<str>> <<VARIABLE>> <<LINK>>
+<<train_pipeline>> <<49:1844-1858>> <<list>> <<VARIABLE>> <<LINK>>
+<<train_pipeline_stage2>> <<61:2131-2152>> <<list>> <<VARIABLE>> <<LINK>>

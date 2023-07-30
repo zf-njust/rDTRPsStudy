@@ -1,0 +1,16 @@
+<<unittest>> <<14:599-607>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_fsdp_precision_support>> <<24:849-876>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_fsdp_precision_config>> <<38:1378-1404>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<24:878-879>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<precision>> <<38:1405-1408>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<38:1416-1419>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<plugin>> <<39:1432-1438>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<40:1496-1502>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<precision>> <<39:1465-1474>> <<?>> <<VARIABLE>> <<LINK>>
+<<plugin>> <<40:1505-1511>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<42:1549-1555>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<42:1571-1579>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<43:1595-1601>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<43:1618-1626>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<44:1642-1648>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<44:1665-1673>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<kivy>> <<19:773-777>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<19:778-781>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<20:799-803>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<20:804-808>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kv>> <<22:827-829>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ShortenText>> <<75:2206-2217>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<76:2233-2238>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<19:789-792>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<20:816-823>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<75:2218-2221>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShortenText>> <<80:2291-2302>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<80:2305-2308>> <<function>> <<VARIABLE>> <<LINK>>

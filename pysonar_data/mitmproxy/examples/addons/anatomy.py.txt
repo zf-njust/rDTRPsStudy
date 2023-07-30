@@ -1,0 +1,15 @@
+<<Counter>> <<9:117-124>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<10:135-143>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<request>> <<13:184-191>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:144-147>> <<Counter>> <<PARAMETER>> <<ANCHOR>>
+<<num>> <<11:165-168>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<addons>> <<18:299-305>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<13:192-195>> <<Counter>> <<PARAMETER>> <<ANCHOR>>
+<<flow>> <<13:198-201>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<num>> <<14:219-222>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Counter>> <<18:309-316>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:160-164>> <<Counter>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:225-229>> <<Counter>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:214-218>> <<Counter>> <<VARIABLE>> <<LINK>>
+<<self>> <<15:284-288>> <<Counter>> <<VARIABLE>> <<LINK>>
+<<num>> <<15:289-292>> <<int>> <<VARIABLE>> <<LINK>>

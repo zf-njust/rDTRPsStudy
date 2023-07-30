@@ -1,0 +1,16 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<4:87-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<datasets>> <<4:93-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestYouTubeVISDataset>> <<7:138-159>> <<type>> <<CLASS>> <<ANCHOR>>
+<<setUpClass>> <<10:200-210>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_set_dataset_classes>> <<15:348-372>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<10:211-214>> <<TestYouTubeVISDataset>> <<PARAMETER>> <<ANCHOR>>
+<<dataset>> <<12:232-239>> <<YouTubeVISDataset>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<15:373-376>> <<TestYouTubeVISDataset>> <<PARAMETER>> <<ANCHOR>>
+<<YouTubeVISDataset>> <<4:109-126>> <<type>> <<VARIABLE>> <<LINK>>
+<<YouTubeVISDataset>> <<12:242-259>> <<type>> <<VARIABLE>> <<LINK>>
+<<cls>> <<12:228-231>> <<TestYouTubeVISDataset>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:407-411>> <<TestYouTubeVISDataset>> <<VARIABLE>> <<LINK>>
+<<dataset>> <<16:412-419>> <<YouTubeVISDataset>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:456-460>> <<TestYouTubeVISDataset>> <<VARIABLE>> <<LINK>>
+<<dataset>> <<17:461-468>> <<YouTubeVISDataset>> <<VARIABLE>> <<LINK>>

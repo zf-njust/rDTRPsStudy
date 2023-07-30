@@ -1,0 +1,10 @@
+{
+  "code": "    def _get_value_from_state(\n        self, option_name: str, option: Option, state: ParsingState\n    ) -> t.Any:\n        nargs = option.nargs\n\n        if len(state.rargs) < nargs:\n            if option.obj._flag_needs_value:\n                # Option allows omitting the value.\n                value = _flag_needs_value\n            else:\n                raise BadOptionUsage(\n                    option_name,\n                    ngettext(\n                        \"Option {name!r} requires an argument.\",\n                        \"Option {name!r} requires {nargs} arguments.\",\n                        nargs,\n                    ).format(name=option_name, nargs=nargs),\n                )\n        elif nargs == 1:\n            next_rarg = state.rargs[0]\n\n            if (\n                option.obj._flag_needs_value\n                and isinstance(next_rarg, str)\n                and next_rarg[:1] in self._opt_prefixes\n                and len(next_rarg) > 1\n            ):\n                # The next arg looks like the start of an option, don't\n                # use it as the value if omitting the value is allowed.\n                value = _flag_needs_value\n            else:\n                value = state.rargs.pop(0)\n        else:\n            value = tuple(state.rargs[:nargs])\n            del state.rargs[:nargs]\n\n        return value",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 35,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

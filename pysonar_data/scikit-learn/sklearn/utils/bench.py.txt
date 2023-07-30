@@ -1,0 +1,6 @@
+<<total_seconds>> <<6:53-66>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<delta>> <<6:67-70>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mu_sec>> <<15:273-279>> <<float>> <<VARIABLE>> <<ANCHOR>>
+<<delta>> <<17:342-347>> <<?>> <<VARIABLE>> <<LINK>>
+<<delta>> <<17:358-363>> <<?>> <<VARIABLE>> <<LINK>>
+<<mu_sec>> <<17:379-385>> <<float>> <<VARIABLE>> <<LINK>>

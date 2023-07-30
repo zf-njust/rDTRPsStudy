@@ -1,0 +1,13 @@
+<<pyspider>> <<12:281-289>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<libs>> <<14:290-294>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestCounter>> <<14:319-330>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_TimebaseAverageEventCounter>> <<15:360-392>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:393-396>> <<TestCounter>> <<PARAMETER>> <<ANCHOR>>
+<<c>> <<16:409-410>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<18:468-469>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<c>> <<20:527-528>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<20:539-540>> <<int>> <<VARIABLE>> <<LINK>>
+<<self>> <<20:551-555>> <<TestCounter>> <<VARIABLE>> <<LINK>>
+<<c>> <<20:568-569>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<21:605-609>> <<TestCounter>> <<VARIABLE>> <<LINK>>
+<<c>> <<-1:622-623>> <<?>> <<VARIABLE>> <<LINK>>

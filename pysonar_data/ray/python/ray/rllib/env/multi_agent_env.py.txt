@@ -1,0 +1,6 @@
+<<MultiAgentEnv>> <<6:122-135>> <<type>> <<CLASS>> <<ANCHOR>>
+<<reset>> <<39:1033-1038>> <<function>> <<METHOD>> <<ANCHOR>>
+<<step>> <<47:1260-1264>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<39:1039-1042>> <<MultiAgentEnv>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<47:1265-1268>> <<MultiAgentEnv>> <<PARAMETER>> <<ANCHOR>>
+<<action_dict>> <<47:1271-1274>> <<?>> <<PARAMETER>> <<ANCHOR>>

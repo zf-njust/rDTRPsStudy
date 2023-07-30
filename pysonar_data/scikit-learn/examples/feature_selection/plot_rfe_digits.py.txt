@@ -1,0 +1,16 @@
+<<digits>> <<22:503-509>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<X>> <<23:527-528>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<y>> <<24:580-581>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<svc>> <<27:646-649>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<rfe>> <<28:679-682>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ranking>> <<30:752-759>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<digits>> <<23:531-537>> <<?>> <<VARIABLE>> <<LINK>>
+<<digits>> <<23:558-564>> <<?>> <<VARIABLE>> <<LINK>>
+<<digits>> <<24:584-590>> <<?>> <<VARIABLE>> <<LINK>>
+<<svc>> <<28:699-702>> <<?>> <<VARIABLE>> <<LINK>>
+<<rfe>> <<29:737-740>> <<?>> <<VARIABLE>> <<LINK>>
+<<X>> <<29:745-746>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<29:748-749>> <<?>> <<VARIABLE>> <<LINK>>
+<<rfe>> <<30:762-765>> <<?>> <<VARIABLE>> <<LINK>>
+<<digits>> <<30:783-789>> <<?>> <<VARIABLE>> <<LINK>>
+<<ranking>> <<33:844-851>> <<?>> <<VARIABLE>> <<LINK>>

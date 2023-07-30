@@ -1,0 +1,17 @@
+<<marshall>> <<12:227-235>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<vega_lite_chart>> <<12:236-239>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<altair_chart>> <<12:253-256>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<datasets>> <<20:604-612>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<id_transform>> <<22:629-641>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<chart_dict>> <<33:965-975>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<22:642-645>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<id_transform>> <<30:894-906>> <<function>> <<VARIABLE>> <<LINK>>
+<<altair_chart>> <<33:978-990>> <<?>> <<VARIABLE>> <<LINK>>
+<<datasets>> <<37:1136-1144>> <<dict>> <<VARIABLE>> <<LINK>>
+<<chart_dict>> <<37:1111-1121>> <<?>> <<VARIABLE>> <<LINK>>
+<<vega_lite_chart>> <<39:1175-1190>> <<?>> <<VARIABLE>> <<LINK>>
+<<chart_dict>> <<39:1192-1202>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<25:781-785>> <<?>> <<VARIABLE>> <<LINK>>
+<<datasets>> <<25:760-768>> <<dict>> <<VARIABLE>> <<LINK>>
+<<data>> <<25:772-776>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<27:832-836>> <<?>> <<VARIABLE>> <<LINK>>

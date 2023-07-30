@@ -1,0 +1,4 @@
+<<_OnPrem>> <<8:104-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:124-133>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:188-197>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

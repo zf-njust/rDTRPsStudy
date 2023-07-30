@@ -1,0 +1,15 @@
+<<detectron2>> <<4:61-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<4:72-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<5:106-116>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<5:117-121>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<6:176-186>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<6:187-191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<samplers>> <<6:192-200>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<7:242-252>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<evaluation>> <<7:253-263>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<30:940-941>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<31:991-992>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<32:1055-1056>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<33:1120-1121>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<34:1181-1182>> <<int>> <<VARIABLE>> <<LINK>>
+<<i>> <<35:1240-1241>> <<int>> <<VARIABLE>> <<LINK>>

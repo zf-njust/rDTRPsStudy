@@ -1,0 +1,4 @@
+{
+    "code": "def get_bool_opt(options, optname, default=None):\n    string = options.get(optname, default)\n    if isinstance(string, bool):\n        return string\n    elif isinstance(string, int):\n        return bool(string)\n    elif not isinstance(string, str):\n        raise OptionError('Invalid type %r for option %s; use '\n                          '1/0, yes/no, true/false, on/off' % (\n                              string, optname))\n    elif string.lower() in ('1', 'yes', 'true', 'on'):\n        return True\n    elif string.lower() in ('0', 'no', 'false', 'off'):\n        return False\n    else:\n        raise OptionError('Invalid value %r for option %s; use '\n                          '1/0, yes/no, true/false, on/off' % (\n                              string, optname))",
+    "smell": []
+}

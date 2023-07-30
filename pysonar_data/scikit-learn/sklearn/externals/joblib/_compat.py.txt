@@ -1,0 +1,4 @@
+<<_basestring>> <<9:170-181>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<_bytes_or_unicode>> <<-1:193-210>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<_basestring>> <<6:81-92>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<_bytes_or_unicode>> <<7:111-128>> <<tuple>> <<SCOPE>> <<ANCHOR>>

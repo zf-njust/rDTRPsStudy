@@ -1,0 +1,5 @@
+<<transformer_decoder>> <<3:98-117>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unified_head>> <<4:159-171>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:234-241>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<XDecoderTransformerDecoder>> <<3:125-151>> <<type>> <<VARIABLE>> <<LINK>>
+<<XDecoderUnifiedhead>> <<4:179-198>> <<type>> <<VARIABLE>> <<LINK>>

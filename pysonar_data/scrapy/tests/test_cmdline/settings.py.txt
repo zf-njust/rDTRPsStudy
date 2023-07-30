@@ -1,0 +1,2 @@
+<<EXTENSIONS>> <<1:0-10>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<TEST1>> <<5:76-81>> <<str>> <<SCOPE>> <<ANCHOR>>

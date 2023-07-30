@@ -1,0 +1,10 @@
+{
+  "code": "def test_correct_key_types(self):\n        \"\"\"\n        Test that the key is the correct type for the couchbase python API.\n\n        We check that get_key_for_task, get_key_for_chord, and\n        get_key_for_group always returns a python string. Need to use str_t\n        for cross Python reasons.\n        \"\"\"\n        keys = [\n            self.backend.get_key_for_task('task_id', bytes('key')),\n            self.backend.get_key_for_chord('group_id', bytes('key')),\n            self.backend.get_key_for_group('group_id', bytes('key')),\n            self.backend.get_key_for_task('task_id', 'key'),\n            self.backend.get_key_for_chord('group_id', 'key'),\n            self.backend.get_key_for_group('group_id', 'key'),\n        ]\n        for key in keys:\n            self.assertIsInstance(key, str_t)\n    def __new__(*args, **kwargs): # real signature unknown\n        \"\"\" Create and return a new object.  See help(type) for accurate signature. \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 11,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

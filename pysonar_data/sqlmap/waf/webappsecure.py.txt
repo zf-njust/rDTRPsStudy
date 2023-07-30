@@ -1,0 +1,13 @@
+<<__product__>> <<8:145-156>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<detect>> <<10:193-199>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_page>> <<10:200-203>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<page>> <<11:215-219>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<headers>> <<11:221-228>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<code>> <<11:230-234>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<page>> <<14:293-297>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<headers>> <<14:299-306>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<code>> <<14:308-312>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<get_page>> <<11:237-245>> <<?>> <<VARIABLE>> <<LINK>>
+<<code>> <<12:255-259>> <<?>> <<VARIABLE>> <<LINK>>
+<<get_page>> <<14:315-323>> <<?>> <<VARIABLE>> <<LINK>>
+<<code>> <<15:348-352>> <<?>> <<VARIABLE>> <<LINK>>

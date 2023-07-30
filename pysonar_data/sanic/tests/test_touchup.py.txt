@@ -1,0 +1,9 @@
+<<sanic>> <<7:89-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<signals>> <<7:95-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<8:136-141>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<touchup>> <<8:142-149>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_touchup_methods>> <<11:174-194>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<11:195-198>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<RESERVED_NAMESPACES>> <<7:110-129>> <<dict>> <<VARIABLE>> <<LINK>>
+<<TouchUp>> <<8:157-164>> <<type>> <<VARIABLE>> <<LINK>>
+<<TouchUp>> <<12:217-224>> <<type>> <<VARIABLE>> <<LINK>>

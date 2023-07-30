@@ -1,0 +1,7 @@
+<<test_external_ip_works>> <<6:45-67>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ip_regex>> <<11:200-208>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ip>> <<13:270-272>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<match>> <<14:306-311>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ip_regex>> <<14:314-322>> <<?>> <<VARIABLE>> <<LINK>>
+<<ip>> <<14:329-331>> <<?>> <<VARIABLE>> <<LINK>>
+<<match>> <<15:345-350>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+{
+    "code": "def parse_accept(accept: Optional[str]) -> AcceptList:\n    \"\"\"Parse an Accept header and order the acceptable media types in\n    according to RFC 7231, s. 5.3.2\n    https://datatracker.ietf.org/doc/html/rfc7231#section-5.3.2\n    \"\"\"\n    if not accept:\n        if accept == \"\":\n            return AcceptList()  # Empty header, accept nothing\n        accept = \"*/*\"  # No header means that all types are accepted\n    try:\n        a = [\n            mt\n            for mt in [MediaType._parse(mtype) for mtype in accept.split(\",\")]\n            if mt\n        ]\n        if not a:\n            raise ValueError\n        return AcceptList(sorted(a, key=lambda x: x.key))\n    except ValueError:\n        raise InvalidHeader(f\"Invalid header value in Accept: {accept}\")",
+    "smell": []
+}

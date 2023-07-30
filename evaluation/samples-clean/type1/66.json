@@ -1,0 +1,10 @@
+{
+  "code": "def _post_plot_logic_common(self, ax, data):\n        \"\"\"Common post process for each axes\"\"\"\n        labels = [com.pprint_thing(key) for key in data.index]\n        labels = dict(zip(range(len(data.index)), labels))\n\n        if self.orientation == 'vertical' or self.orientation is None:\n            if self._need_to_set_index:\n                xticklabels = [labels.get(x, '') for x in ax.get_xticks()]\n                ax.set_xticklabels(xticklabels)\n            self._apply_axis_properties(ax.xaxis, rot=self.rot,\n                                        fontsize=self.fontsize)\n            self._apply_axis_properties(ax.yaxis, fontsize=self.fontsize)\n        elif self.orientation == 'horizontal':\n            if self._need_to_set_index:\n                yticklabels = [labels.get(y, '') for y in ax.get_yticks()]\n                ax.set_yticklabels(yticklabels)\n            self._apply_axis_properties(ax.yaxis, rot=self.rot,\n                                        fontsize=self.fontsize)\n            self._apply_axis_properties(ax.xaxis, fontsize=self.fontsize)\n        else: # pragma no cover\n            raise ValueError",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 4,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

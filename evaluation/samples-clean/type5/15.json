@@ -1,0 +1,10 @@
+{
+  "code": "def ignored_instances(self):\\n        del self._ignored_instances",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

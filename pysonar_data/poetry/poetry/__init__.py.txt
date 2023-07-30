@@ -1,0 +1,11 @@
+<<_ROOT>> <<4:25-30>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_VENDOR>> <<5:78-85>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<v>> <<7:200-201>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_CURRENT_VENDOR>> <<6:120-135>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<13:317-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_ROOT>> <<5:101-106>> <<str>> <<VARIABLE>> <<LINK>>
+<<_VENDOR>> <<7:157-164>> <<str>> <<VARIABLE>> <<LINK>>
+<<v>> <<7:200-201>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<7:193-194>> <<?>> <<VARIABLE>> <<LINK>>
+<<_CURRENT_VENDOR>> <<11:291-306>> <<str>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<13:317-328>> <<str>> <<VARIABLE>> <<LINK>>

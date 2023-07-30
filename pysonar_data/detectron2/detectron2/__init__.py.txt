@@ -1,0 +1,2 @@
+<<utils>> <<3:60-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__version__>> <<10:247-258>> <<str>> <<SCOPE>> <<ANCHOR>>

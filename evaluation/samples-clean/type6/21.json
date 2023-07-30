@@ -1,0 +1,10 @@
+{
+  "code": "def check_basic_series_frame_alignment(self, engine, parser):\n        tm.skip_if_no_ne(engine)\n\n        def testit(r_idx_type, c_idx_type, index_name):\n            df = mkdf(10, 7, data_gen_f=f, r_idx_type=r_idx_type,\n                      c_idx_type=c_idx_type)\n            index = getattr(df, index_name)\n            s = Series(np.random.randn(5), index[:5])\n            if should_warn(s.index, df.index):\n                with tm.assert_produces_warning(RuntimeWarning):\n                    res = pd.eval('s + df', engine=engine, parser=parser)\n            else:\n                res = pd.eval('s + df', engine=engine, parser=parser)\n\n            if r_idx_type == 'dt' or c_idx_type == 'dt':\n                expected = df.add(s) if engine == 'numexpr' else s + df\n            else:\n                expected = s + df\n            assert_frame_equal(res, expected)\n\n        # only test dt with dt, otherwise weird joins result\n        args = product(['i', 'u', 's'], ['i', 'u', 's'], ('index', 'columns'))\n        for r_idx_type, c_idx_type, index_name in args:\n            testit(r_idx_type, c_idx_type, index_name)\n\n        # dt with dt\n        args = product(['dt'], ['dt'], ('index', 'columns'))\n        with warnings.catch_warnings(record=True):\n            warnings.simplefilter('always', RuntimeWarning)\n            for r_idx_type, c_idx_type, index_name in args:\n                testit(r_idx_type, c_idx_type, index_name)",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 7,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

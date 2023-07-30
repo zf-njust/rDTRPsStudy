@@ -1,0 +1,15 @@
+<<mitmproxy>> <<6:74-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<6:84-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<read_tnetstring>> <<9:114-129>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<inspect>> <<22:508-515>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<input>> <<22:516-519>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<input>> <<9:130-133>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<27:597-601>> <<None>> <<VARIABLE>> <<ANCHOR>>
+<<inspect>> <<34:727-734>> <<function>> <<VARIABLE>> <<LINK>>
+<<read_tnetstring>> <<27:604-619>> <<function>> <<VARIABLE>> <<LINK>>
+<<input>> <<27:620-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<input>> <<13:323-328>> <<?>> <<VARIABLE>> <<LINK>>
+<<input>> <<16:379-384>> <<?>> <<VARIABLE>> <<LINK>>
+<<input>> <<17:425-430>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<28:643-647>> <<None>> <<VARIABLE>> <<LINK>>
+<<data>> <<30:684-688>> <<None>> <<VARIABLE>> <<LINK>>

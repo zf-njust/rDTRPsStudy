@@ -1,0 +1,7 @@
+<<_CTB7_HOME>> <<6:121-131>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB7_DEP_TRAIN>> <<8:167-181>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB7_DEP_DEV>> <<10:261-273>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CTB7_DEP_TEST>> <<12:346-359>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_CTB7_HOME>> <<8:184-194>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB7_HOME>> <<10:276-286>> <<str>> <<VARIABLE>> <<LINK>>
+<<_CTB7_HOME>> <<12:362-372>> <<str>> <<VARIABLE>> <<LINK>>

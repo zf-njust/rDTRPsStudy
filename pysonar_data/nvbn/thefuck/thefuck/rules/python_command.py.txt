@@ -1,0 +1,11 @@
+<<match>> <<8:204-209>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_new_command>> <<17:464-479>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<command>> <<17:480-483>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<8:210-213>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<toks>> <<9:225-229>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<18:514-521>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<9:232-239>> <<?>> <<VARIABLE>> <<LINK>>
+<<toks>> <<10:272-276>> <<?>> <<VARIABLE>> <<LINK>>
+<<toks>> <<11:299-303>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<12:364-371>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<13:423-430>> <<?>> <<VARIABLE>> <<LINK>>

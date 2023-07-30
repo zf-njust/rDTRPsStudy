@@ -1,0 +1,15 @@
+<<__metaclass__>> <<20:818-831>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<shlex>> <<22:849-854>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<shlex_split>> <<29:1035-1046>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<shlex_split>> <<32:1143-1154>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<__doc__>> <<34:1276-1283>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<s>> <<32:1155-1158>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<comments>> <<32:1158-1161>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<posix>> <<32:1174-1177>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<shlex>> <<29:1049-1054>> <<module>> <<VARIABLE>> <<LINK>>
+<<shlex>> <<34:1286-1291>> <<module>> <<VARIABLE>> <<LINK>>
+<<shlex_split>> <<34:1264-1275>> <<function>> <<VARIABLE>> <<LINK>>
+<<shlex>> <<33:1216-1221>> <<module>> <<VARIABLE>> <<LINK>>
+<<s>> <<33:1237-1238>> <<?>> <<VARIABLE>> <<LINK>>
+<<comments>> <<33:1241-1249>> <<?>> <<VARIABLE>> <<LINK>>
+<<posix>> <<33:1251-1256>> <<?>> <<VARIABLE>> <<LINK>>

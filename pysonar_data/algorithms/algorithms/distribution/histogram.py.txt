@@ -1,0 +1,10 @@
+<<get_histogram>> <<17:404-417>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<input_list>> <<17:418-421>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<histogram>> <<24:663-672>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<i>> <<26:765-766>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<input_list>> <<26:770-780>> <<list>> <<VARIABLE>> <<LINK>>
+<<histogram>> <<27:806-815>> <<dict>> <<VARIABLE>> <<LINK>>
+<<i>> <<27:820-821>> <<int>> <<VARIABLE>> <<LINK>>
+<<histogram>> <<27:791-800>> <<dict>> <<VARIABLE>> <<LINK>>
+<<i>> <<27:801-802>> <<int>> <<VARIABLE>> <<LINK>>
+<<histogram>> <<28:842-851>> <<dict>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<config>> <<2:21-27>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<urlConf>> <<2:28-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<loginConf>> <<5:57-66>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<session>> <<5:67-70>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<loginConfUrl>> <<11:152-164>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<loginConfRsp>> <<12:194-206>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<urls>> <<2:43-47>> <<dict>> <<VARIABLE>> <<LINK>>
+<<urls>> <<11:167-171>> <<dict>> <<VARIABLE>> <<LINK>>
+<<session>> <<12:209-216>> <<?>> <<VARIABLE>> <<LINK>>
+<<loginConfUrl>> <<12:237-249>> <<?>> <<VARIABLE>> <<LINK>>
+<<loginConfRsp>> <<13:268-280>> <<?>> <<VARIABLE>> <<LINK>>
+<<loginConfRsp>> <<13:285-297>> <<?>> <<VARIABLE>> <<LINK>>

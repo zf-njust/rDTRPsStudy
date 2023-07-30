@@ -1,0 +1,12 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<asyncio>> <<3:23-30>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<7:78-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_can_raise_in_handler>> <<10:121-146>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<10:147-150>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<19:434-435>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<response>> <<19:437-445>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<7:91-98>> <<module>> <<VARIABLE>> <<LINK>>
+<<json>> <<7:107-111>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<19:448-451>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<20:485-493>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<21:520-528>> <<?>> <<VARIABLE>> <<LINK>>

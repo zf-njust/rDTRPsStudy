@@ -1,0 +1,13 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<32:1139-1146>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<pull_doc_req_1>> <<45:1547-1561>> <<type>> <<CLASS>> <<ANCHOR>>
+<<msgtype>> <<53:1778-1785>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<revision>> <<54:1810-1818>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<create>> <<57:1852-1858>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<57:1859-1862>> <<pull_doc_req_1>> <<PARAMETER>> <<ANCHOR>>
+<<metadata>> <<57:1866-1874>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<header>> <<64:2049-2055>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cls>> <<64:2058-2061>> <<pull_doc_req_1>> <<VARIABLE>> <<LINK>>
+<<cls>> <<65:2094-2097>> <<pull_doc_req_1>> <<VARIABLE>> <<LINK>>
+<<header>> <<65:2098-2104>> <<?>> <<VARIABLE>> <<LINK>>
+<<metadata>> <<65:2106-2114>> <<?>> <<VARIABLE>> <<LINK>>

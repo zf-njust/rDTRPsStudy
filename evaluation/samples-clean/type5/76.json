@@ -1,0 +1,10 @@
+{
+  "code": "def test_delattr(self):\\n    params = params_dict.ParamsDict()\\n    params.override({\\n        'a': 'aa',\\n        'b': 2,\\n        'c': None,\\n        'd': {\\n            'd1': 1,\\n            'd2': 10\\n        }\\n    },\\n                    is_strict=False)\\n    del params.c\\n    self.assertEqual(params.a, 'aa')\\n    self.assertEqual(params.b, 2)\\n    with self.assertRaises(AttributeError):\\n      _ = params.c\\n    del params.d\\n    with self.assertRaises(AttributeError):\\n      _ = params.d.d1",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 18,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

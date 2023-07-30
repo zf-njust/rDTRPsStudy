@@ -1,0 +1,9 @@
+<<single_number>> <<13:376-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<nums>> <<13:390-393>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<i>> <<20:552-553>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<num>> <<21:567-570>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<22:589-590>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<nums>> <<21:574-578>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<22:589-590>> <<int>> <<VARIABLE>> <<LINK>>
+<<num>> <<22:594-597>> <<?>> <<VARIABLE>> <<LINK>>
+<<i>> <<23:610-611>> <<int>> <<VARIABLE>> <<LINK>>

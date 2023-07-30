@@ -1,0 +1,14 @@
+<<PY38>> <<9:107-111>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<decode>> <<12:147-153>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<string>> <<12:154-157>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<encodings>> <<12:167-170>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<encodings>> <<16:272-281>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<encoding>> <<18:335-343>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<string>> <<13:229-235>> <<?>> <<VARIABLE>> <<LINK>>
+<<string>> <<14:260-266>> <<?>> <<VARIABLE>> <<LINK>>
+<<encodings>> <<16:284-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<encodings>> <<18:347-356>> <<list>> <<VARIABLE>> <<LINK>>
+<<string>> <<20:451-457>> <<?>> <<VARIABLE>> <<LINK>>
+<<encoding>> <<20:465-473>> <<str>> <<VARIABLE>> <<LINK>>
+<<string>> <<22:487-493>> <<?>> <<VARIABLE>> <<LINK>>
+<<encodings>> <<22:501-510>> <<list>> <<VARIABLE>> <<LINK>>

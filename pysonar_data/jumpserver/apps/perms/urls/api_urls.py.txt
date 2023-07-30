@@ -1,0 +1,14 @@
+<<app_name>> <<8:147-155>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<10:169-175>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<asset_permission_urlpatterns>> <<15:393-421>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<remote_app_permission_urlpatterns>> <<66:3762-3795>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<old_version_urlpatterns>> <<88:5268-5291>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<92:5421-5432>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<94:5529-5540>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<11:203-209>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<12:289-295>> <<?>> <<VARIABLE>> <<LINK>>
+<<asset_permission_urlpatterns>> <<92:5435-5463>> <<list>> <<VARIABLE>> <<LINK>>
+<<remote_app_permission_urlpatterns>> <<92:5466-5499>> <<list>> <<VARIABLE>> <<LINK>>
+<<old_version_urlpatterns>> <<92:5502-5525>> <<list>> <<VARIABLE>> <<LINK>>
+<<urlpatterns>> <<94:5529-5540>> <<list>> <<VARIABLE>> <<LINK>>
+<<router>> <<94:5544-5550>> <<?>> <<VARIABLE>> <<LINK>>

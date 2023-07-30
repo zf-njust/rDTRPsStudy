@@ -1,0 +1,2 @@
+<<script_name>> <<3:25-36>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<4:50-61>> <<str>> <<SCOPE>> <<ANCHOR>>

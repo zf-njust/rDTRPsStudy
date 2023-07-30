@@ -1,0 +1,3 @@
+<<_Lifecyclemanagement>> <<6:108-128>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:147-152>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:182-191>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

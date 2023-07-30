@@ -1,0 +1,17 @@
+<<__future__>> <<17:751-761>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:791-801>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:824-834>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<IdentityContextManager>> <<22:868-890>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__enter__>> <<32:1146-1155>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__exit__>> <<35:1189-1197>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1198-1201>> <<IdentityContextManager>> <<PARAMETER>> <<ANCHOR>>
+<<exec_type>> <<35:1204-1207>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exec_value>> <<35:1215-1218>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<traceback>> <<35:1227-1230>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<32:1156-1159>> <<IdentityContextManager>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<17:769-784>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<18:809-817>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:842-856>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<exec_type>> <<36:1248-1257>> <<?>> <<VARIABLE>> <<LINK>>
+<<exec_value>> <<37:1267-1277>> <<?>> <<VARIABLE>> <<LINK>>
+<<traceback>> <<38:1287-1296>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<sanic>> <<3:39-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<compat>> <<3:45-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RestartOrder>> <<6:83-95>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SHUTDOWN_FIRST>> <<7:116-130>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<STARTUP_FIRST>> <<8:145-158>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ProcessState>> <<11:179-191>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IDLE>> <<12:207-211>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<RESTARTING>> <<13:226-236>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<STARTING>> <<14:251-259>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<STARTED>> <<15:274-281>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ACKED>> <<16:296-301>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<JOINED>> <<17:316-322>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<TERMINATED>> <<18:337-347>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<UpperStrEnum>> <<3:59-71>> <<type>> <<VARIABLE>> <<LINK>>
+<<UpperStrEnum>> <<6:96-108>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<test_notification_serde>> <<20:348-371>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<obj_name>> <<20:372-375>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<20:387-390>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<obj>> <<21:425-428>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<ser_data>> <<22:469-477>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<deser_data>> <<24:556-566>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<21:431-438>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj_name>> <<21:455-463>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<22:493-496>> <<?>> <<VARIABLE>> <<LINK>>
+<<ser_data>> <<23:535-543>> <<?>> <<VARIABLE>> <<LINK>>
+<<ser_data>> <<24:584-592>> <<?>> <<VARIABLE>> <<LINK>>
+<<deser_data>> <<26:634-644>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<26:651-654>> <<?>> <<VARIABLE>> <<LINK>>
+<<deser_data>> <<27:668-678>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<27:682-685>> <<?>> <<VARIABLE>> <<LINK>>

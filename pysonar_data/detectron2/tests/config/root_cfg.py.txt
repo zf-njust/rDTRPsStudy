@@ -1,0 +1,3 @@
+<<detectron2>> <<4:88-98>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<4:99-105>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lazyobj>> <<14:311-318>> <<?>> <<SCOPE>> <<ANCHOR>>

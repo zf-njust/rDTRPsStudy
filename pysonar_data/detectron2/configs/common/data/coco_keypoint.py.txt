@@ -1,0 +1,9 @@
+<<detectron2>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<1:16-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<coco>> <<3:83-87>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dataloader>> <<3:95-105>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<5:109-119>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<6:153-163>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<7:215-225>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<9:276-286>> <<?>> <<VARIABLE>> <<LINK>>
+<<dataloader>> <<12:420-430>> <<?>> <<VARIABLE>> <<LINK>>

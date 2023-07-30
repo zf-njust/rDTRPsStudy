@@ -1,0 +1,3 @@
+<<_base_>> <<1:0-6>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<3:54-62>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<4:102-107>> <<dict>> <<SCOPE>> <<ANCHOR>>

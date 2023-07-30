@@ -1,0 +1,12 @@
+<<io>> <<16:660-662>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<18:733-734>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<requirements>> <<19:741-753>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<readme>> <<23:812-818>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<24:875-876>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<README>> <<25:887-893>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<19:756-757>> <<file>> <<VARIABLE>> <<LINK>>
+<<requirements>> <<20:775-787>> <<list>> <<VARIABLE>> <<LINK>>
+<<requirements>> <<37:1276-1288>> <<list>> <<VARIABLE>> <<LINK>>
+<<readme>> <<40:1740-1746>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<25:896-897>> <<file>> <<VARIABLE>> <<LINK>>
+<<README>> <<26:917-923>> <<str>> <<VARIABLE>> <<LINK>>

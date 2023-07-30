@@ -1,0 +1,7 @@
+<<VERSION>> <<3:23-30>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BASE_URL>> <<4:43-51>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<OS>> <<5:85-87>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<DIR>> <<6:134-137>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DEFAULT_QR>> <<7:153-163>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TIMEOUT>> <<8:176-183>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<USER_AGENT>> <<10:198-208>> <<str>> <<SCOPE>> <<ANCHOR>>

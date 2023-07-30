@@ -1,0 +1,8 @@
+<<official>> <<16:661-669>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<projects>> <<16:670-678>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<qat>> <<16:679-682>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<16:683-689>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<16:690-698>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<heads>> <<16:699-704>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dense_prediction_heads>> <<16:705-727>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<RetinaNetHeadQuantized>> <<16:735-757>> <<type>> <<VARIABLE>> <<LINK>>

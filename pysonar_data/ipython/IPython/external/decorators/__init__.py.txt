@@ -1,0 +1,2 @@
+<<_numpy_testing_noseclasses>> <<7:183-209>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<KnownFailure>> <<7:217-229>> <<type>> <<VARIABLE>> <<LINK>>

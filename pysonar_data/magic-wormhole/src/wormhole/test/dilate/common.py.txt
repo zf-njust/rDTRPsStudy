@@ -1,0 +1,17 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<2:62-70>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mock_manager>> <<7:189-201>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mock_wormhole>> <<13:288-301>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<clear_mock_calls>> <<19:381-397>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<m>> <<8:210-211>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<args>> <<19:399-403>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<a>> <<20:415-416>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<m>> <<14:310-311>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<print_function>> <<1:23-37>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<unicode_literals>> <<1:39-55>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<m>> <<9:244-245>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<10:277-278>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<20:420-424>> <<?>> <<VARIABLE>> <<LINK>>
+<<a>> <<21:435-436>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<15:344-345>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<16:370-371>> <<?>> <<VARIABLE>> <<LINK>>

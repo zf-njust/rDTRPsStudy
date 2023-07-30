@@ -1,0 +1,6 @@
+<<_Compute>> <<6:106-114>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:131-136>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:154-163>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Rack>> <<11:205-209>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:226-231>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Compute>> <<11:210-218>> <<type>> <<VARIABLE>> <<LINK>>

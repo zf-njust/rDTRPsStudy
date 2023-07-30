@@ -1,0 +1,11 @@
+<<__version__>> <<18:883-894>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<detect>> <<22:944-950>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<aBuf>> <<22:951-954>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<u>> <<28:1215-1216>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<aBuf>> <<23:1005-1009>> <<?>> <<VARIABLE>> <<LINK>>
+<<aBuf>> <<24:1080-1084>> <<?>> <<VARIABLE>> <<LINK>>
+<<u>> <<29:1262-1263>> <<?>> <<VARIABLE>> <<LINK>>
+<<u>> <<30:1277-1278>> <<?>> <<VARIABLE>> <<LINK>>
+<<aBuf>> <<30:1284-1288>> <<?>> <<VARIABLE>> <<LINK>>
+<<u>> <<31:1295-1296>> <<?>> <<VARIABLE>> <<LINK>>
+<<u>> <<32:1317-1318>> <<?>> <<VARIABLE>> <<LINK>>

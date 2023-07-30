@@ -1,0 +1,10 @@
+{
+  "code": "def match(self, widget):\n    '''Return a list of :class:`ParserRule` objects matching the widget.\n    '''\n    cache = BuilderBase._match_cache\n    k = (widget.__class__, tuple(widget.cls))\n    if k in cache:\n        return cache[k]\n    rules = []\n    for selector, rule in self.rules:\n        if selector.match(widget):\n            if rule.avoid_previous_rules:\n                del rules[:]\n            rules.append(rule)\n    cache[k] = rules\n    return rules",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 12,
+      "descroption": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

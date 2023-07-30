@@ -1,0 +1,13 @@
+<<house_robber>> <<15:539-551>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<houses>> <<15:552-555>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<last>> <<16:566-570>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<now>> <<16:572-575>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<house>> <<17:592-597>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<last>> <<18:618-622>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<now>> <<18:624-627>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<houses>> <<17:601-607>> <<?>> <<VARIABLE>> <<LINK>>
+<<now>> <<18:630-633>> <<int>> <<VARIABLE>> <<LINK>>
+<<last>> <<18:639-643>> <<int>> <<VARIABLE>> <<LINK>>
+<<house>> <<18:646-651>> <<?>> <<VARIABLE>> <<LINK>>
+<<now>> <<18:653-656>> <<int>> <<VARIABLE>> <<LINK>>
+<<now>> <<19:670-673>> <<int>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<ColorTriplet>> <<4:45-57>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hex>> <<15:327-330>> <<function>> <<METHOD>> <<ANCHOR>>
+<<rgb>> <<21:500-503>> <<function>> <<METHOD>> <<ANCHOR>>
+<<normalized>> <<31:742-752>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<21:504-507>> <<ColorTriplet>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<31:753-756>> <<ColorTriplet>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<15:331-334>> <<ColorTriplet>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<27:670-674>> <<ColorTriplet>> <<VARIABLE>> <<LINK>>
+<<self>> <<37:993-997>> <<ColorTriplet>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:422-426>> <<ColorTriplet>> <<VARIABLE>> <<LINK>>

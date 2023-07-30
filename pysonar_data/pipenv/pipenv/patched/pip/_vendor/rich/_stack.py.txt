@@ -1,0 +1,11 @@
+<<T>> <<3:34-35>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Stack>> <<6:59-64>> <<type>> <<CLASS>> <<ANCHOR>>
+<<top>> <<10:140-143>> <<function>> <<METHOD>> <<ANCHOR>>
+<<push>> <<14:221-225>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:144-147>> <<Stack>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:226-229>> <<Stack>> <<PARAMETER>> <<ANCHOR>>
+<<item>> <<14:232-235>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<T>> <<6:70-71>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:203-207>> <<Stack>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:333-337>> <<Stack>> <<VARIABLE>> <<LINK>>
+<<item>> <<16:345-349>> <<?>> <<VARIABLE>> <<LINK>>

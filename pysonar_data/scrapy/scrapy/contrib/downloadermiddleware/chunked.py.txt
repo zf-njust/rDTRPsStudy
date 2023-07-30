@@ -1,0 +1,7 @@
+<<scrapy>> <<2:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exceptions>> <<2:29-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<7:290-296>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<downloadermiddlewares>> <<7:297-318>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chunked>> <<7:319-326>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ScrapyDeprecationWarning>> <<2:47-71>> <<type>> <<VARIABLE>> <<LINK>>
+<<ScrapyDeprecationWarning>> <<5:242-266>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,6 @@
+<<_Database>> <<6:106-115>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:132-137>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:156-165>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SQL>> <<11:208-211>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:229-234>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Database>> <<11:212-221>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "    def test_show_host_returns_just_host(self):\n        fakeargs = FakeArgs()\n        vmw = VMWareInventory(load=False)\n        vmw.args = fakeargs\n        vmw.args.list = False\n        vmw.args.host = 'foo'\n        vmw.inventory = BASICINVENTORY\n        showdata = vmw.show()        \n        expected = BASICINVENTORY['_meta']['hostvars']['foo']\n        expected = json.dumps(expected, indent=2)\n        #import epdb; epdb.st()\n        assert showdata == expected",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 6,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

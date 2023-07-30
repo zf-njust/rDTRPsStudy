@@ -1,0 +1,11 @@
+<<luigi>> <<1:7-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MyNamespaceTest>> <<5:59-74>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_auto_namespace_scope>> <<6:100-125>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<6:126-129>> <<MyNamespaceTest>> <<PARAMETER>> <<ANCHOR>>
+<<MyTask>> <<7:148-154>> <<type>> <<CLASS>> <<ANCHOR>>
+<<luigi>> <<7:155-160>> <<module>> <<VARIABLE>> <<LINK>>
+<<task>> <<7:161-165>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:195-199>> <<MyNamespaceTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:211-215>> <<MyNamespaceTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:288-292>> <<MyNamespaceTest>> <<VARIABLE>> <<LINK>>
+<<MyTask>> <<10:305-311>> <<type>> <<VARIABLE>> <<LINK>>

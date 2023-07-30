@@ -1,0 +1,8 @@
+<<panagram>> <<20:738-746>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<string>> <<20:747-750>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<letters>> <<30:994-1001>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<c>> <<31:1034-1035>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<string>> <<31:1039-1045>> <<?>> <<VARIABLE>> <<LINK>>
+<<letters>> <<33:1074-1081>> <<?>> <<VARIABLE>> <<LINK>>
+<<c>> <<33:1089-1090>> <<?>> <<VARIABLE>> <<LINK>>
+<<letters>> <<-1:1151-1158>> <<?>> <<VARIABLE>> <<LINK>>

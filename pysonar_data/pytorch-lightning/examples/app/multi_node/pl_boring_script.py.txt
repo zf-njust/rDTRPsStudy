@@ -1,0 +1,4 @@
+<<model>> <<5:121-126>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trainer>> <<6:148-155>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trainer>> <<7:187-194>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:199-204>> <<?>> <<VARIABLE>> <<LINK>>

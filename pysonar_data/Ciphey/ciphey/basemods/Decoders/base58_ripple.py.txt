@@ -1,0 +1,14 @@
+<<ciphey>> <<5:59-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<5:66-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Base58_ripple>> <<9:153-166>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<10:191-197>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<22:520-528>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<26:644-652>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<30:740-749>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<34:838-847>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:198-201>> <<Base58_ripple>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<10:204-207>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:653-656>> <<Base58_ripple>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<26:659-662>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<15:350-355>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<27:702-708>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<test_is_overridden>> <<22:871-889>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_mixed_imports_unified>> <<40:1571-1597>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model>> <<27:1073-1078>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<datamodule>> <<32:1296-1306>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<46:1958-1963>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<28:1137-1142>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<29:1186-1191>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<31:1284-1289>> <<?>> <<VARIABLE>> <<LINK>>
+<<datamodule>> <<33:1374-1384>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<48:2117-2122>> <<?>> <<VARIABLE>> <<LINK>>

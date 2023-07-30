@@ -1,0 +1,11 @@
+<<DOMAIN_PORT>> <<9:168-179>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<NETWORK_PORT>> <<10:187-199>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<test_client_type>> <<17:344-360>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<node_metadata>> <<17:361-364>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<port>> <<18:381-385>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<client_type>> <<18:387-398>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<client>> <<19:419-425>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<node_metadata>> <<18:401-414>> <<?>> <<VARIABLE>> <<LINK>>
+<<port>> <<19:442-446>> <<?>> <<VARIABLE>> <<LINK>>
+<<client>> <<21:522-528>> <<?>> <<VARIABLE>> <<LINK>>
+<<client_type>> <<21:530-541>> <<?>> <<VARIABLE>> <<LINK>>

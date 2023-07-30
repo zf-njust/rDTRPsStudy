@@ -1,0 +1,10 @@
+<<__future__>> <<2:57-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pairwise_iou_rotated>> <<6:158-178>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<boxes1>> <<6:179-182>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<boxes2>> <<6:187-190>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<2:75-90>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<2:92-100>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<2:102-116>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<unicode_literals>> <<2:118-134>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<boxes1>> <<21:656-662>> <<?>> <<VARIABLE>> <<LINK>>
+<<boxes2>> <<21:664-670>> <<?>> <<VARIABLE>> <<LINK>>

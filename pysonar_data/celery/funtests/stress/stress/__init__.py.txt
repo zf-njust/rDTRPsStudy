@@ -1,0 +1,12 @@
+<<__future__>> <<2:30-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_orig_sleep>> <<9:130-141>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<_sleep>> <<11:166-172>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<sleep>> <<16:327-332>> <<function>> <<ATTRIBUTE>> <<ANCHOR>>
+<<app>> <<19:353-356>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<n>> <<11:173-176>> <<float>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<2:48-63>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<_sleep>> <<16:335-341>> <<function>> <<VARIABLE>> <<LINK>>
+<<app>> <<19:353-356>> <<App>> <<VARIABLE>> <<LINK>>
+<<n>> <<12:230-231>> <<float>> <<VARIABLE>> <<LINK>>
+<<_orig_sleep>> <<15:302-313>> <<function>> <<VARIABLE>> <<LINK>>
+<<n>> <<15:314-315>> <<float>> <<VARIABLE>> <<LINK>>

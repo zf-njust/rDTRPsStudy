@@ -1,0 +1,6 @@
+<<QImageDB>> <<5:94-102>> <<type>> <<CLASS>> <<ANCHOR>>
+<<initialize>> <<7:134-144>> <<function>> <<METHOD>> <<ANCHOR>>
+<<image_path>> <<7:145-148>> <<QImageDB>> <<PARAMETER>> <<ANCHOR>>
+<<intro>> <<8:176-181>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<image_path>> <<8:197-207>> <<QImageDB>> <<VARIABLE>> <<LINK>>
+<<QImageDB>> <<8:167-175>> <<type>> <<VARIABLE>> <<LINK>>

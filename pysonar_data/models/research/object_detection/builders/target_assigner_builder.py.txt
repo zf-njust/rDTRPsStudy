@@ -1,0 +1,11 @@
+<<build>> <<23:1029-1034>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<target_assigner_config>> <<23:1035-1038>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<matcher_instance>> <<33:1320-1336>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<similarity_calc_instance>> <<34:1396-1420>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<box_coder>> <<36:1523-1532>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<target_assigner_config>> <<33:1361-1383>> <<?>> <<VARIABLE>> <<LINK>>
+<<target_assigner_config>> <<35:1474-1496>> <<?>> <<VARIABLE>> <<LINK>>
+<<target_assigner_config>> <<36:1559-1581>> <<?>> <<VARIABLE>> <<LINK>>
+<<matcher_instance>> <<38:1650-1666>> <<?>> <<VARIABLE>> <<LINK>>
+<<similarity_calc_instance>> <<39:1691-1715>> <<?>> <<VARIABLE>> <<LINK>>
+<<box_coder>> <<40:1743-1752>> <<?>> <<VARIABLE>> <<LINK>>

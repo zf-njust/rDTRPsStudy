@@ -1,0 +1,13 @@
+<<kivy>> <<862:26850-26854>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<862:26855-26859>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<builder>> <<862:26860-26867>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<864:26966-26970>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<864:26971-26975>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parser>> <<864:26976-26982>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<866:27031-27038>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Builder>> <<862:26888-26895>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<BuilderBase>> <<862:26897-26908>> <<type>> <<VARIABLE>> <<LINK>>
+<<BuilderException>> <<863:26942-26958>> <<type>> <<VARIABLE>> <<LINK>>
+<<Parser>> <<864:26990-26996>> <<type>> <<VARIABLE>> <<LINK>>
+<<ParserException>> <<864:26998-27013>> <<type>> <<VARIABLE>> <<LINK>>
+<<global_idmap>> <<864:27015-27027>> <<dict>> <<VARIABLE>> <<LINK>>

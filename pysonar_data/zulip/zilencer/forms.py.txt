@@ -1,0 +1,4 @@
+<<EnterpriseToSForm>> <<3:32-49>> <<type>> <<CLASS>> <<ANCHOR>>
+<<full_name>> <<4:67-76>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<company>> <<5:115-122>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<terms>> <<6:161-166>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

@@ -1,0 +1,14 @@
+<<pathlib>> <<2:36-43>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<updir>> <<6:82-87>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<releases_release_uri>> <<12:251-271>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<releases_issue_uri>> <<13:322-340>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<releases_development_branch>> <<14:393-420>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<releases_supported_versions>> <<16:499-526>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<20:631-637>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<target>> <<22:716-722>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Path>> <<2:51-55>> <<type>> <<VARIABLE>> <<LINK>>
+<<Path>> <<6:90-94>> <<type>> <<VARIABLE>> <<LINK>>
+<<parent>> <<6:105-111>> <<function>> <<VARIABLE>> <<LINK>>
+<<updir>> <<7:150-155>> <<?>> <<VARIABLE>> <<LINK>>
+<<updir>> <<20:640-645>> <<?>> <<VARIABLE>> <<LINK>>
+<<target>> <<23:799-805>> <<str>> <<VARIABLE>> <<LINK>>

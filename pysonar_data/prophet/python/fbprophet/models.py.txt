@@ -1,0 +1,11 @@
+<<__future__>> <<9:333-343>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_prophet_stan_model>> <<16:443-465>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model_file>> <<18:510-520>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f>> <<22:662-663>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<prophet_stan_model>> <<26:701-719>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<9:351-366>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<9:368-376>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<9:378-392>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<get_prophet_stan_model>> <<26:722-744>> <<function>> <<VARIABLE>> <<LINK>>
+<<model_file>> <<22:641-651>> <<?>> <<VARIABLE>> <<LINK>>
+<<f>> <<23:693-694>> <<file>> <<VARIABLE>> <<LINK>>

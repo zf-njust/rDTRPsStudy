@@ -1,0 +1,7 @@
+<<magenta>> <<18:713-720>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<18:721-727>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<score2perf>> <<18:728-738>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<magenta>> <<19:765-772>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tensor2tensor>> <<19:773-786>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<problems>> <<19:794-802>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<datagen_beam>> <<18:746-758>> <<module>> <<VARIABLE>> <<LINK>>

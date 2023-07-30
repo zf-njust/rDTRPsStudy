@@ -1,0 +1,5 @@
+<<BASE_DIR>> <<19:681-689>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<scripts>> <<21:785-792>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zerver>> <<30:1127-1133>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<application>> <<36:1366-1377>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<BASE_DIR>> <<20:768-776>> <<str>> <<VARIABLE>> <<LINK>>

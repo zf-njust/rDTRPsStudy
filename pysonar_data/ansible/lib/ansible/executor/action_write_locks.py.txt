@@ -1,0 +1,12 @@
+<<__metaclass__>> <<20:818-831>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<action_write_locks>> <<29:1134-1152>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<p>> <<39:1666-1667>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<mods>> <<39:1641-1645>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<mod_name>> <<41:1757-1765>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<action_write_locks>> <<35:1459-1477>> <<dict>> <<VARIABLE>> <<LINK>>
+<<p>> <<39:1666-1667>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<39:1652-1653>> <<?>> <<VARIABLE>> <<LINK>>
+<<mods>> <<40:1692-1696>> <<?>> <<VARIABLE>> <<LINK>>
+<<mods>> <<41:1769-1773>> <<?>> <<VARIABLE>> <<LINK>>
+<<action_write_locks>> <<42:1784-1802>> <<dict>> <<VARIABLE>> <<LINK>>
+<<mod_name>> <<42:1803-1811>> <<?>> <<VARIABLE>> <<LINK>>

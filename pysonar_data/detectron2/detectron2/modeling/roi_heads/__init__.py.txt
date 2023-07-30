@@ -1,0 +1,11 @@
+<<box_head>> <<2:58-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cascade_rcnn>> <<23:593-605>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rotated_fast_rcnn>> <<24:636-653>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<fast_rcnn>> <<25:678-687>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<29:763-770>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<ROI_BOX_HEAD_REGISTRY>> <<2:74-95>> <<?>> <<VARIABLE>> <<LINK>>
+<<build_box_head>> <<2:97-111>> <<function>> <<VARIABLE>> <<LINK>>
+<<FastRCNNConvFCHead>> <<2:113-131>> <<type>> <<VARIABLE>> <<LINK>>
+<<CascadeROIHeads>> <<23:613-628>> <<type>> <<VARIABLE>> <<LINK>>
+<<RROIHeads>> <<24:661-670>> <<type>> <<VARIABLE>> <<LINK>>
+<<FastRCNNOutputLayers>> <<25:695-715>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<import_item>> <<10:200-211>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<10:212-215>> <<None>> <<PARAMETER>> <<ANCHOR>>
+<<parts>> <<27:646-651>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<package>> <<30:745-752>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<obj>> <<30:754-757>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<<?>>> <<31:775-781>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pak>> <<33:847-850>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<name>> <<27:654-658>> <<None>> <<VARIABLE>> <<LINK>>
+<<parts>> <<28:686-691>> <<?>> <<VARIABLE>> <<LINK>>
+<<parts>> <<30:760-765>> <<?>> <<VARIABLE>> <<LINK>>
+<<package>> <<31:795-802>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<31:814-817>> <<?>> <<VARIABLE>> <<LINK>>
+<<obj>> <<33:869-872>> <<?>> <<VARIABLE>> <<LINK>>
+<<pak>> <<36:981-984>> <<?>> <<VARIABLE>> <<LINK>>
+<<parts>> <<39:1063-1068>> <<?>> <<VARIABLE>> <<LINK>>

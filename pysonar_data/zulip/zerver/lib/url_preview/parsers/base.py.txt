@@ -1,0 +1,9 @@
+<<BaseParser>> <<5:67-77>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<6:95-103>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<extract_data>> <<10:220-232>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<6:104-107>> <<OpenGraphParser>> <<PARAMETER>> <<ANCHOR>>
+<<html_source>> <<6:110-113>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_soup>> <<8:168-173>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<10:233-236>> <<BaseParser>> <<PARAMETER>> <<ANCHOR>>
+<<html_source>> <<8:190-201>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<8:163-167>> <<OpenGraphParser>> <<VARIABLE>> <<LINK>>

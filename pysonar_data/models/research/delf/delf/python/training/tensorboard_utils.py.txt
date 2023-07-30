@@ -1,0 +1,8 @@
+<<launch_tensorboard>> <<22:837-855>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<log_dir>> <<22:856-859>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<tensorboard>> <<28:994-1005>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<url>> <<30:1092-1095>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tensorboard>> <<29:1033-1044>> <<?>> <<VARIABLE>> <<LINK>>
+<<log_dir>> <<29:1079-1086>> <<?>> <<VARIABLE>> <<LINK>>
+<<tensorboard>> <<30:1098-1109>> <<?>> <<VARIABLE>> <<LINK>>
+<<url>> <<31:1193-1196>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,14 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<custom_imports>> <<6:113-127>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<backbone_norm_cfg>> <<8:174-191>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<norm_cfg>> <<9:231-239>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<image_size>> <<10:281-291>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<batch_augments>> <<11:308-322>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<16:419-424>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<custom_hooks>> <<60:1585-1597>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<image_size>> <<12:368-378>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<batch_augments>> <<17:497-511>> <<list>> <<VARIABLE>> <<LINK>>
+<<backbone_norm_cfg>> <<30:811-828>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<51:1335-1343>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<57:1526-1534>> <<dict>> <<VARIABLE>> <<LINK>>
+<<norm_cfg>> <<58:1570-1578>> <<dict>> <<VARIABLE>> <<LINK>>

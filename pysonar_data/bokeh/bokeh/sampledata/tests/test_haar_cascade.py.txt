@@ -1,0 +1,15 @@
+<<bokeh>> <<25:903-908>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_testing>> <<25:909-917>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<util>> <<25:918-922>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<api>> <<25:923-926>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ALL>> <<34:1188-1191>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Test___all__>> <<42:1412-1424>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_data>> <<45:1532-1541>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pd>> <<45:1542-1545>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<bokeh>> <<46:1559-1564>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<haar_cascade>> <<46:1592-1595>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<verify_all>> <<25:934-944>> <<function>> <<VARIABLE>> <<LINK>>
+<<verify_all>> <<42:1450-1460>> <<function>> <<VARIABLE>> <<LINK>>
+<<ALL>> <<42:1494-1497>> <<tuple>> <<VARIABLE>> <<LINK>>
+<<haar_cascade>> <<47:1619-1622>> <<module>> <<VARIABLE>> <<LINK>>
+<<frontalface_default_path>> <<47:1623-1647>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<augment>> <<15:629-636>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<17:689-696>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<tia_perspective>> <<15:644-659>> <<function>> <<VARIABLE>> <<LINK>>
+<<tia_distort>> <<15:661-672>> <<function>> <<VARIABLE>> <<LINK>>
+<<tia_stretch>> <<15:674-685>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<serde>> <<8:130-135>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<serializable>> <<8:136-148>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<types>> <<9:175-180>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<NodeType>> <<13:220-228>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DOMAIN>> <<14:240-246>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<NETWORK>> <<15:262-269>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ENCLAVE>> <<16:286-293>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<GATEWAY>> <<17:310-317>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<AbstractNode>> <<20:338-350>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get_service>> <<25:441-452>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:453-456>> <<AbstractNode>> <<PARAMETER>> <<ANCHOR>>
+<<path_or_func>> <<25:459-462>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<serializable>> <<8:136-148>> <<function>> <<VARIABLE>> <<LINK>>

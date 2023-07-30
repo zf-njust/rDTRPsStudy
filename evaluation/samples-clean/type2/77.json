@@ -1,0 +1,10 @@
+{
+  "code": "def __init__(self, name, impmask):\n        ''' Create a virtual package that redirects imports (see PEP 302). '''\n        self.name = name\n        self.impmask = impmask\n        self.module = sys.modules.setdefault(name, imp.new_module(name))\n        self.module.__dict__.update({'__file__': __file__, '__path__': [],\n                                    '__all__': [], '__loader__': self})\n        sys.meta_path.append(self)\n    def append(self, *args, **kwargs): # real signature unknown\n        \"\"\" Append object to the end of the list. \"\"\"\n        pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 8,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

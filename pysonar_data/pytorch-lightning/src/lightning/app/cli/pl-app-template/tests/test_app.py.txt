@@ -1,0 +1,8 @@
+<<test_is_running_in_cloud>> <<5:44-68>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<monkeypatch>> <<5:69-72>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<9:178-181>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<13:296-299>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<monkeypatch>> <<8:116-127>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<10:203-206>> <<?>> <<VARIABLE>> <<LINK>>
+<<monkeypatch>> <<12:231-242>> <<?>> <<VARIABLE>> <<LINK>>
+<<app>> <<14:325-328>> <<?>> <<VARIABLE>> <<LINK>>

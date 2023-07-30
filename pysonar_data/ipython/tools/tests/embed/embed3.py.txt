@@ -1,0 +1,4 @@
+<<user_ns>> <<5:181-188>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<ISE>> <<6:215-218>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ISE>> <<7:297-300>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_ns>> <<7:310-317>> <<dict>> <<VARIABLE>> <<LINK>>

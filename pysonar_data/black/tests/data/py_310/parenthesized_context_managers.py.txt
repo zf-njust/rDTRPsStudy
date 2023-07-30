@@ -1,0 +1,16 @@
+<<example>> <<1:22-29>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example>> <<7:116-123>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example>> <<10:191-198>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example1>> <<13:236-244>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example2>> <<13:263-271>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example1>> <<17:315-323>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example2>> <<18:347-355>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example3>> <<19:379-387>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example>> <<25:438-445>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example>> <<31:528-535>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example>> <<34:601-608>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example1>> <<37:644-652>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example2>> <<37:671-679>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example1>> <<41:722-730>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example2>> <<42:754-762>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<example3>> <<43:786-794>> <<?>> <<SCOPE>> <<ANCHOR>>

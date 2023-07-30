@@ -1,0 +1,6 @@
+<<syntactic_parser>> <<6:84-100>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sent>> <<7:157-161>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<tree>> <<15:355-359>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<syntactic_parser>> <<15:362-378>> <<?>> <<VARIABLE>> <<LINK>>
+<<sent>> <<15:379-383>> <<list>> <<VARIABLE>> <<LINK>>
+<<tree>> <<16:392-396>> <<?>> <<VARIABLE>> <<LINK>>

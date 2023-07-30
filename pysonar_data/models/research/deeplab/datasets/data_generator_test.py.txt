@@ -1,0 +1,14 @@
+<<__future__>> <<18:788-798>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<19:828-838>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<20:861-871>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ImageAttributes>> <<30:1050-1065>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<DatasetTest>> <<34:1180-1191>> <<type>> <<CLASS>> <<ANCHOR>>
+<<testPascalVocSegTestData>> <<39:1428-1452>> <<function>> <<METHOD>> <<ANCHOR>>
+<<_get_attributes_of_image>> <<77:2780-2804>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<index>> <<77:2805-2808>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<39:1453-1456>> <<DatasetTest>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<18:806-821>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:846-854>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<20:879-893>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<index>> <<89:3054-3059>> <<?>> <<VARIABLE>> <<LINK>>
+<<ImageAttributes>> <<90:3078-3093>> <<type>> <<VARIABLE>> <<LINK>>

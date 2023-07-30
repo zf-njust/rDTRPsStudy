@@ -1,0 +1,12 @@
+<<__future__>> <<2:14-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tutorial_mode>> <<11:182-195>> <<bool>> <<SCOPE>> <<ANCHOR>>
+<<UserSettings>> <<15:266-278>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<16:288-296>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<helper>> <<20:348-354>> <<function>> <<METHOD>> <<ANCHOR>>
+<<helper>> <<24:427-433>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<16:297-300>> <<UserSettings>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<29:523-531>> <<UserSettings>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<20:355-358>> <<UserSettings>> <<PARAMETER>> <<ANCHOR>>
+<<annotations>> <<2:32-43>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<UserSettings>> <<29:534-546>> <<type>> <<VARIABLE>> <<LINK>>
+<<tutorial_mode>> <<21:385-398>> <<bool>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<mongo_client_config>> <<13:439-458>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<mongo_store_config>> <<20:628-646>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<client_config>> <<23:703-716>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<sql_store_config>> <<24:761-777>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<node_type>> <<26:828-837>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<worker>> <<29:914-920>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<worker>> <<33:1035-1041>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<mongo_client_config>> <<20:680-699>> <<?>> <<VARIABLE>> <<LINK>>
+<<client_config>> <<24:812-825>> <<?>> <<VARIABLE>> <<LINK>>
+<<node_type>> <<28:860-869>> <<?>> <<VARIABLE>> <<LINK>>
+<<node_type>> <<28:886-895>> <<?>> <<VARIABLE>> <<LINK>>
+<<sql_store_config>> <<30:960-976>> <<?>> <<VARIABLE>> <<LINK>>
+<<mongo_store_config>> <<30:1000-1018>> <<?>> <<VARIABLE>> <<LINK>>
+<<sql_store_config>> <<34:1080-1096>> <<?>> <<VARIABLE>> <<LINK>>
+<<mongo_store_config>> <<34:1120-1138>> <<?>> <<VARIABLE>> <<LINK>>

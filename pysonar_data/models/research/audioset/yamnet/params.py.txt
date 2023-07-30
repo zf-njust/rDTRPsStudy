@@ -1,0 +1,8 @@
+<<Params>> <<25:1178-1184>> <<type>> <<CLASS>> <<ANCHOR>>
+<<patch_frames>> <<37:1497-1509>> <<function>> <<METHOD>> <<ANCHOR>>
+<<patch_bands>> <<41:1613-1624>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<41:1625-1628>> <<Params>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<37:1510-1513>> <<Params>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<42:1644-1648>> <<Params>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1539-1543>> <<Params>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1567-1571>> <<Params>> <<VARIABLE>> <<LINK>>

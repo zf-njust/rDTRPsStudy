@@ -1,0 +1,10 @@
+{
+  "code": "def test_put_api(ray_start):\n\n    for obj in test_values:\n        assert ray.get(ray.put(obj)) == obj\n\n    # Test putting object IDs.\n    x_id = ray.put(0)\n    for obj in [[x_id], (x_id, ), {x_id: x_id}]:\n        assert ray.get(ray.put(obj)) == obj",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 9,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

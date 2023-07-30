@@ -1,0 +1,9 @@
+<<ButtonTest>> <<9:145-155>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_button>> <<12:252-263>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:264-267>> <<ButtonTest>> <<PARAMETER>> <<ANCHOR>>
+<<c>> <<16:357-358>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<16:361-365>> <<ButtonTest>> <<VARIABLE>> <<LINK>>
+<<self>> <<17:417-421>> <<ButtonTest>> <<VARIABLE>> <<LINK>>
+<<c>> <<17:434-435>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<18:465-469>> <<ButtonTest>> <<VARIABLE>> <<LINK>>
+<<c>> <<18:482-483>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<root>> <<4:25-29>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<12:403-407>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<sitepackages>> <<15:478-490>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<16:545-549>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<root>> <<6:121-125>> <<str>> <<VARIABLE>> <<LINK>>
+<<root>> <<7:182-186>> <<str>> <<VARIABLE>> <<LINK>>
+<<root>> <<12:425-429>> <<str>> <<VARIABLE>> <<LINK>>
+<<path>> <<16:545-549>> <<list>> <<VARIABLE>> <<LINK>>
+<<sitepackages>> <<16:554-566>> <<str>> <<VARIABLE>> <<LINK>>
+<<sitepackages>> <<16:581-593>> <<str>> <<VARIABLE>> <<LINK>>

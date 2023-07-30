@@ -1,0 +1,5 @@
+<<lib>> <<8:150-153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<8:154-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_defaults>> <<10:187-196>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<defaults>> <<28:553-561>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<_defaults>> <<28:575-584>> <<dict>> <<VARIABLE>> <<LINK>>

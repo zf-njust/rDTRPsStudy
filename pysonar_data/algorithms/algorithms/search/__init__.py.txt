@@ -1,0 +1,13 @@
+<<binary_search>> <<5:86-99>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ternary_search>> <<6:116-130>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<first_occurrence>> <<7:147-163>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<last_occurrence>> <<8:180-195>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<linear_search>> <<9:212-225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<search_insert>> <<10:242-255>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<two_sum>> <<11:272-279>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<search_range>> <<12:296-308>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<find_min_rotate>> <<13:325-340>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<search_rotate>> <<14:357-370>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jump_search>> <<15:387-398>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<next_greatest_letter>> <<16:415-435>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<interpolation_search>> <<17:452-472>> <<module>> <<VARIABLE>> <<ANCHOR>>

@@ -1,0 +1,11 @@
+<<test_match>> <<9:268-278>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<17:520-534>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<21:615-635>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<script>> <<17:535-538>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<17:543-546>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<script>> <<9:279-282>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<9:287-290>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<script>> <<18:582-588>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<18:597-603>> <<?>> <<VARIABLE>> <<LINK>>
+<<script>> <<10:322-328>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<10:337-343>> <<?>> <<VARIABLE>> <<LINK>>

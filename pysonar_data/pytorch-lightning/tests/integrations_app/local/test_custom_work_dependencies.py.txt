@@ -1,0 +1,12 @@
+<<test_custom_work_dependencies_example_cloud>> <<11:191-234>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<16:432-433>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<16:435-436>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fetch_logs>> <<16:438-448>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<16:450-451>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<17:463-471>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<19:526-529>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<has_logs>> <<21:641-649>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<has_logs>> <<18:499-507>> <<?>> <<VARIABLE>> <<LINK>>
+<<fetch_logs>> <<19:533-543>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<20:615-618>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<22:680-683>> <<?>> <<VARIABLE>> <<LINK>>

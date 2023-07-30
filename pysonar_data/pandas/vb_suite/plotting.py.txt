@@ -1,0 +1,5 @@
+<<common_setup>> <<4:73-85>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<setup>> <<17:442-447>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<plot_timeseries_period>> <<23:573-595>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<common_setup>> <<17:450-462>> <<str>> <<VARIABLE>> <<LINK>>
+<<setup>> <<23:627-632>> <<str>> <<VARIABLE>> <<LINK>>

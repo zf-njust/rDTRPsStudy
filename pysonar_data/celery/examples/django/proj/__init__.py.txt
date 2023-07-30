@@ -1,0 +1,5 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<5:159-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<7:194-201>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<app>> <<5:180-190>> <<?>> <<VARIABLE>> <<LINK>>

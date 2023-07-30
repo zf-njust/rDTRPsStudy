@@ -1,0 +1,10 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<3:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<5:71-74>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<add>> <<9:133-136>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<9:137-140>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<9:140-143>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<app>> <<13:197-200>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<10:156-157>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<10:160-161>> <<?>> <<VARIABLE>> <<LINK>>

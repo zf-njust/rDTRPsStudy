@@ -1,0 +1,8 @@
+<<get_size_policy>> <<27:545-560>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_t5_wrapper>> <<34:728-742>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<t5_auto_wrap_policy>> <<40:1010-1029>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<min_params>> <<27:561-564>> <<float>> <<PARAMETER>> <<ANCHOR>>
+<<num_wrap_policy>> <<28:583-598>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<t5_auto_wrap_policy>> <<47:1178-1197>> <<?>> <<VARIABLE>> <<LINK>>
+<<min_params>> <<29:673-683>> <<float>> <<VARIABLE>> <<LINK>>
+<<num_wrap_policy>> <<31:703-718>> <<?>> <<VARIABLE>> <<LINK>>

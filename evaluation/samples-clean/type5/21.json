@@ -1,0 +1,10 @@
+{
+  "code": "def video_data_samples(self):\\n        del self._video_data_samples",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 2,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

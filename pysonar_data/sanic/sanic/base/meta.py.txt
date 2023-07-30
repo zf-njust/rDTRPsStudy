@@ -1,0 +1,12 @@
+<<SanicMeta>> <<1:6-15>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__prepare__>> <<3:50-61>> <<function>> <<METHOD>> <<ANCHOR>>
+<<metaclass>> <<3:62-65>> <<SanicMeta>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<3:73-76>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<bases>> <<3:79-82>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<es>> <<3:82-84>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<cls>> <<4:104-107>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<metaclass>> <<4:130-139>> <<SanicMeta>> <<VARIABLE>> <<LINK>>
+<<name>> <<4:141-145>> <<?>> <<VARIABLE>> <<LINK>>
+<<bases>> <<4:147-152>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<5:171-174>> <<?>> <<VARIABLE>> <<LINK>>
+<<cls>> <<6:209-212>> <<?>> <<VARIABLE>> <<LINK>>

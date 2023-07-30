@@ -1,0 +1,10 @@
+{
+  "code": "def close(self):\\n        \"\"\" Closes down and joins the internal threads \"\"\"\\n        logger.debug(\"Received Close\")\\n        if self._thread is not None:\\n            self._thread.join()\\n        del self._thread\\n        self._thread = None\\n        logger.debug(\"Closed\")",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 6,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

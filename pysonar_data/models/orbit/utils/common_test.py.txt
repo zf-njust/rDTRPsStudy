@@ -1,0 +1,15 @@
+<<orbit>> <<17:662-667>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<17:668-673>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<UtilsTest>> <<22:726-735>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_create_global_step>> <<24:764-787>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:788-791>> <<UtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<step>> <<25:800-804>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<26:840-844>> <<UtilsTest>> <<VARIABLE>> <<LINK>>
+<<step>> <<26:857-861>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:890-894>> <<UtilsTest>> <<VARIABLE>> <<LINK>>
+<<step>> <<27:907-911>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:934-938>> <<UtilsTest>> <<VARIABLE>> <<LINK>>
+<<step>> <<28:951-955>> <<?>> <<VARIABLE>> <<LINK>>
+<<step>> <<29:965-969>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<30:989-993>> <<UtilsTest>> <<VARIABLE>> <<LINK>>
+<<step>> <<30:1006-1010>> <<?>> <<VARIABLE>> <<LINK>>

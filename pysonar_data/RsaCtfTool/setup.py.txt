@@ -1,0 +1,9 @@
+<<VERSION>> <<3:32-39>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<BASE_CVS_URL>> <<4:52-64>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<14:303-304>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<11:202-209>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:303-304>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:289-290>> <<str>> <<VARIABLE>> <<LINK>>
+<<BASE_CVS_URL>> <<15:356-368>> <<str>> <<VARIABLE>> <<LINK>>
+<<BASE_CVS_URL>> <<16:411-423>> <<str>> <<VARIABLE>> <<LINK>>
+<<VERSION>> <<16:425-432>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def after_train(self):\\n        # This condition is to prevent the eval from running after a failed training\\n        if self._eval_after_train and self.trainer.iter + 1 >= self.trainer.max_iter:\\n            self._do_eval()\\n        # func is likely a closure that holds reference to the trainer\\n        # therefore we clean it to avoid circular reference in the end\\n        del self._func",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 7,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "code": "def run(self) -> None:\\n        \"\"\" Commence the given task in a background thread. \"\"\"\\n        try:\\n            if self._target is not None:\\n                retval = self._target(*self._args, **self._kwargs)\\n                self._queue.put(retval)\\n        except Exception:  # pylint: disable=broad-except\\n            self.err = T.cast(tuple[type[BaseException], BaseException, \"TracebackType\"],\\n                              sys.exc_info())\\n            assert self.err is not None\\n            logger.debug(\"Error in thread (%s): %s\", self._name,\\n                         self.err[1].with_traceback(self.err[2]))\\n        finally:\\n            self._complete.set()\\n            # Avoid a ref-cycle if the thread is running a function with\\n            # an argument that has a member that points to the thread.\\n            del self._target, self._args, self._kwargs",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 17,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

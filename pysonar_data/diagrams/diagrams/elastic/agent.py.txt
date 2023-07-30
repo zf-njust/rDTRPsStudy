@@ -1,0 +1,15 @@
+<<_Agent>> <<6:106-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:129-134>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Agent>> <<11:199-204>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:219-224>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Endpoint>> <<15:250-258>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:273-278>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Fleet>> <<19:307-312>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:327-332>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Integrations>> <<23:358-370>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:385-390>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Agent>> <<11:205-211>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Agent>> <<15:259-265>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Agent>> <<19:313-319>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Agent>> <<23:371-377>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<PyAsn1Error>> <<1:6-17>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ValueConstraintError>> <<2:42-62>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SubstrateUnderrunError>> <<3:89-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<PyAsn1Error>> <<2:63-74>> <<type>> <<VARIABLE>> <<LINK>>
+<<PyAsn1Error>> <<3:112-123>> <<type>> <<VARIABLE>> <<LINK>>

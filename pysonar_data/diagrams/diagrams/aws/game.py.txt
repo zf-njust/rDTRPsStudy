@@ -1,0 +1,9 @@
+<<_Game>> <<6:102-107>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:120-125>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:140-149>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<GameTech>> <<11:184-192>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:206-211>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Gamelift>> <<15:241-249>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:263-268>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Game>> <<11:193-198>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Game>> <<15:250-255>> <<type>> <<VARIABLE>> <<LINK>>

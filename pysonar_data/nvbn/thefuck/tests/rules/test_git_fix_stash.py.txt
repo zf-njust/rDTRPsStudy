@@ -1,0 +1,13 @@
+<<git_stash_err>> <<6:116-129>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_match>> <<22:661-671>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<26:745-759>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<34:1050-1070>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<wrong>> <<22:672-675>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<wrong>> <<34:1071-1074>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<fixed>> <<34:1078-1081>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<wrong>> <<23:706-711>> <<?>> <<VARIABLE>> <<LINK>>
+<<git_stash_err>> <<23:720-733>> <<str>> <<VARIABLE>> <<LINK>>
+<<wrong>> <<35:1122-1127>> <<?>> <<VARIABLE>> <<LINK>>
+<<git_stash_err>> <<35:1136-1149>> <<str>> <<VARIABLE>> <<LINK>>
+<<fixed>> <<35:1155-1160>> <<?>> <<VARIABLE>> <<LINK>>
+<<git_stash_err>> <<27:807-820>> <<str>> <<VARIABLE>> <<LINK>>

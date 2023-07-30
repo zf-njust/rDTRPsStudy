@@ -1,0 +1,10 @@
+<<__all__>> <<6:325-332>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<8:396-400>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__doc__>> <<9:409-416>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<EventDispatcher>> <<10:440-455>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ObjectWithUid>> <<11:487-500>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<Observable>> <<12:530-540>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<9:419-423>> <<module>> <<VARIABLE>> <<LINK>>
+<<kivy>> <<10:458-462>> <<module>> <<VARIABLE>> <<LINK>>
+<<kivy>> <<11:503-507>> <<module>> <<VARIABLE>> <<LINK>>
+<<kivy>> <<12:543-547>> <<module>> <<VARIABLE>> <<LINK>>

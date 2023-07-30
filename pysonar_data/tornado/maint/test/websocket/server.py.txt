@@ -1,0 +1,16 @@
+<<tornado>> <<3:30-37>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<4:65-72>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<5:130-137>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tornado>> <<6:178-185>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<EchoHandler>> <<10:250-261>> <<type>> <<CLASS>> <<ANCHOR>>
+<<on_message>> <<11:290-300>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_compression_options>> <<14:400-423>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app>> <<19:511-514>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<11:301-304>> <<EchoHandler>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<11:307-310>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:424-427>> <<EchoHandler>> <<PARAMETER>> <<ANCHOR>>
+<<EchoHandler>> <<20:550-561>> <<type>> <<VARIABLE>> <<LINK>>
+<<app>> <<22:585-588>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:326-330>> <<EchoHandler>> <<VARIABLE>> <<LINK>>
+<<message>> <<12:345-352>> <<?>> <<VARIABLE>> <<LINK>>
+<<message>> <<12:372-379>> <<?>> <<VARIABLE>> <<LINK>>

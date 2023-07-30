@@ -1,0 +1,8 @@
+<<test_extracted_ipu>> <<17:535-553>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<import_path>> <<17:554-557>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<name>> <<17:567-570>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<module>> <<18:579-585>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cls>> <<19:620-623>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<import_path>> <<18:602-613>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<19:634-640>> <<?>> <<VARIABLE>> <<LINK>>
+<<name>> <<19:642-646>> <<?>> <<VARIABLE>> <<LINK>>

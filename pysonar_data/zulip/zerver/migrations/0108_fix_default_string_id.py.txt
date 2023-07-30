@@ -1,0 +1,17 @@
+<<fix_realm_string_ids>> <<8:240-260>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<Migration>> <<23:721-730>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<25:759-771>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<29:830-840>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<apps>> <<8:261-264>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<schema_editor>> <<8:267-270>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Realm>> <<10:341-346>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<zulip_realm>> <<14:464-475>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<user_realm>> <<16:532-542>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fix_realm_string_ids>> <<30:874-894>> <<function>> <<VARIABLE>> <<LINK>>
+<<apps>> <<10:349-353>> <<?>> <<VARIABLE>> <<LINK>>
+<<Realm>> <<11:390-395>> <<?>> <<VARIABLE>> <<LINK>>
+<<Realm>> <<14:478-483>> <<?>> <<VARIABLE>> <<LINK>>
+<<Realm>> <<16:545-550>> <<?>> <<VARIABLE>> <<LINK>>
+<<zulip_realm>> <<16:596-607>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_realm>> <<20:666-676>> <<?>> <<VARIABLE>> <<LINK>>
+<<user_realm>> <<21:696-706>> <<?>> <<VARIABLE>> <<LINK>>

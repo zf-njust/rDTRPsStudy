@@ -1,0 +1,8 @@
+<<official_conll_05_evaluate>> <<9:172-198>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<run_perl>> <<28:1260-1268>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pred_path>> <<9:199-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<gold_path>> <<9:210-213>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<script_root>> <<10:227-238>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<script>> <<28:1269-1272>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<src>> <<28:1277-1280>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<dst>> <<28:1282-1285>> <<?>> <<PARAMETER>> <<ANCHOR>>

@@ -1,0 +1,4 @@
+<<__metaclass__>> <<20:797-810>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<TestModule>> <<25:943-953>> <<type>> <<CLASS>> <<ANCHOR>>
+<<tests>> <<28:1013-1018>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<28:1019-1022>> <<TestModule>> <<PARAMETER>> <<ANCHOR>>

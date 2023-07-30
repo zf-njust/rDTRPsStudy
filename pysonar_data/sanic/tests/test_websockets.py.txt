@@ -1,0 +1,12 @@
+<<asyncio>> <<3:18-25>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<4:66-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<10:190-195>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<11:232-237>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<server>> <<11:238-244>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<websockets>> <<11:245-255>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<frame>> <<11:256-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<17:375-380>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<asyncmock>> <<17:381-390>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<15:313-321>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<WebsocketFrameAssembler>> <<11:269-292>> <<type>> <<VARIABLE>> <<LINK>>
+<<AsyncMock>> <<17:398-407>> <<type>> <<VARIABLE>> <<LINK>>

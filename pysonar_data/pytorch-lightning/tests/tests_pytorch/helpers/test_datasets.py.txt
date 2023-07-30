@@ -1,0 +1,13 @@
+<<test_pickling_dataset_mnist>> <<27:940-967>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<tmpdir>> <<27:968-971>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<dataset_cls>> <<27:976-979>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<27:989-992>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mnist>> <<28:1001-1006>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<mnist_pickled>> <<30:1036-1049>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<mnist_pickled>> <<34:1160-1173>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<dataset_cls>> <<28:1009-1020>> <<?>> <<VARIABLE>> <<LINK>>
+<<args>> <<28:1023-1027>> <<?>> <<VARIABLE>> <<LINK>>
+<<mnist>> <<30:1065-1070>> <<?>> <<VARIABLE>> <<LINK>>
+<<mnist_pickled>> <<31:1090-1103>> <<?>> <<VARIABLE>> <<LINK>>
+<<mnist>> <<34:1194-1199>> <<?>> <<VARIABLE>> <<LINK>>
+<<mnist_pickled>> <<35:1224-1237>> <<?>> <<VARIABLE>> <<LINK>>

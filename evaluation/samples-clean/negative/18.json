@@ -1,0 +1,4 @@
+{
+    "code": "def test_basic(self):\n    data_length = 12\n    tokens = np.arange(data_length)\n    sentence_ids = np.zeros(data_length)\n    seq_length = 8\n    instances = cpd._convert_tokens_to_instances(\n        tokens=tokens,\n        sentence_ids=sentence_ids,\n        per_host_batch_size=2,\n        seq_length=seq_length,\n        reuse_length=4,\n        tokenizer=_get_mock_tokenizer(),\n        bi_data=False,\n        num_cores_per_host=1,\n        logging_frequency=1)\n    for instance in instances:\n      self.assertEqual(len(instance.data), seq_length)\n      self.assertEqual(len(instance.segment_ids), seq_length)\n      self.assertIsInstance(instance.label, int)\n      self.assertIsInstance(instance.boundary_indices, list)",
+    "smell": []
+}

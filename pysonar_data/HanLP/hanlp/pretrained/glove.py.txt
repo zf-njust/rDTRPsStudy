@@ -1,0 +1,11 @@
+<<_GLOVE_6B_ROOT>> <<5:70-84>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<GLOVE_6B_50D>> <<7:147-159>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<GLOVE_6B_100D>> <<9:310-323>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<GLOVE_6B_200D>> <<11:476-489>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<GLOVE_6B_300D>> <<13:642-655>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<GLOVE_840B_300D>> <<16:810-825>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ALL>> <<19:990-993>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<_GLOVE_6B_ROOT>> <<7:162-176>> <<str>> <<VARIABLE>> <<LINK>>
+<<_GLOVE_6B_ROOT>> <<9:326-340>> <<str>> <<VARIABLE>> <<LINK>>
+<<_GLOVE_6B_ROOT>> <<11:492-506>> <<str>> <<VARIABLE>> <<LINK>>
+<<_GLOVE_6B_ROOT>> <<13:658-672>> <<str>> <<VARIABLE>> <<LINK>>

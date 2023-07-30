@@ -1,0 +1,11 @@
+<<variables>> <<21:484-493>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__VersionInfo>> <<24:556-569>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<27:682-693>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version_info__>> <<28:705-721>> <<(namedtuple)>> <<SCOPE>> <<ANCHOR>>
+<<Attrs>> <<21:501-506>> <<type>> <<VARIABLE>> <<LINK>>
+<<Exploding>> <<21:508-517>> <<type>> <<VARIABLE>> <<LINK>>
+<<Indices>> <<21:519-526>> <<type>> <<VARIABLE>> <<LINK>>
+<<Keys>> <<21:528-532>> <<type>> <<VARIABLE>> <<LINK>>
+<<__VersionInfo>> <<28:724-737>> <<type>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<28:749-760>> <<str>> <<VARIABLE>> <<LINK>>
+<<__VersionInfo>> <<30:795-808>> <<type>> <<VARIABLE>> <<LINK>>

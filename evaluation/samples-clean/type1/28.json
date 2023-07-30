@@ -1,0 +1,10 @@
+{
+  "code": "def get_function_signature(function, method=True):\n    wrapped = getattr(function, '_original_function', None)\n    if wrapped is None:\n        signature = inspect.getfullargspec(function)\n    else:\n        signature = inspect.getfullargspec(wrapped)\n    defaults = signature.defaults\n    if method:\n        args = signature.args[1:]\n    else:\n        args = signature.args\n    if defaults:\n        kwargs = zip(args[-len(defaults):], defaults)\n        args = args[:-len(defaults)]\n    else:\n        kwargs = []\n    st = '%s.%s(' % (clean_module_name(function.__module__), function.__name__)\n\n    for a in args:\n        st += str(a) + ', '\n    for a, v in kwargs:\n        if isinstance(v, str):\n            v = '\\'' + v + '\\''\n        st += str(a) + '=' + str(v) + ', '\n    if kwargs or args:\n        signature = st[:-2] + ')'\n    else:\n        signature = st + ')'\n    return post_process_signature(signature)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 28,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

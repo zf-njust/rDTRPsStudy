@@ -1,0 +1,11 @@
+<<log>> <<14:616-619>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<33:1204-1211>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Selection>> <<44:1497-1506>> <<type>> <<CLASS>> <<ANCHOR>>
+<<indices>> <<54:1805-1812>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<line_indices>> <<58:1904-1916>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<multiline_indices>> <<61:1966-1983>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<SelectionPolicy>> <<67:2095-2110>> <<type>> <<CLASS>> <<ANCHOR>>
+<<IntersectRenderers>> <<74:2160-2178>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UnionRenderers>> <<84:2486-2500>> <<type>> <<CLASS>> <<ANCHOR>>
+<<SelectionPolicy>> <<74:2179-2194>> <<type>> <<VARIABLE>> <<LINK>>
+<<SelectionPolicy>> <<84:2501-2516>> <<type>> <<VARIABLE>> <<LINK>>

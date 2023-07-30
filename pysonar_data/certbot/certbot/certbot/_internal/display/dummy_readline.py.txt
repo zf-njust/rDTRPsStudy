@@ -1,0 +1,8 @@
+<<get_completer>> <<8:187-200>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_completer_delims>> <<12:302-322>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<parse_and_bind>> <<17:427-441>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_completer>> <<21:540-553>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_completer_delims>> <<25:683-703>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unused_command>> <<17:442-445>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unused_delims>> <<25:704-707>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<unused_function>> <<21:554-557>> <<?>> <<PARAMETER>> <<ANCHOR>>

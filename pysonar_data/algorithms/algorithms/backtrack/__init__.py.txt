@@ -1,0 +1,15 @@
+<<add_operators>> <<1:6-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<anagram>> <<2:36-43>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<array_sum_combinations>> <<3:60-82>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<combination_sum>> <<4:99-114>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<factor_combinations>> <<5:131-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<find_words>> <<6:167-177>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generate_abbreviations>> <<7:194-216>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<generate_parenthesis>> <<8:233-253>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<letter_combination>> <<9:270-288>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<palindrome_partitioning>> <<10:305-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pattern_match>> <<11:345-358>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<permute_unique>> <<12:375-389>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<permute>> <<13:406-413>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<subsets_unique>> <<14:430-444>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<subsets>> <<15:461-468>> <<module>> <<VARIABLE>> <<ANCHOR>>

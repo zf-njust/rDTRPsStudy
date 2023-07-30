@@ -1,0 +1,13 @@
+<<CommandFilterSerializer>> <<13:375-398>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Meta>> <<15:445-449>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<16:460-465>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_serializer_class>> <<17:491-512>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<18:550-556>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<extra_kwargs>> <<23:739-751>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<CommandFilterRuleSerializer>> <<29:871-898>> <<type>> <<CLASS>> <<ANCHOR>>
+<<serializer_choice_field>> <<30:937-960>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<invalid_pattern>> <<31:987-1002>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Meta>> <<33:1068-1072>> <<type>> <<CLASS>> <<ANCHOR>>
+<<model>> <<34:1083-1088>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fields>> <<35:1118-1124>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<list_serializer_class>> <<36:1146-1167>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>

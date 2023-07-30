@@ -1,0 +1,9 @@
+<<some_func>> <<2:51-60>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<SomeClass>> <<15:424-433>> <<type>> <<CLASS>> <<ANCHOR>>
+<<some_method>> <<16:489-500>> <<function>> <<METHOD>> <<ANCHOR>>
+<<i>> <<39:1148-1149>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<unformatted>> <<2:63-66>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<2:77-80>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<16:503-506>> <<SomeClass>> <<PARAMETER>> <<ANCHOR>>
+<<unformatted>> <<16:510-513>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<args>> <<16:524-527>> <<?>> <<PARAMETER>> <<ANCHOR>>

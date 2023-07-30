@@ -1,0 +1,15 @@
+<<mitmproxy>> <<5:59-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_hook>> <<8:91-100>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<NoDataClass>> <<12:217-228>> <<type>> <<CLASS>> <<ANCHOR>>
+<<FooHook>> <<19:371-378>> <<type>> <<CLASS>> <<ANCHOR>>
+<<e>> <<22:420-421>> <<FooHook>> <<VARIABLE>> <<ANCHOR>>
+<<FooHook2>> <<30:659-667>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<31:694-698>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<AnotherABC>> <<34:736-746>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<35:769-773>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<NoDataClass>> <<16:328-339>> <<type>> <<VARIABLE>> <<LINK>>
+<<FooHook>> <<22:424-431>> <<type>> <<VARIABLE>> <<LINK>>
+<<e>> <<23:457-458>> <<FooHook>> <<VARIABLE>> <<LINK>>
+<<e>> <<24:472-473>> <<FooHook>> <<VARIABLE>> <<LINK>>
+<<FooHook>> <<25:505-512>> <<type>> <<VARIABLE>> <<LINK>>
+<<AnotherABC>> <<37:793-803>> <<type>> <<VARIABLE>> <<LINK>>

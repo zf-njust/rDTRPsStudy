@@ -1,0 +1,10 @@
+{
+  "code": "def get_concepts(sample: dict, vocab: VocabWithFrequency = None, rel_vocab: VocabWithFrequency = None):\n    lem, tok = sample['lemma'], sample['token']\n    cp_seq, mp_seq = [], []\n    new_tokens = set()\n    for le, to in zip(lem, tok):\n        cp_seq.append(le + '_')\n        mp_seq.append(le)\n\n    for cp, mp in zip(cp_seq, mp_seq):\n        if vocab.get_idx(cp) == vocab.unk_idx:\n            new_tokens.add(cp)\n        if vocab.get_idx(mp) == vocab.unk_idx:\n            new_tokens.add(mp)\n    nxt = len(vocab)\n    token2idx, idx2token = dict(), dict()\n    if rel_vocab:\n        new_tokens = rel_vocab.idx_to_token + sorted(new_tokens)\n    else:\n        new_tokens = sorted(new_tokens)\n    for x in new_tokens:\n        token2idx[x] = nxt\n        idx2token[nxt] = x\n        nxt += 1\n    for k, v in zip(['cp_seq', 'mp_seq', 'token2idx', 'idx2token'], [cp_seq, mp_seq, token2idx, idx2token]):\n        sample[k] = v\n    return sample",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 17,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

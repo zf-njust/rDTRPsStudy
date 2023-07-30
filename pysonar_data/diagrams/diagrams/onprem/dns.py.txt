@@ -1,0 +1,9 @@
+<<_Dns>> <<6:105-109>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:125-130>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:144-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Coredns>> <<11:190-197>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:210-215>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Powerdns>> <<15:243-251>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:264-269>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Dns>> <<11:198-202>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Dns>> <<15:252-256>> <<type>> <<VARIABLE>> <<LINK>>

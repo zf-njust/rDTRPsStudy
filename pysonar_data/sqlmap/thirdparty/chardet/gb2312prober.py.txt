@@ -1,0 +1,17 @@
+<<mbcharsetprober>> <<28:1173-1188>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<codingstatemachine>> <<29:1225-1243>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chardistribution>> <<30:1276-1292>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mbcssm>> <<31:1333-1339>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<GB2312Prober>> <<33:1368-1380>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<34:1414-1422>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<get_charset_name>> <<40:1633-1649>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<40:1650-1653>> <<GB2312Prober>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1423-1426>> <<GB2312Prober>> <<PARAMETER>> <<ANCHOR>>
+<<MultiByteCharSetProber>> <<28:1196-1218>> <<type>> <<VARIABLE>> <<LINK>>
+<<CodingStateMachine>> <<29:1251-1269>> <<type>> <<VARIABLE>> <<LINK>>
+<<GB2312DistributionAnalysis>> <<30:1300-1326>> <<type>> <<VARIABLE>> <<LINK>>
+<<GB2312SMModel>> <<31:1347-1360>> <<dict>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<33:1381-1403>> <<type>> <<VARIABLE>> <<LINK>>
+<<MultiByteCharSetProber>> <<35:1438-1460>> <<type>> <<VARIABLE>> <<LINK>>
+<<__init__>> <<35:1461-1469>> <<function>> <<VARIABLE>> <<LINK>>
+<<self>> <<35:1470-1474>> <<GB2312Prober>> <<VARIABLE>> <<LINK>>

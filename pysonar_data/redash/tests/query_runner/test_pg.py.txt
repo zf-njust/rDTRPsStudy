@@ -1,0 +1,17 @@
+<<unittest>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<redash>> <<2:36-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestBuildSchema>> <<5:90-105>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_handles_dups_between_public_and_other_schemas>> <<6:126-176>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<6:177-180>> <<TestBuildSchema>> <<PARAMETER>> <<ANCHOR>>
+<<results>> <<7:193-200>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<schema>> <<19:618-624>> <<dict>> <<VARIABLE>> <<ANCHOR>>
+<<results>> <<21:654-661>> <<dict>> <<VARIABLE>> <<LINK>>
+<<schema>> <<21:663-669>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:682-686>> <<TestBuildSchema>> <<VARIABLE>> <<LINK>>
+<<schema>> <<23:710-716>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<24:734-738>> <<TestBuildSchema>> <<VARIABLE>> <<LINK>>
+<<schema>> <<24:755-761>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<25:813-817>> <<TestBuildSchema>> <<VARIABLE>> <<LINK>>
+<<schema>> <<25:850-856>> <<dict>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:874-878>> <<TestBuildSchema>> <<VARIABLE>> <<LINK>>
+<<schema>> <<26:895-901>> <<dict>> <<VARIABLE>> <<LINK>>

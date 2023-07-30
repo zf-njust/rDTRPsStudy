@@ -1,0 +1,17 @@
+<<ciphey>> <<4:57-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<4:64-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Base64_url>> <<8:151-161>> <<type>> <<CLASS>> <<ANCHOR>>
+<<decode>> <<9:186-192>> <<function>> <<METHOD>> <<ANCHOR>>
+<<priority>> <<20:521-529>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__init__>> <<24:645-653>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<getParams>> <<28:741-750>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getTarget>> <<32:839-848>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<24:654-657>> <<Base64_url>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<24:660-663>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:193-196>> <<Base64_url>> <<PARAMETER>> <<ANCHOR>>
+<<ctext>> <<9:199-202>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ctext_padding>> <<13:298-311>> <<{str||int}>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<25:703-709>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<13:314-319>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext>> <<13:337-342>> <<?>> <<VARIABLE>> <<LINK>>
+<<ctext_padding>> <<15:408-421>> <<{str||int}>> <<VARIABLE>> <<LINK>>

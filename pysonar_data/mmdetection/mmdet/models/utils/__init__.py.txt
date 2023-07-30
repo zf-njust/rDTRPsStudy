@@ -1,0 +1,6 @@
+<<image>> <<5:268-273>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<point_sample>> <<16:956-968>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<20:1143-1150>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<imrenormalize>> <<5:281-294>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_uncertain_point_coords_with_randomness>> <<16:977-1019>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_uncertainty>> <<17:1049-1064>> <<function>> <<VARIABLE>> <<LINK>>

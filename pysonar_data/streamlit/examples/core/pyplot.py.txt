@@ -1,0 +1,3 @@
+<<data>> <<6:105-109>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<plot>> <<7:146-150>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<data>> <<7:165-169>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<ISpiderLoader>> <<3:46-59>> <<type>> <<CLASS>> <<ANCHOR>>
+<<from_settings>> <<5:83-96>> <<function>> <<METHOD>> <<ANCHOR>>
+<<load>> <<8:189-193>> <<function>> <<METHOD>> <<ANCHOR>>
+<<list>> <<12:353-357>> <<function>> <<METHOD>> <<ANCHOR>>
+<<find_by_request>> <<16:465-480>> <<function>> <<METHOD>> <<ANCHOR>>
+<<ISpiderManager>> <<22:674-688>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<spider_name>> <<8:194-197>> <<ISpiderLoader>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<5:97-100>> <<ISpiderLoader>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<16:481-484>> <<ISpiderLoader>> <<PARAMETER>> <<ANCHOR>>
+<<ISpiderLoader>> <<22:691-704>> <<type>> <<VARIABLE>> <<LINK>>

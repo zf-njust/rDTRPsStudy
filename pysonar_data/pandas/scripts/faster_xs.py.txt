@@ -1,0 +1,13 @@
+<<pandas>> <<3:29-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pandas>> <<5:63-69>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<5:70-74>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<df>> <<7:114-116>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<blocks>> <<14:213-219>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<items>> <<15:239-244>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<9:141-143>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<10:158-160>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<11:175-177>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<12:198-200>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<12:188-190>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<14:222-224>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<15:247-249>> <<?>> <<VARIABLE>> <<LINK>>

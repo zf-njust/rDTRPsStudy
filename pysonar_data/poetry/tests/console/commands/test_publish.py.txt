@@ -1,0 +1,12 @@
+<<test_publish_returns_non_zero_code_for_upload_errors>> <<1:4-56>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<app>> <<1:57-60>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app_tester>> <<1:62-65>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<http>> <<1:74-77>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exit_code>> <<6:205-214>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<expected>> <<10:313-321>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<2:86-90>> <<?>> <<VARIABLE>> <<LINK>>
+<<http>> <<3:114-118>> <<?>> <<VARIABLE>> <<LINK>>
+<<app_tester>> <<6:217-227>> <<?>> <<VARIABLE>> <<LINK>>
+<<exit_code>> <<8:296-305>> <<?>> <<VARIABLE>> <<LINK>>
+<<app_tester>> <<18:438-448>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<18:470-478>> <<str>> <<VARIABLE>> <<LINK>>

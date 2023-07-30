@@ -1,0 +1,12 @@
+<<set_process_lowest_prio>> <<8:127-150>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<set_process_dpi_aware>> <<23:739-760>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_screen_size>> <<27:855-870>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<GetCurrentProcess>> <<11:217-234>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<SetPriorityClass>> <<13:341-357>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<user32>> <<29:919-925>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<GetCurrentProcess>> <<12:284-301>> <<?>> <<VARIABLE>> <<LINK>>
+<<SetPriorityClass>> <<14:406-422>> <<?>> <<VARIABLE>> <<LINK>>
+<<SetPriorityClass>> <<15:481-497>> <<?>> <<VARIABLE>> <<LINK>>
+<<GetCurrentProcess>> <<15:500-517>> <<?>> <<VARIABLE>> <<LINK>>
+<<user32>> <<30:958-964>> <<?>> <<VARIABLE>> <<LINK>>
+<<user32>> <<30:986-992>> <<?>> <<VARIABLE>> <<LINK>>

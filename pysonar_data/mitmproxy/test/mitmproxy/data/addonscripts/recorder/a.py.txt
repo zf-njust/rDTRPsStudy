@@ -1,0 +1,4 @@
+<<recorder>> <<1:7-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<3:19-25>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<recorder>> <<3:29-37>> <<module>> <<VARIABLE>> <<LINK>>
+<<Recorder>> <<3:38-46>> <<type>> <<VARIABLE>> <<LINK>>

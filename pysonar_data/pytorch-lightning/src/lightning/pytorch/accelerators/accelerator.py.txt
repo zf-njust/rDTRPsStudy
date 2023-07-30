@@ -1,0 +1,10 @@
+<<abc>> <<14:599-602>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Accelerator>> <<22:826-837>> <<type>> <<CLASS>> <<ANCHOR>>
+<<setup>> <<28:1051-1056>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_device_stats>> <<35:1249-1265>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1266-1269>> <<Accelerator>> <<PARAMETER>> <<ANCHOR>>
+<<device>> <<35:1272-1275>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<28:1057-1060>> <<Accelerator>> <<PARAMETER>> <<ANCHOR>>
+<<trainer>> <<28:1063-1066>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<14:610-613>> <<type>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<22:852-855>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,1 @@
+<<__version__>> <<19:800-811>> <<str>> <<SCOPE>> <<ANCHOR>>

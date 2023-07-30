@@ -1,0 +1,12 @@
+<<__future__>> <<2:30-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app_name>> <<9:172-180>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<router>> <<11:192-198>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<17:484-495>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<urlpatterns>> <<23:775-786>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<unicode_literals>> <<2:48-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<router>> <<12:218-224>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<13:270-276>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<14:324-330>> <<?>> <<VARIABLE>> <<LINK>>
+<<router>> <<15:392-398>> <<?>> <<VARIABLE>> <<LINK>>
+<<urlpatterns>> <<23:775-786>> <<list>> <<VARIABLE>> <<LINK>>
+<<router>> <<23:790-796>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,7 @@
+<<pipenv>> <<18:422-428>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<patched>> <<18:429-436>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pip>> <<18:437-440>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_vendor>> <<18:441-448>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<certifi>> <<18:449-456>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<where>> <<20:484-489>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<where>> <<24:581-586>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,9 @@
+<<__email__>> <<6:111-120>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<7:146-156>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<8:178-189>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<spleeter>> <<12:253-261>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_version>> <<17:296-308>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runner>> <<19:319-325>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<21:387-388>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<runner>> <<21:391-397>> <<?>> <<VARIABLE>> <<LINK>>
+<<spleeter>> <<23:415-423>> <<module>> <<VARIABLE>> <<LINK>>

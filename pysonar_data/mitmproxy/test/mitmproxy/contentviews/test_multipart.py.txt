@@ -1,0 +1,16 @@
+<<mitmproxy>> <<2:30-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_view_multipart>> <<5:79-98>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_render_priority>> <<23:491-511>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<view>> <<6:107-111>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<v>> <<7:156-157>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<v>> <<24:520-521>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<view>> <<14:279-283>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<14:284-285>> <<?>> <<VARIABLE>> <<LINK>>
+<<view>> <<16:358-362>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<16:363-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<view>> <<18:384-388>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<18:389-390>> <<?>> <<VARIABLE>> <<LINK>>
+<<view>> <<20:446-450>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<20:451-452>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<25:562-563>> <<?>> <<VARIABLE>> <<LINK>>
+<<v>> <<26:641-642>> <<?>> <<VARIABLE>> <<LINK>>

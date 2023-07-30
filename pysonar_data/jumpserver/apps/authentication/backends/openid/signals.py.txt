@@ -1,0 +1,2 @@
+<<post_create_openid_user>> <<4:40-63>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<post_openid_login_success>> <<5:100-125>> <<?>> <<SCOPE>> <<ANCHOR>>

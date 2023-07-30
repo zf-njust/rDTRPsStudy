@@ -1,0 +1,9 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<net>> <<1:15-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<http>> <<1:19-23>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<user_agents>> <<1:31-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_get_shortcut>> <<4:52-69>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<user_agents>> <<5:85-96>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_by_shortcut>> <<5:97-112>> <<function>> <<VARIABLE>> <<LINK>>
+<<user_agents>> <<6:149-160>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_by_shortcut>> <<6:161-176>> <<function>> <<VARIABLE>> <<LINK>>

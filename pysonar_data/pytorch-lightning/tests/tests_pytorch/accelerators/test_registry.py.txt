@@ -1,0 +1,5 @@
+<<test_available_accelerators_in_registry>> <<17:666-705>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<available>> <<19:820-829>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<expected>> <<20:887-895>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<expected>> <<22:1034-1042>> <<list>> <<VARIABLE>> <<LINK>>
+<<available>> <<22:1052-1061>> <<?>> <<VARIABLE>> <<LINK>>

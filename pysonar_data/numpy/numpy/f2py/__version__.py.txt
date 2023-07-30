@@ -1,0 +1,12 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<major>> <<3:68-73>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<10:242-249>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_info>> <<7:132-144>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<8:169-176>> <<{tuple||str}>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<major>> <<10:256-261>> <<int>> <<VARIABLE>> <<LINK>>
+<<major>> <<7:148-153>> <<int>> <<VARIABLE>> <<LINK>>
+<<version>> <<7:155-162>> <<str>> <<VARIABLE>> <<LINK>>
+<<version_info>> <<8:189-201>> <<tuple>> <<VARIABLE>> <<LINK>>

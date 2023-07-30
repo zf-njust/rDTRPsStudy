@@ -1,0 +1,7 @@
+<<BASIC_IMPORTS>> <<31:1094-1107>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<test_no_ipython_common>> <<42:1343-1365>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<proc>> <<48:1553-1557>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<BASIC_IMPORTS>> <<49:1692-1705>> <<list>> <<VARIABLE>> <<LINK>>
+<<proc>> <<51:1732-1736>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<52:1756-1760>> <<?>> <<VARIABLE>> <<LINK>>
+<<proc>> <<53:1776-1780>> <<?>> <<VARIABLE>> <<LINK>>

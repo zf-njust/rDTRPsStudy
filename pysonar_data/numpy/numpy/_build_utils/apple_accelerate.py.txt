@@ -1,0 +1,13 @@
+<<__all__>> <<5:36-43>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<uses_accelerate_framework>> <<7:100-125>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<get_sgemv_fix>> <<18:484-497>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<info>> <<7:126-129>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<r_accelerate>> <<11:268-280>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<extra_link_args>> <<12:313-328>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<arg>> <<13:372-375>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<20:563-567>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<info>> <<12:331-335>> <<?>> <<VARIABLE>> <<LINK>>
+<<extra_link_args>> <<13:379-394>> <<?>> <<VARIABLE>> <<LINK>>
+<<r_accelerate>> <<14:408-420>> <<?>> <<VARIABLE>> <<LINK>>
+<<arg>> <<14:428-431>> <<?>> <<VARIABLE>> <<LINK>>
+<<path>> <<21:639-643>> <<str>> <<VARIABLE>> <<LINK>>

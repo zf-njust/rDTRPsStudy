@@ -1,0 +1,9 @@
+<<TestResource>> <<7:141-153>> <<type>> <<CLASS>> <<ANCHOR>>
+<<on_get>> <<8:164-170>> <<function>> <<METHOD>> <<ANCHOR>>
+<<app>> <<12:242-245>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<8:171-174>> <<TestResource>> <<PARAMETER>> <<ANCHOR>>
+<<req>> <<8:177-180>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<resp>> <<8:182-185>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<13:262-265>> <<?>> <<VARIABLE>> <<LINK>>
+<<TestResource>> <<13:281-293>> <<type>> <<VARIABLE>> <<LINK>>
+<<resp>> <<9:198-202>> <<?>> <<VARIABLE>> <<LINK>>

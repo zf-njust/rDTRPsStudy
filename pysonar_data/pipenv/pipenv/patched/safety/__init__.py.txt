@@ -1,0 +1,7 @@
+<<__author__>> <<3:25-35>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__email__>> <<4:52-61>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ROOT>> <<8:94-98>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_file>> <<10:189-201>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<11:207-214>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ROOT>> <<10:168-172>> <<str>> <<VARIABLE>> <<LINK>>
+<<version_file>> <<11:217-229>> <<file>> <<VARIABLE>> <<LINK>>

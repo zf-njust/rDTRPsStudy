@@ -1,0 +1,9 @@
+<<ISTERMINAL>> <<82:1749-1759>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ISNONTERMINAL>> <<86:1812-1825>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ISEOF>> <<90:1879-1884>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<82:1760-1763>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<90:1885-1888>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<86:1826-1829>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<83:1789-1790>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<91:1914-1915>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<87:1855-1856>> <<?>> <<VARIABLE>> <<LINK>>

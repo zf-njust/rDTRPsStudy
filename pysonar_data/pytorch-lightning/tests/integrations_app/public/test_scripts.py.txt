@@ -1,0 +1,8 @@
+<<test_scripts>> <<19:410-422>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_components_app_example>> <<25:636-663>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runner>> <<26:672-678>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<27:698-704>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<file>> <<19:423-426>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<runner>> <<27:707-713>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<38:983-989>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<39:1044-1050>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<PYTHON_ARRAY>> <<9:148-160>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<NP_ARRAY>> <<10:182-190>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<NP_2dARRAY>> <<11:222-232>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_numpy_functions>> <<77:2905-2925>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<77:2926-2929>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<func_arguments>> <<77:2932-2935>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<request>> <<77:2948-2951>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<result>> <<86:3350-3356>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<original_result>> <<94:3580-3595>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<func>> <<82:3199-3203>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<96:3651-3657>> <<?>> <<VARIABLE>> <<LINK>>
+<<original_result>> <<96:3661-3676>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<97:3703-3709>> <<?>> <<VARIABLE>> <<LINK>>

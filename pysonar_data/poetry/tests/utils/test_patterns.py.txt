@@ -1,0 +1,14 @@
+<<poetry>> <<3:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<3:29-34>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_wheel_file_re>> <<35:894-912>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<filename>> <<35:913-916>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<35:923-926>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<match>> <<36:939-944>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<groups>> <<37:991-997>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<patterns>> <<3:42-50>> <<module>> <<VARIABLE>> <<LINK>>
+<<patterns>> <<36:947-955>> <<module>> <<VARIABLE>> <<LINK>>
+<<wheel_file_re>> <<36:956-969>> <<?>> <<VARIABLE>> <<LINK>>
+<<filename>> <<36:976-984>> <<?>> <<VARIABLE>> <<LINK>>
+<<match>> <<37:1000-1005>> <<?>> <<VARIABLE>> <<LINK>>
+<<groups>> <<39:1032-1038>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<39:1042-1050>> <<?>> <<VARIABLE>> <<LINK>>

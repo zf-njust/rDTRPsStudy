@@ -1,0 +1,6 @@
+<<mitmproxy>> <<4:70-79>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<4:80-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<load>> <<7:106-110>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<l>> <<7:111-114>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ALERT>> <<4:91-96>> <<int>> <<VARIABLE>> <<LINK>>
+<<ALERT>> <<12:277-282>> <<int>> <<VARIABLE>> <<LINK>>

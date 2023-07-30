@@ -1,0 +1,7 @@
+<<test_import_plain>> <<22:830-847>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_nested>> <<29:962-980>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_raises>> <<36:1132-1150>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path2>> <<32:1057-1062>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<os2>> <<25:898-901>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<path2>> <<33:1116-1121>> <<?>> <<VARIABLE>> <<LINK>>
+<<os2>> <<26:948-951>> <<?>> <<VARIABLE>> <<LINK>>

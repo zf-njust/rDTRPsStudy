@@ -1,0 +1,7 @@
+<<pysnooper>> <<1:7-16>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<foo>> <<4:26-29>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<bar>> <<8:70-73>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<main>> <<17:205-209>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<expected_output>> <<24:270-285>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<foo>> <<10:96-99>> <<function>> <<VARIABLE>> <<LINK>>
+<<bar>> <<19:232-235>> <<function>> <<VARIABLE>> <<LINK>>

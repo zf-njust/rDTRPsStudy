@@ -1,0 +1,12 @@
+<<mmdet>> <<2:54-59>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<registry>> <<2:60-68>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VOCDataset>> <<7:160-170>> <<type>> <<CLASS>> <<ANCHOR>>
+<<METAINFO>> <<10:226-234>> <<dict>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<24:1003-1011>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<24:1012-1015>> <<VOCDataset>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<24:1015-1016>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<DATASETS>> <<2:76-84>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<26:1090-1094>> <<VOCDataset>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:1123-1127>> <<VOCDataset>> <<VARIABLE>> <<LINK>>
+<<self>> <<28:1193-1197>> <<VOCDataset>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:1226-1230>> <<VOCDataset>> <<VARIABLE>> <<LINK>>

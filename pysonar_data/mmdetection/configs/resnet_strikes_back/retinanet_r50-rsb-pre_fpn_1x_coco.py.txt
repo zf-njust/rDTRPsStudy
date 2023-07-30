@@ -1,0 +1,5 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint>> <<7:182-192>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<8:319-324>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<13:457-470>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<checkpoint>> <<11:440-450>> <<str>> <<VARIABLE>> <<LINK>>

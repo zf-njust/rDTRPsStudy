@@ -1,0 +1,12 @@
+<<__metaclass__>> <<20:831-844>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<jsonify>> <<27:936-943>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<result>> <<27:944-947>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<format>> <<27:952-955>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<indent>> <<33:1084-1090>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<indent>> <<35:1123-1129>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<30:1040-1046>> <<?>> <<VARIABLE>> <<LINK>>
+<<format>> <<34:1106-1112>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<40:1291-1297>> <<?>> <<VARIABLE>> <<LINK>>
+<<indent>> <<40:1322-1328>> <<{int||?}>> <<VARIABLE>> <<LINK>>
+<<result>> <<38:1173-1179>> <<?>> <<VARIABLE>> <<LINK>>
+<<indent>> <<38:1204-1210>> <<{int||?}>> <<VARIABLE>> <<LINK>>

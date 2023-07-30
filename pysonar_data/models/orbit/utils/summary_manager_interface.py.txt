@@ -1,0 +1,12 @@
+<<abc>> <<17:689-692>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SummaryManagerInterface>> <<20:704-727>> <<type>> <<CLASS>> <<ANCHOR>>
+<<flush>> <<24:829-834>> <<function>> <<METHOD>> <<ANCHOR>>
+<<summary_writer>> <<29:952-966>> <<function>> <<METHOD>> <<ANCHOR>>
+<<write_summaries>> <<34:1124-1139>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<29:967-970>> <<SummaryManagerInterface>> <<PARAMETER>> <<ANCHOR>>
+<<relative_path>> <<29:973-976>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<24:835-838>> <<SummaryManagerInterface>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<34:1140-1143>> <<SummaryManagerInterface>> <<PARAMETER>> <<ANCHOR>>
+<<summary_dict>> <<34:1146-1149>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<abc>> <<20:728-731>> <<module>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<20:732-735>> <<type>> <<VARIABLE>> <<LINK>>

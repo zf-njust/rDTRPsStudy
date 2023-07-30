@@ -1,0 +1,11 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<on_db_connection_ready>> <<10:226-248>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<CommonConfig>> <<17:457-469>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<18:487-491>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ready>> <<20:514-519>> <<function>> <<METHOD>> <<ANCHOR>>
+<<sender>> <<10:249-252>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<der>> <<10:252-255>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<20:520-523>> <<CommonConfig>> <<PARAMETER>> <<ANCHOR>>
+<<unicode_literals>> <<1:23-39>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<CommonConfig>> <<13:369-381>> <<type>> <<VARIABLE>> <<LINK>>
+<<on_db_connection_ready>> <<14:422-444>> <<function>> <<VARIABLE>> <<LINK>>

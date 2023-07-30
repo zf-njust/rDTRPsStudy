@@ -1,0 +1,10 @@
+<<abc>> <<17:709-712>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Output>> <<25:809-815>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<AbstractTrainer>> <<28:934-949>> <<type>> <<CLASS>> <<ANCHOR>>
+<<train>> <<32:1084-1089>> <<function>> <<METHOD>> <<ANCHOR>>
+<<AbstractEvaluator>> <<58:2333-2350>> <<type>> <<CLASS>> <<ANCHOR>>
+<<evaluate>> <<62:2487-2495>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<62:2496-2499>> <<AbstractEvaluator>> <<PARAMETER>> <<ANCHOR>>
+<<num_steps>> <<62:2502-2505>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<32:1090-1093>> <<AbstractTrainer>> <<PARAMETER>> <<ANCHOR>>
+<<num_steps>> <<32:1096-1099>> <<?>> <<PARAMETER>> <<ANCHOR>>

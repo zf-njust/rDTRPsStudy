@@ -1,0 +1,16 @@
+<<magenta>> <<17:689-696>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<contrib>> <<17:697-704>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rnn>> <<17:712-715>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<rnn>> <<17:719-730>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<CudnnCompatibleLSTMCell>> <<20:742-765>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<28:1018-1026>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<28:1027-1030>> <<CudnnCompatibleLSTMCell>> <<PARAMETER>> <<ANCHOR>>
+<<num_units>> <<28:1033-1036>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<reuse>> <<28:1044-1047>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<rnn>> <<20:766-777>> <<module>> <<VARIABLE>> <<LINK>>
+<<LSTMBlockCell>> <<20:778-791>> <<type>> <<VARIABLE>> <<LINK>>
+<<CudnnCompatibleLSTMCell>> <<29:1068-1091>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<29:1093-1097>> <<CudnnCompatibleLSTMCell>> <<VARIABLE>> <<LINK>>
+<<num_units>> <<30:1118-1127>> <<?>> <<VARIABLE>> <<LINK>>
+<<reuse>> <<34:1222-1227>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1278-1282>> <<CudnnCompatibleLSTMCell>> <<VARIABLE>> <<LINK>>

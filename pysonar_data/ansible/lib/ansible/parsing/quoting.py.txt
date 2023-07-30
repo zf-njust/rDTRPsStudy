@@ -1,0 +1,14 @@
+<<__metaclass__>> <<20:825-838>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<is_quoted>> <<23:855-864>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unquote>> <<26:976-983>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<data>> <<23:865-868>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<26:984-987>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<24:888-892>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<24:902-906>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<24:913-917>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<24:926-930>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<24:952-956>> <<?>> <<VARIABLE>> <<LINK>>
+<<is_quoted>> <<28:1108-1117>> <<function>> <<VARIABLE>> <<LINK>>
+<<data>> <<28:1118-1122>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<29:1141-1145>> <<?>> <<VARIABLE>> <<LINK>>
+<<data>> <<30:1164-1168>> <<?>> <<VARIABLE>> <<LINK>>

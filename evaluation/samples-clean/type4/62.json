@@ -1,0 +1,10 @@
+{
+  "code": "def create_service(self, name, **kwargs):\n        if 'image' not in kwargs and 'build' not in kwargs:\n            kwargs['image'] = 'busybox:latest'\n\n        if 'command' not in kwargs:\n            kwargs['command'] = [\"top\"]\n\n        links = kwargs.get('links', None)\n        volumes_from = kwargs.get('volumes_from', None)\n        net = kwargs.get('net', None)\n\n        workaround_options = ['links', 'volumes_from', 'net']\n        for key in workaround_options:\n            try:\n                del kwargs[key]\n            except KeyError:\n                pass\n\n        options = ServiceLoader(working_dir='.', filename=None, service_name=name, service_dict=kwargs).make_service_dict()\n\n        labels = options.setdefault('labels', {})\n        labels['com.docker.compose.test-name'] = self.id()\n\n        if links:\n            options['links'] = links\n        if volumes_from:\n            options['volumes_from'] = volumes_from\n        if net:\n            options['net'] = net\n\n        return Service(\n            project='composetest',\n            client=self.client,\n            **options\n        )",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 15,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

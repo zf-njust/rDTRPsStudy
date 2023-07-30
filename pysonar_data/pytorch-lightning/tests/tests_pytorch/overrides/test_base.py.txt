@@ -1,0 +1,6 @@
+<<test_wrapper_device_dtype>> <<20:765-790>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<model>> <<21:799-804>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<wrapped_model>> <<22:826-839>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<22:879-884>> <<?>> <<VARIABLE>> <<LINK>>
+<<wrapped_model>> <<24:893-906>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<25:943-948>> <<?>> <<VARIABLE>> <<LINK>>

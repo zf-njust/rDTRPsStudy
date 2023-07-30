@@ -1,0 +1,6 @@
+<<test_pickle_or_not_example>> <<12:315-341>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<runner>> <<13:350-356>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<14:376-382>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<runner>> <<14:385-391>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<25:687-693>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<26:720-726>> <<?>> <<VARIABLE>> <<LINK>>

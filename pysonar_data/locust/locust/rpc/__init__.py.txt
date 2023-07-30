@@ -1,0 +1,6 @@
+<<socketrpc>> <<7:334-343>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<socketrpc>> <<7:347-350>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zmqrpc>> <<4:36-42>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zmqrpc>> <<4:46-49>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<protocol>> <<9:360-368>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Message>> <<9:376-383>> <<type>> <<VARIABLE>> <<LINK>>

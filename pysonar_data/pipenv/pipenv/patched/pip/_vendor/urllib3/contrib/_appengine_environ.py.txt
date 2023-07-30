@@ -1,0 +1,8 @@
+<<is_appengine>> <<8:90-102>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<is_appengine_sandbox>> <<12:167-187>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<is_local_appengine>> <<22:575-593>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<is_prod_appengine>> <<28:731-748>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<is_prod_appengine_mvms>> <<34:892-914>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<is_local_appengine>> <<9:117-135>> <<function>> <<VARIABLE>> <<LINK>>
+<<is_prod_appengine>> <<9:141-158>> <<function>> <<VARIABLE>> <<LINK>>
+<<is_appengine>> <<19:504-516>> <<function>> <<VARIABLE>> <<LINK>>

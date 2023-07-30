@@ -1,0 +1,13 @@
+<<kivy>> <<1:5-9>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<1:10-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<2:31-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<2:36-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<root>> <<4:59-63>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<LabelWithMarkup>> <<15:331-346>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<16:362-367>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<1:21-24>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<2:48-55>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<4:66-73>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<15:347-350>> <<type>> <<VARIABLE>> <<LINK>>
+<<LabelWithMarkup>> <<21:433-448>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<21:451-454>> <<function>> <<VARIABLE>> <<LINK>>

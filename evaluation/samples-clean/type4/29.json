@@ -1,0 +1,10 @@
+{
+  "code": "def _poll(self):\n        all_obs, all_rewards, all_dones, all_infos = {}, {}, {}, {}\n        off_policy_actions = {}\n        for eid, episode in self.external_env._episodes.copy().items():\n            data = episode.get_data()\n            if episode.cur_done:\n                del self.external_env._episodes[eid]\n            if data:\n                if self.prep:\n                    all_obs[eid] = self.prep.transform(data[\"obs\"])\n                else:\n                    all_obs[eid] = data[\"obs\"]\n                all_rewards[eid] = data[\"reward\"]\n                all_dones[eid] = data[\"done\"]\n                all_infos[eid] = data[\"info\"]\n                if \"off_policy_action\" in data:\n                    off_policy_actions[eid] = data[\"off_policy_action\"]\n        return _with_dummy_agent_id(all_obs), \\\n            _with_dummy_agent_id(all_rewards), \\\n            _with_dummy_agent_id(all_dones, \"__all__\"), \\\n            _with_dummy_agent_id(all_infos), \\\n            _with_dummy_agent_id(off_policy_actions)",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 7,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

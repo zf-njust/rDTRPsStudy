@@ -1,0 +1,3 @@
+<<rbm>> <<6:103-106>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<8:130-137>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<BernoulliRBM>> <<6:114-126>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,15 @@
+<<moment_plots>> <<1:5-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ts>> <<3:30-32>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<s>> <<4:50-51>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_series>> <<3:35-46>> <<function>> <<VARIABLE>> <<LINK>>
+<<ts>> <<4:54-56>> <<None>> <<VARIABLE>> <<LINK>>
+<<s>> <<6:69-70>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<7:88-89>> <<?>> <<VARIABLE>> <<LINK>>
+<<plot_timeseries>> <<8:109-124>> <<function>> <<VARIABLE>> <<LINK>>
+<<s>> <<8:125-126>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<9:161-162>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<10:200-201>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<11:256-257>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<12:311-312>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<13:367-368>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<14:423-424>> <<?>> <<VARIABLE>> <<LINK>>

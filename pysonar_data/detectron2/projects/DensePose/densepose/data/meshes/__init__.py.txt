@@ -1,0 +1,6 @@
+<<k>> <<5:116-117>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<5:99-106>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<k>> <<5:158-159>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<5:168-169>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<5:116-117>> <<type>> <<VARIABLE>> <<LINK>>
+<<k>> <<5:110-111>> <<type>> <<VARIABLE>> <<LINK>>

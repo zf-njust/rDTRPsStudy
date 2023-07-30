@@ -1,0 +1,11 @@
+<<log>> <<9:136-139>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<DEFAULT_API_VERSION>> <<12:175-194>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<docker_client>> <<15:213-226>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<version>> <<15:227-230>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<kwargs>> <<23:573-579>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<log>> <<21:451-454>> <<?>> <<VARIABLE>> <<LINK>>
+<<version>> <<24:646-653>> <<?>> <<VARIABLE>> <<LINK>>
+<<DEFAULT_API_VERSION>> <<26:714-733>> <<str>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<24:626-632>> <<?>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<27:740-746>> <<?>> <<VARIABLE>> <<LINK>>
+<<kwargs>> <<28:794-800>> <<?>> <<VARIABLE>> <<LINK>>

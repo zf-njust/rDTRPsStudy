@@ -1,0 +1,4 @@
+<<pool>> <<1:6-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<repository>> <<2:30-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Pool>> <<1:18-22>> <<type>> <<VARIABLE>> <<LINK>>
+<<Repository>> <<2:48-58>> <<type>> <<VARIABLE>> <<LINK>>

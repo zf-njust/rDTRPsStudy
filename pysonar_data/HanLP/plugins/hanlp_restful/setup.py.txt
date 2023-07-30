@@ -1,0 +1,6 @@
+<<this_dir>> <<7:159-167>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<file>> <<8:258-262>> <<file>> <<SCOPE>> <<ANCHOR>>
+<<long_description>> <<9:269-285>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<this_dir>> <<8:213-221>> <<str>> <<VARIABLE>> <<LINK>>
+<<file>> <<9:288-292>> <<file>> <<VARIABLE>> <<LINK>>
+<<long_description>> <<15:433-449>> <<str>> <<VARIABLE>> <<LINK>>

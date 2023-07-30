@@ -1,0 +1,17 @@
+<<detectron2>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<1:16-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<meta_arch>> <<1:25-34>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<retinanet>> <<3:71-80>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<3:88-93>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<5:97-102>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:126-131>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<8:154-159>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<9:183-188>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<10:209-214>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<14:321-326>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<15:365-370>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<18:483-488>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<19:514-519>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<21:545-550>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<22:581-586>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<23:605-610>> <<?>> <<VARIABLE>> <<LINK>>

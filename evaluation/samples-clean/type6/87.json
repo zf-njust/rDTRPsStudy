@@ -1,0 +1,10 @@
+{
+  "code": "def enhance_config(self, domains: List[str], chain_path: str,\n                       redirect_default: bool = True) -> None:\n        \"\"\"Enhance the configuration.\n\n        :param list domains: list of domains to configure\n        :param chain_path: chain file path\n        :type chain_path: `str` or `None`\n        :param redirect_default: boolean value that the \"redirect\" flag should default to\n\n        :raises .errors.Error: if no installer is specified in the\n            client.\n\n        \"\"\"\n        if self.installer is None:\n            logger.error(\"No installer is specified, there isn't any \"\n                           \"configuration to enhance.\")\n            raise errors.Error(\"No installer available\")\n\n        enhanced = False\n        enhancement_info = (\n            (\"hsts\", \"ensure-http-header\", \"Strict-Transport-Security\"),\n            (\"redirect\", \"redirect\", None),\n            (\"staple\", \"staple-ocsp\", chain_path),\n            (\"uir\", \"ensure-http-header\", \"Upgrade-Insecure-Requests\"),)\n        supported = self.installer.supported_enhancements()\n\n        for config_name, enhancement_name, option in enhancement_info:\n            config_value = getattr(self.config, config_name)\n            if enhancement_name in supported:\n                if config_name == \"redirect\" and config_value is None:\n                    config_value = redirect_default\n                if config_value:\n                    self.apply_enhancement(domains, enhancement_name, option)\n                    enhanced = True\n            elif config_value:\n                logger.error(\n                    \"Option %s is not supported by the selected installer. \"\n                    \"Skipping enhancement.\", config_name)\n\n        msg = \"We were unable to restart web server\"\n        if enhanced:\n            with error_handler.ErrorHandler(self._rollback_and_restart, msg):\n                self.installer.restart()",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 28,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<<__future__>> <<19:661-671>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<28:1105-1112>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version_info>> <<29:1124-1136>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<19:679-694>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<19:696-704>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<19:706-720>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<with_statement>> <<19:722-736>> <<_Feature>> <<VARIABLE>> <<LINK>>

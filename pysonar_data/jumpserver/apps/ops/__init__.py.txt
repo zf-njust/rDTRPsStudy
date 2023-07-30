@@ -1,0 +1,2 @@
+<<celery>> <<1:6-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<1:27-37>> <<?>> <<VARIABLE>> <<LINK>>

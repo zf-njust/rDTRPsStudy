@@ -1,0 +1,5 @@
+<<context>> <<6:65-72>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<replay_test_dir>> <<19:420-435>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mock_user_config>> <<24:498-514>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mocker>> <<24:515-518>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<mocker>> <<25:536-542>> <<?>> <<VARIABLE>> <<LINK>>

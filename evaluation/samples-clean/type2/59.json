@@ -1,0 +1,10 @@
+{
+  "code": "def draw_lines(self) -> None:\n        lines = []\n        origin = self.coordinate_system.get_origin()\n        for point in self.get_start_points():\n            points = [point]\n            total_arc_len = 0\n            time = 0\n            for x in range(self.max_time_steps):\n                time += self.dt\n                last_point = points[-1]\n                new_point = last_point + self.dt * (self.point_func(last_point) - origin)\n                points.append(new_point)\n                total_arc_len += get_norm(new_point - last_point)\n                if get_norm(last_point) > self.cutoff_norm:\n                    break\n                if total_arc_len > self.arc_len:\n                    break\n            line = VMobject()\n            line.virtual_time = time\n            step = max(1, int(len(points) / self.n_samples_per_line))\n            line.set_points_as_corners(points[::step])\n            line.make_smooth(approx=True)\n            lines.append(line)\n        self.set_submobjects(lines)\n    def set_submobjects(self, submobject_list: list[Mobject]) -> Self:\n        if self.submobjects == submobject_list:\n            return self\n        self.clear()\n        self.add(*submobject_list)\n        return self",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 24,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

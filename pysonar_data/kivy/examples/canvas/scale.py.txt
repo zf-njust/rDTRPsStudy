@@ -1,0 +1,12 @@
+<<kivy>> <<11:252-256>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<11:257-260>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<12:278-282>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lang>> <<12:283-287>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kv>> <<14:306-308>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ScalingApp>> <<32:669-679>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build>> <<33:695-700>> <<function>> <<METHOD>> <<ANCHOR>>
+<<App>> <<11:268-271>> <<type>> <<VARIABLE>> <<LINK>>
+<<Builder>> <<12:295-302>> <<ProxyContext>> <<VARIABLE>> <<LINK>>
+<<App>> <<32:680-683>> <<type>> <<VARIABLE>> <<LINK>>
+<<ScalingApp>> <<37:753-763>> <<type>> <<VARIABLE>> <<LINK>>
+<<run>> <<37:766-769>> <<function>> <<VARIABLE>> <<LINK>>

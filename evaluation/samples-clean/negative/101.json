@@ -1,0 +1,4 @@
+{
+    "code": "def tamper(payload, **kwargs):\n    \"\"\"\n    Add random comments to SQL keywords\n\n    >>> import random\n    >>> random.seed(0)\n    >>> tamper('INSERT')\n    'I/**/N/**/SERT'\n    \"\"\"\n\n    retVal = payload\n\n    if payload:\n        for match in re.finditer(r\"\\b[A-Za-z_]+\\b\", payload):\n            word = match.group()\n\n            if len(word) < 2:\n                continue\n\n            if word.upper() in kb.keywords:\n                _ = word[0]\n\n                for i in xrange(1, len(word) - 1):\n                    _ += \"%s%s\" % (\"/**/\" if randomRange(0, 1) else \"\", word[i])\n\n                _ += word[-1]\n\n                if \"/**/\" not in _:\n                    index = randomRange(1, len(word) - 1)\n                    _ = word[:index] + \"/**/\" + word[index:]\n\n                retVal = retVal.replace(word, _)\n\n    return retVal",
+    "smell": []
+}

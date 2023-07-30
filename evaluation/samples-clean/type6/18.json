@@ -1,0 +1,10 @@
+{
+  "code": "def __getattribute__(self, name):\n        if name in super(KNSpace, self).__getattribute__('__dict__'):\n            return super(KNSpace, self).__getattribute__(name)\n\n        try:\n            value = super(KNSpace, self).__getattribute__(name)\n        except AttributeError:\n            parent = super(KNSpace, self).__getattribute__('parent')\n            if parent is None:\n                raise AttributeError(name)\n            return getattr(parent, name)\n\n        if value is not None:\n            return value\n\n        parent = super(KNSpace, self).__getattribute__('parent')\n        if parent is None:\n            return None\n\n        try:\n            return getattr(parent, name)  # if parent doesn't have it\n        except AttributeError:\n            return None",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 21,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

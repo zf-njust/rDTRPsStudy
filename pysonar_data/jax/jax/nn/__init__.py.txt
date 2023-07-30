@@ -1,0 +1,9 @@
+<<jax>> <<20:789-792>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<20:793-798>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<21:825-828>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<nn>> <<21:829-831>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<initializers>> <<21:839-851>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<initializers>> <<21:855-867>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<jax>> <<22:874-877>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<22:878-882>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<nn>> <<22:883-885>> <<module>> <<VARIABLE>> <<ANCHOR>>

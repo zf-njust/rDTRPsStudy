@@ -1,0 +1,10 @@
+<<__revision__>> <<27:1195-1207>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_data>> <<31:1326-1335>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<get_tests>> <<51:2399-2408>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<unittest>> <<59:2660-2668>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<suite>> <<60:2674-2679>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<config>> <<51:2409-2412>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<unittest>> <<61:2727-2735>> <<module>> <<VARIABLE>> <<LINK>>
+<<test_data>> <<54:2543-2552>> <<list>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<60:2690-2698>> <<module>> <<VARIABLE>> <<LINK>>
+<<get_tests>> <<60:2709-2718>> <<function>> <<VARIABLE>> <<LINK>>

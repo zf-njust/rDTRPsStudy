@@ -1,0 +1,9 @@
+<<scrapy>> <<4:88-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:95-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<wrap_loader_context>> <<6:136-155>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<function>> <<6:156-159>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<context>> <<6:166-169>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<function>> <<10:374-382>> <<?>> <<VARIABLE>> <<LINK>>
+<<function>> <<11:409-417>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<11:434-441>> <<?>> <<VARIABLE>> <<LINK>>
+<<function>> <<13:470-478>> <<?>> <<VARIABLE>> <<LINK>>

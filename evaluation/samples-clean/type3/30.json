@@ -1,0 +1,10 @@
+{
+  "code": "    @rpc_method()\n    def add_task_batcher(self, worker, task_family, batched_args, max_batch_size=float('inf')):\n        self._state.set_batcher(worker, task_family, batched_args, max_batch_size)",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 3,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

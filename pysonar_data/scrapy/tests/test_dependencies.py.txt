@@ -1,0 +1,11 @@
+<<ScrapyUtilsTest>> <<4:81-96>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_required_openssl_version>> <<5:126-155>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:156-159>> <<ScrapyUtilsTest>> <<PARAMETER>> <<ANCHOR>>
+<<module>> <<7:190-196>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<12:415-416>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<installed_version>> <<12:383-400>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<11:346-352>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<12:420-426>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<12:415-416>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<12:408-409>> <<?>> <<VARIABLE>> <<LINK>>
+<<installed_version>> <<13:475-492>> <<list>> <<VARIABLE>> <<LINK>>

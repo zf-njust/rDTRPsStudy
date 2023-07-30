@@ -1,0 +1,12 @@
+<<__all__>> <<27:871-878>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<29:908-912>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<29:913-916>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<button>> <<29:917-923>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<30:944-948>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<30:949-952>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<behaviors>> <<30:953-962>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ToggleButton>> <<33:1002-1014>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Button>> <<29:931-937>> <<type>> <<VARIABLE>> <<LINK>>
+<<ToggleButtonBehavior>> <<30:970-990>> <<type>> <<VARIABLE>> <<LINK>>
+<<ToggleButtonBehavior>> <<33:1015-1035>> <<type>> <<VARIABLE>> <<LINK>>
+<<Button>> <<33:1037-1043>> <<type>> <<VARIABLE>> <<LINK>>

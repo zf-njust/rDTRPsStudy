@@ -1,0 +1,13 @@
+<<unittest>> <<2:54-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mmdet>> <<7:149-154>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<7:155-161>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<dense_heads>> <<7:162-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestCenterNetUpdateHead>> <<10:212-235>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_centernet_update_head_loss>> <<12:258-289>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:290-293>> <<TestCenterNetUpdateHead>> <<PARAMETER>> <<ANCHOR>>
+<<s>> <<14:377-378>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<img_metas>> <<15:394-403>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<s>> <<16:436-437>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<16:439-440>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<17:473-474>> <<int>> <<VARIABLE>> <<LINK>>
+<<s>> <<17:476-477>> <<int>> <<VARIABLE>> <<LINK>>

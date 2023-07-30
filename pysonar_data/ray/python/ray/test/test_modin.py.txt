@@ -1,0 +1,6 @@
+<<test_modin_import>> <<8:147-164>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<frame_data>> <<10:204-214>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<frame>> <<11:247-252>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<frame_data>> <<11:268-278>> <<list>> <<VARIABLE>> <<LINK>>
+<<frame>> <<12:292-297>> <<?>> <<VARIABLE>> <<LINK>>
+<<frame_data>> <<12:321-331>> <<list>> <<VARIABLE>> <<LINK>>

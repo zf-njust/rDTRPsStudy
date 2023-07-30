@@ -1,0 +1,4 @@
+<<_OCI>> <<8:123-127>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_provider>> <<9:140-149>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<10:163-172>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<fontcolor>> <<12:198-207>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>

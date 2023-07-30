@@ -1,0 +1,14 @@
+<<httpie>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plugins>> <<1:12-19>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HeadersFormatter>> <<4:54-70>> <<type>> <<CLASS>> <<ANCHOR>>
+<<format_headers>> <<6:100-114>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<6:115-118>> <<HeadersFormatter>> <<PARAMETER>> <<ANCHOR>>
+<<headers>> <<6:121-124>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<lines>> <<12:279-284>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<headers>> <<13:317-324>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<h>> <<13:356-359>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<headers>> <<12:287-294>> <<?>> <<VARIABLE>> <<LINK>>
+<<lines>> <<13:334-339>> <<?>> <<VARIABLE>> <<LINK>>
+<<lines>> <<14:404-409>> <<?>> <<VARIABLE>> <<LINK>>
+<<headers>> <<14:416-423>> <<?>> <<VARIABLE>> <<LINK>>
+<<h>> <<13:359-360>> <<?>> <<VARIABLE>> <<LINK>>

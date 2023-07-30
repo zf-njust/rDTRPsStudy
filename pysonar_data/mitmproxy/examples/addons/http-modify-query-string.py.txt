@@ -1,0 +1,4 @@
+<<mitmproxy>> <<2:42-51>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<5:73-80>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<flow>> <<5:81-84>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<flow>> <<6:116-120>> <<?>> <<VARIABLE>> <<LINK>>

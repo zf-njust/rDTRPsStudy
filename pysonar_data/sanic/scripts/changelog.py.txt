@@ -1,0 +1,14 @@
+<<_main>> <<43:1136-1141>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<draft>> <<44:1152-1155>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<directory>> <<45:1168-1171>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<project_name>> <<46:1188-1191>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<project_version>> <<47:1211-1214>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<project_date>> <<48:1237-1240>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<answer_yes>> <<49:1260-1263>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_main>> <<60:1485-1490>> <<function>> <<VARIABLE>> <<LINK>>
+<<draft>> <<52:1327-1332>> <<?>> <<VARIABLE>> <<LINK>>
+<<directory>> <<53:1347-1356>> <<?>> <<VARIABLE>> <<LINK>>
+<<project_name>> <<54:1371-1383>> <<?>> <<VARIABLE>> <<LINK>>
+<<project_version>> <<55:1398-1413>> <<?>> <<VARIABLE>> <<LINK>>
+<<project_date>> <<56:1428-1440>> <<?>> <<VARIABLE>> <<LINK>>
+<<answer_yes>> <<57:1455-1465>> <<?>> <<VARIABLE>> <<LINK>>

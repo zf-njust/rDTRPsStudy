@@ -1,0 +1,15 @@
+<<reduce_colors>> <<6:83-96>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<img_bgr>> <<6:98-101>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<n_colors>> <<6:107-110>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<img_rgb>> <<7:123-130>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<img_rgb_pil>> <<8:183-194>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<img_rgb_pil_p>> <<9:227-240>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<img_rgb_p>> <<11:316-325>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<img_bgr>> <<12:362-369>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<img_bgr>> <<7:134-141>> <<?>> <<VARIABLE>> <<LINK>>
+<<img_rgb>> <<8:213-220>> <<?>> <<VARIABLE>> <<LINK>>
+<<img_rgb_pil>> <<9:243-254>> <<?>> <<VARIABLE>> <<LINK>>
+<<n_colors>> <<9:299-307>> <<?>> <<VARIABLE>> <<LINK>>
+<<img_rgb_pil_p>> <<11:328-341>> <<?>> <<VARIABLE>> <<LINK>>
+<<img_rgb_p>> <<12:395-404>> <<?>> <<VARIABLE>> <<LINK>>
+<<img_bgr>> <<14:467-474>> <<?>> <<VARIABLE>> <<LINK>>

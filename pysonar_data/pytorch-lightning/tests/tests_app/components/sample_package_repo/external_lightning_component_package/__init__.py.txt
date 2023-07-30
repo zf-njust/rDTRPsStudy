@@ -1,0 +1,7 @@
+<<MyCustomLightningWork>> <<4:66-87>> <<type>> <<CLASS>> <<ANCHOR>>
+<<special_method>> <<6:132-146>> <<function>> <<METHOD>> <<ANCHOR>>
+<<MyCustomLightningFlow>> <<10:267-288>> <<type>> <<CLASS>> <<ANCHOR>>
+<<special_method>> <<12:333-347>> <<function>> <<METHOD>> <<ANCHOR>>
+<<exported_lightning_components>> <<16:466-495>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<MyCustomLightningWork>> <<17:512-533>> <<type>> <<VARIABLE>> <<LINK>>
+<<MyCustomLightningFlow>> <<17:535-556>> <<type>> <<VARIABLE>> <<LINK>>

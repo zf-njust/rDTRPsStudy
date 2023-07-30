@@ -1,0 +1,10 @@
+<<gym>> <<1:7-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<has_wrapper>> <<4:20-31>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<wrapped_env>> <<4:32-35>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<wrapper_type>> <<4:54-57>> <<type>> <<PARAMETER>> <<ANCHOR>>
+<<wrapped_env>> <<8:217-228>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<wrapped_env>> <<5:105-116>> <<?>> <<VARIABLE>> <<LINK>>
+<<gym>> <<5:118-121>> <<module>> <<VARIABLE>> <<LINK>>
+<<wrapped_env>> <<6:155-166>> <<?>> <<VARIABLE>> <<LINK>>
+<<wrapper_type>> <<6:168-180>> <<type>> <<VARIABLE>> <<LINK>>
+<<wrapped_env>> <<8:231-242>> <<?>> <<VARIABLE>> <<LINK>>

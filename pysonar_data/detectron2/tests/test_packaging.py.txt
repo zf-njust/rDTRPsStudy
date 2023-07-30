@@ -1,0 +1,17 @@
+<<unittest>> <<2:59-67>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<4:76-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<4:87-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestProjects>> <<7:140-152>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_import>> <<8:182-193>> <<function>> <<METHOD>> <<ANCHOR>>
+<<TestCollectEnv>> <<22:549-563>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test>> <<23:593-597>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<23:598-601>> <<TestCollectEnv>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<24:614-615>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<8:194-197>> <<TestProjects>> <<PARAMETER>> <<ANCHOR>>
+<<detectron2>> <<9:215-225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<projects>> <<9:226-234>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<11:264-265>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<detectron2>> <<13:318-328>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<15:368-369>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unittest>> <<7:153-161>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<22:564-572>> <<module>> <<VARIABLE>> <<LINK>>

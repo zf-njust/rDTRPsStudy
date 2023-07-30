@@ -1,0 +1,6 @@
+<<mitmproxy>> <<10:256-265>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<addons>> <<10:266-272>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<12:291-294>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<hello_world>> <<16:340-351>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<addons>> <<20:394-400>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<23:585-588>> <<?>> <<VARIABLE>> <<LINK>>

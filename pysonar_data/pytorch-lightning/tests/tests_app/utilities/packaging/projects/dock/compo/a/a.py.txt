@@ -1,0 +1,8 @@
+<<logger>> <<5:61-67>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<AA>> <<8:109-111>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<9:137-145>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<13:221-224>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:146-149>> <<AA>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:225-228>> <<AA>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<14:246-253>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<14:241-245>> <<AA>> <<VARIABLE>> <<LINK>>

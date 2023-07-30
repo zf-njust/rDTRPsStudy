@@ -1,0 +1,8 @@
+<<scrapy>> <<2:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exceptions>> <<2:29-39>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<7:296-302>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<downloadermiddlewares>> <<7:303-324>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<decompression>> <<7:325-338>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ScrapyDeprecationWarning>> <<2:47-71>> <<type>> <<VARIABLE>> <<LINK>>
+<<ScrapyDeprecationWarning>> <<5:248-272>> <<type>> <<VARIABLE>> <<LINK>>
+<<DecompressionMiddleware>> <<7:346-369>> <<type>> <<VARIABLE>> <<LINK>>

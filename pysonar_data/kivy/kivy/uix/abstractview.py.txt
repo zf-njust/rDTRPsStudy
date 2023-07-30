@@ -1,0 +1,17 @@
+<<__all__>> <<22:487-494>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<kivy>> <<24:524-528>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<uix>> <<24:529-532>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<floatlayout>> <<24:533-544>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<25:570-574>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<kivy>> <<26:614-618>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<26:619-624>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AbstractView>> <<29:654-666>> <<type>> <<CLASS>> <<ANCHOR>>
+<<adapter>> <<34:785-792>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<42:1089-1097>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<42:1098-1101>> <<AbstractView>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<42:1101-1102>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<FloatLayout>> <<24:552-563>> <<type>> <<VARIABLE>> <<LINK>>
+<<deprecated>> <<26:632-642>> <<function>> <<VARIABLE>> <<LINK>>
+<<FloatLayout>> <<29:667-678>> <<type>> <<VARIABLE>> <<LINK>>
+<<AbstractView>> <<43:1130-1142>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<43:1144-1148>> <<AbstractView>> <<VARIABLE>> <<LINK>>

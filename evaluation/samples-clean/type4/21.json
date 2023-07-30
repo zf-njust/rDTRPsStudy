@@ -1,0 +1,10 @@
+{
+  "code": "def __delitem__(self, key):\n        \"\"\"\n        Delete item\n        \"\"\"\n        deleted = False\n\n        maybe_shortcut = False\n        if hasattr(self, 'columns') and isinstance(self.columns, MultiIndex):\n            try:\n                maybe_shortcut = key not in self.columns._engine\n            except TypeError:\n                pass\n\n        if maybe_shortcut:\n            # Allow shorthand to delete all columns whose first len(key)\n            # elements match key:\n            if not isinstance(key, tuple):\n                key = (key,)\n            for col in self.columns:\n                if isinstance(col, tuple) and col[:len(key)] == key:\n                    del self[col]\n                    deleted = True\n        if not deleted:\n            # If the above loop ran and didn't delete anything because\n            # there was no match, this call should raise the appropriate\n            # exception:\n            self._data.delete(key)\n\n        # delete from the caches\n        try:\n            del self._item_cache[key]\n        except KeyError:\n            pass",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 21,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

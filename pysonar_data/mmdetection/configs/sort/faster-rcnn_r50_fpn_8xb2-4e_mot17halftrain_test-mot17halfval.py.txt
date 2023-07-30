@@ -1,0 +1,7 @@
+<<_base_>> <<1:0-6>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<model>> <<6:144-149>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<train_cfg>> <<22:800-809>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<val_cfg>> <<23:876-883>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<test_cfg>> <<24:908-916>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<param_scheduler>> <<27:961-976>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<optim_wrapper>> <<39:1224-1237>> <<dict>> <<SCOPE>> <<ANCHOR>>

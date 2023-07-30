@@ -1,0 +1,12 @@
+<<jax>> <<15:624-627>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<15:628-632>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<state>> <<15:633-638>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<types>> <<15:639-644>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AbstractRef>> <<15:653-664>> <<type>> <<VARIABLE>> <<LINK>>
+<<ReadEffect>> <<15:666-676>> <<type>> <<VARIABLE>> <<LINK>>
+<<WriteEffect>> <<15:678-689>> <<type>> <<VARIABLE>> <<LINK>>
+<<AccumEffect>> <<16:726-737>> <<type>> <<VARIABLE>> <<LINK>>
+<<StateEffect>> <<16:739-750>> <<?>> <<VARIABLE>> <<LINK>>
+<<RefEffect>> <<16:752-761>> <<type>> <<VARIABLE>> <<LINK>>
+<<get_ref_state_effects>> <<17:798-819>> <<function>> <<VARIABLE>> <<LINK>>
+<<shaped_array_ref>> <<17:821-837>> <<function>> <<VARIABLE>> <<LINK>>

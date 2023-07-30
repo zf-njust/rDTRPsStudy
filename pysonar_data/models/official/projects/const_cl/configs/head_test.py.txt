@@ -1,0 +1,15 @@
+<<official>> <<18:678-686>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<projects>> <<18:687-695>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<HeadTest>> <<21:748-756>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_mlp_head_valid>> <<23:785-804>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_instance_reconstructor_head_valid>> <<34:1083-1121>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_action_transformer_head_valid>> <<41:1305-1339>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<34:1122-1125>> <<HeadTest>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<35:1134-1140>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<23:805-808>> <<HeadTest>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<24:817-823>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<41:1340-1343>> <<HeadTest>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<42:1352-1358>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<39:1278-1284>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<32:1056-1062>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<45:1453-1459>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<__future__>> <<8:94-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cookiecutter>> <<12:153-165>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<VARIABLE>> <<14:202-210>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DEFAULT>> <<15:229-236>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<test_click_invocation>> <<18:263-284>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<mocker>> <<18:285-288>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<prompt>> <<19:299-305>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<unicode_literals>> <<8:112-128>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<mocker>> <<19:308-314>> <<?>> <<VARIABLE>> <<LINK>>
+<<DEFAULT>> <<20:364-371>> <<str>> <<VARIABLE>> <<LINK>>
+<<prompt>> <<20:342-348>> <<?>> <<VARIABLE>> <<LINK>>
+<<VARIABLE>> <<22:405-413>> <<str>> <<VARIABLE>> <<LINK>>
+<<DEFAULT>> <<22:415-422>> <<str>> <<VARIABLE>> <<LINK>>
+<<DEFAULT>> <<22:427-434>> <<str>> <<VARIABLE>> <<LINK>>
+<<VARIABLE>> <<24:479-487>> <<str>> <<VARIABLE>> <<LINK>>
+<<DEFAULT>> <<24:497-504>> <<str>> <<VARIABLE>> <<LINK>>

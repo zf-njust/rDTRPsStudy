@@ -1,0 +1,7 @@
+<<jax>> <<15:601-604>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<15:605-609>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scipy>> <<15:610-615>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<stats>> <<15:616-621>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<binom>> <<15:622-627>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logpmf>> <<16:650-656>> <<function>> <<VARIABLE>> <<LINK>>
+<<pmf>> <<17:668-671>> <<function>> <<VARIABLE>> <<LINK>>

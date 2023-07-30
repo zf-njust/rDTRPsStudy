@@ -1,0 +1,17 @@
+<<__future__>> <<12:303-313>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<14:345-351>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<15:409-415>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<16:462-468>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<18:491-498>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<STATICA_HACK>> <<24:622-634>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<celery>> <<30:907-913>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<module>> <<35:1065-1071>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__call__>> <<37:1096-1104>> <<function>> <<METHOD>> <<ANCHOR>>
+<<old_module>> <<41:1177-1187>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<new_module>> <<41:1189-1199>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<self>> <<37:1105-1108>> <<module>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<37:1108-1109>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<absolute_import>> <<12:321-336>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<STATICA_HACK>> <<26:695-707>> <<?>> <<VARIABLE>> <<LINK>>
+<<module>> <<49:1510-1516>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<38:1145-1149>> <<module>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,16 @@
+<<new_id>> <<7:176-182>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<X>> <<10:304-305>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get_help_text>> <<11:316-329>> <<function>> <<METHOD>> <<ANCHOR>>
+<<A>> <<18:604-605>> <<type>> <<CLASS>> <<ANCHOR>>
+<<b>> <<19:616-617>> <<function>> <<METHOD>> <<ANCHOR>>
+<<new_id>> <<38:982-988>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<X>> <<47:1179-1180>> <<type>> <<CLASS>> <<ANCHOR>>
+<<get_help_text>> <<48:1191-1204>> <<function>> <<METHOD>> <<ANCHOR>>
+<<A>> <<56:1481-1482>> <<type>> <<CLASS>> <<ANCHOR>>
+<<b>> <<57:1493-1494>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<11:330-333>> <<X>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<19:618-621>> <<A>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<15:533-537>> <<X>> <<VARIABLE>> <<LINK>>
+<<self>> <<16:578-582>> <<X>> <<VARIABLE>> <<LINK>>
+<<self>> <<20:637-641>> <<A>> <<VARIABLE>> <<LINK>>
+<<self>> <<24:738-742>> <<A>> <<VARIABLE>> <<LINK>>

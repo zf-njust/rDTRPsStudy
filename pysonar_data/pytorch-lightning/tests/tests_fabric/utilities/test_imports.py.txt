@@ -1,0 +1,6 @@
+<<test_import_fabric_with_torch_dist_unavailable>> <<21:710-756>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_import_deepspeed_lazily>> <<42:1368-1396>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<code>> <<23:868-872>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<code>> <<44:1474-1478>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<code>> <<38:1323-1327>> <<?>> <<VARIABLE>> <<LINK>>
+<<code>> <<59:1958-1962>> <<?>> <<VARIABLE>> <<LINK>>

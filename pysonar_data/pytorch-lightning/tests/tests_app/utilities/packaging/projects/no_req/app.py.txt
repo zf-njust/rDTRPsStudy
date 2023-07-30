@@ -1,0 +1,12 @@
+<<comp>> <<9:154-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<9:159-160>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<a>> <<9:161-162>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<comp>> <<10:183-187>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<b>> <<10:188-189>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<b>> <<10:190-191>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<12:209-212>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<7:103-107>> <<list>> <<VARIABLE>> <<LINK>>
+<<AA>> <<9:170-172>> <<type>> <<VARIABLE>> <<LINK>>
+<<BB>> <<10:199-201>> <<type>> <<VARIABLE>> <<LINK>>
+<<BB>> <<12:228-230>> <<type>> <<VARIABLE>> <<LINK>>
+<<AA>> <<12:231-233>> <<type>> <<VARIABLE>> <<LINK>>

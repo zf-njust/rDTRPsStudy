@@ -1,0 +1,9 @@
+<<unittest>> <<3:32-40>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestUtil>> <<7:83-91>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_legitimize>> <<8:121-136>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<8:137-140>> <<TestUtil>> <<PARAMETER>> <<ANCHOR>>
+<<unittest>> <<7:92-100>> <<module>> <<VARIABLE>> <<LINK>>
+<<self>> <<9:153-157>> <<TestUtil>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:217-221>> <<TestUtil>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:279-283>> <<TestUtil>> <<VARIABLE>> <<LINK>>
+<<self>> <<12:345-349>> <<TestUtil>> <<VARIABLE>> <<LINK>>

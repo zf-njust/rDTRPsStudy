@@ -1,0 +1,8 @@
+<<__future__>> <<6:163-173>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pyfunc>> <<8:203-209>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ipfunc>> <<27:482-488>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<ranfunc>> <<76:1359-1366>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<random_all>> <<106:2010-2020>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<iprand>> <<130:2562-2568>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<iprand_all>> <<144:2787-2797>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<print_function>> <<6:181-195>> <<_Feature>> <<VARIABLE>> <<LINK>>

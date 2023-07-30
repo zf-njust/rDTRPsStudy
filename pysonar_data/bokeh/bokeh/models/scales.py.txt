@@ -1,0 +1,12 @@
+<<log>> <<17:628-631>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<transforms>> <<29:952-962>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<35:1170-1177>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Scale>> <<47:1458-1463>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LinearScale>> <<70:2107-2118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LogScale>> <<76:2166-2174>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CategoricalScale>> <<82:2222-2238>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Transform>> <<29:970-979>> <<type>> <<VARIABLE>> <<LINK>>
+<<Transform>> <<47:1464-1473>> <<type>> <<VARIABLE>> <<LINK>>
+<<Scale>> <<70:2119-2124>> <<type>> <<VARIABLE>> <<LINK>>
+<<Scale>> <<76:2175-2180>> <<type>> <<VARIABLE>> <<LINK>>
+<<LinearScale>> <<82:2239-2250>> <<type>> <<VARIABLE>> <<LINK>>

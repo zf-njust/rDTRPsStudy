@@ -1,0 +1,15 @@
+<<unittest>> <<4:75-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestStringUtility>> <<9:156-173>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_enumerate_tokenization>> <<10:203-230>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:231-234>> <<TestStringUtility>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<11:247-251>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<toks>> <<12:271-275>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<each>> <<14:374-378>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<unittest>> <<9:174-182>> <<module>> <<VARIABLE>> <<LINK>>
+<<unittest>> <<19:467-475>> <<module>> <<VARIABLE>> <<LINK>>
+<<text>> <<12:300-304>> <<str>> <<VARIABLE>> <<LINK>>
+<<toks>> <<13:330-334>> <<?>> <<VARIABLE>> <<LINK>>
+<<text>> <<13:350-354>> <<str>> <<VARIABLE>> <<LINK>>
+<<toks>> <<14:382-386>> <<?>> <<VARIABLE>> <<LINK>>
+<<each>> <<15:416-420>> <<?>> <<VARIABLE>> <<LINK>>
+<<text>> <<15:425-429>> <<str>> <<VARIABLE>> <<LINK>>

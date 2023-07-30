@@ -1,0 +1,10 @@
+{
+  "code": "def next_flow(self, flow: http.HTTPFlow) -> http.HTTPFlow | None:\n        \"\"\"\n        Returns the next flow object, or None if no matching flow was\n        found.\n        \"\"\"\n        hash = self._hash(flow)\n        if hash in self.flowmap:\n            if ctx.options.server_replay_reuse or ctx.options.server_replay_nopop:\n                return next(\n                    (flow for flow in self.flowmap[hash] if flow.response), None\n                )\n            else:\n                ret = self.flowmap[hash].pop(0)\n                while not ret.response:\n                    if self.flowmap[hash]:\n                        ret = self.flowmap[hash].pop(0)\n                    else:\n                        del self.flowmap[hash]\n                        return None\n                if not self.flowmap[hash]:\n                    del self.flowmap[hash]\n                return ret\n        else:\n            return None",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 18,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

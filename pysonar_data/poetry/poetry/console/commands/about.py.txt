@@ -1,0 +1,9 @@
+<<command>> <<1:6-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<AboutCommand>> <<4:40-52>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<6:70-74>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<description>> <<8:92-103>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<handle>> <<10:151-157>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:158-161>> <<AboutCommand>> <<PARAMETER>> <<ANCHOR>>
+<<Command>> <<1:21-28>> <<type>> <<VARIABLE>> <<LINK>>
+<<Command>> <<4:53-60>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<11:174-178>> <<AboutCommand>> <<VARIABLE>> <<LINK>>

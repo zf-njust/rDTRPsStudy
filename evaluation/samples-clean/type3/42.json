@@ -1,0 +1,10 @@
+{
+  "code": "def test_ColumnData_wrap():\n    for y in (0, 1, 2.3, \"foo\", None, (), []):\n        r = ColumnData.wrap(y)\n        assert r == y\n        assert isinstance(r, type(y))\n    r = ColumnData.wrap(dict(a=1, b=2))\n    assert r == dict(a=1, b=2)\n    assert isinstance(r, bcpw.PropertyValueColumnData)\n    r2 = ColumnData.wrap(r)\n    assert r is r2",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 3,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

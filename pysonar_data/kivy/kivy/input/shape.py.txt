@@ -1,0 +1,13 @@
+<<__all__>> <<8:127-134>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<Shape>> <<11:171-176>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ShapeRect>> <<16:268-277>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__slots__>> <<18:347-356>> <<tuple>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__init__>> <<20:390-398>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<self>> <<20:399-402>> <<ShapeRect>> <<PARAMETER>> <<ANCHOR>>
+<<width>> <<24:495-500>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<height>> <<27:552-558>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Shape>> <<16:278-283>> <<type>> <<VARIABLE>> <<LINK>>
+<<ShapeRect>> <<21:421-430>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<21:432-436>> <<ShapeRect>> <<VARIABLE>> <<LINK>>
+<<self>> <<24:490-494>> <<ShapeRect>> <<VARIABLE>> <<LINK>>
+<<self>> <<27:547-551>> <<ShapeRect>> <<VARIABLE>> <<LINK>>

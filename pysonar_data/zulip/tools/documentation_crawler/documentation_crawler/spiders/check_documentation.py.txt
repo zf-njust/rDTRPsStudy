@@ -1,0 +1,15 @@
+<<common>> <<6:57-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<spiders>> <<6:64-71>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<get_start_url>> <<9:109-122>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<DocumentationSpider>> <<20:498-517>> <<type>> <<CLASS>> <<ANCHOR>>
+<<name>> <<21:548-552>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<deny_domains>> <<22:583-595>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<deny>> <<23:621-625>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<dir_path>> <<12:224-232>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<start_file>> <<13:283-293>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<start_urls>> <<24:655-665>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<BaseDocumentationSpider>> <<6:79-102>> <<type>> <<VARIABLE>> <<LINK>>
+<<BaseDocumentationSpider>> <<20:518-541>> <<type>> <<VARIABLE>> <<LINK>>
+<<get_start_url>> <<24:668-681>> <<function>> <<VARIABLE>> <<LINK>>
+<<dir_path>> <<13:309-317>> <<str>> <<VARIABLE>> <<LINK>>
+<<start_file>> <<16:462-472>> <<str>> <<VARIABLE>> <<LINK>>

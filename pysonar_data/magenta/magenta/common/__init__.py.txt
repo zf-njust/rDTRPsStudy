@@ -1,0 +1,12 @@
+<<beam_search>> <<19:709-720>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<nade>> <<20:747-751>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sequence_example_lib>> <<21:771-791>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sequence_example_lib>> <<22:820-840>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sequence_example_lib>> <<23:886-906>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tf_utils>> <<24:938-946>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<beam_search>> <<19:709-720>> <<function>> <<VARIABLE>> <<LINK>>
+<<Nade>> <<20:759-763>> <<type>> <<VARIABLE>> <<LINK>>
+<<count_records>> <<21:799-812>> <<function>> <<VARIABLE>> <<LINK>>
+<<flatten_maybe_padded_sequences>> <<22:848-878>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_padded_batch>> <<23:914-930>> <<function>> <<VARIABLE>> <<LINK>>
+<<merge_hparams>> <<24:954-967>> <<function>> <<VARIABLE>> <<LINK>>

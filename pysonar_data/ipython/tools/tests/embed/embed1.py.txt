@@ -1,0 +1,5 @@
+<<f>> <<4:98-99>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<bar>> <<6:126-129>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<foo>> <<6:130-133>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<bar>> <<10:223-226>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<10:227-228>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,13 @@
+<<__metaclass__>> <<20:826-839>> <<function>> <<SCOPE>> <<ANCHOR>>
+<<__all__>> <<24:867-874>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<AnsibleJ2Template>> <<27:910-927>> <<type>> <<CLASS>> <<ANCHOR>>
+<<new_context>> <<35:1268-1279>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<35:1280-1283>> <<AnsibleJ2Template>> <<PARAMETER>> <<ANCHOR>>
+<<vars>> <<35:1286-1289>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<shared>> <<35:1297-1300>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<locals>> <<35:1311-1314>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<36:1364-1368>> <<AnsibleJ2Template>> <<VARIABLE>> <<LINK>>
+<<vars>> <<36:1382-1386>> <<?>> <<VARIABLE>> <<LINK>>
+<<locals>> <<36:1398-1404>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1407-1411>> <<AnsibleJ2Template>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1418-1422>> <<AnsibleJ2Template>> <<VARIABLE>> <<LINK>>

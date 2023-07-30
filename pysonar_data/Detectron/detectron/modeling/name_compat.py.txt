@@ -1,0 +1,17 @@
+<<__future__>> <<34:1523-1533>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<35:1563-1573>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<36:1596-1606>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<37:1635-1645>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_RENAME>> <<40:1675-1682>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<get_new_name>> <<59:2578-2590>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func_name>> <<59:2591-2594>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<func_name>> <<61:2642-2651>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<34:1541-1556>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<35:1581-1589>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<36:1614-1628>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<unicode_literals>> <<37:1653-1669>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<func_name>> <<60:2611-2620>> <<?>> <<VARIABLE>> <<LINK>>
+<<_RENAME>> <<60:2624-2631>> <<dict>> <<VARIABLE>> <<LINK>>
+<<_RENAME>> <<61:2654-2661>> <<dict>> <<VARIABLE>> <<LINK>>
+<<func_name>> <<61:2662-2671>> <<?>> <<VARIABLE>> <<LINK>>
+<<func_name>> <<62:2685-2694>> <<{str||?}>> <<VARIABLE>> <<LINK>>

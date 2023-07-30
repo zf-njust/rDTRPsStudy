@@ -1,0 +1,6 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<1:11-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<enums>> <<1:16-21>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<NamedIcon>> <<3:44-53>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<enumeration>> <<1:29-40>> <<function>> <<VARIABLE>> <<LINK>>
+<<enumeration>> <<3:56-67>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "@_contextlib.contextmanager\ndef echo():\n    \"\"\"Use in a `with` block to draw some code on the report, then execute it.\n\n    Example\n    -------\n\n    >>> with st.echo():\n    >>>     st.write('This code will be printed')\n\n    \"\"\"\n    code = empty()  # noqa: F821\n    try:\n        frame = _traceback.extract_stack()[-3]\n        if _is_running_py3():\n            filename, start_line = frame.filename, frame.lineno\n        else:\n            filename, start_line = frame[:2]\n        yield\n        if _is_running_py3():\n            end_line = _traceback.extract_stack()[-3].lineno\n        else:\n            end_line = _traceback.extract_stack()[-3][1]\n        lines_to_display = []\n        with open(filename) as source_file:\n            source_lines = source_file.readlines()\n            lines_to_display.extend(source_lines[start_line:end_line])\n            initial_spaces = _SPACES_RE.match(lines_to_display[0]).end()\n            for line in source_lines[end_line:]:\n                if _SPACES_RE.match(line).end() < initial_spaces:\n                    break\n                lines_to_display.append(line)\n        lines_to_display = _textwrap.dedent(''.join(lines_to_display))\n        code.code(lines_to_display, 'python')\n\n    except FileNotFoundError as err:  # noqa: F821\n        code.warning('Unable to display code. %s' % err)",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 33,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

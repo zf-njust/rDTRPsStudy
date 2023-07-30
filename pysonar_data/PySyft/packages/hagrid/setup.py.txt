@@ -1,0 +1,7 @@
+<<__version__>> <<8:107-118>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<DATA_FILES>> <<10:131-141>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<packages>> <<12:196-204>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<packages>> <<33:567-575>> <<list>> <<VARIABLE>> <<LINK>>
+<<__version__>> <<42:964-975>> <<str>> <<VARIABLE>> <<LINK>>
+<<DATA_FILES>> <<45:1074-1084>> <<dict>> <<VARIABLE>> <<LINK>>
+<<packages>> <<46:1107-1115>> <<list>> <<VARIABLE>> <<LINK>>

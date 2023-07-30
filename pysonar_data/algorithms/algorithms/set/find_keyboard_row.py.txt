@@ -1,0 +1,13 @@
+<<find_keyboard_row>> <<12:299-316>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<words>> <<12:317-320>> <<list>> <<PARAMETER>> <<ANCHOR>>
+<<keyboard>> <<17:399-407>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<result>> <<22:504-510>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<word>> <<23:525-529>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<key>> <<24:553-556>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<words>> <<23:533-538>> <<list>> <<VARIABLE>> <<LINK>>
+<<keyboard>> <<24:560-568>> <<list>> <<VARIABLE>> <<LINK>>
+<<word>> <<25:590-594>> <<str>> <<VARIABLE>> <<LINK>>
+<<key>> <<25:613-616>> <<?>> <<VARIABLE>> <<LINK>>
+<<result>> <<26:636-642>> <<list>> <<VARIABLE>> <<LINK>>
+<<word>> <<26:650-654>> <<str>> <<VARIABLE>> <<LINK>>
+<<result>> <<27:668-674>> <<list>> <<VARIABLE>> <<LINK>>

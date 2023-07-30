@@ -1,0 +1,16 @@
+<<MitmproxyException>> <<19:542-560>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<24:658-666>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<FlowReadException>> <<28:734-751>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ControlException>> <<32:794-810>> <<type>> <<CLASS>> <<ANCHOR>>
+<<CommandError>> <<36:853-865>> <<type>> <<CLASS>> <<ANCHOR>>
+<<OptionsError>> <<40:899-911>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AddonManagerError>> <<44:954-971>> <<type>> <<CLASS>> <<ANCHOR>>
+<<AddonHalt>> <<48:1014-1023>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<24:667-670>> <<MitmproxyException>> <<PARAMETER>> <<ANCHOR>>
+<<message>> <<24:673-676>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MitmproxyException>> <<28:752-770>> <<type>> <<VARIABLE>> <<LINK>>
+<<MitmproxyException>> <<32:811-829>> <<type>> <<VARIABLE>> <<LINK>>
+<<MitmproxyException>> <<40:912-930>> <<type>> <<VARIABLE>> <<LINK>>
+<<MitmproxyException>> <<44:972-990>> <<type>> <<VARIABLE>> <<LINK>>
+<<MitmproxyException>> <<48:1024-1042>> <<type>> <<VARIABLE>> <<LINK>>
+<<message>> <<25:714-721>> <<?>> <<VARIABLE>> <<LINK>>

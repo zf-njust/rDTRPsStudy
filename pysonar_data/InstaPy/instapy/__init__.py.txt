@@ -1,0 +1,7 @@
+<<__version__>> <<4:91-102>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<settings>> <<8:181-189>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<file_manager>> <<9:213-225>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<file_manager>> <<10:254-266>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Settings>> <<8:197-205>> <<type>> <<VARIABLE>> <<LINK>>
+<<set_workspace>> <<9:233-246>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_workspace>> <<10:274-287>> <<function>> <<VARIABLE>> <<LINK>>

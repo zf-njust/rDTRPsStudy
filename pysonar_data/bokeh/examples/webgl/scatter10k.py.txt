@@ -1,0 +1,17 @@
+<<bokeh>> <<3:27-32>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<plotting>> <<3:33-41>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<N>> <<5:78-79>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<x>> <<7:91-92>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<y>> <<8:126-127>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<TOOLS>> <<10:173-178>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<p>> <<12:232-233>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<figure>> <<3:49-55>> <<module>> <<VARIABLE>> <<LINK>>
+<<N>> <<7:122-123>> <<int>> <<VARIABLE>> <<LINK>>
+<<x>> <<8:137-138>> <<?>> <<VARIABLE>> <<LINK>>
+<<N>> <<8:167-168>> <<int>> <<VARIABLE>> <<LINK>>
+<<figure>> <<12:236-242>> <<module>> <<VARIABLE>> <<LINK>>
+<<TOOLS>> <<12:249-254>> <<str>> <<VARIABLE>> <<LINK>>
+<<p>> <<14:283-284>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<14:292-293>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<14:295-296>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<18:405-406>> <<?>> <<VARIABLE>> <<LINK>>

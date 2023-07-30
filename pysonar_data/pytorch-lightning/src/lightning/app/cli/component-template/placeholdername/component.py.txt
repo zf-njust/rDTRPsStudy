@@ -1,0 +1,10 @@
+<<TemplateComponent>> <<4:33-50>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<5:78-86>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<9:165-168>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<9:169-172>> <<TemplateComponent>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<10:190-195>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<5:87-90>> <<TemplateComponent>> <<PARAMETER>> <<ANCHOR>>
+<<value>> <<7:144-149>> <<int>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<10:185-189>> <<TemplateComponent>> <<VARIABLE>> <<LINK>>
+<<self>> <<7:139-143>> <<TemplateComponent>> <<VARIABLE>> <<LINK>>
+<<value>> <<7:144-149>> <<int>> <<VARIABLE>> <<LINK>>

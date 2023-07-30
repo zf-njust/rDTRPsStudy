@@ -1,0 +1,17 @@
+<<test_func>> <<28:537-546>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<42:802-803>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<A>> <<51:1050-1051>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Named>> <<68:1513-1518>> <<type>> <<CLASS>> <<ANCHOR>>
+<<this_wont_be_formatted>> <<71:1573-1595>> <<function>> <<METHOD>> <<ANCHOR>>
+<<Factory>> <<73:1626-1633>> <<type>> <<CLASS>> <<ANCHOR>>
+<<this_will_be_formatted>> <<74:1657-1679>> <<function>> <<METHOD>> <<ANCHOR>>
+<<test_func>> <<117:2445-2454>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<131:2710-2711>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<A>> <<140:2955-2956>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Named>> <<157:3415-3420>> <<type>> <<CLASS>> <<ANCHOR>>
+<<this_wont_be_formatted>> <<160:3475-3497>> <<function>> <<METHOD>> <<ANCHOR>>
+<<Factory>> <<163:3530-3537>> <<type>> <<CLASS>> <<ANCHOR>>
+<<this_will_be_formatted>> <<164:3560-3582>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<71:1598-1601>> <<Named>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<74:1682-1685>> <<Factory>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<74:1685-1686>> <<?>> <<PARAMETER>> <<ANCHOR>>

@@ -1,0 +1,4 @@
+<<doctest_simple>> <<12:474-488>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_multiline1>> <<23:643-661>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_multiline2>> <<36:887-905>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<doctest_multiline3>> <<58:1251-1269>> <<function>> <<FUNCTION>> <<ANCHOR>>

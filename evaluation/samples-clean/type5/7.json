@@ -1,0 +1,10 @@
+{
+  "code": "def _get_project(self, name):\\n        result = {'urls': {}, 'digests': {}}\\n        with self._gplock:\\n            self.result = result\\n            self.project_name = name\\n            url = urljoin(self.base_url, '%s/' % quote(name))\\n            self._seen.clear()\\n            self._page_cache.clear()\\n            self._prepare_threads()\\n            try:\\n                logger.debug('Queueing %s', url)\\n                self._to_fetch.put(url)\\n                self._to_fetch.join()\\n            finally:\\n                self._wait_threads()\\n            del self.result\\n        return result",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 16,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

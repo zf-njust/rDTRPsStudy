@@ -1,0 +1,11 @@
+<<Utterance>> <<3:38-47>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<__eq__>> <<4:142-148>> <<function>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__hash__>> <<5:192-200>> <<function>> <<ATTRIBUTE>> <<ANCHOR>>
+<<x>> <<4:158-161>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<4:161-164>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<5:210-213>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<Utterance>> <<4:132-141>> <<type>> <<VARIABLE>> <<LINK>>
+<<Utterance>> <<5:182-191>> <<type>> <<VARIABLE>> <<LINK>>
+<<x>> <<4:164-165>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<4:174-175>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<5:218-219>> <<?>> <<VARIABLE>> <<LINK>>

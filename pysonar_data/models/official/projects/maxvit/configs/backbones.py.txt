@@ -1,0 +1,12 @@
+<<official>> <<21:775-783>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<21:784-792>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<official>> <<22:818-826>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<22:827-833>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configs>> <<22:834-841>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<MaxViT>> <<26:894-900>> <<type>> <<CLASS>> <<ANCHOR>>
+<<Backbone>> <<91:3385-3393>> <<type>> <<CLASS>> <<ANCHOR>>
+<<hyperparams>> <<21:800-811>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<22:849-858>> <<module>> <<VARIABLE>> <<LINK>>
+<<hyperparams>> <<26:901-912>> <<module>> <<VARIABLE>> <<LINK>>
+<<backbones>> <<91:3394-3403>> <<module>> <<VARIABLE>> <<LINK>>
+<<Backbone>> <<91:3404-3412>> <<type>> <<VARIABLE>> <<LINK>>

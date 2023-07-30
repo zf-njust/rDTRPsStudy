@@ -1,0 +1,4 @@
+<<io_formatter>> <<1:6-18>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io_handler>> <<2:45-55>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<IOFormatter>> <<1:26-37>> <<type>> <<VARIABLE>> <<LINK>>
+<<IOHandler>> <<2:63-72>> <<type>> <<VARIABLE>> <<LINK>>

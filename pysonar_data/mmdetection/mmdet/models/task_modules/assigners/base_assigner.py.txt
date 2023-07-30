@@ -1,0 +1,10 @@
+<<abc>> <<2:54-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BaseAssigner>> <<8:177-189>> <<type>> <<CLASS>> <<ANCHOR>>
+<<assign>> <<12:309-315>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<12:316-319>> <<BaseAssigner>> <<PARAMETER>> <<ANCHOR>>
+<<pred_instances>> <<13:338-341>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<gt_instances>> <<14:384-387>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<gt_instances_ignore>> <<15:428-431>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<instances_ignore>> <<15:431-447>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<ABCMeta>> <<2:65-72>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<2:74-88>> <<function>> <<VARIABLE>> <<LINK>>

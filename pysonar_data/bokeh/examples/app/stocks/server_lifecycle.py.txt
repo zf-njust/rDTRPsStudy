@@ -1,0 +1,9 @@
+<<DATA_DIR>> <<4:57-65>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TICKERS>> <<6:104-111>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<on_server_loaded>> <<8:162-178>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<server_context>> <<8:179-182>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<9:267-268>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<TICKERS>> <<9:272-279>> <<list>> <<VARIABLE>> <<LINK>>
+<<x>> <<9:267-268>> <<str>> <<VARIABLE>> <<LINK>>
+<<DATA_DIR>> <<9:224-232>> <<str>> <<VARIABLE>> <<LINK>>
+<<x>> <<9:251-252>> <<str>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<here>> <<8:65-69>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<NETWORK_PORT>> <<10:99-111>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<DOMAIN_PORT>> <<11:119-130>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<HOST_IP>> <<12:138-145>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test_serves_domain_frontend>> <<16:215-242>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_serves_network_frontend>> <<25:455-483>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<title_str>> <<17:258-267>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<title_str>> <<26:499-508>> <<str>> <<VARIABLE>> <<ANCHOR>>

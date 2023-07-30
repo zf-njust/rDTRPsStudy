@@ -1,0 +1,16 @@
+<<SaveCheckpointIfPreempted>> <<22:742-767>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<25:847-855>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<__call__>> <<59:2213-2221>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<59:2222-2225>> <<SaveCheckpointIfPreempted>> <<PARAMETER>> <<ANCHOR>>
+<<_>> <<59:2228-2231>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<26:864-867>> <<SaveCheckpointIfPreempted>> <<PARAMETER>> <<ANCHOR>>
+<<cluster_resolver>> <<27:877-880>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<checkpoint_manager>> <<28:950-953>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<checkpoint_number>> <<29:1005-1008>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<keep_running_after_save>> <<30:1061-1064>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_checkpoint_number>> <<45:1735-1753>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<60:2245-2249>> <<SaveCheckpointIfPreempted>> <<VARIABLE>> <<LINK>>
+<<self>> <<61:2327-2331>> <<SaveCheckpointIfPreempted>> <<VARIABLE>> <<LINK>>
+<<checkpoint_number>> <<45:1756-1773>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<45:1730-1734>> <<SaveCheckpointIfPreempted>> <<VARIABLE>> <<LINK>>
+<<_checkpoint_number>> <<45:1735-1753>> <<?>> <<VARIABLE>> <<LINK>>

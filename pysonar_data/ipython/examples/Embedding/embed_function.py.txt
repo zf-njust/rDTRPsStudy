@@ -1,0 +1,4 @@
+<<a>> <<5:111-112>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<b>> <<6:119-120>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<c>> <<10:171-172>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<d>> <<11:179-180>> <<int>> <<SCOPE>> <<ANCHOR>>

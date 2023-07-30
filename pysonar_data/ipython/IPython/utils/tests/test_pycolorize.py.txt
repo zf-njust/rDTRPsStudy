@@ -1,0 +1,8 @@
+<<test_unicode_colorize>> <<29:892-913>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<p>> <<30:922-923>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f1>> <<31:940-942>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<f2>> <<32:973-975>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<p>> <<31:945-946>> <<?>> <<VARIABLE>> <<LINK>>
+<<p>> <<32:978-979>> <<?>> <<VARIABLE>> <<LINK>>
+<<f1>> <<33:1023-1025>> <<?>> <<VARIABLE>> <<LINK>>
+<<f2>> <<33:1027-1029>> <<?>> <<VARIABLE>> <<LINK>>

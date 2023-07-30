@@ -1,0 +1,13 @@
+<<scrapy>> <<6:89-95>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<middleware>> <<6:96-106>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scrapy>> <<7:138-144>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<utils>> <<7:145-150>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ExtensionManager>> <<9:193-209>> <<type>> <<CLASS>> <<ANCHOR>>
+<<component_name>> <<11:237-251>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_get_mwlist_from_settings>> <<14:295-320>> <<function>> <<METHOD>> <<ANCHOR>>
+<<cls>> <<14:321-324>> <<ExtensionManager>> <<PARAMETER>> <<ANCHOR>>
+<<settings>> <<14:326-329>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<MiddlewareManager>> <<6:114-131>> <<type>> <<VARIABLE>> <<LINK>>
+<<MiddlewareManager>> <<9:210-227>> <<type>> <<VARIABLE>> <<LINK>>
+<<settings>> <<15:374-382>> <<?>> <<VARIABLE>> <<LINK>>
+<<settings>> <<16:418-426>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+<<__future__>> <<11:471-481>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<28:898-903>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<28:907-909>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<foo>> <<38:1202-1205>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<var1>> <<38:1206-1209>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<var2>> <<38:1212-1215>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<long_var_name>> <<38:1218-1221>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<division>> <<11:489-497>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<11:499-514>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<11:516-530>> <<_Feature>> <<VARIABLE>> <<LINK>>

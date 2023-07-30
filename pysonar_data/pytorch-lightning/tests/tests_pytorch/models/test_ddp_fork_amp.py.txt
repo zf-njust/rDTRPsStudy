@@ -1,0 +1,8 @@
+<<multiprocessing>> <<14:601-616>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_amp_gpus_ddp_fork>> <<24:881-903>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<_>> <<27:1045-1046>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<pool>> <<28:1164-1168>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<in_bad_fork>> <<29:1179-1190>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<multiprocessing>> <<28:1117-1132>> <<module>> <<VARIABLE>> <<LINK>>
+<<pool>> <<29:1193-1197>> <<?>> <<VARIABLE>> <<LINK>>
+<<in_bad_fork>> <<30:1248-1259>> <<?>> <<VARIABLE>> <<LINK>>

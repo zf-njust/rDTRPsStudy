@@ -1,0 +1,4 @@
+<<__email__>> <<16:519-528>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<17:554-564>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<18:586-597>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<SpleeterError>> <<21:625-638>> <<type>> <<CLASS>> <<ANCHOR>>

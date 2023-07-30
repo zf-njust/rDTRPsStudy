@@ -1,0 +1,8 @@
+<<cal>> <<5:80-83>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<parse_human_time>> <<8:120-136>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<s>> <<8:137-140>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<time_struct>> <<9:146-157>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<_>> <<9:159-160>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cal>> <<9:163-166>> <<?>> <<VARIABLE>> <<LINK>>
+<<s>> <<9:173-174>> <<?>> <<VARIABLE>> <<LINK>>
+<<time_struct>> <<10:218-229>> <<?>> <<VARIABLE>> <<LINK>>

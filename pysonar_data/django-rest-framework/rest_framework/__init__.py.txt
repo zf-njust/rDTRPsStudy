@@ -1,0 +1,9 @@
+<<__title__>> <<10:449-458>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<11:486-497>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__author__>> <<12:509-519>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__license__>> <<13:538-549>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__copyright__>> <<14:568-581>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<VERSION>> <<17:641-648>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<HTTP_HEADER_ENCODING>> <<20:699-719>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<ISO_8601>> <<23:783-791>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<17:651-662>> <<str>> <<VARIABLE>> <<LINK>>

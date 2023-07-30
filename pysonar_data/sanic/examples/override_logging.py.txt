@@ -1,0 +1,15 @@
+<<sanic>> <<3:23-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<logging_format>> <<6:53-67>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<logging_format>> <<7:114-128>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<logging_format>> <<8:176-190>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<log>> <<11:276-279>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<app>> <<14:351-354>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<test>> <<18:396-400>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<18:401-404>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<text>> <<3:43-47>> <<function>> <<VARIABLE>> <<LINK>>
+<<logging_format>> <<7:114-128>> <<str>> <<VARIABLE>> <<LINK>>
+<<logging_format>> <<8:176-190>> <<str>> <<VARIABLE>> <<LINK>>
+<<logging_format>> <<10:238-252>> <<str>> <<VARIABLE>> <<LINK>>
+<<app>> <<24:529-532>> <<?>> <<VARIABLE>> <<LINK>>
+<<log>> <<19:416-419>> <<?>> <<VARIABLE>> <<LINK>>
+<<text>> <<20:480-484>> <<function>> <<VARIABLE>> <<LINK>>

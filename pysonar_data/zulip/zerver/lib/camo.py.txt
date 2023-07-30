@@ -1,0 +1,13 @@
+<<get_camo_url>> <<10:201-213>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<url>> <<10:214-217>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<encoded_url>> <<15:347-358>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<encoded_camo_key>> <<16:385-401>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<digest>> <<17:442-448>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<hex_encoded_url>> <<18:521-536>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<url>> <<14:339-342>> <<?>> <<VARIABLE>> <<LINK>>
+<<url>> <<15:361-364>> <<?>> <<VARIABLE>> <<LINK>>
+<<encoded_camo_key>> <<17:460-476>> <<?>> <<VARIABLE>> <<LINK>>
+<<encoded_url>> <<17:478-489>> <<?>> <<VARIABLE>> <<LINK>>
+<<encoded_url>> <<18:553-564>> <<?>> <<VARIABLE>> <<LINK>>
+<<digest>> <<19:680-686>> <<?>> <<VARIABLE>> <<LINK>>
+<<hex_encoded_url>> <<19:688-703>> <<?>> <<VARIABLE>> <<LINK>>

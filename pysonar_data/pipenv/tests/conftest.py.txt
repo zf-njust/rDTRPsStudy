@@ -1,0 +1,6 @@
+<<pytest_sessionstart>> <<9:291-310>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<project>> <<15:420-427>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<session>> <<9:311-314>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<pipenv>> <<10:332-338>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<16:440-446>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<11:363-369>> <<module>> <<VARIABLE>> <<LINK>>

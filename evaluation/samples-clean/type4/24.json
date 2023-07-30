@@ -1,0 +1,10 @@
+{
+  "code": "def handle(self):\n        from poetry.installation import Installer\n\n        packages = self.argument(\"packages\")\n        is_dev = self.option(\"dev\")\n\n        original_content = self.poetry.file.read()\n        content = self.poetry.file.read()\n        poetry_content = content[\"tool\"][\"poetry\"]\n        section = \"dependencies\"\n        if is_dev:\n            section = \"dev-dependencies\"\n\n        # Deleting entries\n        requirements = {}\n        for name in packages:\n            found = False\n            for key in poetry_content[section]:\n                if key.lower() == name.lower():\n                    found = True\n                    requirements[key] = poetry_content[section][key]\n                    break\n\n            if not found:\n                raise ValueError(\"Package {} not found\".format(name))\n\n        for key in requirements:\n            del poetry_content[section][key]\n\n        # Write the new content back\n        self.poetry.file.write(content)\n\n        # Update packages\n        self.reset_poetry()\n\n        installer = Installer(\n            self.io, self.env, self.poetry.package, self.poetry.locker, self.poetry.pool\n        )\n\n        installer.dry_run(self.option(\"dry-run\"))\n        installer.update(True)\n        installer.whitelist(requirements)\n\n        try:\n            status = installer.run()\n        except Exception:\n            self.poetry.file.write(original_content)\n\n            raise\n\n        if status != 0 or self.option(\"dry-run\"):\n            # Revert changes\n            if not self.option(\"dry-run\"):\n                self.error(\n                    \"\\n\"\n                    \"Removal failed, reverting pyproject.toml \"\n                    \"to its original content.\"\n                )\n\n            self.poetry.file.write(original_content)\n\n        return status",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 28,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

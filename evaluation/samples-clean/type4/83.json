@@ -1,0 +1,10 @@
+{
+  "code": "def report_connect_fail(self, ip_str, force_remove=False):\n        # ignore if system network is disconnected.\n        if not force_remove:\n            if not check_ip.network_is_ok():\n                xlog.debug(\"report_connect_fail network fail\")\n                #connect_control.fall_into_honeypot()\n                return\n\n        self.ip_lock.acquire()\n        try:\n            if not ip_str in self.ip_dict:\n                return\n\n            fail_time = self.ip_dict[ip_str][\"fail_time\"]\n            if not force_remove and time.time() - fail_time < 1:\n                xlog.debug(\"fail time too near\")\n                return\n\n            # increase handshake_time to make it can be used in lower probability\n            self.ip_dict[ip_str]['handshake_time'] += 300\n            self.ip_dict[ip_str]['fail_times'] += 1\n            self.ip_dict[ip_str]['history'].append([time.time(), \"fail\"])\n            self.ip_dict[ip_str][\"fail_time\"] = time.time()\n\n            if force_remove or self.ip_dict[ip_str]['fail_times'] >= 50:\n                property = self.ip_dict[ip_str]\n                server = property['server']\n                del self.ip_dict[ip_str]\n\n                if 'gws' in server and ip_str in self.gws_ip_list:\n                    self.gws_ip_list.remove(ip_str)\n\n                xlog.info(\"remove ip:%s left amount:%d gws_num:%d\", ip_str, len(self.ip_dict), len(self.gws_ip_list))\n\n                if not force_remove:\n                    self.to_remove_ip_list.put(ip_str)\n                    self.try_remove_thread()\n\n            self.iplist_need_save = 1\n        except Exception as e:\n            xlog.exception(\"set_ip err:%s\", e)\n        finally:\n            self.ip_lock.release()\n\n        if not self.is_ip_enough():\n            self.search_more_google_ip()",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 28,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

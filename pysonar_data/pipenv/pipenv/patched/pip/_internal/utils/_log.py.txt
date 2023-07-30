@@ -1,0 +1,16 @@
+<<VERBOSE>> <<13:290-297>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<VerboseLogger>> <<16:311-324>> <<type>> <<CLASS>> <<ANCHOR>>
+<<verbose>> <<22:450-457>> <<function>> <<METHOD>> <<ANCHOR>>
+<<getLogger>> <<26:571-580>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<init_logging>> <<31:749-761>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<name>> <<26:581-584>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<22:458-461>> <<VerboseLogger>> <<PARAMETER>> <<ANCHOR>>
+<<msg>> <<22:464-467>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<str>> <<22:469-472>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<VerboseLogger>> <<37:970-983>> <<type>> <<VARIABLE>> <<LINK>>
+<<VERBOSE>> <<38:1010-1017>> <<int>> <<VARIABLE>> <<LINK>>
+<<VerboseLogger>> <<28:703-716>> <<type>> <<VARIABLE>> <<LINK>>
+<<name>> <<28:736-740>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<23:525-529>> <<VerboseLogger>> <<VARIABLE>> <<LINK>>
+<<VERBOSE>> <<23:534-541>> <<int>> <<VARIABLE>> <<LINK>>
+<<msg>> <<23:543-546>> <<?>> <<VARIABLE>> <<LINK>>

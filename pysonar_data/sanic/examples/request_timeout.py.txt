@@ -1,0 +1,12 @@
+<<asyncio>> <<1:7-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<3:23-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<4:58-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<5:91-96>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<9:163-166>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<timeout>> <<19:345-352>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<request>> <<19:353-356>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<exception>> <<19:362-365>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<response>> <<3:43-51>> <<module>> <<VARIABLE>> <<LINK>>
+<<app>> <<24:480-483>> <<?>> <<VARIABLE>> <<LINK>>
+<<response>> <<20:386-394>> <<module>> <<VARIABLE>> <<LINK>>
+<<text>> <<20:395-399>> <<function>> <<VARIABLE>> <<LINK>>

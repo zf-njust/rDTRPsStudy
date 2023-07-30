@@ -1,0 +1,4 @@
+{
+    "code": "def __init__(self, boxes):\n    \"\"\"Constructs box collection.\n\n    Args:\n      boxes: a tensor of shape [N, 4] representing box corners\n\n    Raises:\n      ValueError: if invalid dimensions for bbox data or if bbox data is not in\n          float32 format.\n    \"\"\"\n    if len(boxes.get_shape()) != 2 or boxes.get_shape()[-1] != 4:\n      raise ValueError('Invalid dimensions for box data: {}'.format(\n          boxes.shape))\n    if boxes.dtype != tf.float32:\n      raise ValueError('Invalid tensor type: should be tf.float32')\n    self.data = {'boxes': boxes}",
+    "smell": []
+}

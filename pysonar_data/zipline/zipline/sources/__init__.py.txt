@@ -1,0 +1,8 @@
+<<zipline>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sources>> <<1:13-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data_frame_source>> <<1:21-38>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zipline>> <<2:85-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sources>> <<2:93-100>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<4:183-190>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<DataFrameSource>> <<1:46-61>> <<type>> <<VARIABLE>> <<LINK>>
+<<DataPanelSource>> <<1:63-78>> <<type>> <<VARIABLE>> <<LINK>>

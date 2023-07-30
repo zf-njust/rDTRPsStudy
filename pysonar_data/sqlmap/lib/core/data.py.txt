@@ -1,0 +1,11 @@
+<<lib>> <<8:150-153>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<8:154-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<9:191-194>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<core>> <<9:195-199>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<paths>> <<12:234-239>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<cmdLineOptions>> <<15:304-318>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<mergedOptions>> <<18:423-436>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<conf>> <<22:535-539>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<kb>> <<25:610-612>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<queries>> <<28:692-699>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<logger>> <<31:715-721>> <<?>> <<SCOPE>> <<ANCHOR>>

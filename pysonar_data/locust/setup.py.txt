@@ -1,0 +1,13 @@
+<<version>> <<6:93-100>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<Unit2Discover>> <<9:122-135>> <<type>> <<CLASS>> <<ANCHOR>>
+<<user_options>> <<10:151-163>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<initialize_options>> <<12:180-198>> <<function>> <<METHOD>> <<ANCHOR>>
+<<finalize_options>> <<15:231-247>> <<function>> <<METHOD>> <<ANCHOR>>
+<<run>> <<18:280-283>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<15:248-251>> <<Unit2Discover>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<12:199-202>> <<Unit2Discover>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<18:284-287>> <<Unit2Discover>> <<PARAMETER>> <<ANCHOR>>
+<<basecmd>> <<20:332-339>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<errno>> <<21:373-378>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<version>> <<27:486-493>> <<str>> <<VARIABLE>> <<LINK>>
+<<basecmd>> <<21:397-404>> <<list>> <<VARIABLE>> <<LINK>>

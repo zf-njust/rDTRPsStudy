@@ -1,0 +1,9 @@
+<<ROOT_PATH>> <<13:363-372>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<pytest_addoption>> <<16:441-457>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<pytest_configure>> <<30:1294-1310>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<config>> <<30:1311-1314>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<parser>> <<16:458-461>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<config>> <<35:1489-1495>> <<?>> <<VARIABLE>> <<LINK>>
+<<parser>> <<21:619-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<ROOT_PATH>> <<22:698-707>> <<str>> <<VARIABLE>> <<LINK>>
+<<parser>> <<26:1070-1076>> <<?>> <<VARIABLE>> <<LINK>>

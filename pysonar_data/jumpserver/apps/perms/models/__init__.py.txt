@@ -1,0 +1,2 @@
+<<asset_permission>> <<4:28-44>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<remote_app_permission>> <<5:61-82>> <<module>> <<VARIABLE>> <<ANCHOR>>

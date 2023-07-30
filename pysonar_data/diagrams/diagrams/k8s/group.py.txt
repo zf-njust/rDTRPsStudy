@@ -1,0 +1,8 @@
+<<_Group>> <<6:102-108>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:121-126>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:142-151>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<NS>> <<11:187-189>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:204-209>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Namespace>> <<17:239-248>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Group>> <<11:190-196>> <<type>> <<VARIABLE>> <<LINK>>
+<<NS>> <<17:251-253>> <<type>> <<VARIABLE>> <<LINK>>

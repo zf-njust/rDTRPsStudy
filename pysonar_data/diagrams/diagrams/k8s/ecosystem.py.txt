@@ -1,0 +1,15 @@
+<<_Ecosystem>> <<6:102-112>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:125-130>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:150-159>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ExternalDns>> <<11:199-210>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:229-234>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Helm>> <<15:267-271>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:290-295>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Krew>> <<19:320-324>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:343-348>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Kustomize>> <<23:373-382>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:401-406>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Ecosystem>> <<11:211-221>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Ecosystem>> <<15:272-282>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Ecosystem>> <<19:325-335>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Ecosystem>> <<23:383-393>> <<type>> <<VARIABLE>> <<LINK>>

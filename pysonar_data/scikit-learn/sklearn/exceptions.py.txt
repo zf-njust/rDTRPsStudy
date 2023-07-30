@@ -1,0 +1,11 @@
+<<__all__>> <<6:124-131>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<NotFittedError>> <<17:450-464>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ChangedBehaviorWarning>> <<36:1123-1145>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ConvergenceWarning>> <<40:1251-1269>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DataConversionWarning>> <<44:1353-1374>> <<type>> <<CLASS>> <<ANCHOR>>
+<<DataDimensionalityWarning>> <<59:2009-2034>> <<type>> <<CLASS>> <<ANCHOR>>
+<<EfficiencyWarning>> <<70:2502-2519>> <<type>> <<CLASS>> <<ANCHOR>>
+<<FitFailedWarning>> <<79:2843-2859>> <<type>> <<CLASS>> <<ANCHOR>>
+<<NonBLASDotWarning>> <<108:4100-4117>> <<type>> <<CLASS>> <<ANCHOR>>
+<<UndefinedMetricWarning>> <<116:4356-4378>> <<type>> <<CLASS>> <<ANCHOR>>
+<<EfficiencyWarning>> <<108:4118-4135>> <<type>> <<VARIABLE>> <<LINK>>

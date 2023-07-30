@@ -1,0 +1,17 @@
+<<_Blockchain>> <<6:102-113>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:126-131>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:152-161>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<BlockchainResource>> <<11:202-220>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:240-245>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Blockchain>> <<15:285-295>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:315-320>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ManagedBlockchain>> <<19:351-368>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:388-393>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<QuantumLedgerDatabaseQldb>> <<23:432-457>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<24:477-482>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<QLDB>> <<29:538-542>> <<type>> <<SCOPE>> <<ANCHOR>>
+<<_Blockchain>> <<11:221-232>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Blockchain>> <<15:296-307>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Blockchain>> <<19:369-380>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Blockchain>> <<23:458-469>> <<type>> <<VARIABLE>> <<LINK>>
+<<QuantumLedgerDatabaseQldb>> <<29:545-570>> <<type>> <<VARIABLE>> <<LINK>>

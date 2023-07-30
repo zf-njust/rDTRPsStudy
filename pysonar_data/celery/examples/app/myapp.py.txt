@@ -1,0 +1,8 @@
+<<celery>> <<25:540-546>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<27:564-567>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<add>> <<36:721-724>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<x>> <<36:725-728>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<y>> <<36:728-731>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<app>> <<40:785-788>> <<?>> <<VARIABLE>> <<LINK>>
+<<x>> <<37:744-745>> <<?>> <<VARIABLE>> <<LINK>>
+<<y>> <<37:748-749>> <<?>> <<VARIABLE>> <<LINK>>

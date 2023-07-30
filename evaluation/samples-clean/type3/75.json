@@ -1,0 +1,10 @@
+{
+  "code": "def _is_url_from_allowed_origins(url):\n    \"\"\"Return True if URL is from allowed origins (for CORS purpose).\n\n    Allowed origins:\n    1. localhost\n    2. The internal and external IP addresses of the machine where this\n       function was called from.\n    3. The cloud storage domain configured in `s3.bucket`.\n\n    If `server.enableCORS` is False, this allows all origins.\n\n    Parameters\n    ----------\n    url : str\n        The URL to check\n\n    Returns\n    -------\n    bool\n        True if URL is accepted. False otherwise.\n\n    \"\"\"\n    if not config.get_option('server.enableCORS'):\n        # Allow everything when CORS is disabled.\n        return True\n\n    hostname = util.get_hostname(url)\n\n    allowed_domains = [\n        # Check localhost first.\n        'localhost',\n        '0.0.0.0',\n        '127.0.0.1',\n        # Try to avoid making unecessary HTTP requests by checking if the user\n        # manually specified a server address.\n        _get_server_address_if_manually_set,\n        _get_s3_url_host_if_manually_set,\n        # Then try the options that depend on HTTP requests or opening sockets.\n        util.get_internal_ip,\n        util.get_external_ip,\n        lambda: config.get_option('s3.bucket'),\n    ]\n\n    for allowed_domain in allowed_domains:\n        if util.is_function(allowed_domain):\n            allowed_domain = allowed_domain()\n\n        if allowed_domain is None:\n            continue\n\n        if hostname == allowed_domain:\n            return True\n\n    return False",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 46,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

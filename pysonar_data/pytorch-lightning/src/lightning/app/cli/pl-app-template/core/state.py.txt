@@ -1,0 +1,6 @@
+<<FitProgress>> <<6:93-104>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ValidateProgress>> <<17:380-396>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TestProgress>> <<23:509-521>> <<type>> <<CLASS>> <<ANCHOR>>
+<<PredictProgress>> <<29:636-651>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ProgressBarState>> <<35:772-788>> <<type>> <<CLASS>> <<ANCHOR>>
+<<TrainerState>> <<43:1139-1151>> <<type>> <<CLASS>> <<ANCHOR>>

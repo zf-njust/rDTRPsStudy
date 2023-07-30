@@ -1,0 +1,11 @@
+<<models>> <<9:212-218>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<clean_login_log_period>> <<14:306-328>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<now>> <<15:337-340>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<days>> <<19:451-455>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<days>> <<17:377-381>> <<int>> <<VARIABLE>> <<ANCHOR>>
+<<expired_day>> <<20:466-477>> <<timedelta>> <<VARIABLE>> <<ANCHOR>>
+<<UserLoginLog>> <<9:226-238>> <<type>> <<VARIABLE>> <<LINK>>
+<<now>> <<20:480-483>> <<?>> <<VARIABLE>> <<LINK>>
+<<days>> <<20:510-514>> <<int>> <<VARIABLE>> <<LINK>>
+<<UserLoginLog>> <<21:521-533>> <<type>> <<VARIABLE>> <<LINK>>
+<<expired_day>> <<21:562-573>> <<timedelta>> <<VARIABLE>> <<LINK>>

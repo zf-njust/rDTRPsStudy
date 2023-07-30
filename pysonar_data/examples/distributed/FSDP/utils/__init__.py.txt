@@ -1,0 +1,10 @@
+<<environment>> <<1:6-17>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<train_utils>> <<2:47-58>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bfloat_support>> <<1:25-39>> <<function>> <<VARIABLE>> <<LINK>>
+<<setup>> <<2:66-71>> <<function>> <<VARIABLE>> <<LINK>>
+<<cleanup>> <<2:73-80>> <<function>> <<VARIABLE>> <<LINK>>
+<<get_date_of_run>> <<2:82-97>> <<function>> <<VARIABLE>> <<LINK>>
+<<format_metrics_to_gb>> <<2:99-119>> <<function>> <<VARIABLE>> <<LINK>>
+<<train>> <<2:121-126>> <<function>> <<VARIABLE>> <<LINK>>
+<<validation>> <<2:128-138>> <<function>> <<VARIABLE>> <<LINK>>
+<<setup_model>> <<2:139-150>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<_Workloadprovisioning>> <<6:108-129>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:148-153>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:184-193>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Magnum>> <<11:250-256>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:286-291>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Sahara>> <<15:318-324>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:354-359>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Trove>> <<19:386-391>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:421-426>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Workloadprovisioning>> <<11:257-278>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Workloadprovisioning>> <<15:325-346>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Workloadprovisioning>> <<19:392-413>> <<type>> <<VARIABLE>> <<LINK>>

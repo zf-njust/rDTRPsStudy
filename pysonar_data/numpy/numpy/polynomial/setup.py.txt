@@ -1,0 +1,16 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<configuration>> <<3:55-68>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<numpy>> <<10:321-326>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<distutils>> <<10:327-336>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<parent_package>> <<3:69-72>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<top_path>> <<3:87-90>> <<str>> <<PARAMETER>> <<ANCHOR>>
+<<numpy>> <<4:113-118>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<distutils>> <<4:119-128>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<5:165-171>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:33-47>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<configuration>> <<11:380-393>> <<function>> <<VARIABLE>> <<LINK>>
+<<parent_package>> <<5:202-216>> <<?>> <<VARIABLE>> <<LINK>>
+<<top_path>> <<5:218-226>> <<str>> <<VARIABLE>> <<LINK>>
+<<config>> <<6:233-239>> <<?>> <<VARIABLE>> <<LINK>>
+<<config>> <<7:274-280>> <<?>> <<VARIABLE>> <<LINK>>

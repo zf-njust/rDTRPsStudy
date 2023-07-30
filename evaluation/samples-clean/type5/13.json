@@ -1,0 +1,10 @@
+{
+  "code": "def clear(self) -> None:\\n        \"\"\" Clear the currently loaded session. \"\"\"\\n        self._state = {}\\n        self._model_dir = \"\"\\n        self._model_name = \"\"\\n\\n        del self._tb_logs\\n        self._tb_logs = None\\n\\n        del self._summary\\n        self._summary = None\\n\\n        self._is_training = False",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 10,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

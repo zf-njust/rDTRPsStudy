@@ -1,0 +1,10 @@
+{
+  "code": "def getmodule(object, _filename=None):\n    \"\"\"Return the module an object was defined in, or None if not found.\"\"\"\n    if ismodule(object):\n        return object\n    if hasattr(object, '__module__'):\n        return sys.modules.get(object.__module__)\n    # Try the filename to modulename cache\n    if _filename is not None and _filename in modulesbyfile:\n        return sys.modules.get(modulesbyfile[_filename])\n    # Try the cache again with the absolute file name\n    try:\n        file = getabsfile(object, _filename)\n    except TypeError:\n        return None\n    if file in modulesbyfile:\n        return sys.modules.get(modulesbyfile[file])\n    # Update the filename to module name cache and check yet again\n    # Copy sys.modules in order to cope with changes while iterating\n    for modname, module in sys.modules.items():\n        if ismodule(module) and hasattr(module, '__file__'):\n            f = module.__file__\n            if f == _filesbymodname.get(modname, None):\n                # Have already mapped this module, so skip it\n                continue\n            _filesbymodname[modname] = f\n            f = getabsfile(module)\n            # Always map to the name the module knows itself by\n            modulesbyfile[f] = modulesbyfile[\n                os.path.realpath(f)] = module.__name__\n    if file in modulesbyfile:\n        return sys.modules.get(modulesbyfile[file])\n    # Check the main module\n    main = sys.modules['__main__']\n    if not hasattr(object, '__name__'):\n        return None\n    if hasattr(main, object.__name__):\n        mainobject = getattr(main, object.__name__)\n        if mainobject is object:\n            return main\n    # Check builtins\n    builtin = sys.modules['__builtin__']\n    if hasattr(builtin, object.__name__):\n        builtinobject = getattr(builtin, object.__name__)\n        if builtinobject is object:\n            return builtin",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 43,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

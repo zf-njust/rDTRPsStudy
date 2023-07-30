@@ -1,0 +1,3 @@
+<<JIS_TYPICAL_DISTRIBUTION_RATIO>> <<44:1665-1695>> <<float>> <<SCOPE>> <<ANCHOR>>
+<<JIS_TABLE_SIZE>> <<47:1734-1748>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<JISCharToFreqOrder>> <<49:1759-1777>> <<tuple>> <<SCOPE>> <<ANCHOR>>

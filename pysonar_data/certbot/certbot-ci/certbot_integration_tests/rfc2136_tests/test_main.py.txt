@@ -1,0 +1,16 @@
+<<test_context>> <<10:260-272>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_certificate>> <<21:738-758>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<domain>> <<21:759-762>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<context>> <<21:772-775>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<creds>> <<24:896-901>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<request>> <<10:273-276>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<integration_test_context>> <<13:493-517>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<context>> <<22:819-826>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<24:863-870>> <<?>> <<VARIABLE>> <<LINK>>
+<<context>> <<25:911-918>> <<?>> <<VARIABLE>> <<LINK>>
+<<creds>> <<26:995-1000>> <<?>> <<VARIABLE>> <<LINK>>
+<<domain>> <<27:1020-1026>> <<?>> <<VARIABLE>> <<LINK>>
+<<domain>> <<27:1048-1054>> <<?>> <<VARIABLE>> <<LINK>>
+<<request>> <<13:544-551>> <<?>> <<VARIABLE>> <<LINK>>
+<<integration_test_context>> <<15:576-600>> <<?>> <<VARIABLE>> <<LINK>>
+<<integration_test_context>> <<17:622-646>> <<?>> <<VARIABLE>> <<LINK>>

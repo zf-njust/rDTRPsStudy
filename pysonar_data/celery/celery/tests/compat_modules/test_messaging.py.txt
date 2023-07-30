@@ -1,0 +1,11 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<3:47-53>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<celery>> <<4:77-83>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tests>> <<4:84-89>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_compat_messaging_module>> <<8:170-198>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_get_consume_set>> <<10:220-240>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:241-244>> <<test_compat_messaging_module>> <<PARAMETER>> <<ANCHOR>>
+<<conn>> <<11:257-261>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<absolute_import>> <<1:23-38>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<conn>> <<12:333-337>> <<?>> <<VARIABLE>> <<LINK>>
+<<conn>> <<13:356-360>> <<?>> <<VARIABLE>> <<LINK>>

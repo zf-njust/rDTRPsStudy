@@ -1,0 +1,10 @@
+<<mode>> <<4:70-74>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<i>> <<6:152-153>> <<None>> <<SCOPE>> <<ANCHOR>>
+<<numpy>> <<21:598-603>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mode>> <<6:178-182>> <<str>> <<VARIABLE>> <<LINK>>
+<<i>> <<7:206-207>> <<None>> <<VARIABLE>> <<LINK>>
+<<mode>> <<12:306-310>> <<str>> <<VARIABLE>> <<LINK>>
+<<mode>> <<15:418-422>> <<str>> <<VARIABLE>> <<LINK>>
+<<mode>> <<17:475-479>> <<str>> <<VARIABLE>> <<LINK>>
+<<mode>> <<20:568-572>> <<str>> <<VARIABLE>> <<LINK>>
+<<mode>> <<23:674-678>> <<str>> <<VARIABLE>> <<LINK>>

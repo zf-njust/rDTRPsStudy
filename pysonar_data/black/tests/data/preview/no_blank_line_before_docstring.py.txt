@@ -1,0 +1,13 @@
+<<line_before_docstring>> <<1:4-25>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<LineBeforeDocstring>> <<6:71-90>> <<type>> <<CLASS>> <<ANCHOR>>
+<<EvenIfThereIsAMethodAfter>> <<11:134-159>> <<type>> <<CLASS>> <<ANCHOR>>
+<<method>> <<14:201-207>> <<function>> <<METHOD>> <<ANCHOR>>
+<<TwoLinesBeforeDocstring>> <<18:240-263>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MultilineDocstringsAsWell>> <<24:341-366>> <<type>> <<CLASS>> <<ANCHOR>>
+<<line_before_docstring>> <<35:452-473>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<LineBeforeDocstring>> <<39:517-536>> <<type>> <<CLASS>> <<ANCHOR>>
+<<EvenIfThereIsAMethodAfter>> <<43:578-603>> <<type>> <<CLASS>> <<ANCHOR>>
+<<method>> <<46:645-651>> <<function>> <<METHOD>> <<ANCHOR>>
+<<TwoLinesBeforeDocstring>> <<50:684-707>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MultilineDocstringsAsWell>> <<54:781-806>> <<type>> <<CLASS>> <<ANCHOR>>
+<<self>> <<14:208-211>> <<EvenIfThereIsAMethodAfter>> <<PARAMETER>> <<ANCHOR>>

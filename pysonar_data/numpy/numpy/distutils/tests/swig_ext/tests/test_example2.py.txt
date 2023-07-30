@@ -1,0 +1,13 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<3:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestExample2>> <<6:161-173>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_zoo>> <<7:194-202>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<7:203-206>> <<TestExample2>> <<PARAMETER>> <<ANCHOR>>
+<<z>> <<8:219-220>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<z>> <<9:247-248>> <<?>> <<VARIABLE>> <<LINK>>
+<<z>> <<10:275-276>> <<?>> <<VARIABLE>> <<LINK>>
+<<z>> <<11:302-303>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<jax>> <<15:601-604>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_src>> <<15:605-609>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<x>> <<17:677-678>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<deprecated_y>> <<18:685-697>> <<int>> <<SCOPE>> <<ANCHOR>>
+<<_deprecations>> <<21:709-722>> <<dict>> <<SCOPE>> <<ANCHOR>>
+<<__getattr__>> <<26:816-827>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<deprecated_y>> <<22:754-766>> <<int>> <<VARIABLE>> <<LINK>>
+<<_deprecations>> <<26:861-874>> <<dict>> <<VARIABLE>> <<LINK>>

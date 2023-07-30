@@ -1,0 +1,10 @@
+<<highlight_first>> <<6:73-88>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<grid>> <<11:194-198>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<12:239-241>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<value>> <<6:89-92>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<color>> <<7:102-107>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<grid>> <<12:257-261>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<13:277-279>> <<?>> <<VARIABLE>> <<LINK>>
+<<highlight_first>> <<13:295-310>> <<function>> <<VARIABLE>> <<LINK>>
+<<value>> <<7:122-127>> <<?>> <<VARIABLE>> <<LINK>>
+<<color>> <<8:183-188>> <<str>> <<VARIABLE>> <<LINK>>

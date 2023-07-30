@@ -1,0 +1,10 @@
+{
+  "code": "def summary(self, name=None):\n        \"\"\"\n        return a summarized representation\n        \"\"\"\n        formatter = self._formatter_func\n        if len(self) > 0:\n            index_summary = ', %s to %s' % (formatter(self[0]),\n                                            formatter(self[-1]))\n        else:\n            index_summary = ''\n\n        if name is None:\n            name = type(self).__name__\n        result = '%s: %s entries%s' % (com.pprint_thing(name),\n                                       len(self), index_summary)\n        if self.freq:\n            result += '\\nFreq: %s' % self.freqstr\n\n        # display as values, not quoted\n        result = result.replace(\"'\",\"\")\n        return result\ndef len(*args, **kwargs): # real signature unknown\n    \"\"\" Return the number of items in a container. \"\"\"\n    pass",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 6,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

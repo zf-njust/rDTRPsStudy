@@ -1,0 +1,5 @@
+<<flask>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<simple_page>> <<4:92-103>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<show>> <<9:286-290>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<page>> <<9:291-294>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<page>> <<11:358-362>> <<?>> <<VARIABLE>> <<LINK>>

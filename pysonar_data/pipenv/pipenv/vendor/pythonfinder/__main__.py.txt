@@ -1,0 +1,8 @@
+<<__future__>> <<4:20-30>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pipenv>> <<9:78-84>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vendor>> <<9:85-91>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<pythonfinder>> <<9:92-104>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<PYTHONFINDER_MAIN>> <<11:121-138>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<PYTHONFINDER_PACKAGE>> <<12:184-204>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<annotations>> <<4:38-49>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<PYTHONFINDER_MAIN>> <<12:223-240>> <<str>> <<VARIABLE>> <<LINK>>

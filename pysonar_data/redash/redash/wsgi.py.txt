@@ -1,0 +1,4 @@
+<<redash>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<app>> <<3:33-36>> <<Redash>> <<SCOPE>> <<ANCHOR>>
+<<create_app>> <<1:19-29>> <<function>> <<VARIABLE>> <<LINK>>
+<<create_app>> <<3:39-49>> <<function>> <<VARIABLE>> <<LINK>>

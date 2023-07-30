@@ -1,0 +1,9 @@
+<<__future__>> <<1:5-15>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<3:73-78>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<testing>> <<3:79-86>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<TestFib2>> <<6:177-185>> <<type>> <<CLASS>> <<ANCHOR>>
+<<test_fib>> <<8:208-216>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<8:217-220>> <<TestFib2>> <<PARAMETER>> <<ANCHOR>>
+<<division>> <<1:23-31>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<1:33-48>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<1:50-64>> <<_Feature>> <<VARIABLE>> <<LINK>>

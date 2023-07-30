@@ -1,0 +1,10 @@
+{
+  "code": "    def _apply_filters(self, files):\n        if not self.filters:\n            return files\n        filtered = []\n        for filt in self.filters:\n            if isinstance(filt, collections.Callable):\n                filtered.extend([fn for fn in files if filt(self.path, fn)])\n            else:\n                filtered.extend([fn for fn in files if fnmatch(fn, filt)])\n        if not self.filter_dirs:\n            dirs = [fn for fn in files if self.file_system.is_dir(fn)]\n            filtered.extend(dirs)\n        return list(set(filtered))",
+  "smell": [
+    {
+      "smell_id": 2,
+      "line_no": 6,
+      "description": "The values of an argument hold inconsistent types in different function calls."
+    }
+  ]
+}

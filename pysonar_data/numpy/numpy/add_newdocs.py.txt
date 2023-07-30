@@ -1,0 +1,9 @@
+<<__future__>> <<11:379-389>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<numpy>> <<13:447-452>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<13:453-456>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<tobytesdoc>> <<4552:133086-133096>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<division>> <<11:397-405>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<absolute_import>> <<11:407-422>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<11:424-438>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<tobytesdoc>> <<4589:134266-134276>> <<str>> <<VARIABLE>> <<LINK>>
+<<tobytesdoc>> <<4596:134713-134723>> <<str>> <<VARIABLE>> <<LINK>>

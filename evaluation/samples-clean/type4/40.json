@@ -1,0 +1,10 @@
+{
+  "code": "def destroy_server(server_id):\n    ''' Given a UUID id of a div removed or replaced in the Jupyter\n    notebook, destroy the corresponding server sessions and stop it.\n\n    '''\n    server = curstate().uuid_to_server.get(server_id, None)\n    if server is None:\n        log.debug(\"No server instance found for uuid: %r\" % server_id)\n        return\n\n    try:\n        for session in server.get_sessions():\n            session.destroy()\n        server.stop()\n        del curstate().uuid_to_server[server_id]\n\n    except Exception as e:\n        log.debug(\"Could not destroy server for id %r: %s\" % (server_id, e))",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 15,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

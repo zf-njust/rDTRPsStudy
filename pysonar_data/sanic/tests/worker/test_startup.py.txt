@@ -1,0 +1,10 @@
+<<unittest>> <<1:5-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<sanic>> <<5:57-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_get_context>> <<21:483-499>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<start_method>> <<21:500-503>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<platform>> <<21:514-517>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<expected>> <<21:524-527>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<start_method>> <<22:543-555>> <<?>> <<VARIABLE>> <<LINK>>
+<<start_method>> <<23:587-599>> <<?>> <<VARIABLE>> <<LINK>>
+<<platform>> <<24:632-640>> <<?>> <<VARIABLE>> <<LINK>>
+<<expected>> <<25:690-698>> <<?>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,12 @@
+<<ciphey>> <<3:22-28>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<ciphey>> <<4:50-56>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<iface>> <<4:57-62>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_regex_ip>> <<7:86-99>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_regex_domain>> <<15:256-273>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_regex_bitcoin>> <<23:445-463>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<res>> <<24:472-475>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<res>> <<8:108-111>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<res>> <<16:282-285>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<res>> <<28:622-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<res>> <<12:226-229>> <<?>> <<VARIABLE>> <<LINK>>
+<<res>> <<20:408-411>> <<?>> <<VARIABLE>> <<LINK>>

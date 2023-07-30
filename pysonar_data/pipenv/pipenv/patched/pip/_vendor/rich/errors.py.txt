@@ -1,0 +1,16 @@
+<<ConsoleError>> <<1:6-18>> <<type>> <<CLASS>> <<ANCHOR>>
+<<StyleError>> <<5:80-90>> <<type>> <<CLASS>> <<ANCHOR>>
+<<StyleSyntaxError>> <<9:141-157>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MissingStyle>> <<13:218-230>> <<type>> <<CLASS>> <<ANCHOR>>
+<<StyleStackError>> <<17:277-292>> <<type>> <<CLASS>> <<ANCHOR>>
+<<NotRenderableError>> <<21:350-368>> <<type>> <<CLASS>> <<ANCHOR>>
+<<MarkupError>> <<25:428-439>> <<type>> <<CLASS>> <<ANCHOR>>
+<<LiveError>> <<29:501-510>> <<type>> <<CLASS>> <<ANCHOR>>
+<<NoAltScreen>> <<33:575-586>> <<type>> <<CLASS>> <<ANCHOR>>
+<<ConsoleError>> <<9:158-170>> <<type>> <<VARIABLE>> <<LINK>>
+<<StyleError>> <<13:231-241>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConsoleError>> <<17:293-305>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConsoleError>> <<21:369-381>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConsoleError>> <<25:440-452>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConsoleError>> <<29:511-523>> <<type>> <<VARIABLE>> <<LINK>>
+<<ConsoleError>> <<33:587-599>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,4 @@
+{
+    "code": "def teardown():\n    \"\"\"Clean up.\"\"\"\n    yield\n\n    if os.path.isfile(YAML_PATH):\n        os.remove(YAML_PATH)\n\n    if os.path.isfile(SECRET_PATH):\n        os.remove(SECRET_PATH)\n\n    if os.path.isfile(VERSION_PATH):\n        os.remove(VERSION_PATH)\n\n    if os.path.isfile(AUTOMATIONS_PATH):\n        os.remove(AUTOMATIONS_PATH)\n\n    if os.path.isfile(SCRIPTS_PATH):\n        os.remove(SCRIPTS_PATH)\n\n    if os.path.isfile(SCENES_PATH):\n        os.remove(SCENES_PATH)",
+    "smell": []
+}

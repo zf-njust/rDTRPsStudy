@@ -1,0 +1,17 @@
+<<PythonRequirementSolutionProvider>> <<9:187-220>> <<type>> <<CLASS>> <<ANCHOR>>
+<<can_solve>> <<10:257-266>> <<function>> <<METHOD>> <<ANCHOR>>
+<<get_solutions>> <<27:763-776>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<10:267-270>> <<PythonRequirementSolutionProvider>> <<PARAMETER>> <<ANCHOR>>
+<<exception>> <<10:273-276>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<poetry>> <<11:328-334>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<puzzle>> <<11:335-341>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<exceptions>> <<11:342-352>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<m>> <<16:477-478>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<self>> <<27:777-780>> <<PythonRequirementSolutionProvider>> <<PARAMETER>> <<ANCHOR>>
+<<exception>> <<27:783-786>> <<SolverProblemError>> <<PARAMETER>> <<ANCHOR>>
+<<SolverProblemError>> <<11:360-378>> <<type>> <<VARIABLE>> <<LINK>>
+<<exception>> <<13:408-417>> <<?>> <<VARIABLE>> <<LINK>>
+<<SolverProblemError>> <<13:419-437>> <<type>> <<VARIABLE>> <<LINK>>
+<<exception>> <<19:659-668>> <<?>> <<VARIABLE>> <<LINK>>
+<<m>> <<22:700-701>> <<?>> <<VARIABLE>> <<LINK>>
+<<exception>> <<30:966-975>> <<SolverProblemError>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,5 @@
+<<mitmproxy>> <<1:5-14>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<proxy>> <<1:15-20>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<test_noop>> <<4:50-59>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<server_hooks>> <<1:28-40>> <<module>> <<VARIABLE>> <<LINK>>
+<<server_hooks>> <<5:75-87>> <<module>> <<VARIABLE>> <<LINK>>

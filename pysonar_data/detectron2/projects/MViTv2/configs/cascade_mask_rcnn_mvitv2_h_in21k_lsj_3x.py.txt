@@ -1,0 +1,12 @@
+<<cascade_mask_rcnn_mvitv2_b_3x>> <<1:6-35>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<model>> <<1:43-48>> <<?>> <<VARIABLE>> <<LINK>>
+<<optimizer>> <<1:50-59>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<1:61-66>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<1:68-81>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<5:135-140>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<6:177-182>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<7:214-219>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<8:254-259>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<9:317-322>> <<?>> <<VARIABLE>> <<LINK>>
+<<model>> <<10:364-369>> <<?>> <<VARIABLE>> <<LINK>>
+<<train>> <<12:418-423>> <<?>> <<VARIABLE>> <<LINK>>

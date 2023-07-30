@@ -1,0 +1,10 @@
+{
+  "code": "def test_getsetdel_attr(self):\\n\\n        class X(object):\\n            a = 1\\n            b = 2\\n            c = 3\\n\\n            def __dir__(self):\\n                return ['a', 'b', 'c']\\n\\n        v = X()\\n\\n        x = Proxy(lambda: v)\\n        self.assertListEqual(x.__members__, ['a', 'b', 'c'])\\n        self.assertEqual(x.a, 1)\\n        self.assertEqual(x.b, 2)\\n        self.assertEqual(x.c, 3)\\n\\n        setattr(x, 'a', 10)\\n        self.assertEqual(x.a, 10)\\n\\n        del(x.a)\\n        self.assertEqual(x.a, 1)",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 22,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

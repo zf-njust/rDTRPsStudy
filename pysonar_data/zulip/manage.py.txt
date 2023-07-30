@@ -1,0 +1,9 @@
+<<BASE_DIR>> <<5:45-53>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<scripts>> <<7:132-139>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<scripts>> <<14:434-441>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<lib>> <<14:442-445>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<zulip_tools>> <<14:446-457>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<BASE_DIR>> <<6:115-123>> <<str>> <<VARIABLE>> <<LINK>>
+<<log_management_command>> <<14:465-487>> <<function>> <<VARIABLE>> <<LINK>>
+<<log_management_command>> <<19:640-662>> <<function>> <<VARIABLE>> <<LINK>>
+<<BASE_DIR>> <<21:770-778>> <<str>> <<VARIABLE>> <<LINK>>

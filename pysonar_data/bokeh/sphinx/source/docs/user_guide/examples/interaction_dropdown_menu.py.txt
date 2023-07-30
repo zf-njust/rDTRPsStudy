@@ -1,0 +1,15 @@
+<<bokeh>> <<1:5-10>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<io>> <<1:11-13>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<bokeh>> <<2:45-50>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<models>> <<2:51-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<widgets>> <<2:58-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<menu>> <<6:117-121>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<dropdown>> <<7:198-206>> <<Dropdown>> <<SCOPE>> <<ANCHOR>>
+<<output_file>> <<1:21-32>> <<function>> <<VARIABLE>> <<LINK>>
+<<show>> <<1:34-38>> <<function>> <<VARIABLE>> <<LINK>>
+<<Dropdown>> <<2:73-81>> <<type>> <<VARIABLE>> <<LINK>>
+<<output_file>> <<4:85-96>> <<function>> <<VARIABLE>> <<LINK>>
+<<Dropdown>> <<7:209-217>> <<type>> <<VARIABLE>> <<LINK>>
+<<menu>> <<7:271-275>> <<list>> <<VARIABLE>> <<LINK>>
+<<show>> <<9:280-284>> <<function>> <<VARIABLE>> <<LINK>>
+<<dropdown>> <<9:285-293>> <<Dropdown>> <<VARIABLE>> <<LINK>>

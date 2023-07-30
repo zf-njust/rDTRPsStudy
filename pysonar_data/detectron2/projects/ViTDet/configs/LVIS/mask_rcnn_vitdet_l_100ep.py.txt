@@ -1,0 +1,4 @@
+<<detectron2>> <<3:38-48>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<modeling>> <<3:49-57>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<backbone>> <<3:58-66>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mask_rcnn_vitdet_b_100ep>> <<5:109-133>> <<module>> <<VARIABLE>> <<ANCHOR>>

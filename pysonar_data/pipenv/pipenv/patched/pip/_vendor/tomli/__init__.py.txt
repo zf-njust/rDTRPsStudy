@@ -1,0 +1,8 @@
+<<__all__>> <<5:128-135>> <<tuple>> <<SCOPE>> <<ANCHOR>>
+<<__version__>> <<6:175-186>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_parser>> <<8:270-277>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__module__>> <<11:374-384>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<TOMLDecodeError>> <<8:285-300>> <<type>> <<VARIABLE>> <<LINK>>
+<<load>> <<8:302-306>> <<function>> <<VARIABLE>> <<LINK>>
+<<loads>> <<8:308-313>> <<function>> <<VARIABLE>> <<LINK>>
+<<TOMLDecodeError>> <<11:358-373>> <<type>> <<VARIABLE>> <<LINK>>

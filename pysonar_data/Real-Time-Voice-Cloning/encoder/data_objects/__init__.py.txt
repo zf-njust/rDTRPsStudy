@@ -1,0 +1,8 @@
+<<encoder>> <<1:5-12>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data_objects>> <<1:13-25>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<speaker_verification_dataset>> <<1:26-54>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<encoder>> <<2:95-102>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<data_objects>> <<2:103-115>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<speaker_verification_dataset>> <<2:116-144>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<SpeakerVerificationDataset>> <<1:62-88>> <<type>> <<VARIABLE>> <<LINK>>
+<<SpeakerVerificationDataLoader>> <<2:152-181>> <<type>> <<VARIABLE>> <<LINK>>

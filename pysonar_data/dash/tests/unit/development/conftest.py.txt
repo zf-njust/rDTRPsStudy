@@ -1,0 +1,9 @@
+<<load_test_metadata_json>> <<11:125-148>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<json_path>> <<12:157-166>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<data_file>> <<13:239-248>> <<file>> <<VARIABLE>> <<ANCHOR>>
+<<json_string>> <<14:259-270>> <<str>> <<VARIABLE>> <<ANCHOR>>
+<<data>> <<15:299-303>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<json_path>> <<13:225-234>> <<str>> <<VARIABLE>> <<LINK>>
+<<data_file>> <<14:273-282>> <<file>> <<VARIABLE>> <<LINK>>
+<<json_string>> <<15:361-372>> <<str>> <<VARIABLE>> <<LINK>>
+<<data>> <<16:386-390>> <<?>> <<VARIABLE>> <<LINK>>

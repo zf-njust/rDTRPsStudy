@@ -1,0 +1,4 @@
+<<official>> <<16:663-671>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<vision>> <<16:672-678>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<serving>> <<16:679-686>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<export_saved_model_lib>> <<16:694-716>> <<module>> <<VARIABLE>> <<ANCHOR>>

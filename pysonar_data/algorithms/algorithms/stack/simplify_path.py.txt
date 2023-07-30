@@ -1,0 +1,16 @@
+<<simplify_path>> <<14:437-450>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<path>> <<14:451-454>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<skip>> <<19:519-523>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<stack>> <<20:547-552>> <<list>> <<VARIABLE>> <<ANCHOR>>
+<<paths>> <<21:563-568>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<tok>> <<22:596-599>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<path>> <<21:571-575>> <<?>> <<VARIABLE>> <<LINK>>
+<<paths>> <<22:603-608>> <<?>> <<VARIABLE>> <<LINK>>
+<<tok>> <<23:622-625>> <<?>> <<VARIABLE>> <<LINK>>
+<<stack>> <<24:651-656>> <<list>> <<VARIABLE>> <<LINK>>
+<<stack>> <<25:675-680>> <<list>> <<VARIABLE>> <<LINK>>
+<<tok>> <<26:701-704>> <<?>> <<VARIABLE>> <<LINK>>
+<<skip>> <<26:712-716>> <<list>> <<VARIABLE>> <<LINK>>
+<<stack>> <<27:731-736>> <<list>> <<VARIABLE>> <<LINK>>
+<<tok>> <<27:744-747>> <<?>> <<VARIABLE>> <<LINK>>
+<<stack>> <<28:776-781>> <<list>> <<VARIABLE>> <<LINK>>

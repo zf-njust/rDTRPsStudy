@@ -1,0 +1,10 @@
+{
+  "code": "def skip_boring_404s(record):\n    # type: (logging.LogRecord) -> bool\n    \"\"\"Prevents Django's 'Not Found' warnings from being logged for common\n    404 errors that don't reflect a problem in Zulip.  The overall\n    result is to keep the Zulip error logs cleaner than they would\n    otherwise be.\n\n    Assumes that its input is a django.request log record.\n    \"\"\"\n    # Apparently, `status_code` is added by Django and is not an actual\n    # attribute of LogRecord; as a result, mypy throws an error if we\n    # access the `status_code` attribute directly.\n    if getattr(record, 'status_code') != 404:\n        return True\n\n    # We're only interested in filtering the \"Not Found\" errors.\n    if getattr(record, 'msg') != 'Not Found: %s':\n        return True\n\n    path = getattr(record, 'args', [''])[0]\n    for pattern in IGNORABLE_404_URLS:\n        if re.match(pattern, path):\n            return False\n    return True",
+  "smell": [
+    {
+      "smell_id": 6,
+      "line_no": 17,
+      "description": "The attribute is visited based on a dynamically determined name."
+    }
+  ]
+}

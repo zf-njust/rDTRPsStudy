@@ -1,0 +1,10 @@
+{
+  "code": "def parse_results(fields, data):\n    \"\"\"\n    Traverses ordered dictionary, calls _traverse_results() to recursively read into the dictionary depth of data\n    \"\"\"\n    master = []\n\n    for record in data['records']:  # for each 'record' in response\n        row = [None] * len(fields)  # create null list the length of number of columns\n        for obj, value in record.iteritems():  # for each obj in record\n            if not isinstance(value, (dict, list, tuple)):  # if not data structure\n                if obj in fields:\n                    row[fields.index(obj)] = ensure_utf(value)\n\n            elif isinstance(value, dict) and obj != 'attributes':  # traverse down into object\n                path = obj\n                _traverse_results(value, fields, row, path)\n\n        master.append(row)\n    return master",
+  "smell": [
+    {
+      "smell_id": 3,
+      "line_no": 12,
+      "description": "The variable referenced in the statement has inconsistent types."
+    }
+  ]
+}

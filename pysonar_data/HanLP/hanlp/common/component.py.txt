@@ -1,0 +1,13 @@
+<<abc>> <<5:89-92>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Component>> <<11:209-218>> <<type>> <<CLASS>> <<ANCHOR>>
+<<predict>> <<13:269-276>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__call__>> <<25:703-711>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<25:712-715>> <<Component>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<25:715-716>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<13:277-280>> <<Component>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<13:280-281>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<ABC>> <<5:100-103>> <<type>> <<VARIABLE>> <<LINK>>
+<<abstractmethod>> <<5:105-119>> <<function>> <<VARIABLE>> <<LINK>>
+<<ABC>> <<11:233-236>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<36:1009-1013>> <<Component>> <<VARIABLE>> <<LINK>>
+<<predict>> <<36:1014-1021>> <<function>> <<VARIABLE>> <<LINK>>

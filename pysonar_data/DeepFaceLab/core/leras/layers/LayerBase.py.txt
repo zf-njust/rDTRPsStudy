@@ -1,0 +1,13 @@
+<<tf>> <<2:27-29>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<LayerBase>> <<4:47-56>> <<type>> <<CLASS>> <<ANCHOR>>
+<<build_weights>> <<6:95-108>> <<function>> <<METHOD>> <<ANCHOR>>
+<<forward>> <<10:160-167>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__call__>> <<13:221-229>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<13:230-233>> <<LayerBase>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<13:233-234>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<10:168-171>> <<LayerBase>> <<PARAMETER>> <<ANCHOR>>
+<<f>> <<10:171-172>> <<dict>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<6:109-112>> <<LayerBase>> <<PARAMETER>> <<ANCHOR>>
+<<LayerBase>> <<-1:318-327>> <<type>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:270-274>> <<LayerBase>> <<VARIABLE>> <<LINK>>
+<<forward>> <<14:275-282>> <<function>> <<VARIABLE>> <<LINK>>

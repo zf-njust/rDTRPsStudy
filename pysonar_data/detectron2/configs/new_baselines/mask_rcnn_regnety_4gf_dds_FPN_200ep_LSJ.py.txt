@@ -1,0 +1,8 @@
+<<mask_rcnn_regnety_4gf_dds_FPN_100ep_LSJ>> <<1:6-45>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<milestone>> <<12:241-250>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<lr_multiplier>> <<3:77-90>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<12:254-267>> <<?>> <<VARIABLE>> <<LINK>>
+<<milestone>> <<12:241-250>> <<?>> <<VARIABLE>> <<LINK>>
+<<milestone>> <<12:223-232>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<11:179-192>> <<?>> <<VARIABLE>> <<LINK>>
+<<lr_multiplier>> <<14:293-306>> <<?>> <<VARIABLE>> <<LINK>>

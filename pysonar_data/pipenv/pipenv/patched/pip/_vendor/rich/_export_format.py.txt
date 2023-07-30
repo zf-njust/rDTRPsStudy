@@ -1,0 +1,4 @@
+<<CONSOLE_HTML_FORMAT>> <<1:0-19>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<CONSOLE_SVG_FORMAT>> <<20:331-349>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_SVG_FONT_FAMILY>> <<75:2031-2047>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<_SVG_CLASSES_PREFIX>> <<76:2067-2086>> <<str>> <<SCOPE>> <<ANCHOR>>

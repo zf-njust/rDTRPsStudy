@@ -1,0 +1,5 @@
+<<test_flag_calls>> <<3:44-59>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<5:100-101>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<f>> <<8:141-142>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<9:155-156>> <<function>> <<VARIABLE>> <<LINK>>
+<<f>> <<-1:171-172>> <<function>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,8 @@
+<<pandas>> <<4:57-63>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<df>> <<6:97-99>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<foo>> <<8:141-144>> <<{list||int}>> <<SCOPE>> <<ANCHOR>>
+<<df>> <<9:179-181>> <<?>> <<VARIABLE>> <<LINK>>
+<<foo>> <<10:240-243>> <<{list||int}>> <<VARIABLE>> <<LINK>>
+<<foo>> <<11:261-264>> <<{list||int}>> <<VARIABLE>> <<LINK>>
+<<df>> <<11:246-248>> <<?>> <<VARIABLE>> <<LINK>>
+<<df>> <<12:266-268>> <<?>> <<VARIABLE>> <<LINK>>

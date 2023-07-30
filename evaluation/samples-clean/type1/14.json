@@ -1,0 +1,10 @@
+{
+  "code": "def gold_iterator(transpose_range=(0, 1)):\n  \"\"\"Iterates through pairs of MIDI notes and buttons.\"\"\"\n  maxlen = gold_longest()\n  for transpose in range(*transpose_range):\n    for midi_notes, buttons in _GOLD:\n      midi_notes = [int(x) + transpose for x in midi_notes.split(\",\")]\n      buttons = [int(x) for x in list(buttons)]\n      seqlen = len(midi_notes)\n      assert len(buttons) == len(midi_notes)\n      assert seqlen <= maxlen\n      midi_notes += [21] * (maxlen - seqlen)\n      buttons += [0] * (maxlen - seqlen)\n      yield [midi_notes], [buttons], seqlen",
+  "smell": [
+    {
+      "smell_id": 1,
+      "line_no": 7,
+      "description": "The variable is redefined with an inconsistent type object."
+    }
+  ]
+}

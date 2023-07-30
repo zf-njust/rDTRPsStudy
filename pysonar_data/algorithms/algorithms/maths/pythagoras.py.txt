@@ -1,0 +1,13 @@
+<<pythagoras>> <<6:142-152>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<opposite>> <<6:153-156>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<adjacent>> <<6:163-166>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<hypotenuse>> <<6:173-176>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<opposite>> <<12:339-347>> <<?>> <<VARIABLE>> <<LINK>>
+<<hypotenuse>> <<13:404-414>> <<?>> <<VARIABLE>> <<LINK>>
+<<adjacent>> <<13:422-430>> <<?>> <<VARIABLE>> <<LINK>>
+<<adjacent>> <<14:455-463>> <<?>> <<VARIABLE>> <<LINK>>
+<<hypotenuse>> <<15:520-530>> <<?>> <<VARIABLE>> <<LINK>>
+<<opposite>> <<15:538-546>> <<?>> <<VARIABLE>> <<LINK>>
+<<hypotenuse>> <<16:571-581>> <<?>> <<VARIABLE>> <<LINK>>
+<<opposite>> <<17:640-648>> <<?>> <<VARIABLE>> <<LINK>>
+<<adjacent>> <<17:656-664>> <<?>> <<VARIABLE>> <<LINK>>

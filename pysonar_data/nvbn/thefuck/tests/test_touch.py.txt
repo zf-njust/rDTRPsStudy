@@ -1,0 +1,16 @@
+<<stderr>> <<7:129-135>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_match>> <<12:235-245>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_not_match>> <<22:516-530>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<test_get_new_command>> <<26:581-601>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<stderr>> <<26:602-605>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<27:616-623>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<fixed_command>> <<28:670-683>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<command>> <<22:531-534>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<stderr>> <<12:246-249>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<command>> <<13:260-267>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<stderr>> <<27:657-663>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<28:702-709>> <<?>> <<VARIABLE>> <<LINK>>
+<<fixed_command>> <<29:723-736>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<23:563-570>> <<?>> <<VARIABLE>> <<LINK>>
+<<stderr>> <<14:311-317>> <<?>> <<VARIABLE>> <<LINK>>
+<<command>> <<15:337-344>> <<?>> <<VARIABLE>> <<LINK>>

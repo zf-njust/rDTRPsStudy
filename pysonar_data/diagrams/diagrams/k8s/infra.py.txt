@@ -1,0 +1,12 @@
+<<_Infra>> <<6:102-108>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:121-126>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:142-151>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<ETCD>> <<11:187-191>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:206-211>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Master>> <<15:236-242>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:257-262>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Node>> <<19:289-293>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<20:308-313>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Infra>> <<11:192-198>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Infra>> <<15:243-249>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Infra>> <<19:294-300>> <<type>> <<VARIABLE>> <<LINK>>

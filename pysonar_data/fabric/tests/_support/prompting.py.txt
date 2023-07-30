@@ -1,0 +1,9 @@
+<<fabric>> <<1:5-11>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<expect_connect_kwarg>> <<5:40-60>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<c>> <<5:61-64>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<key>> <<5:64-67>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<val>> <<5:69-72>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<task>> <<1:19-23>> <<function>> <<VARIABLE>> <<LINK>>
+<<c>> <<6:87-88>> <<?>> <<VARIABLE>> <<LINK>>
+<<key>> <<6:111-114>> <<?>> <<VARIABLE>> <<LINK>>
+<<val>> <<6:119-122>> <<?>> <<VARIABLE>> <<LINK>>

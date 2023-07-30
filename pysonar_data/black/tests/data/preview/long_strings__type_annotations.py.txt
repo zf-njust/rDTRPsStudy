@@ -1,0 +1,8 @@
+<<func>> <<1:4-8>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<9:171-175>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<21:463-467>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<34:594-598>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<44:766-770>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<func>> <<56:1060-1064>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<arg1>> <<2:15-18>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<arg2>> <<3:26-29>> <<?>> <<PARAMETER>> <<ANCHOR>>

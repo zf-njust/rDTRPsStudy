@@ -1,0 +1,9 @@
+<<_Baremetal>> <<6:108-118>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_type>> <<7:137-142>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_icon_dir>> <<8:162-171>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Cyborg>> <<11:217-223>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<12:242-247>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<Ironic>> <<15:274-280>> <<type>> <<CLASS>> <<ANCHOR>>
+<<_icon>> <<16:299-304>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<_Baremetal>> <<11:224-234>> <<type>> <<VARIABLE>> <<LINK>>
+<<_Baremetal>> <<15:281-291>> <<type>> <<VARIABLE>> <<LINK>>

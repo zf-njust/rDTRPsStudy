@@ -1,0 +1,11 @@
+<<detectron2>> <<4:84-94>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<config>> <<4:95-101>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<add_tridentnet_config>> <<7:132-153>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<cfg>> <<7:154-157>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<_C>> <<11:215-217>> <<?>> <<VARIABLE>> <<ANCHOR>>
+<<cfg>> <<11:220-223>> <<?>> <<VARIABLE>> <<LINK>>
+<<_C>> <<13:231-233>> <<?>> <<VARIABLE>> <<LINK>>
+<<_C>> <<16:304-306>> <<?>> <<VARIABLE>> <<LINK>>
+<<_C>> <<18:387-389>> <<?>> <<VARIABLE>> <<LINK>>
+<<_C>> <<21:556-558>> <<?>> <<VARIABLE>> <<LINK>>
+<<_C>> <<26:868-870>> <<?>> <<VARIABLE>> <<LINK>>

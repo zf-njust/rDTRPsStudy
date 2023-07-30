@@ -1,0 +1,12 @@
+<<Node>> <<12:296-300>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<13:319-327>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<swap_pairs>> <<17:393-403>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<13:328-331>> <<Node>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<13:334-337>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<val>> <<14:352-355>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<head>> <<17:404-407>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<x>> <<14:358-359>> <<?>> <<VARIABLE>> <<LINK>>
+<<self>> <<14:347-351>> <<Node>> <<VARIABLE>> <<LINK>>
+<<head>> <<18:423-427>> <<?>> <<VARIABLE>> <<LINK>>
+<<head>> <<19:445-449>> <<?>> <<VARIABLE>> <<LINK>>
+<<Node>> <<20:463-467>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,11 @@
+<<__future__>> <<16:691-701>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<17:731-741>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__future__>> <<18:764-774>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<_NP_INCLUDE_DIRS>> <<26:924-940>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ext_modules>> <<30:986-997>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<absolute_import>> <<16:709-724>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<division>> <<17:749-757>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<print_function>> <<18:782-796>> <<_Feature>> <<VARIABLE>> <<LINK>>
+<<_NP_INCLUDE_DIRS>> <<40:1244-1260>> <<?>> <<VARIABLE>> <<LINK>>
+<<_NP_INCLUDE_DIRS>> <<52:1520-1536>> <<?>> <<VARIABLE>> <<LINK>>
+<<ext_modules>> <<60:1647-1658>> <<list>> <<VARIABLE>> <<LINK>>

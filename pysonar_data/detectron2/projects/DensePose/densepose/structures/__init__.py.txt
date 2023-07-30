@@ -1,0 +1,13 @@
+<<chart>> <<3:60-65>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<chart_result>> <<6:272-284>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<cse>> <<13:510-513>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<transform_data>> <<17:682-696>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseChartPredictorOutput>> <<3:73-102>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseChartResult>> <<7:299-319>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseChartResultWithConfidences>> <<8:326-361>> <<type>> <<VARIABLE>> <<LINK>>
+<<quantize_densepose_chart_result>> <<9:368-399>> <<function>> <<VARIABLE>> <<LINK>>
+<<compress_quantized_densepose_chart_result>> <<10:406-447>> <<function>> <<VARIABLE>> <<LINK>>
+<<decompress_compressed_densepose_chart_result>> <<11:454-498>> <<function>> <<VARIABLE>> <<LINK>>
+<<DensePoseEmbeddingPredictorOutput>> <<13:521-554>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseTransformData>> <<17:704-726>> <<type>> <<VARIABLE>> <<LINK>>
+<<normalized_coords_transform>> <<17:728-755>> <<function>> <<VARIABLE>> <<LINK>>

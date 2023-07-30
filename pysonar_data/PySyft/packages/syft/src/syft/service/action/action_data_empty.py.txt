@@ -1,0 +1,10 @@
+<<__future__>> <<2:14-24>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<NoneType>> <<13:265-273>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<ActionDataEmpty>> <<17:311-326>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__canonical_name__>> <<18:344-362>> <<str>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__version__>> <<19:387-398>> <<?>> <<ATTRIBUTE>> <<ANCHOR>>
+<<__repr__>> <<23:483-491>> <<function>> <<METHOD>> <<ANCHOR>>
+<<__str__>> <<26:598-605>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<26:606-609>> <<ActionDataEmpty>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<23:492-495>> <<ActionDataEmpty>> <<PARAMETER>> <<ANCHOR>>
+<<annotations>> <<2:32-43>> <<_Feature>> <<VARIABLE>> <<LINK>>

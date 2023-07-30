@@ -1,0 +1,8 @@
+<<zerver>> <<6:139-145>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<Migration>> <<9:168-177>> <<type>> <<CLASS>> <<ANCHOR>>
+<<dependencies>> <<11:206-218>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<operations>> <<15:286-296>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<zerver>> <<24:825-831>> <<module>> <<VARIABLE>> <<LINK>>
+<<lib>> <<24:832-835>> <<module>> <<VARIABLE>> <<LINK>>
+<<str_utils>> <<24:836-845>> <<module>> <<VARIABLE>> <<LINK>>
+<<ModelReprMixin>> <<24:846-860>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,3 @@
+<<redis_cache>> <<6:147-158>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<__all__>> <<9:179-186>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<RedisCache>> <<6:166-176>> <<type>> <<VARIABLE>> <<LINK>>

@@ -1,0 +1,10 @@
+{
+  "code": "def test_init_queues(self):\\n        app = self.app\\n        c = app.conf\\n        app.amqp.queues = app.amqp.Queues({\\n            'celery': {'exchange': 'celery',\\n                       'routing_key': 'celery'},\\n            'video': {'exchange': 'video',\\n                      'routing_key': 'video'},\\n        })\\n        worker = self.Worker(app=self.app)\\n        worker.setup_queues(['video'])\\n        self.assertIn('video', app.amqp.queues)\\n        self.assertIn('video', app.amqp.queues.consume_from)\\n        self.assertIn('celery', app.amqp.queues)\\n        self.assertNotIn('celery', app.amqp.queues.consume_from)\\n\\n        c.CELERY_CREATE_MISSING_QUEUES = False\\n        del(app.amqp.queues)\\n        with self.assertRaises(ImproperlyConfigured):\\n            self.Worker(app=self.app).setup_queues(['image'])\\n        del(app.amqp.queues)\\n        c.CELERY_CREATE_MISSING_QUEUES = True\\n        worker = self.Worker(app=self.app)\\n        worker.setup_queues(['image'])\\n        self.assertIn('image', app.amqp.queues.consume_from)\\n        self.assertEqual(\\n            Queue('image', Exchange('image'), routing_key='image'),\\n            app.amqp.queues['image'],\\n        )",
+  "smell": [
+    {
+      "smell_id": 5,
+      "line_no": 21,
+      "description": "The attribute is deleted from an object through a dynamically determined name."
+    }
+  ]
+}

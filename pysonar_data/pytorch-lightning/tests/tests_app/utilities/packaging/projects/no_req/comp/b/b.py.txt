@@ -1,0 +1,10 @@
+<<BB>> <<4:51-53>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<5:79-87>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<9:166-169>> <<function>> <<METHOD>> <<ANCHOR>>
+<<self>> <<5:88-91>> <<BB>> <<PARAMETER>> <<ANCHOR>>
+<<work>> <<5:94-97>> <<AA>> <<PARAMETER>> <<ANCHOR>>
+<<work>> <<7:143-147>> <<AA>> <<ATTRIBUTE>> <<ANCHOR>>
+<<self>> <<9:170-173>> <<BB>> <<PARAMETER>> <<ANCHOR>>
+<<work>> <<7:150-154>> <<AA>> <<VARIABLE>> <<LINK>>
+<<self>> <<7:138-142>> <<BB>> <<VARIABLE>> <<LINK>>
+<<self>> <<10:186-190>> <<BB>> <<VARIABLE>> <<LINK>>

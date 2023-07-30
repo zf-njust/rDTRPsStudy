@@ -1,0 +1,10 @@
+{
+  "code": "def _get_sorted_names(self):\n        \"\"\" Return package names sorted in the order as they should be\n        imported due to dependence relations between packages.\n        \"\"\"\n\n        depend_dict = {}\n        for name, info_module in self.info_modules.items():\n            depend_dict[name] = getattr(info_module, 'depends', [])\n        package_names = []\n\n        for name in list(depend_dict.keys()):\n            if not depend_dict[name]:\n                package_names.append(name)\n                del depend_dict[name]\n\n        while depend_dict:\n            for name, lst in list(depend_dict.items()):\n                new_lst = [n for n in lst if n in depend_dict]\n                if not new_lst:\n                    package_names.append(name)\n                    del depend_dict[name]\n                else:\n                    depend_dict[name] = new_lst\n\n        return package_names",
+  "smell": [
+    {
+      "smell_id": 4,
+      "line_no": 14,
+      "description": "The element is deleted from a container by a dynamically determined index."
+    }
+  ]
+}

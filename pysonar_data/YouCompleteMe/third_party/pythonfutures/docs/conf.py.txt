@@ -1,0 +1,14 @@
+<<extensions>> <<25:964-974>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<templates_path>> <<28:1057-1071>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<source_suffix>> <<31:1127-1140>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<master_doc>> <<37:1248-1258>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<project>> <<40:1314-1321>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<copyright>> <<41:1336-1345>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<version>> <<48:1585-1592>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<release>> <<50:1655-1662>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<exclude_trees>> <<67:2213-2226>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<pygments_style>> <<84:2801-2815>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_theme>> <<94:3134-3144>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<html_static_path>> <<123:4247-4263>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<htmlhelp_basename>> <<161:5508-5525>> <<str>> <<SCOPE>> <<ANCHOR>>
+<<latex_documents>> <<174:5919-5934>> <<list>> <<SCOPE>> <<ANCHOR>>

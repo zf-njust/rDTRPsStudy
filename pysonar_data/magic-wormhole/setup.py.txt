@@ -1,0 +1,4 @@
+<<commands>> <<5:53-61>> <<?>> <<SCOPE>> <<ANCHOR>>
+<<trove_classifiers>> <<7:93-110>> <<list>> <<SCOPE>> <<ANCHOR>>
+<<trove_classifiers>> <<30:1027-1044>> <<list>> <<VARIABLE>> <<LINK>>
+<<commands>> <<66:2242-2250>> <<?>> <<VARIABLE>> <<LINK>>

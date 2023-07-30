@@ -1,0 +1,12 @@
+<<HiPlotFlow>> <<6:139-149>> <<type>> <<CLASS>> <<ANCHOR>>
+<<__init__>> <<7:177-185>> <<function>> <<CONSTRUCTOR>> <<ANCHOR>>
+<<run>> <<11:256-259>> <<function>> <<METHOD>> <<ANCHOR>>
+<<configure_layout>> <<14:292-308>> <<function>> <<METHOD>> <<ANCHOR>>
+<<render_fn>> <<18:380-389>> <<function>> <<FUNCTION>> <<ANCHOR>>
+<<self>> <<7:186-189>> <<HiPlotFlow>> <<PARAMETER>> <<ANCHOR>>
+<<data>> <<9:235-239>> <<list>> <<ATTRIBUTE>> <<ANCHOR>>
+<<state>> <<18:390-393>> <<?>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<14:309-312>> <<HiPlotFlow>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<11:260-263>> <<HiPlotFlow>> <<PARAMETER>> <<ANCHOR>>
+<<self>> <<9:230-234>> <<HiPlotFlow>> <<VARIABLE>> <<LINK>>
+<<render_fn>> <<15:360-369>> <<function>> <<VARIABLE>> <<LINK>>

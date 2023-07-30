@@ -1,0 +1,6 @@
+<<densepose_uniform>> <<3:60-77>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<densepose_cse_uniform>> <<5:189-210>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<mask_from_densepose>> <<7:332-351>> <<module>> <<VARIABLE>> <<ANCHOR>>
+<<DensePoseUniformSampler>> <<3:85-108>> <<type>> <<VARIABLE>> <<LINK>>
+<<DensePoseCSEUniformSampler>> <<5:218-244>> <<type>> <<VARIABLE>> <<LINK>>
+<<MaskFromDensePoseSampler>> <<7:359-383>> <<type>> <<VARIABLE>> <<LINK>>
