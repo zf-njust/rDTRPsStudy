@@ -10,9 +10,9 @@ We collected a dataset of 900 code samples, which were labeled as having either
 
 ## Data Processing
 
-To prepare the data for training, we shuffled the dataset and split it into training, validation, and test sets in the 8:1:1 ratio uniformly. Next, we process the code and type smell labels into a format suitable for the large language model to read.
+We shuffled the dataset and split it into training, validation, and test sets in the 8:1:1 ratio uniformly. Next, we process the code and type smell labels into a format suitable for the large language model to read. Each large language model was evaluated on the same test samples.
 
-First, we need a system prompt to instruct the large language model to play a certain role in the dialogue. Here, we use the prompt "Now you are a programming expert with extensive python coding experience." Next, we assemble the code snippets to be detected in markdown format and give the task prompt, which is to detect type smells. In addition, to further improve the model's few-shot learning ability, we provide example code snippets for each type of type smell.
+First, we need a system prompt to instruct the large language model to play a certain role in the dialogue. Here, we use the prompt "Now you are a programming expert with extensive python coding experience." Next, we assemble the code snippets to be detected in markdown format and give the task prompt, which is to detect type smells.
 
 ## Model and Experiment
 
@@ -22,7 +22,7 @@ We treat the type smell detection problem as a 7-class classification task, wher
 
 ## Model1 - ChatGPT
 
-We used the GPT-3.5-turbo-16k-0613 model from OpenAI to detect type smells, which has a maximum context length of 16K. This context length is sufficient to prevent code samples from exceeding the maximum length.
+We used the GPT-3.5-turbo-16k-0613 model from OpenAI to detect type smells, which has a maximum context length of 16K. This context length is sufficient to prevent code samples from exceeding the maximum length. To further improve the model's few-shot learning ability, we provide example code snippets for each type of type smell.
 
 Here is the specific prompt template we used for ChatGPT to detect type smells:
 
